@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  background: #fff7ec;
-  color: #2b1b12;
+  background: #fffbeb;
+  color: #1c1917;
 }
 
 html {
@@ -15,4 +15,26 @@ body {
     Arial,
     Helvetica,
     sans-serif;
+  background: #fffbeb;
+  color: #1c1917;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #fde68a;
+  color: #1c1917;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
 }
