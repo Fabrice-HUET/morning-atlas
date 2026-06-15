@@ -18,7 +18,7 @@ const promises = [
 
 export function EditorialPromise() {
   return (
-    <section className="bg-white py-20">
+    <section className="bg-paper py-20">
       <Container>
         <SectionHeading
           eyebrow="Promesse editoriale"
@@ -27,9 +27,9 @@ export function EditorialPromise() {
         />
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {promises.map((promise) => (
-            <article key={promise.title} className="rounded-lg border border-stone-200 bg-amber-50 p-6">
-              <h3 className="text-xl font-black text-stone-950">{promise.title}</h3>
-              <p className="mt-3 text-sm leading-6 text-stone-700">{promise.text}</p>
+            <article key={promise.title} className="rounded-lg border border-oat bg-cream p-6">
+              <h3 className="text-xl font-black text-espresso">{promise.title}</h3>
+              <p className="mt-3 text-sm leading-6 text-espresso/80">{promise.text}</p>
             </article>
           ))}
         </div>

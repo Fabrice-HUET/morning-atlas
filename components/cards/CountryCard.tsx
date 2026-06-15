@@ -12,17 +12,17 @@ export function CountryCard({ country }: CountryCardProps) {
   return (
     <Link
       href={`/countries/${country.slug}`}
-      className="group grid min-h-72 rounded-lg border border-stone-200 bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-amber-300 hover:shadow-md"
+      className="group grid min-h-72 rounded-lg border border-oat bg-paper p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-toast hover:shadow-md"
     >
       <div className="flex items-start justify-between gap-4">
         <Flag emoji={country.flagEmoji} label={country.country} />
-        <Pill tone={country.needsReview ? 'stone' : 'green'}>{country.needsReview ? 'A verifier' : 'Publie'}</Pill>
+        <Pill tone={country.needsReview ? 'oat' : 'sage'}>{country.needsReview ? 'A verifier' : 'Publie'}</Pill>
       </div>
       <div className="mt-8">
-        <p className="text-sm font-semibold text-amber-700">{country.continent}</p>
-        <h3 className="mt-2 text-xl font-black text-stone-950 group-hover:text-amber-800">{country.country}</h3>
-        <p className="mt-1 text-sm font-semibold text-stone-700">{country.breakfastName}</p>
-        <p className="mt-4 line-clamp-3 text-sm leading-6 text-stone-600">{country.shortDescription}</p>
+        <p className="text-sm font-semibold text-toast">{country.continent}</p>
+        <h3 className="mt-2 text-xl font-black text-espresso group-hover:text-mocha">{country.country}</h3>
+        <p className="mt-1 text-sm font-semibold text-ink">{country.breakfastName}</p>
+        <p className="mt-4 line-clamp-3 text-sm leading-6 text-espresso/75">{country.shortDescription}</p>
       </div>
     </Link>
   )

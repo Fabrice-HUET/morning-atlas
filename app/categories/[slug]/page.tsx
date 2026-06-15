@@ -42,7 +42,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const countries = getCountriesByCategory(category.slug)
 
   return (
-    <main className="bg-amber-50 py-16">
+    <main className="bg-cream py-16">
       <Container>
         <SectionHeading eyebrow="Categorie" title={category.name} description={category.description} />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

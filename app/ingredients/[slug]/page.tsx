@@ -42,10 +42,10 @@ export default async function IngredientPage({ params }: IngredientPageProps) {
   const countries = getCountriesByIngredient(ingredient.slug)
 
   return (
-    <main className="bg-amber-50 py-16">
+    <main className="bg-cream py-16">
       <Container>
         <SectionHeading eyebrow="Ingredient" title={ingredient.name} description={ingredient.description} />
-        <p className="mt-5 inline-flex rounded-full bg-white px-3 py-1 text-sm font-bold text-emerald-800">
+        <p className="mt-5 inline-flex rounded-full bg-sage/25 px-3 py-1 text-sm font-bold text-espresso">
           Type : {ingredient.type}
         </p>
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

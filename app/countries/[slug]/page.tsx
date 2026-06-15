@@ -52,63 +52,63 @@ export default async function CountryPage({ params }: CountryPageProps) {
   const guides = getGuidesForCountry(country.slug)
 
   return (
-    <main className="bg-amber-50 py-16">
+    <main className="bg-cream py-16">
       <Container>
         <article className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <Flag emoji={country.flagEmoji} label={country.country} />
-            <p className="mt-6 text-sm font-bold uppercase tracking-[0.18em] text-amber-800">
+            <p className="mt-6 text-sm font-bold uppercase tracking-[0.18em] text-toast">
               {country.region} · {country.continent}
             </p>
-            <h1 className="mt-4 text-5xl font-black tracking-tight text-stone-950">{country.heroTitle}</h1>
-            <p className="mt-5 text-lg leading-8 text-stone-700">{country.shortDescription}</p>
+            <h1 className="mt-4 text-5xl font-black tracking-tight text-espresso">{country.heroTitle}</h1>
+            <p className="mt-5 text-lg leading-8 text-espresso/80">{country.shortDescription}</p>
           </div>
 
-          <aside className="rounded-lg border border-stone-200 bg-white p-6 shadow-sm">
-            <h2 className="text-2xl font-black text-stone-950">{country.breakfastName}</h2>
-            <p className="mt-3 text-sm leading-6 text-stone-600">{country.breakfastSubtitle}</p>
+          <aside className="rounded-lg border border-oat bg-paper p-6 shadow-sm">
+            <h2 className="text-2xl font-black text-espresso">{country.breakfastName}</h2>
+            <p className="mt-3 text-sm leading-6 text-espresso/75">{country.breakfastSubtitle}</p>
             <dl className="mt-6 grid gap-4 text-sm">
               <div>
-                <dt className="font-bold text-stone-950">Difficulte maison</dt>
-                <dd className="mt-1 text-stone-600">{country.difficultyToRecreate}</dd>
+                <dt className="font-bold text-espresso">Difficulte maison</dt>
+                <dd className="mt-1 text-espresso/75">{country.difficultyToRecreate}</dd>
               </div>
               <div>
-                <dt className="font-bold text-stone-950">Boissons courantes</dt>
-                <dd className="mt-1 text-stone-600">{country.commonDrinks.join(', ')}</dd>
+                <dt className="font-bold text-espresso">Boissons courantes</dt>
+                <dd className="mt-1 text-espresso/75">{country.commonDrinks.join(', ')}</dd>
               </div>
               <div>
-                <dt className="font-bold text-stone-950">Statut editorial</dt>
-                <dd className="mt-1 text-stone-600">{country.needsReview ? 'A verifier' : 'Relu'}</dd>
+                <dt className="font-bold text-espresso">Statut editorial</dt>
+                <dd className="mt-1 text-espresso/75">{country.needsReview ? 'A verifier' : 'Relu'}</dd>
               </div>
             </dl>
           </aside>
         </article>
 
         <section className="mt-12 grid gap-5 lg:grid-cols-3">
-          <div className="rounded-lg border border-stone-200 bg-white p-6">
-            <h2 className="text-xl font-black text-stone-950">Peut inclure</h2>
-            <ul className="mt-4 grid gap-2 text-sm text-stone-700">
+          <div className="rounded-lg border border-oat bg-paper p-6">
+            <h2 className="text-xl font-black text-espresso">Peut inclure</h2>
+            <ul className="mt-4 grid gap-2 text-sm text-espresso/80">
               {country.typicalItems.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
           </div>
-          <div className="rounded-lg border border-stone-200 bg-white p-6">
-            <h2 className="text-xl font-black text-stone-950">Note culturelle</h2>
-            <p className="mt-4 text-sm leading-6 text-stone-700">{country.culturalNote}</p>
+          <div className="rounded-lg border border-oat bg-paper p-6">
+            <h2 className="text-xl font-black text-espresso">Note culturelle</h2>
+            <p className="mt-4 text-sm leading-6 text-espresso/80">{country.culturalNote}</p>
           </div>
-          <div className="rounded-lg border border-stone-200 bg-white p-6">
-            <h2 className="text-xl font-black text-stone-950">Contexte du matin</h2>
-            <p className="mt-4 text-sm leading-6 text-stone-700">{country.morningContext}</p>
+          <div className="rounded-lg border border-oat bg-paper p-6">
+            <h2 className="text-xl font-black text-espresso">Contexte du matin</h2>
+            <p className="mt-4 text-sm leading-6 text-espresso/80">{country.morningContext}</p>
           </div>
         </section>
 
         <section className="mt-12 grid gap-8 lg:grid-cols-2">
           <div>
-            <h2 className="text-2xl font-black text-stone-950">Taxonomies</h2>
+            <h2 className="text-2xl font-black text-espresso">Taxonomies</h2>
             <div className="mt-5 flex flex-wrap gap-2">
               {categories.map((category) => (
-                <span key={category.slug} className="rounded-full bg-white px-3 py-1 text-sm font-semibold text-stone-700">
+                <span key={category.slug} className="rounded-full bg-paper px-3 py-1 text-sm font-semibold text-espresso">
                   {category.name}
                 </span>
               ))}
@@ -118,10 +118,10 @@ export default async function CountryPage({ params }: CountryPageProps) {
             </div>
           </div>
           <div>
-            <h2 className="text-2xl font-black text-stone-950">Ingredients lies</h2>
+            <h2 className="text-2xl font-black text-espresso">Ingredients lies</h2>
             <div className="mt-5 flex flex-wrap gap-2">
               {ingredients.map((ingredient) => (
-                <span key={ingredient.slug} className="rounded-full bg-white px-3 py-1 text-sm font-semibold text-stone-700">
+                <span key={ingredient.slug} className="rounded-full bg-paper px-3 py-1 text-sm font-semibold text-espresso">
                   {ingredient.name}
                 </span>
               ))}
@@ -131,7 +131,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
 
         {recipes.length > 0 ? (
           <section className="mt-12">
-            <h2 className="text-2xl font-black text-stone-950">Recettes associees</h2>
+            <h2 className="text-2xl font-black text-espresso">Recettes associees</h2>
             <div className="mt-5 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {recipes.map((recipe) => (
                 <RecipeCard key={recipe.slug} recipe={recipe} />
@@ -141,11 +141,11 @@ export default async function CountryPage({ params }: CountryPageProps) {
         ) : null}
 
         {guides.length > 0 ? (
-          <section className="mt-12 rounded-lg border border-stone-200 bg-white p-6">
-            <h2 className="text-2xl font-black text-stone-950">Guides associes</h2>
+          <section className="mt-12 rounded-lg border border-oat bg-paper p-6">
+            <h2 className="text-2xl font-black text-espresso">Guides associes</h2>
             <div className="mt-4 grid gap-3">
               {guides.map((guide) => (
-                <p key={guide.slug} className="text-sm leading-6 text-stone-700">
+                <p key={guide.slug} className="text-sm leading-6 text-espresso/80">
                   {guide.title} · {guide.excerpt}
                 </p>
               ))}

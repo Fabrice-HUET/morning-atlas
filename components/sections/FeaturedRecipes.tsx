@@ -8,7 +8,7 @@ export function FeaturedRecipes() {
   const featuredRecipes = getFeaturedRecipes()
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-paper py-20">
       <Container>
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <SectionHeading

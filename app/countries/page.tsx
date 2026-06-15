@@ -14,7 +14,7 @@ export default function CountriesPage() {
   const continents = Array.from(new Set(countries.map((country) => country.continent)))
 
   return (
-    <main className="bg-amber-50 py-16">
+    <main className="bg-cream py-16">
       <Container>
         <SectionHeading
           eyebrow="Pays"
@@ -27,7 +27,7 @@ export default function CountriesPage() {
 
             return (
               <section key={continent}>
-                <h2 className="text-2xl font-black text-stone-950">{continent}</h2>
+                <h2 className="text-2xl font-black text-espresso">{continent}</h2>
                 <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                   {continentCountries.map((country) => (
                     <CountryCard key={country.slug} country={country} />

@@ -9,7 +9,7 @@ export function FeaturedCategories() {
   const featuredCategories = categories.filter((category) => featuredCategorySlugs.includes(category.slug))
 
   return (
-    <section className="bg-amber-50 py-20">
+    <section className="bg-cream py-20">
       <Container>
         <SectionHeading
           eyebrow="Categories"

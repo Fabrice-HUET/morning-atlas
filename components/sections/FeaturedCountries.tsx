@@ -8,7 +8,7 @@ export function FeaturedCountries() {
   const featuredCountries = getFeaturedCountries()
 
   return (
-    <section id="explorer" className="bg-amber-50 py-20">
+    <section id="explorer" className="bg-cream py-20">
       <Container>
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <SectionHeading

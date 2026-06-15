@@ -1,8 +1,31 @@
 @import "tailwindcss";
 
+@theme {
+  --color-mocha: #a47864;
+  --color-cream: #fff6ea;
+  --color-oat: #e8d8c3;
+  --color-toast: #c9895b;
+  --color-espresso: #3a241c;
+  --color-honey: #e7a93b;
+  --color-sage: #8fae8b;
+  --color-berry: #b95c50;
+  --color-paper: #fffdf8;
+  --color-ink: #261812;
+}
+
 :root {
-  background: #fffbeb;
-  color: #1c1917;
+  --ma-mocha: #a47864;
+  --ma-cream: #fff6ea;
+  --ma-oat: #e8d8c3;
+  --ma-toast: #c9895b;
+  --ma-espresso: #3a241c;
+  --ma-honey: #e7a93b;
+  --ma-sage: #8fae8b;
+  --ma-berry: #b95c50;
+  --ma-paper: #fffdf8;
+  --ma-ink: #261812;
+  background: var(--ma-cream);
+  color: var(--ma-ink);
 }
 
 html {
@@ -15,8 +38,10 @@ body {
     Arial,
     Helvetica,
     sans-serif;
-  background: #fffbeb;
-  color: #1c1917;
+  background:
+    radial-gradient(circle at top left, rgba(231, 169, 59, 0.14), transparent 30rem),
+    linear-gradient(180deg, var(--ma-cream) 0%, #fffaf2 46%, var(--ma-oat) 160%);
+  color: var(--ma-ink);
   text-rendering: optimizeLegibility;
 }
 
@@ -25,8 +50,8 @@ body {
 }
 
 ::selection {
-  background: #fde68a;
-  color: #1c1917;
+  background: var(--ma-honey);
+  color: var(--ma-espresso);
 }
 
 a {

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function RecipesPage() {
   return (
-    <main className="bg-amber-50 py-16">
+    <main className="bg-cream py-16">
       <Container>
         <SectionHeading
           eyebrow="Recettes"
