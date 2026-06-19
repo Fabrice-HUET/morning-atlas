@@ -2,21 +2,21 @@
 
 ## Vision
 
-Morning Atlas est un atlas editorial des petits-dejeuners du monde : fiches pays, recettes simples, ingredients, categories et guides doivent former un catalogue clair, sourcé et maintenable.
+Morning Atlas est un atlas éditorial des petits-déjeuners du monde : fiches pays, recettes simples, ingrédients, catégories et guides doivent former un catalogue clair, sourcé et maintenable.
 
-## Etat actuel
+## État actuel
 
-- Application Next.js / TypeScript fonctionnelle avec routes statiques pour pays, recettes, categories, ingredients et guides.
-- 18 lots de fiches breakfast intégrés dans les données du projet.
-- Système d'affichage des images breakfast préparé autour du slug recette.
-- Images générées à ajouter dans `public/images/breakfasts/` au format `{slug}.webp`.
+- Application Next.js / TypeScript fonctionnelle, avec routes statiques pour les pays, recettes, catégories, ingrédients et guides.
+- 18 lots de fiches de petits-déjeuners intégrés dans les données du projet.
+- Le système d'affichage des images est préparé : chaque visuel doit être associé au slug de la recette correspondante.
+- Images générées à ajouter dans `public/images/breakfasts/`, au format `{slug}.webp`.
 - Suivi projet, roadmap, journal de bord, tracker éditorial et changelog en cours de structuration.
 
 ## Phases du projet
 
 1. Fondation applicative : routes, composants, types, taxonomies et données initiales.
-2. Fondation éditoriale : intégration des lots de fiches breakfast, recettes, pays et sources.
-3. Fondation visuelle : génération, ajout et affichage des images locales des breakfasts.
+2. Fondation éditoriale : intégration des lots de fiches, recettes, pays et sources.
+3. Fondation visuelle : génération, ajout et affichage des images locales des petits-déjeuners.
 4. Relecture éditoriale : vérification des sources, nuances culturelles, SEO et cohérence taxonomique.
 5. Pré-publication : tests visuels, responsive, performances, accessibilité et corrections ciblées.
 6. Publication : mise en ligne, suivi des plateformes et notes de version.
@@ -25,15 +25,15 @@ Morning Atlas est un atlas editorial des petits-dejeuners du monde : fiches pays
 
 - Ajouter les images `.webp` générées dans `public/images/breakfasts/`.
 - Vérifier que chaque image suit exactement le slug de recette.
-- Tester visuellement les pages liste et détail après ajout des images locales.
+- Tester visuellement les pages de liste et de détail après ajout des images locales.
 - Prioriser les fiches `needsReview: true` pour relecture.
 - Compléter le champ `lot` dans `docs/CONTENT_TRACKER.md` si les lots éditoriaux doivent être tracés finement.
 
 ## Backlog court terme
 
 - Compléter les images locales manquantes.
-- Passer les fiches principales de `TODO visuel` à testé après contrôle navigateur.
-- Vérifier les alt texts, ratios et cadrages des images sur mobile et desktop.
+- Passer les fiches principales de `TODO visuel` à `testé` après contrôle navigateur.
+- Vérifier les textes alternatifs, ratios et cadrages des images sur mobile et desktop.
 - Ajouter les commits réels aux entrées futures de `docs/PROJECT_LOG.md`.
 - Identifier les fiches prêtes pour publication selon image locale, SEO, sources et relecture.
 

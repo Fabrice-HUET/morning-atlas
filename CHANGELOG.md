@@ -9,7 +9,7 @@ Format inspiré de Keep a Changelog.
 ### Added
 
 - Documents de suivi projet : roadmap, journal de bord et tracker éditorial.
-- Suivi des images breakfast locales attendues dans `public/images/breakfasts/`.
+- Suivi des images locales de petits-déjeuners attendues dans `public/images/breakfasts/`.
 
 ### Changed
 
@@ -23,7 +23,7 @@ Format inspiré de Keep a Changelog.
 
 - Ajouter les images `.webp` générées et vérifier leur correspondance avec les slugs de recettes.
 - Compléter les lots éditoriaux dans `docs/CONTENT_TRACKER.md`.
-- Tester visuellement les pages liste et détail après ajout des images.
+- Tester visuellement les pages de liste et de détail après ajout des images.
 - Réduire progressivement les fiches `needsReview: true`.
 
 ## 0.1.0 - Initial content foundation
@@ -32,5 +32,5 @@ Format inspiré de Keep a Changelog.
 
 - Fondation Next.js / TypeScript du projet Morning Atlas.
 - Routes principales pour home, pays, recettes, catégories, ingrédients et guides.
-- Données éditoriales initiales pour les fiches breakfast.
+- Données éditoriales initiales pour les fiches de petits-déjeuners.
 - Types et helpers de contenu pour structurer le catalogue.

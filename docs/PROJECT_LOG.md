@@ -1,6 +1,6 @@
 # Journal de bord Morning Atlas
 
-## Format d'entree
+## Format d'entrée
 
 - Date : `YYYY-MM-DD`
 - Branche : nom de branche Git
@@ -18,7 +18,7 @@
 - Branche : `main`
 - Commit : `3d98d41`
 - Type de tâche : contenu, images, documentation, suivi projet
-- Résumé : intégration des 18 lots éditoriaux, génération des images breakfast, préparation de l'affichage des images locales avec fallback, puis mise en place des documents de suivi projet.
+- Résumé : intégration des 18 lots éditoriaux, génération des images de petits-déjeuners, préparation de l'affichage des images locales avec fallback, puis mise en place des documents de suivi projet.
 - Fichiers modifiés :
   - `data/`
   - `types/`
@@ -31,7 +31,7 @@
   - `docs/CONTENT_TRACKER.md`
   - `CHANGELOG.md`
 - Décisions prises :
-  - Les images breakfast locales suivent le chemin `public/images/breakfasts/{recipe.slug}.webp`.
+  - Les images locales de petits-déjeuners suivent le chemin `public/images/breakfasts/{recipe.slug}.webp`.
   - Le fallback externe reste limité à `https://picsum.photos/seed/**`.
   - Le suivi éditorial est documenté en Markdown pour rester simple et versionnable.
   - Le champ `lot` reste `TODO` tant que les lots éditoriaux ne sont pas codés dans les données.
