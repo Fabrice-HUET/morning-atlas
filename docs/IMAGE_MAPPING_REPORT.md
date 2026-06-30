@@ -85,6 +85,6 @@ Aucun slug sans image locale. Les 53 slugs de recettes disposent maintenant d’
 
 ## Prochaines actions recommandées
 
-1. Tester visuellement les pages pays, recettes et cartes avec les fichiers `.webp`.
-2. Vérifier le rendu mobile et desktop des images converties.
-3. Garder le suivi `Image affichée` à `Oui via BreakfastImage` après contrôle navigateur.
+1. Garder la convention `/images/breakfasts/{slug}.webp` pour les prochains visuels.
+2. Effectuer un dernier contrôle navigateur manuel si une validation humaine du rendu mobile/desktop est souhaitée.
+3. Ajouter tout nouveau visuel directement avec son slug de recette.

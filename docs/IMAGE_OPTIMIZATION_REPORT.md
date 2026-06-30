@@ -50,9 +50,21 @@ Aucune anomalie détectée :
 - aucun doublon de slug ;
 - aucun PNG restant dans `public/images/breakfasts/`.
 
+## Contrôle d’affichage local
+
+- Serveur local vérifié sur `http://127.0.0.1:3001`.
+- Pages statiques vérifiées : `/`, `/countries`, `/recipes`, `/guides`, `/about`.
+- Pages détail pays vérifiées : 53 / 53.
+- Pages détail recettes vérifiées : 53 / 53.
+- Images WebP servies directement : 53 / 53.
+- Les pages pays et recettes contiennent bien des références aux fichiers `/images/breakfasts/{slug}.webp`.
+- Les balises image contrôlées contiennent des attributs `alt` non vides.
+- Le cadrage `object-cover` en ratio `4/3` a été contrôlé via une planche locale de prévisualisation.
+- Le fallback reste disponible via `BreakfastImage` et `picsum.photos` si une image locale venait à manquer.
+- `pnpm lint`, `pnpm typecheck` et `pnpm build` passent après conversion.
+
 ## Prochaines actions recommandées
 
-1. Tester visuellement les pages pays, recettes et cartes avec les WebP.
-2. Vérifier le rendu responsive et les cadrages après conversion.
-3. Lancer un build Next.js pour confirmer que les images sont prises en charge par `next/image`.
-4. Mettre à jour le suivi éditorial après test navigateur si nécessaire.
+1. Effectuer un dernier contrôle navigateur manuel si une validation humaine du rendu mobile/desktop est souhaitée.
+2. Surveiller les cadrages lors de futures modifications de ratio ou de layout.
+3. Garder la convention `/images/breakfasts/{slug}.webp` pour les prochains visuels.
