@@ -6,6 +6,7 @@ import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 import { categories } from '@/data/categories'
 import { getCategoryBySlug, getCountriesByCategory } from '@/lib/content-helpers'
+import { buildPageMetadata } from '@/lib/seo'
 
 type CategoryPageProps = {
   params: Promise<{ slug: string }>
@@ -21,14 +22,15 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 
   if (!category) {
     return {
-      title: 'Categorie introuvable - Morning Atlas',
+      title: 'Catégorie introuvable — Morning Atlas',
     }
   }
 
-  return {
-    title: `${category.name} - Morning Atlas`,
+  return buildPageMetadata({
+    title: `${category.name} — Morning Atlas`,
     description: category.description,
-  }
+    path: `/categories/${category.slug}`,
+  })
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
@@ -44,7 +46,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   return (
     <main className="bg-cream py-16">
       <Container>
-        <SectionHeading eyebrow="Categorie" title={category.name} description={category.description} />
+        <SectionHeading level={1} eyebrow="Catégorie" title={category.name} description={category.description} />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {countries.map((country) => (
             <CountryCard key={country.slug} country={country} />

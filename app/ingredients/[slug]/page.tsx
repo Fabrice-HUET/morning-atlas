@@ -6,6 +6,7 @@ import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 import { ingredients } from '@/data/ingredients'
 import { getCountriesByIngredient, getIngredientBySlug } from '@/lib/content-helpers'
+import { buildPageMetadata } from '@/lib/seo'
 
 type IngredientPageProps = {
   params: Promise<{ slug: string }>
@@ -21,14 +22,15 @@ export async function generateMetadata({ params }: IngredientPageProps): Promise
 
   if (!ingredient) {
     return {
-      title: 'Ingredient introuvable - Morning Atlas',
+      title: 'Ingrédient introuvable — Morning Atlas',
     }
   }
 
-  return {
-    title: `${ingredient.name} - Morning Atlas`,
+  return buildPageMetadata({
+    title: `${ingredient.name} — Morning Atlas`,
     description: ingredient.description,
-  }
+    path: `/ingredients/${ingredient.slug}`,
+  })
 }
 
 export default async function IngredientPage({ params }: IngredientPageProps) {
@@ -44,7 +46,7 @@ export default async function IngredientPage({ params }: IngredientPageProps) {
   return (
     <main className="bg-cream py-16">
       <Container>
-        <SectionHeading eyebrow="Ingredient" title={ingredient.name} description={ingredient.description} />
+        <SectionHeading level={1} eyebrow="Ingrédient" title={ingredient.name} description={ingredient.description} />
         <p className="mt-5 inline-flex rounded-full bg-sage/25 px-3 py-1 text-sm font-bold text-espresso">
           Type : {ingredient.type}
         </p>

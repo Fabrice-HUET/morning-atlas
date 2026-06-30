@@ -14,6 +14,7 @@ import {
   getIngredientsBySlugs,
   getRecipesBySlugs,
 } from '@/lib/content-helpers'
+import { breakfastImageUrl, buildPageMetadata } from '@/lib/seo'
 
 type CountryPageProps = {
   params: Promise<{ slug: string }>
@@ -29,14 +30,19 @@ export async function generateMetadata({ params }: CountryPageProps): Promise<Me
 
   if (!country) {
     return {
-      title: 'Pays introuvable - Morning Atlas',
+      title: 'Pays introuvable — Morning Atlas',
     }
   }
 
-  return {
+  const imageSlug = country.recipeSlugs[0]
+
+  return buildPageMetadata({
     title: country.seoTitle,
     description: country.seoDescription,
-  }
+    path: `/countries/${country.slug}`,
+    type: 'article',
+    image: imageSlug ? breakfastImageUrl(imageSlug) : undefined,
+  })
 }
 
 export default async function CountryPage({ params }: CountryPageProps) {

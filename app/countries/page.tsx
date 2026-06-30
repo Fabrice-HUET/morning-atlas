@@ -4,11 +4,13 @@ import { CountryCard } from '@/components/cards/CountryCard'
 import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 import { countries } from '@/data/countries'
+import { buildPageMetadata } from '@/lib/seo'
 
-export const metadata: Metadata = {
-  title: 'Pays - Morning Atlas',
-  description: 'Explorer les petits-dejeuners du monde par pays et regions.',
-}
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Pays — Morning Atlas',
+  description: 'Explorer les petits-déjeuners du monde par pays et régions.',
+  path: '/countries',
+})
 
 export default function CountriesPage() {
   const continents = Array.from(new Set(countries.map((country) => country.continent)))
@@ -17,9 +19,10 @@ export default function CountriesPage() {
     <main className="bg-cream py-16">
       <Container>
         <SectionHeading
+          level={1}
           eyebrow="Pays"
-          title="Explorer les petits-dejeuners du monde"
-          description="Une base de depart pour construire des fiches pays plus completes, reliees aux recettes, ingredients, categories et guides."
+          title="Explorer les petits-déjeuners du monde"
+          description="Une base de départ pour construire des fiches pays plus complètes, reliées aux recettes, ingrédients, catégories et guides."
         />
         <div className="mt-10 grid gap-10">
           {continents.map((continent) => {

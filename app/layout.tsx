@@ -2,19 +2,25 @@ import type { Metadata } from 'next'
 
 import { Footer } from '@/components/layout/Footer'
 import { Navbar } from '@/components/layout/Navbar'
+import { DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/seo'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://morning-atlas.fr'),
+  metadataBase: new URL(SITE_URL),
   title: 'Morning Atlas — Petits-déjeuners du monde',
-  description: 'Découvrir le monde à travers les petits-déjeuners.',
+  description: DEFAULT_DESCRIPTION,
   openGraph: {
-    title: 'Morning Atlas',
-    description: 'Découvrir le monde à travers les petits-déjeuners.',
-    url: 'https://morning-atlas.fr',
-    siteName: 'Morning Atlas',
+    title: SITE_NAME,
+    description: DEFAULT_DESCRIPTION,
+    url: SITE_URL,
+    siteName: SITE_NAME,
     locale: 'fr_FR',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: SITE_NAME,
+    description: DEFAULT_DESCRIPTION,
   },
 }
 

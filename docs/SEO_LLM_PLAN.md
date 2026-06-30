@@ -4,11 +4,20 @@
 
 Morning Atlas dispose déjà d’un socle éditorial solide : routes App Router statiques, slugs propres, contenus textuels en dur, fiches pays et recettes reliées, champs SEO présents dans les données et page À propos existante.
 
-Le site n’est toutefois pas encore prêt pour une publication SEO ambitieuse. Les priorités sont techniques et éditoriales : ajouter `robots.txt` et `sitemap.xml`, compléter les métadonnées par type de page, rendre les sources visibles, corriger les pages sans H1, ajouter les images locales, renforcer le maillage interne et introduire des données structurées cohérentes avec le contenu visible.
+Le site a désormais un socle SEO technique P0 : `robots.txt`, `sitemap.xml`, canonicals, métadonnées par type de page, Open Graph, Twitter cards, images locales et H1 dédiés sur les pages publiques ciblées. Les priorités restantes sont surtout éditoriales et sémantiques : rendre les sources visibles, renforcer le maillage interne, relire les fiches `needsReview` et introduire des données structurées cohérentes avec le contenu visible.
 
 Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccourci spécifique fiable. Le socle à renforcer reste le même : pages crawlables, indexables, utiles, sourcées, structurées, avec des réponses claires et des liens internes explicites.
 
 ## État actuel
+
+### Mise à jour 2026-06-30 — socle SEO P0
+
+- `app/robots.ts` et `app/sitemap.ts` sont en place pour le domaine `https://morning-atlas.fr`.
+- Le sitemap est généré depuis les données locales et couvre l’accueil, les pages statiques publiques, les pays, les recettes, les catégories et les ingrédients.
+- Les pages indexables disposent de canonicals explicites via `alternates.canonical`.
+- Les métadonnées incluent désormais Open Graph et Twitter cards, avec image sociale locale pour les pages recettes et les pages pays quand une recette associée existe.
+- Les pages `/countries`, `/recipes`, `/guides`, `/about`, `/categories/{slug}` et `/ingredients/{slug}` disposent d’un H1 dédié via `SectionHeading`.
+- Les données structurées JSON-LD restent volontairement hors périmètre de cette étape.
 
 ### SEO technique Next.js
 
@@ -23,17 +32,17 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Les URLs sont propres et stables : `/countries/{slug}`, `/recipes/{slug}`, `/categories/{slug}`, `/ingredients/{slug}`.
 - `generateStaticParams` existe pour les quatre familles dynamiques.
 - `app/favicon.ico` existe.
-- Aucun `app/sitemap.ts`, `app/sitemap.xml`, `app/robots.ts` ou `app/robots.txt` détecté.
-- Aucune canonical explicite via `alternates.canonical` détectée.
-- Open Graph existe globalement, mais pas encore de variantes dynamiques par fiche.
-- Aucune Twitter card détectée.
+- `app/sitemap.ts` et `app/robots.ts` existent.
+- Les canonicals explicites sont définis via `alternates.canonical`.
+- Open Graph existe globalement et par type de page principale.
+- Les Twitter cards sont définies globalement et par page.
 - Aucune donnée structurée JSON-LD détectée.
 
 ### Structure des pages
 
 - La page d’accueil possède un H1 via `components/sections/HeroSection.tsx`.
 - Les pages pays et recettes dynamiques possèdent un H1.
-- Plusieurs pages utilisent `SectionHeading`, qui rend actuellement un H2 : `/countries`, `/recipes`, `/guides`, `/about`, `/categories/{slug}` et `/ingredients/{slug}` n’ont donc pas de H1 dédié.
+- `SectionHeading` peut maintenant rendre un H1 ou un H2 selon le contexte ; les pages `/countries`, `/recipes`, `/guides`, `/about`, `/categories/{slug}` et `/ingredients/{slug}` ont un H1 dédié.
 - Le contenu principal est textuel et lisible sans dépendre uniquement des images.
 - Le maillage existe, mais reste incomplet :
   - navigation globale vers accueil, pays, recettes, guides, à propos ;
@@ -59,7 +68,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 ### SEO images
 
 - Le composant `BreakfastImage` cherche les images locales dans `/images/breakfasts/{slug}.webp`.
-- Aucun fichier `.webp` local n’est actuellement présent dans `public/images/breakfasts/`.
+- Les 53 images breakfast WebP locales sont présentes dans `public/images/breakfasts/`.
 - Le fallback externe utilise `https://picsum.photos/seed/{slug}/1200/900`.
 - Les images utilisent `next/image`, un ratio visuel `4/3` et des attributs `alt`.
 - Les textes alternatifs sont présents, mais certains libellés méritent une correction typographique avant publication.
@@ -67,25 +76,18 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 ## Risques SEO principaux
 
-- Absence de `sitemap.xml` : découverte moins maîtrisée des nombreuses routes statiques.
-- Absence de `robots.txt` : pas de signal explicite de crawl ni de lien vers le sitemap.
-- Absence de canonical explicite : risque limité aujourd’hui, mais à corriger avant ouverture publique.
-- Pages statiques et taxonomiques sans H1 : structure sémantique perfectible.
-- Open Graph uniquement global : les partages de fiches pays ou recettes ne sont pas optimisés.
-- Absence de Twitter cards.
-- Absence totale de données structurées, alors que le site se prête bien à `Recipe`, `BreadcrumbList`, `ItemList`, `WebSite`, `Organization` et `WebPage`.
-- Images locales absentes : les fiches affichent un fallback générique, ce qui limite la cohérence SEO images.
-- Sources non visibles : le contenu est moins crédible pour Google, les lecteurs et les moteurs IA.
+- Les pages guides individuelles n’existent pas encore : le potentiel de requêtes informationnelles longues reste sous-exploité.
+- Les pages catégories et ingrédients restent assez fines si elles ne sont pas enrichies avec plus de contexte éditorial.
+- Les sources ne sont pas encore visibles sur les pages publiques, ce qui limite la confiance éditoriale.
 - Toutes les fiches sont encore marquées `needsReview: true`, donc le site ne devrait pas traiter ces contenus comme pleinement publiés.
-- Pages catégories et ingrédients potentiellement trop fines si elles restent de simples listes sans texte introductif enrichi.
-- Guides non individualisés : potentiel éditorial et maillage interne sous-exploité.
+- Il manque encore une image sociale par défaut dédiée pour les pages sans visuel de recette.
+- Absence totale de données structurées, alors que le site se prête bien à `Recipe`, `BreadcrumbList`, `ItemList`, `WebSite`, `Organization` et `WebPage`.
 
 ## Opportunités SEO principales
 
-- Créer un sitemap généré depuis les données locales : pays, recettes, catégories, ingrédients, guides, pages statiques.
-- Ajouter un `robots.txt` simple avec `Allow: /` et le lien vers le sitemap.
-- Ajouter des canonicals explicites via la Metadata API de Next.js.
-- Produire des métadonnées dynamiques complètes par fiche : title, description, canonical, Open Graph, Twitter card et image.
+- Maintenir le sitemap généré depuis les données locales : pays, recettes, catégories, ingrédients et pages statiques.
+- Garder les canonicals et métadonnées dynamiques alignés avec les routes réellement indexables.
+- Ajouter une image sociale par défaut dédiée pour les pages sans visuel de recette.
 - Afficher les sources en bas des fiches pays et recettes.
 - Ajouter des données structurées alignées avec le contenu visible.
 - Transformer les libellés de catégories, ingrédients et guides associés en liens internes.
@@ -96,12 +98,12 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 ## Checklist technique
 
-- [ ] Ajouter `app/robots.ts` ou `app/robots.txt`.
-- [ ] Ajouter `app/sitemap.ts` avec toutes les URLs indexables.
-- [ ] Définir les canonicals via `alternates.canonical`.
-- [ ] Ajouter une stratégie Open Graph par type de page.
-- [ ] Ajouter les Twitter cards.
-- [ ] Vérifier que toutes les pages publiques indexables ont un H1 unique.
+- [x] Ajouter `app/robots.ts` ou `app/robots.txt`.
+- [x] Ajouter `app/sitemap.ts` avec toutes les URLs indexables.
+- [x] Définir les canonicals via `alternates.canonical`.
+- [x] Ajouter une stratégie Open Graph par type de page.
+- [x] Ajouter les Twitter cards.
+- [x] Vérifier que toutes les pages publiques indexables ont un H1 unique.
 - [ ] Vérifier que les pages non publiques ou documents internes ne sont pas exposés involontairement.
 - [ ] Vérifier les statuts HTTP des pages introuvables via `notFound()`.
 - [ ] Vérifier le rendu HTML serveur des contenus principaux.
@@ -123,14 +125,14 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 ## Checklist images
 
-- [ ] Créer `public/images/breakfasts/`.
-- [ ] Ajouter les images locales au format `{slug}.webp`.
-- [ ] Vérifier que chaque slug de recette correspond à une image.
+- [x] Créer `public/images/breakfasts/`.
+- [x] Ajouter les images locales au format `{slug}.webp`.
+- [x] Vérifier que chaque slug de recette correspond à une image.
 - [ ] Éviter les images génériques ou culturellement incohérentes.
 - [ ] Corriger les `alt` pour utiliser une typographie française propre.
 - [ ] Vérifier le ratio `4/3` sur mobile, tablette et desktop.
 - [ ] Éviter de publier durablement avec `picsum.photos` comme fallback visible.
-- [ ] Ajouter les images principales dans les métadonnées Open Graph.
+- [x] Ajouter les images principales dans les métadonnées Open Graph.
 - [ ] Ajouter les images dans les données structurées `Recipe` et `WebPage` quand elles existent.
 - [ ] Envisager un sitemap image après stabilisation des visuels.
 
@@ -149,14 +151,11 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 ## Plan d’action court terme
 
-1. Ajouter `robots.txt` et `sitemap.xml` via les conventions Next.js.
-2. Ajouter les canonicals pour toutes les routes indexables.
-3. Corriger la structure H1 des pages statiques et taxonomiques.
-4. Ajouter les images locales `.webp` et réduire la dépendance au fallback externe.
-5. Rendre les sources visibles sur les fiches pays et recettes.
-6. Ajouter les liens internes manquants vers catégories, ingrédients et guides.
-7. Corriger les titles, descriptions et textes alternatifs non accentués.
-8. Définir quelles fiches peuvent passer de `needsReview: true` à un statut publiable.
+1. Rendre les sources visibles sur les fiches pays et recettes.
+2. Ajouter les liens internes manquants vers catégories, ingrédients et guides.
+3. Corriger les titles, descriptions et textes alternatifs non accentués dans les données.
+4. Définir quelles fiches peuvent passer de `needsReview: true` à un statut publiable.
+5. Ajouter une image sociale par défaut cohérente pour les pages sans visuel de recette.
 
 ## Plan d’action moyen terme
 
@@ -173,11 +172,11 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 ### P0 — Pré-publication
 
-- Ajouter `robots.txt`.
-- Ajouter `sitemap.xml`.
-- Ajouter les canonicals.
-- Corriger les pages sans H1.
-- Ajouter les images locales ou empêcher la publication de fiches dont l’image reste incohérente.
+- Ajouter `robots.txt`. Fait le 2026-06-30.
+- Ajouter `sitemap.xml`. Fait le 2026-06-30.
+- Ajouter les canonicals. Fait le 2026-06-30.
+- Corriger les pages sans H1. Fait le 2026-06-30.
+- Ajouter les images locales ou empêcher la publication de fiches dont l’image reste incohérente. Fait le 2026-06-30.
 - Rendre les sources visibles pour les contenus publiés.
 - Identifier les fiches réellement prêtes malgré `needsReview`.
 

@@ -7,6 +7,7 @@ import { BreakfastImage } from '@/components/images/BreakfastImage'
 import { Container } from '@/components/layout/Container'
 import { recipes } from '@/data/recipes'
 import { getCountriesBySlugs, getRecipeBySlug } from '@/lib/content-helpers'
+import { breakfastImageUrl, buildPageMetadata } from '@/lib/seo'
 
 type RecipePageProps = {
   params: Promise<{ slug: string }>
@@ -22,14 +23,17 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 
   if (!recipe) {
     return {
-      title: 'Recette introuvable - Morning Atlas',
+      title: 'Recette introuvable — Morning Atlas',
     }
   }
 
-  return {
-    title: `${recipe.title} - Morning Atlas`,
+  return buildPageMetadata({
+    title: `${recipe.title} — Morning Atlas`,
     description: recipe.shortDescription,
-  }
+    path: `/recipes/${recipe.slug}`,
+    type: 'article',
+    image: breakfastImageUrl(recipe.slug),
+  })
 }
 
 export default async function RecipePage({ params }: RecipePageProps) {

@@ -5,20 +5,23 @@ import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 import { guides } from '@/data/guides'
 import { getCountriesBySlugs } from '@/lib/content-helpers'
+import { buildPageMetadata } from '@/lib/seo'
 
-export const metadata: Metadata = {
-  title: 'Guides - Morning Atlas',
-  description: 'Guides et comparatifs autour des petits-dejeuners du monde.',
-}
+export const metadata: Metadata = buildPageMetadata({
+  title: 'Guides — Morning Atlas',
+  description: 'Guides et comparatifs autour des petits-déjeuners du monde.',
+  path: '/guides',
+})
 
 export default function GuidesPage() {
   return (
     <main className="bg-cream py-16">
       <Container>
         <SectionHeading
+          level={1}
           eyebrow="Guides"
-          title="Guides et comparatifs a venir"
-          description="Des parcours editoriaux pour comparer les styles de petits-dejeuners, les boissons, les ingredients et les habitudes."
+          title="Guides et comparatifs à venir"
+          description="Des parcours éditoriaux pour comparer les styles de petits-déjeuners, les boissons, les ingrédients et les habitudes."
         />
         <div className="mt-10 grid gap-5 lg:grid-cols-3">
           {guides.map((guide) => {
