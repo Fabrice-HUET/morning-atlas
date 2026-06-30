@@ -12,6 +12,31 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-06-30 — Sources visibles sur les fiches pays et recettes
+
+- Date : `2026-06-30`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO, éditorial, technique, documentation
+- Résumé : affichage public des sources éditoriales en bas des 53 pages pays et des 53 pages recettes.
+- Fichiers modifiés :
+  - `components/content/SourceList.tsx`
+  - `app/countries/[slug]/page.tsx`
+  - `app/recipes/[slug]/page.tsx`
+  - `docs/SEO_LLM_PLAN.md`
+  - `docs/CONTENT_TRACKER.md`
+  - `docs/PROJECT_LOG.md`
+  - `CHANGELOG.md`
+- Décisions prises :
+  - Le composant `SourceList` affiche uniquement les titres, les liens disponibles et les éditeurs disponibles.
+  - Les blocs vides ne sont pas rendus si aucune source exploitable n’existe.
+  - Les `reviewNotes` restent internes et ne sont pas affichées publiquement.
+  - Les notes internes du champ `sources.note` ne sont pas affichées dans cette première version.
+- Problèmes rencontrés :
+  - Aucune date d’accès n’existe dans le type `ContentSource`, donc aucune date n’est affichée.
+  - Toutes les fiches restent marquées `needsReview: true`, même si leurs sources sont désormais visibles.
+- Prochaine action : relire les sources affichées, puis décider quelles fiches peuvent sortir du statut `needsReview`.
+
 ## 2026-06-30 — Données structurées JSON-LD
 
 - Date : `2026-06-30`

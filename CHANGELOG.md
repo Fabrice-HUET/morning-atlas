@@ -12,11 +12,13 @@ Format inspiré de Keep a Changelog.
 - Suivi des images locales de petits-déjeuners attendues dans `public/images/breakfasts/`.
 - Socle SEO P0 avec `app/robots.ts`, `app/sitemap.ts`, canonicals, Open Graph et Twitter cards.
 - Données structurées JSON-LD pour `WebSite`, `Organization`, `WebPage`, `ItemList`, `BreadcrumbList` et `Recipe`.
+- Composant d’affichage des sources éditoriales sur les pages pays et recettes.
 
 ### Changed
 
 - Hiérarchie des titres corrigée sur les pages publiques qui utilisaient `SectionHeading` comme titre principal.
 - Métadonnées des pages statiques et dynamiques enrichies par type de page.
+- Sources éditoriales rendues visibles pour les 53 fiches pays et les 53 fiches recettes.
 
 ### Fixed
 

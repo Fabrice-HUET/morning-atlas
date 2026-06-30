@@ -9,6 +9,7 @@ Ce tracker suit les fiches de petits-déjeuners à partir des données actuelles
 - `Image affichée` indique que le composant d'affichage sait afficher une image locale ou un fallback.
 - `Page testée` reste à compléter après contrôle visuel navigateur.
 - `Lot` reste à compléter car le numéro de lot éditorial n'est pas présent dans les données applicatives.
+- Les sources éditoriales sont affichées sur les pages pays et recettes quand le champ `sources` est renseigné ; les 53 fiches actuelles disposent de sources.
 
 ## Fiches
 

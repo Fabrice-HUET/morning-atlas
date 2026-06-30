@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 
 import { RecipeCard } from '@/components/cards/RecipeCard'
 import { TagBadge } from '@/components/cards/TagBadge'
+import { SourceList } from '@/components/content/SourceList'
 import { BreakfastImage } from '@/components/images/BreakfastImage'
 import { Container } from '@/components/layout/Container'
 import { Flag } from '@/components/ui/Flag'
@@ -188,6 +189,8 @@ export default async function CountryPage({ params }: CountryPageProps) {
             </div>
           </section>
         ) : null}
+
+        <SourceList sources={country.sources} />
       </Container>
     </main>
   )

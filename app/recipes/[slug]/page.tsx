@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 
 import { CountryCard } from '@/components/cards/CountryCard'
 import { TagBadge } from '@/components/cards/TagBadge'
+import { SourceList } from '@/components/content/SourceList'
 import { BreakfastImage } from '@/components/images/BreakfastImage'
 import { Container } from '@/components/layout/Container'
 import { recipes } from '@/data/recipes'
@@ -142,6 +143,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
             </div>
           </section>
         ) : null}
+
+        <SourceList sources={recipe.sources} />
       </Container>
     </main>
   )
