@@ -5,6 +5,7 @@ export type BreakfastStyle =
   | 'quick'
   | 'healthy'
   | 'family'
+  | 'brunch'
   | 'street-food'
   | 'traditional'
 
@@ -24,6 +25,7 @@ export type IngredientType =
   | 'vegetable'
   | 'meat'
   | 'fish'
+  | 'seed'
 
 export type Category = {
   slug: string

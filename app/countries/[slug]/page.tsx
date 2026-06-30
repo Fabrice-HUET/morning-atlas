@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 
 import { RecipeCard } from '@/components/cards/RecipeCard'
 import { TagBadge } from '@/components/cards/TagBadge'
+import { BreakfastImage } from '@/components/images/BreakfastImage'
 import { Container } from '@/components/layout/Container'
 import { Flag } from '@/components/ui/Flag'
 import { countries } from '@/data/countries'
@@ -47,6 +48,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
   }
 
   const recipes = getRecipesBySlugs(country.recipeSlugs)
+  const breakfastImageSlug = country.recipeSlugs[0] ?? country.slug
   const categories = getCategoriesBySlugs(country.categorySlugs)
   const ingredients = getIngredientsBySlugs(country.ingredientSlugs)
   const guides = getGuidesForCountry(country.slug)
@@ -64,23 +66,32 @@ export default async function CountryPage({ params }: CountryPageProps) {
             <p className="mt-5 text-lg leading-8 text-espresso/80">{country.shortDescription}</p>
           </div>
 
-          <aside className="rounded-lg border border-oat bg-paper p-6 shadow-sm">
-            <h2 className="text-2xl font-black text-espresso">{country.breakfastName}</h2>
-            <p className="mt-3 text-sm leading-6 text-espresso/75">{country.breakfastSubtitle}</p>
-            <dl className="mt-6 grid gap-4 text-sm">
-              <div>
-                <dt className="font-bold text-espresso">Difficulte maison</dt>
-                <dd className="mt-1 text-espresso/75">{country.difficultyToRecreate}</dd>
-              </div>
-              <div>
-                <dt className="font-bold text-espresso">Boissons courantes</dt>
-                <dd className="mt-1 text-espresso/75">{country.commonDrinks.join(', ')}</dd>
-              </div>
-              <div>
-                <dt className="font-bold text-espresso">Statut editorial</dt>
-                <dd className="mt-1 text-espresso/75">{country.needsReview ? 'A verifier' : 'Relu'}</dd>
-              </div>
-            </dl>
+          <aside className="overflow-hidden rounded-lg border border-oat bg-paper shadow-sm">
+            <BreakfastImage
+              slug={breakfastImageSlug}
+              alt={`${country.breakfastName}, petit-dejeuner en ${country.country}`}
+              className="aspect-[4/3] w-full"
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              priority
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-black text-espresso">{country.breakfastName}</h2>
+              <p className="mt-3 text-sm leading-6 text-espresso/75">{country.breakfastSubtitle}</p>
+              <dl className="mt-6 grid gap-4 text-sm">
+                <div>
+                  <dt className="font-bold text-espresso">Difficulte maison</dt>
+                  <dd className="mt-1 text-espresso/75">{country.difficultyToRecreate}</dd>
+                </div>
+                <div>
+                  <dt className="font-bold text-espresso">Boissons courantes</dt>
+                  <dd className="mt-1 text-espresso/75">{country.commonDrinks.join(', ')}</dd>
+                </div>
+                <div>
+                  <dt className="font-bold text-espresso">Statut editorial</dt>
+                  <dd className="mt-1 text-espresso/75">{country.needsReview ? 'A verifier' : 'Relu'}</dd>
+                </div>
+              </dl>
+            </div>
           </aside>
         </article>
 

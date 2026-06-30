@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 
 import { CountryCard } from '@/components/cards/CountryCard'
 import { TagBadge } from '@/components/cards/TagBadge'
+import { BreakfastImage } from '@/components/images/BreakfastImage'
 import { Container } from '@/components/layout/Container'
 import { recipes } from '@/data/recipes'
 import { getCountriesBySlugs, getRecipeBySlug } from '@/lib/content-helpers'
@@ -56,26 +57,35 @@ export default async function RecipePage({ params }: RecipePageProps) {
             </div>
           </div>
 
-          <aside className="rounded-lg border border-oat bg-paper p-6 shadow-sm">
-            <h2 className="text-2xl font-black text-espresso">Repere pratique</h2>
-            <dl className="mt-6 grid gap-4 text-sm">
-              <div>
-                <dt className="font-bold text-espresso">Temps total</dt>
-                <dd className="mt-1 text-espresso/75">{recipe.prepTimeMinutes + recipe.cookTimeMinutes} minutes</dd>
-              </div>
-              <div>
-                <dt className="font-bold text-espresso">Difficulte</dt>
-                <dd className="mt-1 text-espresso/75">{recipe.difficulty}</dd>
-              </div>
-              <div>
-                <dt className="font-bold text-espresso">Portions</dt>
-                <dd className="mt-1 text-espresso/75">{recipe.servings}</dd>
-              </div>
-              <div>
-                <dt className="font-bold text-espresso">Statut editorial</dt>
-                <dd className="mt-1 text-espresso/75">{recipe.needsReview ? 'A verifier' : 'Relu'}</dd>
-              </div>
-            </dl>
+          <aside className="overflow-hidden rounded-lg border border-oat bg-paper shadow-sm">
+            <BreakfastImage
+              slug={recipe.slug}
+              alt={`${recipe.title}, petit-dejeuner de ${recipe.originLabel}`}
+              className="aspect-[4/3] w-full"
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              priority
+            />
+            <div className="p-6">
+              <h2 className="text-2xl font-black text-espresso">Repere pratique</h2>
+              <dl className="mt-6 grid gap-4 text-sm">
+                <div>
+                  <dt className="font-bold text-espresso">Temps total</dt>
+                  <dd className="mt-1 text-espresso/75">{recipe.prepTimeMinutes + recipe.cookTimeMinutes} minutes</dd>
+                </div>
+                <div>
+                  <dt className="font-bold text-espresso">Difficulte</dt>
+                  <dd className="mt-1 text-espresso/75">{recipe.difficulty}</dd>
+                </div>
+                <div>
+                  <dt className="font-bold text-espresso">Portions</dt>
+                  <dd className="mt-1 text-espresso/75">{recipe.servings}</dd>
+                </div>
+                <div>
+                  <dt className="font-bold text-espresso">Statut editorial</dt>
+                  <dd className="mt-1 text-espresso/75">{recipe.needsReview ? 'A verifier' : 'Relu'}</dd>
+                </div>
+              </dl>
+            </div>
           </aside>
         </article>
 

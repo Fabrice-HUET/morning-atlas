@@ -1,156 +1,110 @@
+import { fulMedamesRecipe } from '@/data/recipes/north-africa/egypt/ful-medames'
+import { msemenRecipe } from '@/data/recipes/north-africa/morocco/msemen'
+import { lablabiRecipe } from '@/data/recipes/north-africa/tunisia/lablabi'
+import { chaiAndMandaziRecipe } from '@/data/recipes/east-africa/regional/chai-and-mandazi'
+import { canjeeroRecipe } from '@/data/recipes/east-africa/somalia/canjeero'
+import { chipsiMayaiRecipe } from '@/data/recipes/east-africa/tanzania/chipsi-mayai'
+import { katogoRecipe } from '@/data/recipes/east-africa/uganda/katogo'
+import { dimSumRecipe } from '@/data/recipes/asia/china/cantonese/dim-sum'
+import { youTiaoRecipe } from '@/data/recipes/asia/china/mainland/you-tiao'
+import { jianbingRecipe } from '@/data/recipes/asia/china/shandong/jianbing'
+import { rutiWithDalAndVegetableCurryRecipe } from '@/data/recipes/asia/bangladesh/ruti-with-dal-and-vegetable-curry'
+import { parathaWithCurryRecipe } from '@/data/recipes/asia/india/north/paratha-with-curry'
+import { idliSambarRecipe } from '@/data/recipes/asia/india/south/idli-sambar'
+import { kandePoheRecipe } from '@/data/recipes/asia/india/west/kande-pohe'
+import { barbariBreakfastRecipe } from '@/data/recipes/asia/iran/barbari-breakfast'
+import { israeliBreakfastRecipe } from '@/data/recipes/asia/israel/israeli-breakfast'
+import { japaneseSteamedRiceAndMisoSoupRecipe } from '@/data/recipes/asia/japan/japanese-steamed-rice-and-miso-soup'
+import { koreanRiceAndBanchanRecipe } from '@/data/recipes/asia/korea/korean-rice-and-banchan'
+import { buburAyamRecipe } from '@/data/recipes/asia/indonesia/bubur-ayam'
+import { nasiLemakRecipe } from '@/data/recipes/asia/malaysia/nasi-lemak'
+import { htaminGyawRecipe } from '@/data/recipes/asia/myanmar/htamin-gyaw'
+import { tapsilogRecipe } from '@/data/recipes/asia/philippines/tapsilog'
+import { kayaToastRecipe } from '@/data/recipes/asia/singapore/kaya-toast'
+import { menemenRecipe } from '@/data/recipes/asia/turkey/menemen'
+import { cubanTostadaCafeConLecheRecipe } from '@/data/recipes/caribbean/cuba/cuban-tostada-cafe-con-leche'
+import { jamaicanAckeeAndSaltfishRecipe } from '@/data/recipes/caribbean/jamaica/jamaican-ackee-and-saltfish'
+import { costaRicanGalloPintoRecipe } from '@/data/recipes/central-america/costa-rica/costa-rican-gallo-pinto'
+import { bulgarianBanitsaRecipe } from '@/data/recipes/europe/bulgaria/bulgarian-banitsa'
+import { frenchTartinesRecipe } from '@/data/recipes/europe/france/tartines'
+import { germanBrotchenBreakfastRecipe } from '@/data/recipes/europe/germany/german-brotchen-breakfast'
+import { greekYogurtWithHoneyRecipe } from '@/data/recipes/europe/greece/greek-yogurt-with-honey'
+import { italianPrimaColazioneRecipe } from '@/data/recipes/europe/italy/italian-prima-colazione'
+import { boterhamMetHagelslagRecipe } from '@/data/recipes/europe/netherlands/boterham-met-hagelslag'
+import { polishKanapkiRecipe } from '@/data/recipes/europe/poland/polish-kanapki'
+import { portuguesePaoComManteigaGalaoRecipe } from '@/data/recipes/europe/portugal/portuguese-pao-com-manteiga-galao'
+import { russianKashaRecipe } from '@/data/recipes/europe/russia/russian-kasha'
+import { chocolateConChurrosRecipe } from '@/data/recipes/europe/spain/chocolate-con-churros'
+import { swissBircherMuesliRecipe } from '@/data/recipes/europe/switzerland/swiss-bircher-muesli'
+import { fullEnglishBreakfastRecipe } from '@/data/recipes/europe/united-kingdom/full-english-breakfast'
+import { canadianHomestyleBreakfastRecipe } from '@/data/recipes/north-america/canada/canadian-homestyle-breakfast'
+import { mexicanHuevosRancherosRecipe } from '@/data/recipes/north-america/mexico/mexican-huevos-rancheros'
+import { bagelWithCreamCheeseRecipe } from '@/data/recipes/north-america/united-states/bagel-with-cream-cheese'
+import { australianBigBrekkieRecipe } from '@/data/recipes/oceania/australia/australian-big-brekkie'
+import { weetBixBowlRecipe } from '@/data/recipes/oceania/australia/weet-bix-bowl'
+import { babakauRecipe } from '@/data/recipes/oceania/fiji/babakau'
+import { newZealandPorridgeRecipe } from '@/data/recipes/oceania/new-zealand/new-zealand-porridge'
+import { colombianChanguaRecipe } from '@/data/recipes/south-america/colombia/colombian-changua'
+import { venezuelanCachapasRecipe } from '@/data/recipes/south-america/venezuela/venezuelan-cachapas'
+import { putuPapRecipe } from '@/data/recipes/southern-africa/south-africa/putu-pap'
+import { ampesiRecipe } from '@/data/recipes/west-africa/ghana/ampesi'
+import { kosaiRecipe } from '@/data/recipes/west-africa/nigeria/kosai'
+import { ogiRecipe } from '@/data/recipes/west-africa/nigeria/ogi'
+import { cafeToubaRecipe } from '@/data/recipes/west-africa/senegal/cafe-touba'
 import type { Recipe } from '@/types/recipe'
 
 export const recipes = [
-  {
-    slug: 'msemen',
-    title: 'Msemen simple',
-    countrySlugs: ['morocco-msemen'],
-    originLabel: 'Maroc',
-    shortDescription: 'Une galette feuilletee souvent servie chaude avec du miel, du beurre ou du the.',
-    ingredients: ['Farine', 'Semoule fine', 'Eau', 'Huile', 'Beurre', 'Miel'],
-    steps: ['Preparer une pate souple.', 'Former des boules huilees.', 'Etaler et plier en carres.', 'Cuire a la poele chaude.'],
-    prepTimeMinutes: 25,
-    cookTimeMinutes: 15,
-    difficulty: 'medium',
-    servings: 4,
-    type: 'Galette',
-    tags: ['traditional-breakfast', 'vegetarian-friendly', 'comfort-food'],
-    featured: true,
-    recreateAtHomeLevel: 'medium',
-    notes: 'Les recettes familiales varient beaucoup selon les regions et les gestes.',
-    needsReview: true,
-  },
-  {
-    slug: 'jianbing',
-    title: 'Jianbing inspire maison',
-    countrySlugs: ['china-shandong-jianbing'],
-    originLabel: 'Chine, Shandong',
-    shortDescription: 'Une crepe salee garnie, souvent associee aux stands du matin.',
-    ingredients: ['Farine', 'Oeufs', 'Sauce salee', 'Coriandre', 'Ciboule', 'Feuille croustillante'],
-    steps: ['Preparer une pate fluide.', 'Etaler finement dans une poele.', 'Ajouter un oeuf.', 'Garnir et plier.'],
-    prepTimeMinutes: 15,
-    cookTimeMinutes: 10,
-    difficulty: 'medium',
-    servings: 2,
-    type: 'Crepe salee',
-    tags: ['street-food', 'savory-morning', 'travel-food'],
-    featured: true,
-    recreateAtHomeLevel: 'medium',
-    notes: 'Version simplifiee, sans pretendre reproduire toutes les techniques de rue.',
-    needsReview: true,
-  },
-  {
-    slug: 'idli-sambar',
-    title: 'Idli avec sambar ou chutney',
-    countrySlugs: ['south-india-idli-sambar'],
-    originLabel: 'Inde du Sud',
-    shortDescription: 'Des gateaux vapeur de riz et lentilles, servis avec une sauce ou un chutney.',
-    ingredients: ['Riz', 'Lentilles', 'Sel', 'Chutney', 'Sambar'],
-    steps: ['Utiliser une pate fermentee.', 'Remplir les moules a idli.', 'Cuire a la vapeur.', 'Servir avec chutney ou sambar.'],
-    prepTimeMinutes: 20,
-    cookTimeMinutes: 15,
-    difficulty: 'hard',
-    servings: 4,
-    type: 'Vapeur',
-    tags: ['vegetarian-friendly', 'traditional-breakfast', 'healthy'],
-    featured: true,
-    recreateAtHomeLevel: 'hard',
-    notes: 'La fermentation demande de l anticipation et depend de la temperature.',
-    needsReview: true,
-  },
-  {
-    slug: 'kaya-toast',
-    title: 'Kaya toast',
-    countrySlugs: ['singapore-kaya-toast'],
-    originLabel: 'Singapour',
-    shortDescription: 'Des toasts avec confiture de coco, souvent servis avec cafe ou oeufs mollets.',
-    ingredients: ['Pain de mie', 'Kaya', 'Beurre', 'Oeufs', 'Cafe'],
-    steps: ['Toaster le pain.', 'Tartiner de kaya.', 'Ajouter une fine tranche de beurre.', 'Servir avec oeufs mollets si souhaite.'],
-    prepTimeMinutes: 10,
-    cookTimeMinutes: 5,
-    difficulty: 'easy',
-    servings: 2,
-    type: 'Toast',
-    tags: ['sweet-morning', 'drink-included', 'easy-at-home'],
-    featured: true,
-    recreateAtHomeLevel: 'easy',
-    notes: 'Le kaya peut etre achete pret a l emploi pour une version simple.',
-    needsReview: true,
-  },
-  {
-    slug: 'menemen',
-    title: 'Menemen',
-    countrySlugs: ['turkey-menemen'],
-    originLabel: 'Turquie',
-    shortDescription: 'Oeufs cuisines avec tomate et poivron, servis directement dans la poele.',
-    ingredients: ['Oeufs', 'Tomates', 'Poivrons', 'Oignon', 'Huile d olive', 'Epices'],
-    steps: ['Faire revenir les legumes.', 'Ajouter les tomates.', 'Casser les oeufs.', 'Cuire doucement et servir chaud.'],
-    prepTimeMinutes: 10,
-    cookTimeMinutes: 15,
-    difficulty: 'easy',
-    servings: 2,
-    type: 'Poelee',
-    tags: ['savory-morning', 'protein-rich', 'comfort-food'],
-    featured: true,
-    recreateAtHomeLevel: 'easy',
-    notes: 'La presence d oignon varie selon les habitudes.',
-    needsReview: true,
-  },
-  {
-    slug: 'weet-bix-bowl',
-    title: 'Bol Weet-Bix',
-    countrySlugs: ['australia-weet-bix'],
-    originLabel: 'Australie',
-    shortDescription: 'Un bol de cereales de ble, souvent accompagne de lait et de fruits.',
-    ingredients: ['Weet-Bix', 'Lait', 'Banane', 'Miel'],
-    steps: ['Placer les cereales dans un bol.', 'Ajouter du lait.', 'Completer avec fruit et miel.', 'Servir aussitot.'],
-    prepTimeMinutes: 5,
-    cookTimeMinutes: 0,
-    difficulty: 'easy',
-    servings: 1,
-    type: 'Bol',
-    tags: ['quick', 'easy-at-home', 'family-meal'],
-    featured: false,
-    recreateAtHomeLevel: 'easy',
-    notes: 'Les garnitures changent selon les familles.',
-    needsReview: true,
-  },
-  {
-    slug: 'huevos-rancheros',
-    title: 'Huevos rancheros',
-    countrySlugs: ['mexico-huevos-rancheros'],
-    originLabel: 'Mexique',
-    shortDescription: 'Oeufs sur tortilla avec salsa, parfois haricots ou avocat selon les versions.',
-    ingredients: ['Tortillas', 'Oeufs', 'Salsa', 'Haricots', 'Coriandre'],
-    steps: ['Rechauffer les tortillas.', 'Preparer ou chauffer la salsa.', 'Cuire les oeufs.', 'Assembler avec les accompagnements.'],
-    prepTimeMinutes: 10,
-    cookTimeMinutes: 15,
-    difficulty: 'easy',
-    servings: 2,
-    type: 'Assiette salee',
-    tags: ['savory-morning', 'protein-rich', 'iconic-breakfast'],
-    featured: true,
-    recreateAtHomeLevel: 'easy',
-    notes: 'Les variantes regionales sont nombreuses.',
-    needsReview: true,
-  },
-  {
-    slug: 'tartines',
-    title: 'Tartines beurre-confiture',
-    countrySlugs: ['france-tartines'],
-    originLabel: 'France',
-    shortDescription: 'Une base simple de pain, beurre et confiture, souvent avec cafe, the ou chocolat chaud.',
-    ingredients: ['Pain', 'Beurre', 'Confiture', 'Cafe'],
-    steps: ['Trancher le pain.', 'Toaster si souhaite.', 'Tartiner de beurre.', 'Ajouter la confiture.'],
-    prepTimeMinutes: 5,
-    cookTimeMinutes: 0,
-    difficulty: 'easy',
-    servings: 2,
-    type: 'Tartine',
-    tags: ['sweet-morning', 'easy-at-home', 'comfort-food'],
-    featured: true,
-    recreateAtHomeLevel: 'easy',
-    notes: 'Une version courante, pas une regle pour tous les foyers.',
-    needsReview: true,
-  },
+  fulMedamesRecipe,
+  msemenRecipe,
+  lablabiRecipe,
+  kosaiRecipe,
+  ogiRecipe,
+  cafeToubaRecipe,
+  ampesiRecipe,
+  putuPapRecipe,
+  canjeeroRecipe,
+  chaiAndMandaziRecipe,
+  chipsiMayaiRecipe,
+  katogoRecipe,
+  youTiaoRecipe,
+  dimSumRecipe,
+  jianbingRecipe,
+  rutiWithDalAndVegetableCurryRecipe,
+  idliSambarRecipe,
+  parathaWithCurryRecipe,
+  kandePoheRecipe,
+  barbariBreakfastRecipe,
+  israeliBreakfastRecipe,
+  japaneseSteamedRiceAndMisoSoupRecipe,
+  koreanRiceAndBanchanRecipe,
+  htaminGyawRecipe,
+  buburAyamRecipe,
+  tapsilogRecipe,
+  kayaToastRecipe,
+  nasiLemakRecipe,
+  menemenRecipe,
+  weetBixBowlRecipe,
+  australianBigBrekkieRecipe,
+  babakauRecipe,
+  newZealandPorridgeRecipe,
+  polishKanapkiRecipe,
+  swissBircherMuesliRecipe,
+  boterhamMetHagelslagRecipe,
+  chocolateConChurrosRecipe,
+  frenchTartinesRecipe,
+  fullEnglishBreakfastRecipe,
+  russianKashaRecipe,
+  italianPrimaColazioneRecipe,
+  bulgarianBanitsaRecipe,
+  germanBrotchenBreakfastRecipe,
+  greekYogurtWithHoneyRecipe,
+  portuguesePaoComManteigaGalaoRecipe,
+  canadianHomestyleBreakfastRecipe,
+  bagelWithCreamCheeseRecipe,
+  costaRicanGalloPintoRecipe,
+  mexicanHuevosRancherosRecipe,
+  jamaicanAckeeAndSaltfishRecipe,
+  venezuelanCachapasRecipe,
+  colombianChanguaRecipe,
+  cubanTostadaCafeConLecheRecipe,
 ] satisfies Recipe[]
