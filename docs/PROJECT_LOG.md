@@ -12,6 +12,40 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-06-30 — Socle SEO technique P0
+
+- Date : `2026-06-30`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO, technique, documentation
+- Résumé : ajout du socle SEO P0 avec `robots.txt`, `sitemap.xml`, canonicals, Open Graph, Twitter cards et H1 dédiés sur les pages publiques ciblées.
+- Fichiers modifiés :
+  - `app/robots.ts`
+  - `app/sitemap.ts`
+  - `app/layout.tsx`
+  - `app/page.tsx`
+  - `app/countries/`
+  - `app/recipes/`
+  - `app/categories/[slug]/page.tsx`
+  - `app/ingredients/[slug]/page.tsx`
+  - `app/guides/page.tsx`
+  - `app/about/page.tsx`
+  - `components/layout/SectionHeading.tsx`
+  - `lib/seo.ts`
+  - `docs/SEO_LLM_PLAN.md`
+  - `docs/PROJECT_LOG.md`
+  - `CHANGELOG.md`
+- Décisions prises :
+  - Le domaine canonique reste `https://morning-atlas.fr`.
+  - Les pages recettes utilisent leur image locale `/images/breakfasts/{slug}.webp` dans les métadonnées sociales.
+  - Les pages pays utilisent l’image de la première recette associée quand elle existe.
+  - `SectionHeading` accepte un niveau de titre explicite pour corriger les H1 sans refactor global.
+  - Les données structurées JSON-LD restent prévues pour une mission séparée.
+- Problèmes rencontrés :
+  - Aucune image sociale par défaut dédiée n’existe encore pour les pages sans visuel de recette.
+  - Les pages individuelles de guides n’existent pas encore ; seules les pages publiques réellement routées sont incluses au sitemap.
+- Prochaine action : ajouter les données structurées JSON-LD et rendre les sources visibles sur les fiches pays et recettes.
+
 ## 2026-06-30 — Conversion WebP et contrôle d’affichage des images breakfast
 
 - Date : `2026-06-30`

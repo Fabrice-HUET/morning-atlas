@@ -10,20 +10,22 @@ Format inspiré de Keep a Changelog.
 
 - Documents de suivi projet : roadmap, journal de bord et tracker éditorial.
 - Suivi des images locales de petits-déjeuners attendues dans `public/images/breakfasts/`.
+- Socle SEO P0 avec `app/robots.ts`, `app/sitemap.ts`, canonicals, Open Graph et Twitter cards.
 
 ### Changed
 
-- TODO
+- Hiérarchie des titres corrigée sur les pages publiques qui utilisaient `SectionHeading` comme titre principal.
+- Métadonnées des pages statiques et dynamiques enrichies par type de page.
 
 ### Fixed
 
-- TODO
+- Accents et formulations SEO visibles corrigés sur les pages statiques principales.
 
 ### Todo
 
-- Ajouter les images `.webp` générées et vérifier leur correspondance avec les slugs de recettes.
+- Ajouter une image sociale par défaut pour les pages sans visuel de recette.
+- Ajouter les données structurées JSON-LD prévues dans le plan SEO.
 - Compléter les lots éditoriaux dans `docs/CONTENT_TRACKER.md`.
-- Tester visuellement les pages de liste et de détail après ajout des images.
 - Réduire progressivement les fiches `needsReview: true`.
 
 ## 0.1.0 - Initial content foundation
