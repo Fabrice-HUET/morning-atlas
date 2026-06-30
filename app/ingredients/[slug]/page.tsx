@@ -2,10 +2,11 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 import { CountryCard } from '@/components/cards/CountryCard'
+import { RecipeCard } from '@/components/cards/RecipeCard'
 import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 import { ingredients } from '@/data/ingredients'
-import { getCountriesByIngredient, getIngredientBySlug } from '@/lib/content-helpers'
+import { getCountriesByIngredient, getIngredientBySlug, getRecipesByIngredient } from '@/lib/content-helpers'
 import { buildPageMetadata } from '@/lib/seo'
 import { buildBreadcrumbJsonLd, buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
@@ -43,6 +44,7 @@ export default async function IngredientPage({ params }: IngredientPageProps) {
   }
 
   const countries = getCountriesByIngredient(ingredient.slug)
+  const recipes = getRecipesByIngredient(ingredient.slug)
   const jsonLd = [
     buildBreadcrumbJsonLd([
       { name: 'Accueil', path: '/' },
@@ -74,6 +76,16 @@ export default async function IngredientPage({ params }: IngredientPageProps) {
             <CountryCard key={country.slug} country={country} />
           ))}
         </div>
+        {recipes.length > 0 ? (
+          <section className="mt-12">
+            <h2 className="text-2xl font-black text-espresso">Recettes liées</h2>
+            <div className="mt-5 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {recipes.map((recipe) => (
+                <RecipeCard key={recipe.slug} recipe={recipe} />
+              ))}
+            </div>
+          </section>
+        ) : null}
       </Container>
     </main>
   )

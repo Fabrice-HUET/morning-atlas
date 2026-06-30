@@ -4,7 +4,7 @@
 
 Morning Atlas dispose déjà d’un socle éditorial solide : routes App Router statiques, slugs propres, contenus textuels en dur, fiches pays et recettes reliées, champs SEO présents dans les données et page À propos existante.
 
-Le site a désormais un socle SEO technique P0 : `robots.txt`, `sitemap.xml`, canonicals, métadonnées par type de page, Open Graph, Twitter cards, images locales, H1 dédiés sur les pages publiques ciblées, premières données structurées JSON-LD cohérentes avec le contenu visible et sources éditoriales affichées sur les pages pays et recettes. Les priorités restantes sont surtout éditoriales et sémantiques : renforcer le maillage interne et relire les fiches `needsReview`.
+Le site a désormais un socle SEO technique P0 : `robots.txt`, `sitemap.xml`, canonicals, métadonnées par type de page, Open Graph, Twitter cards, images locales, H1 dédiés sur les pages publiques ciblées, premières données structurées JSON-LD cohérentes avec le contenu visible, sources éditoriales affichées sur les pages pays et recettes, et maillage interne renforcé entre pays, recettes, catégories et ingrédients. Les priorités restantes sont surtout éditoriales : relire les fiches `needsReview`, enrichir les pages fines et stabiliser les guides.
 
 Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccourci spécifique fiable. Le socle à renforcer reste le même : pages crawlables, indexables, utiles, sourcées, structurées, avec des réponses claires et des liens internes explicites.
 
@@ -20,6 +20,8 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Les données structurées JSON-LD de base sont ajoutées : `WebSite`, `Organization`, `WebPage`, `ItemList`, `BreadcrumbList` et `Recipe`.
 - Le JSON-LD reste volontairement minimal : pas de logo, auteur, note, nutrition, calories ou temps de recette tant que ces informations ne sont pas stabilisées pour le balisage.
 - Les sources éditoriales sont visibles en bas des 53 pages pays et des 53 pages recettes.
+- Les catégories et ingrédients affichés sur les pages pays et recettes pointent vers leurs pages dédiées quand le slug cible existe.
+- Les pages catégories et ingrédients affichent les recettes liées quand la correspondance est fiable dans les données.
 
 ### SEO technique Next.js
 
@@ -53,10 +55,10 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
   - pages pays vers recettes associées ;
   - pages recettes vers pays associés ;
   - pages catégories et ingrédients vers pays associés.
-- Les catégories et ingrédients affichés sur les fiches pays sont des libellés, pas des liens.
-- Les guides liés sur les fiches pays sont affichés comme textes, pas comme liens.
+- Les catégories et ingrédients affichés sur les fiches pays sont des liens internes.
+- Les guides liés sur les fiches pays sont affichés comme textes, pas comme liens, car il n’existe pas encore de pages guides individuelles.
 - Il n’existe pas encore de pages individuelles de guides.
-- Les pages ingrédients peuvent être difficiles à découvrir sans page index `/ingredients`.
+- Les pages ingrédients peuvent encore être difficiles à découvrir sans page index `/ingredients`, même si elles sont mieux reliées depuis les recettes et pays.
 
 ### Données et contenu
 
@@ -79,7 +81,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 ## Risques SEO principaux
 
 - Les pages guides individuelles n’existent pas encore : le potentiel de requêtes informationnelles longues reste sous-exploité.
-- Les pages catégories et ingrédients restent assez fines si elles ne sont pas enrichies avec plus de contexte éditorial.
+- Les pages catégories et ingrédients restent assez fines éditorialement, même si elles relient désormais pays et recettes.
 - Les notes de relecture restent internes : elles ne doivent pas être confondues avec des sources publiques.
 - Toutes les fiches sont encore marquées `needsReview: true`, donc le site ne devrait pas traiter ces contenus comme pleinement publiés.
 - Il manque encore une image sociale par défaut dédiée pour les pages sans visuel de recette.
@@ -92,7 +94,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Ajouter une image sociale par défaut dédiée pour les pages sans visuel de recette.
 - Maintenir les sources visibles en bas des fiches pays et recettes.
 - Étendre les données structurées uniquement quand le contenu visible le justifie.
-- Transformer les libellés de catégories, ingrédients et guides associés en liens internes.
+- Maintenir les liens internes entre pays, recettes, catégories et ingrédients.
 - Ajouter des images locales cohérentes, nommées `{slug}.webp`.
 - Créer des pages individuelles de guides pour cibler les requêtes comparatives.
 - Renforcer la page À propos avec méthode éditoriale, limites, sources, statut de relecture et responsabilité éditoriale.
@@ -154,10 +156,10 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 ## Plan d’action court terme
 
-1. Ajouter les liens internes manquants vers catégories, ingrédients et guides.
-2. Corriger les titles, descriptions et textes alternatifs non accentués dans les données.
-3. Définir quelles fiches peuvent passer de `needsReview: true` à un statut publiable.
-4. Ajouter une image sociale par défaut cohérente pour les pages sans visuel de recette.
+1. Corriger les titles, descriptions et textes alternatifs non accentués dans les données.
+2. Définir quelles fiches peuvent passer de `needsReview: true` à un statut publiable.
+3. Ajouter une image sociale par défaut cohérente pour les pages sans visuel de recette.
+4. Enrichir les pages catégories et ingrédients avec plus de contexte éditorial.
 
 ## Plan d’action moyen terme
 
@@ -185,7 +187,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 - Ajouter Open Graph et Twitter cards par page.
 - Étendre `Recipe`, `BreadcrumbList`, `ItemList`, `WebSite`, `Organization` et `WebPage` seulement si de nouveaux contenus visibles le justifient.
-- Transformer les taxonomies affichées en liens internes.
+- Transformer les taxonomies affichées en liens internes. Fait le 2026-06-30 pour pays, recettes, catégories et ingrédients.
 - Créer une page index `/ingredients` si les pages ingrédients doivent être indexées.
 - Créer des pages guide individuelles.
 - Enrichir catégories et ingrédients avec du contenu textuel utile.
@@ -204,8 +206,8 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Traiter les pages pays comme des pages éditoriales principales, pas seulement comme des fiches de navigation.
 - Traiter les pages recettes comme des pages pratiques avec `Recipe`, ingrédients et étapes visibles ; ajouter temps, portions ou notes au JSON-LD seulement après validation explicite de leur usage.
 - Ne pas publier les pages recettes sans vérifier que les sources affichées restent pertinentes et fiables.
-- Ajouter des liens pays → ingrédients → pays pour construire un graphe éditorial lisible.
-- Ajouter des liens pays → catégories → pays pour soutenir les requêtes de type “petits-déjeuners salés”, “petits-déjeuners au riz”, “petits-déjeuners rapides”.
+- Maintenir les liens pays → ingrédients → pays et recettes → ingrédients pour construire un graphe éditorial lisible.
+- Maintenir les liens pays → catégories → pays et recettes → catégories pour soutenir les requêtes de type “petits-déjeuners salés”, “petits-déjeuners au riz”, “petits-déjeuners rapides”.
 - Créer des guides comparatifs ciblant les requêtes informationnelles longues : “quels pays mangent salé au petit-déjeuner”, “petits-déjeuners autour du thé”, “petits-déjeuners faciles à refaire”.
 - Utiliser les guides pour répondre aux requêtes que les fiches individuelles ne couvrent pas naturellement.
 - Garder une tonalité prudente : “peut inclure”, “souvent”, “selon les régions”, “dans de nombreuses versions”.
@@ -258,12 +260,11 @@ Position recommandée :
 1. Créer `app/robots.ts` et `app/sitemap.ts` à partir des données locales.
 2. Ajouter les canonicals, Open Graph et Twitter cards par type de page.
 3. Corriger la hiérarchie H1 sur les pages statiques et taxonomiques.
-4. Transformer catégories, ingrédients et guides associés en liens internes.
-5. Valider les données structurées dans Rich Results Test et Schema Markup Validator.
-6. Ajouter les images locales `{slug}.webp` et vérifier les `alt`.
-7. Créer des pages individuelles pour les guides.
-8. Créer une page index `/ingredients` si les ingrédients doivent devenir un axe SEO.
-9. Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut SEO et publication.
+4. Valider les données structurées dans Rich Results Test et Schema Markup Validator.
+5. Créer des pages individuelles pour les guides.
+6. Créer une page index `/ingredients` si les ingrédients doivent devenir un axe SEO.
+7. Enrichir les pages catégories et ingrédients avec du contenu introductif.
+8. Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut SEO et publication.
 
 ## Références utilisées
 

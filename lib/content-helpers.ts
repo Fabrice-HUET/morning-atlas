@@ -70,6 +70,14 @@ export function getCountriesByIngredient(ingredientSlug: string) {
   return countries.filter((country) => country.ingredientSlugs.includes(ingredientSlug))
 }
 
+export function getRecipesByCategory(categorySlug: string) {
+  return recipes.filter((recipe) => recipe.categorySlugs?.includes(categorySlug))
+}
+
+export function getRecipesByIngredient(ingredientSlug: string) {
+  return recipes.filter((recipe) => recipe.ingredientSlugs?.includes(ingredientSlug))
+}
+
 export function getGuidesForCountry(countrySlug: string) {
   return guides.filter((guide) => guide.relatedCountrySlugs.includes(countrySlug))
 }

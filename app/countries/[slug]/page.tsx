@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
 import { RecipeCard } from '@/components/cards/RecipeCard'
@@ -145,9 +146,13 @@ export default async function CountryPage({ params }: CountryPageProps) {
             <h2 className="text-2xl font-black text-espresso">Taxonomies</h2>
             <div className="mt-5 flex flex-wrap gap-2">
               {categories.map((category) => (
-                <span key={category.slug} className="rounded-full bg-paper px-3 py-1 text-sm font-semibold text-espresso">
+                <Link
+                  key={category.slug}
+                  href={`/categories/${category.slug}`}
+                  className="rounded-full bg-paper px-3 py-1 text-sm font-semibold text-espresso transition hover:bg-oat"
+                >
                   {category.name}
-                </span>
+                </Link>
               ))}
               {country.tagSlugs.map((tagSlug) => (
                 <TagBadge key={tagSlug} slug={tagSlug} />
@@ -158,9 +163,13 @@ export default async function CountryPage({ params }: CountryPageProps) {
             <h2 className="text-2xl font-black text-espresso">Ingredients lies</h2>
             <div className="mt-5 flex flex-wrap gap-2">
               {ingredients.map((ingredient) => (
-                <span key={ingredient.slug} className="rounded-full bg-paper px-3 py-1 text-sm font-semibold text-espresso">
+                <Link
+                  key={ingredient.slug}
+                  href={`/ingredients/${ingredient.slug}`}
+                  className="rounded-full bg-paper px-3 py-1 text-sm font-semibold text-espresso transition hover:bg-oat"
+                >
                   {ingredient.name}
-                </span>
+                </Link>
               ))}
             </div>
           </div>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
 import { CountryCard } from '@/components/cards/CountryCard'
@@ -7,7 +8,7 @@ import { SourceList } from '@/components/content/SourceList'
 import { BreakfastImage } from '@/components/images/BreakfastImage'
 import { Container } from '@/components/layout/Container'
 import { recipes } from '@/data/recipes'
-import { getCountriesBySlugs, getRecipeBySlug } from '@/lib/content-helpers'
+import { getCategoriesBySlugs, getCountriesBySlugs, getIngredientsBySlugs, getRecipeBySlug } from '@/lib/content-helpers'
 import { breakfastImageUrl, buildPageMetadata } from '@/lib/seo'
 import { buildBreadcrumbJsonLd, buildRecipeJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
@@ -47,6 +48,8 @@ export default async function RecipePage({ params }: RecipePageProps) {
   }
 
   const countries = getCountriesBySlugs(recipe.countrySlugs)
+  const categories = getCategoriesBySlugs(recipe.categorySlugs ?? [])
+  const linkedIngredientSlugs = new Set(getIngredientsBySlugs(recipe.ingredientSlugs ?? []).map((ingredient) => ingredient.slug))
   const jsonLd = [
     buildBreadcrumbJsonLd([
       { name: 'Accueil', path: '/' },
@@ -75,6 +78,19 @@ export default async function RecipePage({ params }: RecipePageProps) {
                 <TagBadge key={tagSlug} slug={tagSlug} />
               ))}
             </div>
+            {categories.length > 0 ? (
+              <div className="mt-4 flex flex-wrap gap-2">
+                {categories.map((category) => (
+                  <Link
+                    key={category.slug}
+                    href={`/categories/${category.slug}`}
+                    className="rounded-full bg-paper px-3 py-1 text-xs font-semibold text-espresso transition hover:bg-oat"
+                  >
+                    {category.name}
+                  </Link>
+                ))}
+              </div>
+            ) : null}
           </div>
 
           <aside className="overflow-hidden rounded-lg border border-oat bg-paper shadow-sm">
@@ -113,9 +129,25 @@ export default async function RecipePage({ params }: RecipePageProps) {
           <div className="rounded-lg border border-oat bg-paper p-6">
             <h2 className="text-2xl font-black text-espresso">Ingredients</h2>
             <ul className="mt-5 grid gap-2 text-sm text-espresso/80">
-              {recipe.ingredients.map((ingredient) => (
-                <li key={ingredient}>{ingredient}</li>
-              ))}
+              {recipe.ingredients.map((ingredient, index) => {
+                const ingredientSlug = recipe.ingredientSlugs?.[index]
+                const canLinkIngredient = ingredientSlug ? linkedIngredientSlugs.has(ingredientSlug) : false
+
+                return (
+                  <li key={ingredient}>
+                    {canLinkIngredient ? (
+                      <Link
+                        href={`/ingredients/${ingredientSlug}`}
+                        className="font-semibold text-espresso underline decoration-sage/40 underline-offset-4 hover:text-toast"
+                      >
+                        {ingredient}
+                      </Link>
+                    ) : (
+                      ingredient
+                    )}
+                  </li>
+                )
+              })}
             </ul>
           </div>
           <div className="rounded-lg border border-oat bg-paper p-6">

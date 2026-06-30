@@ -12,6 +12,32 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-06-30 — Maillage interne pays, recettes, catégories et ingrédients
+
+- Date : `2026-06-30`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO, navigation, technique, documentation
+- Résumé : renforcement du maillage interne entre pages pays, recettes, catégories et ingrédients, sans créer de route supplémentaire.
+- Fichiers modifiés :
+  - `lib/content-helpers.ts`
+  - `app/countries/[slug]/page.tsx`
+  - `app/recipes/[slug]/page.tsx`
+  - `app/categories/[slug]/page.tsx`
+  - `app/ingredients/[slug]/page.tsx`
+  - `docs/SEO_LLM_PLAN.md`
+  - `docs/PROJECT_LOG.md`
+  - `CHANGELOG.md`
+- Décisions prises :
+  - Les catégories et ingrédients des pages pays deviennent des liens vers leurs pages existantes.
+  - Les pages recettes ajoutent des liens vers catégories et ingrédients quand les slugs correspondants existent.
+  - Les pages catégories et ingrédients affichent les recettes liées via les données `categorySlugs` et `ingredientSlugs`.
+  - Les guides restent sans lien individuel car aucune route `/guides/{slug}` n’existe.
+- Problèmes rencontrés :
+  - Les tags restent non liés car aucune route publique de tag n’existe.
+  - Les guides ne contiennent que des pays et tags liés ; aucun lien vers recette, catégorie ou ingrédient n’est certain dans leurs données actuelles.
+- Prochaine action : créer des pages individuelles de guides ou enrichir les données guides si cet axe devient prioritaire.
+
 ## 2026-06-30 — Sources visibles sur les fiches pays et recettes
 
 - Date : `2026-06-30`
