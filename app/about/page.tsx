@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 import { buildPageMetadata } from '@/lib/seo'
+import { buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
 export const metadata: Metadata = buildPageMetadata({
   title: 'À propos — Morning Atlas',
@@ -11,8 +12,20 @@ export const metadata: Metadata = buildPageMetadata({
 })
 
 export default function AboutPage() {
+  const jsonLd = buildWebPageJsonLd({
+    name: 'À propos — Morning Atlas',
+    description: 'La vision éditoriale de Morning Atlas.',
+    path: '/about',
+  })
+
   return (
     <main className="bg-cream py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeJsonLd(jsonLd),
+        }}
+      />
       <Container className="max-w-4xl">
         <SectionHeading
           level={1}

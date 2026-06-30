@@ -4,7 +4,7 @@
 
 Morning Atlas dispose déjà d’un socle éditorial solide : routes App Router statiques, slugs propres, contenus textuels en dur, fiches pays et recettes reliées, champs SEO présents dans les données et page À propos existante.
 
-Le site a désormais un socle SEO technique P0 : `robots.txt`, `sitemap.xml`, canonicals, métadonnées par type de page, Open Graph, Twitter cards, images locales et H1 dédiés sur les pages publiques ciblées. Les priorités restantes sont surtout éditoriales et sémantiques : rendre les sources visibles, renforcer le maillage interne, relire les fiches `needsReview` et introduire des données structurées cohérentes avec le contenu visible.
+Le site a désormais un socle SEO technique P0 : `robots.txt`, `sitemap.xml`, canonicals, métadonnées par type de page, Open Graph, Twitter cards, images locales, H1 dédiés sur les pages publiques ciblées et premières données structurées JSON-LD cohérentes avec le contenu visible. Les priorités restantes sont surtout éditoriales et sémantiques : rendre les sources visibles, renforcer le maillage interne et relire les fiches `needsReview`.
 
 Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccourci spécifique fiable. Le socle à renforcer reste le même : pages crawlables, indexables, utiles, sourcées, structurées, avec des réponses claires et des liens internes explicites.
 
@@ -17,7 +17,8 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Les pages indexables disposent de canonicals explicites via `alternates.canonical`.
 - Les métadonnées incluent désormais Open Graph et Twitter cards, avec image sociale locale pour les pages recettes et les pages pays quand une recette associée existe.
 - Les pages `/countries`, `/recipes`, `/guides`, `/about`, `/categories/{slug}` et `/ingredients/{slug}` disposent d’un H1 dédié via `SectionHeading`.
-- Les données structurées JSON-LD restent volontairement hors périmètre de cette étape.
+- Les données structurées JSON-LD de base sont ajoutées : `WebSite`, `Organization`, `WebPage`, `ItemList`, `BreadcrumbList` et `Recipe`.
+- Le JSON-LD reste volontairement minimal : pas de logo, auteur, note, nutrition, calories ou temps de recette tant que ces informations ne sont pas stabilisées pour le balisage.
 
 ### SEO technique Next.js
 
@@ -36,7 +37,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Les canonicals explicites sont définis via `alternates.canonical`.
 - Open Graph existe globalement et par type de page principale.
 - Les Twitter cards sont définies globalement et par page.
-- Aucune donnée structurée JSON-LD détectée.
+- Des données structurées JSON-LD existent via `lib/structured-data.ts`.
 
 ### Structure des pages
 
@@ -81,7 +82,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Les sources ne sont pas encore visibles sur les pages publiques, ce qui limite la confiance éditoriale.
 - Toutes les fiches sont encore marquées `needsReview: true`, donc le site ne devrait pas traiter ces contenus comme pleinement publiés.
 - Il manque encore une image sociale par défaut dédiée pour les pages sans visuel de recette.
-- Absence totale de données structurées, alors que le site se prête bien à `Recipe`, `BreadcrumbList`, `ItemList`, `WebSite`, `Organization` et `WebPage`.
+- Les données structurées sont volontairement minimales : les enrichissements avancés devront rester alignés avec le contenu visible.
 
 ## Opportunités SEO principales
 
@@ -89,7 +90,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Garder les canonicals et métadonnées dynamiques alignés avec les routes réellement indexables.
 - Ajouter une image sociale par défaut dédiée pour les pages sans visuel de recette.
 - Afficher les sources en bas des fiches pays et recettes.
-- Ajouter des données structurées alignées avec le contenu visible.
+- Étendre les données structurées uniquement quand le contenu visible le justifie.
 - Transformer les libellés de catégories, ingrédients et guides associés en liens internes.
 - Ajouter des images locales cohérentes, nommées `{slug}.webp`.
 - Créer des pages individuelles de guides pour cibler les requêtes comparatives.
@@ -133,19 +134,20 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - [ ] Vérifier le ratio `4/3` sur mobile, tablette et desktop.
 - [ ] Éviter de publier durablement avec `picsum.photos` comme fallback visible.
 - [x] Ajouter les images principales dans les métadonnées Open Graph.
-- [ ] Ajouter les images dans les données structurées `Recipe` et `WebPage` quand elles existent.
+- [x] Ajouter les images dans les données structurées `Recipe` quand elles existent.
+- [ ] Ajouter des images aux `WebPage` seulement si une stratégie fiable est décidée pour chaque type de page.
 - [ ] Envisager un sitemap image après stabilisation des visuels.
 
 ## Checklist données structurées
 
-- [ ] Ajouter `WebSite` sur la page d’accueil.
-- [ ] Ajouter `Organization` ou `Publisher` pour l’entité Morning Atlas.
-- [ ] Ajouter `BreadcrumbList` sur les pages pays, recettes, catégories, ingrédients et guides.
-- [ ] Ajouter `Recipe` sur les pages recettes, uniquement avec les informations visibles sur la page.
-- [ ] Ajouter `ItemList` sur les pages listes : pays, recettes, catégories liées, ingrédients liés.
-- [ ] Ajouter `WebPage` sur les pages pays, catégories, ingrédients, guides et À propos.
+- [x] Ajouter `WebSite` globalement.
+- [x] Ajouter `Organization` pour l’entité Morning Atlas, sans logo inventé.
+- [x] Ajouter `BreadcrumbList` sur les pages pays, recettes, catégories et ingrédients.
+- [x] Ajouter `Recipe` sur les pages recettes, uniquement avec les informations visibles sur la page.
+- [x] Ajouter `ItemList` sur les pages listes : pays et recettes.
+- [x] Ajouter `WebPage` sur l’accueil, À propos, pays, recettes, guides, pages pays, catégories et ingrédients.
 - [ ] Ajouter `Article` uniquement si les guides deviennent de vraies pages éditoriales avec contenu substantiel.
-- [ ] Ne pas ajouter de propriétés JSON-LD qui ne correspondent pas au contenu visible.
+- [x] Ne pas ajouter de propriétés JSON-LD qui ne correspondent pas au contenu visible.
 - [ ] Valider avec le Rich Results Test et le Schema Markup Validator.
 - [ ] Surveiller les rapports Search Console après déploiement.
 
@@ -159,14 +161,13 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 ## Plan d’action moyen terme
 
-1. Ajouter les données structurées par type de page.
-2. Créer des pages individuelles pour les guides éditoriaux.
-3. Enrichir les pages catégories et ingrédients avec une introduction utile, des exemples et des liens.
-4. Ajouter des blocs “À retenir” courts, factuels et citables.
-5. Renforcer la page À propos : méthode, sources, limites, fréquence de relecture.
-6. Mettre en place un suivi Search Console après mise en ligne.
-7. Ajouter une stratégie Open Graph visuelle pour les fiches principales.
-8. Envisager un sitemap image une fois les visuels stabilisés.
+1. Créer des pages individuelles pour les guides éditoriaux.
+2. Enrichir les pages catégories et ingrédients avec une introduction utile, des exemples et des liens.
+3. Ajouter des blocs “À retenir” courts, factuels et citables.
+4. Renforcer la page À propos : méthode, sources, limites, fréquence de relecture.
+5. Mettre en place un suivi Search Console après mise en ligne.
+6. Ajouter une stratégie Open Graph visuelle pour les fiches principales.
+7. Envisager un sitemap image une fois les visuels stabilisés.
 
 ## Priorités P0 / P1 / P2
 
@@ -183,7 +184,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 ### P1 — Croissance SEO
 
 - Ajouter Open Graph et Twitter cards par page.
-- Ajouter `Recipe`, `BreadcrumbList`, `ItemList`, `WebSite`, `Organization` et `WebPage`.
+- Étendre `Recipe`, `BreadcrumbList`, `ItemList`, `WebSite`, `Organization` et `WebPage` seulement si de nouveaux contenus visibles le justifient.
 - Transformer les taxonomies affichées en liens internes.
 - Créer une page index `/ingredients` si les pages ingrédients doivent être indexées.
 - Créer des pages guide individuelles.
@@ -201,7 +202,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 ## Recommandations spécifiques pour Morning Atlas
 
 - Traiter les pages pays comme des pages éditoriales principales, pas seulement comme des fiches de navigation.
-- Traiter les pages recettes comme des pages pratiques avec `Recipe`, temps, portions, ingrédients, étapes et notes visibles.
+- Traiter les pages recettes comme des pages pratiques avec `Recipe`, ingrédients et étapes visibles ; ajouter temps, portions ou notes au JSON-LD seulement après validation explicite de leur usage.
 - Ne pas publier les pages recettes avec des sources cachées si elles abordent des pratiques culturelles spécifiques.
 - Ajouter des liens pays → ingrédients → pays pour construire un graphe éditorial lisible.
 - Ajouter des liens pays → catégories → pays pour soutenir les requêtes de type “petits-déjeuners salés”, “petits-déjeuners au riz”, “petits-déjeuners rapides”.
@@ -243,7 +244,7 @@ Position recommandée :
 ## Choses à éviter
 
 - Écrire pour “plaire aux IA” au détriment des lecteurs.
-- Ajouter du JSON-LD qui ne correspond pas au contenu visible.
+- Ajouter ou enrichir du JSON-LD qui ne correspond pas au contenu visible.
 - Sur-optimiser les titles avec des répétitions artificielles.
 - Publier des fiches `needsReview: true` comme si elles étaient validées.
 - Utiliser durablement des images fallback génériques pour des contenus culturels précis.
@@ -259,7 +260,7 @@ Position recommandée :
 3. Corriger la hiérarchie H1 sur les pages statiques et taxonomiques.
 4. Rendre les sources visibles sur les fiches pays et recettes.
 5. Transformer catégories, ingrédients et guides associés en liens internes.
-6. Ajouter les données structurées `Recipe`, `BreadcrumbList`, `ItemList`, `WebSite`, `Organization` et `WebPage`.
+6. Valider les données structurées dans Rich Results Test et Schema Markup Validator.
 7. Ajouter les images locales `{slug}.webp` et vérifier les `alt`.
 8. Créer des pages individuelles pour les guides.
 9. Créer une page index `/ingredients` si les ingrédients doivent devenir un axe SEO.

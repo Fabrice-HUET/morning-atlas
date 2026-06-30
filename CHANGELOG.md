@@ -11,6 +11,7 @@ Format inspiré de Keep a Changelog.
 - Documents de suivi projet : roadmap, journal de bord et tracker éditorial.
 - Suivi des images locales de petits-déjeuners attendues dans `public/images/breakfasts/`.
 - Socle SEO P0 avec `app/robots.ts`, `app/sitemap.ts`, canonicals, Open Graph et Twitter cards.
+- Données structurées JSON-LD pour `WebSite`, `Organization`, `WebPage`, `ItemList`, `BreadcrumbList` et `Recipe`.
 
 ### Changed
 
@@ -24,7 +25,7 @@ Format inspiré de Keep a Changelog.
 ### Todo
 
 - Ajouter une image sociale par défaut pour les pages sans visuel de recette.
-- Ajouter les données structurées JSON-LD prévues dans le plan SEO.
+- Valider les données structurées JSON-LD avec les outils Google et Schema.org après déploiement.
 - Compléter les lots éditoriaux dans `docs/CONTENT_TRACKER.md`.
 - Réduire progressivement les fiches `needsReview: true`.
 

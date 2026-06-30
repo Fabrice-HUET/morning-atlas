@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Footer } from '@/components/layout/Footer'
 import { Navbar } from '@/components/layout/Navbar'
 import { DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/seo'
+import { buildOrganizationJsonLd, buildWebSiteJsonLd, serializeJsonLd } from '@/lib/structured-data'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -29,9 +30,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const jsonLd = [buildWebSiteJsonLd(), buildOrganizationJsonLd()]
+
   return (
     <html lang="fr">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: serializeJsonLd(jsonLd),
+          }}
+        />
         <Navbar />
         {children}
         <Footer />

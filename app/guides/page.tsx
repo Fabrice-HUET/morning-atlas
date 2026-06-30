@@ -6,6 +6,7 @@ import { SectionHeading } from '@/components/layout/SectionHeading'
 import { guides } from '@/data/guides'
 import { getCountriesBySlugs } from '@/lib/content-helpers'
 import { buildPageMetadata } from '@/lib/seo'
+import { buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
 export const metadata: Metadata = buildPageMetadata({
   title: 'Guides — Morning Atlas',
@@ -14,8 +15,20 @@ export const metadata: Metadata = buildPageMetadata({
 })
 
 export default function GuidesPage() {
+  const jsonLd = buildWebPageJsonLd({
+    name: 'Guides — Morning Atlas',
+    description: 'Guides et comparatifs autour des petits-déjeuners du monde.',
+    path: '/guides',
+  })
+
   return (
     <main className="bg-cream py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeJsonLd(jsonLd),
+        }}
+      />
       <Container>
         <SectionHeading
           level={1}

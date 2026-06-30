@@ -7,6 +7,7 @@ import { SectionHeading } from '@/components/layout/SectionHeading'
 import { categories } from '@/data/categories'
 import { getCategoryBySlug, getCountriesByCategory } from '@/lib/content-helpers'
 import { buildPageMetadata } from '@/lib/seo'
+import { buildBreadcrumbJsonLd, buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
 type CategoryPageProps = {
   params: Promise<{ slug: string }>
@@ -42,9 +43,27 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   const countries = getCountriesByCategory(category.slug)
+  const jsonLd = [
+    buildBreadcrumbJsonLd([
+      { name: 'Accueil', path: '/' },
+      { name: 'Catégories', path: '/categories' },
+      { name: category.name, path: `/categories/${category.slug}` },
+    ]),
+    buildWebPageJsonLd({
+      name: category.name,
+      description: category.description,
+      path: `/categories/${category.slug}`,
+    }),
+  ]
 
   return (
     <main className="bg-cream py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeJsonLd(jsonLd),
+        }}
+      />
       <Container>
         <SectionHeading level={1} eyebrow="Catégorie" title={category.name} description={category.description} />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

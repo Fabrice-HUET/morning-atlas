@@ -7,6 +7,7 @@ import { FeaturedRecipes } from '@/components/sections/FeaturedRecipes'
 import { FutureRoadmap } from '@/components/sections/FutureRoadmap'
 import { HeroSection } from '@/components/sections/HeroSection'
 import { DEFAULT_DESCRIPTION, buildPageMetadata } from '@/lib/seo'
+import { buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
 export const metadata: Metadata = buildPageMetadata({
   title: 'Morning Atlas — Petits-déjeuners du monde',
@@ -15,8 +16,20 @@ export const metadata: Metadata = buildPageMetadata({
 })
 
 export default function Home() {
+  const jsonLd = buildWebPageJsonLd({
+    name: 'Morning Atlas — Petits-déjeuners du monde',
+    description: DEFAULT_DESCRIPTION,
+    path: '/',
+  })
+
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeJsonLd(jsonLd),
+        }}
+      />
       <HeroSection />
       <EditorialPromise />
       <FeaturedCountries />

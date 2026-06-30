@@ -12,6 +12,38 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-06-30 — Données structurées JSON-LD
+
+- Date : `2026-06-30`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO, technique, documentation
+- Résumé : ajout de données structurées JSON-LD minimales et alignées avec le contenu visible des pages publiques.
+- Fichiers modifiés :
+  - `lib/structured-data.ts`
+  - `app/layout.tsx`
+  - `app/page.tsx`
+  - `app/countries/page.tsx`
+  - `app/recipes/page.tsx`
+  - `app/guides/page.tsx`
+  - `app/about/page.tsx`
+  - `app/countries/[slug]/page.tsx`
+  - `app/recipes/[slug]/page.tsx`
+  - `app/categories/[slug]/page.tsx`
+  - `app/ingredients/[slug]/page.tsx`
+  - `docs/SEO_LLM_PLAN.md`
+  - `docs/PROJECT_LOG.md`
+  - `CHANGELOG.md`
+- Décisions prises :
+  - Le JSON-LD est centralisé dans `lib/structured-data.ts`.
+  - `WebSite` et `Organization` restent globaux et n’inventent pas de logo.
+  - `Recipe` utilise uniquement le nom, la description, l’image, l’origine visible, les ingrédients, les étapes, l’URL et `mainEntityOfPage`.
+  - Les pages dynamiques disposent de breadcrumbs simples : accueil, section, page courante.
+- Problèmes rencontrés :
+  - Les pages individuelles de guides n’existent pas encore, donc aucun `BreadcrumbList` de guide individuel n’est ajouté.
+  - Les champs avancés de recette comme calories, nutrition, avis, auteur ou logo sont volontairement exclus.
+- Prochaine action : valider le balisage avec Rich Results Test et Schema Markup Validator après déploiement ou preview publique.
+
 ## 2026-06-30 — Socle SEO technique P0
 
 - Date : `2026-06-30`

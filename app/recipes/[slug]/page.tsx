@@ -8,6 +8,7 @@ import { Container } from '@/components/layout/Container'
 import { recipes } from '@/data/recipes'
 import { getCountriesBySlugs, getRecipeBySlug } from '@/lib/content-helpers'
 import { breakfastImageUrl, buildPageMetadata } from '@/lib/seo'
+import { buildBreadcrumbJsonLd, buildRecipeJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
 type RecipePageProps = {
   params: Promise<{ slug: string }>
@@ -45,9 +46,23 @@ export default async function RecipePage({ params }: RecipePageProps) {
   }
 
   const countries = getCountriesBySlugs(recipe.countrySlugs)
+  const jsonLd = [
+    buildBreadcrumbJsonLd([
+      { name: 'Accueil', path: '/' },
+      { name: 'Recettes', path: '/recipes' },
+      { name: recipe.title, path: `/recipes/${recipe.slug}` },
+    ]),
+    buildRecipeJsonLd(recipe),
+  ]
 
   return (
     <main className="bg-cream py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeJsonLd(jsonLd),
+        }}
+      />
       <Container>
         <article className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>

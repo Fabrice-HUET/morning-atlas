@@ -15,6 +15,7 @@ import {
   getRecipesBySlugs,
 } from '@/lib/content-helpers'
 import { breakfastImageUrl, buildPageMetadata } from '@/lib/seo'
+import { buildBreadcrumbJsonLd, buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
 type CountryPageProps = {
   params: Promise<{ slug: string }>
@@ -58,9 +59,27 @@ export default async function CountryPage({ params }: CountryPageProps) {
   const categories = getCategoriesBySlugs(country.categorySlugs)
   const ingredients = getIngredientsBySlugs(country.ingredientSlugs)
   const guides = getGuidesForCountry(country.slug)
+  const jsonLd = [
+    buildBreadcrumbJsonLd([
+      { name: 'Accueil', path: '/' },
+      { name: 'Pays', path: '/countries' },
+      { name: country.country, path: `/countries/${country.slug}` },
+    ]),
+    buildWebPageJsonLd({
+      name: country.heroTitle,
+      description: country.shortDescription,
+      path: `/countries/${country.slug}`,
+    }),
+  ]
 
   return (
     <main className="bg-cream py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeJsonLd(jsonLd),
+        }}
+      />
       <Container>
         <article className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>

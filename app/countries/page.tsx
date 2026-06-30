@@ -5,6 +5,7 @@ import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 import { countries } from '@/data/countries'
 import { buildPageMetadata } from '@/lib/seo'
+import { buildItemListJsonLd, buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
 export const metadata: Metadata = buildPageMetadata({
   title: 'Pays — Morning Atlas',
@@ -14,9 +15,30 @@ export const metadata: Metadata = buildPageMetadata({
 
 export default function CountriesPage() {
   const continents = Array.from(new Set(countries.map((country) => country.continent)))
+  const jsonLd = [
+    buildWebPageJsonLd({
+      name: 'Pays — Morning Atlas',
+      description: 'Explorer les petits-déjeuners du monde par pays et régions.',
+      path: '/countries',
+    }),
+    buildItemListJsonLd({
+      name: 'Pays explorés par Morning Atlas',
+      path: '/countries',
+      items: countries.map((country) => ({
+        name: country.country,
+        path: `/countries/${country.slug}`,
+      })),
+    }),
+  ]
 
   return (
     <main className="bg-cream py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: serializeJsonLd(jsonLd),
+        }}
+      />
       <Container>
         <SectionHeading
           level={1}
