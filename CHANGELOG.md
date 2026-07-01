@@ -10,6 +10,7 @@ Format inspiré de Keep a Changelog.
 
 - Documents de suivi projet : roadmap, journal de bord et tracker éditorial.
 - Suivi des images locales de petits-déjeuners attendues dans `public/images/breakfasts/`.
+- Images breakfast locales ajoutées, renommées selon les slugs, converties en WebP et vérifiées.
 - Socle SEO P0 avec `app/robots.ts`, `app/sitemap.ts`, canonicals, Open Graph et Twitter cards.
 - Données structurées JSON-LD pour `WebSite`, `Organization`, `WebPage`, `ItemList`, `BreadcrumbList` et `Recipe`.
 - Composant d’affichage des sources éditoriales sur les pages pays et recettes.
@@ -20,6 +21,7 @@ Format inspiré de Keep a Changelog.
 
 - Hiérarchie des titres corrigée sur les pages publiques qui utilisaient `SectionHeading` comme titre principal.
 - Métadonnées des pages statiques et dynamiques enrichies par type de page.
+- Convention finale des images breakfast stabilisée sur `/images/breakfasts/{slug}.webp`.
 - Sources éditoriales rendues visibles pour les 53 fiches pays et les 53 fiches recettes.
 - Maillage interne renforcé entre pays, recettes, catégories et ingrédients.
 - Sitemap ajusté pour exclure temporairement 33 pages ingrédients trop faibles, dédupliquer les slugs ingrédients et ne pas ajouter de `noindex`.

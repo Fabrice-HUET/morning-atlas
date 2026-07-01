@@ -16,7 +16,7 @@
 
 - Date : `2026-07-01`
 - Branche : `main`
-- Commit : `TODO`
+- Commit : `4e6dc5b`
 - Type de tâche : SEO, technique, documentation
 - Résumé : retrait temporaire du sitemap des 33 pages ingrédients classées trop faibles par l’audit SEO des taxonomies, sans ajout de `noindex`.
 - Fichiers modifiés :
@@ -40,7 +40,7 @@
 
 - Date : `2026-07-01`
 - Branche : `main`
-- Commit : `TODO`
+- Commit : `889e47e`
 - Type de tâche : SEO, audit, documentation
 - Résumé : audit des pages catégories et ingrédients pour identifier les taxonomies solides, les pages à enrichir et les candidates à exclusion temporaire du sitemap ou `noindex`.
 - Fichiers modifiés :
@@ -62,7 +62,7 @@
 
 - Date : `2026-06-30`
 - Branche : `main`
-- Commit : `TODO`
+- Commit : `499db57`
 - Type de tâche : SEO, navigation, technique, documentation
 - Résumé : renforcement du maillage interne entre pages pays, recettes, catégories et ingrédients, sans créer de route supplémentaire.
 - Fichiers modifiés :
@@ -88,7 +88,7 @@
 
 - Date : `2026-06-30`
 - Branche : `main`
-- Commit : `TODO`
+- Commit : `1249dc3`
 - Type de tâche : SEO, éditorial, technique, documentation
 - Résumé : affichage public des sources éditoriales en bas des 53 pages pays et des 53 pages recettes.
 - Fichiers modifiés :
@@ -113,7 +113,7 @@
 
 - Date : `2026-06-30`
 - Branche : `main`
-- Commit : `TODO`
+- Commit : `9ed50a7`
 - Type de tâche : SEO, technique, documentation
 - Résumé : ajout de données structurées JSON-LD minimales et alignées avec le contenu visible des pages publiques.
 - Fichiers modifiés :
@@ -145,7 +145,7 @@
 
 - Date : `2026-06-30`
 - Branche : `main`
-- Commit : `TODO`
+- Commit : `4db596d`
 - Type de tâche : SEO, technique, documentation
 - Résumé : ajout du socle SEO P0 avec `robots.txt`, `sitemap.xml`, canonicals, Open Graph, Twitter cards et H1 dédiés sur les pages publiques ciblées.
 - Fichiers modifiés :
@@ -179,7 +179,7 @@
 
 - Date : `2026-06-30`
 - Branche : `main`
-- Commit : `TODO`
+- Commit : `44d5a4f` / `c1ecf54`
 - Type de tâche : images, validation, documentation
 - Résumé : conversion des 53 images breakfast en WebP, suppression des PNG sources après validation, puis contrôle local des pages liste, détail et composants utilisant `BreakfastImage`.
 - Fichiers modifiés :

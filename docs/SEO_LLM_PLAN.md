@@ -49,7 +49,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Les pages pays et recettes dynamiques possèdent un H1.
 - `SectionHeading` peut maintenant rendre un H1 ou un H2 selon le contexte ; les pages `/countries`, `/recipes`, `/guides`, `/about`, `/categories/{slug}` et `/ingredients/{slug}` ont un H1 dédié.
 - Le contenu principal est textuel et lisible sans dépendre uniquement des images.
-- Le maillage existe, mais reste incomplet :
+- Le maillage principal est renforcé :
   - navigation globale vers accueil, pays, recettes, guides, à propos ;
   - cartes pays vers pages pays ;
   - cartes recettes vers pages recettes ;
@@ -98,7 +98,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Étendre les données structurées uniquement quand le contenu visible le justifie.
 - Maintenir les liens internes entre pays, recettes, catégories et ingrédients.
 - Maintenir une règle de maturité SEO pour les taxonomies avant d’élargir leur indexation.
-- Ajouter des images locales cohérentes, nommées `{slug}.webp`.
+- Maintenir les images locales cohérentes, nommées `{slug}.webp`.
 - Créer des pages individuelles de guides pour cibler les requêtes comparatives.
 - Renforcer la page À propos avec méthode éditoriale, limites, sources, statut de relecture et responsabilité éditoriale.
 - Ajouter des encadrés courts de type “À retenir” pour rendre les pages plus citables par les moteurs IA.
@@ -262,14 +262,14 @@ Position recommandée :
 
 ## Prochaines missions Codex recommandées
 
-1. Créer `app/robots.ts` et `app/sitemap.ts` à partir des données locales.
-2. Ajouter les canonicals, Open Graph et Twitter cards par type de page.
-3. Corriger la hiérarchie H1 sur les pages statiques et taxonomiques.
-4. Valider les données structurées dans Rich Results Test et Schema Markup Validator.
-5. Créer des pages individuelles pour les guides.
-6. Créer une page index `/ingredients` si les ingrédients doivent devenir un axe SEO.
-7. Enrichir les pages catégories et ingrédients avec du contenu introductif.
-8. Enrichir ou réintégrer les 33 ingrédients très faibles retirés temporairement du sitemap quand leur contenu devient suffisant.
+1. Relire les fiches `needsReview: true` et identifier les contenus réellement publiables.
+2. Corriger les titres, descriptions, noms d’ingrédients et textes alternatifs qui contiennent encore du français non accentué.
+3. Valider les données structurées dans Rich Results Test et Schema Markup Validator.
+4. Enrichir les pages catégories et ingrédients avec du contenu introductif.
+5. Enrichir ou réintégrer les 33 ingrédients très faibles retirés temporairement du sitemap quand leur contenu devient suffisant.
+6. Corriger le doublon de slug `fresh-fruit` dans les données ingrédients.
+7. Créer des pages individuelles pour les guides si cet axe devient prioritaire.
+8. Créer une page index `/ingredients` seulement si les ingrédients deviennent un axe SEO assumé.
 9. Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut SEO et publication.
 
 ## Références utilisées
