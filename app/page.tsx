@@ -6,6 +6,7 @@ import { FeaturedCountries } from '@/components/sections/FeaturedCountries'
 import { FeaturedRecipes } from '@/components/sections/FeaturedRecipes'
 import { FutureRoadmap } from '@/components/sections/FutureRoadmap'
 import { HeroSection } from '@/components/sections/HeroSection'
+import { HomeConstructionNotice } from '@/components/sections/HomeConstructionNotice'
 import { DEFAULT_DESCRIPTION, buildPageMetadata } from '@/lib/seo'
 import { buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
@@ -30,6 +31,7 @@ export default function Home() {
           __html: serializeJsonLd(jsonLd),
         }}
       />
+      <HomeConstructionNotice />
       <HeroSection />
       <EditorialPromise />
       <FeaturedCountries />
