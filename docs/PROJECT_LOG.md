@@ -12,6 +12,28 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-01 — Audit SEO des taxonomies
+
+- Date : `2026-07-01`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO, audit, documentation
+- Résumé : audit des pages catégories et ingrédients pour identifier les taxonomies solides, les pages à enrichir et les candidates à exclusion temporaire du sitemap ou `noindex`.
+- Fichiers modifiés :
+  - `docs/TAXONOMY_SEO_AUDIT.md`
+  - `docs/SEO_LLM_PLAN.md`
+  - `docs/PROJECT_LOG.md`
+  - `CHANGELOG.md`
+- Décisions prises :
+  - Aucune modification d’indexation n’est appliquée dans cette mission.
+  - Les 123 catégories restent dans le sitemap pour l’instant, car aucune catégorie n’est vide.
+  - 76 ingrédients sont classés solides, 302 à enrichir et 33 trop faibles pour une indexation autonome.
+  - La recommandation est de préparer une mission dédiée avant toute exclusion du sitemap ou ajout de `noindex`.
+- Problèmes rencontrés :
+  - Les pages taxonomiques restent éditorialement fines malgré le maillage pays/recettes.
+  - Plusieurs ingrédients génériques ou isolés n’ont aucune recette liée.
+- Prochaine action : valider la recommandation, puis enrichir les taxonomies prioritaires ou retirer temporairement les 33 ingrédients très faibles du sitemap.
+
 ## 2026-06-30 — Maillage interne pays, recettes, catégories et ingrédients
 
 - Date : `2026-06-30`

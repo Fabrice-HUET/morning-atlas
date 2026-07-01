@@ -22,6 +22,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Les sources éditoriales sont visibles en bas des 53 pages pays et des 53 pages recettes.
 - Les catégories et ingrédients affichés sur les pages pays et recettes pointent vers leurs pages dédiées quand le slug cible existe.
 - Les pages catégories et ingrédients affichent les recettes liées quand la correspondance est fiable dans les données.
+- L’audit `docs/TAXONOMY_SEO_AUDIT.md` recommande de ne pas modifier l’indexation immédiatement, mais d’enrichir les taxonomies faibles et de préparer une exclusion temporaire pour 33 ingrédients très faibles.
 
 ### SEO technique Next.js
 
@@ -82,6 +83,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 - Les pages guides individuelles n’existent pas encore : le potentiel de requêtes informationnelles longues reste sous-exploité.
 - Les pages catégories et ingrédients restent assez fines éditorialement, même si elles relient désormais pays et recettes.
+- 33 pages ingrédients n’ont pas assez de contenus liés pour être de bons candidats SEO autonomes.
 - Les notes de relecture restent internes : elles ne doivent pas être confondues avec des sources publiques.
 - Toutes les fiches sont encore marquées `needsReview: true`, donc le site ne devrait pas traiter ces contenus comme pleinement publiés.
 - Il manque encore une image sociale par défaut dédiée pour les pages sans visuel de recette.
@@ -95,6 +97,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Maintenir les sources visibles en bas des fiches pays et recettes.
 - Étendre les données structurées uniquement quand le contenu visible le justifie.
 - Maintenir les liens internes entre pays, recettes, catégories et ingrédients.
+- Appliquer une règle de maturité SEO aux taxonomies avant d’élargir leur indexation.
 - Ajouter des images locales cohérentes, nommées `{slug}.webp`.
 - Créer des pages individuelles de guides pour cibler les requêtes comparatives.
 - Renforcer la page À propos avec méthode éditoriale, limites, sources, statut de relecture et responsabilité éditoriale.
@@ -160,6 +163,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 2. Définir quelles fiches peuvent passer de `needsReview: true` à un statut publiable.
 3. Ajouter une image sociale par défaut cohérente pour les pages sans visuel de recette.
 4. Enrichir les pages catégories et ingrédients avec plus de contexte éditorial.
+5. Décider si les 33 ingrédients très faibles doivent être retirés temporairement du sitemap ou passés en `noindex`.
 
 ## Plan d’action moyen terme
 
@@ -191,6 +195,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Créer une page index `/ingredients` si les pages ingrédients doivent être indexées.
 - Créer des pages guide individuelles.
 - Enrichir catégories et ingrédients avec du contenu textuel utile.
+- Retirer temporairement du sitemap ou passer en `noindex` les ingrédients classés trop faibles si la recommandation d’audit est validée.
 
 ### P2 — Visibilité IA avancée
 
@@ -264,7 +269,8 @@ Position recommandée :
 5. Créer des pages individuelles pour les guides.
 6. Créer une page index `/ingredients` si les ingrédients doivent devenir un axe SEO.
 7. Enrichir les pages catégories et ingrédients avec du contenu introductif.
-8. Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut SEO et publication.
+8. Décider du traitement des 33 ingrédients très faibles listés dans `docs/TAXONOMY_SEO_AUDIT.md`.
+9. Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut SEO et publication.
 
 ## Références utilisées
 

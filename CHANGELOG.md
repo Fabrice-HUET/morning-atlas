@@ -14,6 +14,7 @@ Format inspiré de Keep a Changelog.
 - Données structurées JSON-LD pour `WebSite`, `Organization`, `WebPage`, `ItemList`, `BreadcrumbList` et `Recipe`.
 - Composant d’affichage des sources éditoriales sur les pages pays et recettes.
 - Helpers de maillage pour retrouver les recettes par catégorie et par ingrédient.
+- Audit SEO des pages catégories et ingrédients dans `docs/TAXONOMY_SEO_AUDIT.md`.
 
 ### Changed
 
@@ -29,6 +30,7 @@ Format inspiré de Keep a Changelog.
 ### Todo
 
 - Ajouter une image sociale par défaut pour les pages sans visuel de recette.
+- Décider du retrait temporaire du sitemap ou du `noindex` pour les ingrédients trop faibles.
 - Valider les données structurées JSON-LD avec les outils Google et Schema.org après déploiement.
 - Compléter les lots éditoriaux dans `docs/CONTENT_TRACKER.md`.
 - Réduire progressivement les fiches `needsReview: true`.
