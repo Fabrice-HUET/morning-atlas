@@ -60,7 +60,7 @@ export const portuguesePaoComManteigaGalaoRecipe = {
     'coffee-with-milk',
     'buttered-bread',
     'pastelaria',
-    'cafe',
+    'coffee',
     'bica',
     'tosta-mista',
   ],

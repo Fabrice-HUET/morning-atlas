@@ -16,7 +16,7 @@ Morning Atlas est un atlas éditorial des petits-déjeuners du monde : fiches pa
 - Le maillage interne est renforcé entre pays, recettes, catégories et ingrédients.
 - L’audit SEO des taxonomies est documenté dans `docs/TAXONOMY_SEO_AUDIT.md`.
 - 33 ingrédients faibles sont retirés temporairement du sitemap, sans ajout de `noindex` ; les pages restent accessibles via le maillage interne.
-- Une anomalie reste à traiter : le slug ingrédient `fresh-fruit` apparaît deux fois dans les données.
+- L’anomalie de doublon du slug ingrédient `fresh-fruit` est corrigée.
 - Suivi projet, roadmap, journal de bord, tracker éditorial, rapports images, plan SEO, audit taxonomies et changelog sont structurés en Markdown.
 
 ## Phases du projet
@@ -33,7 +33,6 @@ Morning Atlas est un atlas éditorial des petits-déjeuners du monde : fiches pa
 
 - Relire les fiches `needsReview: true` pour identifier les contenus réellement publiables.
 - Enrichir les pages catégories et ingrédients prioritaires avec une introduction éditoriale courte.
-- Corriger le doublon de slug `fresh-fruit` dans les données ingrédients lors d’une mission éditoriale dédiée.
 - Valider les données structurées avec Rich Results Test et Schema Markup Validator après déploiement ou preview publique.
 - Vérifier dans Search Console l’effet de l’exclusion temporaire des 33 ingrédients faibles du sitemap.
 - Ajouter une image sociale par défaut cohérente pour les pages sans visuel de recette.

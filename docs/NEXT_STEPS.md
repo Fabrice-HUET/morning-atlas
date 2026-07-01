@@ -10,6 +10,7 @@
 - Le maillage interne relie pays, recettes, catégories et ingrédients.
 - L’audit des taxonomies est documenté dans `docs/TAXONOMY_SEO_AUDIT.md`.
 - 33 ingrédients faibles sont exclus temporairement du sitemap, sans `noindex`.
+- Le doublon de slug ingrédient `fresh-fruit` est corrigé.
 
 ## Terminé
 
@@ -21,13 +22,13 @@
 - Renforcement du maillage interne entre pages éditoriales et taxonomiques.
 - Audit SEO des pages catégories et ingrédients.
 - Retrait temporaire du sitemap des 33 ingrédients les plus faibles.
+- Correction du doublon de slug ingrédient `fresh-fruit`.
 
 ## Reste à faire
 
 - Relire les fiches `needsReview: true` et décider lesquelles sont publiables.
 - Corriger les accents et formulations restantes dans les données éditoriales.
 - Enrichir les catégories et ingrédients prioritaires avec une courte introduction éditoriale.
-- Corriger le doublon de slug `fresh-fruit` dans les données ingrédients.
 - Valider le JSON-LD avec Rich Results Test et Schema Markup Validator.
 - Ajouter une image sociale par défaut pour les pages sans visuel de recette.
 - Surveiller Search Console après publication.
@@ -39,7 +40,6 @@ Traiter la qualité éditoriale avant d’ajouter de nouvelles fonctionnalités 
 ## Risques / TODO
 
 - Toutes les fiches restent marquées `needsReview: true`.
-- Le slug ingrédient `fresh-fruit` apparaît deux fois dans les données.
 - Les 302 ingrédients intermédiaires restent éditorialement fins.
 - Les 33 ingrédients exclus du sitemap restent accessibles via le maillage interne, mais ne doivent pas être réintégrés sans enrichissement.
 - Les pages guides individuelles n’existent pas encore.

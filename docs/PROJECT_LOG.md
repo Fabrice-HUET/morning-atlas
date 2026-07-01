@@ -12,6 +12,35 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-01 — Correction du doublon ingrédient `fresh-fruit`
+
+- Date : `2026-07-01`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : données, validation, documentation
+- Résumé : suppression de l’entrée ingrédient redondante `fresh-fruit` en conservant l’entrée canonique `Fruits frais`.
+- Fichiers modifiés :
+  - `data/ingredients.ts`
+  - `data/tags.ts`
+  - `data/countries.ts`
+  - `data/recipes/europe/portugal/portuguese-pao-com-manteiga-galao.ts`
+  - `docs/PROJECT_LOG.md`
+  - `docs/NEXT_STEPS.md`
+  - `docs/TAXONOMY_SEO_AUDIT.md`
+  - `docs/ROADMAP.md`
+  - `docs/SEO_LLM_PLAN.md`
+  - `CHANGELOG.md`
+- Décisions prises :
+  - Le slug canonique reste `fresh-fruit`.
+  - L’entrée conservée est `Fruits frais`, plus adaptée aux références existantes qui parlent de fruits servis en accompagnement.
+  - Les références internes vers `fresh-fruit` ne changent pas.
+  - Les références de tags invalides détectées pendant la validation sont corrigées : `cafe` devient `coffee`, `pastry` est ajouté comme tag canonique et le doublon `cold-cuts` est supprimé.
+  - Aucun `noindex`, aucune route et aucun lien interne ne sont modifiés.
+- Problèmes rencontrés :
+  - Le doublon était une redondance sémantique, pas deux ingrédients distincts.
+  - La validation a révélé des anomalies de tags indépendantes du doublon `fresh-fruit`.
+- Prochaine action : poursuivre la relecture éditoriale des fiches `needsReview: true`.
+
 ## 2026-07-01 — Exclusion temporaire des ingrédients faibles du sitemap
 
 - Date : `2026-07-01`

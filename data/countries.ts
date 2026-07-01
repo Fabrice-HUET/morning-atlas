@@ -6394,7 +6394,7 @@ export const countries = [
       'coffee-with-milk',
       'buttered-bread',
       'pastelaria',
-      'cafe',
+      'coffee',
       'bica',
       'tosta-mista',
     ],

@@ -396,7 +396,6 @@ export const ingredients = [
   { slug: 'cuban-bread', name: 'Pain cubain', description: 'Pain leger de type baguette utilise pour tostadas et sandwiches cubains.', type: 'bread' },
   { slug: 'cuban-coffee', name: 'Cafe cubain', description: 'Cafe fort, souvent sucre, utilise dans cafe con leche ou boissons cubaines.', type: 'beverage' },
   { slug: 'whole-milk', name: 'Lait entier', description: 'Lait entier chauffe ou utilise dans boissons et preparations du matin.', type: 'dairy' },
-  { slug: 'fresh-fruit', name: 'Fruit frais', description: 'Fruit servi en accompagnement simple du petit-dejeuner.', type: 'fruit' },
   { slug: 'brotchen', name: 'Brötchen', description: 'Petit pain allemand croustillant servi au petit-dejeuner.', type: 'bread' },
   { slug: 'whole-grain-bread', name: 'Pain complet', description: 'Pain a base de farine complete ou de grains entiers.', type: 'bread' },
   { slug: 'salami', name: 'Salami', description: 'Charcuterie seche servie en tranches avec pain ou plateaux.', type: 'meat' },

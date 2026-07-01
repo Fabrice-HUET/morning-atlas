@@ -29,6 +29,8 @@ Format inspiré de Keep a Changelog.
 ### Fixed
 
 - Accents et formulations SEO visibles corrigés sur les pages statiques principales.
+- Doublon de slug ingrédient `fresh-fruit` corrigé dans les données.
+- Références de tags invalides corrigées et doublon de tag `cold-cuts` supprimé.
 
 ### Todo
 
@@ -37,7 +39,6 @@ Format inspiré de Keep a Changelog.
 - Compléter les lots éditoriaux dans `docs/CONTENT_TRACKER.md`.
 - Réduire progressivement les fiches `needsReview: true`.
 - Enrichir ou réintégrer les ingrédients faibles retirés temporairement du sitemap.
-- Corriger le doublon de slug `fresh-fruit` dans les données ingrédients lors d’une mission éditoriale dédiée.
 
 ## 0.1.0 - Initial content foundation
 

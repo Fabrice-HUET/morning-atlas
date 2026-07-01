@@ -267,10 +267,9 @@ Position recommandée :
 3. Valider les données structurées dans Rich Results Test et Schema Markup Validator.
 4. Enrichir les pages catégories et ingrédients avec du contenu introductif.
 5. Enrichir ou réintégrer les 33 ingrédients très faibles retirés temporairement du sitemap quand leur contenu devient suffisant.
-6. Corriger le doublon de slug `fresh-fruit` dans les données ingrédients.
-7. Créer des pages individuelles pour les guides si cet axe devient prioritaire.
-8. Créer une page index `/ingredients` seulement si les ingrédients deviennent un axe SEO assumé.
-9. Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut SEO et publication.
+6. Créer des pages individuelles pour les guides si cet axe devient prioritaire.
+7. Créer une page index `/ingredients` seulement si les ingrédients deviennent un axe SEO assumé.
+8. Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut SEO et publication.
 
 ## Références utilisées
 

@@ -3,6 +3,7 @@ import type { Tag } from '@/types/taxonomy'
 export const tags = [
   { slug: 'traditional-breakfast', label: 'Petit-dejeuner traditionnel', description: 'Associe a une habitude locale documentee.' },
   { slug: 'sweet-morning', label: 'Matin sucre', description: 'Profil doux, sucre ou patissier.' },
+  { slug: 'pastry', label: 'Patisserie', description: 'Patisseries, viennoiseries et douceurs du matin.' },
   { slug: 'savory-morning', label: 'Matin sale', description: 'Profil sale, epice ou umami.' },
   { slug: 'drink-included', label: 'Boisson incluse', description: 'La boisson fait partie de l experience.' },
   { slug: 'protein-rich', label: 'Riche en proteines', description: 'Oeufs, haricots, poisson, viande ou laitage.' },
@@ -529,7 +530,6 @@ export const tags = [
   { slug: 'semmel', label: 'Semmel', description: 'Nom regional de petits pains dans certaines regions germanophones.' },
   { slug: 'schrippe', label: 'Schrippe', description: 'Nom regional berlinois ou nord-est allemand pour petit pain.' },
   { slug: 'bread-rolls', label: 'Petits pains', description: 'Petits pains individuels servis au petit-dejeuner.' },
-  { slug: 'cold-cuts', label: 'Charcuterie', description: 'Charcuteries froides servies avec pain ou plateaux.' },
   { slug: 'soft-boiled-egg', label: 'Oeuf a la coque', description: 'Oeuf cuit a la coque, souvent servi au petit-dejeuner.' },
   { slug: 'greece', label: 'Grece', description: 'Contenus rattaches a la Grece.' },
   { slug: 'greek-yogurt', label: 'Yaourt grec', description: 'Yaourt epais et egoutte associe a la Grece.' },

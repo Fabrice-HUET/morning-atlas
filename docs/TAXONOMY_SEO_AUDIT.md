@@ -13,7 +13,7 @@ Décision appliquée le 2026-07-01 : les 33 ingrédients très faibles sont reti
 - `app/categories/[slug]/page.tsx` affiche le titre, la description, les pays associés et les recettes liées.
 - `app/ingredients/[slug]/page.tsx` affiche le titre, la description, le type, les pays associés et les recettes liées.
 - `app/sitemap.ts` inclut toutes les catégories et les ingrédients suffisamment solides ; 33 ingrédients très faibles sont exclus temporairement du sitemap.
-- Le sitemap déduplique les slugs ingrédients au moment de la génération, car `fresh-fruit` apparaît deux fois dans les données sources.
+- Le sitemap garde une déduplication défensive des slugs ingrédients ; le doublon `fresh-fruit` détecté pendant l’audit a été corrigé dans les données.
 - `lib/content-helpers.ts` fournit les associations pays/recettes par catégorie et par ingrédient.
 - Aucun `noindex` spécifique n’est défini sur ces pages.
 - Les pages ne contiennent pas encore de texte éditorial enrichi au-delà de la description courte de taxonomie.
