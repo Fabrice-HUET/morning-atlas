@@ -2,17 +2,18 @@
 
 ## Résumé
 
-Cet audit vérifie les pages `/categories/{slug}` et `/ingredients/{slug}` actuellement incluses dans `app/sitemap.ts`.
+Cet audit vérifie les pages `/categories/{slug}` et `/ingredients/{slug}` concernées par la génération de `app/sitemap.ts`.
 
 Constat principal : les pages existent, ont un H1, une metadata, un `WebPage` JSON-LD, une description et des liens internes vers pays et recettes. Elles restent toutefois éditorialement fines, car elles ne proposent pas encore d’introduction spécifique, d’explication culturelle, de source dédiée ou de bloc court de synthèse.
 
-Recommandation : ne pas modifier l’indexation dans cette mission. Garder les catégories dans le sitemap pour l’instant, enrichir les catégories faibles, garder indexables les ingrédients solides, et prévoir une mission dédiée pour retirer temporairement du sitemap les ingrédients sans recette liée ou avec un seul pays associé.
+Décision appliquée le 2026-07-01 : les 33 ingrédients très faibles sont retirés temporairement du sitemap, sans ajout de `noindex`. Les pages restent accessibles, les liens internes sont conservés, les catégories restent dans le sitemap et les données éditoriales ne sont pas modifiées.
 
 ## État actuel
 
 - `app/categories/[slug]/page.tsx` affiche le titre, la description, les pays associés et les recettes liées.
 - `app/ingredients/[slug]/page.tsx` affiche le titre, la description, le type, les pays associés et les recettes liées.
-- `app/sitemap.ts` inclut toutes les catégories et tous les ingrédients.
+- `app/sitemap.ts` inclut toutes les catégories et les ingrédients suffisamment solides ; 33 ingrédients très faibles sont exclus temporairement du sitemap.
+- Le sitemap déduplique les slugs ingrédients au moment de la génération, car `fresh-fruit` apparaît deux fois dans les données sources.
 - `lib/content-helpers.ts` fournit les associations pays/recettes par catégorie et par ingrédient.
 - Aucun `noindex` spécifique n’est défini sur ces pages.
 - Les pages ne contiennent pas encore de texte éditorial enrichi au-delà de la description courte de taxonomie.
@@ -105,9 +106,9 @@ Aucune catégorie n’a 0 ou 1 contenu lié. Les catégories faibles ont génér
 
 Exemples de catégories à enrichir : `american-breakfasts`, `bangladeshi-breakfasts`, `british-breakfasts`, `cereal-breakfasts`, `fish-breakfasts`, `french-breakfasts`, `japanese-breakfasts`, `kopitiam-breakfasts`, `meat-breakfasts`, `toast-breakfasts`, `yogurt-breakfasts`.
 
-### Ingrédients à retirer temporairement du sitemap ou passer en noindex
+### Ingrédients retirés temporairement du sitemap
 
-Ces ingrédients n’ont aucune recette liée ou seulement un pays associé sans recette correspondante. Ils sont les candidats les plus clairs pour une exclusion temporaire du sitemap dans une mission séparée.
+Ces ingrédients n’ont aucune recette liée ou seulement un pays associé sans recette correspondante. Ils sont exclus temporairement du sitemap depuis le 2026-07-01. Aucun `noindex` n’est ajouté : les pages restent accessibles via le maillage interne.
 
 | Slug | Nom | Pays | Recettes | Total |
 | --- | --- | ---: | ---: | ---: |
@@ -150,7 +151,7 @@ Ces ingrédients n’ont aucune recette liée ou seulement un pays associé sans
 - Indexer 411 pages ingrédients alors que beaucoup n’ont qu’un seul usage peut diluer la qualité globale du site.
 - Les pages ingrédients faibles peuvent ressembler à des pages de navigation générées automatiquement si elles ne contiennent qu’une description courte et une liste très réduite.
 - Les pages catégories faibles peuvent être utiles pour le maillage, mais trop minces pour cibler une requête SEO autonome.
-- Le sitemap signale actuellement toutes les taxonomies comme indexables, sans distinction de maturité éditoriale.
+- Le sitemap ne signale plus les 33 ingrédients les plus faibles, mais les ingrédients intermédiaires restent nombreux et doivent encore être enrichis.
 - Les pages sans contenu éditorial dédié risquent de moins bien répondre aux moteurs IA, même si elles sont crawlables.
 
 ## Options possibles
@@ -158,14 +159,14 @@ Ces ingrédients n’ont aucune recette liée ou seulement un pays associé sans
 ### Option A — Tout garder indexable pour l’instant
 
 - Avantage : pas de changement technique risqué, toutes les pages restent crawlables.
-- Limite : les ingrédients très faibles restent signalés dans le sitemap.
-- Pertinence : acceptable à court terme si le site n’est pas encore largement publié.
+- Limite : les ingrédients très faibles seraient à nouveau signalés dans le sitemap.
+- Pertinence : option écartée pour les 33 ingrédients très faibles après validation de l’audit.
 
 ### Option B — Retirer temporairement les ingrédients faibles du sitemap
 
 - Avantage : réduit le volume de pages fines signalées à Google.
 - Limite : les pages restent accessibles via le maillage, sauf ajout d’un `noindex` séparé.
-- Pertinence : recommandée pour les 33 ingrédients classés `retirer temporairement du sitemap ou noindex`, après validation humaine.
+- Pertinence : option appliquée le 2026-07-01 pour les 33 ingrédients classés `retirer temporairement du sitemap ou noindex`.
 
 ### Option C — Ajouter `noindex` aux ingrédients faibles
 
@@ -181,17 +182,16 @@ Ces ingrédients n’ont aucune recette liée ou seulement un pays associé sans
 
 ## Recommandation finale
 
-1. Ne pas modifier l’indexation dans cette mission.
-2. Garder toutes les catégories dans le sitemap pour l’instant, car aucune catégorie n’est vide.
-3. Garder indexables les 76 ingrédients solides.
+1. Garder toutes les catégories dans le sitemap pour l’instant, car aucune catégorie n’est vide.
+2. Garder indexables les 76 ingrédients solides.
+3. Retirer temporairement du sitemap les 33 ingrédients très faibles listés ci-dessus, sans ajouter de `noindex`.
 4. Enrichir les 302 ingrédients intermédiaires avant de les considérer comme des pages SEO solides.
-5. Préparer une mission dédiée pour retirer temporairement du sitemap, ou passer en `noindex`, les 33 ingrédients très faibles listés ci-dessus.
-6. Ajouter progressivement une introduction éditoriale courte aux taxonomies prioritaires : définition, contexte culturel, exemples, liens vers pays et recettes.
+5. Ajouter progressivement une introduction éditoriale courte aux taxonomies prioritaires : définition, contexte culturel, exemples, liens vers pays et recettes.
 
 ## Prochaines actions
 
 - Créer une règle documentée de maturité SEO pour les taxonomies : `indexable`, `needsEnrichment`, `noindexCandidate`.
 - Ajouter une introduction éditoriale courte aux catégories solides et aux ingrédients les plus recherchables.
-- Retirer temporairement du sitemap les 33 ingrédients très faibles si la recommandation est validée.
+- Surveiller l’impact de l’exclusion temporaire des 33 ingrédients faibles dans Search Console après déploiement.
 - Créer une page index `/ingredients` seulement si les ingrédients deviennent un axe de navigation public assumé.
 - Surveiller Search Console après publication pour repérer les pages taxonomiques avec impressions mais faible engagement.

@@ -22,6 +22,7 @@ Format inspiré de Keep a Changelog.
 - Métadonnées des pages statiques et dynamiques enrichies par type de page.
 - Sources éditoriales rendues visibles pour les 53 fiches pays et les 53 fiches recettes.
 - Maillage interne renforcé entre pays, recettes, catégories et ingrédients.
+- Sitemap ajusté pour exclure temporairement 33 pages ingrédients trop faibles, dédupliquer les slugs ingrédients et ne pas ajouter de `noindex`.
 
 ### Fixed
 
@@ -30,10 +31,11 @@ Format inspiré de Keep a Changelog.
 ### Todo
 
 - Ajouter une image sociale par défaut pour les pages sans visuel de recette.
-- Décider du retrait temporaire du sitemap ou du `noindex` pour les ingrédients trop faibles.
 - Valider les données structurées JSON-LD avec les outils Google et Schema.org après déploiement.
 - Compléter les lots éditoriaux dans `docs/CONTENT_TRACKER.md`.
 - Réduire progressivement les fiches `needsReview: true`.
+- Enrichir ou réintégrer les ingrédients faibles retirés temporairement du sitemap.
+- Corriger le doublon de slug `fresh-fruit` dans les données ingrédients lors d’une mission éditoriale dédiée.
 
 ## 0.1.0 - Initial content foundation
 

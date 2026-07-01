@@ -4,16 +4,16 @@
 
 Morning Atlas dispose déjà d’un socle éditorial solide : routes App Router statiques, slugs propres, contenus textuels en dur, fiches pays et recettes reliées, champs SEO présents dans les données et page À propos existante.
 
-Le site a désormais un socle SEO technique P0 : `robots.txt`, `sitemap.xml`, canonicals, métadonnées par type de page, Open Graph, Twitter cards, images locales, H1 dédiés sur les pages publiques ciblées, premières données structurées JSON-LD cohérentes avec le contenu visible, sources éditoriales affichées sur les pages pays et recettes, et maillage interne renforcé entre pays, recettes, catégories et ingrédients. Les priorités restantes sont surtout éditoriales : relire les fiches `needsReview`, enrichir les pages fines et stabiliser les guides.
+Le site a désormais un socle SEO technique P0 : `robots.txt`, `sitemap.xml`, canonicals, métadonnées par type de page, Open Graph, Twitter cards, images locales, H1 dédiés sur les pages publiques ciblées, premières données structurées JSON-LD cohérentes avec le contenu visible, sources éditoriales affichées sur les pages pays et recettes, et maillage interne renforcé entre pays, recettes, catégories et ingrédients. Le sitemap exclut temporairement 33 ingrédients très faibles identifiés par l’audit SEO des taxonomies, sans ajout de `noindex`. Les priorités restantes sont surtout éditoriales : relire les fiches `needsReview`, enrichir les pages fines et stabiliser les guides.
 
 Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccourci spécifique fiable. Le socle à renforcer reste le même : pages crawlables, indexables, utiles, sourcées, structurées, avec des réponses claires et des liens internes explicites.
 
 ## État actuel
 
-### Mise à jour 2026-06-30 — socle SEO P0
+### Mise à jour 2026-07-01 — socle SEO P0
 
 - `app/robots.ts` et `app/sitemap.ts` sont en place pour le domaine `https://morning-atlas.fr`.
-- Le sitemap est généré depuis les données locales et couvre l’accueil, les pages statiques publiques, les pays, les recettes, les catégories et les ingrédients.
+- Le sitemap est généré depuis les données locales et couvre l’accueil, les pages statiques publiques, les pays, les recettes, les catégories et les ingrédients suffisamment solides.
 - Les pages indexables disposent de canonicals explicites via `alternates.canonical`.
 - Les métadonnées incluent désormais Open Graph et Twitter cards, avec image sociale locale pour les pages recettes et les pages pays quand une recette associée existe.
 - Les pages `/countries`, `/recipes`, `/guides`, `/about`, `/categories/{slug}` et `/ingredients/{slug}` disposent d’un H1 dédié via `SectionHeading`.
@@ -22,7 +22,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Les sources éditoriales sont visibles en bas des 53 pages pays et des 53 pages recettes.
 - Les catégories et ingrédients affichés sur les pages pays et recettes pointent vers leurs pages dédiées quand le slug cible existe.
 - Les pages catégories et ingrédients affichent les recettes liées quand la correspondance est fiable dans les données.
-- L’audit `docs/TAXONOMY_SEO_AUDIT.md` recommande de ne pas modifier l’indexation immédiatement, mais d’enrichir les taxonomies faibles et de préparer une exclusion temporaire pour 33 ingrédients très faibles.
+- L’audit `docs/TAXONOMY_SEO_AUDIT.md` a conduit à l’exclusion temporaire de 33 ingrédients très faibles du sitemap, sans ajout de `noindex`. Le sitemap déduplique aussi les slugs ingrédients pour éviter les URLs répétées.
 
 ### SEO technique Next.js
 
@@ -83,7 +83,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 - Les pages guides individuelles n’existent pas encore : le potentiel de requêtes informationnelles longues reste sous-exploité.
 - Les pages catégories et ingrédients restent assez fines éditorialement, même si elles relient désormais pays et recettes.
-- 33 pages ingrédients n’ont pas assez de contenus liés pour être de bons candidats SEO autonomes.
+- 33 pages ingrédients n’ont pas assez de contenus liés pour être de bons candidats SEO autonomes et sont temporairement retirées du sitemap.
 - Les notes de relecture restent internes : elles ne doivent pas être confondues avec des sources publiques.
 - Toutes les fiches sont encore marquées `needsReview: true`, donc le site ne devrait pas traiter ces contenus comme pleinement publiés.
 - Il manque encore une image sociale par défaut dédiée pour les pages sans visuel de recette.
@@ -91,13 +91,13 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 
 ## Opportunités SEO principales
 
-- Maintenir le sitemap généré depuis les données locales : pays, recettes, catégories, ingrédients et pages statiques.
+- Maintenir le sitemap généré depuis les données locales : pages statiques, pays, recettes, catégories et ingrédients retenus.
 - Garder les canonicals et métadonnées dynamiques alignés avec les routes réellement indexables.
 - Ajouter une image sociale par défaut dédiée pour les pages sans visuel de recette.
 - Maintenir les sources visibles en bas des fiches pays et recettes.
 - Étendre les données structurées uniquement quand le contenu visible le justifie.
 - Maintenir les liens internes entre pays, recettes, catégories et ingrédients.
-- Appliquer une règle de maturité SEO aux taxonomies avant d’élargir leur indexation.
+- Maintenir une règle de maturité SEO pour les taxonomies avant d’élargir leur indexation.
 - Ajouter des images locales cohérentes, nommées `{slug}.webp`.
 - Créer des pages individuelles de guides pour cibler les requêtes comparatives.
 - Renforcer la page À propos avec méthode éditoriale, limites, sources, statut de relecture et responsabilité éditoriale.
@@ -106,7 +106,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 ## Checklist technique
 
 - [x] Ajouter `app/robots.ts` ou `app/robots.txt`.
-- [x] Ajouter `app/sitemap.ts` avec toutes les URLs indexables.
+- [x] Ajouter `app/sitemap.ts` avec les URLs indexables et exclure temporairement les ingrédients trop faibles.
 - [x] Définir les canonicals via `alternates.canonical`.
 - [x] Ajouter une stratégie Open Graph par type de page.
 - [x] Ajouter les Twitter cards.
@@ -163,7 +163,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 2. Définir quelles fiches peuvent passer de `needsReview: true` à un statut publiable.
 3. Ajouter une image sociale par défaut cohérente pour les pages sans visuel de recette.
 4. Enrichir les pages catégories et ingrédients avec plus de contexte éditorial.
-5. Décider si les 33 ingrédients très faibles doivent être retirés temporairement du sitemap ou passés en `noindex`.
+5. Enrichir ou reclasser les 33 ingrédients très faibles actuellement retirés du sitemap.
 
 ## Plan d’action moyen terme
 
@@ -195,7 +195,7 @@ Pour Google AI Overviews, AI Mode et les moteurs IA, il n’existe pas de raccou
 - Créer une page index `/ingredients` si les pages ingrédients doivent être indexées.
 - Créer des pages guide individuelles.
 - Enrichir catégories et ingrédients avec du contenu textuel utile.
-- Retirer temporairement du sitemap ou passer en `noindex` les ingrédients classés trop faibles si la recommandation d’audit est validée.
+- Retirer temporairement du sitemap les ingrédients classés trop faibles. Fait le 2026-07-01 sans ajout de `noindex`.
 
 ### P2 — Visibilité IA avancée
 
@@ -269,7 +269,7 @@ Position recommandée :
 5. Créer des pages individuelles pour les guides.
 6. Créer une page index `/ingredients` si les ingrédients doivent devenir un axe SEO.
 7. Enrichir les pages catégories et ingrédients avec du contenu introductif.
-8. Décider du traitement des 33 ingrédients très faibles listés dans `docs/TAXONOMY_SEO_AUDIT.md`.
+8. Enrichir ou réintégrer les 33 ingrédients très faibles retirés temporairement du sitemap quand leur contenu devient suffisant.
 9. Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut SEO et publication.
 
 ## Références utilisées

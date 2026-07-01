@@ -14,6 +14,66 @@ const staticRoutes = [
   { path: '/guides', priority: 0.7 },
 ] as const
 
+// Exclusions temporaires basées sur l’audit `docs/TAXONOMY_SEO_AUDIT.md`.
+// Ces pages restent accessibles et maillées, mais ne sont plus signalées dans le sitemap.
+const INGREDIENT_SLUGS_EXCLUDED_FROM_SITEMAP = [
+  'fish',
+  'meat',
+  'pastry',
+  'porridge',
+  'protein',
+  'soup',
+  'spices',
+  'vegetable',
+  'akara',
+  'amasi',
+  'baladi-bread',
+  'byenda',
+  'cereal-porridge',
+  'chakalaka',
+  'cocoyam',
+  'cocoyam-leaves',
+  'egusi',
+  'fermented-fish',
+  'g-nut-sauce',
+  'grains-of-selim',
+  'green-bell-pepper',
+  'ground-meat',
+  'guinea-pepper',
+  'herbs',
+  'kachumbari',
+  'maas',
+  'mielie-meal',
+  'mint-tea',
+  'moi-moi',
+  'offal',
+  'shaobing',
+  'sweet-potatoes',
+  'xylopia-aethiopica',
+] as const
+
+const ingredientSlugsExcludedFromSitemap = new Set<string>(
+  INGREDIENT_SLUGS_EXCLUDED_FROM_SITEMAP,
+)
+
+function getIngredientsIncludedInSitemap() {
+  const ingredientSlugsIncludedInSitemap = new Set<string>()
+
+  return ingredients.filter((ingredient) => {
+    if (ingredientSlugsExcludedFromSitemap.has(ingredient.slug)) {
+      return false
+    }
+
+    if (ingredientSlugsIncludedInSitemap.has(ingredient.slug)) {
+      return false
+    }
+
+    ingredientSlugsIncludedInSitemap.add(ingredient.slug)
+
+    return true
+  })
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticRoutes.map((route) => ({
@@ -37,7 +97,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.6,
     })),
-    ...ingredients.map((ingredient) => ({
+    ...getIngredientsIncludedInSitemap().map((ingredient) => ({
       url: absoluteUrl(`/ingredients/${ingredient.slug}`),
       changeFrequency: 'monthly' as const,
       priority: 0.5,

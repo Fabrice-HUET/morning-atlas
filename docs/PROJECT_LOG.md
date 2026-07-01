@@ -12,6 +12,30 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-01 — Exclusion temporaire des ingrédients faibles du sitemap
+
+- Date : `2026-07-01`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO, technique, documentation
+- Résumé : retrait temporaire du sitemap des 33 pages ingrédients classées trop faibles par l’audit SEO des taxonomies, sans ajout de `noindex`.
+- Fichiers modifiés :
+  - `app/sitemap.ts`
+  - `docs/TAXONOMY_SEO_AUDIT.md`
+  - `docs/SEO_LLM_PLAN.md`
+  - `docs/PROJECT_LOG.md`
+  - `CHANGELOG.md`
+- Décisions prises :
+  - Les 123 catégories restent dans le sitemap.
+  - Les pages ingrédients restent accessibles et les liens internes existants sont conservés.
+  - Aucun `noindex` n’est ajouté dans cette mission.
+  - Les 33 ingrédients très faibles sont exclus via une constante dédiée dans `app/sitemap.ts`.
+  - Les slugs ingrédients sont dédupliqués dans le sitemap pour éviter une URL répétée.
+- Problèmes rencontrés :
+  - Les pages exclues restent utiles pour le maillage interne, mais ne sont pas encore assez solides pour être signalées dans le sitemap.
+  - Le slug `fresh-fruit` apparaît deux fois dans les données ingrédients ; les données ne sont pas modifiées dans cette mission.
+- Prochaine action : enrichir les taxonomies prioritaires, puis réintégrer les ingrédients exclus quand ils ont suffisamment de contenus liés.
+
 ## 2026-07-01 — Audit SEO des taxonomies
 
 - Date : `2026-07-01`
