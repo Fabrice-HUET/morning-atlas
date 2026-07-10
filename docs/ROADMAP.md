@@ -1,64 +1,108 @@
 # Roadmap Morning Atlas
 
+> Mise à jour le 2026-07-10, sur la base de l'audit complet du 2026-07-02 (`docs/AUDIT_2026-07.md`).
+> Le détail de chaque tâche (critères d'acceptation + prompt agent prêt à coller) vit dans `docs/BACKLOG.md`.
+> L'espace créateur / CV a sa roadmap dédiée : `docs/CREATOR_ROADMAP.md`.
+
 ## Vision
 
 Morning Atlas est un atlas éditorial des petits-déjeuners du monde : fiches pays, recettes simples, ingrédients, catégories et guides doivent former un catalogue clair, sourcé, indexable avec prudence et maintenable.
 
-## État actuel
+## État actuel (audité)
 
-- Application Next.js / TypeScript fonctionnelle, avec routes statiques pour les pays, recettes, catégories, ingrédients et guides.
-- 18 lots de fiches de petits-déjeuners intégrés dans les données du projet.
-- 53 images breakfast locales sont présentes, renommées selon les slugs, converties en WebP et disponibles dans `public/images/breakfasts/{slug}.webp`.
-- L’affichage des images a été vérifié via la convention existante `/images/breakfasts/{slug}.webp`.
-- Le socle SEO P0 est en place : `robots.txt`, `sitemap.xml`, canonicals, métadonnées enrichies, Open Graph, Twitter cards et H1 dédiés.
-- Les données structurées JSON-LD sont en place pour `WebSite`, `Organization`, `WebPage`, `ItemList`, `BreadcrumbList` et `Recipe`.
-- Les sources éditoriales sont visibles sur les 53 pages pays et les 53 pages recettes.
-- Le maillage interne est renforcé entre pays, recettes, catégories et ingrédients.
-- L’audit SEO des taxonomies est documenté dans `docs/TAXONOMY_SEO_AUDIT.md`.
-- 33 ingrédients faibles sont retirés temporairement du sitemap, sans ajout de `noindex` ; les pages restent accessibles via le maillage interne.
-- L’anomalie de doublon du slug ingrédient `fresh-fruit` est corrigée.
-- Suivi projet, roadmap, journal de bord, tracker éditorial, rapports images, plan SEO, audit taxonomies et changelog sont structurés en Markdown.
+**Le socle technique est solide** : lint, typecheck et build passent (652 pages), App Router propre, TypeScript strict, socle SEO P0 réel (sitemap, robots, canonicals, OG, JSON-LD), 53 images WebP alignées sur les slugs, intégrité référentielle parfaite (0 doublon, 0 référence cassée).
+
+**Le blocant est éditorial, pas technique** : 100 % des fiches en `needsReview: true` et la quasi-totalité des textes sans accents français — y compris le H1 de la home. Trois risques structurels : inflation taxonomique (410 ingrédients, 547 tags, 123 catégories pour 53 contenus), fallback image `picsum.photos` contraire à la promesse de précision culturelle, breadcrumbs JSON-LD pointant vers des pages 404.
+
+Voir `docs/AUDIT_2026-07.md` pour le constat détaillé par axe.
 
 ## Phases du projet
 
-1. Fondation applicative : routes, composants, types, taxonomies et données initiales. Fait.
-2. Fondation éditoriale : intégration des lots de fiches, recettes, pays et sources. Fait, avec relecture encore nécessaire.
-3. Fondation visuelle : ajout, mapping, conversion WebP et vérification des images locales des petits-déjeuners. Fait.
-4. Fondation SEO technique : sitemap, robots, canonicals, métadonnées, H1, JSON-LD, sources visibles et maillage interne. Fait.
-5. Maturité éditoriale : relecture des fiches `needsReview`, correction typographique des données, enrichissement des taxonomies et stabilisation des guides. En cours.
-6. Pré-publication : validation Search Console, tests visuels humains, accessibilité, performance, données structurées et corrections ciblées. À faire.
-7. Publication : mise en ligne, suivi des plateformes, logs de version et itérations éditoriales. À faire.
+1. Fondation applicative — **fait**.
+2. Fondation éditoriale (18 lots intégrés) — **fait**, relecture nécessaire.
+3. Fondation visuelle (53 images WebP) — **fait**.
+4. Fondation SEO technique — **fait**, corrections identifiées par l'audit.
+5. **Maturité éditoriale — en cours. C'est la phase actuelle**, structurée par l'ordre d'exécution ci-dessous.
+6. Pré-publication : Search Console, tests visuels, accessibilité, performance — à faire.
+7. Publication et itérations — à faire.
 
-## Prochaines priorités
+## Ordre d'exécution
 
-- Relire les fiches `needsReview: true` pour identifier les contenus réellement publiables.
-- Enrichir les pages catégories et ingrédients prioritaires avec une introduction éditoriale courte.
-- Valider les données structurées avec Rich Results Test et Schema Markup Validator après déploiement ou preview publique.
-- Vérifier dans Search Console l’effet de l’exclusion temporaire des 33 ingrédients faibles du sitemap.
-- Ajouter une image sociale par défaut cohérente pour les pages sans visuel de recette.
+Chaque ID renvoie à sa fiche complète dans `docs/BACKLOG.md` (critères + prompt agent). Ne pas commencer un sprint tant que les tâches bloquantes du précédent ne sont pas livrées.
 
-## Backlog court terme
+### Sprint 0 — Hygiène (≈ ½ journée)
 
-- Corriger les titres, descriptions, noms d’ingrédients et textes alternatifs qui contiennent encore des mots français non accentués.
-- Ajouter des blocs courts de contexte culturel sur les pages pays, recettes, catégories et ingrédients prioritaires.
-- Définir une règle documentaire pour les statuts `indexable`, `needsEnrichment` et `noindexCandidate`.
-- Revoir les 302 ingrédients intermédiaires avant de décider s’ils doivent rester indexables ou être enrichis.
-- Mettre à jour `docs/CONTENT_TRACKER.md` avec un statut de publication plus précis si le suivi éditorial devient prioritaire.
+| Ordre | ID | Tâche |
+| --- | --- | --- |
+| 1 | CODE-01 | Assainir le dépôt : fichier `main` parasite, committer le chantier creator sur une branche |
+| 2 | TOOL-02 | Contraindre Node (`engines` + `.nvmrc`) |
+| 3 | CODE-03 | Sortir `.idea/` et `tsconfig.tsbuildinfo` du versioning |
+| 4 | IMG-02 | Nettoyer les assets template create-next-app |
 
-## Backlog moyen terme
+### Sprint 1 — Bloquants de publication (P0)
 
-- Créer des pages individuelles pour les guides si les guides deviennent un axe SEO éditorial.
-- Créer une page index `/ingredients` seulement si les ingrédients deviennent un axe de navigation public assumé.
-- Renforcer la page À propos avec méthode éditoriale, limites, sources et fréquence de relecture.
-- Ajouter des tests ciblés pour les helpers de contenu si la logique de taxonomies continue à se densifier.
-- Définir une convention stable pour les lots éditoriaux si elle doit vivre dans les données.
-- Envisager un sitemap image une fois les visuels et la stratégie SEO image stabilisés.
+| Ordre | ID | Tâche |
+| --- | --- | --- |
+| 5 | DATA-01 | **Restaurer les accents français partout** (LE chantier bloquant) |
+| 6 | UI-01 | Retirer le badge public « A verifier » / « Publie » |
+| 7 | IMG-01 | Remplacer le fallback picsum.photos par un placeholder local de marque |
+| 8 | SEO-01 | Corriger les breadcrumbs JSON-LD qui pointent vers /categories et /ingredients (404) |
 
-## Idées futures non prioritaires
+### Sprint 2 — Cœur éditorial (P0, l'objet de la phase de test)
 
-- Carte interactive par région ou continent.
-- Pages collections saisonnières ou thématiques.
-- Exports courts pour réseaux sociaux.
-- Comparatifs de petits-déjeuners par ingrédient ou style.
-- Support multilingue après stabilisation du contenu français.
-- Fichier `llms.txt` public uniquement après stabilisation du socle éditorial et SEO.
+| Ordre | ID | Tâche |
+| --- | --- | --- |
+| 9 | EDIT-02 | Documenter le processus de relecture (critères de sortie de `needsReview`) |
+| 10 | EDIT-01 | Relire et valider un lot pilote de 8-12 fiches pays + recettes |
+
+### Sprint 3 — Consolidation SEO (P1)
+
+| Ordre | ID | Tâche |
+| --- | --- | --- |
+| 11 | SEO-02 | Noindex des pages ingrédients fines, seuil calculé depuis les données |
+| 12 | SEO-06 | Sitemap : `lastModified` + exclusions pilotées par les données (partage la logique de SEO-02) |
+| 13 | SEO-05 | Title template global |
+| 14 | SEO-03 | Enrichir le JSON-LD Recipe (temps ISO 8601, portions, keywords) |
+| 15 | SEO-04 | Image Open Graph par défaut de marque |
+| 16 | PAGE-02 | Page index `/categories` |
+| 17 | PAGE-03 | Trancher le cas de l'index `/ingredients` |
+| 18 | PAGE-04 | Page 404 personnalisée |
+
+### Sprint 4 — Design, accessibilité, outillage (P1)
+
+| Ordre | ID | Tâche |
+| --- | --- | --- |
+| 19 | DESIGN-01 | Typographie de marque via next/font |
+| 20 | DESIGN-02 | Unifier les tokens de couleur (@theme vs --ma-*) |
+| 21 | A11Y-01 | Focus trap menu mobile, skip-link, prefers-reduced-motion |
+| 22 | TOOL-01 | CI GitHub Actions : lint + typecheck + build + validation contenu |
+| 23 | DATA-05 | Exposer la validation d'intégrité en script pnpm (préalable utile à TOOL-01) |
+
+### Sprint 5 — Gouvernance des données (P1)
+
+| Ordre | ID | Tâche |
+| --- | --- | --- |
+| 24 | DATA-06 | Traduire les enums affichés bruts (easy, grain, savory…) |
+| 25 | DATA-02 | Unifier la double sémantique tags / tagSlugs |
+| 26 | DATA-03 | Rationaliser les taxonomies (123 catégories, 410 ingrédients, 547 tags) |
+| 27 | DATA-04 | Rendre le flag `featured` significatif |
+| 28 | DATA-07 | Nettoyer les entrées orphelines |
+| 29 | CODE-02 | Déplacer `app/docs/` vers `docs/` |
+
+### Piste parallèle — Espace créateur & CV
+
+Indépendante des sprints 1-5 (seul prérequis : CODE-01). Détail complet, direction artistique et prompts dans **`docs/CREATOR_ROADMAP.md`** :
+
+CREATOR-01 (route groups + layout dédié) → CREATOR-02 (thème « Atelier ») → CREATOR-03 (scène SVG, retrait de three.js) + CREATOR-04 (récit : timeline, compétences, projets) → CREATOR-05 (CV web imprimable + PDF) → CREATOR-06 (SEO Person) → CREATOR-07 (qualité vitrine).
+
+### Après la phase de test (P2 / P3)
+
+- P2 : EDIT-03/04 (introductions taxonomies, page À propos enrichie), SEO-07 (validation post-déploiement), PERF-01 (baseline Lighthouse), A11Y-02 (contrastes), DESIGN-03 (rayons/focus), DOCS-01 (consolidation des docs).
+- P3 (sur-ingénierie assumée en phase test) : PAGE-05 (guides individuels), TOOL-03 (tests unitaires), FEAT-01 → 04 (recherche, carte interactive, multilingue, CMS), SEO-08 (llms.txt + RSS).
+
+## Règles de fonctionnement
+
+- Une tâche = un prompt de `docs/BACKLOG.md` collé dans une session agent, sur une branche dédiée, validé par `pnpm lint && pnpm typecheck && pnpm build`.
+- Après chaque tâche : entrée dans `docs/PROJECT_LOG.md`, case cochée dans `docs/BACKLOG.md`, commit.
+- Aucune invention culturelle, jamais ; en cas de doute éditorial, `needsReview` reste à `true`.
+- Ne pas surconstruire pendant la phase de test 30 jours : tout le P3 attend.

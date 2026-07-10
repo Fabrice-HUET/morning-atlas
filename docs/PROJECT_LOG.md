@@ -12,6 +12,26 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-10 — Restructuration du pilotage : backlog opérationnel et roadmap créateur
+
+- Date : `2026-07-10`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : documentation, pilotage
+- Résumé : intégration de l'audit du 2026-07-02 dans `docs/`, transformation de la roadmap en plan d'exécution ordonné (sprints 0 → 5 + piste parallèle créateur), création du backlog opérationnel avec prompts agent prêts à coller, et création de la roadmap dédiée à l'espace créateur / CV.
+- Fichiers modifiés :
+  - `docs/AUDIT_2026-07.md` (nouveau — copie de l'audit `audit_fable.md`)
+  - `docs/BACKLOG.md` (nouveau — 44 tâches avec prompts, document vivant)
+  - `docs/CREATOR_ROADMAP.md` (nouveau — espace créateur « L'Atelier », CREATOR-01 → 07)
+  - `docs/ROADMAP.md` (réécrit — ordre d'exécution en sprints)
+  - `docs/NEXT_STEPS.md` (réécrit — pointe vers le nouvel ordre)
+- Décisions prises :
+  - L'espace créateur devient une section distincte du site via route groups (`(site)` / `(atelier)`), avec un thème propre « L'Atelier » : palette Mocha Mousse inversée (fond `ink`/`espresso`, accent `honey`), typographie display dédiée.
+  - three.js sera retiré : la démonstration frontend se fait en CSS/SVG natif (scroll-driven animations, tracé SVG), cohérent avec le discours performance du CV. La tâche PAGE-01 est remplacée par CREATOR-01 → 07.
+  - Le CV migre de `docs/cv.html` vers une page `/creator/cv` imprimable (CSS print A4) + PDF dans `public/files/`.
+- Problèmes rencontrés : incohérence d'email dans `data/creator.ts` (gmail vs icloud) — décision utilisateur attendue.
+- Prochaine action : Sprint 0 (`CODE-01` en premier : fichier `main` parasite + commit du chantier creator sur une branche), puis Sprint 1 (`DATA-01` accents).
+
 ## 2026-07-01 — Correction du doublon ingrédient `fresh-fruit`
 
 - Date : `2026-07-01`

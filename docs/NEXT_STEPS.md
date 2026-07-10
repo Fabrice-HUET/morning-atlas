@@ -1,48 +1,37 @@
 # Next steps — Morning Atlas
 
+> Mise à jour le 2026-07-10. Source de vérité pour l'ordre : `docs/ROADMAP.md` (section « Ordre d'exécution »). Détail des tâches et prompts agent : `docs/BACKLOG.md`. Espace créateur / CV : `docs/CREATOR_ROADMAP.md`. Constat complet : `docs/AUDIT_2026-07.md`.
+
 ## État actuel résumé
 
-- Application Next.js / TypeScript fonctionnelle avec pages pays, recettes, catégories, ingrédients, guides et À propos.
-- 53 images breakfast WebP sont présentes dans `public/images/breakfasts/{slug}.webp` et alignées avec les slugs recettes.
-- Le socle SEO P0 est en place : `robots.txt`, `sitemap.xml`, canonicals, métadonnées, Open Graph, Twitter cards et H1 dédiés.
-- Les données structurées JSON-LD sont en place pour les pages principales et dynamiques.
-- Les sources éditoriales sont visibles sur les fiches pays et recettes.
-- Le maillage interne relie pays, recettes, catégories et ingrédients.
-- L’audit des taxonomies est documenté dans `docs/TAXONOMY_SEO_AUDIT.md`.
-- 33 ingrédients faibles sont exclus temporairement du sitemap, sans `noindex`.
-- Le doublon de slug ingrédient `fresh-fruit` est corrigé.
+- Socle technique sain : lint, typecheck, build OK (652 pages), SEO P0 en place, 53 images WebP alignées, intégrité des données parfaite.
+- Blocants identifiés par l'audit : accents français manquants dans la quasi-totalité des textes (y compris le H1 de la home), 100 % des fiches en `needsReview: true`, fallback image picsum.photos, breadcrumbs JSON-LD vers des pages 404, badge interne « A verifier » visible publiquement.
+- Chantier creator non committé sur `main` (page `/creator`, `data/creator.ts`, scène three.js, lien footer) + fichier parasite `main` à la racine.
 
-## Terminé
+## Prochaine mission immédiate
 
-- Mapping, renommage, conversion WebP et vérification des images breakfast.
-- Création de `app/robots.ts` et `app/sitemap.ts`.
-- Ajout des canonicals, métadonnées enrichies, Open Graph et Twitter cards.
-- Ajout du JSON-LD `WebSite`, `Organization`, `WebPage`, `ItemList`, `BreadcrumbList` et `Recipe`.
-- Affichage public des sources sur les pages pays et recettes.
-- Renforcement du maillage interne entre pages éditoriales et taxonomiques.
-- Audit SEO des pages catégories et ingrédients.
-- Retrait temporaire du sitemap des 33 ingrédients les plus faibles.
-- Correction du doublon de slug ingrédient `fresh-fruit`.
+**Sprint 0 puis Sprint 1 de `docs/ROADMAP.md`, dans l'ordre :**
 
-## Reste à faire
+1. `CODE-01` — assainir le git (10 min) : supprimer le fichier `main`, committer le chantier creator sur `feat/creator-page`.
+2. `TOOL-02`, `CODE-03`, `IMG-02` — hygiène rapide.
+3. `DATA-01` — restaurer les accents français partout. **Rien de public tant que ce n'est pas fait.**
+4. `UI-01` + `IMG-01` + `SEO-01` — les trois autres P0, indépendants entre eux.
 
-- Relire les fiches `needsReview: true` et décider lesquelles sont publiables.
-- Corriger les accents et formulations restantes dans les données éditoriales.
-- Enrichir les catégories et ingrédients prioritaires avec une courte introduction éditoriale.
-- Valider le JSON-LD avec Rich Results Test et Schema Markup Validator.
-- Ajouter une image sociale par défaut pour les pages sans visuel de recette.
-- Surveiller Search Console après publication.
+Chaque tâche a son prompt prêt à coller dans `docs/BACKLOG.md`.
 
-## Prochaine mission recommandée
+## Piste parallèle : espace créateur & CV
 
-Traiter la qualité éditoriale avant d’ajouter de nouvelles fonctionnalités : relire les contenus `needsReview`, corriger les formulations non accentuées, puis enrichir les pages taxonomiques prioritaires.
+Après `CODE-01`, la refonte de l'espace créateur peut avancer en parallèle des sprints éditoriaux — voir `docs/CREATOR_ROADMAP.md` : section distincte du site (route groups, layout dédié), thème « Atelier » (palette Mocha Mousse inversée, fond sombre, accent honey), scène SVG maison à la place de three.js, CV web imprimable `/creator/cv` remplaçant `docs/cv.html`, PDF réel dans `public/files/`.
+
+**Décision attendue de Fabrice :** email canonique (gmail vs icloud) — seul point bloquant côté contenu créateur.
 
 ## Risques / TODO
 
-- Toutes les fiches restent marquées `needsReview: true`.
-- Les 302 ingrédients intermédiaires restent éditorialement fins.
-- Les 33 ingrédients exclus du sitemap restent accessibles via le maillage interne, mais ne doivent pas être réintégrés sans enrichissement.
-- Les pages guides individuelles n’existent pas encore.
+- Toutes les fiches restent `needsReview: true` : la phase de test 30 jours ne conclut rien tant qu'un lot pilote n'est pas relu (EDIT-02 puis EDIT-01).
+- Les 410 pages ingrédients restent indexables (l'exclusion sitemap ne suffit pas) — traité par SEO-02.
+- La liste d'exclusion sitemap en dur dérivera — traité par SEO-06.
+- Aucune CI : rien n'empêche un commit qui casse le build — traité par TOOL-01.
+- Node système en 18 alors que Next 16 exige ≥ 20.9 — traité par TOOL-02.
 
 ## Commandes utiles
 
