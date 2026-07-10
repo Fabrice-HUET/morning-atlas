@@ -9,6 +9,7 @@ const mainLinks = [
   { href: '/recipes', label: 'Recettes' },
   { href: '/guides', label: 'Guides' },
   { href: '/about', label: 'A propos' },
+  { href: '/creator', label: 'Créateur' },
 ]
 
 export function Footer() {
