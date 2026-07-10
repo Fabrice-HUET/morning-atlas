@@ -7,9 +7,9 @@ export const italianPrimaColazioneRecipe = {
   countrySlugs: ['italy-prima-colazione'],
   originLabel: 'Italie',
   shortDescription:
-    'Un petit-dejeuner italien souvent leger et sucre : espresso ou cappuccino avec cornetto, biscotti, fette biscottate ou patisserie.',
+    'Un petit-déjeuner italien souvent léger et sucre : espresso ou cappuccino avec cornetto, biscotti, fette biscottate ou pâtisserie.',
   longDescription:
-    'La prima colazione italienne est souvent plus legere que les petits-dejeuners sales et copieux d autres pays. Une version tres connue au bar associe cafe, espresso ou cappuccino, et cornetto, parfois nature, a la creme, a la confiture, au chocolat ou a la pistache. Il faut toutefois eviter de reduire l Italie a cappuccino-cornetto : les habitudes changent selon les regions et les familles.',
+    "La prima colazione italienne est souvent plus légère que les petits-déjeuners sales et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois eviter de réduire l Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
   ingredients: [
     '1 espresso ou cappuccino',
     '1 cornetto ou viennoiserie italienne',
@@ -40,20 +40,20 @@ export const italianPrimaColazioneRecipe = {
     'focaccia',
   ],
   steps: [
-    'Preparer un espresso a la moka ou a la machine.',
+    'Préparer un espresso à la moka ou à la machine.',
     'Faire mousser du lait si un cappuccino est souhaite.',
-    'Rechauffer legerement un cornetto si besoin.',
-    'Preparer une petite assiette avec cornetto ou fette biscottate.',
+    'Réchauffer légèrement un cornetto si besoin.',
+    'Préparer une petite assiette avec cornetto ou fette biscottate.',
     'Ajouter confiture ou miel pour une version maison.',
     'Servir simplement, sans assiette trop chargee.',
-    'Garder l esprit : cafe, douceur, rapidite.',
+    'Garder l esprit : café, douceur, rapidite.',
   ],
   prepTimeMinutes: 10,
   cookTimeMinutes: 5,
   estimatedTimeMinutes: 15,
   difficulty: 'easy',
   servings: 1,
-  type: 'Cafe et viennoiserie',
+  type: 'Café et viennoiserie',
   tags: ['drink-included', 'sweet-morning', 'travel-food', 'quick-breakfast'],
   tagSlugs: [
     'italy',
@@ -83,14 +83,14 @@ export const italianPrimaColazioneRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Angle editorial : petit-dejeuner souvent leger, sucre, rapide et tres lie au cafe et au bar italien.',
-  seoTitle: 'Prima Colazione : le petit-dejeuner italien cafe et cornetto',
+    'Angle éditorial : petit-déjeuner souvent léger, sucre, rapide et très lie au café et au bar italien.',
+  seoTitle: 'Prima Colazione : le petit-déjeuner italien café et cornetto',
   seoDescription:
-    'Decouvre la prima colazione italienne, souvent legere et sucree, avec espresso ou cappuccino, cornetto, biscotti, fette biscottate ou patisseries regionales.',
+    'Découvre la prima colazione italienne, souvent légère et sucrée, avec espresso ou cappuccino, cornetto, biscotti, fette biscottate ou pâtisseries régionales.',
   reviewNotes: [
-    'Ne pas presenter cappuccino et cornetto comme unique petit-dejeuner italien.',
-    'Les noms changent selon les regions : brioche, cornetto, pasta, pezzo dolce.',
-    'Les petits-dejeuners sales existent, mais ils sont moins centraux dans l image classique italienne.',
+    'Ne pas présenter cappuccino et cornetto comme unique petit-déjeuner italien.',
+    'Les noms changent selon les régions : brioche, cornetto, pasta, pezzo dolce.',
+    "Les petits-déjeuners sales existent, mais ils sont moins centraux dans l'image classique italienne.",
     'La regle du cappuccino le matin est culturelle, pas une loi.',
   ],
   sources: [
@@ -104,22 +104,22 @@ export const italianPrimaColazioneRecipe = {
       title: '11 Food and Drink Rules Italians Live By',
       url: 'https://www.foodandwine.com/travel/italian-food-drink-rules',
       publisher: 'Food & Wine',
-      note: 'Petit-dejeuner italien souvent sucre, avec cappuccino ou espresso et cornetto ou autre patisserie.',
+      note: 'Petit-déjeuner italien souvent sucre, avec cappuccino ou espresso et cornetto ou autre pâtisserie.',
     },
     {
       title: 'Breakfast at a Cafe in Italy: Brioche, Croissant or Cornetto?',
       url: 'https://www.lacucinaitaliana.com/italian-food/italian-dishes/breakfast-at-a-cafe-in-italy-brioche-croissant-cornetto',
       publisher: 'La Cucina Italiana',
-      note: 'Distinctions entre brioche, cornetto et croissant dans les cafes italiens.',
+      note: 'Distinctions entre brioche, cornetto et croissant dans les cafés italiens.',
     },
     {
       title: 'La colazione tipica italiana: tour per 6 citta',
       url: 'https://www.italia.it/it/italia/cosa-fare/colazione-tipica-italiana-tour-per-6-citta',
       publisher: 'Italia.it',
-      note: 'Variantes regionales comme Genes, Rome, Naples, Bari, Palerme et Messine.',
+      note: 'Variantes régionales comme Genes, Rome, Naples, Bari, Palerme et Messine.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-dejeuner italien au bar avec cappuccino mousseux, espresso court, cornetto dore legerement sucre, fette biscottate avec confiture, petite assiette blanche, comptoir de cafe italien en arriere-plan discret, ambiance matin a Rome ou Milan, palette moka mousse, brun cafe, creme mousse, dore viennoiserie, rouge confiture, marbre clair, composition elegante et simple, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner italien au bar avec cappuccino mousseux, espresso court, cornetto doré légèrement sucre, fette biscottate avec confiture, petite assiette blanche, comptoir de café italien en arrière-plan discret, ambiance matin à Rome ou Milan, palette moka mousse, brun café, crème mousse, doré viennoiserie, rouge confiture, marbre clair, composition élégante et simple, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

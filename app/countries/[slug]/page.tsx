@@ -96,7 +96,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
           <aside className="overflow-hidden rounded-lg border border-oat bg-paper shadow-sm">
             <BreakfastImage
               slug={breakfastImageSlug}
-              alt={`${country.breakfastName}, petit-dejeuner en ${country.country}`}
+              alt={`${country.breakfastName}, petit-déjeuner en ${country.country}`}
               className="aspect-[4/3] w-full"
               sizes="(min-width: 1024px) 45vw, 100vw"
               priority
@@ -106,7 +106,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
               <p className="mt-3 text-sm leading-6 text-espresso/75">{country.breakfastSubtitle}</p>
               <dl className="mt-6 grid gap-4 text-sm">
                 <div>
-                  <dt className="font-bold text-espresso">Difficulte maison</dt>
+                  <dt className="font-bold text-espresso">Difficulté maison</dt>
                   <dd className="mt-1 text-espresso/75">{country.difficultyToRecreate}</dd>
                 </div>
                 <div>
@@ -114,7 +114,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
                   <dd className="mt-1 text-espresso/75">{country.commonDrinks.join(', ')}</dd>
                 </div>
                 <div>
-                  <dt className="font-bold text-espresso">Statut editorial</dt>
+                  <dt className="font-bold text-espresso">Statut éditorial</dt>
                   <dd className="mt-1 text-espresso/75">{country.needsReview ? 'A verifier' : 'Relu'}</dd>
                 </div>
               </dl>
@@ -160,7 +160,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
             </div>
           </div>
           <div>
-            <h2 className="text-2xl font-black text-espresso">Ingredients lies</h2>
+            <h2 className="text-2xl font-black text-espresso">Ingrédients liés</h2>
             <div className="mt-5 flex flex-wrap gap-2">
               {ingredients.map((ingredient) => (
                 <Link
@@ -177,7 +177,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
 
         {recipes.length > 0 ? (
           <section className="mt-12">
-            <h2 className="text-2xl font-black text-espresso">Recettes associees</h2>
+            <h2 className="text-2xl font-black text-espresso">Recettes associées</h2>
             <div className="mt-5 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {recipes.map((recipe) => (
                 <RecipeCard key={recipe.slug} recipe={recipe} />
@@ -188,7 +188,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
 
         {guides.length > 0 ? (
           <section className="mt-12 rounded-lg border border-oat bg-paper p-6">
-            <h2 className="text-2xl font-black text-espresso">Guides associes</h2>
+            <h2 className="text-2xl font-black text-espresso">Guides associés</h2>
             <div className="mt-4 grid gap-3">
               {guides.map((guide) => (
                 <p key={guide.slug} className="text-sm leading-6 text-espresso/80">

@@ -96,20 +96,20 @@ export default async function RecipePage({ params }: RecipePageProps) {
           <aside className="overflow-hidden rounded-lg border border-oat bg-paper shadow-sm">
             <BreakfastImage
               slug={recipe.slug}
-              alt={`${recipe.title}, petit-dejeuner de ${recipe.originLabel}`}
+              alt={`${recipe.title}, petit-déjeuner de ${recipe.originLabel}`}
               className="aspect-[4/3] w-full"
               sizes="(min-width: 1024px) 45vw, 100vw"
               priority
             />
             <div className="p-6">
-              <h2 className="text-2xl font-black text-espresso">Repere pratique</h2>
+              <h2 className="text-2xl font-black text-espresso">Repère pratique</h2>
               <dl className="mt-6 grid gap-4 text-sm">
                 <div>
                   <dt className="font-bold text-espresso">Temps total</dt>
                   <dd className="mt-1 text-espresso/75">{recipe.prepTimeMinutes + recipe.cookTimeMinutes} minutes</dd>
                 </div>
                 <div>
-                  <dt className="font-bold text-espresso">Difficulte</dt>
+                  <dt className="font-bold text-espresso">Difficulté</dt>
                   <dd className="mt-1 text-espresso/75">{recipe.difficulty}</dd>
                 </div>
                 <div>
@@ -117,7 +117,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   <dd className="mt-1 text-espresso/75">{recipe.servings}</dd>
                 </div>
                 <div>
-                  <dt className="font-bold text-espresso">Statut editorial</dt>
+                  <dt className="font-bold text-espresso">Statut éditorial</dt>
                   <dd className="mt-1 text-espresso/75">{recipe.needsReview ? 'A verifier' : 'Relu'}</dd>
                 </div>
               </dl>
@@ -127,7 +127,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
         <section className="mt-12 grid gap-8 lg:grid-cols-2">
           <div className="rounded-lg border border-oat bg-paper p-6">
-            <h2 className="text-2xl font-black text-espresso">Ingredients</h2>
+            <h2 className="text-2xl font-black text-espresso">Ingrédients</h2>
             <ul className="mt-5 grid gap-2 text-sm text-espresso/80">
               {recipe.ingredients.map((ingredient, index) => {
                 const ingredientSlug = recipe.ingredientSlugs?.[index]
@@ -151,7 +151,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
             </ul>
           </div>
           <div className="rounded-lg border border-oat bg-paper p-6">
-            <h2 className="text-2xl font-black text-espresso">Etapes</h2>
+            <h2 className="text-2xl font-black text-espresso">Étapes</h2>
             <ol className="mt-5 grid list-decimal gap-3 pl-5 text-sm leading-6 text-espresso/80">
               {recipe.steps.map((step) => (
                 <li key={step}>{step}</li>
@@ -167,7 +167,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 
         {countries.length > 0 ? (
           <section className="mt-12">
-            <h2 className="text-2xl font-black text-espresso">Pays associes</h2>
+            <h2 className="text-2xl font-black text-espresso">Pays associés</h2>
             <div className="mt-5 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {countries.map((country) => (
                 <CountryCard key={country.slug} country={country} />

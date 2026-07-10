@@ -7,14 +7,14 @@ export const portuguesePaoComManteigaGalaoRecipe = {
   countrySlugs: ['portugal-pao-com-manteiga-galao'],
   originLabel: 'Portugal',
   shortDescription:
-    'Un petit-dejeuner portugais simple : pain ou torrada beurree, accompagne d un galão, cafe au lait servi dans un grand verre.',
+    "Un petit-déjeuner portugais simple : pain ou torrada beurree, accompagné d'un galão, café au lait servi dans un grand verre.",
   longDescription:
-    'Le petit-dejeuner portugais est souvent leger : pain frais, torrada ou sandwich simple, accompagne de cafe, cafe au lait ou jus. Le duo pão com manteiga ou torrada avec galão represente une routine quotidienne de cafe, pastelaria ou cuisine familiale. Le galão est un cafe au lait portugais servi dans un grand verre, avec beaucoup de lait.',
+    'Le petit-déjeuner portugais est souvent léger : pain frais, torrada ou sandwich simple, accompagné de café, café au lait ou jus. Le duo pão com manteiga ou torrada avec galão représente une routine quotidienne de café, pastelaria ou cuisine familiale. Le galão est un café au lait portugais servi dans un grand verre, avec beaucoup de lait.',
   ingredients: [
-    '1 petit pain ou 2 tranches epaisses de pain',
+    '1 petit pain ou 2 tranches épaisses de pain',
     'Beurre',
     '1 espresso',
-    '150 a 200 ml de lait chaud',
+    '150 à 200 ml de lait chaud',
     'Sucre optionnel',
   ],
   ingredientSlugs: [
@@ -33,11 +33,11 @@ export const portuguesePaoComManteigaGalaoRecipe = {
   ],
   steps: [
     'Couper le pain.',
-    'Le toaster legerement ou le presser pour obtenir une torrada.',
+    'Le toaster légèrement ou le presser pour obtenir une torrada.',
     'Tartiner de beurre.',
-    'Preparer un espresso.',
+    'Préparer un espresso.',
     'Chauffer le lait.',
-    'Verser le cafe dans un grand verre.',
+    'Verser le café dans un grand verre.',
     'Ajouter le lait chaud ou mousseux.',
     'Sucrer si souhaite.',
     'Servir avec le pain beurre.',
@@ -48,7 +48,7 @@ export const portuguesePaoComManteigaGalaoRecipe = {
   estimatedTimeMinutes: 10,
   difficulty: 'easy',
   servings: 1,
-  type: 'Pain beurre et cafe au lait',
+  type: 'Pain beurre et café au lait',
   tags: ['quick-breakfast', 'drink-included', 'classic-breakfast', 'easy-at-home'],
   tagSlugs: [
     'portugal',
@@ -77,49 +77,49 @@ export const portuguesePaoComManteigaGalaoRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'L angle retenu est le quotidien de cafe ou pastelaria : pain beurre et cafe au lait. Le pastel de nata reste une variante/plaisir de cafe, pas le seul petit-dejeuner portugais.',
-  seoTitle: 'Pão com Manteiga & Galão : le petit-dejeuner portugais simple',
+    'L angle retenu est le quotidien de café ou pastelaria : pain beurre et café au lait. Le pastel de nata reste une variante/plaisir de café, pas le seul petit-déjeuner portugais.',
+  seoTitle: 'Pão com Manteiga & Galão : le petit-déjeuner portugais simple',
   seoDescription:
-    'Decouvre un petit-dejeuner portugais du quotidien : pain ou torrada beurree avec galão, un cafe au lait servi dans un grand verre.',
+    'Découvre un petit-déjeuner portugais du quotidien : pain ou torrada beurree avec galão, un café au lait servi dans un grand verre.',
   reviewNotes: [
-    'Ne pas reduire le petit-dejeuner portugais au pastel de nata.',
-    'Galão, meia de leite, garoto, bica et abatanado designent des commandes differentes.',
-    'Le pain varie selon regions et cafes.',
-    'Certains petits-dejeuners portugais incluent aussi tosta mista, patisseries ou sandwiches.',
+    'Ne pas réduire le petit-déjeuner portugais au pastel de nata.',
+    'Galão, meia de leite, garoto, bica et abatanado designent des commandes différentes.',
+    'Le pain varié selon régions et cafés.',
+    'Certains petits-déjeuners portugais incluent aussi tosta mista, pâtisseries ou sandwiches.',
   ],
   sources: [
     {
       title: 'Sobre Portugal Info Util',
       url: 'https://www.visitportugal.com/en/sobre-portugal/info-util',
       publisher: 'Visit Portugal',
-      note: 'Petit-dejeuner portugais leger entre 7 h 30 et 10 h, avec boisson, toast ou sandwich en cafe/patisserie.',
+      note: 'Petit-déjeuner portugais léger entre 7 h 30 et 10 h, avec boisson, toast ou sandwich en café/pâtisserie.',
     },
     {
       title: 'Cafe Galao - How to Order Coffee in Portugal',
       url: 'https://garconcoffee.com/cafe-galao/',
       publisher: 'Garcon Coffee',
-      note: 'Definition du galão comme cafe portugais avec espresso et beaucoup de lait, servi dans un grand verre.',
+      note: 'Définition du galão comme café portugais avec espresso et beaucoup de lait, servi dans un grand verre.',
     },
     {
       title: 'Galão',
       url: 'https://en.wikipedia.org/wiki/Gal%C3%A3o',
       publisher: 'Wikipedia',
-      note: 'Proportion approximative cafe/lait et difference avec meia de leite.',
+      note: 'Proportion approximative café/lait et différence avec meia de leite.',
     },
     {
       title: 'Portuguese breakfast',
       url: 'https://www.learn-portuguese-with-rafa.com/portuguese-breakfast.html',
       publisher: 'Learn Portuguese with Rafa',
-      note: 'Petit-dejeuner maison : pain avec beurre, fromage, jambon ou confiture, et galão.',
+      note: 'Petit-déjeuner maison : pain avec beurre, fromage, jambon ou confiture, et galão.',
     },
     {
       title: 'Portuguese breakfast: history of pastel de nata',
       url: 'https://www.gamberorossointernational.com/news/world-breakfasts-portugal-pastel-de-nata-torrada-galao-queijadas-de-sintra/',
       publisher: 'Gambero Rosso International',
-      note: 'Elements populaires du petit-dejeuner portugais : pastel de nata, torrada et galão.',
+      note: 'Éléments populaires du petit-déjeuner portugais : pastel de nata, torrada et galão.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-dejeuner portugais avec pain beurre et torrada epaisse doree, beurre fondant, grand verre de galão cafe au lait fumant, petite assiette de pastel de nata en arriere-plan discret, comptoir de pastelaria portugaise le matin, azulejos bleus tres subtils, palette moka mousse, beige pain, jaune beurre, brun cafe, creme lait, bleu azulejo doux, composition simple et chaleureuse, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner portugais avec pain beurre et torrada épaisse dorée, beurre fondant, grand verre de galão café au lait fumant, petite assiette de pastel de nata en arrière-plan discret, comptoir de pastelaria portugaise le matin, azulejos bleus très subtils, palette moka mousse, beige pain, jaune beurre, brun café, crème lait, bleu azulejo doux, composition simple et chaleureuse, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

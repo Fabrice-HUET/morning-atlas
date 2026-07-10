@@ -3,16 +3,16 @@ import type { Recipe } from '@/types/recipe'
 export const bagelWithCreamCheeseRecipe = {
   slug: 'bagel-with-cream-cheese',
   title: 'New York bagel with cream cheese',
-  localName: 'Bagel and cream cheese, bagel with a schmear',
+  localName: 'Bagel and cream cheese, bagel with à schmear',
   countrySlugs: ['united-states-bagel-cream-cheese'],
-  originLabel: 'Etats-Unis / New York',
+  originLabel: 'États-Unis / New York',
   shortDescription:
-    'Un bagel coupe et garni de cream cheese, parfois avec lox, capres, oignon rouge et tomate, tres associe a New York.',
+    'Un bagel coupe et garni de cream cheese, parfois avec lox, capres, oignon rouge et tomate, très associé à New York.',
   longDescription:
-    'Le bagel avec cream cheese est un petit-dejeuner americain tres reconnaissable, surtout lie a New York, aux delis et aux cultures juives americaines. Il peut rester tres simple, bagel et cream cheese, ou devenir plus complet avec lox, capres, oignon rouge et tomate. La fiche doit rester centree sur l ancrage new-yorkais plutot que generaliser a tous les Etats-Unis.',
+    'Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, capres, oignon rouge et tomate. La fiche doit rester centrée sur l ancrage new-yorkais plutôt que generaliser à tous les États-Unis.',
   ingredients: [
     '1 bagel',
-    '2 a 3 cuilleres a soupe de cream cheese',
+    '2 à 3 cuillères à soupe de cream cheese',
     '2 tranches de saumon fume ou lox optionnelles',
     'Quelques capres',
     'Quelques rondelles d oignon rouge',
@@ -38,11 +38,11 @@ export const bagelWithCreamCheeseRecipe = {
   ],
   steps: [
     'Couper le bagel en deux.',
-    'Le toaster legerement si souhaite.',
-    'Tartiner genereusement de cream cheese.',
-    'Ajouter saumon fume ou lox si une version plus complete est souhaitee.',
+    'Le toaster légèrement si souhaite.',
+    'Tartiner généreusement de cream cheese.',
+    'Ajouter saumon fume ou lox si une version plus complete est souhaitée.',
     'Ajouter oignon rouge, capres et tomate.',
-    'Poivrer legerement.',
+    'Poivrer légèrement.',
     'Ajouter quelques gouttes de citron si souhaite.',
     'Refermer ou manger ouvert.',
   ],
@@ -82,13 +82,13 @@ export const bagelWithCreamCheeseRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Titre volontairement centre sur New York pour eviter de generaliser a tous les Etats-Unis.',
-  seoTitle: 'Bagel Cream Cheese : le petit-dejeuner new-yorkais iconique',
+    'Titre volontairement centre sur New York pour eviter de generaliser à tous les États-Unis.',
+  seoTitle: 'Bagel Cream Cheese : le petit-déjeuner new-yorkais iconique',
   seoDescription:
-    'Decouvre le bagel au cream cheese, un classique americain tres associe a New York, aux delis et a la cuisine juive americaine.',
+    'Découvre le bagel au cream cheese, un classique américain très associé à New York, aux delis et à la cuisine juive américaine.',
   reviewNotes: [
-    'Ne pas presenter le bagel cream cheese comme le petit-dejeuner de tous les Americains.',
-    'L ancrage le plus fort est new-yorkais et juif americain.',
+    'Ne pas présenter le bagel cream cheese comme le petit-déjeuner de tous les Américains.',
+    'L ancrage le plus fort est new-yorkais et juif américain.',
     'Bagel + lox + cream cheese est iconique, mais le bagel cream cheese simple est aussi courant.',
     'Bien distinguer le bagel new-yorkais du bagel montrealais.',
   ],
@@ -97,13 +97,13 @@ export const bagelWithCreamCheeseRecipe = {
       title: "From New York to Montreal: What's in a Bagel?",
       url: 'https://www.history.com/articles/from-new-york-to-montreal-whats-in-a-bagel',
       publisher: 'HISTORY',
-      note: 'Developpement des bagels dans les communautes juives immigrees de New York.',
+      note: 'Développement des bagels dans les communautes juives immigrees de New York.',
     },
     {
       title: 'The unusual history of the beloved bagel',
       url: 'https://www.nationalgeographic.com/history/article/bagel-history-jewish-american-culture-symbol',
       publisher: 'National Geographic',
-      note: 'Longue histoire du bagel et transformation en symbole juif americain.',
+      note: 'Longue histoire du bagel et transformation en symbole juif américain.',
     },
     {
       title: 'How to Make a Lox Bagel Sandwich',
@@ -115,10 +115,10 @@ export const bagelWithCreamCheeseRecipe = {
       title: 'A brief history of your favorite Sunday morning nosh',
       url: 'https://jewishlivingdelaware.org/the-history-of-bagels-in-america-a-brief-history-of-your-favorite-sunday-morning-nosh/',
       publisher: 'Jewish Living Delaware',
-      note: 'Recit du Lower East Side et bagels vendus sur batons ou ficelles.',
+      note: 'Récit du Lower East Side et bagels vendus sur batons ou ficelles.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bagel new-yorkais coupe en deux avec cream cheese genereux, option lox saumon, capres, oignon rouge, tomate, graines de sesame et pavot, tasse de cafe filtre a emporter, papier deli blanc en decor, ambiance comptoir de bagel shop a New York le matin, palette moka mousse, beige bagel, blanc cream cheese, rose saumon, rouge oignon, brun cafe, composition editoriale nette et appetissante, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bagel new-yorkais coupe en deux avec cream cheese généreux, option lox saumon, capres, oignon rouge, tomate, graines de sesame et pavot, tasse de café filtre à emporter, papier deli blanc en décor, ambiance comptoir de bagel shop à New York le matin, palette moka mousse, beige bagel, blanc cream cheese, rose saumon, rouge oignon, brun café, composition éditoriale nette et appetissante, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

@@ -8,7 +8,7 @@ const mainLinks = [
   { href: '/countries', label: 'Pays' },
   { href: '/recipes', label: 'Recettes' },
   { href: '/guides', label: 'Guides' },
-  { href: '/about', label: 'A propos' },
+  { href: '/about', label: 'À propos' },
   { href: '/creator', label: 'Créateur' },
 ]
 
@@ -22,10 +22,10 @@ export function Footer() {
         <div>
           <p className="text-xl font-black">Morning Atlas</p>
           <p className="mt-4 max-w-sm text-sm leading-6 text-cream/75">
-            Un media editorial et visuel pour decouvrir les cultures du matin, un petit-dejeuner a la fois.
+            Un média éditorial et visuel pour découvrir les cultures du matin, un petit-déjeuner à la fois.
           </p>
           <p className="mt-6 text-sm font-semibold text-honey">
-            Decouvrir les cultures du matin, un petit-dejeuner a la fois.
+            Découvrir les cultures du matin, un petit-déjeuner à la fois.
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-oat">Categories</h2>
+          <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-oat">Catégories</h2>
           <div className="mt-4 grid gap-3">
             {categories.slice(0, 5).map((category) => (
               <Link key={category.slug} href={`/categories/${category.slug}`} className="text-sm text-cream/75 hover:text-cream">

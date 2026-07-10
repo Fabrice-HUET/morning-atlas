@@ -2,20 +2,20 @@ import type { Recipe } from '@/types/recipe'
 
 export const newZealandPorridgeRecipe = {
   slug: 'new-zealand-porridge',
-  title: 'Porridge neo-zelandais',
+  title: 'Porridge neo-zélandais',
   localName: 'Porridge',
   countrySlugs: ['new-zealand-porridge'],
-  originLabel: 'Nouvelle-Zelande',
+  originLabel: 'Nouvelle-Zélande',
   shortDescription:
-    'Un bol chaud d avoine cuite avec lait ou eau, souvent servi avec sucre brun, miel, banane, fruits, creme ou yaourt.',
+    'Un bol chaud d avoine cuite avec lait ou eau, souvent servi avec sucre brun, miel, banane, fruits, crème ou yaourt.',
   longDescription:
-    'Le porridge neo-zelandais est une preparation simple de flocons d avoine cuits doucement avec eau, lait ou les deux jusqu a obtenir une texture cremeuse. Il est associe aux matins froids, aux familles et a l histoire locale de l avoine, notamment via l heritage ecossais, Creamoata et Harraways. Il ne faut pas le presenter comme une invention neo-zelandaise, mais comme un classique kiwi du quotidien.',
+    "Le porridge neo-zélandais est une préparation simple de flocons d avoine cuits doucement avec eau, lait ou les deux jusqu'à obtenir une texture crémeuse. Il est associé aux matins froids, aux familles et a l'histoire locale de l avoine, notamment via l héritage écossais, Creamoata et Harraways. Il ne faut pas le présenter comme une invention neo-zélandaise, mais comme un classique kiwi du quotidien.",
   ingredients: [
     '50 g de flocons d avoine',
-    '250 ml de lait, eau ou moitie-moitie',
+    '250 ml de lait, eau ou moitié-moitié',
     '1 pincee de sel optionnelle',
     '1/2 banane',
-    '1 cuillere a cafe de miel ou sucre brun',
+    '1 cuillère à café de miel ou sucre brun',
     'Cannelle optionnelle',
     'Fruits ou noix optionnels',
   ],
@@ -38,10 +38,10 @@ export const newZealandPorridgeRecipe = {
   ],
   steps: [
     'Mettre les flocons d avoine dans une casserole.',
-    'Ajouter le lait ou l eau.',
+    "Ajouter le lait ou l'eau.",
     'Ajouter une pincee de sel si souhaite.',
     'Faire chauffer doucement.',
-    'Remuer regulierement pendant 5 a 10 minutes.',
+    'Remuer regulierement pendant 5 à 10 minutes.',
     'Ajuster la texture avec un peu de lait si besoin.',
     'Verser dans un bol.',
     'Ajouter banane, miel, cannelle ou fruits.',
@@ -81,13 +81,13 @@ export const newZealandPorridgeRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Classique kiwi du quotidien, surtout associe aux bols chauds, simples et familiaux.',
-  seoTitle: 'Porridge neo-zelandais : le bol chaud d avoine du matin',
+    'Classique kiwi du quotidien, surtout associé aux bols chauds, simples et familiaux.',
+  seoTitle: 'Porridge neo-zélandais : le bol chaud d avoine du matin',
   seoDescription:
-    'Decouvre le porridge en Nouvelle-Zelande, un petit-dejeuner chaud a base d avoine, souvent servi avec lait, sucre brun, miel, banane ou fruits.',
+    'Découvre le porridge en Nouvelle-Zélande, un petit-déjeuner chaud à base d avoine, souvent servi avec lait, sucre brun, miel, banane ou fruits.',
   reviewNotes: [
-    'Le porridge n est pas propre a la Nouvelle-Zelande : il appartient aussi aux cultures anglo-saxonnes et ecossaises.',
-    'L ancrage neo-zelandais est solide via l histoire de l avoine, Creamoata et Harraways.',
+    "Le porridge n'est pas propre à la Nouvelle-Zélande : il appartient aussi aux cultures anglo-saxonnes et écossaises.",
+    "L ancrage neo-zélandais est solide via l'histoire de l avoine, Creamoata et Harraways.",
     'Les toppings changent fortement selon familles, budget, saison et habitudes modernes.',
   ],
   sources: [
@@ -95,28 +95,28 @@ export const newZealandPorridgeRecipe = {
       title: 'How to make perfect creamy porridge oats',
       url: 'https://www.newworld.co.nz/discover/how-to-make-perfect-creamy-porridge-oats',
       publisher: 'New World',
-      note: 'Methode contemporaine de porridge familial cremeux.',
+      note: 'Méthode contemporaine de porridge familial crémeux.',
     },
     {
       title: 'Spreads and breakfast cereals',
       url: 'https://teara.govt.nz/en/food-and-beverage-manufacturing/page-5',
       publisher: 'Te Ara',
-      note: 'Porridge courant vers 1890 et introduction par les immigrants ecossais.',
+      note: 'Porridge courant vers 1890 et introduction par les immigrants écossais.',
     },
     {
       title: 'Harraways Oats',
       url: 'https://harraways.co.nz/',
       publisher: 'Harraways',
-      note: 'Ancrage local de l avoine en Nouvelle-Zelande depuis 1867.',
+      note: 'Ancrage local de l avoine en Nouvelle-Zélande depuis 1867.',
     },
     {
       title: 'Creamoata, the national breakfast',
       url: 'https://teara.govt.nz/en/object/39140/creamoata-the-national-breakfast',
       publisher: 'Te Ara',
-      note: 'Creamoata comme petit-dejeuner courant et repere publicitaire du XXe siecle.',
+      note: 'Creamoata comme petit-déjeuner courant et repère publicitaire du XXe siecle.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zelandais fumant avec flocons d avoine cremeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumiere douce, palette moka mousse, creme avoine, jaune banane, rouge fruits, brun miel, composition editoriale simple, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

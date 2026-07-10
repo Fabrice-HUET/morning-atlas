@@ -7,20 +7,20 @@ export const japaneseSteamedRiceAndMisoSoupRecipe = {
   countrySlugs: ['japan-rice-miso-soup'],
   originLabel: 'Japon',
   shortDescription:
-    'Une base de petit-dejeuner japonais traditionnel avec riz vapeur, soupe miso, legumes marines, nori et parfois poisson grille.',
+    'Une base de petit-déjeuner japonais traditionnel avec riz vapeur, soupe miso, légumes marinés, nori et parfois poisson grille.',
   longDescription:
-    'Le duo riz vapeur et soupe miso est l une des bases les plus reconnaissables du petit-dejeuner japonais traditionnel. Dans une version courante, il peut etre accompagne de poisson grille, legumes marines, nori, tofu, natto, tamagoyaki ou petits legumes de saison. Pour Morning Atlas, cette fiche presente une version traditionnelle washoku, pas une habitude quotidienne universelle.',
+    "Le duo riz vapeur et soupe miso est l'une des bases les plus reconnaissables du petit-déjeuner japonais traditionnel. Dans une version courante, il peut être accompagné de poisson grille, légumes marinés, nori, tofu, natto, tamagoyaki ou petits légumes de saison. Pour Morning Atlas, cette fiche présenté une version traditionnelle washoku, pas une habitude quotidienne universelle.",
   ingredients: [
     '180 g de riz japonais cru',
-    '500 ml d eau pour le riz selon cuisson',
-    '600 ml d eau pour la soupe',
-    '1 cuillere a cafe de dashi en poudre ou dashi maison',
-    '2 cuilleres a soupe de miso',
+    "500 ml d'eau pour le riz selon cuisson",
+    "600 ml d'eau pour la soupe",
+    '1 cuillère à café de dashi en poudre ou dashi maison',
+    '2 cuillères à soupe de miso',
     '100 g de tofu',
     'Wakame rehydrate',
     'Ciboule',
     'Nori',
-    'Pickles ou concombre marine rapide',
+    'Pickles ou concombre mariné rapide',
     'Option : saumon grille ou omelette',
   ],
   ingredientSlugs: [
@@ -42,16 +42,16 @@ export const japaneseSteamedRiceAndMisoSoupRecipe = {
     'sesame',
   ],
   steps: [
-    'Rincer le riz jusqu a ce que l eau soit presque claire.',
-    'Cuire le riz au cuiseur ou a la casserole.',
-    'Preparer un bouillon dashi.',
+    "Rincer le riz jusqu'à ce que l'eau soit presque claire.",
+    'Cuire le riz au cuiseur ou à la casserole.',
+    'Préparer un bouillon dashi.',
     'Ajouter tofu et wakame.',
     'Couper le feu ou baisser fortement avant d ajouter le miso.',
-    'Delayer le miso dans un peu de bouillon, puis incorporer.',
+    'Délayer le miso dans un peu de bouillon, puis incorporer.',
     'Ajouter la ciboule.',
     'Servir le riz dans un bol.',
     'Ajouter nori, pickles et eventuellement poisson grille ou omelette.',
-    'Servir la soupe miso chaude a cote.',
+    'Servir la soupe miso chaude à cote.',
   ],
   prepTimeMinutes: 15,
   cookTimeMinutes: 25,
@@ -91,16 +91,16 @@ export const japaneseSteamedRiceAndMisoSoupRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Version traditionnelle simplifiee. Le modele ichiju-sansai est une structure culturelle, pas une obligation quotidienne contemporaine.',
-  seoTitle: 'Riz vapeur et soupe miso : le petit-dejeuner japonais traditionnel',
+    'Version traditionnelle simplifiee. Le modèle ichiju-sansai est une structure culturelle, pas une obligation quotidienne contemporaine.',
+  seoTitle: 'Riz vapeur et soupe miso : le petit-déjeuner japonais traditionnel',
   seoDescription:
-    'Decouvre une version traditionnelle du petit-dejeuner japonais avec riz vapeur, soupe miso, legumes marines, nori et parfois poisson grille.',
+    'Découvre une version traditionnelle du petit-déjeuner japonais avec riz vapeur, soupe miso, légumes marinés, nori et parfois poisson grille.',
   reviewNotes: [
-    'Ne pas presenter ce repas comme le petit-dejeuner quotidien de tous les Japonais.',
-    'Le modele ichiju-sansai est traditionnel, mais pas forcement applique chaque matin.',
-    'La soupe miso change selon region, saison, type de miso et ingredients disponibles.',
-    'Le poisson grille est courant dans l image traditionnelle, mais pas obligatoire.',
-    'Le natto est tres japonais, mais pas aime ou consomme par tout le monde.',
+    'Ne pas présenter ce repas comme le petit-déjeuner quotidien de tous les Japonais.',
+    'Le modèle ichiju-sansai est traditionnel, mais pas forcement applique chaque matin.',
+    'La soupe miso change selon région, saison, type de miso et ingrédients disponibles.',
+    "Le poisson grille est courant dans l'image traditionnelle, mais pas obligatoire.",
+    'Le natto est très japonais, mais pas aime ou consommé par tout le monde.',
   ],
   sources: [
     {
@@ -113,13 +113,13 @@ export const japaneseSteamedRiceAndMisoSoupRecipe = {
       title: 'What is Washoku?',
       url: 'https://www.maff.go.jp/e/policies/market/washoku-world-challenge/en/learning_01.html',
       publisher: 'MAFF',
-      note: 'Definition du washoku et inscription au patrimoine culturel immateriel de l UNESCO.',
+      note: 'Définition du washoku et inscription au patrimoine culturel immateriel de l UNESCO.',
     },
     {
       title: 'Live Like a Local in Japan',
       url: 'https://www.japan.travel/en/au/news-blog/live-like-a-local-in-japan/',
       publisher: 'Japan National Tourism Organization',
-      note: 'Exemple de petit-dejeuner traditionnel avec riz, soupe miso, poisson grille et legumes marines.',
+      note: 'Exemple de petit-déjeuner traditionnel avec riz, soupe miso, poisson grille et légumes marinés.',
     },
     {
       title: 'Japanese Food Etiquette Guide',
@@ -129,6 +129,6 @@ export const japaneseSteamedRiceAndMisoSoupRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de petit-dejeuner japonais avec bol de riz vapeur, bol de soupe miso avec tofu et wakame, petite assiette de poisson grille, nori, tsukemono, ciboule, tasse de the vert, composition calme et equilibree, ambiance matin minimaliste au Japon, palette moka mousse, creme riz, brun miso, vert nori, rose saumon doux, bois clair, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de petit-déjeuner japonais avec bol de riz vapeur, bol de soupe miso avec tofu et wakame, petite assiette de poisson grille, nori, tsukemono, ciboule, tasse de thé vert, composition calme et équilibrée, ambiance matin minimaliste au Japon, palette moka mousse, crème riz, brun miso, vert nori, rose saumon doux, bois clair, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

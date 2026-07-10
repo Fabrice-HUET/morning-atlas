@@ -15,7 +15,7 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
     >
       <BreakfastImage
         slug={recipe.slug}
-        alt={`${recipe.title}, petit-dejeuner de ${recipe.originLabel}`}
+        alt={`${recipe.title}, petit-déjeuner de ${recipe.originLabel}`}
         className="aspect-[4/3] w-full"
         sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw"
       />

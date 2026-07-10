@@ -12,6 +12,23 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-10 — DATA-01 : restauration des accents français
+
+- Date : `2026-07-10`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : données, contenu
+- Résumé : restauration des accents français manquants dans toutes les données éditoriales et les textes d'interface, via une passe automatisée conservatrice (script jetable, structure-aware) suivie de corrections manuelles ciblées sur les libellés JSX.
+- Portée : 69 fichiers (`data/countries.ts`, `data/ingredients.ts`, `data/categories.ts`, `data/tags.ts`, `data/guides.ts`, les 53 fichiers `data/recipes/**`, et les composants/pages UI : `HeroSection`, `Footer`, `EditorialPromise`, `Featured*`, `app/**/[slug]/page.tsx`, cartes). ~3000 chaînes corrigées.
+- Méthode / garde-fous :
+  - Le script ne touche qu'aux valeurs de texte françaises : il saute les slugs, `countryCode`, URLs, chemins de module, interpolations `${...}` et les `title`/`publisher` (anglais) des blocs `sources` — mais corrige les `note` (français) de ces blocs.
+  - Dictionnaire de mots sûrs uniquement ; élisions restaurées (`l'un`, `d'olive`, `jusqu'à`) avec re-délimitation des chaînes (`'Jus d'orange'` → `"Jus d'orange"`) pour ne pas casser les littéraux.
+  - Préposition `à` restaurée avec double garde (mot précédent = pronom/contraction, mot suivant = signal verbal) pour ne pas transformer le verbe « a » (`qu'on a`, `il a`, `a été`).
+- Résidus assumés (laissés à la relecture EDIT-01, car ambigus sans jugement de contexte) : `sucre`/`sucré`, `sale`/`salé`, `marque`/`marqué`, quelques `utilisé`/`pensé` (participe vs verbe), et les titres de sources français non accentués (préservés tels quels pour ne pas altérer des citations).
+- Contraintes respectées : slugs, URLs, clés, imports, JSON-LD et routes inchangés ; aucune reformulation de sens ; aucune invention.
+- Validation : `pnpm lint` ✅, `pnpm typecheck` ✅, `pnpm build` ✅ (652 pages) avec Node v24.11.0. Audits : 0 accent dans un slug/interpolation, titres de sources anglais préservés.
+- Prochaine action : Sprint 1 restant — `UI-01`, `IMG-01`, `SEO-01` (indépendants).
+
 ## 2026-07-10 — CODE-01 : assainissement du dépôt git
 
 - Date : `2026-07-10`

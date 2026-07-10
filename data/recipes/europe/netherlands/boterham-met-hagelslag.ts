@@ -7,14 +7,14 @@ export const boterhamMetHagelslagRecipe = {
   countrySlugs: ['netherlands-hagelslag'],
   originLabel: 'Pays-Bas',
   shortDescription:
-    'Une tartine neerlandaise simple et sucree avec pain, beurre et hagelslag, ces vermicelles souvent chocolates.',
+    'Une tartine néerlandaise simple et sucrée avec pain, beurre et hagelslag, ces vermicelles souvent chocolates.',
   longDescription:
-    'Le boterham met hagelslag est une tartine tres simple : une tranche de pain, une couche de beurre ou margarine, puis des vermicelles chocolates ou sucres. Le beurre sert autant au gout qu a faire tenir les vermicelles. Aux Pays-Bas, cette tartine est souvent associee au petit-dejeuner ou au dejeuner rapide, surtout dans les familles, sans representer le seul petit-dejeuner neerlandais.',
+    'Le boterham met hagelslag est une tartine très simple : une tranche de pain, une couche de beurre ou margarine, puis des vermicelles chocolates ou sucres. Le beurre sert autant au goût qu a faire tenir les vermicelles. Aux Pays-Bas, cette tartine est souvent associée au petit-déjeuner ou au déjeuner rapide, surtout dans les familles, sans representer le seul petit-déjeuner néerlandais.',
   ingredients: [
     '1 ou 2 tranches de pain',
-    'Beurre doux ou demi-sel selon gout',
+    'Beurre doux ou demi-sel selon goût',
     'Hagelslag chocolate',
-    'Lait ou cafe optionnel',
+    'Lait ou café optionnel',
   ],
   ingredientSlugs: [
     'white-bread',
@@ -34,7 +34,7 @@ export const boterhamMetHagelslagRecipe = {
   steps: [
     'Prendre une tranche de pain frais.',
     'Tartiner une fine couche de beurre.',
-    'Saupoudrer genereusement de hagelslag.',
+    'Saupoudrer généreusement de hagelslag.',
     'Couper la tartine en deux si souhaite.',
     'Manger assez vite pour eviter que les vermicelles tombent partout.',
   ],
@@ -43,7 +43,7 @@ export const boterhamMetHagelslagRecipe = {
   estimatedTimeMinutes: 5,
   difficulty: 'easy',
   servings: 1,
-  type: 'Tartine sucree',
+  type: 'Tartine sucrée',
   tags: ['sweet-morning', 'easy-at-home', 'family-meal', 'quick-breakfast'],
   tagSlugs: [
     'netherlands',
@@ -69,15 +69,15 @@ export const boterhamMetHagelslagRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Le hagelslag est tres associe aux Pays-Bas, mais les petits-dejeuners neerlandais incluent aussi fromage, charcuterie, yaourt, muesli et fruits.',
-  seoTitle: 'Hagelslag : la tartine sucree du petit-dejeuner neerlandais',
+    'Le hagelslag est très associé aux Pays-Bas, mais les petits-déjeuners néerlandais incluent aussi fromage, charcuterie, yaourt, muesli et fruits.',
+  seoTitle: 'Hagelslag : la tartine sucrée du petit-déjeuner néerlandais',
   seoDescription:
-    'Decouvre le boterham met hagelslag, une tartine neerlandaise au beurre et vermicelles chocolates, souvent servie au petit-dejeuner ou au dejeuner.',
+    'Découvre le boterham met hagelslag, une tartine néerlandaise au beurre et vermicelles chocolates, souvent servie au petit-déjeuner ou au déjeuner.',
   reviewNotes: [
-    'Le hagelslag est aussi present en Belgique, au Suriname, en Indonesie et dans d anciennes zones liees a l histoire neerlandaise.',
-    'Toutes les tartines sucrees neerlandaises ne sont pas au hagelslag.',
-    'Les recits d origine autour de Venco, Venz et De Ruijter doivent rester prudents.',
-    'Ne pas presenter comme le petit-dejeuner de tous les Neerlandais.',
+    "Le hagelslag est aussi présent en Belgique, au Suriname, en Indonesie et dans d anciennes zones liees à l'histoire néerlandaise.",
+    'Toutes les tartines sucrées néerlandaises ne sont pas au hagelslag.',
+    "Les récits d'origine autour de Venco, Venz et De Ruijter doivent rester prudents.",
+    'Ne pas présenter comme le petit-déjeuner de tous les Néerlandais.',
   ],
   sources: [
     {
@@ -90,7 +90,7 @@ export const boterhamMetHagelslagRecipe = {
       title: 'A Hailstorm of Chocolate in the Morning',
       url: 'https://roadsandkingdoms.com/2015/a-hailstorm-of-chocolate-in-the-morning/',
       publisher: 'Roads & Kingdoms',
-      note: 'Histoire liee a Venco, Amsterdam City Archives et diffusion apres-guerre.',
+      note: 'Histoire liee à Venco, Amsterdam City Archives et diffusion après-guerre.',
     },
     {
       title: 'A brief history of Dutch sprinkles a.k.a. hagelslag',
@@ -102,10 +102,10 @@ export const boterhamMetHagelslagRecipe = {
       title: 'Dutch cuisine',
       url: 'https://en.wikipedia.org/wiki/Dutch_cuisine',
       publisher: 'Wikipedia',
-      note: 'Source de synthese pour replacer le petit-dejeuner neerlandais dans un ensemble plus large.',
+      note: 'Source de synthese pour replacer le petit-déjeuner néerlandais dans un ensemble plus large.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, tartine neerlandaise avec pain beurre et hagelslag chocolate, quelques vermicelles tombes sur une assiette, pot de beurre, boite stylisee de sprinkles sans marque, verre de lait et tasse de cafe en arriere-plan, ambiance cuisine familiale aux Pays-Bas le matin, palette moka mousse, brun chocolat, creme beurre, beige pain, bleu doux, composition simple et joyeuse, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, tartine néerlandaise avec pain beurre et hagelslag chocolate, quelques vermicelles tombes sur une assiette, pot de beurre, boite stylisee de sprinkles sans marque, verre de lait et tasse de café en arrière-plan, ambiance cuisine familiale aux Pays-Bas le matin, palette moka mousse, brun chocolat, crème beurre, beige pain, bleu doux, composition simple et joyeuse, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

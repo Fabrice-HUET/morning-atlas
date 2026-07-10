@@ -19,7 +19,7 @@ export function CountryCard({ country }: CountryCardProps) {
     >
       <BreakfastImage
         slug={breakfastImageSlug}
-        alt={`${country.breakfastName}, petit-dejeuner en ${country.country}`}
+        alt={`${country.breakfastName}, petit-déjeuner en ${country.country}`}
         className="aspect-[4/3] w-full"
         sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
       />

@@ -12,9 +12,9 @@ export function FeaturedCountries() {
       <Container>
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <SectionHeading
-            eyebrow="Pays a explorer"
-            title="Premieres fiches pour voyager par le petit-dejeuner"
-            description="Chaque carte sert de base editoriale, avec des liens futurs vers recettes, ingredients et guides."
+            eyebrow="Pays à explorer"
+            title="Premières fiches pour voyager par le petit-déjeuner"
+            description="Chaque carte sert de base éditoriale, avec des liens futurs vers recettes, ingrédients et guides."
           />
           <Button href="/countries" variant="secondary">
             Tous les pays

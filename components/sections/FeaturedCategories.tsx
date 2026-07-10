@@ -12,9 +12,9 @@ export function FeaturedCategories() {
     <section className="bg-cream py-20">
       <Container>
         <SectionHeading
-          eyebrow="Categories"
+          eyebrow="Catégories"
           title="Explorer par envie, texture ou rythme"
-          description="La taxonomie prépare les futurs parcours : sucre, sale, copieux, rapide, sain ou traditionnel."
+          description="La taxonomie prépare les futurs parcours : sucré, salé, copieux, rapide, sain ou traditionnel."
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {featuredCategories.map((category) => (

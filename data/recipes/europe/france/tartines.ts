@@ -7,15 +7,15 @@ export const frenchTartinesRecipe = {
   countrySlugs: ['france-tartines'],
   originLabel: 'France',
   shortDescription:
-    'Un petit-dejeuner francais simple avec baguette ou pain frais, beurre, confiture ou miel, souvent accompagne de cafe, the ou chocolat chaud.',
+    'Un petit-déjeuner français simple avec baguette ou pain frais, beurre, confiture ou miel, souvent accompagné de café, thé ou chocolat chaud.',
   longDescription:
-    'La tartine est l un des symboles les plus simples du petit-dejeuner francais : pain frais, souvent baguette, beurre, confiture ou miel. Elle represente une version domestique, rapide et quotidienne du matin, plus courante que l image du croissant quotidien. Les habitudes varient selon familles, regions, generations et rythmes de travail.',
+    "La tartine est l'un des symboles les plus simples du petit-déjeuner français : pain frais, souvent baguette, beurre, confiture ou miel. Elle représente une version domestique, rapide et quotidienne du matin, plus courante que l'image du croissant quotidien. Les habitudes varient selon familles, régions, générations et rythmes de travail.",
   ingredients: [
     '1/3 de baguette ou 2 tranches de pain',
     'Beurre',
     'Confiture ou miel',
-    'Cafe, the ou chocolat chaud',
-    'Jus d orange optionnel',
+    'Café, thé ou chocolat chaud',
+    "Jus d'orange optionnel",
   ],
   ingredientSlugs: [
     'baguette',
@@ -34,10 +34,10 @@ export const frenchTartinesRecipe = {
   ],
   steps: [
     'Couper la baguette dans la longueur.',
-    'Toaster legerement si une texture plus croustillante est souhaitee.',
+    'Toaster légèrement si une texture plus croustillante est souhaitée.',
     'Tartiner de beurre.',
     'Ajouter confiture ou miel.',
-    'Preparer cafe, the ou chocolat chaud.',
+    'Préparer café, thé ou chocolat chaud.',
     'Servir simplement, avec un fruit ou un jus si souhaite.',
   ],
   prepTimeMinutes: 5,
@@ -45,7 +45,7 @@ export const frenchTartinesRecipe = {
   estimatedTimeMinutes: 10,
   difficulty: 'easy',
   servings: 1,
-  type: 'Tartine sucree',
+  type: 'Tartine sucrée',
   tags: ['sweet-morning', 'easy-at-home', 'comfort-food', 'traditional-breakfast'],
   tagSlugs: [
     'france',
@@ -72,33 +72,33 @@ export const frenchTartinesRecipe = {
   recreateAtHomeLevel: 'easy',
   notes:
     'Cette fiche conserve le slug historique tartines pour ne pas casser l URL existante.',
-  seoTitle: 'Tartines francaises : pain, beurre et confiture au petit-dejeuner',
+  seoTitle: 'Tartines françaises : pain, beurre et confiture au petit-déjeuner',
   seoDescription:
-    'Decouvre les tartines francaises du petit-dejeuner : baguette ou pain frais, beurre, confiture ou miel, souvent avec cafe, the ou chocolat chaud.',
+    'Découvre les tartines françaises du petit-déjeuner : baguette ou pain frais, beurre, confiture ou miel, souvent avec café, thé ou chocolat chaud.',
   reviewNotes: [
-    'Ne pas presenter la tartine comme unique petit-dejeuner francais.',
+    'Ne pas présenter la tartine comme unique petit-déjeuner français.',
     'Les viennoiseries sont typiques, mais pas forcement quotidiennes.',
-    'Les habitudes varient selon familles, regions, generations et rythmes de travail.',
-    'Le beurre demi-sel est plus marque dans certaines regions, mais pas obligatoire nationalement.',
+    'Les habitudes varient selon familles, régions, générations et rythmes de travail.',
+    'Le beurre demi-sel est plus marque dans certaines régions, mais pas obligatoire nationalement.',
   ],
   sources: [
     {
       title: 'What Do the French Really Eat for Breakfast?',
       url: 'https://www.tastefrance.com/magazine/trends/what-do-french-really-eat-breakfast-look-inside-petit-dejeuner',
       publisher: 'Taste France Magazine',
-      note: 'Petit-dejeuner francais classique autour du pain, tartines, beurre, confiture et boisson chaude.',
+      note: 'Petit-déjeuner français classique autour du pain, tartines, beurre, confiture et boisson chaude.',
     },
     {
       title: 'Lasse des tartines beurre-confiture ?',
       url: 'https://www.lemonde.fr/m-styles/article/2025/04/16/lasse-des-tartines-beurre-confiture-cinq-petits-dejeuners-pour-voir-du-pays-sans-quitter-paris_6596498_4497319.html',
       publisher: 'Le Monde',
-      note: 'Image contemporaine du cafe-tartine francais classique.',
+      note: 'Image contemporaine du café-tartine français classique.',
     },
     {
       title: 'What Do The French Eat For Breakfast?',
       url: 'https://www.thegoodfoodnetwork.com/what-do-the-french-eat-for-breakfast/',
       publisher: 'The Good Food Network',
-      note: 'Tartine de baguette avec beurre, confiture ou miel, et usage de tremper dans cafe au lait ou chocolat chaud.',
+      note: 'Tartine de baguette avec beurre, confiture ou miel, et usage de tremper dans café au lait ou chocolat chaud.',
     },
     {
       title: 'French Tartines Recipe',
@@ -108,6 +108,6 @@ export const frenchTartinesRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-dejeuner francais avec demi-baguette ouverte, beurre frais, confiture rouge brillante, petit pot de miel, bol de cafe au lait fumant, chocolat chaud en option, couteau a beurre, lumiere douce de cuisine francaise le matin, palette moka mousse, beige pain, jaune beurre, rouge confiture, brun cafe, creme, composition simple et elegante, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner français avec demi-baguette ouverte, beurre frais, confiture rouge brillante, petit pot de miel, bol de café au lait fumant, chocolat chaud en option, couteau à beurre, lumière douce de cuisine française le matin, palette moka mousse, beige pain, jaune beurre, rouge confiture, brun café, crème, composition simple et élégante, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

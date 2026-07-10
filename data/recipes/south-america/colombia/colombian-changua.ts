@@ -7,13 +7,13 @@ export const colombianChanguaRecipe = {
   countrySlugs: ['colombia-changua'],
   originLabel: 'Colombie / Bogota / Cundinamarca / Boyaca',
   shortDescription:
-    'Une soupe colombienne du matin a base de lait, eau, oeuf, oignon long et coriandre, souvent servie avec pain ou calado.',
+    'Une soupe colombienne du matin à base de lait, eau, œuf, oignon long et coriandre, souvent servie avec pain ou calado.',
   longDescription:
-    'La changua est une soupe chaude a base de lait et d eau, dans laquelle on poche un oeuf, puis que l on parfume avec oignon long et coriandre. Elle est tres associee a Bogota, Cundinamarca, Boyaca et aux hauts plateaux andins. Elle peut surprendre hors de Colombie, mais doit etre abordee comme un bol de matin froid, familial et reconfortant.',
+    "La changua est une soupe chaude à base de lait et d'eau, dans laquelle on poche un œuf, puis que l on parfume avec oignon long et coriandre. Elle est très associée à Bogota, Cundinamarca, Boyaca et aux hauts plateaux andins. Elle peut surprendre hors de Colombie, mais doit être abordee comme un bol de matin froid, familial et reconfortant.",
   ingredients: [
     '500 ml de lait',
-    '500 ml d eau',
-    '2 oeufs',
+    "500 ml d'eau",
+    '2 œufs',
     '1 oignon long ou 2 cebettes',
     'Quelques branches de coriandre',
     'Sel',
@@ -37,14 +37,14 @@ export const colombianChanguaRecipe = {
     'hot-chocolate',
   ],
   steps: [
-    'Couper l oignon long.',
+    "Couper l'oignon long.",
     'Hacher la coriandre.',
-    'Faire chauffer l eau et le lait dans une casserole.',
-    'Ajouter l oignon, une partie de la coriandre, le sel et le beurre si souhaite.',
-    'Quand le liquide fremit, casser doucement les oeufs dans la soupe.',
+    "Faire chauffer l'eau et le lait dans une casserole.",
+    "Ajouter l'oignon, une partie de la coriandre, le sel et le beurre si souhaite.",
+    'Quand le liquide fremit, casser doucement les œufs dans la soupe.',
     'Laisser pocher sans trop remuer.',
     'Placer des morceaux de pain dans les bols.',
-    'Verser la soupe chaude avec un oeuf par bol.',
+    'Verser la soupe chaude avec un œuf par bol.',
     'Ajouter coriandre fraiche.',
     'Ajouter fromage si souhaite.',
     'Servir immediatement.',
@@ -54,7 +54,7 @@ export const colombianChanguaRecipe = {
   estimatedTimeMinutes: 25,
   difficulty: 'easy',
   servings: 2,
-  type: 'Soupe de petit-dejeuner',
+  type: 'Soupe de petit-déjeuner',
   tags: ['comfort-food', 'traditional-breakfast', 'family-meal', 'protein-rich'],
   tagSlugs: [
     'colombia',
@@ -84,28 +84,28 @@ export const colombianChanguaRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'La changua divise parfois, mais la fiche doit rester respectueuse : c est un plat de contexte andin, familial et matinal, pas un objet de moquerie.',
-  seoTitle: 'Changua : la soupe de petit-dejeuner colombienne',
+    "La changua divise parfois, mais la fiche doit rester respectueuse : c'est un plat de contexte andin, familial et matinal, pas un objet de moquerie.",
+  seoTitle: 'Changua : la soupe de petit-déjeuner colombienne',
   seoDescription:
-    'Decouvre la changua, une soupe colombienne du matin a base de lait, oeuf, oignon long, coriandre et pain, tres associee a Bogota et aux Andes.',
+    'Découvre la changua, une soupe colombienne du matin à base de lait, œuf, oignon long, coriandre et pain, très associée à Bogota et aux Andes.',
   reviewNotes: [
-    'Ne pas presenter la changua comme un petit-dejeuner de toute la Colombie.',
+    'Ne pas présenter la changua comme un petit-déjeuner de toute la Colombie.',
     'Garder un ton respectueux sur le fait que le plat divise.',
     'Fromage et almojabana ne sont pas obligatoires dans toutes les versions.',
-    'Le chocolat chaud peut accompagner certains contextes, sans etre systematique.',
+    'Le chocolat chaud peut accompagner certains contextes, sans être systematique.',
   ],
   sources: [
     {
       title: 'Top 5 Colombian soups you must try when visiting',
       url: 'https://colombia.co/en/colombia-country/colombia-culture/gastronomy/top-5-colombian-soups',
       publisher: 'Colombia.co',
-      note: 'Changua comme soupe populaire du petit-dejeuner a Bogota et dans les zones andines voisines.',
+      note: 'Changua comme soupe populaire du petit-déjeuner à Bogota et dans les zones andines voisines.',
     },
     {
       title: 'Changua',
       url: 'https://sweetysalado.com/changua/',
       publisher: 'Sweet y Salado',
-      note: 'Ancrage Cundinamarca / Boyaca et recette traditionnelle avec lait, eau, oignon, coriandre, oeufs et pain.',
+      note: 'Ancrage Cundinamarca / Boyaca et recette traditionnelle avec lait, eau, oignon, coriandre, œufs et pain.',
     },
     {
       title: 'Por que la changua es considerada por muchos como uno de los peores desayunos del mundo',
@@ -115,6 +115,6 @@ export const colombianChanguaRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de changua colombienne fumante avec soupe blanche au lait, oeuf poche visible, coriandre fraiche, oignon long, morceaux de pain calado qui trempent, petit fromage frais a cote, tasse de chocolat chaud en arriere-plan discret, ambiance matin frais a Bogota, palette moka mousse, blanc lait, jaune oeuf, vert coriandre, beige pain, brun chocolat, composition douce et reconfortante, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de changua colombienne fumante avec soupe blanche au lait, œuf poche visible, coriandre fraiche, oignon long, morceaux de pain calado qui trempent, petit fromage frais à cote, tasse de chocolat chaud en arrière-plan discret, ambiance matin frais à Bogota, palette moka mousse, blanc lait, jaune œuf, vert coriandre, beige pain, brun chocolat, composition douce et reconfortante, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

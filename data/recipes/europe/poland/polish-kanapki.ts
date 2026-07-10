@@ -7,13 +7,13 @@ export const polishKanapkiRecipe = {
   countrySlugs: ['poland-kanapki'],
   originLabel: 'Pologne',
   shortDescription:
-    'Des tartines ouvertes polonaises garnies de beurre, fromage, charcuterie, oeuf, concombre, tomate, radis, cornichons ou herbes.',
+    'Des tartines ouvertes polonaises garnies de beurre, fromage, charcuterie, œuf, concombre, tomate, radis, cornichons ou herbes.',
   longDescription:
-    'Les kanapki sont des sandwichs ouverts tres presents dans la vie quotidienne polonaise. Une tranche de pain, souvent seigle, levain ou pain de campagne, est garnie de beurre, fromage, twarog, charcuterie, oeufs, legumes frais, cornichons, radis, ciboulette ou herbes. Elles sont courantes au petit-dejeuner, au souper et comme second petit-dejeuner.',
+    'Les kanapki sont des sandwichs ouverts très presents dans la vie quotidienne polonaise. Une tranche de pain, souvent seigle, levain ou pain de campagne, est garnie de beurre, fromage, twarog, charcuterie, œufs, légumes frais, cornichons, radis, ciboulette ou herbes. Elles sont courantes au petit-déjeuner, au souper et comme second petit-déjeuner.',
   ingredients: [
     '4 tranches de pain de seigle ou pain au levain',
     'Beurre',
-    '2 oeufs durs',
+    '2 œufs durs',
     'Fromage frais ou twarog',
     '2 tranches de jambon ou fromage',
     '1 tomate',
@@ -44,13 +44,13 @@ export const polishKanapkiRecipe = {
   ],
   steps: [
     'Couper le pain en tranches.',
-    'Tartiner legerement de beurre ou de fromage frais.',
-    'Ajouter fromage, jambon, oeuf ou twarog.',
+    'Tartiner légèrement de beurre ou de fromage frais.',
+    'Ajouter fromage, jambon, œuf ou twarog.',
     'Couper tomate, concombre, radis ou cornichons.',
-    'Disposer les legumes sur les tartines.',
+    'Disposer les légumes sur les tartines.',
     'Ajouter ciboulette, sel et poivre.',
     'Servir ouvert, sans refermer comme un sandwich classique.',
-    'Accompagner de the ou cafe si souhaite.',
+    'Accompagner de thé ou café si souhaite.',
   ],
   prepTimeMinutes: 15,
   cookTimeMinutes: 0,
@@ -88,14 +88,14 @@ export const polishKanapkiRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Tres variable selon familles, regions, saison et contenu du frigo. Les kanapki ne sont pas limitees au petit-dejeuner.',
-  seoTitle: 'Kanapki : les tartines ouvertes du petit-dejeuner polonais',
+    'Très variable selon familles, régions, saison et contenu du frigo. Les kanapki ne sont pas limitees au petit-déjeuner.',
+  seoTitle: 'Kanapki : les tartines ouvertes du petit-déjeuner polonais',
   seoDescription:
-    'Decouvre les kanapki, des tartines ouvertes polonaises souvent servies au petit-dejeuner avec pain, fromage, charcuterie, oeuf et legumes frais.',
+    'Découvre les kanapki, des tartines ouvertes polonaises souvent servies au petit-déjeuner avec pain, fromage, charcuterie, œuf et légumes frais.',
   reviewNotes: [
-    'Les kanapki sont aussi courantes au souper ou comme second petit-dejeuner.',
-    'Les garnitures varient fortement selon familles, regions, saison et disponibilite.',
-    'Ne pas presenter les kanapki comme le seul petit-dejeuner polonais.',
+    'Les kanapki sont aussi courantes au souper ou comme second petit-déjeuner.',
+    'Les garnitures varient fortement selon familles, régions, saison et disponibilite.',
+    'Ne pas présenter les kanapki comme le seul petit-déjeuner polonais.',
   ],
   sources: [
     {
@@ -108,22 +108,22 @@ export const polishKanapkiRecipe = {
       title: 'Polish Open Face Sandwiches - Kanapki',
       url: 'https://polishhousewife.com/polish-open-face-sandwiches-kanapki/',
       publisher: 'Polish Housewife',
-      note: 'Usage quotidien au petit-dejeuner ou au souper et exemples de garnitures.',
+      note: 'Usage quotidien au petit-déjeuner ou au souper et exemples de garnitures.',
     },
     {
       title: 'Polish breakfast recipes',
       url: 'https://www.theguardian.com/lifeandstyle/2016/sep/29/traditional-polish-recipes-breakfast-scrambled-eggs-sausage-porridge-blackberries-student',
       publisher: 'The Guardian',
-      note: 'Contexte plus large des petits-dejeuners polonais et presence des kanapki.',
+      note: 'Contexte plus large des petits-déjeuners polonais et présence des kanapki.',
     },
     {
       title: 'Typical Polish Breakfast Dishes',
       url: 'https://findingpoland.com/typical-polish-breakfast-dishes/',
       publisher: 'Finding Poland',
-      note: 'Mention des kanapki comme option tres courante du petit-dejeuner polonais.',
+      note: 'Mention des kanapki comme option très courante du petit-déjeuner polonais.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de kanapki polonaises sur pain de seigle, garnitures variees avec fromage, twarog, oeuf dur, jambon, concombre, tomate, radis, cornichons, ciboulette, tasse de the noir a cote, ambiance cuisine familiale en Pologne le matin, palette moka mousse, brun pain, blanc fromage, rouge tomate, vert concombre, rose radis, composition editoriale coloree et simple, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de kanapki polonaises sur pain de seigle, garnitures variées avec fromage, twarog, œuf dur, jambon, concombre, tomate, radis, cornichons, ciboulette, tasse de thé noir à cote, ambiance cuisine familiale en Pologne le matin, palette moka mousse, brun pain, blanc fromage, rouge tomate, vert concombre, rose radis, composition éditoriale colorée et simple, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

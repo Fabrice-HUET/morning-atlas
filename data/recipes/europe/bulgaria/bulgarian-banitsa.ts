@@ -7,16 +7,16 @@ export const bulgarianBanitsaRecipe = {
   countrySlugs: ['bulgaria-banitsa'],
   originLabel: 'Bulgarie',
   shortDescription:
-    'Une patisserie feuilletee bulgare a base de pate filo, oeufs, yaourt et fromage sirene, souvent servie avec boza, ayran ou yaourt.',
+    'Une pâtisserie feuilletée bulgare à base de pâte filo, œufs, yaourt et fromage sirène, souvent servie avec boza, ayran ou yaourt.',
   longDescription:
-    'La banitsa est une patisserie salee tres associee a la Bulgarie. Une version courante alterne des feuilles de pate filo avec un melange d oeufs, yaourt et fromage blanc en saumure, souvent du sirene, puis le tout est cuit jusqu a obtenir une surface doree et croustillante. Elle peut etre mangee au petit-dejeuner, comme snack ou lors de moments familiaux et festifs.',
+    "La banitsa est une pâtisserie salée très associée à la Bulgarie. Une version courante alterne des feuilles de pâte filo avec un mélange d'œufs, yaourt et fromage blanc en saumure, souvent du sirène, puis le tout est cuit jusqu'à obtenir une surface dorée et croustillante. Elle peut être mangee au petit-déjeuner, comme snack ou lors de moments familiaux et festifs.",
   ingredients: [
-    '8 a 10 feuilles de pate filo',
-    '3 oeufs',
-    '250 g de fromage type feta ou sirene',
+    '8 à 10 feuilles de pâte filo',
+    '3 œufs',
+    '250 g de fromage type feta ou sirène',
     '150 g de yaourt nature',
     '50 g de beurre fondu ou huile',
-    '1/2 cuillere a cafe de bicarbonate optionnelle',
+    '1/2 cuillère à café de bicarbonate optionnelle',
   ],
   ingredientSlugs: [
     'filo-pastry',
@@ -35,14 +35,14 @@ export const bulgarianBanitsaRecipe = {
   ],
   steps: [
     'Emietter le fromage dans un bol.',
-    'Ajouter les oeufs et le yaourt.',
-    'Melanger sans chercher une texture totalement lisse.',
-    'Badigeonner une feuille de filo avec un peu de beurre ou d huile.',
+    'Ajouter les œufs et le yaourt.',
+    'Mélanger sans chercher une texture totalement lisse.',
+    "Badigeonner une feuille de filo avec un peu de beurre ou d'huile.",
     'Ajouter un peu de farce.',
     'Rouler la feuille et la placer en spirale ou en rangs dans un plat.',
     'Repeter avec les autres feuilles.',
     'Badigeonner le dessus.',
-    'Cuire a 180-190 C jusqu a ce que la banitsa soit doree.',
+    "Cuire à 180-190 C jusqu'à ce que la banitsa soit dorée.",
     'Laisser tiedir quelques minutes avant de couper.',
     'Servir avec yaourt, ayran ou boza si disponible.',
   ],
@@ -51,7 +51,7 @@ export const bulgarianBanitsaRecipe = {
   estimatedTimeMinutes: 60,
   difficulty: 'medium',
   servings: 6,
-  type: 'Patisserie salee au fromage',
+  type: 'Pâtisserie salée au fromage',
   tags: ['traditional-breakfast', 'family-meal', 'comfort-food', 'savory-morning'],
   tagSlugs: [
     'bulgaria',
@@ -79,13 +79,13 @@ export const bulgarianBanitsaRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    'Version simplifiee avec pate filo du commerce. Le sirene peut etre approche avec feta hors Bulgarie, mais ce n est pas exactement le meme fromage.',
-  seoTitle: 'Banitsa : la patisserie bulgare du petit-dejeuner',
+    "Version simplifiee avec pâte filo du commerce. Le sirène peut être approche avec feta hors Bulgarie, mais ce n'est pas exactement le même fromage.",
+  seoTitle: 'Banitsa : la pâtisserie bulgare du petit-déjeuner',
   seoDescription:
-    'Decouvre la banitsa, une patisserie bulgare a base de pate filo, oeufs, yaourt et fromage sirene, souvent servie au petit-dejeuner avec boza ou ayran.',
+    'Découvre la banitsa, une pâtisserie bulgare à base de pâte filo, œufs, yaourt et fromage sirène, souvent servie au petit-déjeuner avec boza ou ayran.',
   reviewNotes: [
     'La banitsa existe aussi dans des zones voisines ou sous formes proches dans les Balkans.',
-    'La boisson associee peut etre boza, ayran ou yaourt selon les familles.',
+    'La boisson associée peut être boza, ayran ou yaourt selon les familles.',
     'La tradition des porte-bonheur est surtout liee aux fetes, notamment au Nouvel An.',
     'Eviter de dire que tous les Bulgares en mangent chaque matin.',
   ],
@@ -94,13 +94,13 @@ export const bulgarianBanitsaRecipe = {
       title: "Bulgarian culinary highlights on New Year's eve",
       url: 'https://old-news.bnr.bg/en/post/100134936/bulgarian-culinary-highlights-on-new-years-eve',
       publisher: 'Radio nationale bulgare',
-      note: 'Recette traditionnelle de banitsa au sirene et pate filo.',
+      note: 'Recette traditionnelle de banitsa au sirène et pâte filo.',
     },
     {
       title: 'Five popular Bulgarian dishes that may seem a bit strange to some',
       url: 'https://new.bnr.bg/en/post/101738011/five-popular-bulgarian-dishes-that-may-seem-a-bit-strange-to-some?page_1_3=6',
       publisher: 'Radio nationale bulgare',
-      note: 'Combinaison banitsa et boza comme petit-dejeuner bulgare typique.',
+      note: 'Combinaison banitsa et boza comme petit-déjeuner bulgare typique.',
     },
     {
       title: 'The lucky charms that go into the banitsa',
@@ -112,10 +112,10 @@ export const bulgarianBanitsaRecipe = {
       title: 'Banitsa the Bulgarian feta cheese pastry',
       url: 'https://feasterneurope.com/banitsa-the-bulgarian-feta-cheese-pastry/',
       publisher: 'Feastern Europe',
-      note: 'Recette familiale et usages petit-dejeuner / snack avec yaourt ou boza.',
+      note: 'Recette familiale et usages petit-déjeuner / snack avec yaourt ou boza.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, part de banitsa bulgare doree et feuilletee, spirale de pate filo croustillante, fromage blanc visible, petit bol de yaourt, verre de boza, serviette brodee traditionnelle en arriere-plan discret, ambiance boulangerie ou cuisine familiale bulgare du matin, palette moka mousse, dore pate, creme yaourt, brun boza, touches rouge et vert folklorique, composition editoriale claire, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, part de banitsa bulgare dorée et feuilletée, spirale de pâte filo croustillante, fromage blanc visible, petit bol de yaourt, verre de boza, serviette brodee traditionnelle en arrière-plan discret, ambiance boulangerie ou cuisine familiale bulgare du matin, palette moka mousse, doré pâte, crème yaourt, brun boza, touches rouge et vert folklorique, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

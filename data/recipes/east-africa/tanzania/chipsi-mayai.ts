@@ -7,12 +7,12 @@ export const chipsiMayaiRecipe = {
   countrySlugs: ['tanzania-chipsi-mayai'],
   originLabel: 'Tanzanie',
   shortDescription:
-    'Une omelette de rue tanzanienne aux frites et aux oeufs, souvent servie avec kachumbari et sauce pimentee.',
+    'Une omelette de rue tanzanienne aux frites et aux œufs, souvent servie avec kachumbari et sauce pimentée.',
   longDescription:
-    'Le chipsi mayai assemble des frites et des oeufs battus dans une poele pour former une omelette epaisse. Tres associe a la street food tanzanienne, notamment en contexte urbain, il peut etre servi au petit-dejeuner, comme snack ou repas rapide. Les accompagnements courants incluent kachumbari, sauce tomate pimentee ou pili-pili.',
+    'Le chipsi mayai assemble des frites et des œufs battus dans une poêle pour former une omelette épaisse. Très associé à la street food tanzanienne, notamment en contexte urbain, il peut être servi au petit-déjeuner, comme snack ou repas rapide. Les accompagnements courants incluent kachumbari, sauce tomate pimentée ou pili-pili.',
   ingredients: [
     '2 grosses pommes de terre ou une portion de frites',
-    '3 oeufs',
+    '3 œufs',
     'Huile de friture',
     'Sel',
     'Poivre',
@@ -20,7 +20,7 @@ export const chipsiMayaiRecipe = {
     '1/2 oignon rouge',
     'Coriandre fraiche',
     'Jus de citron',
-    'Sauce pili-pili ou sauce tomate pimentee',
+    'Sauce pili-pili ou sauce tomate pimentée',
   ],
   ingredientSlugs: [
     'potatoes',
@@ -37,14 +37,14 @@ export const chipsiMayaiRecipe = {
     'spicy-tomato-sauce',
   ],
   steps: [
-    'Eplucher les pommes de terre et les couper en frites si elles ne sont pas deja cuites.',
-    'Frire les pommes de terre jusqu a ce qu elles soient dorees, puis les egoutter.',
-    'Battre les oeufs avec sel et poivre.',
-    'Remettre une portion de frites dans une petite poele legerement huilee.',
-    'Verser les oeufs battus sur les frites.',
-    'Cuire a feu moyen jusqu a ce que la base prenne.',
+    'Eplucher les pommes de terre et les couper en frites si elles ne sont pas déjà cuites.',
+    "Frire les pommes de terre jusqu'à ce qu elles soient dorées, puis les égoutter.",
+    'Battre les œufs avec sel et poivre.',
+    'Remettre une portion de frites dans une petite poêle légèrement huilee.',
+    'Verser les œufs battus sur les frites.',
+    "Cuire à feu moyen jusqu'à ce que la base prenne.",
     'Retourner delicatement ou couvrir pour finir la cuisson du dessus.',
-    'Preparer un kachumbari rapide avec tomate, oignon rouge, coriandre, citron et sel.',
+    'Préparer un kachumbari rapide avec tomate, oignon rouge, coriandre, citron et sel.',
     'Servir l omelette chaude avec kachumbari et sauce pili-pili.',
   ],
   prepTimeMinutes: 15,
@@ -84,28 +84,28 @@ export const chipsiMayaiRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Le chipsi mayai est surtout une street food et un repas rapide ; son usage matinal existe, mais il ne doit pas etre reduit au petit-dejeuner.',
+    'Le chipsi mayai est surtout une street food et un repas rapide ; son usage matinal existe, mais il ne doit pas être reduit au petit-déjeuner.',
   seoTitle: 'Chipsi Mayai : l omelette tanzanienne aux frites',
   seoDescription:
-    'Decouvre le chipsi mayai, une street food tanzanienne a base de frites et d oeufs, souvent servie avec kachumbari et sauce pimentee.',
+    "Découvre le chipsi mayai, une street food tanzanienne à base de frites et d'œufs, souvent servie avec kachumbari et sauce pimentée.",
   reviewNotes: [
-    'L origine tardive a Dar es Salaam est une indication journalistique, pas une certitude historique.',
-    'Le plat circule aussi dans des pays voisins, meme si la Tanzanie reste centrale dans les sources du lot.',
-    'La base frites et oeufs est stable, mais les garnitures varient.',
-    'Ne pas presenter le chipsi mayai comme une option saine.',
+    'L origine tardive à Dar es Salaam est une indication journalistique, pas une certitude historique.',
+    'Le plat circule aussi dans des pays voisins, même si la Tanzanie reste centrale dans les sources du lot.',
+    'La base frites et œufs est stable, mais les garnitures varient.',
+    'Ne pas présenter le chipsi mayai comme une option saine.',
   ],
   sources: [
     {
       title: 'Chips Mayai, French Fries Omelet',
       url: 'https://migrationology.com/chips-mayai-french-fries-omelet-a-staple-of-tanzanian-junk-food/',
       publisher: 'Migrationology',
-      note: 'Description street food, frites, oeufs et popularite en Tanzanie.',
+      note: 'Description street food, frites, œufs et popularite en Tanzanie.',
     },
     {
       title: 'Chipsi mayai, la tortilla de patatas tanzana',
       url: 'https://elpais.com/gastronomia/2026-05-24/chipsi-mayai-la-tortilla-de-patatas-tanzana-que-gustara-a-los-sincebollistas.html',
       publisher: 'El Pais',
-      note: 'Contexte journalistique, base pommes de terre et oeufs, variantes et origine recente indiquee.',
+      note: 'Contexte journalistique, base pommes de terre et œufs, variantes et origine recente indiquee.',
     },
     {
       title: 'Tanzanian street food in Zanzibar and Dar es Salaam',
@@ -115,6 +115,6 @@ export const chipsiMayaiRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, omelette tanzanienne chipsi mayai epaisse avec frites visibles, petite salade kachumbari tomate oignon coriandre, sauce pili-pili rouge dans une coupelle, assiette simple de rue, ambiance matin urbain a Dar es Salaam ou Zanzibar, palette moka mousse, jaune oeuf, brun dore frites, rouge tomate, vert coriandre, composition editoriale nette, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, omelette tanzanienne chipsi mayai épaisse avec frites visibles, petite salade kachumbari tomate oignon coriandre, sauce pili-pili rouge dans une coupelle, assiette simple de rue, ambiance matin urbain à Dar es Salaam ou Zanzibar, palette moka mousse, jaune œuf, brun doré frites, rouge tomate, vert coriandre, composition éditoriale nette, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

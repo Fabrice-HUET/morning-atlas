@@ -7,16 +7,16 @@ export const russianKashaRecipe = {
   countrySlugs: ['russia-kasha'],
   originLabel: 'Russie',
   shortDescription:
-    'Une famille de bouillies russes a base de sarrasin, avoine, millet, riz ou semoule, servies sucrees ou salees.',
+    'Une famille de bouillies russes à base de sarrasin, avoine, millet, riz ou semoule, servies sucrées ou salées.',
   longDescription:
-    'La kasha n est pas une seule recette, mais une grande famille russe de bouillies et cereales cuites. Elle peut etre preparee avec sarrasin, avoine, millet, riz, semoule ou orge. Au petit-dejeuner, elle est souvent cuite au lait ou a l eau et servie avec beurre, sucre, miel, confiture, fruits secs ou baies. La kasha de sarrasin peut aussi etre salee avec champignons, oignons, oeuf ou viande.',
+    "La kasha n'est pas une seule recette, mais une grande famille russe de bouillies et céréales cuites. Elle peut être préparée avec sarrasin, avoine, millet, riz, semoule ou orge. Au petit-déjeuner, elle est souvent cuite au lait ou a l'eau et servie avec beurre, sucre, miel, confiture, fruits secs ou baies. La kasha de sarrasin peut aussi être salée avec champignons, oignons, œuf ou viande.",
   ingredients: [
     '120 g de sarrasin grille',
-    '250 ml d eau',
+    "250 ml d'eau",
     '250 ml de lait',
     '1 pincee de sel',
     '1 noix de beurre',
-    'Miel ou sucre selon gout',
+    'Miel ou sucre selon goût',
     'Fruits secs ou baies optionnels',
   ],
   ingredientSlugs: [
@@ -43,12 +43,12 @@ export const russianKashaRecipe = {
     'sour-cream',
   ],
   steps: [
-    'Rincer rapidement le sarrasin si necessaire.',
-    'Faire bouillir l eau avec une pincee de sel.',
+    'Rincer rapidement le sarrasin si nécessaire.',
+    "Faire bouillir l'eau avec une pincee de sel.",
     'Ajouter le sarrasin.',
-    'Couvrir et cuire a feu doux 15 a 20 minutes.',
+    'Couvrir et cuire à feu doux 15 à 20 minutes.',
     'Ajouter le lait chaud.',
-    'Laisser epaissir quelques minutes.',
+    'Laisser épaissir quelques minutes.',
     'Ajouter beurre et miel ou sucre.',
     'Servir chaud avec fruits secs ou baies si souhaite.',
   ],
@@ -57,7 +57,7 @@ export const russianKashaRecipe = {
   estimatedTimeMinutes: 30,
   difficulty: 'easy',
   servings: 2,
-  type: 'Bouillie de cereales',
+  type: 'Bouillie de céréales',
   tags: ['traditional-breakfast', 'comfort-food', 'family-meal', 'healthy-breakfast'],
   tagSlugs: [
     'russia',
@@ -89,15 +89,15 @@ export const russianKashaRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Version Morning Atlas centree sur le sarrasin au lait et beurre, avec mention des variantes salees.',
-  seoTitle: 'Kasha russe : la bouillie traditionnelle du petit-dejeuner',
+    'Version Morning Atlas centrée sur le sarrasin au lait et beurre, avec mention des variantes salées.',
+  seoTitle: 'Kasha russe : la bouillie traditionnelle du petit-déjeuner',
   seoDescription:
-    'Decouvre la kasha russe, une famille de bouillies a base de sarrasin, avoine, millet, riz ou semoule, servies sucrees ou salees.',
+    'Découvre la kasha russe, une famille de bouillies à base de sarrasin, avoine, millet, riz ou semoule, servies sucrées ou salées.',
   reviewNotes: [
-    'Kasha ne doit pas etre reduit au sarrasin, meme si c est souvent le sens en anglais.',
-    'Le petit-dejeuner russe ne se limite pas a la kasha.',
-    'Les versions sucrees et salees doivent etre distinguees.',
-    'Eviter une origine historique trop precise pour l arrivee du sarrasin en Russie.',
+    "Kasha ne doit pas être reduit au sarrasin, même si c'est souvent le sens en anglais.",
+    'Le petit-déjeuner russe ne se limite pas à la kasha.',
+    'Les versions sucrées et salées doivent être distinguees.',
+    'Eviter une origine historique trop précise pour l arrivee du sarrasin en Russie.',
   ],
   sources: [
     {
@@ -116,10 +116,10 @@ export const russianKashaRecipe = {
       title: 'Kasha',
       url: 'https://en.wikipedia.org/wiki/Kasha',
       publisher: 'Wikipedia',
-      note: 'Source de synthese sur le terme kasha et la difference entre usage russe large et anglais centre sur le sarrasin.',
+      note: 'Source de synthese sur le terme kasha et la différence entre usage russe large et anglais centre sur le sarrasin.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kasha russe fumante au sarrasin, lait chaud, noix de beurre fondant, miel, quelques baies et raisins secs, petite cuillere en bois, champignons et oignons en option dans un petit bol a cote pour montrer la variante salee, ambiance matin d hiver dans une cuisine russe, palette moka mousse, brun sarrasin, creme lait, rouge baies, dore miel, bois clair, composition editoriale douce, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kasha russe fumante au sarrasin, lait chaud, noix de beurre fondant, miel, quelques baies et raisins secs, petite cuillère en bois, champignons et oignons en option dans un petit bol à cote pour montrer la variante salée, ambiance matin d hiver dans une cuisine russe, palette moka mousse, brun sarrasin, crème lait, rouge baies, doré miel, bois clair, composition éditoriale douce, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

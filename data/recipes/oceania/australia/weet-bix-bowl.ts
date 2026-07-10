@@ -7,14 +7,14 @@ export const weetBixBowlRecipe = {
   countrySlugs: ['australia-weet-bix'],
   originLabel: 'Australie',
   shortDescription:
-    'Des biscuits de ble complet servis avec du lait, souvent accompagnes de banane, fruits rouges, miel ou yaourt.',
+    'Des biscuits de ble complet servis avec du lait, souvent accompagnés de banane, fruits rouges, miel ou yaourt.',
   longDescription:
-    'Weet-Bix est une cereale de petit-dejeuner en forme de biscuits de ble compresse. En Australie, elle est souvent servie tres simplement avec lait froid ou chaud, puis parfois banane, miel, sucre brun, fruits rouges ou yaourt. Pour Morning Atlas, c est une icone du quotidien moderne plus qu une recette traditionnelle ancienne.',
+    "Weet-Bix est une céréale de petit-déjeuner en forme de biscuits de ble compresse. En Australie, elle est souvent servie très simplement avec lait froid ou chaud, puis parfois banane, miel, sucre brun, fruits rouges ou yaourt. Pour Morning Atlas, c'est une icone du quotidien moderne plus qu'une recette traditionnelle ancienne.",
   ingredients: [
     '2 ou 3 biscuits Weet-Bix',
-    '200 a 250 ml de lait',
+    '200 à 250 ml de lait',
     '1/2 banane',
-    '1 cuillere a cafe de miel',
+    '1 cuillère à café de miel',
     'Quelques fruits rouges optionnels',
     'Yaourt optionnel',
   ],
@@ -34,7 +34,7 @@ export const weetBixBowlRecipe = {
   steps: [
     'Placer les biscuits Weet-Bix dans un bol.',
     'Verser le lait froid ou chaud.',
-    'Ajouter la banane coupee.',
+    'Ajouter la banane coupée.',
     'Ajouter un filet de miel.',
     'Completer avec fruits rouges ou yaourt si souhaite.',
     'Manger rapidement pour garder un peu de texture ou attendre deux minutes pour une texture plus fondante.',
@@ -44,7 +44,7 @@ export const weetBixBowlRecipe = {
   estimatedTimeMinutes: 5,
   difficulty: 'easy',
   servings: 1,
-  type: 'Bol de cereales',
+  type: 'Bol de céréales',
   tags: ['quick', 'easy-at-home', 'family-meal', 'sweet-morning'],
   tagSlugs: [
     'australia',
@@ -71,31 +71,31 @@ export const weetBixBowlRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Weet-Bix est une marque et un repere culturel moderne. Ne pas presenter ce bol comme une recette traditionnelle ancienne.',
-  seoTitle: 'Weet-Bix : le bol de cereales emblematique d Australie',
+    'Weet-Bix est une marque et un repère culturel moderne. Ne pas présenter ce bol comme une recette traditionnelle ancienne.',
+  seoTitle: 'Weet-Bix : le bol de céréales emblématique d Australie',
   seoDescription:
-    'Decouvre Weet-Bix, une cereale australienne iconique servie avec lait, banane, miel ou fruits pour un petit-dejeuner simple et rapide.',
+    'Découvre Weet-Bix, une céréale australienne iconique servie avec lait, banane, miel ou fruits pour un petit-déjeuner simple et rapide.',
   reviewNotes: [
     'Weet-Bix est une marque : le traiter comme une icone du quotidien moderne, pas comme une tradition ancienne.',
-    'Le produit est aussi present en Nouvelle-Zelande et dans d autres pays.',
-    'Ne pas presenter Weet-Bix comme le petit-dejeuner australien unique.',
-    'Les recits publics peuvent varier sur les personnes associees a sa creation.',
+    "Le produit est aussi présent en Nouvelle-Zélande et dans d'autres pays.",
+    'Ne pas présenter Weet-Bix comme le petit-déjeuner australien unique.',
+    'Les récits publics peuvent varier sur les personnes associées a sa creation.',
   ],
   sources: [
     {
       title: 'Weet-Bix',
       url: 'https://www.sanitarium.com/sg/products/weet-bix/weet-bix',
       publisher: 'Sanitarium Health Food Company',
-      note: 'Positionnement de Weet-Bix comme cereale de petit-dejeuner numero 1 en Australie.',
+      note: 'Positionnement de Weet-Bix comme céréale de petit-déjeuner numero 1 en Australie.',
     },
     {
       title: 'The introduction of Weet-Bix',
       url: 'https://www.environment.nsw.gov.au/topics/heritage/blue-plaques/the-introduction-of-weet-bix',
       publisher: 'Blue Plaques NSW / Environment and Heritage',
-      note: 'Introduction en Australie en 1926, vente a Sanitarium en 1928 et slogans populaires.',
+      note: 'Introduction en Australie en 1926, vente à Sanitarium en 1928 et slogans populaires.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol australien de Weet-Bix avec biscuits de ble, lait verse, rondelles de banane, filet de miel, quelques fruits rouges, cuillere simple, table de cuisine lumineuse du matin, ambiance familiale australienne, palette moka mousse, beige ble, creme lait, jaune banane, rouge fruits, brun miel, composition editoriale propre, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol australien de Weet-Bix avec biscuits de ble, lait verse, rondelles de banane, filet de miel, quelques fruits rouges, cuillère simple, table de cuisine lumineuse du matin, ambiance familiale australienne, palette moka mousse, beige ble, crème lait, jaune banane, rouge fruits, brun miel, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

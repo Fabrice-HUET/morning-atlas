@@ -2,20 +2,20 @@ import type { Recipe } from '@/types/recipe'
 
 export const venezuelanCachapasRecipe = {
   slug: 'venezuelan-cachapas',
-  title: 'Cachapas venezueliennes',
+  title: 'Cachapas vénézuéliennes',
   localName: 'Cachapa, cachapas, cachapa de budare',
   countrySlugs: ['venezuela-cachapas'],
   originLabel: 'Venezuela',
   shortDescription:
-    'Des galettes epaisses de mais frais, legerement sucrees, souvent pliees autour de beurre et de queso de mano fondu.',
+    'Des galettes épaisses de mais frais, légèrement sucrées, souvent pliees autour de beurre et de queso de mano fondu.',
   longDescription:
-    'La cachapa est une galette venezuelienne de mais frais, epaisse et rustique, cuite comme une crepe ou un pancake sur une plaque chaude, parfois un budare. Sa texture reste moelleuse et legerement granuleuse, avec un gout naturellement sucre-sale. Elle est souvent servie avec beurre et queso de mano, mais peut aussi devenir un brunch, une street food ou un repas complet avec d autres garnitures.',
+    "La cachapa est une galette vénézuélienne de mais frais, épaisse et rustique, cuite comme une crêpe ou un pancake sur une plaque chaude, parfois un budare. Sa texture reste moelleuse et légèrement granuleuse, avec un goût naturellement sucre-sale. Elle est souvent servie avec beurre et queso de mano, mais peut aussi devenir un brunch, une street food ou un repas complet avec d'autres garnitures.",
   ingredients: [
-    '500 g de mais doux egoutte ou grains de mais frais',
-    '1 oeuf',
+    '500 g de mais doux égoutté ou grains de mais frais',
+    '1 œuf',
     '60 ml de lait',
-    '2 cuilleres a soupe de farine de mais precuite',
-    '1 cuillere a cafe de sucre optionnelle',
+    '2 cuillères à soupe de farine de mais precuite',
+    '1 cuillère à café de sucre optionnelle',
     '1 pincee de sel',
     '1 noix de beurre',
     'Queso de mano, queso latino ou mozzarella en remplacement',
@@ -38,15 +38,15 @@ export const venezuelanCachapasRecipe = {
     'roast-pork',
   ],
   steps: [
-    'Mixer grossierement le mais avec l oeuf, le lait, le sel et le sucre.',
-    'Ajouter un peu de farine de mais pour epaissir la pate.',
-    'Laisser reposer 5 a 10 minutes.',
-    'Faire chauffer une poele legerement beurree.',
-    'Verser une louche de pate.',
-    'Etaler en galette epaisse.',
-    'Cuire a feu moyen jusqu a ce que le dessous soit dore.',
+    'Mixer grossierement le mais avec l œuf, le lait, le sel et le sucre.',
+    'Ajouter un peu de farine de mais pour épaissir la pâte.',
+    'Laisser reposer 5 à 10 minutes.',
+    'Faire chauffer une poêle légèrement beurree.',
+    'Verser une louche de pâte.',
+    'Étaler en galette épaisse.',
+    "Cuire à feu moyen jusqu'à ce que le dessous soit doré.",
     'Retourner delicatement.',
-    'Ajouter le fromage sur une moitie.',
+    'Ajouter le fromage sur une moitié.',
     'Plier la cachapa.',
     'Laisser fondre le fromage.',
     'Servir chaud avec un peu de beurre.',
@@ -56,7 +56,7 @@ export const venezuelanCachapasRecipe = {
   estimatedTimeMinutes: 40,
   difficulty: 'medium',
   servings: 4,
-  type: 'Galette de mais sucree-salee',
+  type: 'Galette de mais sucrée-salée',
   tags: ['street-food', 'comfort-food', 'family-meal', 'sweet-breakfast'],
   tagSlugs: [
     'venezuela',
@@ -85,13 +85,13 @@ export const venezuelanCachapasRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    'La cachapa peut etre petit-dejeuner, brunch, snack ou street food. Mozzarella ou queso latino depannent hors Venezuela, mais ne remplacent pas exactement le queso de mano.',
-  seoTitle: 'Cachapas : les galettes de mais du petit-dejeuner venezuelien',
+    'La cachapa peut être petit-déjeuner, brunch, snack ou street food. Mozzarella ou queso latino depannent hors Venezuela, mais ne remplacent pas exactement le queso de mano.',
+  seoTitle: 'Cachapas : les galettes de mais du petit-déjeuner vénézuélien',
   seoDescription:
-    'Decouvre les cachapas venezueliennes, des galettes epaisses de mais frais souvent servies avec beurre et queso de mano fondu.',
+    'Découvre les cachapas vénézuéliennes, des galettes épaisses de mais frais souvent servies avec beurre et queso de mano fondu.',
   reviewNotes: [
-    'Ne pas reduire la cachapa a un petit-dejeuner strict : elle est aussi brunch, snack, street food ou repas complet.',
-    'Le queso de mano est difficile a trouver hors Venezuela.',
+    'Ne pas réduire la cachapa à un petit-déjeuner strict : elle est aussi brunch, snack, street food ou repas complet.',
+    'Le queso de mano est difficile à trouver hors Venezuela.',
     'Le mais frais donne une meilleure texture que le mais en conserve.',
     'Ne pas confondre cachapa, arepa et tortilla.',
   ],
@@ -100,13 +100,13 @@ export const venezuelanCachapasRecipe = {
       title: 'Cachapas Recipe',
       url: 'https://www.bonappetit.com/recipe/cachapas-recipe',
       publisher: 'Bon Appetit',
-      note: 'Cachapa comme street food venezuelienne traditionnelle, cuite sur budare et servie avec queso de mano ou beurre.',
+      note: 'Cachapa comme street food vénézuélienne traditionnelle, cuite sur budare et servie avec queso de mano ou beurre.',
     },
     {
       title: 'Cachapas con queso de mano',
       url: 'https://enrilemoine.com/2016/07/05/cachapas-con-queso-de-mano-receta/',
       publisher: 'Enri Lemoine',
-      note: 'Version venezuelienne avec queso de mano et usage desayuno / brunch.',
+      note: 'Version vénézuélienne avec queso de mano et usage desayuno / brunch.',
     },
     {
       title: 'Cachapas venezolanas',
@@ -122,6 +122,6 @@ export const venezuelanCachapasRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa venezuelienne pliee en deux, galette epaisse de mais dore avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisee en arriere-plan, ambiance stand de rue matinal a Caracas, palette moka mousse, jaune mais, creme fromage, brun dore, vert doux, composition editoriale appetissante et simple, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliee en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisee en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

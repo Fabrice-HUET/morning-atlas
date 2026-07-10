@@ -7,31 +7,31 @@ export const lablabiRecipe = {
   countrySlugs: ['tunisia-lablabi'],
   originLabel: 'Tunisie',
   shortDescription:
-    'Une soupe tunisienne populaire aux pois chiches, pain, cumin, ail, harissa, citron et huile d olive.',
+    "Une soupe tunisienne populaire aux pois chiches, pain, cumin, ail, harissa, citron et huile d'olive.",
   longDescription:
-    'Le lablabi est une soupe ou un ragout tunisien a base de pois chiches, souvent servi chaud dans des bols personnalises. Il peut inclure oeuf, thon, capres, citron, harissa, pickles ou herbes selon les versions.',
+    'Le lablabi est une soupe ou un ragout tunisien à base de pois chiches, souvent servi chaud dans des bols personnalises. Il peut inclure œuf, thon, capres, citron, harissa, pickles ou herbes selon les versions.',
   ingredients: [
     '1 grande boite de pois chiches',
     '2 tranches de pain rassis ou pain de campagne',
-    '1 gousse d ail',
-    '1 cuillere a cafe de cumin',
-    '1 cuillere a cafe de harissa',
+    "1 gousse d'ail",
+    '1 cuillère à café de cumin',
+    '1 cuillère à café de harissa',
     '1/2 citron',
-    '2 cuilleres a soupe d huile d olive',
+    "2 cuillères à soupe d'huile d'olive",
     'Sel et poivre',
-    'Option : 1 oeuf mollet par personne',
+    'Option : 1 œuf mollet par personne',
     'Option : thon, capres, persil',
   ],
   ingredientSlugs: ['chickpeas', 'stale-bread', 'garlic', 'cumin', 'harissa', 'lemon', 'olive-oil', 'eggs', 'tuna', 'capers', 'parsley'],
   steps: [
-    'Faire chauffer les pois chiches avec leur jus et un peu d eau.',
-    'Ajouter l ail ecrase, le cumin, le sel et le poivre.',
-    'Laisser mijoter 10 a 15 minutes.',
+    "Faire chauffer les pois chiches avec leur jus et un peu d'eau.",
+    "Ajouter l'ail ecrase, le cumin, le sel et le poivre.",
+    'Laisser mijoter 10 à 15 minutes.',
     'Dechirer le pain en morceaux dans un bol.',
     'Verser les pois chiches et le bouillon chaud sur le pain.',
-    'Ajouter harissa, citron et huile d olive.',
-    'Completer avec oeuf mollet, thon, capres ou herbes si souhaite.',
-    'Melanger dans le bol avant de manger.',
+    "Ajouter harissa, citron et huile d'olive.",
+    'Completer avec œuf mollet, thon, capres ou herbes si souhaite.',
+    'Mélanger dans le bol avant de manger.',
   ],
   prepTimeMinutes: 10,
   cookTimeMinutes: 20,
@@ -48,10 +48,10 @@ export const lablabiRecipe = {
     'Version rapide avec pois chiches en conserve. Avec pois chiches secs, prevoir trempage et cuisson longue.',
   seoTitle: 'Lablabi tunisien : la soupe de pois chiches du matin',
   seoDescription:
-    'Decouvre le lablabi, une soupe tunisienne populaire a base de pois chiches, pain, cumin, harissa et citron, souvent servie chaude au petit-dejeuner.',
+    'Découvre le lablabi, une soupe tunisienne populaire à base de pois chiches, pain, cumin, harissa et citron, souvent servie chaude au petit-déjeuner.',
   reviewNotes: [
-    'L origine historique exacte est incertaine et doit rester presentee avec prudence.',
-    'La version de Bizerte merite une recherche dediee avant une fiche separee.',
+    'L origine historique exacte est incertaine et doit rester présentée avec prudence.',
+    'La version de Bizerte merite une recherche dediee avant une fiche séparée.',
   ],
   sources: [
     {
@@ -64,13 +64,13 @@ export const lablabiRecipe = {
       title: 'Lablabi - Tunisian chickpea soup/stew',
       url: 'https://www.carolinescooking.com/lablabi-tunisian-chickpea-soup-stew/',
       publisher: "Caroline's Cooking",
-      note: 'Prudence sur les origines, stands populaires, cafes et ingredients de base.',
+      note: 'Prudence sur les origines, stands populaires, cafés et ingrédients de base.',
     },
     {
       title: 'Lablabi (Tunisian Chickpea Soup)',
       url: 'https://www.seriouseats.com/mollie-katzens-lablabi-tunisian-chickpea-soup',
       publisher: 'Serious Eats',
-      note: 'Version simple centree sur pois chiches, bouillon, ail, cumin et citron.',
+      note: 'Version simple centrée sur pois chiches, bouillon, ail, cumin et citron.',
     },
     {
       title: 'Harissa',
@@ -80,6 +80,6 @@ export const lablabiRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, oeuf mollet, touche de harissa rouge, citron, huile d olive, capres et herbes, petite cuillere, ambiance matin d hiver mediterraneen, palette moka, creme, ocre, rouge harissa, vert olive, composition editoriale simple, sans photorealisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, capres et herbes, petite cuillère, ambiance matin d hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

@@ -2,11 +2,11 @@ import { Button } from '@/components/ui/Button'
 
 const heroTiles = [
   { emoji: '🥣', label: 'Porridge' },
-  { emoji: '🍳', label: 'Oeufs' },
+  { emoji: '🍳', label: 'Œufs' },
   { emoji: '🍚', label: 'Riz' },
   { emoji: '🥖', label: 'Pain' },
-  { emoji: '☕', label: 'Cafe' },
-  { emoji: '🫖', label: 'The' },
+  { emoji: '☕', label: 'Café' },
+  { emoji: '🫖', label: 'Thé' },
 ]
 
 export function HeroSection() {
@@ -16,11 +16,11 @@ export function HeroSection() {
         <div>
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-toast">Media culinaire et culturel</p>
           <h1 className="mt-5 max-w-4xl text-5xl font-black leading-[0.98] tracking-tight text-espresso sm:text-6xl lg:text-7xl">
-            Decouvrir le monde a travers les petits-dejeuners
+            Découvrir le monde à travers les petits-déjeuners
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-espresso/80">
             Morning Atlas explore les habitudes du matin autour du monde avec des fiches pays, des recettes simples,
-            des ingredients et des reperes culturels accessibles.
+            des ingrédients et des repères culturels accessibles.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button href="/countries">Explorer les pays</Button>

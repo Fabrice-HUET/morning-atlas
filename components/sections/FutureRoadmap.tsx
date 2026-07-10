@@ -1,8 +1,8 @@
 import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 
-const reasons = ['Approche visuelle', 'Decouverte culturelle', 'Contenu accessible']
-const roadmap = ['Fiches pays detaillees', 'Guides comparatifs', 'Recettes par ingredient', 'Contenus culturels']
+const reasons = ['Approche visuelle', 'Découverte culturelle', 'Contenu accessible']
+const roadmap = ['Fiches pays détaillées', 'Guides comparatifs', 'Recettes par ingrédient', 'Contenus culturels']
 
 export function FutureRoadmap() {
   return (
@@ -19,7 +19,7 @@ export function FutureRoadmap() {
           </div>
         </div>
         <div>
-          <SectionHeading eyebrow="Bientot" title="Les prochaines briques editoriales" />
+          <SectionHeading eyebrow="Bientôt" title="Les prochaines briques éditoriales" />
           <div className="mt-8 grid gap-4">
             {roadmap.map((item) => (
               <div key={item} className="rounded-lg border border-toast/35 bg-honey/10 p-5">

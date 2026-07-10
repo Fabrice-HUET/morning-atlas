@@ -14,7 +14,7 @@ export function FeaturedRecipes() {
           <SectionHeading
             eyebrow="Recettes simples"
             title="Des bases accessibles pour commencer"
-            description="Les recettes de depart sont volontairement courtes : elles structurent le futur catalogue avant enrichissement editorial."
+            description="Les recettes de départ sont volontairement courtes : elles structurent le futur catalogue avant enrichissement éditorial."
           />
           <Button href="/recipes" variant="secondary">
             Voir les recettes

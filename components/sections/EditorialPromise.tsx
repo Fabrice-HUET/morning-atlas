@@ -8,11 +8,11 @@ const promises = [
   },
   {
     title: 'Recettes',
-    text: 'Proposer des versions simples a refaire, sans pretendre remplacer les gestes traditionnels.',
+    text: 'Proposer des versions simples à refaire, sans prétendre remplacer les gestes traditionnels.',
   },
   {
     title: 'Habitudes du matin',
-    text: 'Comparer boissons, rythmes, ingredients et assiettes pour mieux lire les quotidiens.',
+    text: 'Comparer boissons, rythmes, ingrédients et assiettes pour mieux lire les quotidiens.',
   },
 ]
 
@@ -21,9 +21,9 @@ export function EditorialPromise() {
     <section className="bg-paper py-20">
       <Container>
         <SectionHeading
-          eyebrow="Promesse editoriale"
+          eyebrow="Promesse éditoriale"
           title="Un atlas du matin, simple et chaleureux"
-          description="Le site est pense comme une base vivante : chaque fiche pourra devenir plus detaillee, illustree et reliee a des recettes, categories, ingredients et guides."
+          description="Le site est pensé comme une base vivante : chaque fiche pourra devenir plus détaillée, illustrée et reliée à des recettes, catégories, ingrédients et guides."
         />
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {promises.map((promise) => (

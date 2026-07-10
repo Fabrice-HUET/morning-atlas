@@ -7,24 +7,24 @@ export const buburAyamRecipe = {
   countrySlugs: ['indonesia-bubur-ayam'],
   originLabel: 'Indonesie',
   shortDescription:
-    'Une bouillie de riz chaude et douce, garnie de poulet effiloche, echalotes frites, cebettes, cakwe, crackers et sambal.',
+    'Une bouillie de riz chaude et douce, garnie de poulet effiloché, echalotes frites, cebettes, cakwe, crackers et sambal.',
   longDescription:
-    'Le bubur ayam est une bouillie de riz au poulet tres populaire en Indonesie. La base est un congee de riz cuit longtemps jusqu a devenir cremeux, puis garni de poulet effiloche et de toppings comme echalotes frites, cebettes, celeri, cakwe, sauce soja, bouillon jaune, crackers, oeuf, foie ou gesier selon les versions.',
+    "Le bubur ayam est une bouillie de riz au poulet très populaire en Indonesie. La base est un congee de riz cuit longtemps jusqu'à devenir crémeux, puis garni de poulet effiloché et de toppings comme echalotes frites, cebettes, celeri, cakwe, sauce soja, bouillon jaune, crackers, œuf, foie ou gésier selon les versions.",
   ingredients: [
     '100 g de riz',
-    '800 ml a 1 L de bouillon de poulet',
+    '800 ml à 1 L de bouillon de poulet',
     '1 blanc ou haut de cuisse de poulet',
-    '1 gousse d ail',
+    "1 gousse d'ail",
     '1 feuille de laurier ou daun salam si disponible',
     '1 tige de citronnelle optionnelle',
     'Sel et poivre blanc',
-    '1 oeuf dur optionnel',
+    '1 œuf dur optionnel',
     'Echalotes frites',
     'Ciboule',
     'Cakwe ou morceaux de pain frit optionnels',
     'Kerupuk ou crackers',
     'Kecap manis ou sauce soja',
-    'Sambal a part',
+    'Sambal à part',
   ],
   ingredientSlugs: [
     'rice',
@@ -52,14 +52,14 @@ export const buburAyamRecipe = {
   steps: [
     'Rincer le riz.',
     'Cuire le riz dans le bouillon avec ail, sel, poivre et feuille aromatique.',
-    'Ajouter le poulet dans le meme bouillon pour le pocher.',
+    'Ajouter le poulet dans le même bouillon pour le pocher.',
     'Retirer le poulet quand il est cuit, puis l effilocher.',
-    'Continuer de cuire le riz jusqu a texture cremeuse.',
+    "Continuer de cuire le riz jusqu'à texture crémeuse.",
     'Ajuster avec eau ou bouillon si besoin.',
     'Verser la bouillie dans un bol.',
-    'Ajouter poulet effiloche, ciboule, echalotes frites et oeuf.',
+    'Ajouter poulet effiloché, ciboule, echalotes frites et œuf.',
     'Ajouter cakwe ou crackers si disponibles.',
-    'Servir avec kecap manis et sambal a part.',
+    'Servir avec kecap manis et sambal à part.',
   ],
   prepTimeMinutes: 20,
   cookTimeMinutes: 40,
@@ -98,33 +98,33 @@ export const buburAyamRecipe = {
   recreateAtHomeLevel: 'medium',
   notes:
     'Version simplifiee. Les toppings changent fortement selon villes, vendeurs, familles et restaurants.',
-  seoTitle: 'Bubur Ayam : la bouillie de poulet du petit-dejeuner indonesien',
+  seoTitle: 'Bubur Ayam : la bouillie de poulet du petit-déjeuner indonesien',
   seoDescription:
-    'Decouvre le bubur ayam, une bouillie de riz indonesienne au poulet, souvent servie au petit-dejeuner avec echalotes frites, cakwe, crackers et sambal.',
+    'Découvre le bubur ayam, une bouillie de riz indonesienne au poulet, souvent servie au petit-déjeuner avec echalotes frites, cakwe, crackers et sambal.',
   reviewNotes: [
-    'Le bubur ayam est tres solide comme petit-dejeuner indonesien, mais il n est pas limite au matin.',
+    "Le bubur ayam est très solide comme petit-déjeuner indonesien, mais il n'est pas limite au matin.",
     'Les toppings changent beaucoup selon villes, vendeurs, familles et restaurants.',
     'L influence chinoise du congee est importante, mais la version indonesienne a ses propres codes.',
-    'Le sambal est souvent servi a part ; ne pas presenter le plat comme automatiquement tres epice.',
+    'Le sambal est souvent servi à part ; ne pas présenter le plat comme automatiquement très épice.',
   ],
   sources: [
     {
       title: 'Don’t Miss These: 5 Must Try Street Foods in Bandung',
       url: 'https://www.indonesia.travel/gb/en/travel-ideas/gastronomy/dont-miss-these-5-must-try-street-foods-in-bandung/',
       publisher: 'Indonesia Travel',
-      note: 'Bubur ayam de Bandung, toppings et ouverture matinale d un vendeur populaire.',
+      note: "Bubur ayam de Bandung, toppings et ouverture matinale d'un vendeur populaire.",
     },
     {
       title: '17 Most Popular and Delicious Indonesian Foods',
       url: 'https://www.indonesia.travel/gb/en/travel-ideas/gastronomy/don-t-leave-indonesia-before-you-get-a-taste-of-these-12-favorite-local-foods/',
       publisher: 'Indonesia Travel',
-      note: 'Mention generale du bubur ayam comme chicken porridge indonesien.',
+      note: 'Mention générale du bubur ayam comme chicken porridge indonesien.',
     },
     {
       title: 'Bubur Ayam - Chicken Congee',
       url: 'https://dailycookingquest.com/bubur-ayam-chicken-congee.html',
       publisher: 'Daily Cooking Quest',
-      note: 'Recette avec riz, bouillon, poulet, daun salam, citronnelle, galanga, feuilles de kaffir lime et epices.',
+      note: 'Recette avec riz, bouillon, poulet, daun salam, citronnelle, galanga, feuilles de kaffir lime et épices.',
     },
     {
       title: 'Bubur Ayam Recipe for Indonesian Chicken and Omelette Congee',
@@ -134,6 +134,6 @@ export const buburAyamRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de bubur ayam indonesien fumant, bouillie de riz cremeuse, poulet effiloche, echalotes frites, ciboule, oeuf, cakwe, kerupuk, petit bol de sambal rouge a cote, ambiance stand matinal a Bandung ou Jakarta, palette moka mousse, creme riz, jaune bouillon, brun echalotes, rouge sambal, vert ciboule, composition editoriale genereuse mais lisible, sans photorealisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de bubur ayam indonesien fumant, bouillie de riz crémeuse, poulet effiloché, echalotes frites, ciboule, œuf, cakwe, kerupuk, petit bol de sambal rouge à cote, ambiance stand matinal à Bandung ou Jakarta, palette moka mousse, crème riz, jaune bouillon, brun echalotes, rouge sambal, vert ciboule, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe
