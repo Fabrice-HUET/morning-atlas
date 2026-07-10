@@ -12,6 +12,23 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-10 — CODE-01 : assainissement du dépôt git
+
+- Date : `2026-07-10`
+- Branche : `main` + `feat/creator-page`
+- Commit : `dcd8ade` (suppression parasite), `5aef963` (docs pilotage), `a4ac354` (chantier creator)
+- Type de tâche : technique, hygiène git
+- Résumé : exécution de la tâche CODE-01. Suppression du fichier vide parasite `main` (il était tracké, committé par accident), séparation du travail non committé en deux branches propres, et suppression du doublon `audit_fable.md` (contenu identique préservé dans `docs/AUDIT_2026-07.md`).
+- Répartition :
+  - **`main`** : suppression du fichier parasite `main` + docs de pilotage (ROADMAP, BACKLOG, CREATOR_ROADMAP, AUDIT, NEXT_STEPS, PROJECT_LOG).
+  - **`feat/creator-page`** : chantier code créateur (`app/creator/`, `components/creator/CreatorScene.tsx`, `data/creator.ts`, lien footer, dépendances `three` + `@types/three`).
+- Décisions prises :
+  - `docs/cv.html` **non committé volontairement** : CV personnel non destiné au repo public en l'état ; il sera migré vers `/creator/cv` par CREATOR-05 puis supprimé. Laissé en working tree, à archiver hors repo par Fabrice si besoin.
+  - `audit_fable.md` (racine) supprimé car strictement identique à `docs/AUDIT_2026-07.md`.
+  - Rien n'a été poussé sur le remote (`origin/main` est en retard de 2 commits ; push à faire par Fabrice quand il le décide).
+- Validation : `git status` propre sur `main` (hors `docs/cv.html` assumé) ; `pnpm lint`, `pnpm typecheck`, `pnpm build` (652 pages, `/creator` incluse) OK sur `feat/creator-page` avec Node v24.11.0.
+- Prochaine action : Sprint 1 — `DATA-01` (restaurer les accents français). En parallèle, la piste créateur peut démarrer par `CREATOR-01`.
+
 ## 2026-07-10 — Restructuration du pilotage : backlog opérationnel et roadmap créateur
 
 - Date : `2026-07-10`

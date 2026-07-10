@@ -6,22 +6,22 @@
 
 - Socle technique sain : lint, typecheck, build OK (652 pages), SEO P0 en place, 53 images WebP alignées, intégrité des données parfaite.
 - Blocants identifiés par l'audit : accents français manquants dans la quasi-totalité des textes (y compris le H1 de la home), 100 % des fiches en `needsReview: true`, fallback image picsum.photos, breadcrumbs JSON-LD vers des pages 404, badge interne « A verifier » visible publiquement.
-- Chantier creator non committé sur `main` (page `/creator`, `data/creator.ts`, scène three.js, lien footer) + fichier parasite `main` à la racine.
+- ✅ `CODE-01` fait le 2026-07-10 : fichier parasite `main` supprimé ; chantier creator committé sur `feat/creator-page` ; docs de pilotage committés sur `main`. `docs/cv.html` laissé de côté volontairement (migration prévue par CREATOR-05). Rien poussé sur le remote.
 
 ## Prochaine mission immédiate
 
-**Sprint 0 puis Sprint 1 de `docs/ROADMAP.md`, dans l'ordre :**
+**Sprint 0 (fin) puis Sprint 1 de `docs/ROADMAP.md`, dans l'ordre :**
 
-1. `CODE-01` — assainir le git (10 min) : supprimer le fichier `main`, committer le chantier creator sur `feat/creator-page`.
-2. `TOOL-02`, `CODE-03`, `IMG-02` — hygiène rapide.
-3. `DATA-01` — restaurer les accents français partout. **Rien de public tant que ce n'est pas fait.**
+1. ~~`CODE-01`~~ — fait.
+2. `TOOL-02`, `CODE-03`, `IMG-02` — hygiène rapide restante du Sprint 0.
+3. **`DATA-01` — restaurer les accents français partout. Rien de public tant que ce n'est pas fait. C'est le prochain gros chantier.**
 4. `UI-01` + `IMG-01` + `SEO-01` — les trois autres P0, indépendants entre eux.
 
 Chaque tâche a son prompt prêt à coller dans `docs/BACKLOG.md`.
 
 ## Piste parallèle : espace créateur & CV
 
-Après `CODE-01`, la refonte de l'espace créateur peut avancer en parallèle des sprints éditoriaux — voir `docs/CREATOR_ROADMAP.md` : section distincte du site (route groups, layout dédié), thème « Atelier » (palette Mocha Mousse inversée, fond sombre, accent honey), scène SVG maison à la place de three.js, CV web imprimable `/creator/cv` remplaçant `docs/cv.html`, PDF réel dans `public/files/`.
+Le prérequis `CODE-01` étant levé, la refonte de l'espace créateur peut avancer en parallèle des sprints éditoriaux — voir `docs/CREATOR_ROADMAP.md` : section distincte du site (route groups, layout dédié), thème « Atelier » (palette Mocha Mousse inversée, fond sombre, accent honey), scène SVG maison à la place de three.js, CV web imprimable `/creator/cv` remplaçant `docs/cv.html`, PDF réel dans `public/files/`.
 
 **Décision attendue de Fabrice :** email canonique (gmail vs icloud) — seul point bloquant côté contenu créateur.
 
