@@ -10,7 +10,7 @@
 
 | ID | Tâche | Priorité | Statut |
 | --- | --- | --- | --- |
-| CODE-01 | Assainir le dépôt git | P0 | ✅ 2026-07-10 (`feat/creator-page`) |
+| CODE-01 | Assainir le dépôt git | P0 | ✅ 2026-07-10 (tout sur `main`) |
 | DATA-01 | Restaurer les accents français | P0 | ☐ |
 | UI-01 | Retirer le badge « A verifier » public | P0 | ☐ |
 | IMG-01 | Remplacer le fallback picsum | P0 | ☐ |

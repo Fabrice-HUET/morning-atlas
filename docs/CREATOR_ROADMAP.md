@@ -60,7 +60,7 @@ Points de vigilance : ce repo tourne sur **Next 16.2.9 dont les conventions peuv
 
 ## Tâches ordonnées
 
-L'ordre est strict : chaque tâche dépend de la précédente sauf mention contraire. Prérequis global : **CODE-01** (le chantier creator actuel doit être committé sur une branche avant d'être refondu).
+L'ordre est strict : chaque tâche dépend de la précédente sauf mention contraire. Prérequis global : **CODE-01** ✅ fait le 2026-07-10 — le chantier creator actuel est committé sur `main` (`6fb411f`), point de départ propre avant refonte. (Décision : branche unique `main`, pas de branche de feature dédiée.)
 
 | ID | Tâche | Effort | Dépend de |
 | --- | --- | --- | --- |
@@ -76,7 +76,7 @@ L'ordre est strict : chaque tâche dépend de la précédente sauf mention contr
 ### [CREATOR-01] Isoler l'espace créateur : route groups et layout dédié
 - **Priorité :** P1
 - **Effort :** M
-- **Dépend de :** CODE-01 (chantier creator committé)
+- **Dépend de :** CODE-01 ✅ (chantier creator committé sur `main`)
 - **Pourquoi :** Aujourd'hui `/creator` hérite de la Navbar et du Footer du magazine : impossible d'avoir un design réellement distinct. Les route groups permettent deux layouts frères sans changer aucune URL.
 - **Critères d'acceptation :**
   - Toutes les pages du magazine vivent sous `app/(site)/` avec un layout qui porte Navbar + Footer ; `/creator` vit sous `app/(atelier)/creator/` avec un layout dédié (mini-header « L'Atelier » + lien retour vers l'atlas, footer minimal propre).

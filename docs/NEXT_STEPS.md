@@ -6,7 +6,7 @@
 
 - Socle technique sain : lint, typecheck, build OK (652 pages), SEO P0 en place, 53 images WebP alignées, intégrité des données parfaite.
 - Blocants identifiés par l'audit : accents français manquants dans la quasi-totalité des textes (y compris le H1 de la home), 100 % des fiches en `needsReview: true`, fallback image picsum.photos, breadcrumbs JSON-LD vers des pages 404, badge interne « A verifier » visible publiquement.
-- ✅ `CODE-01` fait le 2026-07-10 : fichier parasite `main` supprimé ; chantier creator committé sur `feat/creator-page` ; docs de pilotage committés sur `main`. `docs/cv.html` laissé de côté volontairement (migration prévue par CREATOR-05). Rien poussé sur le remote.
+- ✅ `CODE-01` fait le 2026-07-10 : fichier parasite `main` supprimé ; chantier creator + docs de pilotage committés sur **`main` (branche unique, décision explicite)**. `docs/cv.html` laissé de côté volontairement (migration prévue par CREATOR-05). Rien poussé sur le remote.
 
 ## Prochaine mission immédiate
 
