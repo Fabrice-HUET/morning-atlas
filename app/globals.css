@@ -71,6 +71,27 @@ a {
   border-radius: 6px;
 }
 
+/* Révélation au scroll en CSS pur (scroll-driven animations). Fallback : visible par défaut. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .atelier .atelier-reveal {
+      animation: atelier-reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 5% cover 22%;
+    }
+    @keyframes atelier-reveal {
+      from {
+        opacity: 0;
+        transform: translateY(22px);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+}
+
 img,
 svg {
   display: block;

@@ -17,37 +17,58 @@ export const creatorProfile = {
       href: 'https://www.linkedin.com/in/fabrice-huet/',
     },
     {
+      // TODO (à confirmer par Fabrice) : e-mail canonique — gmail ici vs icloud du compte.
       label: 'Email',
       href: 'mailto:fabrice.huet.01@gmail.com',
     },
   ],
 } as const
 
+// Compétences reformulées en bénéfices ; les technologies sont le second niveau de lecture.
 export const creatorSkills = [
   {
-    title: 'Front-end',
-    items: ['HTML', 'CSS', 'SCSS', 'Tailwind', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'React Native'],
+    title: 'Interfaces accessibles et responsives',
+    description: 'Des UI React/Next.js soignées, adaptées à tous les écrans et pensées pour l’accessibilité.',
+    items: [
+      'React',
+      'Next.js',
+      'TypeScript',
+      'JavaScript',
+      'Tailwind',
+      'HTML',
+      'CSS',
+      'SCSS',
+      'React Native',
+      'Accessibilité',
+      'UI/UX',
+      'Responsive design',
+    ],
   },
   {
-    title: 'Back-office & templates',
+    title: 'Performance & SEO technique',
+    description: 'Des pages rapides, bien structurées et lisibles par les moteurs de recherche.',
+    items: ['Performance', 'SEO technique', 'Debugging'],
+  },
+  {
+    title: 'Intégration back-office',
+    description: 'Templates et API pour alimenter des back-offices sur mesure.',
     items: ['Twig', 'Symfony', 'Django', 'API REST', 'API Platform'],
   },
   {
-    title: 'Qualité & produit',
-    items: ['Accessibilité', 'SEO technique', 'UI/UX', 'Responsive design', 'Performance', 'Debugging'],
-  },
-  {
-    title: 'Outils',
-    items: ['GitHub', 'GitLab', 'Jira', 'Trello', 'Figma', 'ESLint', 'Prettier'],
+    title: 'Qualité & outillage',
+    description: 'Un code propre, versionné et outillé, en équipe.',
+    items: ['GitHub', 'GitLab', 'ESLint', 'Prettier', 'Jira', 'Trello', 'Figma'],
   },
 ] as const
 
-export const creatorExperiences = [
+// Parcours en récit : le développement, puis la reconversion assumée comme socle.
+export const creatorTimeline = [
   {
-    company: 'Agence Référence',
-    role: 'Développeur Front-End',
+    kind: 'dev',
     period: '2022 — aujourd’hui',
     location: 'Tours, France',
+    role: 'Développeur Front-End',
+    org: 'Agence Référence',
     highlights: [
       'Développement et maintenance de sites web commerciaux et événementiels.',
       'Modernisation d’interfaces existantes pour améliorer l’UX, la cohérence graphique et les performances.',
@@ -56,47 +77,70 @@ export const creatorExperiences = [
     ],
   },
   {
-    company: 'StudioLabs',
-    role: 'Développeur React / React Native',
-    period: 'Août 2022 — novembre 2022',
+    kind: 'dev',
+    period: 'Août — novembre 2022',
     location: 'Remote',
+    role: 'Développeur React / React Native',
+    org: 'StudioLabs',
     highlights: [
       'Interventions rapides sur projets web et mobiles : corrections, évolutions et intégrations de fonctionnalités.',
       'Missions courtes nécessitant autonomie, adaptation et gestion efficace du temps.',
     ],
   },
   {
-    company: 'Bucéphale Software',
-    role: 'Développeur Front-End React Native — stage',
-    period: 'Janvier 2022 — juin 2022',
+    kind: 'dev',
+    period: 'Janvier — juin 2022',
     location: 'Remote',
+    role: 'Développeur Front-End React Native — stage',
+    org: 'Bucéphale Software',
     highlights: [
       'Développement front de deux applications mobiles React Native.',
       'Mise en place de composants, d’une charte graphique et d’améliorations UX sous mentorat senior.',
     ],
   },
+  {
+    kind: 'formation',
+    role: 'Formation Développeur Web Front-End',
+    org: 'Wild Code School',
+    note: 'Le point de bascule vers le développement web.',
+  },
+  {
+    kind: 'avant',
+    role: 'Accompagnement éducatif et social',
+    org: 'ADMR Les Maisonnées',
+    note: 'L’écoute et l’attention au besoin réel des personnes.',
+  },
+  {
+    kind: 'avant',
+    role: 'Expériences commerciales B2B et relation client',
+    org: 'JTI, TIP, optique, prospection',
+    note: 'La relation client, la persévérance et le sens du concret.',
+  },
 ] as const
 
-export const compactExperiences = [
-  'Formation Développeur Web Front-End — Wild Code School',
-  'Accompagnement éducatif et social — ADMR Les Maisonnées',
-  'Expériences commerciales B2B et relation client — JTI, TIP, optique, prospection',
-] as const
+export const timelineKindLabels = {
+  dev: 'Développement',
+  formation: 'Formation',
+  avant: 'Avant le code',
+} as const
 
 export const creatorProjects = [
   {
     name: 'Morning Atlas',
     description:
       'Projet éditorial Next.js autour des petits-déjeuners du monde : contenus structurés, SEO technique, images locales, JSON-LD et maillage interne.',
+    metrics: ['652 pages statiques', '53 pays documentés', 'JSON-LD & SEO technique'],
   },
   {
     name: 'Sites web professionnels',
     description:
       'Contributions à des sites commerciaux et institutionnels comme citya.com, arche.fr, api-financement.net, snexi.fr ou stpierreassurances.com.',
+    metrics: [],
   },
   {
     name: 'Interfaces et outils internes',
     description:
       'Création d’interfaces utiles pour fluidifier des workflows, améliorer la maintenabilité et réduire les tâches répétitives.',
+    metrics: [],
   },
 ] as const

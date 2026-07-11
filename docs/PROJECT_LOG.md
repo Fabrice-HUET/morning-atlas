@@ -12,6 +12,23 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — CREATOR-04 : le récit du portfolio (timeline, compétences, projets)
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : contenu / design (espace créateur)
+- Résumé : transformation des sections de `/creator` en récit de portfolio, avec restructuration de `data/creator.ts`.
+- Détails :
+  - **Parcours en timeline verticale** (rail honey, jalons) : les 3 expériences dev datées + la reconversion assumée comme jalons (`kind: dev | formation | avant`) — Wild Code School, ADMR Les Maisonnées, expériences commerciales. Aucune date inventée pour les jalons non datés.
+  - **Compétences reformulées en 4 blocs orientés bénéfice** (« Interfaces accessibles et responsives », « Performance & SEO technique », « Intégration back-office », « Qualité & outillage »), avec les technologies existantes en second niveau.
+  - **Projets avec métriques réelles** vérifiées dans le repo : Morning Atlas → « 652 pages statiques », « 53 pays documentés », « JSON-LD & SEO technique ».
+  - **Animations d'apparition au scroll en CSS pur** : `@supports (animation-timeline: view())` + `prefers-reduced-motion: no-preference` ; fallback = éléments visibles. Aucune bibliothèque JS.
+- Contraintes respectées : français accentué ; aucune invention (dates/chiffres/clients) ; aucune dépendance ajoutée ; magazine non touché ; page toujours 100 % serveur (0 JS client).
+- **À trancher par Fabrice** : e-mail canonique — `data/creator.ts` porte `fabrice.huet.01@gmail.com` (marqué d'un TODO), alors que le compte est en icloud. Non tranché (pas d'arbitrage arbitraire).
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (652 pages) ; HTML `/creator` contient la timeline (Wild Code School, ADMR, « Avant le code »), les 4 blocs bénéfices, les métriques réelles, 26 éléments `atelier-reveal` ; aucun `'use client'`.
+- Prochaine action : **CREATOR-05** (CV web imprimable `/creator/cv` + PDF) — dépend de la décision e-mail.
+
 ## 2026-07-11 — CREATOR-03 : scène SVG maison, retrait de three.js
 
 - Date : `2026-07-11`

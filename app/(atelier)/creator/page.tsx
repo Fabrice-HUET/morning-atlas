@@ -6,11 +6,11 @@ import Link from 'next/link'
 import { AtelierScene } from '@/components/creator/AtelierScene'
 import { Container } from '@/components/layout/Container'
 import {
-  compactExperiences,
-  creatorExperiences,
   creatorProfile,
   creatorProjects,
   creatorSkills,
+  creatorTimeline,
+  timelineKindLabels,
 } from '@/data/creator'
 import { buildPageMetadata } from '@/lib/seo'
 
@@ -36,7 +36,7 @@ function TagList({ items }: { items: readonly string[] }) {
       {items.map((item) => (
         <span
           key={item}
-          className="rounded-full border border-mocha/30 bg-espresso px-3 py-1 text-xs font-bold text-cream/90"
+          className="rounded-full border border-mocha/30 bg-ink/40 px-3 py-1 text-xs font-bold text-cream/90"
         >
           {item}
         </span>
@@ -91,11 +91,47 @@ export default function CreatorPage() {
         </section>
 
         <section className="mt-16">
-          <SectionTitle eyebrow="Compétences" title="Un socle front-end, produit et qualité." />
+          <SectionTitle eyebrow="Parcours" title="Une trajectoire, pas une ligne droite." />
+          <ol className="mt-8 ml-3 border-l border-honey/30">
+            {creatorTimeline.map((item) => (
+              <li key={`${item.org}-${item.role}`} className="atelier-reveal relative pb-10 pl-8 last:pb-0">
+                <span className="absolute -left-[7px] top-1.5 h-3 w-3 rounded-full bg-honey ring-4 ring-ink" />
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  <span className="text-xs font-bold uppercase tracking-[0.14em] text-honey">
+                    {timelineKindLabels[item.kind]}
+                  </span>
+                  {'period' in item ? (
+                    <span className="text-xs font-semibold text-cream/55">
+                      {item.period}
+                      {'location' in item ? ` · ${item.location}` : ''}
+                    </span>
+                  ) : null}
+                </div>
+                <h3 className="mt-1 text-xl font-black text-cream">{item.role}</h3>
+                <p className="text-sm font-bold text-honey/90">{item.org}</p>
+                {'highlights' in item ? (
+                  <ul className="mt-3 grid gap-1.5 text-sm leading-6 text-cream/75">
+                    {item.highlights.map((highlight) => (
+                      <li key={highlight}>• {highlight}</li>
+                    ))}
+                  </ul>
+                ) : null}
+                {'note' in item ? <p className="mt-2 text-sm italic leading-6 text-cream/60">{item.note}</p> : null}
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <section className="mt-16">
+          <SectionTitle eyebrow="Compétences" title="Ce que je sais faire, et pourquoi c’est utile." />
           <div className="mt-8 grid gap-4 md:grid-cols-2">
             {creatorSkills.map((skillGroup) => (
-              <article key={skillGroup.title} className="rounded-2xl border border-mocha/25 bg-espresso p-5">
+              <article
+                key={skillGroup.title}
+                className="atelier-reveal rounded-2xl border border-mocha/25 bg-espresso p-5"
+              >
                 <h3 className="text-lg font-black text-cream">{skillGroup.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-cream/70">{skillGroup.description}</p>
                 <TagList items={skillGroup.items} />
               </article>
             ))}
@@ -103,44 +139,27 @@ export default function CreatorPage() {
         </section>
 
         <section className="mt-16">
-          <SectionTitle eyebrow="Expériences" title="Expériences principales." />
-          <div className="mt-8 grid gap-5">
-            {creatorExperiences.map((experience) => (
-              <article key={experience.company} className="rounded-2xl border border-mocha/25 bg-espresso p-6">
-                <div className="flex flex-wrap items-start justify-between gap-3">
-                  <div>
-                    <h3 className="text-xl font-black text-cream">{experience.role}</h3>
-                    <p className="mt-1 text-sm font-bold text-honey">{experience.company}</p>
-                  </div>
-                  <p className="rounded-full bg-honey/15 px-3 py-1 text-xs font-bold text-honey">
-                    {experience.period} · {experience.location}
-                  </p>
-                </div>
-                <ul className="mt-5 grid gap-2 text-sm leading-6 text-cream/75">
-                  {experience.highlights.map((highlight) => (
-                    <li key={highlight}>• {highlight}</li>
-                  ))}
-                </ul>
-              </article>
-            ))}
-          </div>
-          <div className="mt-6 rounded-2xl border border-mocha/25 bg-espresso/60 p-5">
-            <h3 className="text-lg font-black text-cream">Autres expériences utiles</h3>
-            <ul className="mt-4 grid gap-2 text-sm leading-6 text-cream/75">
-              {compactExperiences.map((experience) => (
-                <li key={experience}>• {experience}</li>
-              ))}
-            </ul>
-          </div>
-        </section>
-
-        <section className="mt-16">
           <SectionTitle eyebrow="Projets" title="Sites, produits et interfaces." />
           <div className="mt-8 grid gap-5 md:grid-cols-3">
             {creatorProjects.map((project) => (
-              <article key={project.name} className="rounded-2xl border border-mocha/25 bg-espresso p-6">
+              <article
+                key={project.name}
+                className="atelier-reveal flex flex-col rounded-2xl border border-mocha/25 bg-espresso p-6"
+              >
                 <h3 className="text-lg font-black text-cream">{project.name}</h3>
-                <p className="mt-3 text-sm leading-6 text-cream/70">{project.description}</p>
+                <p className="mt-3 flex-1 text-sm leading-6 text-cream/70">{project.description}</p>
+                {project.metrics.length > 0 ? (
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {project.metrics.map((metric) => (
+                      <span
+                        key={metric}
+                        className="rounded-full border border-honey/30 px-3 py-1 text-xs font-bold text-honey"
+                      >
+                        {metric}
+                      </span>
+                    ))}
+                  </div>
+                ) : null}
               </article>
             ))}
           </div>
