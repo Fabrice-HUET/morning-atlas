@@ -20,7 +20,7 @@ const description =
 
 export const metadata: Metadata = {
   ...buildPageMetadata({
-    title: 'À propos du créateur — Morning Atlas',
+    title: 'À propos du créateur',
     description,
     path: '/creator',
   }),

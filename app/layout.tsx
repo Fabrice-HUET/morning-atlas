@@ -6,7 +6,10 @@ import './globals.css'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Morning Atlas — Petits-déjeuners du monde',
+  title: {
+    default: 'Morning Atlas — Petits-déjeuners du monde',
+    template: '%s — Morning Atlas',
+  },
   description: DEFAULT_DESCRIPTION,
   openGraph: {
     title: SITE_NAME,

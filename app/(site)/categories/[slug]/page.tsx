@@ -24,12 +24,12 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 
   if (!category) {
     return {
-      title: 'Catégorie introuvable — Morning Atlas',
+      title: 'Catégorie introuvable',
     }
   }
 
   return buildPageMetadata({
-    title: `${category.name} — Morning Atlas`,
+    title: category.name,
     description: category.description,
     path: `/categories/${category.slug}`,
   })

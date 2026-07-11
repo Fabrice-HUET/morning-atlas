@@ -10,6 +10,8 @@ type PageMetadataOptions = {
   path: string
   type?: 'website' | 'article'
   image?: string
+  // Titre déjà complet (ex. la home) : ignore le template global « %s — Morning Atlas ».
+  titleAbsolute?: boolean
 }
 
 export function absoluteUrl(path: string) {
@@ -26,27 +28,31 @@ export function buildPageMetadata({
   path,
   type = 'website',
   image,
+  titleAbsolute = false,
 }: PageMetadataOptions): Metadata {
   const canonical = absoluteUrl(path)
+  // Le <title> du document s'appuie sur le template global (sauf titre absolu).
+  // Les titres sociaux (OG/Twitter) portent la marque en toutes lettres.
+  const brandedTitle = titleAbsolute ? title : `${title} — ${SITE_NAME}`
   const images = image
     ? [
         {
           url: image,
           width: 1200,
           height: 900,
-          alt: title,
+          alt: brandedTitle,
         },
       ]
     : undefined
 
   return {
-    title,
+    title: titleAbsolute ? { absolute: title } : title,
     description,
     alternates: {
       canonical,
     },
     openGraph: {
-      title,
+      title: brandedTitle,
       description,
       url: canonical,
       siteName: SITE_NAME,
@@ -56,7 +62,7 @@ export function buildPageMetadata({
     },
     twitter: {
       card: image ? 'summary_large_image' : 'summary',
-      title,
+      title: brandedTitle,
       description,
       ...(image ? { images: [image] } : {}),
     },

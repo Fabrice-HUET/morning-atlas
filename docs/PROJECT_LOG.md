@@ -12,6 +12,20 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — SEO-05 : title template global
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO
+- Résumé : centralisation du suffixe « — Morning Atlas » via un `title.template` racine, suppression des suffixes concaténés à la main.
+- Détails :
+  - `app/layout.tsx` : `title: { default: 'Morning Atlas — Petits-déjeuners du monde', template: '%s — Morning Atlas' }`.
+  - `lib/seo.ts` : `buildPageMetadata` reçoit un titre **nu** (le `<title>` du document s'appuie sur le template) ; option `titleAbsolute` pour la home ; les titres OG/Twitter portent la marque en toutes lettres (`brandedTitle`).
+  - Suffixes « — Morning Atlas » retirés des titres de pages (about, recipes, countries, guides, creator, fiches pays/recettes/catégories/ingrédients + fallbacks « introuvable »). Home en titre absolu.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (654 routes) ; `<title>` rendus sans double suffixe — accueil « Morning Atlas — Petits-déjeuners du monde », about « À propos — Morning Atlas », pays « Ful Medames … — Morning Atlas », recette « Tartines beurre-confiture — Morning Atlas », créateur « À propos du créateur — Morning Atlas ».
+- Prochaine action : **SEO-03** (enrichir le JSON-LD Recipe).
+
 ## 2026-07-11 — SEO-06 : sitemap avec lastModified + exclusions pilotées
 
 - Date : `2026-07-11`

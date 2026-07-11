@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: CountryPageProps): Promise<Me
 
   if (!country) {
     return {
-      title: 'Pays introuvable — Morning Atlas',
+      title: 'Pays introuvable',
     }
   }
 

@@ -26,12 +26,12 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 
   if (!recipe) {
     return {
-      title: 'Recette introuvable — Morning Atlas',
+      title: 'Recette introuvable',
     }
   }
 
   return buildPageMetadata({
-    title: `${recipe.title} — Morning Atlas`,
+    title: recipe.title,
     description: recipe.shortDescription,
     path: `/recipes/${recipe.slug}`,
     type: 'article',

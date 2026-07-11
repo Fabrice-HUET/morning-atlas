@@ -29,13 +29,13 @@ export async function generateMetadata({ params }: IngredientPageProps): Promise
 
   if (!ingredient) {
     return {
-      title: 'Ingrédient introuvable — Morning Atlas',
+      title: 'Ingrédient introuvable',
     }
   }
 
   return {
     ...buildPageMetadata({
-      title: `${ingredient.name} — Morning Atlas`,
+      title: ingredient.name,
       description: ingredient.description,
       path: `/ingredients/${ingredient.slug}`,
     }),

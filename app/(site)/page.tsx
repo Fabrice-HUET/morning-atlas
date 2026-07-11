@@ -14,6 +14,7 @@ export const metadata: Metadata = buildPageMetadata({
   title: 'Morning Atlas — Petits-déjeuners du monde',
   description: DEFAULT_DESCRIPTION,
   path: '/',
+  titleAbsolute: true,
 })
 
 export default function Home() {

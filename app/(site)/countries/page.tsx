@@ -8,7 +8,7 @@ import { buildPageMetadata } from '@/lib/seo'
 import { buildItemListJsonLd, buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
 export const metadata: Metadata = buildPageMetadata({
-  title: 'Pays — Morning Atlas',
+  title: 'Pays',
   description: 'Explorer les petits-déjeuners du monde par pays et régions.',
   path: '/countries',
 })
