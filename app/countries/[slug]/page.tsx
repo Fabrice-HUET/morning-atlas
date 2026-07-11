@@ -113,10 +113,6 @@ export default async function CountryPage({ params }: CountryPageProps) {
                   <dt className="font-bold text-espresso">Boissons courantes</dt>
                   <dd className="mt-1 text-espresso/75">{country.commonDrinks.join(', ')}</dd>
                 </div>
-                <div>
-                  <dt className="font-bold text-espresso">Statut éditorial</dt>
-                  <dd className="mt-1 text-espresso/75">{country.needsReview ? 'A verifier' : 'Relu'}</dd>
-                </div>
               </dl>
             </div>
           </aside>

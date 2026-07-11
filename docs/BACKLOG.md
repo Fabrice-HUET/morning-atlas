@@ -12,7 +12,7 @@
 | --- | --- | --- | --- |
 | CODE-01 | Assainir le dépôt git | P0 | ✅ 2026-07-10 (tout sur `main`) |
 | DATA-01 | Restaurer les accents français | P0 | ✅ 2026-07-10 (passe automatisée sûre ; résidus ambigus laissés à EDIT-01) |
-| UI-01 | Retirer le badge « A verifier » public | P0 | ☐ |
+| UI-01 | Retirer le badge « A verifier » public | P0 | ✅ 2026-07-11 |
 | IMG-01 | Remplacer le fallback picsum | P0 | ☐ |
 | SEO-01 | Corriger les breadcrumbs JSON-LD 404 | P0 | ☐ |
 | EDIT-01 | Relire un lot pilote de fiches | P0 | ☐ |

@@ -116,10 +116,6 @@ export default async function RecipePage({ params }: RecipePageProps) {
                   <dt className="font-bold text-espresso">Portions</dt>
                   <dd className="mt-1 text-espresso/75">{recipe.servings}</dd>
                 </div>
-                <div>
-                  <dt className="font-bold text-espresso">Statut éditorial</dt>
-                  <dd className="mt-1 text-espresso/75">{recipe.needsReview ? 'A verifier' : 'Relu'}</dd>
-                </div>
               </dl>
             </div>
           </aside>

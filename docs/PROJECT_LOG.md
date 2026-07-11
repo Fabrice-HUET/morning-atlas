@@ -12,6 +12,24 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — UI-01 : retrait du statut interne `needsReview` de l'affichage public
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : design, UI
+- Résumé : suppression des trois affichages publics du flag interne `needsReview` — badge « A verifier »/« Publie » sur `CountryCard`, et lignes « Statut éditorial » (« A verifier »/« Relu ») dans les blocs `<dl>` des pages pays et recette.
+- Fichiers modifiés :
+  - `components/cards/CountryCard.tsx` (retrait du `Pill` + import `Pill` inutilisé ; `Flag` seul, espacement rééquilibré `mt-8` → `mt-6`)
+  - `app/countries/[slug]/page.tsx` (retrait du bloc « Statut éditorial »)
+  - `app/recipes/[slug]/page.tsx` (retrait du bloc « Statut éditorial »)
+- Décisions prises :
+  - Le champ `needsReview` reste dans les données et les types (`types/country.ts`, `types/recipe.ts`) pour le suivi interne ; seul son rendu public disparaît.
+  - Le bandeau global `HomeConstructionNotice` (non touché) suffit à assumer la phase de test auprès des visiteurs.
+  - Le composant `components/ui/Pill.tsx` n'est plus utilisé nulle part mais conservé (hors périmètre ; nettoyage éventuel plus tard).
+- Validation : `pnpm lint` ✅, `pnpm typecheck` ✅, `pnpm build` ✅ (652 pages). Grep : plus aucun rendu public de `needsReview`.
+- Prochaine action : Sprint 1 restant — `IMG-01` (fallback picsum) puis `SEO-01` (breadcrumbs 404).
+
 ## 2026-07-10 — DATA-01 : restauration des accents français
 
 - Date : `2026-07-10`
