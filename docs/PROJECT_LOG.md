@@ -12,6 +12,21 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — A11Y-01 : focus trap menu mobile, skip-link, prefers-reduced-motion
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : accessibilité
+- Résumé : trois correctifs d'accessibilité clavier/mouvement sur le magazine.
+- Détails :
+  - **Focus trap** (`components/layout/Navbar.tsx`) : à l'ouverture du panneau mobile, le focus part sur le bouton « fermer » ; `Tab`/`Shift+Tab` bouclent entre le premier et le dernier élément focusable du panneau (implémentation maison, aucune dépendance) ; à la fermeture (clic, `×`, `Échap`, overlay), le focus est **restitué au bouton burger** (capturé dans une variable locale pour l'idiomatique du cleanup).
+  - **Skip-link** (`app/(site)/layout.tsx`) : lien « Aller au contenu principal » en premier élément focusable, masqué au repos et visible au focus (palette Mocha, `z-[60]` au-dessus de la navbar sticky et de l'overlay), ciblant `#contenu` (wrapper focalisable `tabIndex=-1` autour de `{children}`). L'atelier a déjà le sien (CREATOR-07).
+  - **prefers-reduced-motion** (`app/globals.css`) : `scroll-behavior: smooth` déplacé sous `@media (prefers-reduced-motion: no-preference)` ; ajout d'un reset `@media (prefers-reduced-motion: reduce)` neutralisant transitions et animations globalement.
+- Parcours clavier de test attendu : `Tab` depuis le haut → skip-link (visible) → `Entrée` saute au contenu ; sur mobile, ouvrir le burger → focus sur « fermer » → `Tab` cycle dans le panneau sans jamais atteindre la page derrière → `Échap` ou `×` referme et rend le focus au burger.
+- Vérifications : `pnpm lint` (0 warning), `pnpm typecheck`, `pnpm build` (657 routes) ; skip-link + `id="contenu"` rendus ; CSS compilé contient `prefers-reduced-motion: no-preference` (scroll) et `reduce` (reset).
+- Prochaine action : Sprint 4 restant — `TOOL-01` (CI) et `TOOL-02` (Node) ; ou reste du Sprint 0.
+
 ## 2026-07-11 — DESIGN-01 / DESIGN-02 : typographie de marque + unification des tokens
 
 - Date : `2026-07-11`

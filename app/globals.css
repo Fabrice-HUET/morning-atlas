@@ -15,9 +15,27 @@
 
 /* Source de vérité unique de la palette : les tokens @theme ci-dessus (exposés en var(--color-*) par Tailwind 4). */
 html {
-  scroll-behavior: smooth;
   background: var(--color-cream);
   color: var(--color-ink);
+}
+
+/* Défilement doux uniquement pour qui ne demande pas moins d'animations. */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Respect de prefers-reduced-motion : neutralise transitions et animations. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 body {

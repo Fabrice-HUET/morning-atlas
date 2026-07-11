@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 import { Container } from '@/components/layout/Container'
 import { Button } from '@/components/ui/Button'
@@ -34,6 +34,9 @@ function BrandIcon({ size = 44 }: { size?: number }) {
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const burgerRef = useRef<HTMLButtonElement>(null)
+  const overlayRef = useRef<HTMLDivElement>(null)
+  const closeButtonRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
     if (!isMobileMenuOpen) {
@@ -41,20 +44,59 @@ export function Navbar() {
     }
 
     const originalOverflow = document.body.style.overflow
+    const burger = burgerRef.current
 
     document.body.style.overflow = 'hidden'
 
-    function closeOnEscape(event: KeyboardEvent) {
+    // Déplace le focus dans le panneau à l'ouverture.
+    closeButtonRef.current?.focus()
+
+    function getFocusable() {
+      const container = overlayRef.current
+      if (!container) {
+        return [] as HTMLElement[]
+      }
+
+      return Array.from(
+        container.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'),
+      ).filter((element) => element.getClientRects().length > 0)
+    }
+
+    function onKeyDown(event: KeyboardEvent) {
       if (event.key === 'Escape') {
         setIsMobileMenuOpen(false)
+        return
+      }
+
+      if (event.key !== 'Tab') {
+        return
+      }
+
+      // Piège le focus : Tab / Shift+Tab bouclent entre le premier et le dernier élément focusable.
+      const focusable = getFocusable()
+      if (focusable.length === 0) {
+        return
+      }
+
+      const first = focusable[0]
+      const last = focusable[focusable.length - 1]
+
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault()
+        last.focus()
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault()
+        first.focus()
       }
     }
 
-    document.addEventListener('keydown', closeOnEscape)
+    document.addEventListener('keydown', onKeyDown)
 
     return () => {
       document.body.style.overflow = originalOverflow
-      document.removeEventListener('keydown', closeOnEscape)
+      document.removeEventListener('keydown', onKeyDown)
+      // Restitue le focus au bouton d'ouverture à la fermeture.
+      burger?.focus()
     }
   }, [isMobileMenuOpen])
 
@@ -88,6 +130,7 @@ export function Navbar() {
         </Button>
 
         <button
+          ref={burgerRef}
           type="button"
           className="inline-flex size-11 items-center justify-center rounded-full border border-mocha/30 bg-paper text-espresso shadow-sm transition hover:border-toast hover:bg-cream md:hidden"
           aria-label={isMobileMenuOpen ? 'Fermer le menu mobile' : 'Ouvrir le menu mobile'}
@@ -113,6 +156,7 @@ export function Navbar() {
       </Container>
 
       <div
+        ref={overlayRef}
         className={`fixed inset-0 z-50 md:hidden ${
           isMobileMenuOpen ? 'pointer-events-auto' : 'pointer-events-none'
         }`}
@@ -148,6 +192,7 @@ export function Navbar() {
             </Link>
 
             <button
+              ref={closeButtonRef}
               type="button"
               className="inline-flex size-10 items-center justify-center rounded-full border border-mocha/30 bg-paper text-2xl leading-none text-espresso transition hover:border-toast hover:bg-cream"
               aria-label="Fermer le menu mobile"
