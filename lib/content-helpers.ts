@@ -90,6 +90,16 @@ export function isIngredientIndexable(ingredientSlug: string) {
   return getIngredientContentScore(ingredientSlug) >= INGREDIENT_INDEXABLE_MIN_CONTENT
 }
 
+// Seuil (plus strict) pour figurer sur la page index /ingredients : uniquement les ingrédients
+// réellement structurants. On ne liste pas les 410 pages, seulement les plus reliées.
+export const INGREDIENT_INDEX_MIN_CONTENT = 3
+
+export function getIngredientsForIndex() {
+  return ingredients
+    .filter((ingredient) => getIngredientContentScore(ingredient.slug) >= INGREDIENT_INDEX_MIN_CONTENT)
+    .sort((a, b) => a.name.localeCompare(b.name, 'fr'))
+}
+
 export function getGuidesForCountry(countrySlug: string) {
   return guides.filter((guide) => guide.relatedCountrySlugs.includes(countrySlug))
 }

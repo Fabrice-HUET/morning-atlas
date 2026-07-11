@@ -3,12 +3,12 @@ import type { Category } from '@/types/taxonomy'
 export const categories = [
   {
     slug: 'sweet',
-    name: 'Sucre',
+    name: 'Sucré',
     description: 'Petits-déjeuners ou préparations souvent associés à une note douce.',
   },
   {
     slug: 'savory',
-    name: 'Sale',
+    name: 'Salé',
     description: 'Assiettes du matin construites autour de saveurs salées.',
   },
   {

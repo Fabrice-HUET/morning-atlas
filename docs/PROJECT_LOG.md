@@ -12,6 +12,20 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — PAGE-02 → PAGE-04 : pages index /categories, /ingredients + 404
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : routing / pages
+- Résumé : création des pages index manquantes et d'une 404 de marque, cohérentes avec les breadcrumbs, le sitemap et les route groups.
+- **PAGE-02** : `app/(site)/categories/page.tsx` (H1 `SectionHeading`, grille `CategoryCard` triée par nom, metadata + canonical, JSON-LD WebPage + ItemList — modèle `/countries`). Breadcrumb des pages catégories réintégré (`Accueil → Catégories → nom`, le niveau existe désormais). `/categories` ajouté au sitemap.
+- **PAGE-03** : décision documentée = **index partiel et assumé**. `app/(site)/ingredients/page.tsx` ne liste que les ingrédients structurants (**≥ 3 contenus liés**, helper `getIngredientsForIndex`) — **118 ingrédients** sur 410, pas la totalité. Cohérent avec le noindex des pages fines (SEO-02). Breadcrumb ingrédient réintégré, `/ingredients` ajouté au sitemap.
+- **PAGE-04** : `app/not-found.tsx` — 404 dans l'identité Mocha Mousse (fond `cream`, carte `paper` bordée `oat`, emoji, ton chaleureux « Cette page n'est pas au menu », boutons de repli `/`, `/countries`, `/recipes`). Comme la navbar/footer vivent désormais dans le layout `(site)` et non la racine, la 404 les réintègre elle-même.
+- Correction connexe : noms de catégories `Sucre`→`Sucré`, `Sale`→`Salé` (résidus, affichés sur la nouvelle page + le footer).
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (657 routes) ; `/categories` et `/ingredients` générées ; URL inexistante → **HTTP 404** avec navbar + footer + contenu de marque ; sitemap contient `/categories` et `/ingredients`.
+- Prochaine action : au choix — reste du Sprint 0 (TOOL-02/CODE-03/IMG-02), Sprint 4 (design/a11y/CI), ou lot pilote 2 de relecture.
+
 ## 2026-07-11 — SEO-04 : image Open Graph par défaut de marque — Sprint 3 SEO terminé
 
 - Date : `2026-07-11`

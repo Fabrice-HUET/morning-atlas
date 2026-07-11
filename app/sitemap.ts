@@ -13,6 +13,8 @@ const staticRoutes = [
   { path: '/countries', priority: 0.9 },
   { path: '/recipes', priority: 0.9 },
   { path: '/guides', priority: 0.7 },
+  { path: '/categories', priority: 0.7 },
+  { path: '/ingredients', priority: 0.6 },
   { path: '/creator', priority: 0.5 },
 ] as const
 

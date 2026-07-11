@@ -48,6 +48,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const jsonLd = [
     buildBreadcrumbJsonLd([
       { name: 'Accueil', path: '/' },
+      { name: 'Catégories', path: '/categories' },
       { name: category.name, path: `/categories/${category.slug}` },
     ]),
     buildWebPageJsonLd({
