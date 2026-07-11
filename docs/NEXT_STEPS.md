@@ -1,43 +1,55 @@
 # Next steps — Morning Atlas
 
-> Mise à jour le 2026-07-11. Source de vérité pour l'ordre : `docs/ROADMAP.md` (section « Ordre d'exécution »). Détail des tâches et prompts agent : `docs/BACKLOG.md`. Espace créateur / CV : `docs/CREATOR_ROADMAP.md`. Constat complet : `docs/AUDIT_2026-07.md`. **Procédure de relecture éditoriale (critères de sortie de `needsReview`) : `docs/EDITORIAL_REVIEW.md`** — à appliquer pour EDIT-01.
+> Mise à jour le 2026-07-11. Source de vérité pour l'ordre : `docs/ROADMAP.md`. Détail des tâches et prompts agent : `docs/BACKLOG.md`. Espace créateur / CV : `docs/CREATOR_ROADMAP.md`. Constat complet : `docs/AUDIT_2026-07.md`. Procédure de relecture éditoriale : `docs/EDITORIAL_REVIEW.md`. Journal détaillé : `docs/PROJECT_LOG.md`.
 
-## État actuel résumé
+## État actuel
 
-- Socle technique sain : lint, typecheck, build OK (652 pages), SEO P0 en place, 53 images WebP alignées, intégrité des données parfaite.
-- Blocants identifiés par l'audit : accents français manquants dans la quasi-totalité des textes (y compris le H1 de la home), 100 % des fiches en `needsReview: true`, fallback image picsum.photos, breadcrumbs JSON-LD vers des pages 404, badge interne « A verifier » visible publiquement.
-- ✅ `CODE-01` fait le 2026-07-10 : fichier parasite `main` supprimé ; chantier creator + docs de pilotage committés sur **`main` (branche unique, décision explicite)**. `docs/cv.html` laissé de côté volontairement (migration prévue par CREATOR-05). Rien poussé sur le remote.
+**Sprint 1 (tous les P0 « techniques ») terminé et poussé :**
+- ✅ `CODE-01` — dépôt assaini, branche unique `main`.
+- ✅ `DATA-01` — accents français restaurés (données + UI ; résidus ambigus traités au fil des lots de relecture).
+- ✅ `UI-01` — statut interne `needsReview` retiré de l'affichage public.
+- ✅ `IMG-01` — fallback picsum remplacé par un placeholder local.
+- ✅ `SEO-01` — breadcrumbs JSON-LD 404 corrigés.
+
+**Sprint 2 (cœur éditorial) démarré :**
+- ✅ `EDIT-02` — procédure de relecture écrite (`docs/EDITORIAL_REVIEW.md`).
+- ✅ `EDIT-01` — **lot pilote 1** relu : 10 pays + 10 recettes passés à `needsReview: false` (20/106).
+
+**Espace créateur « L'Atelier » (CREATOR-01 → 07) : terminé.**
+- Section isolée (route groups), thème sombre inversé + Fraunces, scène SVG sans JS (three.js retiré), récit en timeline, CV web imprimable `/creator/cv`, SEO Person + OG dédiée, a11y/perf soignées. Détail : `docs/CREATOR_ROADMAP.md`.
 
 ## Prochaine mission immédiate
 
-**Sprint 0 (fin) puis Sprint 1 de `docs/ROADMAP.md`, dans l'ordre :**
+**Sprint 3 — Consolidation SEO (`SEO-02` → `SEO-06`), dans l'ordre :**
 
-1. ~~`CODE-01`~~ — fait.
-2. `TOOL-02`, `CODE-03`, `IMG-02` — hygiène rapide restante du Sprint 0.
-3. **`DATA-01` — restaurer les accents français partout. Rien de public tant que ce n'est pas fait. C'est le prochain gros chantier.**
-4. `UI-01` + `IMG-01` + `SEO-01` — les trois autres P0, indépendants entre eux.
+1. `SEO-02` — noindex des pages ingrédients fines (seuil calculé depuis les données).
+2. `SEO-06` — sitemap : `lastModified` + exclusions pilotées par les données (partage la logique de SEO-02).
+3. `SEO-05` — title template global.
+4. `SEO-03` — enrichir le JSON-LD Recipe (temps ISO 8601, portions, keywords).
+5. `SEO-04` — image Open Graph par défaut de marque.
 
-Chaque tâche a son prompt prêt à coller dans `docs/BACKLOG.md`.
+Chaque tâche a son prompt et ses critères dans `docs/BACKLOG.md`.
 
-## Piste parallèle : espace créateur & CV
+## Ensuite
 
-Le prérequis `CODE-01` étant levé, la refonte de l'espace créateur peut avancer en parallèle des sprints éditoriaux — voir `docs/CREATOR_ROADMAP.md` : section distincte du site (route groups, layout dédié), thème « Atelier » (palette Mocha Mousse inversée, fond sombre, accent honey), scène SVG maison à la place de three.js, CV web imprimable `/creator/cv` remplaçant `docs/cv.html`, PDF réel dans `public/files/`.
+- Reste du Sprint 0 (hygiène) : `TOOL-02` (engines + .nvmrc), `CODE-03` (.idea/ hors versioning), `IMG-02` (assets template).
+- Pages : `PAGE-02` (index /categories), `PAGE-03` (/ingredients), `PAGE-04` (404).
+- Sprint 4 (design/a11y/CI) et Sprint 5 (gouvernance des données) — voir `docs/ROADMAP.md`.
+- **Lots de relecture suivants** (`EDIT-01` répété) : 10 fiches à la fois, avec la grille de `docs/EDITORIAL_REVIEW.md`.
 
-**Décision attendue de Fabrice :** email canonique (gmail vs icloud) — seul point bloquant côté contenu créateur.
+## Actions restées côté Fabrice
+
+- **Générer le PDF du CV** : `pnpm dev` → `/creator/cv` → Imprimer → enregistrer dans `public/files/fabrice-huet-cv.pdf` (procédure dans `docs/CREATOR_ROADMAP.md`).
+- **Lighthouse** : lancer les scores réels de `/creator` et `/creator/cv` pour figer la baseline (Chrome indispo dans l'environnement agent).
 
 ## Risques / TODO
 
-- Toutes les fiches restent `needsReview: true` : la phase de test 30 jours ne conclut rien tant qu'un lot pilote n'est pas relu (EDIT-02 puis EDIT-01).
-- Les 410 pages ingrédients restent indexables (l'exclusion sitemap ne suffit pas) — traité par SEO-02.
-- La liste d'exclusion sitemap en dur dérivera — traité par SEO-06.
-- Aucune CI : rien n'empêche un commit qui casse le build — traité par TOOL-01.
-- Node système en 18 alors que Next 16 exige ≥ 20.9 — traité par TOOL-02.
+- 43 pays + 43 recettes restent `needsReview: true` — à relire par lots.
+- Aucune CI : rien n'empêche un commit qui casse le build — traité par `TOOL-01`.
+- Node système en 18 alors que Next 16 exige ≥ 20.9 — traité par `TOOL-02`.
 
 ## Commandes utiles
 
 - `git status --short`
 - `git log --oneline --decorate -n 15`
-- `pnpm lint`
-- `pnpm typecheck`
-- `pnpm build`
-- `git diff --check`
+- `pnpm lint` · `pnpm typecheck` · `pnpm build`

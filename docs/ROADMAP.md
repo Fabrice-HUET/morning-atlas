@@ -26,6 +26,14 @@ Voir `docs/AUDIT_2026-07.md` pour le constat détaillé par axe.
 6. Pré-publication : Search Console, tests visuels, accessibilité, performance — à faire.
 7. Publication et itérations — à faire.
 
+## Avancement (2026-07-11)
+
+- **Sprint 1** (tous les P0 techniques) : ✅ terminé — CODE-01, DATA-01, UI-01, IMG-01, SEO-01.
+- **Sprint 2** (cœur éditorial) : 🔶 EDIT-02 ✅ ; EDIT-01 lot pilote 1 ✅ (20/106 fiches à `false`) ; lots suivants à faire.
+- **Sprint 3** (consolidation SEO) : 🔶 en cours.
+- **Piste créateur** (CREATOR-01 → 07) : ✅ terminée.
+- Reste : fin du Sprint 0 (TOOL-02, CODE-03, IMG-02), Sprints 4-5, lots de relecture suivants.
+
 ## Ordre d'exécution
 
 Chaque ID renvoie à sa fiche complète dans `docs/BACKLOG.md` (critères + prompt agent). Ne pas commencer un sprint tant que les tâches bloquantes du précédent ne sont pas livrées.
