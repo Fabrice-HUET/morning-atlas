@@ -12,6 +12,25 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — CREATOR-07 : qualité vitrine (a11y, mouvement, perf) — atelier terminé
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : accessibilité / performance / qualité (espace créateur)
+- Résumé : passage qualité final de l'espace « L'Atelier ». Dernière tâche de la refonte créateur (CREATOR-01 → 07 tous faits).
+- Corrections / vérifications :
+  - **Skip-link** « Aller au contenu » (visible au focus) ajouté au layout atelier + cible `#atelier-content` focalisable (`tabIndex=-1`).
+  - **Audit JS client** : `/creator` = 0 composant client ; `/creator/cv` = seul `PrintButton` (toléré). Les deux pages restent statiques.
+  - **Contrastes** recalculés sur tout le thème : AA partout, y compris les textes atténués (cream/55 = 5,66:1 sur ink). Aucune correction nécessaire.
+  - **Hiérarchie des titres** : un seul `<h1>` par page, `h1 → h2 → h3` sans saut.
+  - **prefers-reduced-motion** : confirmé sur la scène SVG et les révélations au scroll (deviennent statiques).
+  - `focus-visible` honey déjà en place ; SVG décoratif `aria-hidden`.
+- Limite : **Lighthouse non exécutable ici** (ni Chrome ni CLI `lighthouse`). Baseline des qualités mesurées + procédure de mesure documentées dans `docs/CREATOR_ROADMAP.md` (section « Baseline qualité »).
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (654 routes) ; skip-link rendu sur `/creator`.
+- **Refonte créateur terminée** : l'espace « L'Atelier » est isolé (route groups), au thème sombre inversé avec Fraunces, scène SVG sans JS, récit en timeline, CV web imprimable, SEO Person + OG, et exemplaire côté a11y/perf.
+- Prochaine action : reprendre la roadmap magazine — Sprint 1 restant du Sprint 0 (`TOOL-02`, `CODE-03`, `IMG-02`) ou lot pilote 2 (EDIT-01), au choix.
+
 ## 2026-07-11 — CREATOR-06 : SEO de l'espace créateur
 
 - Date : `2026-07-11`

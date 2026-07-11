@@ -70,7 +70,7 @@ L'ordre est strict : chaque tâche dépend de la précédente sauf mention contr
 | CREATOR-04 | Refonte du contenu en récit (timeline, compétences, projets) ✅ 2026-07-11 | M | CREATOR-02 |
 | CREATOR-05 | CV web imprimable `/creator/cv` + PDF public ✅ 2026-07-11 (PDF à générer manuellement) | L | CREATOR-02 |
 | CREATOR-06 | SEO de l'espace : JSON-LD Person, metadata, OG dédiée ✅ 2026-07-11 | S | CREATOR-04 |
-| CREATOR-07 | Qualité vitrine : a11y, reduced-motion, budget perf | S | CREATOR-03 → 05 |
+| CREATOR-07 | Qualité vitrine : a11y, reduced-motion, budget perf ✅ 2026-07-11 | S | CREATOR-03 → 05 |
 
 ---
 ### [CREATOR-01] Isoler l'espace créateur : route groups et layout dédié
@@ -181,9 +181,35 @@ Le CV vit dans `app/(atelier)/creator/cv/page.tsx` (source unique = `data/creato
 
 Le bouton « Télécharger le PDF » du portfolio s'affiche automatiquement dès que ce fichier existe (garde `existsSync`).
 
-## Baseline qualité
+## Baseline qualité (CREATOR-07, 2026-07-11)
 
-_À remplir par CREATOR-07 (scores Lighthouse /creator et /creator/cv)._
+Lighthouse n'a pas pu être exécuté dans l'environnement de travail (ni Chrome ni le CLI `lighthouse` disponibles). À la place, voici les qualités **mesurées** qui conditionnent les scores, puis la procédure pour obtenir les chiffres réels.
+
+**Performance**
+- `/creator` et `/creator/cv` sont **statiques** (`○`, prerendues au build).
+- `/creator` n'embarque **aucun composant client** (aucun `'use client'`) → 0 JS applicatif pour le visuel ; la scène est du SVG/CSS.
+- `/creator/cv` : un seul composant client, `PrintButton` (bouton `window.print()`), négligeable.
+- Fonte **Fraunces auto-hébergée** via `next/font` (aucune requête réseau externe, pas de layout shift).
+- Aucun asset externe / CDN ; images sociales générées au build.
+
+**Accessibilité**
+- Contrastes **WCAG AA sur tout le thème sombre**, y compris les textes atténués : cream/55 = 5,66:1 sur `ink` / 5,16:1 sur `espresso` ; honey plein = 8,3:1 / 7,0:1 (tous ≥ 4,5).
+- **Un seul `<h1>` par page** ; hiérarchie `h1 → h2 → h3` sans saut.
+- **Skip-link** « Aller au contenu » (visible au focus) + cible `#atelier-content` focalisable.
+- `focus-visible` avec anneau `honey` sur tous les éléments interactifs de l'atelier.
+- Toutes les animations respectent `prefers-reduced-motion` (scène SVG et révélations au scroll deviennent statiques).
+- SVG décoratif marqué `aria-hidden`.
+
+**SEO / bonnes pratiques**
+- JSON-LD `ProfilePage`/`Person`, canonical, metadata et OG dédiés (CREATOR-06) ; `/creator/cv` en `noindex`.
+
+**Procédure pour les scores réels** (à lancer par Fabrice, environnement avec Chrome) :
+```bash
+pnpm build && pnpm start   # sert la version prod sur :3000
+npx lighthouse http://localhost:3000/creator --view --preset=desktop
+npx lighthouse http://localhost:3000/creator/cv --view --preset=desktop
+```
+Reporter ici les 4 scores (Performance / Accessibilité / Bonnes pratiques / SEO) pour chaque page.
 
 ## Décisions actées
 

@@ -18,6 +18,12 @@ export default function AtelierLayout({
 }>) {
   return (
     <div className={`atelier ${fraunces.variable} flex min-h-screen flex-col bg-ink text-cream`}>
+      <a
+        href="#atelier-content"
+        className="cv-noprint sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-honey focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-ink"
+      >
+        Aller au contenu
+      </a>
       <header className="border-b border-mocha/25">
         <Container className="flex items-center justify-between gap-4 py-5">
           <div className="flex flex-col">
@@ -33,7 +39,9 @@ export default function AtelierLayout({
         </Container>
       </header>
 
-      <div className="flex-1">{children}</div>
+      <div id="atelier-content" tabIndex={-1} className="flex-1 focus:outline-none">
+        {children}
+      </div>
 
       <footer className="border-t border-mocha/25">
         <Container className="py-6">
