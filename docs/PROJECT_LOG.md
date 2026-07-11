@@ -12,6 +12,23 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — IMG-01 : remplacement du fallback picsum par un placeholder local
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : images/assets, technique
+- Résumé : suppression du fallback `https://picsum.photos/seed/{slug}` (photo aléatoire, contraire à la précision culturelle + dépendance externe) au profit d'un placeholder 100 % local dans la palette Mocha Mousse.
+- Fichiers modifiés :
+  - `components/images/BreakfastImage.tsx` : en cas d'erreur de chargement, rend un composant `BreakfastImagePlaceholder` (SVG inline flat — bol, vapeur, soleil, sans plat précis ni texte), dégradé `oat → cream`, couleurs via les tokens CSS `var(--color-*)` (aucun hex en dur), `role="img"` + `aria-label={alt}`.
+  - `next.config.ts` : bloc `images.remotePatterns` (picsum) supprimé ; config vide.
+- Décisions prises :
+  - Fallback en SVG/CSS pur, aucune dépendance ni asset externe, aucun `next/image` distant.
+  - Les 53 images locales `public/images/breakfasts/{slug}.webp` continuent de s'afficher normalement ; le placeholder ne se déclenche qu'en cas d'erreur de chargement.
+  - Props publiques de `BreakfastImage` inchangées (4 usages : cartes pays/recette, pages pays/recette).
+- Validation : `pnpm lint` ✅, `pnpm typecheck` ✅, `pnpm build` ✅ (652 pages). Contrôles : plus aucune référence `picsum`/`remotePatterns` ; tokens palette présents ; SVG bien formé.
+- Prochaine action : `SEO-01` (breadcrumbs JSON-LD 404) pour clore le Sprint 1.
+
 ## 2026-07-11 — UI-01 : retrait du statut interne `needsReview` de l'affichage public
 
 - Date : `2026-07-11`
