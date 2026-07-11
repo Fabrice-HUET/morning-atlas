@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 import { BreakfastImage } from '@/components/images/BreakfastImage'
 import type { Recipe } from '@/types/recipe'
+import { difficultyLabel } from '@/lib/labels'
 
 type RecipeCardProps = {
   recipe: Recipe
@@ -27,7 +28,7 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
         <h3 className="mt-5 text-xl font-black text-espresso group-hover:text-mocha">{recipe.title}</h3>
         <p className="mt-3 text-sm leading-6 text-espresso/75">{recipe.shortDescription}</p>
         <div className="mt-auto flex flex-wrap gap-2 pt-5 text-xs font-semibold text-espresso">
-          <span className="rounded-full bg-sage/20 px-3 py-1">{recipe.difficulty}</span>
+          <span className="rounded-full bg-sage/20 px-3 py-1">{difficultyLabel(recipe.difficulty)}</span>
           <span className="rounded-full bg-oat/80 px-3 py-1">{recipe.servings} pers.</span>
         </div>
       </div>

@@ -12,6 +12,17 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — DATA-06 : traduction FR des enums affichés
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : données / UI
+- Résumé : fin des valeurs techniques anglaises dans l'UI francophone. `lib/labels.ts` centralise les libellés FR des trois enums (`DifficultyToRecreate`, `IngredientType`, `BreakfastStyle`) avec accès sûr (repli sur la valeur brute).
+- Sites corrigés (5) : `app/(site)/ingredients/[slug]` (« Type »), `app/(site)/recipes/[slug]` (« Difficulté »), `app/(site)/countries/[slug]` (« Difficulté maison »), `components/cards/RecipeCard` (badge), `components/cards/IngredientCard` (type). Les valeurs stockées dans `data/` et les types sont inchangés.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` ; HTML généré affiche « Facile », « Protéine »… et **plus aucune** valeur brute (`easy`, `protein`).
+- **Groupe DATA (gouvernance) : DATA-02, DATA-04, DATA-05, DATA-06 faits. RESTE DATA-03** (rationalisation des taxonomies, effort L, 1080 entrées) — non entamée, à faire dans une session dédiée (fusions/suppressions massives avec rapport d'intégrité à chaque étape).
+
 ## 2026-07-11 — DATA-04 : flag `featured` significatif
 
 - Date : `2026-07-11`

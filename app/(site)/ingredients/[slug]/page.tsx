@@ -14,6 +14,7 @@ import {
 } from '@/lib/content-helpers'
 import { buildPageMetadata } from '@/lib/seo'
 import { buildBreadcrumbJsonLd, buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
+import { ingredientTypeLabel } from '@/lib/labels'
 
 type IngredientPageProps = {
   params: Promise<{ slug: string }>
@@ -78,7 +79,7 @@ export default async function IngredientPage({ params }: IngredientPageProps) {
       <Container>
         <SectionHeading level={1} eyebrow="Ingrédient" title={ingredient.name} description={ingredient.description} />
         <p className="mt-5 inline-flex rounded-full bg-sage/25 px-3 py-1 text-sm font-bold text-espresso">
-          Type : {ingredient.type}
+          Type : {ingredientTypeLabel(ingredient.type)}
         </p>
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {countries.map((country) => (

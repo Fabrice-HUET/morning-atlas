@@ -11,6 +11,7 @@ import { recipes } from '@/data/recipes'
 import { getCategoriesBySlugs, getCountriesBySlugs, getIngredientsBySlugs, getRecipeBySlug } from '@/lib/content-helpers'
 import { breakfastImageUrl, buildPageMetadata } from '@/lib/seo'
 import { buildBreadcrumbJsonLd, buildRecipeJsonLd, serializeJsonLd } from '@/lib/structured-data'
+import { difficultyLabel } from '@/lib/labels'
 
 type RecipePageProps = {
   params: Promise<{ slug: string }>
@@ -110,7 +111,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
                 </div>
                 <div>
                   <dt className="font-bold text-espresso">Difficulté</dt>
-                  <dd className="mt-1 text-espresso/75">{recipe.difficulty}</dd>
+                  <dd className="mt-1 text-espresso/75">{difficultyLabel(recipe.difficulty)}</dd>
                 </div>
                 <div>
                   <dt className="font-bold text-espresso">Portions</dt>

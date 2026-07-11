@@ -18,6 +18,7 @@ import {
 } from '@/lib/content-helpers'
 import { breakfastImageUrl, buildPageMetadata } from '@/lib/seo'
 import { buildBreadcrumbJsonLd, buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
+import { difficultyLabel } from '@/lib/labels'
 
 type CountryPageProps = {
   params: Promise<{ slug: string }>
@@ -107,7 +108,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
               <dl className="mt-6 grid gap-4 text-sm">
                 <div>
                   <dt className="font-bold text-espresso">Difficulté maison</dt>
-                  <dd className="mt-1 text-espresso/75">{country.difficultyToRecreate}</dd>
+                  <dd className="mt-1 text-espresso/75">{difficultyLabel(country.difficultyToRecreate)}</dd>
                 </div>
                 <div>
                   <dt className="font-bold text-espresso">Boissons courantes</dt>
