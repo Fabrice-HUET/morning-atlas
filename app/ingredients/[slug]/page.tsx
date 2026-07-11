@@ -48,7 +48,6 @@ export default async function IngredientPage({ params }: IngredientPageProps) {
   const jsonLd = [
     buildBreadcrumbJsonLd([
       { name: 'Accueil', path: '/' },
-      { name: 'Ingrédients', path: '/ingredients' },
       { name: ingredient.name, path: `/ingredients/${ingredient.slug}` },
     ]),
     buildWebPageJsonLd({

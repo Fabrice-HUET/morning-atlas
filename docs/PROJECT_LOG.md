@@ -12,6 +12,23 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — SEO-01 : breadcrumbs JSON-LD ne pointant plus vers des 404
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO
+- Résumé : suppression du niveau intermédiaire des `BreadcrumbList` JSON-LD des pages catégories et ingrédients, qui référençait `/categories` et `/ingredients` — deux pages index inexistantes (404). Les breadcrumbs passent de `Accueil → Catégories → nom` à `Accueil → nom`.
+- Fichiers modifiés :
+  - `app/categories/[slug]/page.tsx` (retrait de `{ name: 'Catégories', path: '/categories' }`)
+  - `app/ingredients/[slug]/page.tsx` (retrait de `{ name: 'Ingrédients', path: '/ingredients' }`)
+- Décisions prises :
+  - Option retenue : retirer le niveau intermédiaire (pas de création de pages index dans cette tâche — c'est PAGE-02/PAGE-03).
+  - Les pages pays et recette ne sont pas touchées : leurs breadcrumbs pointent vers `/countries` et `/recipes`, qui existent réellement.
+  - Le builder `buildBreadcrumbJsonLd` (`lib/structured-data.ts`) est inchangé.
+- Validation : `pnpm lint` ✅, `pnpm typecheck` ✅, `pnpm build` ✅ (652 pages). Vérification sur le HTML généré (`.next/server/app/`) : la page catégorie émet `Accueil → Pains du matin`, la page ingrédient `Accueil → Farine` ; grep global = plus aucun `item` de breadcrumb vers les index `/categories` ou `/ingredients`.
+- Prochaine action : Sprint 1 (P0) terminé. Passer au Sprint 2 (EDIT-02 puis EDIT-01) ou au Sprint 3 (consolidation SEO) selon la priorité de Fabrice.
+
 ## 2026-07-11 — IMG-01 : remplacement du fallback picsum par un placeholder local
 
 - Date : `2026-07-11`
