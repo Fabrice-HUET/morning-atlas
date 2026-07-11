@@ -68,7 +68,7 @@ export const kayaToastRecipe = {
     'toast-breakfasts',
     'kopitiam-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Version maison avec kaya déjà prete. Si la kaya est préparée maison, prevoir plutôt 45 à 60 minutes.',

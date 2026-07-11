@@ -74,7 +74,7 @@ export const nasiLemakRecipe = {
     'hearty',
     'traditional',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     "La base est simple, mais le sambal et la coordination des garnitures demandent de l'organisation.",

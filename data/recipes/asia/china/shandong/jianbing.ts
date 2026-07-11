@@ -72,7 +72,7 @@ export const jianbingRecipe = {
     'quick-at-home',
     'traditional',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Version maison simplifiée. Remplacer le baocui par feuille de brick ou wonton frit est pratique, mais pas strictement traditionnel.',

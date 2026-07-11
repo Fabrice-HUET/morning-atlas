@@ -56,7 +56,7 @@ export const greekYogurtWithHoneyRecipe = {
     'fruit-breakfasts',
     'mediterranean-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     "Le bol est aussi courant comme snack ou dessert léger. Le Greek Breakfast certifie releve surtout d'un cadre hotelier et touristique.",

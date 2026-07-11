@@ -65,7 +65,7 @@ export const canjeeroRecipe = {
     'traditional',
     'tea-breakfast',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Version domestique simplifiée. Les farines, noms et durees de fermentation varient fortement selon les familles et les sources.',

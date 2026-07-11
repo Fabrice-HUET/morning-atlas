@@ -73,7 +73,7 @@ export const jamaicanAckeeAndSaltfishRecipe = {
     'family-friendly',
     'national-dishes',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     "Pour un public international, utiliser de l'ackee en conserve fiable. Ne pas recommander l'ackee frais non maitrise : il doit être pleinement mur et correctement prépare.",

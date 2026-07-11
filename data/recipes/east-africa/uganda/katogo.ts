@@ -55,7 +55,7 @@ export const katogoRecipe = {
     'family-friendly',
     'legume-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Version accessible avec matooke et haricots. Les versions aux abats ou à la sauce g-nut demandent une recherche et des ingrédients plus spécifiques.',

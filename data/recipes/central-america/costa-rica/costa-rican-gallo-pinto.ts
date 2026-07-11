@@ -70,7 +70,7 @@ export const costaRicanGalloPintoRecipe = {
     'traditional',
     'budget-friendly',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Le riz de la veille fonctionne mieux. La sauce Lizano est très identitaire au Costa Rica, mais certaines familles adaptent ou remplacent le condiment.',

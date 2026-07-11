@@ -58,7 +58,7 @@ export function getFeaturedCountries(limit = 6) {
   return getCountriesBySlugs(featuredSlugs).slice(0, limit)
 }
 
-export function getFeaturedRecipes(limit = 4) {
+export function getFeaturedRecipes(limit = 6) {
   return recipes.filter((recipe) => recipe.featured).slice(0, limit)
 }
 

@@ -72,7 +72,7 @@ export const menemenRecipe = {
     'family-friendly',
     'brunch',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     "La présence d'oignon est optionnelle et culturellement débattue. La base reste œufs, tomates et poivrons.",

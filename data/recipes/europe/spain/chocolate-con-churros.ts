@@ -63,7 +63,7 @@ export const chocolateConChurrosRecipe = {
     'comfort-breakfasts',
     'weekend-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'La pâte est simple, mais le pochage et la friture demandent prudence. Usage gourmand, pas petit-déjeuner quotidien universel.',

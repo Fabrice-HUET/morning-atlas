@@ -12,6 +12,17 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — DATA-04 : flag `featured` significatif
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : données / gouvernance
+- Constat : 52/53 recettes en `featured: true` → `getFeaturedRecipes` (slice 0,4) mettait en avant les 4 premières par ordre de tableau, par accident.
+- Changement : `featured: false` partout sauf **6 recettes choisies pour la diversité** (un continent chacune, parmi les fiches pilote relues) : Ful medames (Égypte), Café Touba (Sénégal), riz-miso (Japon), idli-sambar (Inde du Sud), tartines (France), huevos rancheros (Mexique). `getFeaturedRecipes` : défaut `limit` 4 → 6 pour que la home reflète le choix complet.
+- Vérifications : `pnpm typecheck`, `pnpm build` ; la home affiche exactement ces **6 cartes**. `validate:content` inchangé (pas de slug touché).
+- Reste du groupe DATA : DATA-03 (taxonomies, L), DATA-06 (enums FR).
+
 ## 2026-07-11 — DATA-02 : unification tags / tagSlugs sur Recipe
 
 - Date : `2026-07-11`

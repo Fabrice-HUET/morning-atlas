@@ -39,7 +39,7 @@ export const msemenRecipe = {
   type: 'Galette feuilletée',
   tags: ['traditional-breakfast', 'vegetarian-friendly', 'comfort-food', 'sweet-morning'],
   categorySlugs: ['breakfasts-of-africa', 'sweet', 'savory', 'traditional', 'family-friendly', 'flatbreads'],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Les noms et formes proches varient selon les régions. La levure apparait dans certaines recettes mais pas systematiquement.',

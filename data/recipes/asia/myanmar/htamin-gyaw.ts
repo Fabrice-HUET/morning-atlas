@@ -71,7 +71,7 @@ export const htaminGyawRecipe = {
     'leftover-breakfasts',
     'hearty',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Fiche exploitable, mais le statut petit-déjeuner merite une source locale supplementaire. Le plat est aussi un repas rapide ou plat de restes.',

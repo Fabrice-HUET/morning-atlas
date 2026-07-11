@@ -44,7 +44,7 @@ export const ogiRecipe = {
     'healthy',
     'sweet',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'La préparation est facile avec une pâte ou poudre prete. La fermentation maison demande plusieurs jours et davantage de pratique.',

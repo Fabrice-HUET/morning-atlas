@@ -54,7 +54,7 @@ export const boterhamMetHagelslagRecipe = {
     'family-friendly',
     'kid-friendly-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Le hagelslag est très associé aux Pays-Bas, mais les petits-déjeuners néerlandais incluent aussi fromage, charcuterie, yaourt, muesli et fruits.',

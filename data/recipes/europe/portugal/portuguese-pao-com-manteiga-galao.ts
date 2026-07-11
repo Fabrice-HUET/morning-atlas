@@ -60,7 +60,7 @@ export const portuguesePaoComManteigaGalaoRecipe = {
     'family-friendly',
     'cafe-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     "L'angle retenu est le quotidien de café ou pastelaria : pain beurre et café au lait. Le pastel de nata reste une variante/plaisir de café, pas le seul petit-déjeuner portugais.",

@@ -62,7 +62,7 @@ export const bulgarianBanitsaRecipe = {
     'family-friendly',
     'traditional',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     "Version simplifiée avec pâte filo du commerce. Le sirène peut être approche avec feta hors Bulgarie, mais ce n'est pas exactement le même fromage.",

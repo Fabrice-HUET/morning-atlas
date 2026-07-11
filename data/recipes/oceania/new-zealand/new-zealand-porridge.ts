@@ -64,7 +64,7 @@ export const newZealandPorridgeRecipe = {
     'healthy',
     'winter-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Classique kiwi du quotidien, surtout associé aux bols chauds, simples et familiaux.',

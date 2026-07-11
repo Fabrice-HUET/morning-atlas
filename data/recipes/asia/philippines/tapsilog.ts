@@ -71,7 +71,7 @@ export const tapsilogRecipe = {
     'hearty',
     'quick',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Classique philippin moderne et populaire. Traditional doit être compris comme classique contemporain, pas tradition ancienne figee.',

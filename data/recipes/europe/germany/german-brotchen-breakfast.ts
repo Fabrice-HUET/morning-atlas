@@ -66,7 +66,7 @@ export const germanBrotchenBreakfastRecipe = {
     'sweet',
     'classic-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Cette fiche représente une table de petit-déjeuner, pas un plat unique. Les noms des petits pains varient fortement selon les régions allemandes.',

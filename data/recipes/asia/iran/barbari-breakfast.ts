@@ -75,7 +75,7 @@ export const barbariBreakfastRecipe = {
     'family-friendly',
     'tea-breakfast',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'hard',
   notes:
     'La recette maison est faisable, mais retrouver la texture de boulangerie iranienne, la croute brillante et les sillons reguliers demande de la pratique.',

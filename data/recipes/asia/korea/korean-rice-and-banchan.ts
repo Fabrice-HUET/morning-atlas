@@ -78,7 +78,7 @@ export const koreanRiceAndBanchanRecipe = {
     'soup-breakfasts',
     'fermented-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Fiche de structure de repas plutôt que recette unique. Pour une version maison, limiter à deux ou trois banchan simples.',

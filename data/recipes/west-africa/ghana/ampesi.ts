@@ -65,7 +65,7 @@ export const ampesiRecipe = {
     'hearty',
     'easy-to-recreate',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Le statut petit-déjeuner est à formuler avec prudence : ampesi est surtout documenté comme plat ghanéen familial ou repas complet.',

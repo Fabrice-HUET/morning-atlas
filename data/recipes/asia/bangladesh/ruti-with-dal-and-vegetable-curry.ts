@@ -76,7 +76,7 @@ export const rutiWithDalAndVegetableCurryRecipe = {
     'budget-friendly',
     'healthy',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Titre éditorial prefere : ruti with dal or vegetable curry. Chapati with curry reste comprehensible mais trop generique.',

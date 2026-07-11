@@ -70,7 +70,7 @@ export const russianKashaRecipe = {
     'traditional',
     'winter-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Version Morning Atlas centrée sur le sarrasin au lait et beurre, avec mention des variantes salées.',

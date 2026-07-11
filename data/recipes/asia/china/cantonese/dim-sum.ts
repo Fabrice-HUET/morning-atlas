@@ -68,7 +68,7 @@ export const dimSumRecipe = {
     'traditional',
     'steamed-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'hard',
   notes:
     'Une version simplifiée avec éléments prets peut être rapide, mais un repas dim sum complet demande plusieurs techniques et beaucoup de coordination.',

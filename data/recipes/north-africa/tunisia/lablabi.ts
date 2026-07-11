@@ -41,7 +41,7 @@ export const lablabiRecipe = {
   type: 'Soupe de pois chiches',
   tags: ['traditional-breakfast', 'savory-morning', 'comfort-food', 'protein-rich'],
   categorySlugs: ['breakfasts-of-africa', 'savory', 'hearty', 'street-breakfast', 'legume-breakfasts', 'comfort-breakfasts', 'quick-at-home'],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Version rapide avec pois chiches en conserve. Avec pois chiches secs, prevoir trempage et cuisson longue.',

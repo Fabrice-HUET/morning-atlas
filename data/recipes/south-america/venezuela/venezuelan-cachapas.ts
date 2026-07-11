@@ -68,7 +68,7 @@ export const venezuelanCachapasRecipe = {
     'family-friendly',
     'brunch',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'La cachapa peut être petit-déjeuner, brunch, snack ou street food. Mozzarella ou queso latino depannent hors Venezuela, mais ne remplacent pas exactement le queso de mano.',

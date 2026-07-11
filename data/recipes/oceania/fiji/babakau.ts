@@ -66,7 +66,7 @@ export const babakauRecipe = {
     'traditional',
     'tea-breakfast',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     "La recette est simple, mais la pâte levee et la friture demandent de l'attention. L'origine historique exacte reste incertaine.",

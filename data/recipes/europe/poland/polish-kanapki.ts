@@ -69,7 +69,7 @@ export const polishKanapkiRecipe = {
     'family-friendly',
     'cold-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Très variable selon familles, régions, saison et contenu du frigo. Les kanapki ne sont pas limitees au petit-déjeuner.',

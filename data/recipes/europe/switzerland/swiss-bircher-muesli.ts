@@ -66,7 +66,7 @@ export const swissBircherMuesliRecipe = {
     'quick',
     'traditional',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     "Le muesli commercial sec n'est pas identique au Birchermuesli frais. Cette fiche privilegie l'origine suisse.",

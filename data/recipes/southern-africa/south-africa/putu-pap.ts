@@ -46,7 +46,7 @@ export const putuPapRecipe = {
     'family-friendly',
     'budget-friendly',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'La recette est simple, mais obtenir la texture granuleuse demande un peu de pratique.',

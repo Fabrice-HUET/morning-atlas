@@ -76,7 +76,7 @@ export const israeliBreakfastRecipe = {
     'savory',
     'hotel-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Fiche de format / buffet / assiette composee, pas recette unique. Rester centre sur les usages culinaires et eviter les generalisations identitaires.',

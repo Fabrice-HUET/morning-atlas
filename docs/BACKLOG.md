@@ -26,7 +26,7 @@
 | DATA-05 | Validation d'intégrité en script pnpm | P1 | ✅ 2026-07-11 (a attrapé une corruption de slug) |
 | DATA-02 | Unifier tags / tagSlugs sur Recipe | P1 | ✅ 2026-07-11 |
 | DATA-03 | Rationaliser les taxonomies (L) | P1 | ☐ reste à faire (dépend DATA-02 ✅) |
-| DATA-04 | Rendre `featured` significatif | P1 | ☐ reste à faire |
+| DATA-04 | Rendre `featured` significatif | P1 | ✅ 2026-07-11 |
 | DATA-06 | Traduire les enums affichés | P1 | ☐ reste à faire |
 | IMG-02 | Nettoyage assets template | P1 | ☐ |
 | P2 / P3 | Voir sections dédiées | — | ☐ |

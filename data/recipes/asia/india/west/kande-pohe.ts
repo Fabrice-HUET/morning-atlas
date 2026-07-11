@@ -74,7 +74,7 @@ export const kandePoheRecipe = {
     'family-friendly',
     'healthy',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Utiliser de preference du poha épais pour une texture moelleuse. Les variantes indiennes du poha sont nombreuses et doivent rester nuancées.',

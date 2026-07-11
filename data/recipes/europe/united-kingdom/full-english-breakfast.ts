@@ -70,7 +70,7 @@ export const fullEnglishBreakfastRecipe = {
     'brunch',
     'weekend-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Chaque élément est simple, mais il faut coordonner plusieurs cuissons pour tout servir chaud.',

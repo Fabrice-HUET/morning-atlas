@@ -65,7 +65,7 @@ export const chipsiMayaiRecipe = {
     'quick-at-home',
     'budget-friendly',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Le chipsi mayai est surtout une street food et un repas rapide ; son usage matinal existe, mais il ne doit pas être reduit au petit-déjeuner.',

@@ -65,7 +65,7 @@ export const canadianHomestyleBreakfastRecipe = {
     'diner-breakfasts',
     'weekend-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Formule large et régionale. Traditional doit être compris comme style dîner / familial, pas tradition nationale unique.',

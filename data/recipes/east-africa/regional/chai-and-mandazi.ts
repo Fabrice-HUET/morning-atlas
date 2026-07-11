@@ -68,7 +68,7 @@ export const chaiAndMandaziRecipe = {
     'street-breakfast',
     'tea-breakfast',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     "Fiche régionale : le duo existe sous des formes variables en Afrique de l'est et sur la cote swahilie, sans appartenir à un seul pays.",

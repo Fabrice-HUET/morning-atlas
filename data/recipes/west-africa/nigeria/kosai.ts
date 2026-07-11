@@ -48,7 +48,7 @@ export const kosaiRecipe = {
     'protein-rich-breakfasts',
     'fried-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     "La recette est simple dans l'idée, mais le trempage, le decorticage et la friture demandent un peu de pratique.",

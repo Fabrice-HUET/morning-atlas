@@ -61,7 +61,7 @@ export const cubanTostadaCafeConLecheRecipe = {
     'diaspora-breakfasts',
     'classic-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Le duo est cubain et cubano-américain ; beaucoup de sources accessibles documentent surtout Miami et la diaspora de Floride.',

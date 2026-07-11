@@ -79,7 +79,7 @@ export const buburAyamRecipe = {
     'comfort-breakfasts',
     'hearty',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Version simplifiée. Les toppings changent fortement selon villes, vendeurs, familles et restaurants.',

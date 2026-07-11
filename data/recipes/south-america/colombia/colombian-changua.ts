@@ -66,7 +66,7 @@ export const colombianChanguaRecipe = {
     'family-friendly',
     'comfort-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     "La changua divise parfois, mais la fiche doit rester respectueuse : c'est un plat de contexte andin, familial et matinal, pas un objet de moquerie.",

@@ -70,7 +70,7 @@ export const australianBigBrekkieRecipe = {
     'weekend-breakfasts',
     'coffee-breakfast',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Big Brekkie est plus naturel pour le ton éditorial que Fry-up, mais la fiche garde le slug existant australia-fry-up.',

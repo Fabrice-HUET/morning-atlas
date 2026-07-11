@@ -59,7 +59,7 @@ export const youTiaoRecipe = {
     'traditional',
     'breakfast-drinks',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'hard',
   notes:
     "Version domestique simplifiée. La texture de stand depend fortement du repos, de l'hydratation, de l'agent levant, de la température d'huile et du geste d'etirement.",

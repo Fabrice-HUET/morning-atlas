@@ -65,7 +65,7 @@ export const italianPrimaColazioneRecipe = {
     'family-friendly',
     'classic-breakfasts',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Angle éditorial : petit-déjeuner souvent léger, sucre, rapide et très lie au café et au bar italien.',

@@ -63,7 +63,7 @@ export const bagelWithCreamCheeseRecipe = {
     'deli-breakfasts',
     'savory',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
     'Titre volontairement centre sur New York pour eviter de generaliser à tous les États-Unis.',

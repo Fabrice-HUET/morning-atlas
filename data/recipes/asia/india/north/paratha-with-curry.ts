@@ -79,7 +79,7 @@ export const parathaWithCurryRecipe = {
     'hearty',
     'tea-breakfast',
   ],
-  featured: true,
+  featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
     'Version aloo paratha lisible pour le public. Le paratha nature est plus simple, mais la version farcie représente bien les petits-déjeuners copieux du nord.',
