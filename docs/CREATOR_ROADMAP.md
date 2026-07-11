@@ -68,7 +68,7 @@ L'ordre est strict : chaque tâche dépend de la précédente sauf mention contr
 | CREATOR-02 | Thème « Atelier » : tokens inversés + typographie next/font ✅ 2026-07-11 | M | CREATOR-01 |
 | CREATOR-03 | Hero : scène SVG/CSS maison, retrait de three.js ✅ 2026-07-11 | M | CREATOR-02 |
 | CREATOR-04 | Refonte du contenu en récit (timeline, compétences, projets) ✅ 2026-07-11 | M | CREATOR-02 |
-| CREATOR-05 | CV web imprimable `/creator/cv` + PDF public | L | CREATOR-02 |
+| CREATOR-05 | CV web imprimable `/creator/cv` + PDF public ✅ 2026-07-11 (PDF à générer manuellement) | L | CREATOR-02 |
 | CREATOR-06 | SEO de l'espace : JSON-LD Person, metadata, OG dédiée | S | CREATOR-04 |
 | CREATOR-07 | Qualité vitrine : a11y, reduced-motion, budget perf | S | CREATOR-03 → 05 |
 
@@ -170,6 +170,16 @@ L'ordre est strict : chaque tâche dépend de la précédente sauf mention contr
 - **Prompt agent (à coller tel quel) :**
 > Tu travailles dans le repo Next.js « morning-atlas » (Next 16.2.9 — lis `AGENTS.md` d'abord). Contexte : l'espace créateur (`app/(atelier)/creator/` + `/creator/cv`, thème sombre « Atelier ») est fonctionnellement terminé ; cette tâche est un passage qualité, car la page sert de vitrine des compétences accessibilité/performance de son auteur. Mission : 1) audite le JS client embarqué par `/creator` (`pnpm build` puis lis la taille des bundles de la route) : hors du bouton d'impression du CV, tout doit être composant serveur — refactore si un `'use client'` superflu subsiste. 2) Vérifie systématiquement : `prefers-reduced-motion` sur chaque animation (scène SVG, timeline, apparitions au scroll) ; navigation clavier (ordre de tabulation, `focus-visible` partout, ajoute un skip-link « Aller au contenu » dans le layout atelier) ; un seul H1 par page ; hiérarchie h2/h3 sans trou ; `aria-hidden` sur les SVG décoratifs avec `role="img"` + `<title>` seulement s'ils portent du sens. 3) Vérifie les contrastes du thème sombre (texte `#fff6ea` et `#fffdf8` sur `#261812` et `#3a241c` ; `#e7a93b` sur fond sombre pour le texte : calcule les ratios et corrige si < 4.5:1 pour le texte courant). 4) Si un serveur local est possible, lance Lighthouse (ou explique comment) sur `/creator` et `/creator/cv` et reporte les scores dans `docs/CREATOR_ROADMAP.md` section « Baseline qualité ». Contraintes : aucune dépendance ; aucune régression visuelle volontaire ; ne touche pas au magazine. Validation : `pnpm lint`, `pnpm typecheck`, `pnpm build`, plus le rapport de ce que tu as corrigé.
 ---
+
+## Générer le PDF du CV (procédure)
+
+Le CV vit dans `app/(atelier)/creator/cv/page.tsx` (source unique = `data/creator.ts`). Le PDF téléchargeable n'est pas généré automatiquement (pas de dépendance headless). Pour (re)générer `public/files/fabrice-huet-cv.pdf` :
+
+1. `pnpm dev`, ouvrir `http://localhost:3000/creator/cv`.
+2. Bouton « Imprimer / Enregistrer en PDF » (ou `Ctrl/Cmd+P`) → destination « Enregistrer en PDF », format A4, marges par défaut, cocher « Graphiques d'arrière-plan » si besoin.
+3. Enregistrer sous `public/files/fabrice-huet-cv.pdf`.
+
+Le bouton « Télécharger le PDF » du portfolio s'affiche automatiquement dès que ce fichier existe (garde `existsSync`).
 
 ## Baseline qualité
 

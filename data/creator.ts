@@ -10,6 +10,10 @@ export const creatorProfile = {
     'Je m’intéresse particulièrement à l’accessibilité, au SEO technique, à l’optimisation front-end et aux usages responsables de l’IA appliquée au web.',
   ],
   focusAreas: ['UX pragmatique', 'Accessibilité', 'Performance front-end', 'SEO technique', 'IA appliquée au web'],
+  objective:
+    'Intégrer une équipe tech où je pourrai consolider mes compétences en front-end, contribuer à des projets concrets et continuer à apprendre, notamment autour de l’accessibilité, de l’optimisation et de l’IA appliquée.',
+  location: 'Esvres, Indre-et-Loire',
+  phone: '06 63 19 21 30',
   cvPath: '/files/fabrice-huet-cv.pdf',
   links: [
     {
@@ -17,9 +21,8 @@ export const creatorProfile = {
       href: 'https://www.linkedin.com/in/fabrice-huet/',
     },
     {
-      // TODO (à confirmer par Fabrice) : e-mail canonique — gmail ici vs icloud du compte.
       label: 'Email',
-      href: 'mailto:fabrice.huet.01@gmail.com',
+      href: 'mailto:huet.fabrice@icloud.com',
     },
   ],
 } as const
@@ -70,10 +73,11 @@ export const creatorTimeline = [
     role: 'Développeur Front-End',
     org: 'Agence Référence',
     highlights: [
-      'Développement et maintenance de sites web commerciaux et événementiels.',
-      'Modernisation d’interfaces existantes pour améliorer l’UX, la cohérence graphique et les performances.',
-      'Migrations d’applications Next.js et contribution à des outils internes sur mesure.',
-      'Travail avec des équipes pluridisciplinaires et partenaires spécialisés SEO / analytics UX.',
+      'Conception et maintenance de sites web commerciaux et événementiels, avec ajout régulier de fonctionnalités.',
+      'Modernisation d’interfaces existantes pour améliorer l’UX et renforcer la cohérence graphique.',
+      'Migration d’applications Next.js de la version 10 à la 15, pour la performance et la sécurité.',
+      'Collaboration avec des partenaires spécialisés (Pixalione pour le SEO, Contentsquare pour l’analyse UX).',
+      'Conception d’outils internes sur mesure et travail agile avec une équipe pluridisciplinaire.',
     ],
   },
   {
@@ -123,6 +127,20 @@ export const timelineKindLabels = {
   formation: 'Formation',
   avant: 'Avant le code',
 } as const
+
+// Compétences transverses et langues (issues du CV) — surtout utiles à la page CV.
+export const creatorSoftSkills = [
+  'Méthodologie agile (Scrum / Kanban)',
+  'Communication inter-équipes',
+  'Analyse des besoins utilisateurs',
+  'Résolution de problèmes',
+  'Sens du détail et rigueur',
+  'Adaptabilité et autonomie',
+  'Écoute active et bienveillance (issues du médico-social)',
+  'Relation client et prospection (parcours commercial)',
+] as const
+
+export const creatorLanguages = ['Français — langue maternelle', 'Anglais — professionnel (oral et écrit)'] as const
 
 export const creatorProjects = [
   {

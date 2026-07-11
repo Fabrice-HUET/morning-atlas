@@ -71,6 +71,46 @@ a {
   border-radius: 6px;
 }
 
+/* Feuille d'impression du CV : A4 propre en noir sur blanc, le thème sombre de l'atelier est neutralisé. */
+@media print {
+  .cv-noprint {
+    display: none !important;
+  }
+  .atelier {
+    background: #ffffff !important;
+    color: #1a1a1a !important;
+  }
+  .atelier > header,
+  .atelier > footer {
+    display: none !important;
+  }
+  .cv-print,
+  .cv-print * {
+    color: #1a1a1a !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  .cv-print .cv-sheet {
+    border: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+  }
+  .cv-print :is(h1, h2, h3) span,
+  .cv-print .text-honey {
+    color: #9a5b12 !important;
+  }
+  .cv-print .cv-block {
+    break-inside: avoid;
+  }
+  .cv-print :is(hr, header, section) {
+    border-color: #bbbbbb !important;
+  }
+  @page {
+    size: A4;
+    margin: 14mm;
+  }
+}
+
 /* Révélation au scroll en CSS pur (scroll-driven animations). Fallback : visible par défaut. */
 @supports (animation-timeline: view()) {
   @media (prefers-reduced-motion: no-preference) {

@@ -12,6 +12,24 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — CREATOR-05 : CV web imprimable + e-mail canonique
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : contenu / design (espace créateur)
+- Résumé : migration du CV legacy `docs/cv.html` vers une page `/creator/cv` imprimable, alimentée par `data/creator.ts` (source unique). `docs/cv.html` supprimé.
+- Détails :
+  - `app/(atelier)/creator/cv/page.tsx` : CV dans le thème Atelier à l'écran (résumé, objectif, expérience + parcours, compétences techniques, compétences transverses, langues, coordonnées). `robots: { index: false }` ; absent du sitemap.
+  - Contenu du CV migré dans `data/creator.ts` : ajout `objective`, `location`, `phone`, `creatorSoftSkills`, `creatorLanguages` ; enrichissement des `highlights` d'Agence Référence avec des faits réels du CV (Pixalione SEO, Contentsquare UX, Next.js 10→15).
+  - Feuille `@media print` (globals.css) : A4, noir sur blanc, thème sombre neutralisé, header/footer atelier et boutons masqués, `break-inside: avoid` sur les blocs, `@page { size:A4; margin:14mm }`.
+  - `components/creator/PrintButton.tsx` : seul composant client de l'atelier (`window.print()`).
+  - Boutons portfolio mis à jour : « Voir le CV » / « Consulter le CV » → `/creator/cv` ; « Télécharger le PDF » affiché seulement si `public/files/fabrice-huet-cv.pdf` existe (`existsSync`).
+- **Décision e-mail tranchée** : e-mail canonique = `huet.fabrice@icloud.com` (remplace le gmail partout ; plus aucun gmail dans le code).
+- Limite assumée : le **PDF n'est pas généré automatiquement** (pas de dépendance headless ajoutée). Procédure de génération manuelle documentée dans `docs/CREATOR_ROADMAP.md` ; le fichier `public/files/fabrice-huet-cv.pdf` reste à produire par Fabrice.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (653 pages, `/creator/cv` incluse) ; CV rendu avec tout le contenu migré ; noindex présent ; zéro gmail ; `docs/cv.html` supprimé.
+- Prochaine action : **CREATOR-06** (SEO de l'espace : JSON-LD Person, metadata, OG dédiée).
+
 ## 2026-07-11 — CREATOR-04 : le récit du portfolio (timeline, compétences, projets)
 
 - Date : `2026-07-11`

@@ -59,12 +59,12 @@ export default function CreatorPage() {
             <p className="mt-5 max-w-2xl text-lg leading-8 text-cream/80">{creatorProfile.intro}</p>
             <TagList items={creatorProfile.focusAreas} />
             <div className="mt-8 flex flex-wrap gap-3">
-              <a
-                href={creatorProfile.cvPath}
+              <Link
+                href="/creator/cv"
                 className="inline-flex min-h-11 items-center justify-center rounded-full bg-honey px-5 py-2.5 text-sm font-bold text-ink shadow-sm transition hover:bg-honey/90"
               >
-                Télécharger mon CV
-              </a>
+                Voir le CV
+              </Link>
               <Link
                 href="/"
                 className="inline-flex min-h-11 items-center justify-center rounded-full border border-honey/40 px-5 py-2.5 text-sm font-bold text-cream transition hover:border-honey hover:bg-honey/10"
@@ -72,9 +72,6 @@ export default function CreatorPage() {
                 Retour à Morning Atlas
               </Link>
             </div>
-            {!isCvAvailable ? (
-              <p className="mt-3 text-sm leading-6 text-cream/55">CV bientôt disponible à cet emplacement.</p>
-            ) : null}
           </div>
           <AtelierScene />
         </section>
@@ -167,17 +164,27 @@ export default function CreatorPage() {
 
         <section className="mt-16 grid gap-6 rounded-3xl border border-mocha/25 bg-espresso p-6 md:grid-cols-2">
           <div>
-            <SectionTitle eyebrow="CV" title="Une version PDF prévue pour les recruteurs." />
+            <SectionTitle eyebrow="CV" title="Le CV, en ligne et imprimable." />
             <p className="mt-4 text-sm leading-6 text-cream/70">
-              Le bouton pointe vers l’emplacement public prévu pour le CV. La page reste utilisable même si le fichier
-              PDF n’est pas encore ajouté au dépôt.
+              Le CV se consulte directement sur le site et s’imprime proprement en A4 (ou s’enregistre en PDF depuis
+              le navigateur). Un PDF téléchargeable est proposé dès qu’il est déposé dans le dépôt.
             </p>
-            <a
-              href={creatorProfile.cvPath}
-              className="mt-5 inline-flex min-h-11 items-center justify-center rounded-full bg-honey px-5 py-2.5 text-sm font-bold text-ink shadow-sm transition hover:bg-honey/90"
-            >
-              Télécharger mon CV
-            </a>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <Link
+                href="/creator/cv"
+                className="inline-flex min-h-11 items-center justify-center rounded-full bg-honey px-5 py-2.5 text-sm font-bold text-ink shadow-sm transition hover:bg-honey/90"
+              >
+                Consulter le CV
+              </Link>
+              {isCvAvailable ? (
+                <a
+                  href={creatorProfile.cvPath}
+                  className="inline-flex min-h-11 items-center justify-center rounded-full border border-honey/40 px-5 py-2.5 text-sm font-bold text-cream transition hover:border-honey hover:bg-honey/10"
+                >
+                  Télécharger le PDF
+                </a>
+              ) : null}
+            </div>
           </div>
           <div>
             <SectionTitle eyebrow="Liens" title="Contact professionnel." />
