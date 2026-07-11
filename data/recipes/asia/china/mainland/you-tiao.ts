@@ -9,7 +9,7 @@ export const youTiaoRecipe = {
   shortDescription:
     'Un long beignet chinois sale, doré et croustillant, souvent mange au petit-déjeuner avec lait de soja, congee ou soupe.',
   longDescription:
-    "Le you tiao est l'un des aliments les plus souvent associés au petit-déjeuner chinois populaire. Il s'agit de longues bandes de pâte de ble, légèrement salées, assemblees par deux puis frites jusqu'à devenir dorées, gonflees et croustillantes. Il est souvent mange chaud, juste après friture, avec du doujiang, lait de soja, ou avec du congee.",
+    "Le you tiao est l'un des aliments les plus souvent associés au petit-déjeuner chinois populaire. Il s'agit de longues bandes de pâte de ble, légèrement salées, assemblées par deux puis frites jusqu'à devenir dorées, gonflees et croustillantes. Il est souvent mange chaud, juste après friture, avec du doujiang, lait de soja, ou avec du congee.",
   ingredients: [
     '300 g de farine de ble',
     "180 ml d'eau",
@@ -75,12 +75,12 @@ export const youTiaoRecipe = {
   featured: true,
   recreateAtHomeLevel: 'hard',
   notes:
-    "Version domestique simplifiee. La texture de stand depend fortement du repos, de l hydratation, de l agent levant, de la température d'huile et du geste d etirement.",
+    "Version domestique simplifiée. La texture de stand depend fortement du repos, de l'hydratation, de l'agent levant, de la température d'huile et du geste d'etirement.",
   seoTitle: 'You Tiao : le beignet chinois du petit-déjeuner',
   seoDescription:
     'Découvre le you tiao, un baton de pâte frit souvent associé au petit-déjeuner chinois, servi avec lait de soja, congee ou soupe.',
   reviewNotes: [
-    'La legende liee à Qin Hui et Yue Fei doit rester présentée comme récit populaire, pas comme fait historique certain.',
+    'La legende liée à Qin Hui et Yue Fei doit rester présentée comme récit populaire, pas comme fait historique certain.',
     'Les noms changent selon les langues chinoises et les pays voisins.',
     'La version maison est possible, mais difficile à reussir comme dans les stands.',
     'Ne pas présenter le you tiao comme le petit-déjeuner chinois unique.',

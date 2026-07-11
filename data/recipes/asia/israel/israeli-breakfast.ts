@@ -9,7 +9,7 @@ export const israeliBreakfastRecipe = {
   shortDescription:
     'Un grand petit-déjeuner à composer : salades fraiches, légumes, œufs, fromages, pains, labneh, olives, tahini, fruits et boissons chaudes.',
   longDescription:
-    "L Israeli breakfast est moins une recette unique qu'un style de repas. Il est souvent présenté sous forme de buffet ou d assortiment généreux : légumes frais, salades, œufs, pains, fromages, labneh, yaourt, poissons fumes ou marinés, olives, tahini, fruits, pâtisseries, café, thé ou jus. Son histoire est souvent liee aux kibboutzim puis aux buffets d hotels, mais les versions familiales, hotels et restaurants varient fortement.",
+    "L'Israeli breakfast est moins une recette unique qu'un style de repas. Il est souvent présenté sous forme de buffet ou d'assortiment généreux : légumes frais, salades, œufs, pains, fromages, labneh, yaourt, poissons fumes ou marinés, olives, tahini, fruits, pâtisseries, café, thé ou jus. Son histoire est souvent liée aux kibboutzim puis aux buffets d'hotels, mais les versions familiales, hotels et restaurants varient fortement.",
   ingredients: [
     '2 à 4 œufs',
     '1 concombre',
@@ -52,7 +52,7 @@ export const israeliBreakfastRecipe = {
   steps: [
     'Couper tomates, concombre et oignon en petits des.',
     "Ajouter persil, citron, huile d'olive et sel.",
-    'Préparer des œufs durs, brouilles ou au plat.',
+    'Préparer des œufs durs, brouillés ou au plat.',
     'Disposer labneh, fromage, olives et tahini dans de petits bols.',
     'Réchauffer le pain ou la pita.',
     'Ajouter quelques fruits frais.',
@@ -99,10 +99,10 @@ export const israeliBreakfastRecipe = {
     'Fiche de format / buffet / assiette composee, pas recette unique. Rester centre sur les usages culinaires et eviter les generalisations identitaires.',
   seoTitle: 'Israeli Breakfast : le buffet méditerranéen du matin',
   seoDescription:
-    'Découvre l Israeli breakfast, un petit-déjeuner généreux inspire des kibboutzim et popularise par les hotels : salades, œufs, fromages, pains, labneh et légumes frais.',
+    "Découvre l'Israeli breakfast, un petit-déjeuner généreux inspire des kibboutzim et popularise par les hotels : salades, œufs, fromages, pains, labneh et légumes frais.",
   reviewNotes: [
     "Ce n'est pas une recette unique, mais un style de repas.",
-    'L origine kibboutz est solide, mais le buffet d hotel actuel est une version plus abondante et touristique.',
+    "L'origine kibboutz est solide, mais le buffet d'hotel actuel est une version plus abondante et touristique.",
     'Ne pas présenter ce petit-déjeuner comme uniforme dans toutes les familles israeliennes.',
     'Certains éléments varient selon les regles de kashrut, les traditions familiales, les hotels et les influences culturelles.',
     "La shakshuka est souvent associée aux petits-déjeuners israéliens, mais n'est pas obligatoire.",
@@ -124,7 +124,7 @@ export const israeliBreakfastRecipe = {
       title: 'Beyond the Bagel - Kibbutz Breakfast',
       url: 'https://forward.com/food/recipes/309864/beyond-the-bagel-the-kibbutz-breakfast/',
       publisher: 'The Forward',
-      note: 'Evolution du petit-déjeuner de kibboutz vers les buffets d hotels.',
+      note: "Evolution du petit-déjeuner de kibboutz vers les buffets d'hotels.",
     },
     {
       title: 'Why Breakfast Is Key When Visiting Israel',
@@ -136,7 +136,7 @@ export const israeliBreakfastRecipe = {
       title: 'Israeli breakfast',
       url: 'https://family-friends-food.com/israeli-breakfast/',
       publisher: 'Family Friends Food',
-      note: 'Description actuelle de petits-déjeuners d hotels et B&B avec œufs, légumes, fruits, jus, pains, fromages et yaourts.',
+      note: "Description actuelle de petits-déjeuners d'hotels et B&B avec œufs, légumes, fruits, jus, pains, fromages et yaourts.",
     },
   ],
   illustrationPrompt:

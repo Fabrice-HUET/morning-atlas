@@ -9,13 +9,13 @@ export const mexicanHuevosRancherosRecipe = {
   shortDescription:
     "Des œufs au plat servis sur tortillas de mais, nappes d'une salsa rouge tomate-piment et souvent accompagnés de haricots refritos.",
   longDescription:
-    "Les huevos rancheros sont un petit-déjeuner mexicain classique : tortillas de mais chauffees ou passees à l'huile, œufs frits et salsa rouge à base de tomate, piment, oignon et ail. Le plat renvoie à un imaginaire rural et nourrissant, mais ses versions varient beaucoup avec haricots refritos, queso fresco, avocat, rajas de poblano, salsa verte ou adaptations tex-mex.",
+    "Les huevos rancheros sont un petit-déjeuner mexicain classique : tortillas de mais chauffées ou passées à l'huile, œufs frits et salsa rouge à base de tomate, piment, oignon et ail. Le plat renvoie à un imaginaire rural et nourrissant, mais ses versions varient beaucoup avec haricots refritos, queso fresco, avocat, rajas de poblano, salsa verte ou adaptations tex-mex.",
   ingredients: [
     '4 tortillas de mais',
     '4 œufs',
-    '3 tomates mures',
+    '3 tomates mûres',
     '1 petit piment serrano ou jalapeno',
-    '1/4 d oignon',
+    "1/4 d'oignon",
     "1 gousse d'ail",
     '200 g de haricots refritos',
     'Huile',
@@ -50,7 +50,7 @@ export const mexicanHuevosRancherosRecipe = {
     'Réchauffer les haricots refritos.',
     "Passer les tortillas rapidement à l'huile ou les chauffer au comal.",
     'Faire cuire les œufs au plat.',
-    'Disposer les tortillas dans l assiette.',
+    "Disposer les tortillas dans l'assiette.",
     'Ajouter une couche de haricots si souhaite.',
     'Poser les œufs dessus.',
     'Napper de salsa chaude.',
@@ -98,9 +98,9 @@ export const mexicanHuevosRancherosRecipe = {
   seoDescription:
     'Découvre les huevos rancheros, un petit-déjeuner mexicain classique avec œufs au plat, tortillas de mais, salsa rouge et haricots refritos.',
   reviewNotes: [
-    'L origine rurale est un imaginaire fort, mais il faut eviter une histoire trop précise sans source solide.',
+    "L'origine rurale est un imaginaire fort, mais il faut eviter une histoire trop précise sans source solide.",
     'Les versions mexicaines et tex-mex peuvent beaucoup différer.',
-    'Les haricots sont frequents, mais pas obligatoires dans toutes les versions.',
+    'Les haricots sont fréquents, mais pas obligatoires dans toutes les versions.',
     'Ne pas présenter les huevos rancheros comme le seul petit-déjeuner mexicain.',
   ],
   sources: [
@@ -131,5 +131,5 @@ export const mexicanHuevosRancherosRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de huevos rancheros mexicains avec deux tortillas de mais, œufs au plat, salsa roja tomate-piment, haricots refritos, avocat, queso fresco, coriandre, piment serrano, tasse de café de olla en arrière-plan, ambiance cuisine rurale mexicaine du matin, palette moka mousse, rouge salsa, jaune œuf, vert avocat, beige tortilla, brun haricots, composition éditoriale vibrante, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

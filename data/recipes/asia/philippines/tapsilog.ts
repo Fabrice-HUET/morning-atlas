@@ -9,7 +9,7 @@ export const tapsilogRecipe = {
   shortDescription:
     "Un petit-déjeuner philippin copieux compose de boeuf tapa, riz frit à l'ail et œuf frit, souvent servi avec vinaigre épice ou atchara.",
   longDescription:
-    "Le tapsilog combine trois éléments : tapa, boeuf mariné ou frit ; sinangag, riz frit à l'ail ; et itlog, œuf. Il appartient à la famille plus large des silog, des repas construits autour du riz frit à l'ail et de l œuf, auxquels on ajouté une protéine comme tapa, longganisa, bangus, hot-dog ou Spam.",
+    "Le tapsilog combine trois éléments : tapa, boeuf mariné ou frit ; sinangag, riz frit à l'ail ; et itlog, œuf. Il appartient à la famille plus large des silog, des repas construits autour du riz frit à l'ail et de l'œuf, auxquels on ajouté une protéine comme tapa, longganisa, bangus, hot-dog ou Spam.",
   ingredients: [
     '300 g de boeuf finement tranche',
     "3 gousses d'ail",
@@ -51,7 +51,7 @@ export const tapsilogRecipe = {
     'Faire frire les œufs.',
     'Égoutter légèrement le boeuf mariné.',
     'Le saisir rapidement à la poêle.',
-    "Disposer tapa, riz à l'ail et œuf dans l assiette.",
+    "Disposer tapa, riz à l'ail et œuf dans l'assiette.",
     'Servir avec tomate, concombre, atchara ou vinaigre épice.',
   ],
   prepTimeMinutes: 35,
@@ -95,8 +95,8 @@ export const tapsilogRecipe = {
   seoDescription:
     "Découvre le tapsilog, un classique philippin compose de boeuf tapa, riz frit à l'ail et œuf, souvent servi avec vinaigre épice ou atchara.",
   reviewNotes: [
-    'Le tapsilog est très connu comme petit-déjeuner, mais il peut être mange à toute heure.',
-    'L origine liee à Tapsi ni Vivian et Vivian Del Rosario doit être présentée comme récit largement relaye.',
+    'Le tapsilog est très connu comme petit-déjeuner, mais il peut être mangé à toute heure.',
+    "L'origine liée à Tapsi ni Vivian et Vivian Del Rosario doit être présentée comme récit largement relaye.",
     'Le tapa ancien était plutôt une viande séchée ou conservee ; aujourd hui il est souvent mariné puis frit ou grille.',
     'Les marinades varient beaucoup : plus sucrées, plus vinaigrees, avec calamansi, citron, vinaigre, sauce soja, ail, sucre ou poivre.',
     "Tapsilog n'est qu'un membre de la famille silog.",
@@ -128,6 +128,6 @@ export const tapsilogRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de tapsilog philippin avec boeuf tapa caramelise, riz frit à l'ail, œuf au plat au jaune brillant, tomates fraiches, concombre, petit bol d atchara et vinaigre épice, ambiance petit restaurant de Manille le matin, palette moka mousse, brun boeuf, blanc riz, jaune œuf, rouge tomate, vert concombre, composition éditoriale appetissante, sans photoréalisme, sans texte, sans logo.",
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de tapsilog philippin avec boeuf tapa caramelise, riz frit à l'ail, œuf au plat au jaune brillant, tomates fraiches, concombre, petit bol d'atchara et vinaigre épice, ambiance petit restaurant de Manille le matin, palette moka mousse, brun boeuf, blanc riz, jaune œuf, rouge tomate, vert concombre, composition éditoriale appetissante, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

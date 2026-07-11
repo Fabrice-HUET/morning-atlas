@@ -33,8 +33,8 @@ export const cubanTostadaCafeConLecheRecipe = {
   ],
   steps: [
     'Couper le pain dans la longueur.',
-    'Beurrer généreusement l intérieur.',
-    'Refermer ou garder ouvert selon l appareil utilise.',
+    "Beurrer généreusement l'intérieur.",
+    "Refermer ou garder ouvert selon l'appareil utilise.",
     'Presser à la plancha, au grill ou dans une poêle avec un poids.',
     "Faire dorer jusqu'à obtenir un extérieur croustillant.",
     'Préparer un café fort.',

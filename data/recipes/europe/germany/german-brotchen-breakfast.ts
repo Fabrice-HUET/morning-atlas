@@ -100,7 +100,7 @@ export const germanBrotchenBreakfastRecipe = {
       title: 'German bread - world famous and diverse',
       url: 'https://www.deutschland.de/en/topic/life/german-bread-and-bread-culture',
       publisher: 'Deutschland.de',
-      note: 'Culture allemande du pain et reconnaissance dans l inventaire du patrimoine culturel immateriel allemand.',
+      note: "Culture allemande du pain et reconnaissance dans l'inventaire du patrimoine culturel immateriel allemand.",
     },
     {
       title: 'German cuisine',

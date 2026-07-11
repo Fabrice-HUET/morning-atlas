@@ -9,7 +9,7 @@ export const putuPapRecipe = {
   shortDescription:
     'Une bouillie de mais sud-africaine à texture séché et granuleuse, servie avec lait et sucre ou en accompagnement sale.',
   longDescription:
-    "Le putu pap, aussi appele phuthu ou krummelpap, est une préparation sud-africaine à base de maize meal ou mielie meal. Contrairement à une bouillie fluide, cette version est plus séché, granuleuse et émiettée, obtenue avec peu d'eau et une cuisson aerée.",
+    "Le putu pap, aussi appelé phuthu ou krummelpap, est une préparation sud-africaine à base de maize meal ou mielie meal. Contrairement à une bouillie fluide, cette version est plus séché, granuleuse et émiettée, obtenue avec peu d'eau et une cuisson aerée.",
   ingredients: [
     '2 tasses de maize meal ou polenta blanche fine',
     "2,5 tasses d'eau",
@@ -80,6 +80,6 @@ export const putuPapRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de putu pap sud-africain à texture granuleuse, petite cruche de lait, cuillère de sucre, bol d amasi, en arrière-plan discret une sauce tomate-oignon et une touche de chakalaka, ambiance matin familial, palette moka mousse, crème mais, beige, brun doux, rouge tomate, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de putu pap sud-africain à texture granuleuse, petite cruche de lait, cuillère de sucre, bol d'amasi, en arrière-plan discret une sauce tomate-oignon et une touche de chakalaka, ambiance matin familial, palette moka mousse, crème mais, beige, brun doux, rouge tomate, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

@@ -9,7 +9,7 @@ export const kayaToastRecipe = {
   shortDescription:
     'Des toasts croustillants garnis de kaya coco-pandan et de beurre froid, souvent servis avec œufs mollets, sauce soja, poivre blanc et kopi.',
   longDescription:
-    "Le kaya toast est un petit-déjeuner de kopitiam fortement associé à Singapour. Il combine pain grille, kaya à base de coco, œufs, sucre et pandan, fines tranches de beurre froid, œufs mollets assaisonnés de sauce soja et poivre blanc, puis kopi. La fiche doit rester nuancee : le kaya toast circule aussi en Malaisie et dans d'autres zones d Asie du Sud-Est.",
+    "Le kaya toast est un petit-déjeuner de kopitiam fortement associé à Singapour. Il combine pain grillé, kaya à base de coco, œufs, sucre et pandan, fines tranches de beurre froid, œufs mollets assaisonnés de sauce soja et poivre blanc, puis kopi. La fiche doit rester nuancée : le kaya toast circule aussi en Malaisie et dans d'autres zones d'Asie du Sud-Est.",
   ingredients: [
     '4 tranches de pain blanc',
     '4 cuillères à soupe de kaya',
@@ -34,7 +34,7 @@ export const kayaToastRecipe = {
     'white-pepper',
     'robusta-coffee',
     'kopi',
-    'condensed-milk',
+    'condénsed-milk',
     'evaporated-milk',
   ],
   steps: [
@@ -47,7 +47,7 @@ export const kayaToastRecipe = {
     'Ajouter sauce soja et poivre blanc.',
     'Préparer un café fort, idealement légèrement sucre.',
     'Servir toast, œufs et café ensemble.',
-    'Tremper eventuellement le toast dans l œuf assaisonné.',
+    "Tremper éventuellement le toast dans l'œuf assaisonné.",
   ],
   prepTimeMinutes: 10,
   cookTimeMinutes: 10,
@@ -94,7 +94,7 @@ export const kayaToastRecipe = {
     'Ne pas présenter le kaya toast comme exclusivement singapourien : il est aussi présent en Malaisie et ailleurs en Asie du Sud-Est.',
     "l'histoire exacte mele influences malaises, hainanaises, britanniques et culture kopitiam.",
     'Le trio toast, œufs mollets et kopi est courant, mais chaque café peut être commande differemment.',
-    'L angle éditorial le plus juste reste breakfast de kopitiam souvent associé à Singapour.',
+    "L'angle éditorial le plus juste reste breakfast de kopitiam souvent associé à Singapour.",
   ],
   sources: [
     {
@@ -130,5 +130,5 @@ export const kayaToastRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de kaya toast singapourien avec triangles de toast croustillant garnis de kaya vert pale et beurre, petit bol d'œufs mollets avec sauce soja et poivre blanc, tasse de kopi fumante, pot de kaya, feuilles de pandan en décor, ambiance kopitiam du matin à Singapour, palette moka mousse, crème toast, vert pandan, brun café, jaune beurre, composition éditoriale simple et chaleureuse, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

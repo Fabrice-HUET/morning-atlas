@@ -5,7 +5,7 @@ export const canjeeroRecipe = {
   title: 'Canjeero au thé épice',
   localName: 'Canjeero, canjeelo, laxoox, lahooh, lahoh',
   countrySlugs: ['somalia-canjeero'],
-  originLabel: 'Somalie, Corne de l Afrique',
+  originLabel: "Somalie, Corne de l'Afrique",
   shortDescription:
     'Une crêpe fermentée somalienne, fine et spongieuse, souvent servie avec thé épice, miel, sucre, beurre ou accompagnements sales.',
   longDescription:
@@ -43,7 +43,7 @@ export const canjeeroRecipe = {
     'Ajouter la levure chimique juste avant cuisson si la pâte manque de legerete.',
     "Ajuster avec un peu d'eau pour obtenir une texture proche d'une pâte à crêpes épaisse.",
     'Chauffer une poêle antiadhesive ou une plaque légèrement graissee.',
-    'Verser une louche de pâte et l étaler en cercle fin.',
+    "Verser une louche de pâte et l'étaler en cercle fin.",
     "Cuire sur une seule face jusqu'à ce que les bulles apparaissent et que le dessus soit pris.",
     'Retirer sans retourner quand la base est dorée et le dessus souple.',
     'Servir chaud avec beurre, ghee, miel, sucre ou accompagnement sale.',
@@ -83,7 +83,7 @@ export const canjeeroRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    'Version domestique simplifiee. Les farines, noms et durees de fermentation varient fortement selon les familles et les sources.',
+    'Version domestique simplifiée. Les farines, noms et durees de fermentation varient fortement selon les familles et les sources.',
   seoTitle: 'Canjeero : la crêpe fermentée du petit-déjeuner somalien',
   seoDescription:
     'Découvre le canjeero, une crêpe fermentée somalienne souvent servie au petit-déjeuner avec thé épice, miel, beurre ou accompagnements sales.',
@@ -120,6 +120,6 @@ export const canjeeroRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggeree, ambiance matin familial dans la Corne de l Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggeree, ambiance matin familial dans la Corne de l'Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

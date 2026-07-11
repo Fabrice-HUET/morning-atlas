@@ -9,7 +9,7 @@ export const chaiAndMandaziRecipe = {
   shortDescription:
     'Un duo du matin et du tea break : thé noir au lait sucre, parfois épice, avec petits pains frits légèrement sucres.',
   longDescription:
-    "Le mandazi est un pain ou beignet frit légèrement sucre, courant dans plusieurs pays d Afrique de l'est, notamment au Kenya, en Tanzanie, en Ouganda et sur la cote swahilie. Il peut être parfume à la cardamome ou à la cannelle, prépare avec levure ou levure chimique, et parfois enrichi de lait de coco dans les versions mahamri ou mamri. Le chai, thé noir au lait et au sucre, est souvent servi avec lui au petit-déjeuner, comme snack ou au moment du thé.",
+    "Le mandazi est un pain ou beignet frit légèrement sucre, courant dans plusieurs pays d'Afrique de l'est, notamment au Kenya, en Tanzanie, en Ouganda et sur la cote swahilie. Il peut être parfume à la cardamome ou à la cannelle, prépare avec levure ou levure chimique, et parfois enrichi de lait de coco dans les versions mahamri ou mamri. Le chai, thé noir au lait et au sucre, est souvent servi avec lui au petit-déjeuner, comme snack ou au moment du thé.",
   ingredients: [
     '250 g de farine',
     '40 g de sucre',
@@ -91,7 +91,7 @@ export const chaiAndMandaziRecipe = {
     "Fiche régionale : le duo existe sous des formes variables en Afrique de l'est et sur la cote swahilie, sans appartenir à un seul pays.",
   seoTitle: "Chai et Mandazi : le duo du matin en Afrique de l'est",
   seoDescription:
-    "Découvre le duo chai et mandazi, un petit-déjeuner ou snack d Afrique de l'est avec thé au lait sucre et petits pains frits parfumes.",
+    "Découvre le duo chai et mandazi, un petit-déjeuner ou snack d'Afrique de l'est avec thé au lait sucre et petits pains frits parfumes.",
   reviewNotes: [
     'Le duo est régional et ne doit pas être présenté comme une habitude uniforme dans tout un pays.',
     'Mandazi recouvre plusieurs formes, recettes et textures.',

@@ -7,12 +7,12 @@ export const menemenRecipe = {
   countrySlugs: ['turkey-menemen'],
   originLabel: 'Turquie',
   shortDescription:
-    "Un plat turc d'œufs doucement brouilles dans une sauce de tomates, poivrons verts et épices, servi chaud avec du pain.",
+    "Un plat turc d'œufs doucement brouillés dans une sauce de tomates, poivrons verts et épices, servi chaud avec du pain.",
   longDescription:
     "Le menemen est un plat de petit-déjeuner turc à base d'œufs, tomates, poivrons verts et épices, cuits dans l'huile ou le beurre jusqu'à obtenir une texture souple, juteuse et presque crémeuse. Il s'intègre souvent à une table de kahvalti plus large, avec fromages, olives, tomates, concombres, pains, confitures, miel, œufs, borek, simit et thé noir.",
   ingredients: [
     '4 œufs',
-    '3 tomates mures ou tomates concassees de qualite',
+    '3 tomates mûres ou tomates concassées de qualite',
     '2 poivrons verts doux',
     '1 petit oignon optionnel',
     "2 cuillères à soupe d'huile d'olive ou 1 noix de beurre",
@@ -59,7 +59,7 @@ export const menemenRecipe = {
   estimatedTimeMinutes: 30,
   difficulty: 'easy',
   servings: 2,
-  type: 'Œufs brouilles aux tomates',
+  type: 'Œufs brouillés aux tomates',
   tags: ['savory-morning', 'protein-rich', 'comfort-food', 'easy-at-home'],
   tagSlugs: [
     'turkey',
@@ -91,14 +91,14 @@ export const menemenRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'La présence d oignon est optionnelle et culturellement debattue. La base reste œufs, tomates et poivrons.',
+    "La présence d'oignon est optionnelle et culturellement débattue. La base reste œufs, tomates et poivrons.",
   seoTitle: 'Menemen : les œufs turcs aux tomates et poivrons',
   seoDescription:
     "Découvre le menemen, un plat turc de petit-déjeuner à base d'œufs, tomates, poivrons verts et épices, servi avec du pain et du thé.",
   reviewNotes: [
-    'L origine exacte du nom et son lien avec la ville de Menemen doivent rester prudents.',
-    "l'oignon est optionnel et culturellement debattu.",
-    "Le menemen est très associé au petit-déjeuner, mais peut aussi être mange à d'autres moments.",
+    "L'origine exacte du nom et son lien avec la ville de Menemen doivent rester prudents.",
+    "l'oignon est optionnel et culturellement débattu.",
+    "Le menemen est très associé au petit-déjeuner, mais peut aussi être mangé à d'autres moments.",
     'Les versions avec sucuk, pastirma ou fromage existent, mais la base reste œufs, tomates et poivrons.',
     'Ne pas confondre menemen et shakshuka : dans le menemen les œufs sont souvent mélanges à la sauce.',
   ],
@@ -119,16 +119,16 @@ export const menemenRecipe = {
       title: 'Thousands of Turks vote on Twitter to decide whether menemen should be made with or without onions',
       url: 'https://www.dailysabah.com/food/2018/08/25/thousands-of-turks-vote-on-twitter-to-decide-whether-menemen-should-be-made-with-or-without-onions',
       publisher: 'Daily Sabah',
-      note: "Debat culturel autour de l'oignon et sondage Vedat Milor.",
+      note: "Débat culturel autour de l'oignon et sondage Vedat Milor.",
     },
     {
       title: 'Perfect Menemen',
       url: 'https://www.themediterraneandish.com/menemen-recipe/',
       publisher: 'The Mediterranean Dish',
-      note: "Recette, texture d'œufs brouilles et distinction avec la shakshuka.",
+      note: "Recette, texture d'œufs brouillés et distinction avec la shakshuka.",
     },
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, poêle en cuivre de menemen turc fumant avec œufs moelleux, tomates rouges, poivrons verts, pul biber, morceaux de pain frais autour, verre tulipe de cay, olives et fromage en arrière-plan discret, ambiance table de kahvalti conviviale du matin, palette moka mousse, rouge tomate, jaune œuf, vert poivron, brun thé, cuivre doux, composition éditoriale chaleureuse, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

@@ -53,7 +53,7 @@ export const buburAyamRecipe = {
     'Rincer le riz.',
     'Cuire le riz dans le bouillon avec ail, sel, poivre et feuille aromatique.',
     'Ajouter le poulet dans le même bouillon pour le pocher.',
-    'Retirer le poulet quand il est cuit, puis l effilocher.',
+    "Retirer le poulet quand il est cuit, puis l'effilocher.",
     "Continuer de cuire le riz jusqu'à texture crémeuse.",
     'Ajuster avec eau ou bouillon si besoin.',
     'Verser la bouillie dans un bol.',
@@ -97,14 +97,14 @@ export const buburAyamRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    'Version simplifiee. Les toppings changent fortement selon villes, vendeurs, familles et restaurants.',
+    'Version simplifiée. Les toppings changent fortement selon villes, vendeurs, familles et restaurants.',
   seoTitle: 'Bubur Ayam : la bouillie de poulet du petit-déjeuner indonesien',
   seoDescription:
     'Découvre le bubur ayam, une bouillie de riz indonesienne au poulet, souvent servie au petit-déjeuner avec echalotes frites, cakwe, crackers et sambal.',
   reviewNotes: [
     "Le bubur ayam est très solide comme petit-déjeuner indonesien, mais il n'est pas limite au matin.",
     'Les toppings changent beaucoup selon villes, vendeurs, familles et restaurants.',
-    'L influence chinoise du congee est importante, mais la version indonesienne a ses propres codes.',
+    "L'influence chinoise du congee est importante, mais la version indonesienne a ses propres codes.",
     'Le sambal est souvent servi à part ; ne pas présenter le plat comme automatiquement très épice.',
   ],
   sources: [

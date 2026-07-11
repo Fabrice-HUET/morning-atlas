@@ -7,13 +7,13 @@ export const kandePoheRecipe = {
   countrySlugs: ['maharashtra-kande-pohe'],
   originLabel: 'Inde, Maharashtra',
   shortDescription:
-    'Un petit-déjeuner maharashtrien rapide à base de riz aplati, oignons, cacahuetes, curcuma, feuilles de curry, citron et coriandre.',
+    'Un petit-déjeuner maharashtrien rapide à base de riz aplati, oignons, cacahuètes, curcuma, feuilles de curry, citron et coriandre.',
   longDescription:
-    'Le kande pohe est une préparation très associée au Maharashtra. Elle repose sur du poha, un riz precuit, aplati puis séché, hydrate rapidement avant d être revenu avec épices, oignons, cacahuetes et curcuma. Le plat est simple mais expressif : texture moelleuse du riz aplati, croquant des cacahuetes, fraicheur du citron, chaleur du piment vert et parfum des feuilles de curry.',
+    "Le kande pohe est une préparation très associée au Maharashtra. Elle repose sur du poha, un riz precuit, aplati puis séché, hydrate rapidement avant d'être revenu avec épices, oignons, cacahuètes et curcuma. Le plat est simple mais expressif : texture moelleuse du riz aplati, croquant des cacahuètes, fraicheur du citron, chaleur du piment vert et parfum des feuilles de curry.",
   ingredients: [
     '150 g de poha épais',
     '1 oignon moyen',
-    '2 cuillères à soupe de cacahuetes',
+    '2 cuillères à soupe de cacahuètes',
     '1 cuillère à café de graines de moutarde',
     '1/2 cuillère à café de cumin',
     '6 feuilles de curry si disponibles',
@@ -48,12 +48,12 @@ export const kandePoheRecipe = {
     'Rincer rapidement le poha dans une passoire.',
     'Le laisser s assouplir quelques minutes sans le detremper.',
     "Chauffer l'huile dans une poêle.",
-    'Ajouter graines de moutarde, cumin, cacahuetes et feuilles de curry.',
+    'Ajouter graines de moutarde, cumin, cacahuètes et feuilles de curry.',
     "Ajouter l'oignon emince et le piment vert.",
     "Faire revenir jusqu'à ce que l'oignon devienne translucide.",
     'Ajouter curcuma, hing et sel.',
     'Incorporer le poha hydrate.',
-    'Mélanger doucement pour ne pas l écraser.',
+    "Mélanger doucement pour ne pas l'écraser.",
     'Terminer avec citron, coriandre et noix de coco râpée.',
   ],
   prepTimeMinutes: 10,
@@ -94,14 +94,14 @@ export const kandePoheRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Utiliser de preference du poha épais pour une texture moelleuse. Les variantes indiennes du poha sont nombreuses et doivent rester nuancees.',
+    'Utiliser de preference du poha épais pour une texture moelleuse. Les variantes indiennes du poha sont nombreuses et doivent rester nuancées.',
   seoTitle: 'Kande Pohe : le petit-déjeuner au riz aplati du Maharashtra',
   seoDescription:
-    'Découvre le kande pohe, un petit-déjeuner maharashtrien à base de riz aplati, oignons, cacahuetes, curcuma, citron et coriandre.',
+    'Découvre le kande pohe, un petit-déjeuner maharashtrien à base de riz aplati, oignons, cacahuètes, curcuma, citron et coriandre.',
   reviewNotes: [
     "Le poha existe dans beaucoup d'autres régions indiennes avec des variantes fortes.",
     'Ne pas dire que tous les Maharashtriens mangent kande pohe au petit-déjeuner.',
-    'La dimension mariage arrange / presentation familiale est interessante, mais ne doit pas resumer le plat.',
+    'La dimension mariage arrange / présentation familiale est intéressante, mais ne doit pas résumer le plat.',
     'Les feuilles de curry, le hing et la noix de coco varient selon les familles.',
     'Le poha fin ne convient pas toujours pour une version moelleuse.',
   ],
@@ -122,7 +122,7 @@ export const kandePoheRecipe = {
       title: 'Kanda Poha Recipe',
       url: 'https://www.theloveofspice.com/kanda-poha-recipe-maharashtrian-kande-pohe/',
       publisher: 'The Love of Spice',
-      note: 'Version domestique maharashtrienne avec poha épais, cacahuetes, moutarde, cumin, feuilles de curry, oignon, curcuma et citron.',
+      note: 'Version domestique maharashtrienne avec poha épais, cacahuètes, moutarde, cumin, feuilles de curry, oignon, curcuma et citron.',
     },
     {
       title: '8 Ways Poha is made and consumed across India',
@@ -132,6 +132,6 @@ export const kandePoheRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kande pohe maharashtrien jaune doré avec riz aplati moelleux, oignons, cacahuetes, feuilles de curry, coriandre fraiche, quartier de citron, petite coupelle de chai en arrière-plan, ambiance matin à Mumbai ou Pune, palette moka mousse, jaune curcuma, vert coriandre, brun cacahuete, beige doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kande pohe maharashtrien jaune doré avec riz aplati moelleux, oignons, cacahuètes, feuilles de curry, coriandre fraiche, quartier de citron, petite coupelle de chai en arrière-plan, ambiance matin à Mumbai ou Pune, palette moka mousse, jaune curcuma, vert coriandre, brun cacahuète, beige doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

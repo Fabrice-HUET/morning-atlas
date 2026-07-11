@@ -7,12 +7,12 @@ export const idliSambarRecipe = {
   countrySlugs: ['south-india-idli-sambar'],
   originLabel: 'Inde du Sud',
   shortDescription:
-    'Des petits gâteaux vapeur sales, préparés avec une pâte fermentée de riz et d urad dal, servis avec chutney de coco, sambar ou podi.',
+    "Des petits gâteaux vapeur sales, préparés avec une pâte fermentée de riz et d'urad dal, servis avec chutney de coco, sambar ou podi.",
   longDescription:
-    "L idli est l'un des petits-déjeuners les plus associés à l'Inde du Sud. Il s'agit d'un petit gâteau vapeur blanc, rond et moelleux, prépare avec une pâte fermentée à base de riz et d urad dal. Les idli sont souvent servis avec du sambar, un ragout de lentilles et légumes, ou avec une chutney de coco. La cuisson vapeur est simple, mais la fermentation, la texture de pâte et la température demandent de la pratique.",
+    "L'idli est l'un des petits-déjeuners les plus associés à l'Inde du Sud. Il s'agit d'un petit gâteau vapeur blanc, rond et moelleux, prépare avec une pâte fermentée à base de riz et d'urad dal. Les idli sont souvent servis avec du sambar, un ragout de lentilles et légumes, ou avec une chutney de coco. La cuisson vapeur est simple, mais la fermentation, la texture de pâte et la température demandent de la pratique.",
   ingredients: [
     '2 tasses de riz à idli ou riz etuve',
-    '1 tasse d urad dal',
+    "1 tasse d'urad dal",
     '1/2 cuillère à café de graines de fenugrec optionnelles',
     'Sel',
     'Eau',
@@ -42,8 +42,8 @@ export const idliSambarRecipe = {
   ],
   steps: [
     'Faire tremper le riz 4 à 6 heures.',
-    'Faire tremper l urad dal séparément 4 à 6 heures.',
-    "Mixer l urad dal avec un peu d'eau jusqu'à obtenir une texture légère.",
+    "Faire tremper l'urad dal séparément 4 à 6 heures.",
+    "Mixer l'urad dal avec un peu d'eau jusqu'à obtenir une texture légère.",
     'Mixer le riz plus grossierement.',
     'Mélanger les deux pâtes.',
     'Laisser fermenter 8 à 12 heures dans un endroit tiède.',
@@ -88,15 +88,15 @@ export const idliSambarRecipe = {
   featured: true,
   recreateAtHomeLevel: 'hard',
   notes:
-    'Le slug historique `idli-sambar` est conserve pour ne pas casser l URL existante, mais la fiche couvre aussi chutney, podi et variations régionales.',
-  seoTitle: 'Idli : le petit-déjeuner vapeur de l Inde du Sud',
+    "Le slug historique `idli-sambar` est conserve pour ne pas casser l'URL existante, mais la fiche couvre aussi chutney, podi et variations régionales.",
+  seoTitle: "Idli : le petit-déjeuner vapeur de l'Inde du Sud",
   seoDescription:
-    'Découvre l idli, un petit gâteau vapeur sud-indien à base de riz et urad dal fermentés, souvent servi avec chutney de coco ou sambar.',
+    "Découvre l'idli, un petit gâteau vapeur sud-indien à base de riz et urad dal fermentés, souvent servi avec chutney de coco ou sambar.",
   reviewNotes: [
-    'L origine historique précise de l idli est discutee et doit rester formulee avec prudence.',
+    "L'origine historique précise de l'idli est discutée et doit rester formulée avec prudence.",
     'Inde du Sud reste large : les versions changent entre Tamil Nadu, Karnataka, Kerala, Andhra Pradesh et Telangana.',
-    'La recette maison peut echouer si la température est trop basse ou si la pâte ne fermenté pas assez.',
-    'Ne pas présenter l idli comme le seul petit-déjeuner sud-indien.',
+    'La recette maison peut échouer si la température est trop basse ou si la pâte ne fermente pas assez.',
+    "Ne pas présenter l'idli comme le seul petit-déjeuner sud-indien.",
   ],
   sources: [
     {
@@ -121,7 +121,7 @@ export const idliSambarRecipe = {
       title: 'Coconut Chutney Recipe',
       url: 'https://www.vegrecipesofindia.com/coconut-chutney-recipe-coconut-chutney/',
       publisher: 'Dassana Veg Recipes',
-      note: 'Chutney de coco comme accompagnement d idli, dosa, vada et autres petits-déjeuners.',
+      note: "Chutney de coco comme accompagnement d'idli, dosa, vada et autres petits-déjeuners.",
     },
     {
       title: '6 idli varieties every food lover should try',
@@ -132,5 +132,5 @@ export const idliSambarRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette sud-indienne avec idli blancs moelleux, bol de sambar orange aux légumes, chutney de coco blanche, petite cuillère de podi, feuilles de curry et graines de moutarde en décor, tasse de café filtre sud-indien en arrière-plan, palette moka mousse, blanc crème, orange lentilles, vert curry, brun café, composition éditoriale douce et propre, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

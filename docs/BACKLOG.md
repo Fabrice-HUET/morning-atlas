@@ -15,7 +15,7 @@
 | UI-01 | Retirer le badge « A verifier » public | P0 | ✅ 2026-07-11 |
 | IMG-01 | Remplacer le fallback picsum | P0 | ✅ 2026-07-11 |
 | SEO-01 | Corriger les breadcrumbs JSON-LD 404 | P0 | ✅ 2026-07-11 |
-| EDIT-01 | Relire un lot pilote de fiches | P0 | ☐ |
+| EDIT-01 | Relire un lot pilote de fiches | P0 | ✅ 2026-07-11 (10 pays + 10 recettes → `false`) |
 | EDIT-02 | Documenter le processus de relecture → `docs/EDITORIAL_REVIEW.md` | P0 | ✅ 2026-07-11 |
 | PAGE-01 | Finaliser la page /creator — **remplacée par CREATOR-01 → 07** (`docs/CREATOR_ROADMAP.md`) | P1 | ☐ |
 | SEO-02 → SEO-06 | Consolidation SEO | P1 | ☐ |

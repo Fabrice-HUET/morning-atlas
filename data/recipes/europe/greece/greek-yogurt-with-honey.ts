@@ -111,10 +111,10 @@ export const greekYogurtWithHoneyRecipe = {
       title: '7 Food and Drink Rules Greeks Live By, According to a Local',
       url: 'https://www.foodandwine.com/greek-rules-for-food-and-drink-11871271',
       publisher: 'Food & Wine',
-      note: 'Nuance sur l importance variable du petit-déjeuner en Grèce contemporaine.',
+      note: "Nuance sur l'importance variable du petit-déjeuner en Grèce contemporaine.",
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassees, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière mediterraneenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassées, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière mediterraneenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

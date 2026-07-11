@@ -9,7 +9,7 @@ export const chocolateConChurrosRecipe = {
   shortDescription:
     'Des churros dorés et croustillants trempes dans un chocolat chaud très épais, surtout associés aux churrerias et aux matins gourmands.',
   longDescription:
-    "Le chocolate con churros associé une pâte frite en longs batons croustillants avec un chocolat chaud dense, presque à tremper plus qu a boire. A Madrid, le duo est particulierement visible dans les chocolaterias et churrerias, mais il ne faut pas le présenter comme un petit-déjeuner quotidien de toute l Espagne. c'est plutôt un petit-déjeuner gourmand, une sortie de week-end, une pause en churreria ou une collation de fin de nuit.",
+    "Le chocolate con churros associé une pâte frite en longs batons croustillants avec un chocolat chaud dense, presque à tremper plus qu a boire. A Madrid, le duo est particulierement visible dans les chocolaterias et churrerias, mais il ne faut pas le présenter comme un petit-déjeuner quotidien de toute l'Espagne. c'est plutôt un petit-déjeuner gourmand, une sortie de week-end, une pause en churreria ou une collation de fin de nuit.",
   ingredients: [
     '120 g de farine',
     "200 ml d'eau",
@@ -81,12 +81,12 @@ export const chocolateConChurrosRecipe = {
     'La pâte est simple, mais le pochage et la friture demandent prudence. Usage gourmand, pas petit-déjeuner quotidien universel.',
   seoTitle: 'Chocolate con Churros : le petit-déjeuner gourmand espagnol',
   seoDescription:
-    'Découvre le chocolate con churros, une spécialité espagnole associant churros croustillants et chocolat chaud épais, souvent degustee au petit-déjeuner ou en fin de nuit.',
+    'Découvre le chocolate con churros, une spécialité espagnole associant churros croustillants et chocolat chaud épais, souvent dégustée au petit-déjeuner ou en fin de nuit.',
   reviewNotes: [
     'Ne pas présenter les churros comme un petit-déjeuner quotidien espagnol.',
     'Le duo est très fort à Madrid, mais les usages varient selon les régions.',
     'Les porras sont plus épaisses et souvent moins croustillantes que les churros.',
-    'L origine historique précise des churros est discutee.',
+    "L'origine historique précise des churros est discutée.",
   ],
   sources: [
     {

@@ -11,7 +11,7 @@ export const rutiWithDalAndVegetableCurryRecipe = {
   longDescription:
     "Au Bangladesh, une version courante du petit-déjeuner peut inclure un pain plat comme le ruti, le roti, le chapati ou le paratha, accompagné de dal, de légumes cuisines ou d'un curry simple. Pour Morning Atlas, ruti avec dal ou sobji est plus précis que chapati with curry, car curry reste un terme large et les usages varient selon ville, campagne, saison, revenus et habitudes familiales.",
   ingredients: [
-    '200 g d atta ou farine complete',
+    "200 g d'atta ou farine complete",
     "120 ml d'eau tiède",
     '1 pincee de sel',
     "1 cuillère à café d'huile optionnelle",
@@ -56,7 +56,7 @@ export const rutiWithDalAndVegetableCurryRecipe = {
     'Faire revenir oignon, tomate et pomme de terre en petits morceaux.',
     "Ajouter cumin, piment doux et un peu d'eau.",
     'Servir les ruti chauds avec dal et légumes.',
-    'Ajouter un thé au lait pour recreer l ambiance petit-déjeuner.',
+    "Ajouter un thé au lait pour recreer l'ambiance petit-déjeuner.",
   ],
   prepTimeMinutes: 20,
   cookTimeMinutes: 25,
@@ -129,7 +129,7 @@ export const rutiWithDalAndVegetableCurryRecipe = {
       title: 'Bangladeshi breakfast',
       url: 'https://rhubarbfool.co.uk/2011/05/27/bangladeshi-breakfast/',
       publisher: 'The Rhubarb Fool',
-      note: 'Source de terrain d appoint sur roti / paratha avec sabji et dal à Dhaka.',
+      note: "Source de terrain d'appoint sur roti / paratha avec sabji et dal à Dhaka.",
     },
   ],
   illustrationPrompt:

@@ -12,6 +12,23 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — EDIT-01 : relecture et validation du lot pilote
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : éditorial, données
+- Résumé : application de la grille `docs/EDITORIAL_REVIEW.md` à un lot pilote de **10 fiches pays + leurs 10 recettes** (Égypte, Maroc, Sénégal, Japon, Singapour, Turquie, Royaume-Uni, France, Mexique, Inde du Sud). Les 20 fiches passent à `needsReview: false` — première sortie du 100 % `needsReview` (20/106).
+- Verdicts : les 10 fiches sont jugées **publiables** : formulations prudentes (« souvent associé », « ne doit pas résumer »), non-généralisation respectée, `reviewNotes` couvertes par le texte, `sources` présentes et sur le sujet, langue nettoyée.
+- Nettoyage langue déclenché par la relecture (dimension C de la grille) :
+  - Résidus d'accents surfacés et corrigés (participes `-é/-ée/-ées`, adverbes `forcément`/`précisément`, `commerçant`, `récipient`…) via extension du script d'accents, plus une règle générale d'élision `l'`/`d'` (l'organisation, d'enfance).
+  - **Corrections de sur-accentuations verbe→participe** introduites par les entrées ambiguës de DATA-01 (`varie`→`varié`, `fermente`→`fermenté`, `presente`→`présenté`, `grille`→`grillé`, `mange`→`mangé`) : corrigées globalement là où le contexte est sûr (ex. « poisson grillé », « peut être mangé », « ne fermente pas », « varie fortement »).
+- **Portée honnête de la validation** : la validation repose sur la prudence interne des formulations + la présence de sources sur le sujet ; le **contenu** des articles-sources n'a pas été re-vérifié en ligne (pas d'accès). Aucune affirmation forte non prudente n'a été laissée ; aucune invention.
+- Traçabilité : `docs/CONTENT_TRACKER.md` mis à jour (10 lignes : `needsReview` → false, « Prêt pour publication » → Oui).
+- Reste : 43 pays + 43 recettes en `needsReview: true` pour les prochains lots ; des résidus d'accents ambigus (`sucre`/`sucré`, `sale`/`salé`) et d'éventuelles sur-accentuations verbe→participe subsistent hors lot pilote, à traiter lot par lot.
+- Validation : `pnpm lint` ✅, `pnpm typecheck` ✅, `pnpm build` ✅ (652 pages). Scan final du lot pilote : aucun mot français non accentué résiduel.
+- Prochaine action : lot pilote 2 (10 fiches suivantes) selon la même grille, ou passage au Sprint 3 (consolidation SEO).
+
 ## 2026-07-11 — EDIT-02 : procédure de relecture éditoriale
 
 - Date : `2026-07-11`

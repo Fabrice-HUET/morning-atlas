@@ -72,7 +72,7 @@ export const weetBixBowlRecipe = {
   recreateAtHomeLevel: 'easy',
   notes:
     'Weet-Bix est une marque et un repère culturel moderne. Ne pas présenter ce bol comme une recette traditionnelle ancienne.',
-  seoTitle: 'Weet-Bix : le bol de céréales emblématique d Australie',
+  seoTitle: "Weet-Bix : le bol de céréales emblématique d'Australie",
   seoDescription:
     'Découvre Weet-Bix, une céréale australienne iconique servie avec lait, banane, miel ou fruits pour un petit-déjeuner simple et rapide.',
   reviewNotes: [

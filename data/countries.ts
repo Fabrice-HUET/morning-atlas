@@ -42,7 +42,7 @@ type CountrySeed = Pick<
 function makeCountry(seed: CountrySeed): CountryBreakfast {
   return {
     heroTitle: `${seed.breakfastName} : un matin en ${seed.country}`,
-    breakfastSubtitle: 'Une porte d entree culinaire, à nuancer selon les régions et les familles.',
+    breakfastSubtitle: "Une porte d'entree culinaire, à nuancer selon les régions et les familles.",
     culturalNote: `Ce petit-déjeuner est souvent associé a ${seed.country}, sans resumer toutes les habitudes du pays.`,
     funFact: 'Les versions locales changent selon les saisons, les foyers et les produits disponibles.',
     morningContext: 'A explorer comme une piste culturelle, pas comme une définition unique du matin local.',
@@ -66,7 +66,7 @@ export const countries = [
     breakfastName: 'Ful medames',
     localName: 'Ful medames, ful mudammas, foul medames, ful',
     shortDescription:
-      "Un bol de fèves longuement cuites, souvent relevees avec cumin, citron, ail et huile d'olive.",
+      "Un bol de fèves longuement cuites, souvent relevées avec cumin, citron, ail et huile d'olive.",
     longDescription:
       "Le ful medames est l'un des plats les plus souvent associés au petit-déjeuner égyptien. Il repose sur des fèves cuites jusqu'à devenir tendres, puis assaisonnées selon les goûts avec cumin, ail, citron, huile d'olive, piment, herbes ou légumes. Il est courant de le servir avec du pain baladi ou du pain plat, parfois avec œufs, pickles, tomates, persil ou tahini. Il peut aussi être consommé à d'autres moments de la journée.",
     breakfastSubtitle: 'Un plat populaire, nourrissant et très variable selon les familles.',
@@ -81,13 +81,13 @@ export const countries = [
     culturalContext:
       "Les sources insistent sur l'absence d'une version définitive : assaisonnement, texture et accompagnements varient selon les régions, familles et vendeurs.",
     funFact:
-      'Le ful medames est parfois resume par une formule populaire : petit-déjeuner du riche, déjeuner du commercant et dîner du pauvre.',
+      'Le ful medames est parfois résumé par une formule populaire : petit-déjeuner du riche, déjeuner du commerçant et dîner du pauvre.',
     morningContext:
       'Souvent associé au petit-déjeuner, mais aussi consommé au déjeuner ou au dîner selon les contextes.',
     usualUsage: 'Plat de tous les jours, pratique, économique et rassasiant.',
     variants: [
       'Version simple avec fèves, cumin, sel et huile.',
-      "Version citronnee avec citron, ail et huile d'olive.",
+      "Version citronnée avec citron, ail et huile d'olive.",
       'Version garnie avec tomate, oignon, persil ou piment.',
       'Version avec œuf dur ou œuf frit.',
       'Version avec tahini, pickles ou légumes frais.',
@@ -147,7 +147,7 @@ export const countries = [
     seoDescription:
       "Découvre le ful medames, un plat égyptien souvent associé au petit-déjeuner : fèves fondantes, cumin, citron, huile d'olive et pain plat.",
     reviewNotes: [
-      'L origine antique est souvent evoquee mais doit rester nuancee.',
+      "L'origine antique est souvent évoquée mais doit rester nuancée.",
       'Les accompagnements changent selon les familles, quartiers et vendeurs.',
       'Ne pas présenter le ful comme le petit-déjeuner de tous les Égyptiens.',
     ],
@@ -172,8 +172,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de ful medames égyptien avec fèves brunes légèrement ecrasees, filet d'huile d'olive, citron, persil, cumin, pain baladi à cote, petite cuillère, motifs inspires du matin au Caire, palette chaude moka, beige, ocre et vert doux, composition propre pour fiche éditoriale, sans photoréalisme, sans texte, sans logo, rendu doux et artisanal.",
-    needsReview: true,
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de ful medames égyptien avec fèves brunes légèrement écrasées, filet d'huile d'olive, citron, persil, cumin, pain baladi à cote, petite cuillère, motifs inspirés du matin au Caire, palette chaude moka, beige, ocre et vert doux, composition propre pour fiche éditoriale, sans photoréalisme, sans texte, sans logo, rendu doux et artisanal.",
+    needsReview: false,
   }),
   makeCountry({
     slug: 'morocco-msemen',
@@ -187,12 +187,12 @@ export const countries = [
     shortDescription:
       "Une crêpe feuilletée marocaine, carree et dorée à la poêle, souvent servie au petit-déjeuner ou à l'heure du thé.",
     longDescription:
-      "Le msemen est une crêpe ou galette feuilletée souvent associée au petit-déjeuner marocain et aux moments de thé. Sa texture vient d'une pâte à base de farine et de semoule fine, etalee très finement sur une surface huilee, puis pliee en carre avec un peu de matière grasse et parfois de semoule entre les couches. Une version courante se deguste avec miel, beurre, confiture ou fromage frais, souvent accompagnée de thé à la menthe ou de café au lait.",
+      "Le msemen est une crêpe ou galette feuilletée souvent associée au petit-déjeuner marocain et aux moments de thé. Sa texture vient d'une pâte à base de farine et de semoule fine, étalée très finement sur une surface huilée, puis pliée en carre avec un peu de matière grasse et parfois de semoule entre les couches. Une version courante se deguste avec miel, beurre, confiture ou fromage frais, souvent accompagnée de thé à la menthe ou de café au lait.",
     breakfastSubtitle: 'Une galette feuilletée familiale, entre petit-déjeuner, snack et heure du thé.',
     typicalItems: ['Msemen', 'Miel', 'Beurre', 'Semoule fine', 'Thé à la menthe'],
     commonDrinks: ['Thé à la menthe', 'Café au lait'],
     associatedDrink:
-      'Thé vert à la menthe marocain, souvent associé aux moments de convivialite et d accueil.',
+      "Thé vert à la menthe marocain, souvent associé aux moments de convivialite et d'accueil.",
     breakfastStyles: ['sweet', 'savory', 'family', 'traditional', 'hearty'],
     difficultyToRecreate: 'medium',
     culturalNote:
@@ -200,7 +200,7 @@ export const countries = [
     culturalContext:
       'Certains noms proches comme rghaif, mlawi ou meloui varient selon les régions et peuvent designer des formes proches sans être toujours strictement identiques.',
     funFact:
-      'Le secret du msemen tient autant dans la pâte que dans le pliage : les fines couches huilees creent une texture souple, feuilletée et légèrement croustillante.',
+      'Le secret du msemen tient autant dans la pâte que dans le pliage : les fines couches huilées créent une texture souple, feuilletée et légèrement croustillante.',
     morningContext:
       "Souvent au petit-déjeuner, mais aussi à l'heure du thé, en snack ou au goûter.",
     usualUsage: 'Servi nature, sucre avec miel ou confiture, ou parfois farci en version salée.',
@@ -208,7 +208,7 @@ export const countries = [
       'Version sucrée avec miel, beurre ou confiture.',
       'Version simple nature servie avec thé.',
       'Version avec fromage frais ou fromage fondu.',
-      'Version farcie salée avec oignon, poivron, herbes, épices ou viande hachee.',
+      'Version farcie salée avec oignon, poivron, herbes, épices ou viande hachée.',
       'Formes proches comme meloui ou mlaoui.',
     ],
     simplifiedRecipe: {
@@ -217,7 +217,7 @@ export const countries = [
       steps: [
         'Mélanger farine, semoule et sel.',
         "Ajouter l'eau progressivement et pétrir.",
-        'Former des boules huilees et laisser reposer.',
+        'Former des boules huilées et laisser reposer.',
         'Étaler finement, beurrer, saupoudrer de semoule et plier.',
         'Cuire à la poêle chaude et servir tiède.',
       ],
@@ -270,7 +270,7 @@ export const countries = [
     reviewNotes: [
       'Les noms msemen, rghaif, mlawi ou meloui varient selon les régions et familles.',
       'Ne pas affirmer que le msemen est uniquement marocain dans son principe.',
-      'La levure est présenté dans certaines recettes mais pas systematique.',
+      'La levure est présente dans certaines recettes mais pas systématique.',
     ],
     sources: [
       {
@@ -293,8 +293,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style carnet de voyage culinaire, pile de msemen marocains carres, dorés et légèrement feuilletes, petit bol de miel, verre de thé à la menthe fumant, assiette artisanale, motifs discrets inspires du Maghreb, ambiance matin doux, palette moka, sable, miel, vert menthe, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style carnet de voyage culinaire, pile de msemen marocains carres, dorés et légèrement feuilletes, petit bol de miel, verre de thé à la menthe fumant, assiette artisanale, motifs discrets inspirés du Maghreb, ambiance matin doux, palette moka, sable, miel, vert menthe, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'nigeria-hausa-kosai',
@@ -387,10 +387,10 @@ export const countries = [
     ],
     seoTitle: 'Kosai : les beignets de haricots du petit-déjeuner haoussa',
     seoDescription:
-      'Découvre le kosai, un beignet sale de haricots souvent associé au petit-déjeuner de rue dans le nord du Nigeria, proche de l akara.',
+      "Découvre le kosai, un beignet sale de haricots souvent associé au petit-déjeuner de rue dans le nord du Nigeria, proche de l'akara.",
     reviewNotes: [
       'Le lien exact entre kosai, akara et koose doit rester nuance.',
-      "L origine précise est difficile à figer sans simplifier à l'exces.",
+      "L'origine précise est difficile à figer sans simplifier à l'excès.",
       'Les sources accessibles sur kosai specifiquement haoussa sont moins nombreuses que celles sur akara.',
       'Ne pas dire le petit-déjeuner des Haoussa au singulier absolu.',
     ],
@@ -436,20 +436,20 @@ export const countries = [
     shortDescription:
       'Une bouillie nigeriane douce et légèrement acidulée, préparée avec des céréales fermentées comme le mais, le sorgho ou le millet.',
     longDescription:
-      "L ogi est une bouillie fermentée très présenté dans les habitudes alimentaires nigerianes. Elle est traditionnellement préparée à partir de mais, de sorgho ou de millet trempes, moulus, filtres puis fermentés. Une fois la base prete, elle est cuite avec de l'eau chaude jusqu'à devenir lisse, crémeuse et légèrement acidulée. Elle est souvent servie chaude au petit-déjeuner, parfois avec lait, sucre ou miel.",
+      "L'ogi est une bouillie fermentée très présenté dans les habitudes alimentaires nigerianes. Elle est traditionnellement préparée à partir de mais, de sorgho ou de millet trempes, moulus, filtrés puis fermentés. Une fois la base prete, elle est cuite avec de l'eau chaude jusqu'à devenir lisse, crémeuse et légèrement acidulée. Elle est souvent servie chaude au petit-déjeuner, parfois avec lait, sucre ou miel.",
     breakfastSubtitle: 'Une bouillie familiale, douce et fermentée.',
     typicalItems: ['Mais', 'Sorgho', 'Millet', 'Eau', 'Lait', 'Sucre ou miel'],
     commonDrinks: ['Aucune boisson associée'],
     associatedDrink:
-      'Pas de boisson associée : l ogi est lui-même une préparation semi-liquide, à boire ou a manger selon son epaisseur.',
+      "Pas de boisson associée : l'ogi est lui-même une préparation semi-liquide, à boire ou a manger selon son epaisseur.",
     breakfastStyles: ['healthy', 'traditional', 'family', 'quick', 'sweet'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'L ogi est fortement associé au foyer, à l enfance, au petit-déjeuner et aux repas doux faciles à digerer.',
+      "L'ogi est fortement associé au foyer, à l'enfance, au petit-déjeuner et aux repas doux faciles à digerer.",
     culturalContext:
       'Les sources scientifiques decrivent ogi ou pap comme une bouillie locale de céréales fermentées, connue sous différents noms régionaux comme akamu ou koko.',
     funFact:
-      "L ogi peut être plus ou moins épais : certains le preferent fluide et léger, d'autres plus crémeux, presque comme une crème chaude du matin.",
+      "L'ogi peut être plus ou moins épais : certains le preferent fluide et léger, d'autres plus crémeux, presque comme une crème chaude du matin.",
     morningContext:
       'Souvent consommé au petit-déjeuner, mais aussi comme aliment complémentaire pour les jeunes enfants ou repas léger.',
     usualUsage: 'Servi chaud, seul ou avec akara, kosai, moi moi, pain ou haricots.',
@@ -464,7 +464,7 @@ export const countries = [
     ],
     simplifiedRecipe: {
       title: 'Ogi rapide',
-      ingredients: ['Pâte ou poudre d ogi', 'Eau froide', 'Eau bouillante', 'Lait optionnel', 'Sucre ou miel'],
+      ingredients: ["Pâte ou poudre d'ogi", 'Eau froide', 'Eau bouillante', 'Lait optionnel', 'Sucre ou miel'],
       steps: [
         "Mélanger la pâte ou poudre avec un peu d'eau froide.",
         "Verser progressivement l'eau chaude en remuant.",
@@ -519,7 +519,7 @@ export const countries = [
     ],
     seoTitle: 'Ogi : la bouillie fermentée du petit-déjeuner nigerian',
     seoDescription:
-      'Découvre l ogi, une bouillie nigeriane à base de mais, sorgho ou millet fermenté, souvent servie chaude au petit-déjeuner.',
+      "Découvre l'ogi, une bouillie nigeriane à base de mais, sorgho ou millet fermenté, souvent servie chaude au petit-déjeuner.",
     reviewNotes: [
       'Les noms ogi, akamu, pap et koko changent selon les régions, langues et familles.',
       'Ne pas enfermer le plat dans une seule identite yoruba.',
@@ -530,7 +530,7 @@ export const countries = [
         title: 'Nutritional and sensory properties of co-fermented maize, millet and sorghum/soybean pap-(ogi)',
         url: 'https://medcraveonline.com/MOJFPT/nutritional-and-sensory-properties-of-co-fermented-maize-millet-and-sorghumsoybean-pap-ogi.html',
         publisher: 'MedCrave Online',
-        note: 'Définition scientifique d ogi comme bouillie de céréales fermentées.',
+        note: "Définition scientifique d'ogi comme bouillie de céréales fermentées.",
       },
       {
         title: 'Nigerian Pap (Ogi / Akamu)',
@@ -546,7 +546,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol d ogi nigerian crémeux et fumant, texture lisse couleur crème pale, petite cruche de lait, quelques grains de mais, millet et sorgho en décor, deux petits beignets akara à cote, ambiance cuisine familiale du matin, palette moka mousse, crème, jaune mais, brun doux et rouge discret, composition simple pour fiche éditoriale, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol d'ogi nigerian crémeux et fumant, texture lisse couleur crème pale, petite cruche de lait, quelques grains de mais, millet et sorgho en décor, deux petits beignets akara à cote, ambiance cuisine familiale du matin, palette moka mousse, crème, jaune mais, brun doux et rouge discret, composition simple pour fiche éditoriale, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -561,7 +561,7 @@ export const countries = [
     shortDescription:
       'Un café sénégalais épice, souvent prépare avec du café robusta et du djar, une épice poivrée issue du Xylopia aethiopica.',
     longDescription:
-      "Le Café Touba est une boisson chaude sénégalaise à base de café torrefie avec du djar, une épice poivrée et aromatique issue du Xylopia aethiopica. Selon les préparations, on peut aussi y trouver du clou de girofle ou d'autres épices. La boisson est généralement filtree, souvent servie très sucrée, et vendue dans la rue, les marches ou de petits restaurants appeles tanganas.",
+      "Le Café Touba est une boisson chaude sénégalaise à base de café torrefie avec du djar, une épice poivrée et aromatique issue du Xylopia aethiopica. Selon les préparations, on peut aussi y trouver du clou de girofle ou d'autres épices. La boisson est généralement filtrée, souvent servie très sucrée, et vendue dans la rue, les marches ou de petits restaurants appelés tanganas.",
     breakfastSubtitle: 'Un café épice sénégalais, entre petit-déjeuner, rue et pause de la journée.',
     typicalItems: ['Café robusta', 'Djar', 'Eau chaude', 'Sucre', 'Clou de girofle optionnel'],
     commonDrinks: ['Café Touba'],
@@ -571,9 +571,9 @@ export const countries = [
     culturalNote:
       "Le Café Touba est très lie à la culture sénégalaise contemporaine et a l'histoire mouride, tout en etant aujourd hui consommé plus largement.",
     culturalContext:
-      'Son nom renvoie à Touba, ville sainte liee à la confrerie mouride. Le lien avec Cheikh Ahmadou Bamba doit être formule avec prudence, car certains details relevent de récits historiques, religieux ou populaires.',
+      'Son nom renvoie à Touba, ville sainte liée à la confrerie mouride. Le lien avec Cheikh Ahmadou Bamba doit être formule avec prudence, car certains details relevent de récits historiques, religieux ou populaires.',
     funFact:
-      "Dans la rue, certains vendeurs font mousser le Café Touba en le versant plusieurs fois d'un recipient à l'autre.",
+      "Dans la rue, certains vendeurs font mousser le Café Touba en le versant plusieurs fois d'un récipient à l'autre.",
     morningContext:
       'Petit-déjeuner, pause energisante, boisson de rue ou consommation au fil de la journée.',
     usualUsage: 'Bu seul ou avec pain, beignets, snacks de rue ou petit-déjeuner simple.',
@@ -582,7 +582,7 @@ export const countries = [
       'Café avec djar et clou de girofle.',
       'Version très sucrée.',
       'Version moins sucrée à la maison.',
-      'Version filtree avec filtre tissu.',
+      'Version filtrée avec filtre tissu.',
       'Version préparée en grande quantite par des vendeurs de rue.',
       'Versions contemporaines en sachets, capsules ou mélanges prets.',
     ],
@@ -592,7 +592,7 @@ export const countries = [
       steps: [
         'Concasser légèrement le djar.',
         'Mélanger café moulu et djar.',
-        'Ajouter eventuellement un clou de girofle.',
+        'Ajouter éventuellement un clou de girofle.',
         'Filtrer avec eau chaude.',
         'Sucrer selon le goût et servir chaud.',
       ],
@@ -641,10 +641,10 @@ export const countries = [
     seoDescription:
       'Découvre le Café Touba, une boisson sénégalaise à base de café et de djar, souvent associée au petit-déjeuner et à la culture de rue.',
     reviewNotes: [
-      'L origine exacte et le lien religieux doivent être formules avec prudence.',
-      'Le ratio café, djar et sucre varié fortement.',
+      "L'origine exacte et le lien religieux doivent être formulés avec prudence.",
+      'Le ratio café, djar et sucre varie fortement.',
       'Ne pas présenter le Café Touba comme uniquement religieux.',
-      'Eviter les affirmations medicales sur le djar ou les tanins.',
+      'Eviter les affirmations médicales sur le djar ou les tanins.',
     ],
     sources: [
       {
@@ -668,14 +668,14 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, tasse de Café Touba sénégalais fumant, petit filtre tissu, grains de café, gousses de djar / grains of Selim, clous de girofle, sucre dans une petite coupelle, ambiance stand de rue matinal à Dakar, palette moka mousse, brun café, beige sable, ocre, touches rouges et dorées, rendu artisanal et éditorial, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'somalia-canjeero',
     country: 'Somalie',
     countryCode: 'SO',
     flagEmoji: '🇸🇴',
-    region: "Corne de l Afrique / Afrique de l'est",
+    region: "Corne de l'Afrique / Afrique de l'est",
     continent: 'Afrique',
     breakfastName: 'Canjeero',
     localName: 'Canjeero, canjeelo, laxoox, lahooh, lahoh',
@@ -813,7 +813,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggeree, ambiance matin familial dans la Corne de l Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggeree, ambiance matin familial dans la Corne de l'Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -839,7 +839,7 @@ export const countries = [
     culturalNote:
       'Le lablabi est souvent présenté comme un plat populaire tunisien, économique et reconfortant, particulierement apprécié quand il fait froid.',
     culturalContext:
-      'Plusieurs sources evoquent une origine modeste ou liee à des periodes de guerre, mais cette origine reste incertaine et doit être formulee comme hypothese ou legende.',
+      'Plusieurs sources evoquent une origine modeste ou liée à des periodes de guerre, mais cette origine reste incertaine et doit être formulée comme hypothese ou legende.',
     funFact:
       "Le lablabi est souvent assemble directement dans le bol : pain, pois chiches, bouillon, harissa, citron, huile d'olive, puis chacun ajuste selon son goût.",
     morningContext:
@@ -850,7 +850,7 @@ export const countries = [
       'Version épicée avec harissa plus généreuse.',
       "Version garnie avec œuf, thon, capres, huile d'olive, olives ou pickles.",
       'Version végétarienne sans thon, avec œuf optionnel ou sans œuf.',
-      'Version de rue assemblee au bol avec choix de garnitures.',
+      'Version de rue assemblée au bol avec choix de garnitures.',
     ],
     simplifiedRecipe: {
       title: 'Lablabi tunisien rapide',
@@ -912,7 +912,7 @@ export const countries = [
     seoDescription:
       'Découvre le lablabi, une soupe tunisienne populaire à base de pois chiches, pain, cumin, harissa et citron, souvent servie chaude au petit-déjeuner.',
     reviewNotes: [
-      'L origine historique exacte est incertaine et doit rester nuancee.',
+      "L'origine historique exacte est incertaine et doit rester nuancée.",
       'La version avec thon et œuf est courante dans plusieurs recettes, mais pas unique.',
       'La variante de Bizerte merite une recherche dediee avant fiche séparée.',
     ],
@@ -943,7 +943,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, capres et herbes, petite cuillère, ambiance matin d hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, capres et herbes, petite cuillère, ambiance matin d'hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -1078,7 +1078,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol ou assiette creuse de katogo ougandais fumant avec morceaux de matooke, haricots, sauce tomate-oignon, feuilles vertes, petite cuillère en bois, bananes vertes en décor, ambiance matin dans une cuisine familiale d Ouganda, palette moka mousse, jaune matooke, brun haricot, rouge tomate, vert doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol ou assiette creuse de katogo ougandais fumant avec morceaux de matooke, haricots, sauce tomate-oignon, feuilles vertes, petite cuillère en bois, bananes vertes en décor, ambiance matin dans une cuisine familiale d'Ouganda, palette moka mousse, jaune matooke, brun haricot, rouge tomate, vert doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -1093,7 +1093,7 @@ export const countries = [
     shortDescription:
       'Un plat ghaneen simple et nourrissant à base de tubercules ou plantains bouillis, souvent servi avec une sauce verte comme le kontomire stew.',
     longDescription:
-      'L ampesi désigne généralement une base de féculents bouillis, comme l igname, le plantain, le cocoyam ou parfois le manioc. Cette base est souvent servie avec une sauce, par exemple un kontomire stew prépare avec feuilles de cocoyam ou épinards, tomates, oignons, piment, huile de palme ou huile végétale, et parfois poisson, œuf ou egusi.',
+      "L'ampesi désigne généralement une base de féculents bouillis, comme l'igname, le plantain, le cocoyam ou parfois le manioc. Cette base est souvent servie avec une sauce, par exemple un kontomire stew prépare avec feuilles de cocoyam ou épinards, tomates, oignons, piment, huile de palme ou huile végétale, et parfois poisson, œuf ou egusi.",
     breakfastSubtitle: 'Un plat familial ghaneen nourrissant, à relier au matin avec prudence.',
     typicalItems: ['Igname', 'Plantain', 'Kontomire', 'Tomates', 'Oignon', 'Piment', 'Œuf ou avocat'],
     commonDrinks: ['Aucune boisson unique documentée'],
@@ -1102,13 +1102,13 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'traditional', 'family', 'healthy'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'L ampesi appartient plutôt à la famille des plats ghaneens simples, nourrissants et domestiques.',
+      "L'ampesi appartient plutôt à la famille des plats ghaneens simples, nourrissants et domestiques.",
     culturalContext:
-      'Les sources verifient bien l ampesi comme plat ghaneen traditionnel ou familial, mais son statut de petit-déjeuner est moins net.',
+      "Les sources verifient bien l'ampesi comme plat ghaneen traditionnel ou familial, mais son statut de petit-déjeuner est moins net.",
     funFact:
-      'L ampesi montre une cuisine intuitive : une base bouillie très simple, puis une sauce familiale qui change selon les feuilles, poissons, huiles et ingrédients disponibles.',
+      "L'ampesi montre une cuisine intuitive : une base bouillie très simple, puis une sauce familiale qui change selon les feuilles, poissons, huiles et ingrédients disponibles.",
     morningContext:
-      'Pas uniquement lie au matin ; sa simplicite et son cote nourrissant en font une entree interessante pour explorer les repas ghaneens du debut de journée.',
+      'Pas uniquement lie au matin ; sa simplicite et son cote nourrissant en font une entree intéressante pour explorer les repas ghaneens du debut de journée.',
     usualUsage: 'Repas familial, déjeuner, repas simple et nourrissant, parfois compatible avec le matin.',
     variants: [
       "Ampesi à l'igname.",
@@ -1185,7 +1185,7 @@ export const countries = [
     ],
     seoTitle: 'Ampesi ghaneen : igname, plantain et sauce kontomire',
     seoDescription:
-      'Découvre l ampesi, un plat ghaneen nourrissant à base d igname ou de plantain bouilli, souvent servi avec une sauce verte au kontomire.',
+      "Découvre l'ampesi, un plat ghaneen nourrissant à base d'igname ou de plantain bouilli, souvent servi avec une sauce verte au kontomire.",
     reviewNotes: [
       'Le statut petit-déjeuner est le point le plus fragile.',
       'Ampesi est bien verifie comme plat ghaneen, mais surtout comme plat familial ou repas complet.',
@@ -1203,7 +1203,7 @@ export const countries = [
         title: 'The People of Kwahu',
         url: 'https://visitghana.com/the-people-of-kwahu/',
         publisher: 'Visit Ghana',
-        note: 'Contexte régional kwahu, cultures vivrieres et mention d ampesi.',
+        note: "Contexte régional kwahu, cultures vivrieres et mention d'ampesi.",
       },
       {
         title: 'Nadia Ampesi with Kontomire Stew Recipe',
@@ -1213,7 +1213,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette ghaneenne d ampesi avec morceaux d igname et plantain bouillis, sauce verte kontomire au centre, œuf dur coupe, avocat, piment rouge, quelques feuilles de cocoyam en décor, ambiance cuisine familiale du matin, palette moka mousse, vert profond, jaune plantain, beige igname, rouge doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette ghaneenne d'ampesi avec morceaux d'igname et plantain bouillis, sauce verte kontomire au centre, œuf dur coupe, avocat, piment rouge, quelques feuilles de cocoyam en décor, ambiance cuisine familiale du matin, palette moka mousse, vert profond, jaune plantain, beige igname, rouge doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -1228,12 +1228,12 @@ export const countries = [
     shortDescription:
       'Une bouillie de mais sud-africaine à texture séché et granuleuse, servie avec lait et sucre ou en accompagnement sale.',
     longDescription:
-      "Le putu pap, aussi appele phuthu ou krummelpap, est une préparation sud-africaine à base de maize meal ou mielie meal. Contrairement à une bouillie très fluide, cette version est plus séché, granuleuse et émiettée. Elle est préparée avec peu d'eau, puis aeree pendant la cuisson pour obtenir cette texture particuliere.",
+      "Le putu pap, aussi appelé phuthu ou krummelpap, est une préparation sud-africaine à base de maize meal ou mielie meal. Contrairement à une bouillie très fluide, cette version est plus séché, granuleuse et émiettée. Elle est préparée avec peu d'eau, puis aeree pendant la cuisson pour obtenir cette texture particuliere.",
     breakfastSubtitle: 'Une version granuleuse du pap, entre bol du matin et accompagnement familial.',
     typicalItems: ['Maize meal', 'Eau', 'Sel', 'Lait', 'Sucre', 'Amasi'],
     commonDrinks: ['Lait ou amasi dans le bol'],
     associatedDrink:
-      'Pas de boisson unique ; lait ou amasi font parfois directement partie du bol ou de l assiette.',
+      "Pas de boisson unique ; lait ou amasi font parfois directement partie du bol ou de l'assiette.",
     breakfastStyles: ['hearty', 'traditional', 'family', 'quick', 'sweet', 'savory'],
     difficultyToRecreate: 'easy',
     culturalNote:
@@ -1243,7 +1243,7 @@ export const countries = [
     funFact:
       'Le putu pap se reconnait a sa texture : ni vraiment liquide ni vraiment compacte, mais plutôt émiettée comme une semoule de mais rustique.',
     morningContext:
-      'Petit-déjeuner avec lait, sucre, beurre ou amasi ; aussi accompagnement sale pour légumes, curry, viande grillee ou braai.',
+      'Petit-déjeuner avec lait, sucre, beurre ou amasi ; aussi accompagnement sale pour légumes, curry, viande grilléee ou braai.',
     usualUsage: 'Bol du matin, side dish, repas familial économique ou accompagnement de braai.',
     variants: [
       'Slap pap : version plus fluide, souvent petit-déjeuner.',
@@ -1335,7 +1335,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de putu pap sud-africain à texture granuleuse, petite cruche de lait, cuillère de sucre, bol d amasi, en arrière-plan discret une sauce tomate-oignon et une touche de chakalaka, ambiance matin familial, palette moka mousse, crème mais, beige, brun doux, rouge tomate, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de putu pap sud-africain à texture granuleuse, petite cruche de lait, cuillère de sucre, bol d'amasi, en arrière-plan discret une sauce tomate-oignon et une touche de chakalaka, ambiance matin familial, palette moka mousse, crème mais, beige, brun doux, rouge tomate, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -1350,7 +1350,7 @@ export const countries = [
     shortDescription:
       'Un duo du matin et du tea break : thé noir au lait sucre, parfois épice, avec petits pains frits légèrement sucres.',
     longDescription:
-      "Le mandazi est un pain ou beignet frit légèrement sucre, courant dans plusieurs pays d Afrique de l'est, notamment au Kenya, en Tanzanie, en Ouganda et sur la cote swahilie. Il peut être parfume à la cardamome ou à la cannelle, prépare avec levure ou levure chimique, et parfois enrichi de lait de coco dans les versions mahamri ou mamri. Le chai, thé noir au lait et au sucre, est souvent servi avec lui au petit-déjeuner, comme snack ou au moment du thé.",
+      "Le mandazi est un pain ou beignet frit légèrement sucre, courant dans plusieurs pays d'Afrique de l'est, notamment au Kenya, en Tanzanie, en Ouganda et sur la cote swahilie. Il peut être parfume à la cardamome ou à la cannelle, prépare avec levure ou levure chimique, et parfois enrichi de lait de coco dans les versions mahamri ou mamri. Le chai, thé noir au lait et au sucre, est souvent servi avec lui au petit-déjeuner, comme snack ou au moment du thé.",
     breakfastSubtitle: 'Un thé au lait et des beignets dorés, entre matin et tea break.',
     typicalItems: ['Mandazi', 'Chai', 'Cardamome', 'Lait', 'Lait de coco optionnel'],
     commonDrinks: ['Chai'],
@@ -1361,7 +1361,7 @@ export const countries = [
     culturalNote:
       'Cette fiche reste régionale : le duo circule entre Kenya, Tanzanie, Ouganda et cote swahilie, avec des formes et noms variables.',
     culturalContext:
-      'Le mandazi et le chai s inscrivent dans des habitudes de petit-déjeuner, de pause et de vente de rue, avec des influences de l ocean Indien particulierement visibles sur la cote swahilie.',
+      "Le mandazi et le chai s inscrivent dans des habitudes de petit-déjeuner, de pause et de vente de rue, avec des influences de l'ocean Indien particulierement visibles sur la cote swahilie.",
     funFact:
       'Mahamri ou mamri désigne souvent une version proche du mandazi, enrichie au lait de coco et parfumee à la cardamome.',
     morningContext:
@@ -1445,7 +1445,7 @@ export const countries = [
     ],
     seoTitle: "Chai et Mandazi : le duo du matin en Afrique de l'est",
     seoDescription:
-      "Découvre le duo chai et mandazi, un petit-déjeuner ou snack d Afrique de l'est avec thé au lait sucre et petits pains frits parfumes.",
+      "Découvre le duo chai et mandazi, un petit-déjeuner ou snack d'Afrique de l'est avec thé au lait sucre et petits pains frits parfumes.",
     reviewNotes: [
       'Le duo est régional et ne doit pas être présenté comme une habitude uniforme dans tout un pays.',
       'Mandazi recouvre plusieurs formes, recettes et textures.',
@@ -1497,9 +1497,9 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'street-food', 'quick', 'family'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'Le chipsi mayai est une street food tanzanienne moderne, abordable et populaire, souvent liee aux villes, aux etudiants, travailleurs et voyageurs.',
+      'Le chipsi mayai est une street food tanzanienne moderne, abordable et populaire, souvent liée aux villes, aux etudiants, travailleurs et voyageurs.',
     culturalContext:
-      'Certaines sources situent son emergence recente à Dar es Salaam, mais cette origine doit rester formulee comme indication journalistique plutôt que certitude historique.',
+      'Certaines sources situent son emergence recente à Dar es Salaam, mais cette origine doit rester formulée comme indication journalistique plutôt que certitude historique.',
     funFact:
       "A Zanzibar, le surnom zege est parfois associé à l'idée d'une omelette compacte qui tient comme du ciment.",
     morningContext:
@@ -1508,9 +1508,9 @@ export const countries = [
     variants: [
       'Base simple frites et œufs.',
       'Version avec tomate, oignon, poivron vert ou piment.',
-      'Version enrichie avec viande hachee.',
+      'Version enrichie avec viande hachée.',
       'Service avec kachumbari, pili-pili ou sauce tomate pimentée.',
-      'Version plus compacte parfois appelee zege.',
+      'Version plus compacte parfois appelée zege.',
     ],
     simplifiedRecipe: {
       title: 'Chipsi mayai maison',
@@ -1581,11 +1581,11 @@ export const countries = [
       'travel-food',
       'comfort-food',
     ],
-    seoTitle: 'Chipsi Mayai : l omelette tanzanienne aux frites',
+    seoTitle: "Chipsi Mayai : l'omelette tanzanienne aux frites",
     seoDescription:
       "Découvre le chipsi mayai, une street food tanzanienne à base de frites et d'œufs, souvent servie avec kachumbari et sauce pimentée.",
     reviewNotes: [
-      'L origine tardive à Dar es Salaam est une indication journalistique, pas une certitude historique.',
+      "L'origine tardive à Dar es Salaam est une indication journalistique, pas une certitude historique.",
       'Le plat circule aussi dans des pays voisins, même si la Tanzanie reste centrale dans les sources du lot.',
       'La base frites et œufs est stable, mais les garnitures varient.',
       'Ne pas présenter le chipsi mayai comme une option saine.',
@@ -1626,7 +1626,7 @@ export const countries = [
     shortDescription:
       'Un long beignet chinois sale, doré et croustillant, souvent mange au petit-déjeuner avec lait de soja, congee ou soupe.',
     longDescription:
-      "Le you tiao est l'un des aliments les plus souvent associés au petit-déjeuner chinois populaire. Il s'agit de longues bandes de pâte de ble, légèrement salées, assemblees par deux puis frites jusqu'à devenir dorées, gonflees et croustillantes. En Chine, il est souvent mange chaud, juste après friture, avec du doujiang, lait de soja, ou avec du congee, une bouillie de riz.",
+      "Le you tiao est l'un des aliments les plus souvent associés au petit-déjeuner chinois populaire. Il s'agit de longues bandes de pâte de ble, légèrement salées, assemblées par deux puis frites jusqu'à devenir dorées, gonflees et croustillantes. En Chine, il est souvent mange chaud, juste après friture, avec du doujiang, lait de soja, ou avec du congee, une bouillie de riz.",
     breakfastSubtitle: 'Un baton frit du matin, simple en apparence et technique à reussir.',
     typicalItems: ['You tiao', 'Lait de soja', 'Congee', 'Soupe'],
     commonDrinks: ['Lait de soja', 'Thé'],
@@ -1635,9 +1635,9 @@ export const countries = [
     breakfastStyles: ['savory', 'quick', 'street-food', 'traditional', 'hearty'],
     difficultyToRecreate: 'hard',
     culturalNote:
-      'Le you tiao est très lie aux stands et petits restaurants du matin : beaucoup de familles l achetent dehors plutôt que de le préparer à la maison.',
+      "Le you tiao est très lie aux stands et petits restaurants du matin : beaucoup de familles l'achetent dehors plutôt que de le préparer à la maison.",
     culturalContext:
-      'Il représente une routine urbaine et populaire, souvent associée au trajet vers le travail ou l ecole, sans resumer à lui seul l immense diversite des petits-déjeuners chinois.',
+      "Il représente une routine urbaine et populaire, souvent associée au trajet vers le travail ou l'école, sans résumer à lui seul l'immense diversité des petits-déjeuners chinois.",
     funFact:
       'Le you tiao est souvent forme de deux bandes de pâte collees ensemble avant friture, ce qui lui donne sa silhouette reconnaissable et aide la pâte à gonfler.',
     morningContext:
@@ -1715,7 +1715,7 @@ export const countries = [
     seoDescription:
       'Découvre le you tiao, un baton de pâte frit souvent associé au petit-déjeuner chinois, servi avec lait de soja, congee ou soupe.',
     reviewNotes: [
-      'La legende liee à Qin Hui et Yue Fei doit rester présentée comme récit populaire, pas comme fait historique certain.',
+      'La legende liée à Qin Hui et Yue Fei doit rester présentée comme récit populaire, pas comme fait historique certain.',
       'Les noms changent selon les langues chinoises et les pays voisins.',
       'La version maison est possible, mais difficile à reussir comme dans les stands.',
       'Ne pas présenter le you tiao comme le petit-déjeuner chinois unique.',
@@ -1773,7 +1773,7 @@ export const countries = [
     culturalNote:
       'Le dim sum est profondement lie à la convivialite : on partage plusieurs paniers, on commande progressivement, on boit du thé et le repas peut durer longtemps.',
     culturalContext:
-      'Dans certains restaurants traditionnels, les dim sum circulent sur chariots, même si beaucoup d etablissements modernes utilisent des menus papier ou numeriques.',
+      "Dans certains restaurants traditionnels, les dim sum circulent sur chariots, même si beaucoup d'etablissements modernes utilisent des menus papier ou numeriques.",
     funFact:
       'Dans certains restaurants traditionnels, les paniers de dim sum arrivent sur des chariots : on choisit au passage, comme une parade de bouchées vapeur.',
     morningContext:
@@ -1861,7 +1861,7 @@ export const countries = [
     ],
     seoTitle: 'Dim Sum : le brunch cantonais à partager avec le thé',
     seoDescription:
-      'Découvre le dim sum, une tradition cantonaise de petites bouchées partagees avec du thé, souvent associée au yum cha à Hong Kong et dans le Guangdong.',
+      'Découvre le dim sum, une tradition cantonaise de petites bouchées partagées avec du thé, souvent associée au yum cha à Hong Kong et dans le Guangdong.',
     reviewNotes: [
       'Southeastern China est trop vague : privilégier culture cantonaise, Guangdong, Hong Kong et Macao.',
       "Le dim sum n'est pas un plat unique, mais une famille de bouchées et un rituel social.",
@@ -1879,13 +1879,13 @@ export const countries = [
         title: 'Best Dim Sum in Hong Kong',
         url: 'https://www.cntraveler.com/gallery/best-dim-sum-in-hong-kong',
         publisher: 'Conde Nast Traveler',
-        note: 'Moment de consommation du matin au debut d après-midi et lien avec yum cha.',
+        note: "Moment de consommation du matin au debut d'après-midi et lien avec yum cha.",
       },
       {
         title: 'The Evolution of Hong Kong Yum Cha Culture',
         url: 'https://guide.michelin.com/en/article/features/%E9%BB%9E%E9%BB%9E%E5%BF%83%E6%84%8F',
         publisher: 'MICHELIN Guide',
-        note: 'Evolution de la culture yum cha et diversite des restaurants.',
+        note: 'Evolution de la culture yum cha et diversité des restaurants.',
       },
       {
         title: 'Dim Sum Is a Way of Life in Cantonese Culture',
@@ -1910,8 +1910,8 @@ export const countries = [
     shortDescription:
       "Une crêpe salée chinoise cuite sur plaque, garnie d'œuf, ciboule, coriandre, sauces et élément croustillant.",
     longDescription:
-      "Le jianbing est l'un des grands petits-déjeuners de rue en Chine du Nord. Une pâte fine est etalee sur une grande plaque ronde, puis recouverte d'un œuf, de ciboule, de coriandre, de sauces salées, parfois pimentees, et d'un élément croustillant comme du baocui ou du you tiao. Le Shandong est associé à des crêpes plus rustiques, parfois à base de céréales comme mais, sorgho ou millet, tandis que Tianjin est souvent associé au jianbing guozi.",
-    breakfastSubtitle: 'Une crêpe de rue minute, pliee chaude pour être mangee en marchant.',
+      "Le jianbing est l'un des grands petits-déjeuners de rue en Chine du Nord. Une pâte fine est étalée sur une grande plaque ronde, puis recouverte d'un œuf, de ciboule, de coriandre, de sauces salées, parfois pimentees, et d'un élément croustillant comme du baocui ou du you tiao. Le Shandong est associé à des crêpes plus rustiques, parfois à base de céréales comme mais, sorgho ou millet, tandis que Tianjin est souvent associé au jianbing guozi.",
+    breakfastSubtitle: 'Une crêpe de rue minute, pliée chaude pour être mangée en marchant.',
     typicalItems: ['Crêpe', 'Œuf', 'Ciboule', 'Coriandre', 'Sauces', 'Baocui'],
     commonDrinks: ['Lait de soja', 'Thé'],
     associatedDrink:
@@ -1923,7 +1923,7 @@ export const countries = [
     culturalContext:
       'Le Shandong et Tianjin doivent être distingues : les formes rustiques du Shandong et le jianbing guozi de Tianjin sont proches mais pas identiques.',
     funFact:
-      'Le jianbing est presque un petit spectacle de rue : en quelques gestes, le vendeur transforme une pâte liquide en crêpe garnie, croustillante et pliee.',
+      'Le jianbing est presque un petit spectacle de rue : en quelques gestes, le vendeur transforme une pâte liquide en crêpe garnie, croustillante et pliée.',
     morningContext:
       'Petit-déjeuner de rue, snack chaud ou repas rapide pour etudiants, travailleurs et passants.',
     usualUsage: 'Street food chaude, rassasiante et préparée à la commande.',
@@ -1951,7 +1951,7 @@ export const countries = [
       steps: [
         "Mélanger les farines avec l'eau pour obtenir une pâte fluide.",
         'Étaler très finement une louche de pâte dans une grande poêle.',
-        'Ajouter un œuf et l étaler sur la crêpe.',
+        "Ajouter un œuf et l'étaler sur la crêpe.",
         'Ajouter ciboule et coriandre, puis retourner.',
         'Badigeonner de sauces, ajouter un croustillant et plier.',
       ],
@@ -2012,7 +2012,7 @@ export const countries = [
     seoDescription:
       'Découvre le jianbing, une crêpe salée chinoise souvent vendue au petit-déjeuner, avec œuf, ciboule, sauces et croustillant.',
     reviewNotes: [
-      'L origine ancienne liee au Shandong et a Zhuge Liang doit rester présentée comme legende ou tradition orale.',
+      "L'origine ancienne liée au Shandong et a Zhuge Liang doit rester présentée comme legende ou tradition orale.",
       'Ne pas confondre Shandong jianbing et Tianjin jianbing guozi.',
       'Le jianbing de grande ville est souvent une street food moderne, différente de formes rurales ou traditionnelles.',
       'Les garnitures varient fortement selon ville, vendeur et préférences.',
@@ -2070,7 +2070,7 @@ export const countries = [
     culturalNote:
       'Cette fiche reflete surtout un petit-déjeuner quotidien, pratique et économique : pain plat, lentilles, légumes, parfois œuf et thé.',
     culturalContext:
-      'Elle ne resume pas tout le Bangladesh : les habitudes changent selon les régions, les revenus, les saisons, le rythme de travail et la place du riz.',
+      'Elle ne résume pas tout le Bangladesh : les habitudes changent selon les régions, les revenus, les saisons, le rythme de travail et la place du riz.',
     funFact:
       'Dans les petits restaurants du matin, le duo pain plat et dal ou légumes permet de prendre un petit-déjeuner chaud, rapide et très nourrissant.',
     morningContext:
@@ -2197,7 +2197,7 @@ export const countries = [
         title: 'Bangladeshi breakfast',
         url: 'https://rhubarbfool.co.uk/2011/05/27/bangladeshi-breakfast/',
         publisher: 'The Rhubarb Fool',
-        note: 'Source de terrain d appoint sur roti / paratha avec sabji et dal à Dhaka.',
+        note: "Source de terrain d'appoint sur roti / paratha avec sabji et dal à Dhaka.",
       },
     ],
     illustrationPrompt:
@@ -2214,22 +2214,22 @@ export const countries = [
     breakfastName: 'Idli avec chutney ou sambar',
     localName: 'Idli, idly, sambar, coconut chutney, podi',
     shortDescription:
-      'Des petits gâteaux vapeur sales, préparés avec une pâte fermentée de riz et d urad dal, servis avec chutney de coco, sambar ou podi.',
+      "Des petits gâteaux vapeur sales, préparés avec une pâte fermentée de riz et d'urad dal, servis avec chutney de coco, sambar ou podi.",
     longDescription:
-      "L idli est l'un des petits-déjeuners les plus associés à l'Inde du Sud. Il s'agit d'un petit gâteau vapeur blanc, rond et moelleux, prépare avec une pâte fermentée à base de riz et d urad dal. Les idli sont souvent servis avec du sambar, un ragout de lentilles et légumes, ou avec une chutney de coco. La cuisson vapeur est simple, mais la fermentation, la texture de pâte et la température demandent de la pratique.",
+      "L'idli est l'un des petits-déjeuners les plus associés à l'Inde du Sud. Il s'agit d'un petit gâteau vapeur blanc, rond et moelleux, prépare avec une pâte fermentée à base de riz et d'urad dal. Les idli sont souvent servis avec du sambar, un ragout de lentilles et légumes, ou avec une chutney de coco. La cuisson vapeur est simple, mais la fermentation, la texture de pâte et la température demandent de la pratique.",
     breakfastSubtitle: 'Des gâteaux vapeur fermentés, moelleux et très sud-indiens.',
     typicalItems: ['Idli', 'Sambar', 'Chutney coco', 'Podi', 'Ghee optionnel'],
     commonDrinks: ['Café filtre sud-indien', 'Chai'],
     associatedDrink:
-      'Café filtre sud-indien, chai ou boisson chaude selon les familles ; l association idli avec sambar ou chutney reste plus centrale que la boisson.',
+      "Café filtre sud-indien, chai ou boisson chaude selon les familles ; l'association idli avec sambar ou chutney reste plus centrale que la boisson.",
     breakfastStyles: ['healthy', 'traditional', 'family', 'savory'],
     difficultyToRecreate: 'hard',
     culturalNote:
-      'L idli est lie à la cuisine domestique, aux petits-déjeuners de tiffin, aux restaurants sud-indiens et aux repas faciles à digerer.',
+      "L'idli est lie à la cuisine domestique, aux petits-déjeuners de tiffin, aux restaurants sud-indiens et aux repas faciles à digerer.",
     culturalContext:
       'Inde du Sud reste large : chutneys, sambar, podi, tailles et textures varient entre Tamil Nadu, Karnataka, Kerala, Andhra Pradesh, Telangana et diasporas.',
     funFact:
-      'La magie de l idli vient de la fermentation : une pâte bien reposee donne des petits gâteaux vapeur legers, moelleux et légèrement acidules.',
+      "La magie de l'idli vient de la fermentation : une pâte bien reposée donne des petits gâteaux vapeur légers, moelleux et légèrement acidulés.",
     morningContext:
       'Petit-déjeuner, tiffin du matin, snack, lunch box, repas familial ou plat de restaurant sud-indien.',
     usualUsage: 'Petit-déjeuner léger, nourrissant et partageable, souvent servi chaud.',
@@ -2255,7 +2255,7 @@ export const countries = [
       ],
       steps: [
         'Faire tremper riz et urad dal séparément.',
-        'Mixer l urad dal finement et le riz plus grossierement.',
+        "Mixer l'urad dal finement et le riz plus grossierement.",
         'Mélanger et laisser fermenter 8 à 12 heures.',
         'Ajouter le sel après fermentation.',
         'Verser dans des moules huiles et cuire à la vapeur.',
@@ -2315,14 +2315,14 @@ export const countries = [
       'traditional-breakfast',
       'regional-variation',
     ],
-    seoTitle: 'Idli : le petit-déjeuner vapeur de l Inde du Sud',
+    seoTitle: "Idli : le petit-déjeuner vapeur de l'Inde du Sud",
     seoDescription:
-      'Découvre l idli, un petit gâteau vapeur sud-indien à base de riz et urad dal fermentés, souvent servi avec chutney de coco ou sambar.',
+      "Découvre l'idli, un petit gâteau vapeur sud-indien à base de riz et urad dal fermentés, souvent servi avec chutney de coco ou sambar.",
     reviewNotes: [
-      'L origine historique précise de l idli est discutee et doit rester formulee avec prudence.',
+      "L'origine historique précise de l'idli est discutée et doit rester formulée avec prudence.",
       'Inde du Sud reste large : les versions changent entre Tamil Nadu, Karnataka, Kerala, Andhra Pradesh et Telangana.',
-      'La recette maison peut echouer si la température est trop basse ou si la pâte ne fermenté pas assez.',
-      'Ne pas présenter l idli comme le seul petit-déjeuner sud-indien.',
+      'La recette maison peut échouer si la température est trop basse ou si la pâte ne fermente pas assez.',
+      "Ne pas présenter l'idli comme le seul petit-déjeuner sud-indien.",
     ],
     sources: [
       {
@@ -2347,7 +2347,7 @@ export const countries = [
         title: 'Coconut Chutney Recipe',
         url: 'https://www.vegrecipesofindia.com/coconut-chutney-recipe-coconut-chutney/',
         publisher: 'Dassana Veg Recipes',
-        note: 'Chutney de coco comme accompagnement d idli, dosa, vada et autres petits-déjeuners.',
+        note: "Chutney de coco comme accompagnement d'idli, dosa, vada et autres petits-déjeuners.",
       },
       {
         title: '6 idli varieties every food lover should try',
@@ -2358,7 +2358,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette sud-indienne avec idli blancs moelleux, bol de sambar orange aux légumes, chutney de coco blanche, petite cuillère de podi, feuilles de curry et graines de moutarde en décor, tasse de café filtre sud-indien en arrière-plan, palette moka mousse, blanc crème, orange lentilles, vert curry, brun café, composition éditoriale douce et propre, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'north-india-paratha-curry',
@@ -2483,12 +2483,12 @@ export const countries = [
     ],
     seoTitle: 'Paratha : le pain plat du petit-déjeuner nord-indien',
     seoDescription:
-      'Découvre le paratha, un pain plat d Inde du Nord souvent servi au petit-déjeuner avec yaourt, pickle, beurre, dal ou curry.',
+      "Découvre le paratha, un pain plat d'Inde du Nord souvent servi au petit-déjeuner avec yaourt, pickle, beurre, dal ou curry.",
     reviewNotes: [
       'Paratha with curry est trop général : beaucoup de versions sont servies avec curd, pickle ou beurre plutôt qu avec un curry liquide.',
-      'L aloo paratha est très associé au Punjab et au nord de l Inde, mais il est consommé plus largement.',
+      "L'aloo paratha est très associé au Punjab et au nord de l'Inde, mais il est consommé plus largement.",
       'Le mot paratha couvre de nombreuses formes : nature, farci, feuilleté, rond, carre, plus ou moins gras.',
-      'Ne pas confondre paratha nord-indien et parotta du sud de l Inde.',
+      "Ne pas confondre paratha nord-indien et parotta du sud de l'Inde.",
       'Ne pas présenter le paratha comme le petit-déjeuner nord-indien unique.',
     ],
     sources: [
@@ -2502,7 +2502,7 @@ export const countries = [
         title: 'Aloo Paratha Recipe',
         url: 'https://www.indianhealthyrecipes.com/aloo-paratha/',
         publisher: 'Swasthi Indian Healthy Recipes',
-        note: 'Paratha de petit-déjeuner dans foyers, dhabas et restaurants du nord de l Inde.',
+        note: "Paratha de petit-déjeuner dans foyers, dhabas et restaurants du nord de l'Inde.",
       },
       {
         title: 'Top 10 North Indian Breakfast Recipes',
@@ -2520,7 +2520,7 @@ export const countries = [
         title: 'Meera Sodha aloo paratha with quick lemon pickle',
         url: 'https://www.theguardian.com/lifeandstyle/2018/jan/06/aloo-paratha-recipe-quick-lemon-pickle-vegan-meera-sodha',
         publisher: 'The Guardian',
-        note: 'Version contemporaine d aloo paratha avec pickle, source culinaire complémentaire.',
+        note: "Version contemporaine d'aloo paratha avec pickle, source culinaire complémentaire.",
       },
     ],
     illustrationPrompt:
@@ -2537,11 +2537,11 @@ export const countries = [
     breakfastName: 'Kande pohe',
     localName: 'Kande pohe, kanda poha',
     shortDescription:
-      'Un petit-déjeuner maharashtrien rapide à base de riz aplati, oignons, cacahuetes, curcuma, feuilles de curry, citron et coriandre.',
+      'Un petit-déjeuner maharashtrien rapide à base de riz aplati, oignons, cacahuètes, curcuma, feuilles de curry, citron et coriandre.',
     longDescription:
-      'Le kande pohe est une préparation très associée au Maharashtra. Elle repose sur du poha, un riz precuit, aplati puis séché, hydrate rapidement avant d être revenu avec épices, oignons, cacahuetes et curcuma. Le plat est simple mais expressif : texture moelleuse du riz aplati, croquant des cacahuetes, fraicheur du citron, chaleur du piment vert et parfum des feuilles de curry.',
+      "Le kande pohe est une préparation très associée au Maharashtra. Elle repose sur du poha, un riz precuit, aplati puis séché, hydrate rapidement avant d'être revenu avec épices, oignons, cacahuètes et curcuma. Le plat est simple mais expressif : texture moelleuse du riz aplati, croquant des cacahuètes, fraicheur du citron, chaleur du piment vert et parfum des feuilles de curry.",
     breakfastSubtitle: 'Un bol jaune doré, rapide, familial et très maharashtrien.',
-    typicalItems: ['Poha', 'Oignon', 'Cacahuetes', 'Curcuma', 'Citron', 'Coriandre'],
+    typicalItems: ['Poha', 'Oignon', 'Cacahuètes', 'Curcuma', 'Citron', 'Coriandre'],
     commonDrinks: ['Chai', 'Thé noir au lait', 'Café'],
     associatedDrink:
       'Chai, thé noir au lait ou café selon les habitudes familiales ; aucune boisson unique ne ressort comme obligatoire.',
@@ -2550,7 +2550,7 @@ export const countries = [
     culturalNote:
       'Le kande pohe est un plat du quotidien, rapide, économique et familial, servi au petit-déjeuner, en snack ou lors de visites.',
     culturalContext:
-      "Dans certaines familles maharashtriennes, le kande pohe est associé à des rencontres de mariage arrange ou de presentation familiale, mais ce n'est ni son seul usage ni une regle systematique.",
+      "Dans certaines familles maharashtriennes, le kande pohe est associé à des rencontres de mariage arrange ou de présentation familiale, mais ce n'est ni son seul usage ni une regle systématique.",
     funFact:
       'Le kande pohe est parfois associé aux rencontres familiales de mariage dans le Maharashtra : un plat simple, mais charge de souvenirs et de sociabilite.',
     morningContext:
@@ -2569,7 +2569,7 @@ export const countries = [
       ingredients: [
         'Poha épais',
         'Oignon',
-        'Cacahuetes',
+        'Cacahuètes',
         'Graines de moutarde',
         'Cumin',
         'Feuilles de curry',
@@ -2580,9 +2580,9 @@ export const countries = [
       ],
       steps: [
         'Rincer rapidement le poha et le laisser s assouplir.',
-        'Faire chauffer huile, moutarde, cumin, cacahuetes et feuilles de curry.',
+        'Faire chauffer huile, moutarde, cumin, cacahuètes et feuilles de curry.',
         'Ajouter oignon, piment, curcuma, hing et sel.',
-        'Incorporer le poha sans l écraser.',
+        "Incorporer le poha sans l'écraser.",
         'Finir avec citron, coriandre et noix de coco si souhaite.',
       ],
       difficulty: 'easy',
@@ -2639,11 +2639,11 @@ export const countries = [
     ],
     seoTitle: 'Kande Pohe : le petit-déjeuner au riz aplati du Maharashtra',
     seoDescription:
-      'Découvre le kande pohe, un petit-déjeuner maharashtrien à base de riz aplati, oignons, cacahuetes, curcuma, citron et coriandre.',
+      'Découvre le kande pohe, un petit-déjeuner maharashtrien à base de riz aplati, oignons, cacahuètes, curcuma, citron et coriandre.',
     reviewNotes: [
       "Le poha existe dans beaucoup d'autres régions indiennes avec des variantes fortes.",
       'Ne pas dire que tous les Maharashtriens mangent kande pohe au petit-déjeuner.',
-      'La dimension mariage arrange / presentation familiale est interessante, mais ne doit pas resumer le plat.',
+      'La dimension mariage arrange / présentation familiale est intéressante, mais ne doit pas résumer le plat.',
       'Les feuilles de curry, le hing et la noix de coco varient selon les familles.',
       'Le poha fin ne convient pas toujours pour une version moelleuse.',
     ],
@@ -2664,7 +2664,7 @@ export const countries = [
         title: 'Kanda Poha Recipe',
         url: 'https://www.theloveofspice.com/kanda-poha-recipe-maharashtrian-kande-pohe/',
         publisher: 'The Love of Spice',
-        note: 'Version domestique maharashtrienne avec poha épais, cacahuetes, moutarde, cumin, feuilles de curry, oignon, curcuma et citron.',
+        note: 'Version domestique maharashtrienne avec poha épais, cacahuètes, moutarde, cumin, feuilles de curry, oignon, curcuma et citron.',
       },
       {
         title: '8 Ways Poha is made and consumed across India',
@@ -2674,7 +2674,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kande pohe maharashtrien jaune doré avec riz aplati moelleux, oignons, cacahuetes, feuilles de curry, coriandre fraiche, quartier de citron, petite coupelle de chai en arrière-plan, ambiance matin à Mumbai ou Pune, palette moka mousse, jaune curcuma, vert coriandre, brun cacahuete, beige doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kande pohe maharashtrien jaune doré avec riz aplati moelleux, oignons, cacahuètes, feuilles de curry, coriandre fraiche, quartier de citron, petite coupelle de chai en arrière-plan, ambiance matin à Mumbai ou Pune, palette moka mousse, jaune curcuma, vert coriandre, brun cacahuète, beige doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
     needsReview: true,
   }),
   makeCountry({
@@ -2699,7 +2699,7 @@ export const countries = [
     culturalNote:
       'Le barbari est un pain du quotidien, lie aux boulangeries iraniennes et aux repas familiaux.',
     culturalContext:
-      "Il peut accompagner le petit-déjeuner mais aussi d'autres repas ; le contenu éditorial pertinent est l assiette complete autour du pain chaud.",
+      "Il peut accompagner le petit-déjeuner mais aussi d'autres repas ; le contenu éditorial pertinent est l'assiette complete autour du pain chaud.",
     funFact:
       'Le barbari se reconnait a ses longues stries sur le dessus : elles donnent au pain son allure artisanale et aident la croute à devenir brillante et dorée.',
     morningContext:
@@ -2800,7 +2800,7 @@ export const countries = [
     reviewNotes: [
       'Présenter Barbari comme un pain de petit-déjeuner, pas comme un petit-déjeuner complet à lui seul.',
       'Les accompagnements varient beaucoup : fromage, herbes, noix, miel, confiture, crème ou œufs.',
-      "L origine du nom barbari demande prudence et n'est pas nécessaire pour une fiche grand public.",
+      "L'origine du nom barbari demande prudence et n'est pas nécessaire pour une fiche grand public.",
       'La version de boulangerie iranienne reste difficile à imiter à la maison.',
       'Eviter de dire que tous les Iraniens mangent barbari le matin.',
     ],
@@ -2852,7 +2852,7 @@ export const countries = [
     shortDescription:
       'Un grand petit-déjeuner à composer : salades fraiches, légumes, œufs, fromages, pains, labneh, olives, tahini, fruits et boissons chaudes.',
     longDescription:
-      "L Israeli breakfast est moins une recette unique qu'un style de repas. Il est souvent présenté sous forme de buffet ou d assortiment généreux : légumes frais, salades, œufs, pains, fromages, labneh, yaourt, poissons fumes ou marinés, olives, tahini, fruits, pâtisseries, café, thé ou jus. Son histoire est souvent liee aux kibboutzim puis aux buffets d hotels, mais les versions familiales, hotels et restaurants varient fortement.",
+      "L'Israeli breakfast est moins une recette unique qu'un style de repas. Il est souvent présenté sous forme de buffet ou d'assortiment généreux : légumes frais, salades, œufs, pains, fromages, labneh, yaourt, poissons fumes ou marinés, olives, tahini, fruits, pâtisseries, café, thé ou jus. Son histoire est souvent liée aux kibboutzim puis aux buffets d'hotels, mais les versions familiales, hotels et restaurants varient fortement.",
     breakfastSubtitle: 'Un buffet méditerranéen de légumes, œufs, fromages et pains.',
     typicalItems: ['Salade concombre-tomate', 'Œufs', 'Labneh', 'Fromages', 'Olives', 'Pita'],
     commonDrinks: ['Café', 'Thé', 'Jus'],
@@ -2867,7 +2867,7 @@ export const countries = [
     funFact:
       'Le petit-déjeuner israélien moderne doit beaucoup aux kibboutzim : un repas nourrissant après les premières heures de travail, devenu ensuite un buffet emblématique dans les hotels.',
     morningContext:
-      'Petit-déjeuner d hotel, brunch, repas de restaurant, petit-déjeuner familial plus simple ou repas du week-end.',
+      "Petit-déjeuner d'hotel, brunch, repas de restaurant, petit-déjeuner familial plus simple ou repas du week-end.",
     usualUsage: 'Assiette ou buffet compose, ou chacun assemble légumes, œufs, laitages, pains et accompagnements.',
     variants: [
       'Version hotel très généreuse.',
@@ -2898,7 +2898,7 @@ export const countries = [
       steps: [
         'Couper tomates, concombre et oignon en petits des.',
         "Assaisonner avec persil, citron, huile d'olive et sel.",
-        'Préparer des œufs durs, brouilles ou au plat.',
+        'Préparer des œufs durs, brouillés ou au plat.',
         'Disposer labneh, fromage, olives et tahini dans de petits bols.',
         'Réchauffer pita ou pain frais.',
         'Servir avec fruits, café, thé ou jus.',
@@ -2962,10 +2962,10 @@ export const countries = [
     ],
     seoTitle: 'Israeli Breakfast : le buffet méditerranéen du matin',
     seoDescription:
-      'Découvre l Israeli breakfast, un petit-déjeuner généreux inspire des kibboutzim et popularise par les hotels : salades, œufs, fromages, pains, labneh et légumes frais.',
+      "Découvre l'Israeli breakfast, un petit-déjeuner généreux inspire des kibboutzim et popularise par les hotels : salades, œufs, fromages, pains, labneh et légumes frais.",
     reviewNotes: [
       "Ce n'est pas une recette unique, mais un style de repas.",
-      'L origine kibboutz est solide, mais le buffet d hotel actuel est une version plus abondante et touristique.',
+      "L'origine kibboutz est solide, mais le buffet d'hotel actuel est une version plus abondante et touristique.",
       'Ne pas présenter ce petit-déjeuner comme uniforme dans toutes les familles israeliennes.',
       'Certains éléments varient selon les regles de kashrut, les traditions familiales, les hotels et les influences culturelles.',
       "La shakshuka est souvent associée aux petits-déjeuners israéliens, mais n'est pas obligatoire.",
@@ -2988,7 +2988,7 @@ export const countries = [
         title: 'Beyond the Bagel - Kibbutz Breakfast',
         url: 'https://forward.com/food/recipes/309864/beyond-the-bagel-the-kibbutz-breakfast/',
         publisher: 'The Forward',
-        note: 'Evolution du petit-déjeuner de kibboutz vers les buffets d hotels.',
+        note: "Evolution du petit-déjeuner de kibboutz vers les buffets d'hotels.",
       },
       {
         title: 'Why Breakfast Is Key When Visiting Israel',
@@ -3000,7 +3000,7 @@ export const countries = [
         title: 'Israeli breakfast',
         url: 'https://family-friends-food.com/israeli-breakfast/',
         publisher: 'Family Friends Food',
-        note: 'Description actuelle de petits-déjeuners d hotels et B&B avec œufs, légumes, fruits, jus, pains, fromages et yaourts.',
+        note: "Description actuelle de petits-déjeuners d'hotels et B&B avec œufs, légumes, fruits, jus, pains, fromages et yaourts.",
       },
     ],
     illustrationPrompt:
@@ -3017,14 +3017,14 @@ export const countries = [
     breakfastName: 'Riz vapeur et soupe miso',
     localName: 'Gohan, miso shiru, ichiju-sansai',
     shortDescription:
-      'Un petit-déjeuner japonais traditionnel peut inclure riz vapeur, soupe miso, légumes marinés, nori et parfois poisson grille.',
+      'Un petit-déjeuner japonais traditionnel peut inclure riz vapeur, soupe miso, légumes marinés, nori et parfois poisson grillé.',
     longDescription:
-      "Le duo riz vapeur et soupe miso est l'une des bases les plus reconnaissables du petit-déjeuner japonais traditionnel. Dans une version courante, il peut être accompagné de poisson grille, légumes marinés, nori, tofu, natto, tamagoyaki ou petits légumes de saison. Pour Morning Atlas, cette fiche présenté une version traditionnelle washoku, pas une habitude quotidienne universelle.",
-    breakfastSubtitle: 'Une base washoku calme, équilibrée et très structuree.',
+      "Le duo riz vapeur et soupe miso est l'une des bases les plus reconnaissables du petit-déjeuner japonais traditionnel. Dans une version courante, il peut être accompagné de poisson grillé, légumes marinés, nori, tofu, natto, tamagoyaki ou petits légumes de saison. Pour Morning Atlas, cette fiche présente une version traditionnelle washoku, pas une habitude quotidienne universelle.",
+    breakfastSubtitle: 'Une base washoku calme, équilibrée et très structurée.',
     typicalItems: ['Riz vapeur', 'Soupe miso', 'Tsukemono', 'Nori', 'Poisson grille optionnel'],
     commonDrinks: ['Thé vert', 'Thé japonais', 'Eau'],
     associatedDrink:
-      'Thé vert, thé japonais ou eau ; la soupe miso joue déjà le rôle d élément chaud et liquide.',
+      "Thé vert, thé japonais ou eau ; la soupe miso joue déjà le rôle d'élément chaud et liquide.",
     breakfastStyles: ['savory', 'traditional', 'healthy', 'family', 'quick'],
     difficultyToRecreate: 'easy',
     culturalNote:
@@ -3032,7 +3032,7 @@ export const countries = [
     culturalContext:
       'Les habitudes contemporaines japonaises sont variées : pain, café, céréales, konbini, repas rapides ou absence de petit-déjeuner existent aussi.',
     funFact:
-      'Dans la disposition traditionnelle, le riz est souvent place à gauche et la soupe à droite : l organisation du plateau fait partie de l expérience du repas japonais.',
+      "Dans la disposition traditionnelle, le riz est souvent placé à gauche et la soupe à droite : l'organisation du plateau fait partie de l'expérience du repas japonais.",
     morningContext:
       'Petit-déjeuner traditionnel, auberge ou hotel japonais, repas familial ou repas simple du matin.',
     usualUsage:
@@ -3063,7 +3063,7 @@ export const countries = [
         'Rincer puis cuire le riz.',
         'Préparer un bouillon dashi.',
         'Ajouter tofu et wakame.',
-        'Baisser le feu avant d incorporer le miso.',
+        "Baisser le feu avant d'incorporer le miso.",
         'Servir riz, soupe, nori et pickles sur un plateau.',
       ],
       difficulty: 'easy',
@@ -3119,12 +3119,12 @@ export const countries = [
     ],
     seoTitle: 'Riz vapeur et soupe miso : le petit-déjeuner japonais traditionnel',
     seoDescription:
-      'Découvre une version traditionnelle du petit-déjeuner japonais avec riz vapeur, soupe miso, légumes marinés, nori et parfois poisson grille.',
+      'Découvre une version traditionnelle du petit-déjeuner japonais avec riz vapeur, soupe miso, légumes marinés, nori et parfois poisson grillé.',
     reviewNotes: [
       'Ne pas présenter ce repas comme le petit-déjeuner quotidien de tous les Japonais.',
-      'Le modèle ichiju-sansai est traditionnel, mais pas forcement applique chaque matin.',
+      'Le modèle ichiju-sansai est traditionnel, mais pas forcément applique chaque matin.',
       'La soupe miso change selon région, saison, type de miso et ingrédients disponibles.',
-      "Le poisson grille est courant dans l'image traditionnelle, mais pas obligatoire.",
+      "Le poisson grillé est courant dans l'image traditionnelle, mais pas obligatoire.",
       'Le natto est très japonais, mais pas aime ou consommé par tout le monde.',
     ],
     sources: [
@@ -3138,13 +3138,13 @@ export const countries = [
         title: 'What is Washoku?',
         url: 'https://www.maff.go.jp/e/policies/market/washoku-world-challenge/en/learning_01.html',
         publisher: 'MAFF',
-        note: 'Définition du washoku et inscription au patrimoine culturel immateriel de l UNESCO.',
+        note: "Définition du washoku et inscription au patrimoine culturel immateriel de l'UNESCO.",
       },
       {
         title: 'Live Like a Local in Japan',
         url: 'https://www.japan.travel/en/au/news-blog/live-like-a-local-in-japan/',
         publisher: 'Japan National Tourism Organization',
-        note: 'Exemple de petit-déjeuner traditionnel avec riz, soupe miso, poisson grille et légumes marinés.',
+        note: 'Exemple de petit-déjeuner traditionnel avec riz, soupe miso, poisson grillé et légumes marinés.',
       },
       {
         title: 'Japanese Food Etiquette Guide',
@@ -3154,8 +3154,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de petit-déjeuner japonais avec bol de riz vapeur, bol de soupe miso avec tofu et wakame, petite assiette de poisson grille, nori, tsukemono, ciboule, tasse de thé vert, composition calme et équilibrée, ambiance matin minimaliste au Japon, palette moka mousse, crème riz, brun miso, vert nori, rose saumon doux, bois clair, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de petit-déjeuner japonais avec bol de riz vapeur, bol de soupe miso avec tofu et wakame, petite assiette de poisson grillé, nori, tsukemono, ciboule, tasse de thé vert, composition calme et équilibrée, ambiance matin minimaliste au Japon, palette moka mousse, crème riz, brun miso, vert nori, rose saumon doux, bois clair, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'korea-rice-banchan',
@@ -3169,7 +3169,7 @@ export const countries = [
     shortDescription:
       'Un petit-déjeuner coréen traditionnel peut ressembler à un repas complet : riz, soupe ou ragout, kimchi et plusieurs banchan.',
     longDescription:
-      'Une version traditionnelle du petit-déjeuner coréen peut inclure un bol de riz, une soupe ou un ragout, du kimchi et plusieurs banchan, ces petits plats d accompagnement qui font partie integrante du repas. En Corée contemporaine, les petits-déjeuners sont toutefois variés : riz et banchan, pain, café, céréales, porridge, sandwich ou parfois aucun petit-déjeuner.',
+      "Une version traditionnelle du petit-déjeuner coréen peut inclure un bol de riz, une soupe ou un ragout, du kimchi et plusieurs banchan, ces petits plats d'accompagnement qui font partie integrante du repas. En Corée contemporaine, les petits-déjeuners sont toutefois variés : riz et banchan, pain, café, céréales, porridge, sandwich ou parfois aucun petit-déjeuner.",
     breakfastSubtitle: 'Riz au centre, soupe à cote, petits accompagnements tout autour.',
     typicalItems: ['Bap', 'Guk', 'Kimchi', 'Banchan', 'Gim'],
     commonDrinks: ['Eau', 'Thé', 'Café'],
@@ -3194,7 +3194,7 @@ export const countries = [
       'Doenjang jjigae en version plus consistante.',
       'Œuf au plat ou gyeran-mari.',
       'Gim grille, namul, germes de soja, épinards, fougere ou courgette.',
-      'Myeolchi bokkeum, dubu jorim ou poisson grille.',
+      'Myeolchi bokkeum, dubu jorim ou poisson grillé.',
       'Juk, bouillie de riz, pour une version plus douce.',
       'Petit-déjeuner moderne avec toast, café, pain ou céréales.',
     ],
@@ -3347,7 +3347,7 @@ export const countries = [
     breakfastStyles: ['savory', 'quick', 'family', 'traditional', 'hearty'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'Le htamin gyaw illustré une logique domestique : utiliser du riz déjà cuit, l assaisonner rapidement et l enrichir avec ce qui est disponible.',
+      "Le htamin gyaw illustré une logique domestique : utiliser du riz déjà cuit, l'assaisonner rapidement et l'enrichir avec ce qui est disponible.",
     culturalContext:
       "Le statut petit-déjeuner est documenté mais moins solidement que pour d'autres fiches ; le plat reste aussi un repas rapide de midi, du soir ou de restes.",
     funFact:
@@ -3444,7 +3444,7 @@ export const countries = [
       'Les transcriptions Htamin Jaw, Htamin Gyaw et Htamin Kyaw peuvent renvoyer au même type de plat.',
       "Les sources directes solides sur l'usage précis au petit-déjeuner sont moins nombreuses que pour d'autres entrees.",
       'Ne pas présenter ce plat comme le petit-déjeuner birman unique.',
-      'Le niveau d authenticite varié selon les recettes de diaspora et adaptations maison.',
+      "Le niveau d'authenticite varié selon les recettes de diaspora et adaptations maison.",
     ],
     sources: [
       {
@@ -3476,7 +3476,7 @@ export const countries = [
     shortDescription:
       "Un petit-déjeuner philippin copieux compose de boeuf tapa, riz frit à l'ail et œuf frit, souvent servi avec vinaigre épice ou atchara.",
     longDescription:
-      "Le tapsilog combine trois éléments : tapa, boeuf mariné ou frit ; sinangag, riz frit à l'ail ; et itlog, œuf. Il appartient à la famille plus large des silog, des repas construits autour du riz frit à l'ail et de l œuf, auxquels on ajouté une protéine comme tapa, longganisa, bangus, hot-dog ou Spam.",
+      "Le tapsilog combine trois éléments : tapa, boeuf mariné ou frit ; sinangag, riz frit à l'ail ; et itlog, œuf. Il appartient à la famille plus large des silog, des repas construits autour du riz frit à l'ail et de l'œuf, auxquels on ajouté une protéine comme tapa, longganisa, bangus, hot-dog ou Spam.",
     breakfastSubtitle: 'Tapa, sinangag, itlog : une formule philippine lisible en trois morceaux.',
     typicalItems: ['Boeuf tapa', 'Sinangag', 'Œuf frit', 'Atchara', 'Vinaigre épice'],
     commonDrinks: ['Café', 'Chocolat chaud', 'Jus'],
@@ -3487,7 +3487,7 @@ export const countries = [
     culturalNote:
       'Le tapsilog est moderne, populaire et lie aux restaurants de petit-déjeuner, cantines, chaines locales et repas rapides.',
     culturalContext:
-      'L origine liee à Tapsi ni Vivian et Vivian Del Rosario est souvent citee, mais elle doit être formulee comme récit largement relaye plutôt que certitude absolue.',
+      "L'origine liée à Tapsi ni Vivian et Vivian Del Rosario est souvent citee, mais elle doit être formulée comme récit largement relaye plutôt que certitude absolue.",
     funFact:
       'Le mot tapsilog est une formule culinaire : tap pour tapa, si pour sinangag, log pour itlog.',
     morningContext:
@@ -3579,8 +3579,8 @@ export const countries = [
     seoDescription:
       "Découvre le tapsilog, un classique philippin compose de boeuf tapa, riz frit à l'ail et œuf, souvent servi avec vinaigre épice ou atchara.",
     reviewNotes: [
-      'Le tapsilog est très connu comme petit-déjeuner, mais il peut être mange à toute heure.',
-      'L origine liee à Tapsi ni Vivian et Vivian Del Rosario doit être présentée comme récit largement relaye.',
+      'Le tapsilog est très connu comme petit-déjeuner, mais il peut être mangé à toute heure.',
+      "L'origine liée à Tapsi ni Vivian et Vivian Del Rosario doit être présentée comme récit largement relaye.",
       'Le tapa ancien était plutôt une viande séchée ou conservee ; aujourd hui il est souvent mariné puis frit ou grille.',
       'Les marinades varient beaucoup : plus sucrées, plus vinaigrees, avec calamansi, citron, vinaigre, sauce soja, ail, sucre ou poivre.',
       "Tapsilog n'est qu'un membre de la famille silog.",
@@ -3612,7 +3612,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de tapsilog philippin avec boeuf tapa caramelise, riz frit à l'ail, œuf au plat au jaune brillant, tomates fraiches, concombre, petit bol d atchara et vinaigre épice, ambiance petit restaurant de Manille le matin, palette moka mousse, brun boeuf, blanc riz, jaune œuf, rouge tomate, vert concombre, composition éditoriale appetissante, sans photoréalisme, sans texte, sans logo.",
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de tapsilog philippin avec boeuf tapa caramelise, riz frit à l'ail, œuf au plat au jaune brillant, tomates fraiches, concombre, petit bol d'atchara et vinaigre épice, ambiance petit restaurant de Manille le matin, palette moka mousse, brun boeuf, blanc riz, jaune œuf, rouge tomate, vert concombre, composition éditoriale appetissante, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -3627,7 +3627,7 @@ export const countries = [
     shortDescription:
       'Des toasts croustillants garnis de kaya coco-pandan et de beurre froid, souvent servis avec œufs mollets, sauce soja, poivre blanc et kopi.',
     longDescription:
-      "Le kaya toast est l'un des petits-déjeuners les plus souvent associés à Singapour. Il se compose de pain grille, kaya à base de coco, œufs, sucre et pandan, et fines tranches de beurre froid. Il est souvent servi avec des œufs mollets assaisonnés de sauce soja et poivre blanc, ainsi qu'un kopi. Il faut toutefois le présenter comme un breakfast de kopitiam souvent associé à Singapour, pas comme une préparation exclusivement singapourienne.",
+      "Le kaya toast est l'un des petits-déjeuners les plus souvent associés à Singapour. Il se compose de pain grillé, kaya à base de coco, œufs, sucre et pandan, et fines tranches de beurre froid. Il est souvent servi avec des œufs mollets assaisonnés de sauce soja et poivre blanc, ainsi qu'un kopi. Il faut toutefois le présenter comme un breakfast de kopitiam souvent associé à Singapour, pas comme une préparation exclusivement singapourienne.",
     breakfastSubtitle: 'Un trio de kopitiam : toast coco-pandan, œufs mollets et café kopi.',
     typicalItems: ['Pain grille', 'Kaya', 'Beurre froid', 'Œufs mollets', 'Sauce soja', 'Poivre blanc'],
     commonDrinks: ['Kopi', 'Kopi C', 'Kopi O', 'Thé'],
@@ -3636,13 +3636,13 @@ export const countries = [
     breakfastStyles: ['sweet', 'quick', 'traditional', 'family'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'Le kaya toast appartient à la culture des kopitiams, lieux de café, petit-déjeuner, pause et discussion rapide dans l Asie du Sud-Est urbaine.',
+      "Le kaya toast appartient à la culture des kopitiams, lieux de café, petit-déjeuner, pause et discussion rapide dans l'Asie du Sud-Est urbaine.",
     culturalContext:
-      'Son histoire mele influences malaises, hainanaises, britanniques et culture Nanyang ; eviter de lui attribuer une origine unique trop simplifiee.',
+      'Son histoire mele influences malaises, hainanaises, britanniques et culture Nanyang ; eviter de lui attribuer une origine unique trop simplifiée.',
     funFact:
-      'Le contraste central tient en quelques gestes : toast chaud, beurre froid, kaya douce au pandan, puis œufs sales au soja et poivre.',
+      'Le contraste central tient en quelques gestes : toast chaud, beurre froid, kaya douce au pandan, puis œufs salés au soja et poivre.',
     morningContext:
-      'Petit-déjeuner de kopitiam, snack, pause café ou moment rapide du matin et de l après-midi.',
+      "Petit-déjeuner de kopitiam, snack, pause café ou moment rapide du matin et de l'après-midi.",
     usualUsage:
       'Souvent commande en trio avec kaya toast, œufs mollets et kopi, mais chaque café peut être personnalise.',
     variants: [
@@ -3695,7 +3695,7 @@ export const countries = [
       'coffee',
       'robusta-coffee',
       'kopi',
-      'condensed-milk',
+      'condénsed-milk',
       'evaporated-milk',
     ],
     categorySlugs: [
@@ -3735,7 +3735,7 @@ export const countries = [
       "Ne pas présenter le kaya toast comme exclusivement singapourien : il est aussi très présent en Malaisie et dans d'autres pays de la région.",
       "l'histoire exacte mele influences malaises, hainanaises, britanniques et culture kopitiam.",
       'Le trio toast, œufs mollets et kopi est courant, mais le café se commande selon de nombreuses variantes.',
-      'L angle le plus juste est breakfast de kopitiam souvent associé à Singapour.',
+      "L'angle le plus juste est breakfast de kopitiam souvent associé à Singapour.",
     ],
     sources: [
       {
@@ -3771,7 +3771,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de kaya toast singapourien avec triangles de toast croustillant garnis de kaya vert pale et beurre, petit bol d'œufs mollets avec sauce soja et poivre blanc, tasse de kopi fumante, pot de kaya, feuilles de pandan en décor, ambiance kopitiam du matin à Singapour, palette moka mousse, crème toast, vert pandan, brun café, jaune beurre, composition éditoriale simple et chaleureuse, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'malaysia-nasi-lemak',
@@ -3783,11 +3783,11 @@ export const countries = [
     breakfastName: 'Nasi lemak',
     localName: 'Nasi lemak',
     shortDescription:
-      'Un plat malaisien emblématique à base de riz au lait de coco et pandan, servi avec sambal, ikan bilis, cacahuetes, concombre et œuf.',
+      'Un plat malaisien emblématique à base de riz au lait de coco et pandan, servi avec sambal, ikan bilis, cacahuètes, concombre et œuf.',
     longDescription:
-      "Le nasi lemak est l'un des plats les plus emblematiques de Malaisie. Sa base est un riz cuit avec lait de coco et souvent feuilles de pandan, accompagné de sambal, ikan bilis, cacahuetes, concombre et œuf dur ou frit. Il est fortement associé au petit-déjeuner, notamment dans la breakfast culture malaisienne reconnue par l UNESCO, mais il peut aussi être mange à d'autres moments.",
+      "Le nasi lemak est l'un des plats les plus emblématiques de Malaisie. Sa base est un riz cuit avec lait de coco et souvent feuilles de pandan, accompagné de sambal, ikan bilis, cacahuètes, concombre et œuf dur ou frit. Il est fortement associé au petit-déjeuner, notamment dans la breakfast culture malaisienne reconnue par l'UNESCO, mais il peut aussi être mangé à d'autres moments.",
     breakfastSubtitle: 'Riz coco, sambal et garnitures croquantes : une assiette malaisienne centrale.',
-    typicalItems: ['Riz coco', 'Sambal', 'Ikan bilis', 'Cacahuetes', 'Concombre', 'Œuf'],
+    typicalItems: ['Riz coco', 'Sambal', 'Ikan bilis', 'Cacahuètes', 'Concombre', 'Œuf'],
     commonDrinks: ['Teh tarik', 'Thé', 'Café'],
     associatedDrink:
       'Teh tarik, dans le cadre plus large de la culture du petit-déjeuner malaisienne.',
@@ -3796,15 +3796,15 @@ export const countries = [
     culturalNote:
       'Le nasi lemak depasse le seul matin : il circule entre stands, marches, restaurants, food courts et repas à toute heure.',
     culturalContext:
-      'L inscription UNESCO concerne la culture du petit-déjeuner en Malaisie dans une societe multiethnique, pas le nasi lemak seul.',
+      "L'inscription UNESCO concerne la culture du petit-déjeuner en Malaisie dans une societe multiethnique, pas le nasi lemak seul.",
     funFact:
       'Le nasi lemak peut être un petit paquet simple dans une feuille de bananier ou une grande assiette avec poulet frit, rendang ou fruits de mer.',
     morningContext:
       'Petit-déjeuner, repas de rue du matin, déjeuner rapide ou plat servi à toute heure selon les lieux.',
     usualUsage:
-      'Souvent vendu en version simple avec riz coco, sambal, œuf, cacahuetes et anchois, puis enrichi selon les stands.',
+      'Souvent vendu en version simple avec riz coco, sambal, œuf, cacahuètes et anchois, puis enrichi selon les stands.',
     variants: [
-      'Version simple avec riz coco, sambal, ikan bilis, cacahuetes, concombre et œuf.',
+      'Version simple avec riz coco, sambal, ikan bilis, cacahuètes, concombre et œuf.',
       'Version avec poulet frit.',
       'Version avec rendang.',
       'Version avec sambal sotong.',
@@ -3823,7 +3823,7 @@ export const countries = [
         'Sel',
         'Œufs',
         'Concombre',
-        'Cacahuetes',
+        'Cacahuètes',
         'Ikan bilis ou alternative croustillante',
         'Sambal',
       ],
@@ -3831,11 +3831,11 @@ export const countries = [
         'Rincer le riz.',
         'Cuire le riz avec lait de coco, eau, sel et pandan.',
         'Cuire les œufs durs ou au plat.',
-        'Griller ou frire les cacahuetes.',
+        'Griller ou frire les cacahuètes.',
         'Frire les ikan bilis si utilisés.',
         'Couper le concombre.',
         'Réchauffer ou préparer le sambal.',
-        'Assembler riz, sambal, œuf, concombre, cacahuetes et anchois.',
+        'Assembler riz, sambal, œuf, concombre, cacahuètes et anchois.',
       ],
       difficulty: 'medium',
       estimatedTimeMinutes: 60,
@@ -3896,13 +3896,13 @@ export const countries = [
     ],
     seoTitle: 'Nasi Lemak : le riz coco du petit-déjeuner malaisien',
     seoDescription:
-      'Découvre le nasi lemak, un plat malaisien emblématique à base de riz au lait de coco, sambal, anchois frits, cacahuetes, concombre et œuf.',
+      'Découvre le nasi lemak, un plat malaisien emblématique à base de riz au lait de coco, sambal, anchois frits, cacahuètes, concombre et œuf.',
     reviewNotes: [
       "Le nasi lemak est très associé au petit-déjeuner, mais il est aussi consommé à d'autres moments.",
       'Le qualifier de plat national est courant, mais plat emblématique de Malaisie reste plus prudent.',
       'Les versions changent beaucoup selon régions, vendeurs et communautes.',
       'La breakfast culture malaisienne inclut aussi roti canai et teh tarik ; ne pas réduire le petit-déjeuner malaisien au nasi lemak seul.',
-      'L inscription UNESCO concerne la culture du petit-déjeuner en Malaisie, pas uniquement le nasi lemak.',
+      "L'inscription UNESCO concerne la culture du petit-déjeuner en Malaisie, pas uniquement le nasi lemak.",
     ],
     sources: [
       {
@@ -3915,7 +3915,7 @@ export const countries = [
         title: 'Nasi lemak - Singapore',
         url: 'https://www.nlb.gov.sg/main/article-detail?cmsuuid=d27567a8-59ed-4363-bb9b-beda848ab9f0',
         publisher: 'National Library Board Singapore',
-        note: 'Description des ingrédients et du service avec concombre, œuf, anchois, cacahuetes et feuille de bananier.',
+        note: 'Description des ingrédients et du service avec concombre, œuf, anchois, cacahuètes et feuille de bananier.',
       },
       {
         title: 'Nasi Lemak',
@@ -3937,7 +3937,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de nasi lemak malaisien avec dome de riz au lait de coco parfume au pandan, sambal rouge, ikan bilis croustillants, cacahuetes, rondelles de concombre, œuf dur coupe, feuille de bananier sous l assiette, verre de teh tarik en arrière-plan, ambiance stand matinal à Kuala Lumpur, palette moka mousse, vert pandan, blanc riz, rouge sambal, brun cacahuete, jaune œuf, composition éditoriale généreuse et lisible, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de nasi lemak malaisien avec dome de riz au lait de coco parfume au pandan, sambal rouge, ikan bilis croustillants, cacahuètes, rondelles de concombre, œuf dur coupe, feuille de bananier sous l'assiette, verre de teh tarik en arrière-plan, ambiance stand matinal à Kuala Lumpur, palette moka mousse, vert pandan, blanc riz, rouge sambal, brun cacahuète, jaune œuf, composition éditoriale généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -3950,7 +3950,7 @@ export const countries = [
     breakfastName: 'Menemen',
     localName: 'Menemen',
     shortDescription:
-      "Un plat turc d'œufs doucement brouilles dans une sauce de tomates, poivrons verts et épices, servi chaud avec du pain.",
+      "Un plat turc d'œufs doucement brouillés dans une sauce de tomates, poivrons verts et épices, servi chaud avec du pain.",
     longDescription:
       "Le menemen est un plat de petit-déjeuner turc à base d'œufs, tomates, poivrons verts et épices, cuits dans l'huile ou le beurre jusqu'à obtenir une texture souple, juteuse et presque crémeuse. Il s'intègre souvent à une table de kahvalti plus large, avec fromages, olives, tomates, concombres, pains, confitures, miel, œufs, borek, simit et thé noir.",
     breakfastSubtitle: 'Des œufs moelleux dans une sauce tomate-poivron, à partager avec du pain.',
@@ -3961,11 +3961,11 @@ export const countries = [
     breakfastStyles: ['savory', 'quick', 'traditional', 'family', 'hearty'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'Le menemen fonctionne souvent comme plat central sur une table de petit-déjeuner partagee : on pose la poêle au centre et chacun trempe du pain.',
+      'Le menemen fonctionne souvent comme plat central sur une table de petit-déjeuner partagée : on pose la poêle au centre et chacun trempe du pain.',
     culturalContext:
-      "Il existe un debat culinaire connu sur l'oignon : avec ou sans. l'oignon est optionnel et souvent interprete differemment selon usage familial ou repas principal.",
+      "Il existe un débat culinaire connu sur l'oignon : avec ou sans. l'oignon est optionnel et souvent interprete differemment selon usage familial ou repas principal.",
     funFact:
-      'Le grand debat du menemen : avec ou sans oignon ? En Turquie, la question à declenche un sondage suivi par plusieurs centaines de milliers de personnes.',
+      'Le grand débat du menemen : avec ou sans oignon ? En Turquie, la question à declenche un sondage suivi par plusieurs centaines de milliers de personnes.',
     morningContext:
       'Petit-déjeuner, brunch, table de kahvalti, repas rapide ou déjeuner léger.',
     usualUsage: 'Plat chaud, économique, convivial et servi directement dans la poêle.',
@@ -3977,7 +3977,7 @@ export const countries = [
       'Version avec sucuk ou pastirma.',
       'Version plus pimentée avec pul biber.',
       'Version plus liquide à manger avec beaucoup de pain.',
-      "Version plus prise, proche d'œufs brouilles.",
+      "Version plus prise, proche d'œufs brouillés.",
       'Version servie en poêle cuivre ou sahan.',
     ],
     simplifiedRecipe: {
@@ -4058,9 +4058,9 @@ export const countries = [
     seoDescription:
       "Découvre le menemen, un plat turc de petit-déjeuner à base d'œufs, tomates, poivrons verts et épices, servi avec du pain et du thé.",
     reviewNotes: [
-      'L origine exacte du nom et son lien avec la ville de Menemen doivent rester prudents.',
-      "l'oignon est optionnel et culturellement debattu.",
-      "Le menemen est très associé au petit-déjeuner, mais peut aussi être mange à d'autres moments.",
+      "L'origine exacte du nom et son lien avec la ville de Menemen doivent rester prudents.",
+      "l'oignon est optionnel et culturellement débattu.",
+      "Le menemen est très associé au petit-déjeuner, mais peut aussi être mangé à d'autres moments.",
       'Les versions avec sucuk, pastirma ou fromage existent, mais la base reste œufs, tomates et poivrons.',
       'Ne pas confondre menemen et shakshuka : dans le menemen les œufs sont souvent mélanges à la sauce.',
     ],
@@ -4081,18 +4081,18 @@ export const countries = [
         title: 'Thousands of Turks vote on Twitter to decide whether menemen should be made with or without onions',
         url: 'https://www.dailysabah.com/food/2018/08/25/thousands-of-turks-vote-on-twitter-to-decide-whether-menemen-should-be-made-with-or-without-onions',
         publisher: 'Daily Sabah',
-        note: "Debat culturel autour de l'oignon et sondage Vedat Milor.",
+        note: "Débat culturel autour de l'oignon et sondage Vedat Milor.",
       },
       {
         title: 'Perfect Menemen',
         url: 'https://www.themediterraneandish.com/menemen-recipe/',
         publisher: 'The Mediterranean Dish',
-        note: "Recette, texture d'œufs brouilles et distinction avec la shakshuka.",
+        note: "Recette, texture d'œufs brouillés et distinction avec la shakshuka.",
       },
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, poêle en cuivre de menemen turc fumant avec œufs moelleux, tomates rouges, poivrons verts, pul biber, morceaux de pain frais autour, verre tulipe de cay, olives et fromage en arrière-plan discret, ambiance table de kahvalti conviviale du matin, palette moka mousse, rouge tomate, jaune œuf, vert poivron, brun thé, cuivre doux, composition éditoriale chaleureuse, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'indonesia-bubur-ayam',
@@ -4115,20 +4115,20 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'street-food', 'traditional', 'family'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'Le bubur ayam est à la fois street food du matin, plat familial, petit-déjeuner d hotel et comfort food.',
+      "Le bubur ayam est à la fois street food du matin, plat familial, petit-déjeuner d'hotel et comfort food.",
     culturalContext:
-      'Il appartient à la famille des congees d influence chinoise, adaptée aux toppings indonesiens comme cakwe, kerupuk, sambal et bouillon jaune.',
+      "Il appartient à la famille des congees d'influence chinoise, adaptée aux toppings indonesiens comme cakwe, kerupuk, sambal et bouillon jaune.",
     funFact:
       'Dans certaines versions de rue, les toppings debordent presque du bol : poulet, crackers, œuf, foie, gésier et echalotes frites transforment une bouillie simple en repas complet.',
     morningContext:
-      'Petit-déjeuner, street food du matin, repas doux et chaud, plat d hotel ou warung, parfois souper tardif.',
+      "Petit-déjeuner, street food du matin, repas doux et chaud, plat d'hotel ou warung, parfois souper tardif.",
     usualUsage: 'Bol chaud et nourrissant, souvent servi tot le matin par des vendeurs et warung.',
     variants: [
       'Bubur ayam Jakarta.',
       'Bubur ayam Bandung.',
       'Bubur ayam Sukabumi.',
       'Version avec œuf dur.',
-      'Version avec foie, gésier ou satay d abats de poulet.',
+      "Version avec foie, gésier ou satay d'abats de poulet.",
       'Version avec cakwe.',
       'Version avec bouillon jaune plus épice.',
       'Version avec omelette emincee.',
@@ -4152,7 +4152,7 @@ export const countries = [
       ],
       steps: [
         'Cuire le riz dans le bouillon avec aromates.',
-        'Pocher le poulet dans le même bouillon puis l effilocher.',
+        "Pocher le poulet dans le même bouillon puis l'effilocher.",
         "Continuer la cuisson du riz jusqu'à texture crémeuse.",
         'Verser dans un bol.',
         'Ajouter poulet, ciboule, echalotes frites, œuf, cakwe ou kerupuk.',
@@ -4220,9 +4220,9 @@ export const countries = [
     reviewNotes: [
       "Le bubur ayam est très solide comme petit-déjeuner indonesien, mais il n'est pas limite au matin.",
       'Les toppings changent beaucoup selon villes, vendeurs, familles et restaurants.',
-      'L influence chinoise du congee est importante, mais la version indonesienne a ses propres codes.',
+      "L'influence chinoise du congee est importante, mais la version indonesienne a ses propres codes.",
       'Le sambal est souvent servi à part ; ne pas présenter le plat comme automatiquement très épice.',
-      'Pour une recette grand public, garder une version simplifiee avec poulet, echalotes frites, ciboule, œuf et crackers.',
+      'Pour une recette grand public, garder une version simplifiée avec poulet, echalotes frites, ciboule, œuf et crackers.',
     ],
     sources: [
       {
@@ -4275,13 +4275,13 @@ export const countries = [
     breakfastStyles: ['quick', 'healthy', 'family', 'sweet'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'Weet-Bix est très lie aux foyers australiens, à l enfance et a des slogans publicitaires devenus populaires.',
+      "Weet-Bix est très lie aux foyers australiens, à l'enfance et a des slogans publicitaires devenus populaires.",
     culturalContext:
       'Tous les Australiens ne mangent pas Weet-Bix ; le petit-déjeuner contemporain australien est très varié, entre céréales, toast, café, avo toast, muesli, porridge, smoothies, œufs et brunchs.',
     funFact:
-      'En Australie, demander combien de Weet-Bix quelqu un mange peut presque devenir une petite mesure d appetit du matin.',
+      "En Australie, demander combien de Weet-Bix quelqu un mange peut presque devenir une petite mesure d'appetit du matin.",
     morningContext:
-      'Petit-déjeuner familial rapide, matin de semaine, bol d enfant, petit-déjeuner sportif ou base personnalisable.',
+      "Petit-déjeuner familial rapide, matin de semaine, bol d'enfant, petit-déjeuner sportif ou base personnalisable.",
     usualUsage:
       'Quelques biscuits dans un bol, du lait froid ou chaud, puis fruits, miel, sucre ou yaourt selon les familles.',
     variants: [
@@ -4347,7 +4347,7 @@ export const countries = [
     ],
     recipeSlugs: ['weet-bix-bowl'],
     isTraditional: false,
-    seoTitle: 'Weet-Bix : le bol de céréales emblématique d Australie',
+    seoTitle: "Weet-Bix : le bol de céréales emblématique d'Australie",
     seoDescription:
       'Découvre Weet-Bix, une céréale australienne iconique servie avec lait, banane, miel ou fruits pour un petit-déjeuner simple et rapide.',
     reviewNotes: [
@@ -4384,9 +4384,9 @@ export const countries = [
     breakfastName: 'Australian Big Brekkie',
     localName: 'Big breakfast, big brekkie, Aussie fry-up',
     shortDescription:
-      'Une grande assiette salée de café ou brunch : œufs, bacon, saucisses, tomates grillees, champignons, beans, toast et parfois avocat.',
+      'Une grande assiette salée de café ou brunch : œufs, bacon, saucisses, tomates grilléeses, champignons, beans, toast et parfois avocat.',
     longDescription:
-      "L Australian Big Brekkie ressemble au full English breakfast, mais il s'est adapté aux cafés australiens et à la culture du brunch. Une version courante peut inclure œufs, bacon, saucisses, tomates grillees, champignons, baked beans, toast, hash browns, épinards ou avocat. Ce n'est pas forcement un petit-déjeuner quotidien : c'est plutôt une assiette de café, de week-end, de brunch ou de roadhouse.",
+      "L'Australian Big Brekkie ressemble au full English breakfast, mais il s'est adapté aux cafés australiens et à la culture du brunch. Une version courante peut inclure œufs, bacon, saucisses, tomates grilléeses, champignons, baked beans, toast, hash browns, épinards ou avocat. Ce n'est pas forcément un petit-déjeuner quotidien : c'est plutôt une assiette de café, de week-end, de brunch ou de roadhouse.",
     breakfastSubtitle: 'Le fry-up anglo-britannique passe par la culture café australienne.',
     typicalItems: ['Œufs', 'Bacon', 'Saucisses', 'Tomates grillees', 'Champignons', 'Baked beans', 'Toast'],
     commonDrinks: ['Café', 'Flat white', 'Long black', 'Thé'],
@@ -4489,12 +4489,12 @@ export const countries = [
     isTraditional: false,
     seoTitle: 'Big Brekkie australien : le fry-up version café',
     seoDescription:
-      'Découvre le big brekkie australien, une grande assiette salée avec œufs, bacon, saucisses, tomates grillees, champignons, beans et toast.',
+      'Découvre le big brekkie australien, une grande assiette salée avec œufs, bacon, saucisses, tomates grilléeses, champignons, beans et toast.',
     reviewNotes: [
       'Big Brekkie ou Australian Big Breakfast est plus naturel que Fry-up pour la fiche éditoriale.',
       'Très influence par le full English breakfast ; ne pas présenter comme invention purement australienne.',
-      'Pas forcement quotidien : plutôt café, brunch, week-end ou roadhouse.',
-      'Les versions contemporaines peuvent inclure avocat, halloumi, sourdough, relish ou légumes grilles.',
+      'Pas forcément quotidien : plutôt café, brunch, week-end ou roadhouse.',
+      'Les versions contemporaines peuvent inclure avocat, halloumi, sourdough, relish ou légumes grilléss.',
     ],
     sources: [
       {
@@ -4517,7 +4517,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de big brekkie australien avec œufs au plat, bacon, saucisse, tomates grillees, champignons, baked beans, toast au levain, avocat en option, tasse de flat white à cote, ambiance café australien du week-end, palette moka mousse, brun toast, rouge tomate, jaune œuf, vert avocat, crème café, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de big brekkie australien avec œufs au plat, bacon, saucisse, tomates grilléeses, champignons, baked beans, toast au levain, avocat en option, tasse de flat white à cote, ambiance café australien du week-end, palette moka mousse, brun toast, rouge tomate, jaune œuf, vert avocat, crème café, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
     needsReview: true,
   }),
   makeCountry({
@@ -4532,7 +4532,7 @@ export const countries = [
     shortDescription:
       'Un pain frit fidjien, léger et moelleux, souvent servi chaud au petit-déjeuner avec beurre, confiture, sucre ou thé.',
     longDescription:
-      "Le babakau est un pain frit fidjien, généralement prépare avec une pâte levee à base de farine, sucre, levure, sel, huile et eau tiède. La pâte repose, puis elle est decoupee en carres ou rectangles avant d être frite jusqu'à devenir dorée. Il est souvent associé au petit-déjeuner familial ou villageois, mais aussi à l'afternoon tea ou au snack.",
+      "Le babakau est un pain frit fidjien, généralement prépare avec une pâte levee à base de farine, sucre, levure, sel, huile et eau tiède. La pâte repose, puis elle est decoupee en carres ou rectangles avant d'être frite jusqu'à devenir dorée. Il est souvent associé au petit-déjeuner familial ou villageois, mais aussi à l'afternoon tea ou au snack.",
     breakfastSubtitle: 'Un pain frit chaud, familial et partage, entre breakfast et tea time.',
     typicalItems: ['Pain frit', 'Beurre', 'Confiture', 'Sucre', 'Thé'],
     commonDrinks: ['Thé', 'Draunimoli', 'Café'],
@@ -4543,7 +4543,7 @@ export const countries = [
     culturalNote:
       'Le babakau montre le caractere metisse de la cuisine fidjienne et circule dans des recettes familiales très variables.',
     culturalContext:
-      'Son origine historique est incertaine : des influences indiennes, chinoises ou europeennes sont parfois evoquees selon les récits.',
+      'Son origine historique est incertaine : des influences indiennes, chinoises ou europeennes sont parfois évoquées selon les récits.',
     funFact:
       'Le babakau peut jouer deux rôles : gourmand comme un doughnut avec confiture, ou pratique comme un petit pain chaud à partager.',
     morningContext:
@@ -4621,7 +4621,7 @@ export const countries = [
     seoDescription:
       'Découvre le babakau, un pain frit fidjien souvent servi chaud au petit-déjeuner avec beurre, confiture ou thé.',
     reviewNotes: [
-      'L origine exacte du babakau est incertaine : influences indiennes, chinoises ou europeennes sont parfois evoquees.',
+      "L'origine exacte du babakau est incertaine : influences indiennes, chinoises ou europeennes sont parfois évoquées.",
       'Les sources directes sont moins institutionnelles que pour Weet-Bix ou la breakfast culture australienne.',
       "Le babakau est bien associé au petit-déjeuner, mais aussi au snack ou à l'afternoon tea.",
       'Les recettes familiales peuvent varier fortement.',
@@ -4666,11 +4666,11 @@ export const countries = [
     breakfastName: 'Porridge',
     localName: 'Porridge',
     shortDescription:
-      'Un bol chaud d avoine cuite avec lait ou eau, souvent servi avec sucre brun, miel, banane, fruits, crème ou yaourt.',
+      "Un bol chaud d'avoine cuite avec lait ou eau, souvent servi avec sucre brun, miel, banane, fruits, crème ou yaourt.",
     longDescription:
-      "Le porridge neo-zélandais est une préparation simple : des flocons d avoine cuits doucement avec eau, lait ou les deux, jusqu'à obtenir une texture crémeuse. En Nouvelle-Zélande, il est associé aux matins froids, aux familles et a l'histoire locale des céréales d avoine, notamment via les immigrants écossais, Creamoata et Harraways.",
+      "Le porridge neo-zélandais est une préparation simple : des flocons d'avoine cuits doucement avec eau, lait ou les deux, jusqu'à obtenir une texture crémeuse. En Nouvelle-Zélande, il est associé aux matins froids, aux familles et a l'histoire locale des céréales d'avoine, notamment via les immigrants écossais, Creamoata et Harraways.",
     breakfastSubtitle: 'Un classique kiwi du matin, chaud, simple et familial.',
-    typicalItems: ['Flocons d avoine', 'Lait', 'Sucre brun', 'Miel', 'Banane', 'Fruits rouges'],
+    typicalItems: ["Flocons d'avoine", 'Lait', 'Sucre brun', 'Miel', 'Banane', 'Fruits rouges'],
     commonDrinks: ['Café', 'Thé', 'Boisson chaude'],
     associatedDrink:
       'Thé, café ou boisson chaude selon les habitudes familiales ; le porridge est déjà chaud et souvent lacte.',
@@ -4679,12 +4679,12 @@ export const countries = [
     culturalNote:
       "Le porridge en Nouvelle-Zélande est un petit-déjeuner du quotidien : économique, chaud, familial et souvent lie à l'hiver ou aux matins frais.",
     culturalContext:
-      'L ancrage neo-zélandais est solide, mais le porridge appartient à un ensemble plus large de cultures anglo-saxonnes et écossaises.',
+      "L'ancrage neo-zélandais est solide, mais le porridge appartient à un ensemble plus large de cultures anglo-saxonnes et écossaises.",
     funFact:
-      "Pendant une grande partie du XXe siecle, Creamoata était si présent qu'il a été surnomme thé national breakfast dans l imaginaire publicitaire.",
+      "Pendant une grande partie du XXe siecle, Creamoata était si présent qu'il a été surnomme thé national breakfast dans l'imaginaire publicitaire.",
     morningContext:
       'Petit-déjeuner familial, matin froid, repas simple pour enfants, bol sportif ou version moderne en overnight oats.',
-    usualUsage: 'Bol chaud d avoine cuit avec lait ou eau, personnalise avec fruits, sucre brun ou miel.',
+    usualUsage: "Bol chaud d'avoine cuit avec lait ou eau, personnalise avec fruits, sucre brun ou miel.",
     variants: [
       'Porridge au lait.',
       "Porridge à l'eau.",
@@ -4693,14 +4693,14 @@ export const countries = [
       'Version banane-miel.',
       'Version pomme-cannelle.',
       'Version fruits rouges et yaourt.',
-      'Version noix, graines ou beurre de cacahuete.',
+      'Version noix, graines ou beurre de cacahuète.',
       'Version instantanee ou micro-ondes.',
     ],
     simplifiedRecipe: {
       title: 'Porridge kiwi simple',
-      ingredients: ['Flocons d avoine', 'Lait ou eau', 'Sel optionnel', 'Banane', 'Miel ou sucre brun', 'Cannelle'],
+      ingredients: ["Flocons d'avoine", 'Lait ou eau', 'Sel optionnel', 'Banane', 'Miel ou sucre brun', 'Cannelle'],
       steps: [
-        'Mettre les flocons d avoine dans une casserole.',
+        "Mettre les flocons d'avoine dans une casserole.",
         'Ajouter lait ou eau.',
         'Chauffer doucement en remuant.',
         "Cuire 5 à 10 minutes jusqu'à texture crémeuse.",
@@ -4755,12 +4755,12 @@ export const countries = [
       'comfort-food',
       'family-meal',
     ],
-    seoTitle: 'Porridge neo-zélandais : le bol chaud d avoine du matin',
+    seoTitle: "Porridge neo-zélandais : le bol chaud d'avoine du matin",
     seoDescription:
-      'Découvre le porridge en Nouvelle-Zélande, un petit-déjeuner chaud à base d avoine, souvent servi avec lait, sucre brun, miel, banane ou fruits.',
+      "Découvre le porridge en Nouvelle-Zélande, un petit-déjeuner chaud à base d'avoine, souvent servi avec lait, sucre brun, miel, banane ou fruits.",
     reviewNotes: [
       "Le porridge n'est pas propre à la Nouvelle-Zélande.",
-      "L ancrage neo-zélandais est solide via l'histoire de l avoine, Creamoata et Harraways.",
+      "L'ancrage neo-zélandais est solide via l'histoire de l'avoine, Creamoata et Harraways.",
       'Eviter de présenter le porridge comme une invention locale.',
       'Les toppings changent fortement selon familles, budget, saison et habitudes modernes.',
     ],
@@ -4781,7 +4781,7 @@ export const countries = [
         title: 'Harraways Oats',
         url: 'https://harraways.co.nz/',
         publisher: 'Harraways',
-        note: 'Ancrage local de l avoine en Nouvelle-Zélande depuis 1867.',
+        note: "Ancrage local de l'avoine en Nouvelle-Zélande depuis 1867.",
       },
       {
         title: 'Creamoata, the national breakfast',
@@ -4791,7 +4791,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d'avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -4817,13 +4817,13 @@ export const countries = [
     culturalNote:
       'Les kanapki sont à la fois ordinaires et très identitaires : elles peuvent être préparées rapidement le matin, emportees pour le drugie sniadanie ou servies le soir.',
     culturalContext:
-      "Le mot vient historiquement de l univers des canapes français, mais l'usage polonais quotidien est devenu très spécifique.",
+      "Le mot vient historiquement de l'univers des canapes français, mais l'usage polonais quotidien est devenu très spécifique.",
     funFact:
       'Une kanapka peut être très simple ou presque decorative : une tranche de pain devient une petite composition colorée.',
     morningContext:
       'Petit-déjeuner, second petit-déjeuner, souper léger, snack familial, plateau froid ou lunch box.',
     usualUsage:
-      'Tartine ouverte froide, assemblee avec pain, laitage ou charcuterie, œuf et légumes frais ou vinaigres.',
+      'Tartine ouverte froide, assemblée avec pain, laitage ou charcuterie, œuf et légumes frais ou vinaigres.',
     variants: [
       'Kanapki au fromage et concombre.',
       'Kanapki au jambon et tomate.',
@@ -4959,11 +4959,11 @@ export const countries = [
     breakfastName: 'Birchermuesli',
     localName: 'Birchermuesli, Bircher muesli, Muesli',
     shortDescription:
-      'Un mélange suisse à base de flocons d avoine trempes, pomme râpée, lait ou yaourt, fruits, noix et parfois jus de citron.',
+      "Un mélange suisse à base de flocons d'avoine trempes, pomme râpée, lait ou yaourt, fruits, noix et parfois jus de citron.",
     longDescription:
-      'Le muesli suisse, dans sa version la plus célèbre, est lie au medecin suisse Maximilian Oskar Bircher-Benner. Vers 1900, il développé une Apfeldiatspeise, plat dietetique à la pomme servi dans son sanatorium près de Zurich. La version moderne du Birchermuesli combine souvent flocons d avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais.',
+      "Le muesli suisse, dans sa version la plus célèbre, est lie au medecin suisse Maximilian Oskar Bircher-Benner. Vers 1900, il développé une Apfeldiatspeise, plat dietetique à la pomme servi dans son sanatorium près de Zurich. La version moderne du Birchermuesli combine souvent flocons d'avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais.",
     breakfastSubtitle: 'Du sanatorium suisse au petit-déjeuner moderne mondial.',
-    typicalItems: ['Flocons d avoine', 'Pomme râpée', 'Yaourt', 'Lait', 'Noix', 'Fruits'],
+    typicalItems: ["Flocons d'avoine", 'Pomme râpée', 'Yaourt', 'Lait', 'Noix', 'Fruits'],
     commonDrinks: ['Café au lait', 'Thé', 'Boisson chaude'],
     associatedDrink:
       'Café au lait, thé ou boisson chaude selon les habitudes ; le muesli peut aussi s integrer à un café complet.',
@@ -4976,8 +4976,8 @@ export const countries = [
     funFact:
       'Avant de devenir un petit-déjeuner mondial, le Birchermuesli était un plat dietetique à la pomme servi dans un sanatorium suisse.',
     morningContext:
-      'Petit-déjeuner, brunch, repas léger, souper léger dans certaines traditions suisses, buffet d hotel ou préparation overnight.',
-    usualUsage: 'Bol frais d avoine trempee avec pomme, laitage, fruits secs, noix et fruits frais.',
+      "Petit-déjeuner, brunch, repas léger, souper léger dans certaines traditions suisses, buffet d'hotel ou préparation overnight.",
+    usualUsage: "Bol frais d'avoine trempée avec pomme, laitage, fruits secs, noix et fruits frais.",
     variants: [
       'Birchermuesli classique avec pomme râpée.',
       'Version avec yaourt.',
@@ -4989,12 +4989,12 @@ export const countries = [
       'Version banane.',
       'Version graines, flocons mélanges et fruits secs.',
       'Version commerciale séché, différente du Birchermuesli frais.',
-      'Version overnight oats inspiree mais adaptée.',
+      'Version overnight oats inspirée mais adaptée.',
     ],
     simplifiedRecipe: {
       title: 'Birchermuesli simple',
       ingredients: [
-        'Flocons d avoine',
+        "Flocons d'avoine",
         'Lait',
         'Yaourt nature',
         'Pomme râpée',
@@ -5004,7 +5004,7 @@ export const countries = [
         'Miel optionnel',
       ],
       steps: [
-        'Mélanger flocons d avoine et lait.',
+        "Mélanger flocons d'avoine et lait.",
         'Laisser tremper 30 minutes ou toute une nuit.',
         'Raper la pomme.',
         'Ajouter pomme et yaourt aux flocons.',
@@ -5028,7 +5028,7 @@ export const countries = [
       'raisins',
       'honey',
       'cream',
-      'condensed-milk',
+      'condénsed-milk',
       'berries',
       'banana',
       'seeds',
@@ -5061,9 +5061,9 @@ export const countries = [
       'vegetarian-friendly',
       'sweet-morning',
     ],
-    seoTitle: 'Muesli suisse : l origine du Birchermuesli',
+    seoTitle: "Muesli suisse : l'origine du Birchermuesli",
     seoDescription:
-      'Découvre le Birchermuesli suisse, un mélange frais de flocons d avoine, pomme râpée, yaourt, fruits et noix, devenu un classique du petit-déjeuner.',
+      "Découvre le Birchermuesli suisse, un mélange frais de flocons d'avoine, pomme râpée, yaourt, fruits et noix, devenu un classique du petit-déjeuner.",
     reviewNotes: [
       "Le muesli n était pas à l'origine uniquement un petit-déjeuner.",
       'Les versions commerciales seches ne sont pas identiques au Birchermuesli frais.',
@@ -5081,13 +5081,13 @@ export const countries = [
         title: 'Birchermuesli: from cure to cult',
         url: 'https://www.swissinfo.ch/eng/swiss-oddities/how-a-swiss-invented-bircher-muesli-as-a-cure-for-stomach-problems/90269408',
         publisher: 'SWI swissinfo.ch',
-        note: 'Etymologie de Muesli et diffusion internationale du terme via l industrialisation.',
+        note: "Etymologie de Muesli et diffusion internationale du terme via l'industrialisation.",
       },
       {
         title: "Dr. Bircher's Muesli",
         url: 'https://www.helvetickitchen.com/recipes/2016/1/8/dr-birchers-muesli',
         publisher: 'Helvetic Kitchen',
-        note: 'Recette suisse inspiree de la version originale du Dr Bircher.',
+        note: 'Recette suisse inspirée de la version originale du Dr Bircher.',
       },
       {
         title: 'Bircher Muesli',
@@ -5097,7 +5097,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de Birchermuesli suisse avec flocons d avoine trempes, pomme râpée, yaourt crémeux, noix, noisettes, raisins secs, fruits rouges, petite cuillère, pomme entière et flocons d avoine en décor, ambiance matin alpin doux, palette moka mousse, crème yaourt, rouge pomme, brun noix, bleu-rouge fruits, bois clair, composition éditoriale fraiche et propre, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de Birchermuesli suisse avec flocons d'avoine trempes, pomme râpée, yaourt crémeux, noix, noisettes, raisins secs, fruits rouges, petite cuillère, pomme entière et flocons d'avoine en décor, ambiance matin alpin doux, palette moka mousse, crème yaourt, rouge pomme, brun noix, bleu-rouge fruits, bois clair, composition éditoriale fraiche et propre, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -5112,7 +5112,7 @@ export const countries = [
     shortDescription:
       'Une tartine néerlandaise simple et sucrée : pain, beurre et hagelslag, ces petits vermicelles souvent au chocolat.',
     longDescription:
-      'Le boterham met hagelslag est une tartine très simple : une tranche de pain, une couche de beurre ou margarine, puis des vermicelles de chocolat ou de sucre. Le beurre sert autant au goût qu a faire tenir les vermicelles sur le pain. Aux Pays-Bas, le hagelslag est souvent consommé au petit-déjeuner ou au déjeuner rapide, mais il ne resume pas tous les petits-déjeuners néerlandais.',
+      'Le boterham met hagelslag est une tartine très simple : une tranche de pain, une couche de beurre ou margarine, puis des vermicelles de chocolat ou de sucre. Le beurre sert autant au goût qu a faire tenir les vermicelles sur le pain. Aux Pays-Bas, le hagelslag est souvent consommé au petit-déjeuner ou au déjeuner rapide, mais il ne résume pas tous les petits-déjeuners néerlandais.',
     breakfastSubtitle: 'Une pluie de vermicelles chocolates sur pain beurre.',
     typicalItems: ['Pain blanc ou complet', 'Beurre', 'Hagelslag', 'Vlokken', 'Vruchtenhagel'],
     commonDrinks: ['Lait', 'Café', 'Thé', 'Jus'],
@@ -5123,12 +5123,12 @@ export const countries = [
     culturalNote:
       'Le hagelslag surprend souvent les visiteurs : il ressemble à un décor de pâtisserie, mais sert de garniture de tartine domestique.',
     culturalContext:
-      "Le hagelslag est très associé aux Pays-Bas, mais aussi présent en Belgique, au Suriname, en Indonesie et dans d anciennes zones liees à l'histoire néerlandaise.",
+      "Le hagelslag est très associé aux Pays-Bas, mais aussi présent en Belgique, au Suriname, en Indonesie et dans d'anciennes zones liées à l'histoire néerlandaise.",
     funFact:
       'Le nom hagelslag evoque la grele, une image parfaite pour ces petits vermicelles qui tombent sur la tartine.',
     morningContext:
-      'Petit-déjeuner rapide, déjeuner froid, tartine d enfant, snack simple ou repas domestique.',
-    usualUsage: 'Tranche de pain frais beurree, saupoudree de hagelslag puis mangee sans refermer.',
+      "Petit-déjeuner rapide, déjeuner froid, tartine d'enfant, snack simple ou repas domestique.",
+    usualUsage: 'Tranche de pain frais beurrée, saupoudree de hagelslag puis mangee sans refermer.',
     variants: [
       'Hagelslag chocolat noir.',
       'Hagelslag chocolat au lait.',
@@ -5196,9 +5196,9 @@ export const countries = [
     seoDescription:
       'Découvre le boterham met hagelslag, une tartine néerlandaise au beurre et vermicelles chocolates, souvent servie au petit-déjeuner ou au déjeuner.',
     reviewNotes: [
-      "Le hagelslag est très associé aux Pays-Bas, mais aussi présent en Belgique, Suriname, Indonesie et anciennes zones liees à l'histoire néerlandaise.",
+      "Le hagelslag est très associé aux Pays-Bas, mais aussi présent en Belgique, Suriname, Indonesie et anciennes zones liées à l'histoire néerlandaise.",
       'Toutes les tartines sucrées néerlandaises ne sont pas au hagelslag.',
-      "Les récits d'origine autour de Venco, Venz et De Ruijter doivent être formules prudemment.",
+      "Les récits d'origine autour de Venco, Venz et De Ruijter doivent être formulés prudemment.",
       'Ne pas présenter cela comme le petit-déjeuner de tous les Néerlandais.',
     ],
     sources: [
@@ -5212,7 +5212,7 @@ export const countries = [
         title: 'A Hailstorm of Chocolate in the Morning',
         url: 'https://roadsandkingdoms.com/2015/a-hailstorm-of-chocolate-in-the-morning/',
         publisher: 'Roads & Kingdoms',
-        note: 'Histoire liee à Venco, Amsterdam City Archives et diffusion après-guerre.',
+        note: 'Histoire liée à Venco, Amsterdam City Archives et diffusion après-guerre.',
       },
       {
         title: 'A brief history of Dutch sprinkles a.k.a. hagelslag',
@@ -5258,7 +5258,7 @@ export const countries = [
     funFact:
       "A Madrid, le chocolate con churros peut être nourriture de fin de nuit : certains le prennent quand d'autres commencent déjà leur journée.",
     morningContext:
-      'Petit-déjeuner gourmand, matin de week-end, pause en churreria, snack d hiver, fin de nuit ou tradition festive.',
+      "Petit-déjeuner gourmand, matin de week-end, pause en churreria, snack d'hiver, fin de nuit ou tradition festive.",
     usualUsage: 'Churros chauds trempes dans un chocolat épais, souvent en chocolateria ou churreria.',
     variants: [
       'Churros fins.',
@@ -5325,12 +5325,12 @@ export const countries = [
     ],
     seoTitle: 'Chocolate con Churros : le petit-déjeuner gourmand espagnol',
     seoDescription:
-      'Découvre le chocolate con churros, une spécialité espagnole associant churros croustillants et chocolat chaud épais, souvent degustee au petit-déjeuner ou en fin de nuit.',
+      'Découvre le chocolate con churros, une spécialité espagnole associant churros croustillants et chocolat chaud épais, souvent dégustée au petit-déjeuner ou en fin de nuit.',
     reviewNotes: [
       'Ne pas présenter les churros comme un petit-déjeuner quotidien espagnol.',
       'Le duo est très fort à Madrid, mais les usages varient selon les régions.',
       'Les porras ne sont pas exactement des churros : elles sont plus épaisses et souvent moins croustillantes.',
-      'L origine historique précise des churros est discutee.',
+      "L'origine historique précise des churros est discutée.",
     ],
     sources: [
       {
@@ -5374,7 +5374,7 @@ export const countries = [
     shortDescription:
       'Un petit-déjeuner anglais copieux avec œufs, bacon, saucisses, tomates, champignons, haricots, toast ou pain frit.',
     longDescription:
-      "Le Full English Breakfast est une grande assiette chaude et salée, souvent composee d'œufs, bacon, saucisses, tomates grillees, champignons, baked beans, toast ou fried bread, avec parfois du black pudding. Il appartient à une famille plus large de petits-déjeuners complets britanniques et irlandais. Il faut eviter le cliche : ce n'est pas le petit-déjeuner quotidien de tous les Britanniques.",
+      "Le Full English Breakfast est une grande assiette chaude et salée, souvent composee d'œufs, bacon, saucisses, tomates grilléeses, champignons, baked beans, toast ou fried bread, avec parfois du black pudding. Il appartient à une famille plus large de petits-déjeuners complets britanniques et irlandais. Il faut eviter le cliche : ce n'est pas le petit-déjeuner quotidien de tous les Britanniques.",
     breakfastSubtitle: 'Une grande assiette anglaise de week-end, café, pub ou hotel.',
     typicalItems: ['Œufs', 'Bacon', 'Saucisses', 'Baked beans', 'Tomates', 'Champignons', 'Toast'],
     commonDrinks: ['Thé noir', 'Café'],
@@ -5383,19 +5383,19 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'traditional', 'brunch', 'family'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'Le Full English est fortement code dans l imaginaire britannique, mais fonctionne surtout comme treat copieux, brunch, breakfast d hotel ou café.',
+      "Le Full English est fortement code dans l'imaginaire britannique, mais fonctionne surtout comme treat copieux, brunch, breakfast d'hotel ou café.",
     culturalContext:
       'Les variantes écossaises, galloises, irlandaises et nord-irlandaises ajoutent ou changent certains éléments, comme tattie scones, haggis, laverbread, soda bread ou potato bread.',
     funFact:
-      'Chaque ingrédient peut declencher un debat : fried bread ou toast, black pudding ou non, hash browns acceptes ou sacrilège.',
+      'Chaque ingrédient peut declencher un débat : fried bread ou toast, black pudding ou non, hash browns acceptés ou sacrilège.',
     morningContext:
-      'Petit-déjeuner d hotel, brunch, week-end, café, pub breakfast, repas copieux de voyage ou all-day breakfast.',
-    usualUsage: 'Grande assiette chaude assemblee avec plusieurs cuissons servies ensemble.',
+      "Petit-déjeuner d'hotel, brunch, week-end, café, pub breakfast, repas copieux de voyage ou all-day breakfast.",
+    usualUsage: 'Grande assiette chaude assemblée avec plusieurs cuissons servies ensemble.',
     variants: [
       'Full English classique avec œufs, bacon, sausage, beans, tomates, champignons et toast.',
       'Version avec black pudding.',
       'Version avec fried bread.',
-      'Version avec hash browns, plus moderne et discutee.',
+      'Version avec hash browns, plus moderne et discutée.',
       'Version végétarienne avec œufs, tomates, champignons, beans, hash browns et veggie sausages.',
       'Full Scottish avec tattie scone, haggis ou black pudding selon les versions.',
       'Full Welsh avec laverbread et coques selon les versions.',
@@ -5481,8 +5481,8 @@ export const countries = [
     reviewNotes: [
       'Ne pas présenter le Full English comme un petit-déjeuner quotidien.',
       'Les ingrédients ne sont pas strictement fixes.',
-      'Les variantes écossaises, galloises, irlandaises et nord-irlandaises meriteraient des fiches séparées.',
-      'Le hash brown est courant dans certaines assiettes modernes, mais plus discute dans les versions traditionnelles.',
+      'Les variantes écossaises, galloises, irlandaises et nord-irlandaises mériteraient des fiches séparées.',
+      'Le hash brown est courant dans certaines assiettes modernes, mais plus discuté dans les versions traditionnelles.',
     ],
     sources: [
       {
@@ -5505,8 +5505,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de Full English Breakfast avec œufs au plat, bacon, saucisses, baked beans, tomates grillees, champignons, toast, black pudding optionnel, tasse de thé noir, ambiance café anglais du matin, palette moka mousse, brun toast, rouge tomate, jaune œuf, beige haricots, vert discret, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de Full English Breakfast avec œufs au plat, bacon, saucisses, baked beans, tomates grilléeses, champignons, toast, black pudding optionnel, tasse de thé noir, ambiance café anglais du matin, palette moka mousse, brun toast, rouge tomate, jaune œuf, beige haricots, vert discret, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'russia-kasha',
@@ -5521,21 +5521,21 @@ export const countries = [
       'Une famille de bouillies russes préparées avec sarrasin, avoine, millet, riz ou semoule, servies sucrées ou salées.',
     longDescription:
       "La kasha n'est pas une seule recette, mais une grande famille de bouillies et céréales cuites. En Russie, elle peut être préparée avec sarrasin, avoine, millet, riz, semoule ou orge. Au petit-déjeuner, elle est souvent cuite au lait ou a l'eau, puis servie avec beurre, sucre, miel, confiture, fruits secs ou baies. Elle peut aussi être salée, surtout dans le cas de la kasha de sarrasin.",
-    breakfastSubtitle: 'Un univers de bouillies russes, du bol sucre d enfance au sarrasin sale.',
+    breakfastSubtitle: "Un univers de bouillies russes, du bol sucre d'enfance au sarrasin sale.",
     typicalItems: ['Sarrasin', 'Avoine', 'Millet', 'Riz', 'Semoule', 'Lait', 'Beurre'],
     commonDrinks: ['Thé noir', 'Café', 'Lait'],
     associatedDrink:
-      "Thé noir, café ou lait selon les familles ; la boisson n'est pas l élément central.",
+      "Thé noir, café ou lait selon les familles ; la boisson n'est pas l'élément central.",
     breakfastStyles: ['sweet', 'savory', 'healthy', 'traditional', 'family'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'La kasha occupe une place forte dans l imaginaire alimentaire russe comme plat simple, nourrissant et accessible.',
+      "La kasha occupe une place forte dans l'imaginaire alimentaire russe comme plat simple, nourrissant et accessible.",
     culturalContext:
       'En russe, kasha désigne une famille large de bouillies ; en anglais, le mot est souvent reduit au sarrasin.',
     funFact:
       "En russe, kasha ne veut pas seulement dire sarrasin : c'est presque tout un univers de bouillies.",
     morningContext:
-      'Petit-déjeuner familial, repas d enfant, bol chaud d hiver, version salée au déjeuner ou dîner simple.',
+      "Petit-déjeuner familial, repas d'enfant, bol chaud d'hiver, version salée au déjeuner ou dîner simple.",
     usualUsage: "Céréales cuites à l'eau ou au lait, servies sucrées ou salées selon la base et le moment.",
     variants: [
       'Grechnevaya kasha : kasha de sarrasin.',
@@ -5623,7 +5623,7 @@ export const countries = [
       "Kasha ne doit pas être reduit au sarrasin, même si c'est souvent le sens en anglais.",
       'Le petit-déjeuner russe ne se limite pas à la kasha.',
       'Les versions sucrées et salées doivent être distinguees.',
-      'Les récits historiques autour de l arrivee du sarrasin en Russie varient.',
+      "Les récits historiques autour de l'arrivee du sarrasin en Russie varient.",
     ],
     sources: [
       {
@@ -5646,7 +5646,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kasha russe fumante au sarrasin, lait chaud, noix de beurre fondant, miel, quelques baies et raisins secs, petite cuillère en bois, champignons et oignons en option dans un petit bol à cote pour montrer la variante salée, ambiance matin d hiver dans une cuisine russe, palette moka mousse, brun sarrasin, crème lait, rouge baies, doré miel, bois clair, composition éditoriale douce, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kasha russe fumante au sarrasin, lait chaud, noix de beurre fondant, miel, quelques baies et raisins secs, petite cuillère en bois, champignons et oignons en option dans un petit bol à cote pour montrer la variante salée, ambiance matin d'hiver dans une cuisine russe, palette moka mousse, brun sarrasin, crème lait, rouge baies, doré miel, bois clair, composition éditoriale douce, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -5657,7 +5657,7 @@ export const countries = [
     region: "Europe de l'ouest",
     continent: 'Europe',
     breakfastName: 'Tartines',
-    localName: 'Tartine, tartines beurrees, tartines beurre-confiture',
+    localName: 'Tartine, tartines beurrées, tartines beurre-confiture',
     shortDescription:
       'Un petit-déjeuner français simple : pain ou baguette, beurre, confiture ou miel, souvent accompagné de café, thé ou chocolat chaud.',
     longDescription:
@@ -5666,7 +5666,7 @@ export const countries = [
     typicalItems: ['Baguette', 'Pain frais', 'Beurre', 'Confiture', 'Miel'],
     commonDrinks: ['Café', 'Café au lait', 'Thé', 'Chocolat chaud', "Jus d'orange"],
     associatedDrink:
-      'Café, café au lait, thé ou chocolat chaud ; la tartine peut parfois être trempee dans le bol.',
+      'Café, café au lait, thé ou chocolat chaud ; la tartine peut parfois être trempée dans le bol.',
     breakfastStyles: ['sweet', 'quick', 'family', 'traditional'],
     difficultyToRecreate: 'easy',
     culturalNote:
@@ -5674,9 +5674,9 @@ export const countries = [
     culturalContext:
       "La tartine peut aussi être salée dans d'autres contextes, mais cette fiche traite surtout de la tartine sucrée du petit-déjeuner.",
     funFact:
-      'La tartine trempee dans le bol de chocolat chaud ou de café au lait reste un souvenir d enfance très parlant pour beaucoup de Français.',
+      "La tartine trempée dans le bol de chocolat chaud ou de café au lait reste un souvenir d'enfance très parlant pour beaucoup de Français.",
     morningContext:
-      'Petit-déjeuner de semaine, matin familial, hotel ou chambre d hotes, petit-déjeuner d enfant ou collation simple.',
+      "Petit-déjeuner de semaine, matin familial, hotel ou chambre d'hotes, petit-déjeuner d'enfant ou collation simple.",
     usualUsage: 'Baguette ou pain frais tartine de beurre puis confiture ou miel, avec boisson chaude.',
     variants: [
       'Baguette beurre-confiture.',
@@ -5686,7 +5686,7 @@ export const countries = [
       'Confiture de fraise, abricot, framboise ou orange.',
       'Tartine au miel.',
       'Tartine au chocolat ou pâte à tartiner dans certaines familles.',
-      'Tartine trempee dans café au lait ou chocolat chaud.',
+      'Tartine trempée dans café au lait ou chocolat chaud.',
       'Version avec viennoiserie en plus le week-end.',
     ],
     simplifiedRecipe: {
@@ -5748,9 +5748,9 @@ export const countries = [
       'Découvre les tartines françaises du petit-déjeuner : baguette ou pain frais, beurre, confiture ou miel, souvent avec café, thé ou chocolat chaud.',
     reviewNotes: [
       'Ne pas présenter la tartine comme unique petit-déjeuner français.',
-      'Les viennoiseries sont typiques, mais pas forcement quotidiennes.',
+      'Les viennoiseries sont typiques, mais pas forcément quotidiennes.',
       'Les habitudes varient selon familles, régions, générations et rythmes de travail.',
-      'Le beurre demi-sel est plus marque dans certaines régions, mais pas obligatoire nationalement.',
+      'Le beurre demi-sel est plus marqué dans certaines régions, mais pas obligatoire nationalement.',
     ],
     sources: [
       {
@@ -5780,7 +5780,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner français avec demi-baguette ouverte, beurre frais, confiture rouge brillante, petit pot de miel, bol de café au lait fumant, chocolat chaud en option, couteau à beurre, lumière douce de cuisine française le matin, palette moka mousse, beige pain, jaune beurre, rouge confiture, brun café, crème, composition simple et élégante, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'italy-prima-colazione',
@@ -5794,7 +5794,7 @@ export const countries = [
     shortDescription:
       'Un petit-déjeuner italien souvent léger et sucre : espresso ou cappuccino avec cornetto, brioche, biscotti ou fette biscottate.',
     longDescription:
-      "La prima colazione italienne est souvent plus légère que les petits-déjeuners sales et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois eviter de réduire l Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
+      "La prima colazione italienne est souvent plus légère que les petits-déjeuners sales et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois eviter de réduire l'Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
     breakfastSubtitle: 'Café, douceur, rapidite : le rituel léger du bar italien.',
     typicalItems: ['Espresso', 'Cappuccino', 'Cornetto', 'Biscotti', 'Fette biscottate', 'Confiture'],
     commonDrinks: ['Espresso', 'Cappuccino', 'Caffe latte', 'Latte macchiato', 'Café moka'],
@@ -5939,16 +5939,16 @@ export const countries = [
     shortDescription:
       'Une pâtisserie feuilletée bulgare à base de pâte filo, œufs, yaourt et fromage sirène.',
     longDescription:
-      "La banitsa est une pâtisserie salée très associée à la Bulgarie. Une version courante alterne des feuilles de pâte filo avec un mélange d'œufs, yaourt et fromage blanc en saumure, souvent du sirène, puis le tout est cuit jusqu'à obtenir une surface dorée et croustillante. Elle peut être mangee au petit-déjeuner, comme snack ou lors de moments familiaux et festifs.",
+      "La banitsa est une pâtisserie salée très associée à la Bulgarie. Une version courante alterne des feuilles de pâte filo avec un mélange d'œufs, yaourt et fromage blanc en saumure, souvent du sirène, puis le tout est cuit jusqu'à obtenir une surface dorée et croustillante. Elle peut être mangée au petit-déjeuner, comme snack ou lors de moments familiaux et festifs.",
     breakfastSubtitle: 'Une pâtisserie salée au fromage, familiale et croustillante.',
     typicalItems: ['Pâte filo', 'Sirène', 'Œufs', 'Yaourt', 'Beurre'],
     commonDrinks: ['Boza', 'Ayran', 'Yaourt', 'Café'],
     associatedDrink:
-      'Boza, ayran ou yaourt selon les familles et les contextes ; l association banitsa-boza est souvent citee.',
+      "Boza, ayran ou yaourt selon les familles et les contextes ; l'association banitsa-boza est souvent citee.",
     breakfastStyles: ['savory', 'hearty', 'traditional', 'family'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'La banitsa est liee à la cuisine familiale bulgare et a des moments festifs, notamment certaines versions de Nouvel An avec porte-bonheur.',
+      'La banitsa est liée à la cuisine familiale bulgare et a des moments festifs, notamment certaines versions de Nouvel An avec porte-bonheur.',
     culturalContext:
       "Elle n'est pas seulement un petit-déjeuner : les sources la presentent aussi comme snack, plat familial ou spécialité de boulangerie.",
     funFact:
@@ -5964,7 +5964,7 @@ export const countries = [
       'Version festive avec porte-bonheur au Nouvel An.',
     ],
     simplifiedRecipe: {
-      title: 'Banitsa bulgare simplifiee',
+      title: 'Banitsa bulgare simplifiée',
       ingredients: ['Pâte filo', 'Œufs', 'Yaourt', 'Sirène ou feta', 'Beurre ou huile'],
       steps: [
         'Mélanger fromage emiette, œufs et yaourt.',
@@ -6163,7 +6163,7 @@ export const countries = [
         title: 'German bread - world famous and diverse',
         url: 'https://www.deutschland.de/en/topic/life/german-bread-and-bread-culture',
         publisher: 'Deutschland.de',
-        note: 'Culture allemande du pain et reconnaissance dans l inventaire du patrimoine culturel immateriel allemand.',
+        note: "Culture allemande du pain et reconnaissance dans l'inventaire du patrimoine culturel immateriel allemand.",
       },
       {
         title: 'German cuisine',
@@ -6205,11 +6205,11 @@ export const countries = [
     culturalNote:
       "Yaourt, miel, noix, fruits et produits locaux s accordent avec l'image mediterraneenne du petit-déjeuner grec moderne.",
     culturalContext:
-      'Le programme Greek Breakfast valorise surtout les produits régionaux et l hotellerie ; il ne decrit pas necessairement le quotidien de toutes les familles.',
+      "Le programme Greek Breakfast valorise surtout les produits régionaux et l'hotellerie ; il ne decrit pas necessairement le quotidien de toutes les familles.",
     funFact:
       'Le yaourt grec au miel semble evident, mais tout depend de la qualite du yaourt, du miel et des noix.',
     morningContext:
-      'Petit-déjeuner rapide, hotel, snack, dessert léger, collation d été ou repas très simple.',
+      "Petit-déjeuner rapide, hotel, snack, dessert léger, collation d'été ou repas très simple.",
     usualUsage: 'Bol frais servi au petit-déjeuner, en snack ou comme dessert léger.',
     variants: [
       'Yaourt et miel seul.',
@@ -6298,11 +6298,11 @@ export const countries = [
         title: '7 Food and Drink Rules Greeks Live By, According to a Local',
         url: 'https://www.foodandwine.com/greek-rules-for-food-and-drink-11871271',
         publisher: 'Food & Wine',
-        note: 'Nuance sur l importance variable du petit-déjeuner en Grèce contemporaine.',
+        note: "Nuance sur l'importance variable du petit-déjeuner en Grèce contemporaine.",
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassees, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière mediterraneenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassées, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière mediterraneenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
     needsReview: true,
   }),
   makeCountry({
@@ -6315,9 +6315,9 @@ export const countries = [
     breakfastName: 'Pão com manteiga & galão',
     localName: 'Pão com manteiga, torrada, galão, meia de leite',
     shortDescription:
-      "Un petit-déjeuner portugais simple : pain ou torrada beurree, accompagné d'un galão servi dans un grand verre.",
+      "Un petit-déjeuner portugais simple : pain ou torrada beurrée, accompagné d'un galão servi dans un grand verre.",
     longDescription:
-      'Le petit-déjeuner portugais est souvent léger : pain frais, toast ou sandwich simple, accompagné de café, café au lait ou jus. Le duo pão com manteiga ou torrada avec galão représente bien cette simplicite quotidienne de café, pastelaria ou cuisine familiale. Le galão est une boisson portugaise à base d espresso et de beaucoup de lait, servie dans un grand verre.',
+      "Le petit-déjeuner portugais est souvent léger : pain frais, toast ou sandwich simple, accompagné de café, café au lait ou jus. Le duo pão com manteiga ou torrada avec galão représente bien cette simplicite quotidienne de café, pastelaria ou cuisine familiale. Le galão est une boisson portugaise à base d'espresso et de beaucoup de lait, servie dans un grand verre.",
     breakfastSubtitle: 'Pain beurre et café au lait, routine sobre de pastelaria.',
     typicalItems: ['Pain portugais', 'Beurre', 'Torrada', 'Galão', 'Meia de leite'],
     commonDrinks: ['Galão', 'Meia de leite', 'Bica', 'Abatanado', 'Jus'],
@@ -6328,7 +6328,7 @@ export const countries = [
     culturalNote:
       'Cette fiche evite le cliche du pastel de nata uniquement : le petit-déjeuner quotidien peut être pain, beurre et café au lait.',
     culturalContext:
-      "L angle le plus juste est celui d'une routine de café de quartier, de pastelaria ou de cuisine familiale.",
+      "L'angle le plus juste est celui d'une routine de café de quartier, de pastelaria ou de cuisine familiale.",
     funFact:
       'Au Portugal, le petit-déjeuner peut tenir en quelques gestes : commander un galão, beurrer une torrada, puis filer commencer la journée.',
     morningContext:
@@ -6336,7 +6336,7 @@ export const countries = [
     usualUsage: 'Pain ou toast beurre avec café au lait, parfois complete par fromage, jambon, confiture ou pâtisserie.',
     variants: [
       'Pão com manteiga.',
-      'Torrada beurree.',
+      'Torrada beurrée.',
       'Pão com queijo.',
       'Pão com fiambre.',
       'Pão com manteiga e doce.',
@@ -6400,7 +6400,7 @@ export const countries = [
     ],
     seoTitle: 'Pão com Manteiga & Galão : le petit-déjeuner portugais simple',
     seoDescription:
-      'Découvre un petit-déjeuner portugais du quotidien : pain ou torrada beurree avec galão, un café au lait servi dans un grand verre.',
+      'Découvre un petit-déjeuner portugais du quotidien : pain ou torrada beurrée avec galão, un café au lait servi dans un grand verre.',
     reviewNotes: [
       'Ne pas réduire le petit-déjeuner portugais au pastel de nata.',
       'Galão, meia de leite, garoto, bica et abatanado designent des commandes différentes.',
@@ -6441,14 +6441,14 @@ export const countries = [
     breakfastName: 'Homestyle breakfast',
     localName: 'Homestyle breakfast, dîner breakfast, country breakfast',
     shortDescription:
-      'Une assiette de dîner canadien avec œufs, bacon ou peameal bacon, pommes de terre, toast, parfois pancakes et sirop d erable.',
+      "Une assiette de dîner canadien avec œufs, bacon ou peameal bacon, pommes de terre, toast, parfois pancakes et sirop d'erable.",
     longDescription:
-      "Le Canadian homestyle breakfast n'est pas une recette unique, mais une formule de petit-déjeuner copieux : œufs, bacon ou saucisses, pommes de terre rissolées, toast, parfois pancakes, sirop d erable, haricots ou café filtre. Pour Morning Atlas, l angle juste est celui d'une assiette de dîner canadien, généreuse et régionale, pas celui d'un plat national codifie.",
+      "Le Canadian homestyle breakfast n'est pas une recette unique, mais une formule de petit-déjeuner copieux : œufs, bacon ou saucisses, pommes de terre rissolées, toast, parfois pancakes, sirop d'erable, haricots ou café filtre. Pour Morning Atlas, l'angle juste est celui d'une assiette de dîner canadien, généreuse et régionale, pas celui d'un plat national codifie.",
     breakfastSubtitle: 'Une assiette de dîner copieuse, régionale et adaptable.',
-    typicalItems: ['Œufs', 'Bacon', 'Pommes de terre', 'Toast', 'Pancakes', 'Sirop d erable'],
+    typicalItems: ['Œufs', 'Bacon', 'Pommes de terre', 'Toast', 'Pancakes', "Sirop d'erable"],
     commonDrinks: ['Café filtre', "Jus d'orange"],
     associatedDrink:
-      'Café filtre, frequent dans les dîners ; le sirop d erable est un marqueur culinaire fort mais pas une boisson.',
+      "Café filtre, fréquent dans les dîners ; le sirop d'erable est un marqueur culinaire fort mais pas une boisson.",
     breakfastStyles: ['savory', 'hearty', 'traditional', 'family', 'brunch'],
     difficultyToRecreate: 'easy',
     culturalNote:
@@ -6463,19 +6463,19 @@ export const countries = [
     variants: [
       'Version œufs, bacon, pommes de terre et toast.',
       'Version avec peameal bacon en Ontario.',
-      'Version avec pancakes et sirop d erable.',
+      "Version avec pancakes et sirop d'erable.",
       'Version quebecoise avec cretons.',
       'Version avec haricots ou saumon fume selon les régions.',
     ],
     simplifiedRecipe: {
       title: 'Canadian homestyle breakfast simplifie',
-      ingredients: ['Œufs', 'Bacon ou peameal bacon', 'Pommes de terre', 'Toast', 'Pancakes', 'Sirop d erable'],
+      ingredients: ['Œufs', 'Bacon ou peameal bacon', 'Pommes de terre', 'Toast', 'Pancakes', "Sirop d'erable"],
       steps: [
         'Faire dorer les pommes de terre en cubes.',
         'Cuire le bacon ou le peameal bacon.',
         'Préparer les œufs au choix.',
         'Toaster le pain et chauffer les pancakes si utilisés.',
-        'Servir avec beurre, sirop d erable et café filtre.',
+        "Servir avec beurre, sirop d'erable et café filtre.",
       ],
       difficulty: 'easy',
       estimatedTimeMinutes: 40,
@@ -6526,14 +6526,14 @@ export const countries = [
       'comfort-food',
       'regional-variation',
     ],
-    seoTitle: 'Canadian Homestyle Breakfast : œufs, bacon et sirop d erable',
+    seoTitle: "Canadian Homestyle Breakfast : œufs, bacon et sirop d'erable",
     seoDescription:
-      'Découvre une assiette de petit-déjeuner canadien facon dîner : œufs, bacon ou peameal bacon, pommes de terre, toast, pancakes et sirop d erable.',
+      "Découvre une assiette de petit-déjeuner canadien facon dîner : œufs, bacon ou peameal bacon, pommes de terre, toast, pancakes et sirop d'erable.",
     reviewNotes: [
       'Homestyle breakfast est une formule large, pas un plat canadien codifie.',
       "Le Canada n'a pas un seul petit-déjeuner national.",
       "Le peameal bacon est surtout lie à l'Ontario.",
-      'Le sirop d erable est emblématique, mais toutes les assiettes canadiennes n en contiennent pas.',
+      "Le sirop d'erable est emblématique, mais toutes les assiettes canadiennes n en contiennent pas.",
     ],
     sources: [
       {
@@ -6546,7 +6546,7 @@ export const countries = [
         title: 'Statistical overview of the Canadian maple industry, 2025',
         url: 'https://agriculture.canada.ca/en/sector/horticulture/reports/statistical-overview-canadian-maple-industry-2025',
         publisher: 'Agriculture et Agroalimentaire Canada',
-        note: 'Poids du Canada dans la production mondiale de sirop d erable.',
+        note: "Poids du Canada dans la production mondiale de sirop d'erable.",
       },
       {
         title: 'Canadian breakfast: dit moet je proberen',
@@ -6556,7 +6556,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de Canadian homestyle breakfast avec œufs au plat, tranches de peameal bacon dorées, pommes de terre rissolées, toast beurre, petite pile de pancakes avec sirop d erable, tasse de café filtre, petite feuille d erable discrete en décor, ambiance dîner canadien du matin, palette moka mousse, doré pancakes, brun bacon, jaune œuf, rouge ketchup discret, crème café, composition généreuse et lisible, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de Canadian homestyle breakfast avec œufs au plat, tranches de peameal bacon dorées, pommes de terre rissolées, toast beurre, petite pile de pancakes avec sirop d'erable, tasse de café filtre, petite feuille d'erable discrete en décor, ambiance dîner canadien du matin, palette moka mousse, doré pancakes, brun bacon, jaune œuf, rouge ketchup discret, crème café, composition généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -6571,16 +6571,16 @@ export const countries = [
     shortDescription:
       'Un bagel coupe et garni de cream cheese, parfois avec lox, capres, oignon rouge et tomate, très associé à New York.',
     longDescription:
-      'Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, capres, oignon rouge et tomate. La fiche doit rester centrée sur l ancrage new-yorkais plutôt que generaliser à tous les États-Unis.',
+      "Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, capres, oignon rouge et tomate. La fiche doit rester centrée sur l'ancrage new-yorkais plutôt que generaliser à tous les États-Unis.",
     breakfastSubtitle: 'Un classique de bagel shop et deli new-yorkais.',
     typicalItems: ['Bagel', 'Cream cheese', 'Lox', 'Capres', 'Oignon rouge', 'Café filtre'],
     commonDrinks: ['Café filtre', 'Café à emporter'],
     associatedDrink:
-      'Café filtre ou café à emporter, dans l esprit deli / bagel shop du matin.',
+      "Café filtre ou café à emporter, dans l'esprit deli / bagel shop du matin.",
     breakfastStyles: ['quick', 'savory', 'traditional', 'street-food', 'brunch'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'L ancrage le plus fort est new-yorkais et juif américain, plutôt qu américain uniforme.',
+      "L'ancrage le plus fort est new-yorkais et juif américain, plutôt qu américain uniforme.",
     culturalContext:
       'Le bagel cream cheese simple est courant, tandis que la version lox, cream cheese, capres et oignon rouge est devenue une image iconique de brunch ou deli.',
     funFact:
@@ -6659,7 +6659,7 @@ export const countries = [
       'Découvre le bagel au cream cheese, un classique américain très associé à New York, aux delis et à la cuisine juive américaine.',
     reviewNotes: [
       'Ne pas présenter le bagel cream cheese comme le petit-déjeuner de tous les Américains.',
-      'L ancrage le plus fort est new-yorkais et juif américain.',
+      "L'ancrage le plus fort est new-yorkais et juif américain.",
       'Bagel + lox + cream cheese est iconique, mais le bagel cream cheese simple est aussi courant.',
       'Bien distinguer le bagel new-yorkais du bagel montrealais.',
     ],
@@ -6712,15 +6712,15 @@ export const countries = [
     culturalContext:
       'La fiche est centrée sur le Costa Rica, même si le plat est aussi très important au Nicaragua, ou les versions peuvent différer.',
     funFact:
-      'Le nom gallo pinto evoque son apparence mouchetee : les haricots colorent le riz comme de petites taches dans l assiette.',
+      "Le nom gallo pinto evoque son apparence mouchetee : les haricots colorent le riz comme de petites taches dans l'assiette.",
     morningContext:
-      'Petit-déjeuner familial, assiette de soda local, buffet d hotel ou brunch simple selon les contextes.',
+      "Petit-déjeuner familial, assiette de soda local, buffet d'hotel ou brunch simple selon les contextes.",
     usualUsage: 'Petit-déjeuner, repas de soda, brunch ou accompagnement simple à base de riz et haricots.',
     variants: [
       'Version avec haricots noirs, très courante au Costa Rica.',
       'Version plus humide ou plus séché selon le jus de haricots.',
       'Version avec plus ou moins de sauce Lizano.',
-      'Version servie avec œufs brouilles ou œuf au plat.',
+      'Version servie avec œufs brouillés ou œuf au plat.',
       'Version accompagnée de tortillas, natilla, fromage frais ou plantain frit.',
       'Version nicaraguayenne proche, souvent avec haricots rouges, à traiter séparément.',
     ],
@@ -6827,7 +6827,7 @@ export const countries = [
     shortDescription:
       "Des œufs au plat servis sur tortillas de mais, nappes d'une salsa rouge tomate-piment.",
     longDescription:
-      "Les huevos rancheros sont un petit-déjeuner mexicain classique : une ou deux tortillas de mais passees à l'huile ou chauffees au comal, des œufs frits, puis une salsa rouge à base de tomate, piment, oignon et ail. Le plat est souvent accompagné de haricots refritos, avocat, queso fresco, coriandre ou riz, avec de nombreuses variantes régionales et familiales.",
+      "Les huevos rancheros sont un petit-déjeuner mexicain classique : une ou deux tortillas de mais passées à l'huile ou chauffées au comal, des œufs frits, puis une salsa rouge à base de tomate, piment, oignon et ail. Le plat est souvent accompagné de haricots refritos, avocat, queso fresco, coriandre ou riz, avec de nombreuses variantes régionales et familiales.",
     breakfastSubtitle: 'Des œufs sur tortillas, ou la salsa fait le plat.',
     typicalItems: ['Tortillas de mais', 'Œufs', 'Salsa roja', 'Haricots refritos', 'Queso fresco'],
     commonDrinks: ['Café', 'Café de olla', 'Chocolat chaud'],
@@ -6836,11 +6836,11 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'traditional', 'family', 'brunch'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'Le plat fonctionne car il condense plusieurs bases de la cuisine mexicaine : mais, œufs, piment, tomate, salsa et haricots.',
+      'Le plat fonctionne car il condénse plusieurs bases de la cuisine mexicaine : mais, œufs, piment, tomate, salsa et haricots.',
     culturalContext:
-      'L imagerie ranchera renvoie à un monde rural et nourrissant, mais les versions urbaines, familiales et internationales sont nombreuses.',
+      "L'imagerie ranchera renvoie à un monde rural et nourrissant, mais les versions urbaines, familiales et internationales sont nombreuses.",
     funFact:
-      "Le secret des huevos rancheros n'est pas seulement l œuf : sans salsa chaude tomate-piment, on perd l esprit ranchero.",
+      "Le secret des huevos rancheros n'est pas seulement l'œuf : sans salsa chaude tomate-piment, on perd l'esprit ranchero.",
     morningContext:
       'Petit-déjeuner copieux, almuerzo tardif, brunch ou plat de restaurant mexicain.',
     usualUsage: 'Servi au petit-déjeuner ou en almuerzo, parfois adapté en brunch.',
@@ -6918,9 +6918,9 @@ export const countries = [
     seoDescription:
       'Découvre les huevos rancheros, un petit-déjeuner mexicain classique avec œufs au plat, tortillas de mais, salsa rouge et haricots refritos.',
     reviewNotes: [
-      'L origine exacte du plat est rurale dans l imaginaire, mais ne doit pas être racontee trop precisement sans source solide.',
+      "L'origine exacte du plat est rurale dans l'imaginaire, mais ne doit pas être racontée trop précisément sans source solide.",
       'Les versions mexicaines et tex-mex peuvent beaucoup différer.',
-      'Les haricots sont très frequents, mais pas obligatoires dans toutes les versions.',
+      'Les haricots sont très fréquents, mais pas obligatoires dans toutes les versions.',
       'Ne pas présenter les huevos rancheros comme le petit-déjeuner mexicain unique.',
     ],
     sources: [
@@ -6945,11 +6945,11 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de huevos rancheros mexicains avec deux tortillas de mais, œufs au plat, salsa roja tomate-piment, haricots refritos, avocat, queso fresco, coriandre, piment serrano, tasse de café de olla en arrière-plan, ambiance cuisine rurale mexicaine du matin, palette moka mousse, rouge salsa, jaune œuf, vert avocat, beige tortilla, brun haricots, composition éditoriale vibrante, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'jamaica-ackee-saltfish',
-    country: 'Jamaique',
+    country: 'Jamaïque',
     countryCode: 'JM',
     flagEmoji: '🇯🇲',
     region: 'Caraibes',
@@ -6959,7 +6959,7 @@ export const countries = [
     shortDescription:
       'Le plat national jamaicain : ackee sauté avec morue salée, oignon, tomate, poivron, scotch bonnet et thym.',
     longDescription:
-      "Ackee and saltfish associé l ackee, fruit national de la Jamaique, à de la morue salée dessalee puis émiettée, avec oignon, tomate, poivron, piment scotch bonnet, thym et ciboule. Il est souvent servi au petit-déjeuner avec dumplings, plantain, banane verte, igname ou breadfruit, mais peut aussi être mange à d'autres moments.",
+      "Ackee and saltfish associé l'ackee, fruit national de la Jamaïque, à de la morue salée dessalée puis émiettée, avec oignon, tomate, poivron, piment scotch bonnet, thym et ciboule. Il est souvent servi au petit-déjeuner avec dumplings, plantain, banane verte, igname ou breadfruit, mais peut aussi être mangé à d'autres moments.",
     breakfastSubtitle: 'Un plat national caribeen, identitaire et copieux.',
     typicalItems: ['Ackee', 'Morue salée', 'Scotch bonnet', 'Thym', 'Dumplings', 'Plantain'],
     commonDrinks: ['Thé', 'Café', 'Jus'],
@@ -6968,11 +6968,11 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'traditional', 'family'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'Ackee and saltfish est un plat identitaire fort : l ackee est le fruit national jamaicain et le duo avec saltfish forme le plat national.',
+      "Ackee and saltfish est un plat identitaire fort : l'ackee est le fruit national jamaicain et le duo avec saltfish forme le plat national.",
     culturalContext:
-      'La fiche doit inclure une note de securite : l ackee frais non mur, les graines et certaines parties du fruit ne sont pas sures à consommer.',
+      "La fiche doit inclure une note de securite : l'ackee frais non mur, les graines et certaines parties du fruit ne sont pas sures à consommer.",
     funFact:
-      "Une fois cuisine, l ackee peut rappeler des œufs brouilles, mais il s'agit bien d'un fruit.",
+      "Une fois cuisine, l'ackee peut rappeler des œufs brouillés, mais il s'agit bien d'un fruit.",
     morningContext:
       'Petit-déjeuner traditionnel ou copieux, brunch, repas familial, repas du dimanche ou plat de fete.',
     usualUsage:
@@ -6983,17 +6983,17 @@ export const countries = [
       'Avec bananes vertes, igname ou autres ground provisions.',
       'Avec breadfruit roti ou frit.',
       'Avec plus ou moins de scotch bonnet.',
-      "Version à l'ackee en conserve, plus prudente hors Jamaique.",
+      "Version à l'ackee en conserve, plus prudente hors Jamaïque.",
     ],
     simplifiedRecipe: {
       title: 'Ackee and saltfish simplifie',
-      ingredients: ['Ackee en conserve', 'Morue salée dessalee', 'Oignon', 'Tomate', 'Poivron', 'Thym', 'Scotch bonnet'],
+      ingredients: ['Ackee en conserve', 'Morue salée dessalée', 'Oignon', 'Tomate', 'Poivron', 'Thym', 'Scotch bonnet'],
       steps: [
-        'Dessaler la morue plusieurs heures puis l emietter.',
+        "Dessaler la morue plusieurs heures puis l'emietter.",
         'Faire revenir oignon, poivron, tomate, ciboule et thym.',
         'Ajouter prudemment le scotch bonnet.',
         'Ajouter la morue émiettée.',
-        'Incorporer l ackee delicatement et servir avec plantain ou dumplings.',
+        "Incorporer l'ackee delicatement et servir avec plantain ou dumplings.",
       ],
       difficulty: 'medium',
       estimatedTimeMinutes: 75,
@@ -7048,11 +7048,11 @@ export const countries = [
     ],
     seoTitle: 'Ackee and Saltfish : le petit-déjeuner national jamaicain',
     seoDescription:
-      'Découvre ackee and saltfish, le plat national jamaicain à base d ackee et morue salée, souvent servi au petit-déjeuner avec dumplings, plantain ou provisions.',
+      "Découvre ackee and saltfish, le plat national jamaicain à base d'ackee et morue salée, souvent servi au petit-déjeuner avec dumplings, plantain ou provisions.",
     reviewNotes: [
-      'Ne jamais recommander d utiliser de l ackee frais non maitrise : l ackee doit être pleinement mur et correctement prépare.',
-      "Pour une recette grand public hors Jamaique, preferer l ackee en conserve provenant d'une source fiable.",
-      "Le plat est national et très associé au petit-déjeuner, mais il peut être mange à d'autres moments.",
+      "Ne jamais recommander d'utiliser de l'ackee frais non maitrise : l'ackee doit être pleinement mur et correctement prépare.",
+      "Pour une recette grand public hors Jamaïque, preferer l'ackee en conserve provenant d'une source fiable.",
+      "Le plat est national et très associé au petit-déjeuner, mais il peut être mangé à d'autres moments.",
       'Le scotch bonnet doit être dose prudemment.',
     ],
     sources: [
@@ -7072,7 +7072,7 @@ export const countries = [
         title: 'Hypoglycin A and Ackee Fruit',
         url: 'https://www.fda.gov/food/natural-toxins-food/hypoglycin-and-ackee-fruit',
         publisher: 'U.S. Food and Drug Administration',
-        note: "Securite alimentaire liee à l'ackee mur, aux graines et à l'hypoglycine A.",
+        note: "Securite alimentaire liée à l'ackee mur, aux graines et à l'hypoglycine A.",
       },
       {
         title: 'Ackee and Saltfish Recipe',
@@ -7082,7 +7082,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette jamaicaine d ackee and saltfish avec ackee jaune crémeux, morceaux de morue salée, tomate, poivron, ciboule, thym, piment scotch bonnet entier sur le cote, dumplings frits, plantain doré et banane verte, ambiance cuisine caribeenne du matin en Jamaique, palette moka mousse, jaune ackee, rouge tomate, vert ciboule, doré plantain, brun dumplings, composition éditoriale colorée et chaleureuse, sans photoréalisme, sans texte, sans logo.',
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette jamaicaine d'ackee and saltfish avec ackee jaune crémeux, morceaux de morue salée, tomate, poivron, ciboule, thym, piment scotch bonnet entier sur le cote, dumplings frits, plantain doré et banane verte, ambiance cuisine caribeenne du matin en Jamaïque, palette moka mousse, jaune ackee, rouge tomate, vert ciboule, doré plantain, brun dumplings, composition éditoriale colorée et chaleureuse, sans photoréalisme, sans texte, sans logo.",
     needsReview: true,
   }),
   makeCountry({
@@ -7095,18 +7095,18 @@ export const countries = [
     breakfastName: 'Cachapas',
     localName: 'Cachapa, cachapas, cachapa de budare',
     shortDescription:
-      'Une galette épaisse de mais frais, légèrement sucrée, souvent pliee autour de beurre et de queso de mano fondu.',
+      'Une galette épaisse de mais frais, légèrement sucrée, souvent pliée autour de beurre et de queso de mano fondu.',
     longDescription:
-      'La cachapa est une galette de mais frais, épaisse et rustique, cuite comme une crêpe ou un pancake sur une plaque chaude. Sa texture est moelleuse et un peu granuleuse, avec un goût naturellement sucre-sale. Elle est souvent servie pliee en deux avec du beurre et du queso de mano, mais peut aussi devenir un brunch, une street food ou un repas plus complet.',
+      'La cachapa est une galette de mais frais, épaisse et rustique, cuite comme une crêpe ou un pancake sur une plaque chaude. Sa texture est moelleuse et un peu granuleuse, avec un goût naturellement sucre-sale. Elle est souvent servie pliée en deux avec du beurre et du queso de mano, mais peut aussi devenir un brunch, une street food ou un repas plus complet.',
     breakfastSubtitle: 'Une galette de mais sucrée-salée entre breakfast, brunch et street food.',
     typicalItems: ['Mais frais', 'Queso de mano', 'Beurre', 'Queso guayanes', 'Nata'],
     commonDrinks: ['Café', 'Jus', 'Papelon con limon'],
     associatedDrink:
-      'Pas de boisson unique : l association structurante reste surtout mais, fromage et beurre.',
+      "Pas de boisson unique : l'association structurante reste surtout mais, fromage et beurre.",
     breakfastStyles: ['sweet', 'savory', 'hearty', 'street-food', 'family'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'La cachapa est fortement liee au mais et à la cuisine populaire vénézuélienne, entre version familiale, stand de route et cachapera.',
+      'La cachapa est fortement liée au mais et à la cuisine populaire vénézuélienne, entre version familiale, stand de route et cachapera.',
     culturalContext:
       'La cuisson sur budare est un marqueur culturel important, même si les versions maison utilisent souvent une poêle ou une plancha.',
     funFact:
@@ -7124,12 +7124,12 @@ export const countries = [
       'Version maison rapide avec mais en conserve ou surgele.',
     ],
     simplifiedRecipe: {
-      title: 'Cachapas vénézuéliennes simplifiees',
+      title: 'Cachapas vénézuéliennes simplifiées',
       ingredients: ['Mais doux', 'Œuf', 'Lait', 'Farine de mais precuite', 'Beurre', 'Fromage fondant'],
       steps: [
         'Mixer grossierement le mais avec œuf, lait, sel et sucre.',
         'Ajouter un peu de farine de mais pour épaissir.',
-        'Cuire en galette épaisse dans une poêle beurree.',
+        'Cuire en galette épaisse dans une poêle beurrée.',
         'Retourner delicatement quand le dessous est doré.',
         'Ajouter le fromage, plier et servir chaud.',
       ],
@@ -7211,7 +7211,7 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliee en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisee en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliée en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisee en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
     needsReview: true,
   }),
   makeCountry({
@@ -7226,33 +7226,33 @@ export const countries = [
     shortDescription:
       'Une soupe colombienne du matin à base de lait, eau, œuf, oignon long et coriandre.',
     longDescription:
-      "La changua est une soupe chaude à base de lait et d'eau, dans laquelle on poche un œuf, puis que l on parfume avec oignon long et coriandre. Elle est souvent servie avec du pain, du calado, du fromage ou parfois des almojabanas. Elle est surtout associée à Bogota, Cundinamarca, Boyaca et à l'altiplano cundiboyacense.",
+      "La changua est une soupe chaude à base de lait et d'eau, dans laquelle on poche un œuf, puis que l'on parfume avec oignon long et coriandre. Elle est souvent servie avec du pain, du calado, du fromage ou parfois des almojabanas. Elle est surtout associée à Bogota, Cundinamarca, Boyaca et à l'altiplano cundiboyacense.",
     breakfastSubtitle: 'Une soupe andine du matin, douce, chaude et clivante.',
     typicalItems: ['Lait', 'Eau', 'Œufs', 'Oignon long', 'Coriandre', 'Calado'],
     commonDrinks: ['Chocolat chaud', 'Café'],
     associatedDrink:
-      'Le chocolat chaud peut accompagner certains petits-déjeuners avec changua, mais la soupe reste l élément liquide central.',
+      "Le chocolat chaud peut accompagner certains petits-déjeuners avec changua, mais la soupe reste l'élément liquide central.",
     breakfastStyles: ['savory', 'traditional', 'family', 'healthy'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'La changua est liee aux matins frais des hauts plateaux colombiens et aux repas familiaux reconfortants.',
+      'La changua est liée aux matins frais des hauts plateaux colombiens et aux repas familiaux reconfortants.',
     culturalContext:
       'Elle ne doit pas être présentée comme un petit-déjeuner de toute la Colombie : son ancrage est surtout andin, notamment Bogota, Cundinamarca et Boyaca.',
     funFact:
-      "La changua divise : pour certains elle surprend, pour d'autres elle evoque l enfance, les matins froids et le reconfort.",
+      "La changua divise : pour certains elle surprend, pour d'autres elle evoque l'enfance, les matins froids et le reconfort.",
     morningContext:
       'Petit-déjeuner chaud, matin froid, panaderia, repas familial ou parfois lendemain de fete.',
     usualUsage: 'Servie chaude avec pain, calado, coriandre et parfois fromage ou almojabana.',
     variants: [
       'Changua simple avec lait, eau, œuf, oignon long et coriandre.',
-      'Version avec calado ou pain grille.',
+      'Version avec calado ou pain grillé.',
       'Version avec fromage fondu.',
       'Version avec almojabana.',
       'Version plus épaisse ou plus liquide.',
       'Version servie avec chocolat chaud à cote.',
     ],
     simplifiedRecipe: {
-      title: 'Changua colombienne simplifiee',
+      title: 'Changua colombienne simplifiée',
       ingredients: ['Lait', 'Eau', 'Œufs', 'Oignon long', 'Coriandre', 'Sel', 'Pain'],
       steps: [
         'Chauffer eau et lait avec oignon long, coriandre et sel.',
@@ -7314,7 +7314,7 @@ export const countries = [
     reviewNotes: [
       'Ne pas présenter la changua comme un petit-déjeuner de toute la Colombie.',
       'Garder un ton respectueux : le plat divise mais reste important culturellement.',
-      'Le fromage et l almojabana ne sont pas obligatoires dans toutes les versions.',
+      "Le fromage et l'almojabana ne sont pas obligatoires dans toutes les versions.",
       'Le chocolat chaud en accompagnement ne doit pas être systematise.',
     ],
     sources: [
@@ -7334,7 +7334,7 @@ export const countries = [
         title: 'Por que la changua es considerada por muchos como uno de los peores desayunos del mundo',
         url: 'https://cadenaser.com/nacional/2025/09/30/por-que-la-changua-es-considerada-por-muchos-como-uno-de-los-peores-desayunos-del-mundo-la-gente-tiende-a-juzgar-lo-que-no-entiende-cadena-ser/',
         publisher: 'Cadena SER',
-        note: 'Debat culturel recent autour de la changua et rappel de son contexte.',
+        note: 'Débat culturel recent autour de la changua et rappel de son contexte.',
       },
     ],
     illustrationPrompt:
@@ -7353,7 +7353,7 @@ export const countries = [
     shortDescription:
       'Du pain cubain beurre et presse à la plancha, servi avec un café con leche chaud.',
     longDescription:
-      "La tostada cubana est une tranche ou longueur de pain cubain, coupée, beurree puis pressee à chaud jusqu'à devenir dorée et croustillante à l'extérieur tout en restant tendre à l'intérieur. Elle est très souvent servie avec un café con leche, café fort mélange a du lait chaud. Le duo est très associé au petit-déjeuner cubain et aux cafés ou boulangeries cubaines, notamment dans la diaspora de Floride.",
+      "La tostada cubana est une tranche ou longueur de pain cubain, coupée, beurrée puis pressee à chaud jusqu'à devenir dorée et croustillante à l'extérieur tout en restant tendre à l'intérieur. Elle est très souvent servie avec un café con leche, café fort mélange a du lait chaud. Le duo est très associé au petit-déjeuner cubain et aux cafés ou boulangeries cubaines, notamment dans la diaspora de Floride.",
     breakfastSubtitle: 'Un duo café-pain simple, rapide et très ritualise.',
     typicalItems: ['Pain cubain', 'Beurre', 'Café cubain', 'Lait chaud', 'Sucre'],
     commonDrinks: ['Café con leche'],
@@ -7366,7 +7366,7 @@ export const countries = [
     culturalContext:
       'La tostada et le café con leche forment une commande très identifiable dans les boulangeries cubaines et les ventanitas.',
     funFact:
-      'Le geste compte autant que la recette : la tostada est souvent coupée en bandes puis trempee dans le café con leche.',
+      'Le geste compte autant que la recette : la tostada est souvent coupée en bandes puis trempée dans le café con leche.',
     morningContext:
       'Petit-déjeuner simple, pause café du matin, boulangerie cubaine, ventanita ou snack rapide.',
     usualUsage:
@@ -7374,7 +7374,7 @@ export const countries = [
     variants: [
       'Tostada simple avec pain cubain et beurre.',
       'Tostada pressee à la plancha.',
-      'Tostada trempee dans le café con leche.',
+      'Tostada trempée dans le café con leche.',
       'Version avec fruit frais.',
       'Version plus complete avec œufs, jambon ou fromage.',
       'Café con leche plus ou moins sucre ou lacte.',

@@ -11,7 +11,7 @@ export const parathaWithCurryRecipe = {
   longDescription:
     'Le paratha est un pain plat de ble, souvent feuilleté ou farci, cuit sur tawa avec ghee ou huile. En Inde du Nord, il est fortement associé aux petits-déjeuners copieux, en particulier dans les foyers punjabis et les dhabas. Paratha with curry reste un intitule large : dans les usages courants, le paratha peut être servi avec curd, pickle, beurre, dal, sabzi, chole, curry de légumes, chai ou lassi.',
   ingredients: [
-    '250 g d atta ou farine complete',
+    "250 g d'atta ou farine complete",
     "140 ml d'eau",
     'Sel',
     '3 pommes de terre moyennes',
@@ -104,12 +104,12 @@ export const parathaWithCurryRecipe = {
     'Version aloo paratha lisible pour le public. Le paratha nature est plus simple, mais la version farcie représente bien les petits-déjeuners copieux du nord.',
   seoTitle: 'Paratha : le pain plat du petit-déjeuner nord-indien',
   seoDescription:
-    'Découvre le paratha, un pain plat d Inde du Nord souvent servi au petit-déjeuner avec yaourt, pickle, beurre, dal ou curry.',
+    "Découvre le paratha, un pain plat d'Inde du Nord souvent servi au petit-déjeuner avec yaourt, pickle, beurre, dal ou curry.",
   reviewNotes: [
     'Paratha with curry est trop général : beaucoup de versions sont servies avec curd, pickle ou beurre plutôt qu avec un curry liquide.',
-    'L aloo paratha est très associé au Punjab et au nord de l Inde, mais il est consommé plus largement.',
+    "L'aloo paratha est très associé au Punjab et au nord de l'Inde, mais il est consommé plus largement.",
     'Le mot paratha couvre de nombreuses formes : nature, farci, feuilleté, rond, carre, plus ou moins gras.',
-    'Ne pas confondre paratha nord-indien et parotta du sud de l Inde.',
+    "Ne pas confondre paratha nord-indien et parotta du sud de l'Inde.",
     'Ne pas présenter le paratha comme le petit-déjeuner nord-indien unique.',
   ],
   sources: [
@@ -123,7 +123,7 @@ export const parathaWithCurryRecipe = {
       title: 'Aloo Paratha Recipe',
       url: 'https://www.indianhealthyrecipes.com/aloo-paratha/',
       publisher: 'Swasthi Indian Healthy Recipes',
-      note: 'Paratha de petit-déjeuner dans foyers, dhabas et restaurants du nord de l Inde.',
+      note: "Paratha de petit-déjeuner dans foyers, dhabas et restaurants du nord de l'Inde.",
     },
     {
       title: 'Top 10 North Indian Breakfast Recipes',
@@ -141,7 +141,7 @@ export const parathaWithCurryRecipe = {
       title: 'Meera Sodha aloo paratha with quick lemon pickle',
       url: 'https://www.theguardian.com/lifeandstyle/2018/jan/06/aloo-paratha-recipe-quick-lemon-pickle-vegan-meera-sodha',
       publisher: 'The Guardian',
-      note: 'Version contemporaine d aloo paratha avec pickle, source culinaire complémentaire.',
+      note: "Version contemporaine d'aloo paratha avec pickle, source culinaire complémentaire.",
     },
   ],
   illustrationPrompt:

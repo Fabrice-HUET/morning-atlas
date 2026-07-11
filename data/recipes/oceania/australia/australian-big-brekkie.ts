@@ -7,9 +7,9 @@ export const australianBigBrekkieRecipe = {
   countrySlugs: ['australia-fry-up'],
   originLabel: 'Australie',
   shortDescription:
-    'Une grande assiette de café ou brunch avec œufs, bacon, saucisses, tomates grillees, champignons, beans, toast et parfois avocat.',
+    'Une grande assiette de café ou brunch avec œufs, bacon, saucisses, tomates grilléeses, champignons, beans, toast et parfois avocat.',
   longDescription:
-    "L Australian Big Brekkie appartient à la famille des fry-ups anglo-britanniques, mais s'est adapté aux cafés australiens et à la culture du brunch. Une assiette courante peut inclure œufs, bacon, saucisses, tomates grillees, champignons, baked beans, toast, hash browns, épinards ou avocat. Ce n'est pas forcement un petit-déjeuner quotidien : c'est plutôt une assiette de week-end, café, brunch ou roadhouse.",
+    "L'Australian Big Brekkie appartient à la famille des fry-ups anglo-britanniques, mais s'est adapté aux cafés australiens et à la culture du brunch. Une assiette courante peut inclure œufs, bacon, saucisses, tomates grilléeses, champignons, baked beans, toast, hash browns, épinards ou avocat. Ce n'est pas forcément un petit-déjeuner quotidien : c'est plutôt une assiette de week-end, café, brunch ou roadhouse.",
   ingredients: [
     '4 œufs',
     '4 tranches de bacon',
@@ -47,7 +47,7 @@ export const australianBigBrekkieRecipe = {
     "Faire revenir les champignons avec un peu de beurre ou d'huile.",
     'Réchauffer les baked beans.',
     'Faire toaster le pain.',
-    'Cuire les œufs au plat, brouilles ou poches.',
+    'Cuire les œufs au plat, brouillés ou poches.',
     'Disposer tous les éléments dans une grande assiette.',
     'Ajouter avocat, épinards ou hash browns si souhaite.',
     'Servir avec café, sauce tomate, relish ou sauce barbecue.',
@@ -92,11 +92,11 @@ export const australianBigBrekkieRecipe = {
     'Big Brekkie est plus naturel pour le ton éditorial que Fry-up, mais la fiche garde le slug existant australia-fry-up.',
   seoTitle: 'Big Brekkie australien : le fry-up version café',
   seoDescription:
-    'Découvre le big brekkie australien, une grande assiette salée avec œufs, bacon, saucisses, tomates grillees, champignons, beans et toast.',
+    'Découvre le big brekkie australien, une grande assiette salée avec œufs, bacon, saucisses, tomates grilléeses, champignons, beans et toast.',
   reviewNotes: [
     'Très influence par le full English breakfast ; ne pas présenter comme une invention purement australienne.',
     'Plutôt café, brunch, week-end ou roadhouse que petit-déjeuner quotidien.',
-    'Les versions contemporaines peuvent inclure avocat, halloumi, sourdough, relish ou légumes grilles.',
+    'Les versions contemporaines peuvent inclure avocat, halloumi, sourdough, relish ou légumes grilléss.',
     'Présenter comme une version copieuse souvent associée aux cafés australiens.',
   ],
   sources: [
@@ -120,6 +120,6 @@ export const australianBigBrekkieRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de big brekkie australien avec œufs au plat, bacon, saucisse, tomates grillees, champignons, baked beans, toast au levain, avocat en option, tasse de flat white à cote, ambiance café australien du week-end, palette moka mousse, brun toast, rouge tomate, jaune œuf, vert avocat, crème café, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de big brekkie australien avec œufs au plat, bacon, saucisse, tomates grilléeses, champignons, baked beans, toast au levain, avocat en option, tasse de flat white à cote, ambiance café australien du week-end, palette moka mousse, brun toast, rouge tomate, jaune œuf, vert avocat, crème café, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

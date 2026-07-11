@@ -88,10 +88,10 @@ export const dimSumRecipe = {
   featured: true,
   recreateAtHomeLevel: 'hard',
   notes:
-    'Une version simplifiee avec éléments prets peut être rapide, mais un repas dim sum complet demande plusieurs techniques et beaucoup de coordination.',
+    'Une version simplifiée avec éléments prets peut être rapide, mais un repas dim sum complet demande plusieurs techniques et beaucoup de coordination.',
   seoTitle: 'Dim Sum : le brunch cantonais à partager avec le thé',
   seoDescription:
-    'Découvre le dim sum, une tradition cantonaise de petites bouchées partagees avec du thé, souvent associée au yum cha à Hong Kong et dans le Guangdong.',
+    'Découvre le dim sum, une tradition cantonaise de petites bouchées partagées avec du thé, souvent associée au yum cha à Hong Kong et dans le Guangdong.',
   reviewNotes: [
     'Southeastern China est trop vague : privilégier culture cantonaise, Guangdong, Hong Kong et Macao.',
     "Le dim sum n'est pas un plat unique, mais une famille de bouchées et un rituel social.",
@@ -109,13 +109,13 @@ export const dimSumRecipe = {
       title: 'Best Dim Sum in Hong Kong',
       url: 'https://www.cntraveler.com/gallery/best-dim-sum-in-hong-kong',
       publisher: 'Conde Nast Traveler',
-      note: 'Moment de consommation du matin au debut d après-midi et lien avec yum cha.',
+      note: "Moment de consommation du matin au debut d'après-midi et lien avec yum cha.",
     },
     {
       title: 'The Evolution of Hong Kong Yum Cha Culture',
       url: 'https://guide.michelin.com/en/article/features/%E9%BB%9E%E9%BB%9E%E5%BF%83%E6%84%8F',
       publisher: 'MICHELIN Guide',
-      note: 'Evolution de la culture yum cha et diversite des restaurants.',
+      note: 'Evolution de la culture yum cha et diversité des restaurants.',
     },
     {
       title: 'Dim Sum Is a Way of Life in Cantonese Culture',

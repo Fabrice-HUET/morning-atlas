@@ -25,7 +25,7 @@ export const kosaiRecipe = {
     "Frotter les haricots dans l'eau pour retirer une partie des peaux.",
     'Rincer plusieurs fois pour enlever les peaux qui flottent.',
     "Mixer les haricots avec l'oignon, le piment, le sel et très peu d'eau.",
-    'Fouetter ou mélanger la pâte quelques minutes pour l aerer.',
+    "Fouetter ou mélanger la pâte quelques minutes pour l'aerer.",
     "Faire chauffer l'huile dans une casserole.",
     "Deposer de petites cuillerees de pâte dans l'huile chaude.",
     "Frire jusqu'à ce que les beignets soient dorés.",
@@ -55,7 +55,7 @@ export const kosaiRecipe = {
     "La recette est simple dans l'idée, mais le trempage, le decorticage et la friture demandent un peu de pratique.",
   seoTitle: 'Kosai : les beignets de haricots du petit-déjeuner haoussa',
   seoDescription:
-    'Découvre le kosai, un beignet sale de haricots souvent associé au petit-déjeuner de rue dans le nord du Nigeria, proche de l akara.',
+    "Découvre le kosai, un beignet sale de haricots souvent associé au petit-déjeuner de rue dans le nord du Nigeria, proche de l'akara.",
   reviewNotes: [
     'Le lien exact entre kosai, akara et koose doit rester nuance.',
     'Les sources directes sur kosai en contexte haoussa sont moins nombreuses que celles sur akara.',
@@ -84,7 +84,7 @@ export const kosaiRecipe = {
       title: 'Koko Da Kosai: Traditional Hausa Breakfast',
       url: 'https://www.oneindia.com/lifestyle/koko-da-kosai-traditional-hausa-breakfast-of-fermented-corn-porridge-and-bean-fritters-011-7966182.html',
       publisher: 'OneIndia',
-      note: 'Source secondaire à utiliser avec prudence pour l association koko da kosai.',
+      note: "Source secondaire à utiliser avec prudence pour l'association koko da kosai.",
     },
   ],
   illustrationPrompt:

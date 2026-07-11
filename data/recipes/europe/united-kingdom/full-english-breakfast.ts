@@ -9,7 +9,7 @@ export const fullEnglishBreakfastRecipe = {
   shortDescription:
     'Un petit-déjeuner anglais copieux avec œufs, bacon, saucisses, tomates, champignons, beans, toast ou pain frit.',
   longDescription:
-    "Le Full English Breakfast est une grande assiette chaude et salée, souvent composee d'œufs, bacon, saucisses, tomates grillees, champignons, baked beans, toast ou fried bread, avec parfois du black pudding. Il appartient à la famille plus large des breakfasts complets britanniques et irlandais. Pour Morning Atlas, il doit être cadre comme breakfast de café, hotel, pub, brunch ou week-end, pas comme routine quotidienne universelle.",
+    "Le Full English Breakfast est une grande assiette chaude et salée, souvent composee d'œufs, bacon, saucisses, tomates grilléeses, champignons, baked beans, toast ou fried bread, avec parfois du black pudding. Il appartient à la famille plus large des breakfasts complets britanniques et irlandais. Pour Morning Atlas, il doit être cadre comme breakfast de café, hotel, pub, brunch ou week-end, pas comme routine quotidienne universelle.",
   ingredients: [
     '4 œufs',
     '4 tranches de back bacon ou bacon',
@@ -48,7 +48,7 @@ export const fullEnglishBreakfastRecipe = {
     'Faire revenir les champignons.',
     'Réchauffer les baked beans.',
     'Toaster ou frire le pain.',
-    'Cuire les œufs au plat, poches ou brouilles.',
+    'Cuire les œufs au plat, poches ou brouillés.',
     'Ajouter le black pudding si utilise.',
     'Disposer tous les éléments dans une grande assiette.',
     'Servir chaud avec thé, café et sauce brune.',
@@ -97,7 +97,7 @@ export const fullEnglishBreakfastRecipe = {
   reviewNotes: [
     'Ne pas présenter le Full English comme un petit-déjeuner quotidien.',
     'Les ingrédients ne sont pas strictement fixes.',
-    'Les variantes écossaises, galloises, irlandaises et nord-irlandaises meriteraient des fiches séparées.',
+    'Les variantes écossaises, galloises, irlandaises et nord-irlandaises mériteraient des fiches séparées.',
     'Le hash brown est courant dans certaines assiettes modernes, mais discute dans les versions traditionnelles.',
   ],
   sources: [
@@ -121,6 +121,6 @@ export const fullEnglishBreakfastRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de Full English Breakfast avec œufs au plat, bacon, saucisses, baked beans, tomates grillees, champignons, toast, black pudding optionnel, tasse de thé noir, ambiance café anglais du matin, palette moka mousse, brun toast, rouge tomate, jaune œuf, beige haricots, vert discret, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de Full English Breakfast avec œufs au plat, bacon, saucisses, baked beans, tomates grilléeses, champignons, toast, black pudding optionnel, tasse de thé noir, ambiance café anglais du matin, palette moka mousse, brun toast, rouge tomate, jaune œuf, beige haricots, vert discret, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe

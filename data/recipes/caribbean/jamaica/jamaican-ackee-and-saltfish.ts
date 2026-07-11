@@ -5,13 +5,13 @@ export const jamaicanAckeeAndSaltfishRecipe = {
   title: 'Ackee and saltfish jamaicain',
   localName: 'Ackee and saltfish, ackee & saltfish',
   countrySlugs: ['jamaica-ackee-saltfish'],
-  originLabel: 'Jamaique',
+  originLabel: 'Jamaïque',
   shortDescription:
     'Le plat national jamaicain : ackee sauté avec morue salée, oignon, tomate, poivron, scotch bonnet et thym.',
   longDescription:
-    "Ackee and saltfish associé l ackee, fruit national de la Jamaique, à de la morue salée dessalee puis émiettée, avec oignon, tomate, poivron, piment scotch bonnet, thym et ciboule. Il est souvent servi au petit-déjeuner avec dumplings, plantain, banane verte, igname ou breadfruit, mais peut aussi être mange à d'autres moments.",
+    "Ackee and saltfish associé l'ackee, fruit national de la Jamaïque, à de la morue salée dessalée puis émiettée, avec oignon, tomate, poivron, piment scotch bonnet, thym et ciboule. Il est souvent servi au petit-déjeuner avec dumplings, plantain, banane verte, igname ou breadfruit, mais peut aussi être mangé à d'autres moments.",
   ingredients: [
-    '1 boite d ackee égoutté',
+    "1 boite d'ackee égoutté",
     '200 g de morue salée',
     '1 petit oignon',
     '1 tomate',
@@ -45,14 +45,14 @@ export const jamaicanAckeeAndSaltfishRecipe = {
   steps: [
     'Faire tremper la morue salée plusieurs heures ou toute une nuit.',
     "Changer l'eau si besoin pour réduire le sel.",
-    'Faire bouillir brievement la morue, puis l emietter.',
+    "Faire bouillir brievement la morue, puis l'emietter.",
     "Faire chauffer un peu d'huile.",
     'Faire revenir oignon, poivron, tomate, ciboule, ail et thym.',
     'Ajouter un peu de scotch bonnet avec prudence.',
     'Ajouter le saltfish emiette.',
     'Mélanger quelques minutes.',
-    'Ajouter l ackee égoutté très delicatement.',
-    'Remuer le moins possible pour ne pas l écraser.',
+    "Ajouter l'ackee égoutté très delicatement.",
+    "Remuer le moins possible pour ne pas l'écraser.",
     'Poivrer et ajuster le sel seulement si nécessaire.',
     'Servir avec dumplings, plantain, banane verte ou breadfruit.',
   ],
@@ -92,14 +92,14 @@ export const jamaicanAckeeAndSaltfishRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    'Pour un public international, utiliser de l ackee en conserve fiable. Ne pas recommander l ackee frais non maitrise : il doit être pleinement mur et correctement prépare.',
+    "Pour un public international, utiliser de l'ackee en conserve fiable. Ne pas recommander l'ackee frais non maitrise : il doit être pleinement mur et correctement prépare.",
   seoTitle: 'Ackee and Saltfish : le petit-déjeuner national jamaicain',
   seoDescription:
-    'Découvre ackee and saltfish, le plat national jamaicain à base d ackee et morue salée, souvent servi au petit-déjeuner avec dumplings, plantain ou provisions.',
+    "Découvre ackee and saltfish, le plat national jamaicain à base d'ackee et morue salée, souvent servi au petit-déjeuner avec dumplings, plantain ou provisions.",
   reviewNotes: [
-    'Ne jamais recommander d utiliser de l ackee frais non maitrise.',
-    'Preferer l ackee en conserve fiable pour une recette grand public hors Jamaique.',
-    "Le plat est national et très associé au petit-déjeuner, mais peut être mange à d'autres moments.",
+    "Ne jamais recommander d'utiliser de l'ackee frais non maitrise.",
+    "Preferer l'ackee en conserve fiable pour une recette grand public hors Jamaïque.",
+    "Le plat est national et très associé au petit-déjeuner, mais peut être mangé à d'autres moments.",
     'Les accompagnements changent beaucoup selon familles et contextes.',
   ],
   sources: [
@@ -119,7 +119,7 @@ export const jamaicanAckeeAndSaltfishRecipe = {
       title: 'Hypoglycin A and Ackee Fruit',
       url: 'https://www.fda.gov/food/natural-toxins-food/hypoglycin-and-ackee-fruit',
       publisher: 'U.S. Food and Drug Administration',
-      note: "Securite alimentaire liee à l'ackee mur, aux graines et à l'hypoglycine A.",
+      note: "Securite alimentaire liée à l'ackee mur, aux graines et à l'hypoglycine A.",
     },
     {
       title: 'Ackee and Saltfish Recipe',
@@ -129,6 +129,6 @@ export const jamaicanAckeeAndSaltfishRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette jamaicaine d ackee and saltfish avec ackee jaune crémeux, morceaux de morue salée, tomate, poivron, ciboule, thym, piment scotch bonnet entier sur le cote, dumplings frits, plantain doré et banane verte, ambiance cuisine caribeenne du matin en Jamaique, palette moka mousse, jaune ackee, rouge tomate, vert ciboule, doré plantain, brun dumplings, composition éditoriale colorée et chaleureuse, sans photoréalisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette jamaicaine d'ackee and saltfish avec ackee jaune crémeux, morceaux de morue salée, tomate, poivron, ciboule, thym, piment scotch bonnet entier sur le cote, dumplings frits, plantain doré et banane verte, ambiance cuisine caribeenne du matin en Jamaïque, palette moka mousse, jaune ackee, rouge tomate, vert ciboule, doré plantain, brun dumplings, composition éditoriale colorée et chaleureuse, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

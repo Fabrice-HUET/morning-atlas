@@ -9,9 +9,9 @@ export const ogiRecipe = {
   shortDescription:
     'Une bouillie de céréales fermentées, douce et légèrement acidulée, souvent servie chaude au petit-déjeuner.',
   longDescription:
-    "L ogi est une bouillie fermentée très présenté dans les habitudes alimentaires nigerianes. Elle est traditionnellement préparée à partir de mais, de sorgho ou de millet trempes, moulus, filtres puis fermentés. Une fois la base prete, elle est cuite avec de l'eau chaude jusqu'à devenir lisse, crémeuse et légèrement acidulée.",
+    "L'ogi est une bouillie fermentée très présenté dans les habitudes alimentaires nigerianes. Elle est traditionnellement préparée à partir de mais, de sorgho ou de millet trempes, moulus, filtrés puis fermentés. Une fois la base prete, elle est cuite avec de l'eau chaude jusqu'à devenir lisse, crémeuse et légèrement acidulée.",
   ingredients: [
-    '1/2 tasse de pâte d ogi ou poudre d ogi',
+    "1/2 tasse de pâte d'ogi ou poudre d'ogi",
     "1/4 tasse d'eau froide",
     "2 à 2,5 tasses d'eau bouillante",
     'Option : lait',
@@ -19,11 +19,11 @@ export const ogiRecipe = {
   ],
   ingredientSlugs: ['corn', 'sorghum', 'millet', 'water', 'milk', 'sugar', 'honey', 'dates'],
   steps: [
-    "Mélanger la pâte ou poudre d ogi avec un peu d'eau froide pour eviter les grumeaux.",
+    "Mélanger la pâte ou poudre d'ogi avec un peu d'eau froide pour eviter les grumeaux.",
     "Faire bouillir de l'eau.",
     "Verser progressivement l'eau chaude sur le mélange en remuant sans arret.",
     "Remettre quelques minutes à feu doux si besoin, jusqu'à obtenir une texture lisse.",
-    "Ajuster l epaisseur avec un peu d'eau chaude.",
+    "Ajuster l'epaisseur avec un peu d'eau chaude.",
     'Ajouter lait, sucre ou miel si souhaite.',
     'Servir chaud, seul ou avec akara, kosai, moi moi ou pain.',
   ],
@@ -51,18 +51,18 @@ export const ogiRecipe = {
     'La préparation est facile avec une pâte ou poudre prete. La fermentation maison demande plusieurs jours et davantage de pratique.',
   seoTitle: 'Ogi : la bouillie fermentée du petit-déjeuner nigerian',
   seoDescription:
-    'Découvre l ogi, une bouillie nigeriane à base de mais, sorgho ou millet fermenté, souvent servie chaude au petit-déjeuner.',
+    "Découvre l'ogi, une bouillie nigeriane à base de mais, sorgho ou millet fermenté, souvent servie chaude au petit-déjeuner.",
   reviewNotes: [
     'Les noms ogi, akamu, pap et koko changent selon les régions, langues et familles.',
-    'Ne pas présenter l ogi comme uniquement yoruba.',
-    'Eviter les promesses medicales ; rester sur un plat léger, fermenté et familial.',
+    "Ne pas présenter l'ogi comme uniquement yoruba.",
+    'Eviter les promesses médicales ; rester sur un plat léger, fermenté et familial.',
   ],
   sources: [
     {
       title: 'Nutritional and sensory properties of co-fermented maize, millet and sorghum/soybean pap-(ogi)',
       url: 'https://medcraveonline.com/MOJFPT/nutritional-and-sensory-properties-of-co-fermented-maize-millet-and-sorghumsoybean-pap-ogi.html',
       publisher: 'MedCrave Online',
-      note: 'Définition d ogi comme bouillie fluide de céréales fermentées, populaire au petit-déjeuner au Nigeria.',
+      note: "Définition d'ogi comme bouillie fluide de céréales fermentées, populaire au petit-déjeuner au Nigeria.",
     },
     {
       title: 'Nigerian Pap (Ogi / Akamu)',
@@ -78,6 +78,6 @@ export const ogiRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol d ogi nigerian crémeux et fumant, texture lisse couleur crème pale, petite cruche de lait, quelques grains de mais, millet et sorgho en décor, deux petits beignets akara à cote, ambiance cuisine familiale du matin, palette moka mousse, crème, jaune mais, brun doux et rouge discret, composition simple pour fiche éditoriale, sans photoréalisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol d'ogi nigerian crémeux et fumant, texture lisse couleur crème pale, petite cruche de lait, quelques grains de mais, millet et sorgho en décor, deux petits beignets akara à cote, ambiance cuisine familiale du matin, palette moka mousse, crème, jaune mais, brun doux et rouge discret, composition simple pour fiche éditoriale, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

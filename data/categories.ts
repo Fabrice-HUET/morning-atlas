@@ -38,33 +38,33 @@ export const categories = [
   },
   {
     slug: 'breakfasts-of-africa',
-    name: 'Petits-déjeuners d Afrique',
+    name: "Petits-déjeuners d'Afrique",
     description: 'Fiches rattachées aux pays, régions et traditions culinaires africaines du matin.',
   },
   {
     slug: 'breakfasts-of-asia',
-    name: 'Petits-déjeuners d Asie',
+    name: "Petits-déjeuners d'Asie",
     description: 'Fiches rattachées aux pays, régions et traditions culinaires asiatiques du matin.',
   },
   {
     slug: 'breakfasts-of-europe',
-    name: 'Petits-déjeuners d Europe',
+    name: "Petits-déjeuners d'Europe",
     description: 'Fiches rattachées aux pays, régions et traditions culinaires europeennes du matin.',
   },
   {
     slug: 'breakfasts-of-oceania',
-    name: 'Petits-déjeuners d Océanie',
-    description: 'Fiches rattachées aux pays, îles et cultures culinaires du Pacifique et de l Océanie.',
+    name: "Petits-déjeuners d'Océanie",
+    description: "Fiches rattachées aux pays, îles et cultures culinaires du Pacifique et de l'Océanie.",
   },
   {
     slug: 'breakfasts-of-north-america',
-    name: 'Petits-déjeuners d Amérique du Nord',
+    name: "Petits-déjeuners d'Amérique du Nord",
     description: 'Fiches rattachées au Canada, aux États-Unis et aux cultures culinaires nord-américaines du matin.',
   },
   {
     slug: 'breakfasts-of-central-america',
-    name: 'Petits-déjeuners d Amérique centrale',
-    description: 'Fiches rattachées aux pays et cuisines matinales d Amérique centrale.',
+    name: "Petits-déjeuners d'Amérique centrale",
+    description: "Fiches rattachées aux pays et cuisines matinales d'Amérique centrale.",
   },
   {
     slug: 'breakfasts-of-the-caribbean',
@@ -73,18 +73,18 @@ export const categories = [
   },
   {
     slug: 'breakfasts-of-south-america',
-    name: 'Petits-déjeuners d Amérique du Sud',
+    name: "Petits-déjeuners d'Amérique du Sud",
     description: 'Fiches rattachées aux pays, régions et cultures culinaires sud-américaines du matin.',
   },
   {
     slug: 'east-asian-breakfasts',
     name: "Asie de l'est",
-    description: "Petits-déjeuners rattachés aux cuisines d Asie de l'est.",
+    description: "Petits-déjeuners rattachés aux cuisines d'Asie de l'est.",
   },
   {
     slug: 'southeast-asian-breakfasts',
     name: 'Asie du Sud-Est',
-    description: 'Petits-déjeuners rattachés aux cuisines d Asie du Sud-Est.',
+    description: "Petits-déjeuners rattachés aux cuisines d'Asie du Sud-Est.",
   },
   {
     slug: 'japanese-breakfasts',
@@ -129,7 +129,7 @@ export const categories = [
   {
     slug: 'kopitiam-breakfasts',
     name: 'Kopitiam',
-    description: 'Petits-déjeuners associés aux coffee shops traditionnels d Asie du Sud-Est.',
+    description: "Petits-déjeuners associés aux coffee shops traditionnels d'Asie du Sud-Est.",
   },
   {
     slug: 'toast-breakfasts',
@@ -154,7 +154,7 @@ export const categories = [
   {
     slug: 'kid-friendly-breakfasts',
     name: 'Enfants',
-    description: 'Petits-déjeuners simples, familiaux et souvent associés aux matins d enfants.',
+    description: "Petits-déjeuners simples, familiaux et souvent associés aux matins d'enfants.",
   },
   {
     slug: 'cafe-breakfasts',
@@ -184,7 +184,7 @@ export const categories = [
   {
     slug: 'oat-breakfasts',
     name: 'Base avoine',
-    description: 'Porridges, mueslis et bols construits autour de l avoine.',
+    description: "Porridges, mueslis et bols construits autour de l'avoine.",
   },
   {
     slug: 'open-sandwich-breakfasts',
@@ -224,7 +224,7 @@ export const categories = [
   {
     slug: 'classic-breakfasts',
     name: 'Classiques',
-    description: 'Petits-déjeuners simples, très reconnaissables et installes dans l imaginaire local.',
+    description: "Petits-déjeuners simples, très reconnaissables et installes dans l'imaginaire local.",
   },
   {
     slug: 'british-breakfasts',
@@ -379,7 +379,7 @@ export const categories = [
   {
     slug: 'south-asian-breakfasts',
     name: 'Asie du Sud',
-    description: 'Petits-déjeuners rattachés aux cuisines d Asie du Sud.',
+    description: "Petits-déjeuners rattachés aux cuisines d'Asie du Sud.",
   },
   {
     slug: 'bangladeshi-breakfasts',
@@ -394,17 +394,17 @@ export const categories = [
   {
     slug: 'south-indian-breakfasts',
     name: 'Inde du Sud',
-    description: 'Petits-déjeuners lies aux cuisines du sud de l Inde.',
+    description: "Petits-déjeuners lies aux cuisines du sud de l'Inde.",
   },
   {
     slug: 'north-indian-breakfasts',
     name: 'Inde du Nord',
-    description: 'Petits-déjeuners lies aux cuisines du nord de l Inde.',
+    description: "Petits-déjeuners lies aux cuisines du nord de l'Inde.",
   },
   {
     slug: 'western-indian-breakfasts',
     name: "Inde de l'ouest",
-    description: "Petits-déjeuners lies aux cuisines de l'ouest de l Inde.",
+    description: "Petits-déjeuners lies aux cuisines de l'ouest de l'Inde.",
   },
   {
     slug: 'maharashtrian-breakfasts',
@@ -449,7 +449,7 @@ export const categories = [
   {
     slug: 'bread-breakfasts',
     name: 'Pains du matin',
-    description: 'Petits-déjeuners ou un pain frais structure l assiette.',
+    description: "Petits-déjeuners ou un pain frais structure l'assiette.",
   },
   {
     slug: 'comfort-breakfasts',
@@ -469,12 +469,12 @@ export const categories = [
   {
     slug: 'quick-at-home',
     name: 'Rapide à la maison',
-    description: 'Versions simplifiees realisables avec peu de temps ou des ingrédients faciles.',
+    description: 'Versions simplifiées realisables avec peu de temps ou des ingrédients faciles.',
   },
   {
     slug: 'west-african-breakfasts',
     name: "Afrique de l'ouest",
-    description: "Petits-déjeuners rattachés aux pays, régions et cultures culinaires d Afrique de l'ouest.",
+    description: "Petits-déjeuners rattachés aux pays, régions et cultures culinaires d'Afrique de l'ouest.",
   },
   {
     slug: 'protein-rich-breakfasts',
@@ -509,17 +509,17 @@ export const categories = [
   {
     slug: 'southern-african-breakfasts',
     name: 'Afrique australe',
-    description: 'Petits-déjeuners rattachés aux pays et cultures culinaires d Afrique australe.',
+    description: "Petits-déjeuners rattachés aux pays et cultures culinaires d'Afrique australe.",
   },
   {
     slug: 'east-african-breakfasts',
     name: "Afrique de l'est",
-    description: "Petits-déjeuners rattachés aux pays et cultures culinaires d Afrique de l'est.",
+    description: "Petits-déjeuners rattachés aux pays et cultures culinaires d'Afrique de l'est.",
   },
   {
     slug: 'horn-of-africa-breakfasts',
-    name: 'Corne de l Afrique',
-    description: 'Petits-déjeuners rattachés aux cuisines de la Corne de l Afrique.',
+    name: "Corne de l'Afrique",
+    description: "Petits-déjeuners rattachés aux cuisines de la Corne de l'Afrique.",
   },
   {
     slug: 'swahili-coast-breakfasts',
@@ -594,7 +594,7 @@ export const categories = [
   {
     slug: 'egg-based',
     name: 'Base œufs',
-    description: 'Assiettes ou les œufs sont frequents ou structurants.',
+    description: 'Assiettes ou les œufs sont fréquents ou structurants.',
   },
   {
     slug: 'tortilla-breakfasts',
@@ -604,7 +604,7 @@ export const categories = [
   {
     slug: 'fish-breakfasts',
     name: 'Base poisson',
-    description: 'Petits-déjeuners ou poisson frais, sale, fume ou conserve structure l assiette.',
+    description: "Petits-déjeuners ou poisson frais, sale, fume ou conserve structure l'assiette.",
   },
   {
     slug: 'national-dishes',
@@ -614,6 +614,6 @@ export const categories = [
   {
     slug: 'meat-breakfasts',
     name: 'Base viande',
-    description: 'Petits-déjeuners ou viande, charcuterie ou protéine animale structurent l assiette.',
+    description: "Petits-déjeuners ou viande, charcuterie ou protéine animale structurent l'assiette.",
   },
 ] satisfies Category[]

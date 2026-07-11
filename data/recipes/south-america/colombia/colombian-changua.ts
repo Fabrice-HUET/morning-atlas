@@ -9,7 +9,7 @@ export const colombianChanguaRecipe = {
   shortDescription:
     'Une soupe colombienne du matin à base de lait, eau, œuf, oignon long et coriandre, souvent servie avec pain ou calado.',
   longDescription:
-    "La changua est une soupe chaude à base de lait et d'eau, dans laquelle on poche un œuf, puis que l on parfume avec oignon long et coriandre. Elle est très associée à Bogota, Cundinamarca, Boyaca et aux hauts plateaux andins. Elle peut surprendre hors de Colombie, mais doit être abordee comme un bol de matin froid, familial et reconfortant.",
+    "La changua est une soupe chaude à base de lait et d'eau, dans laquelle on poche un œuf, puis que l'on parfume avec oignon long et coriandre. Elle est très associée à Bogota, Cundinamarca, Boyaca et aux hauts plateaux andins. Elle peut surprendre hors de Colombie, mais doit être abordee comme un bol de matin froid, familial et reconfortant.",
   ingredients: [
     '500 ml de lait',
     "500 ml d'eau",
@@ -92,7 +92,7 @@ export const colombianChanguaRecipe = {
     'Ne pas présenter la changua comme un petit-déjeuner de toute la Colombie.',
     'Garder un ton respectueux sur le fait que le plat divise.',
     'Fromage et almojabana ne sont pas obligatoires dans toutes les versions.',
-    'Le chocolat chaud peut accompagner certains contextes, sans être systematique.',
+    'Le chocolat chaud peut accompagner certains contextes, sans être systématique.',
   ],
   sources: [
     {
@@ -111,7 +111,7 @@ export const colombianChanguaRecipe = {
       title: 'Por que la changua es considerada por muchos como uno de los peores desayunos del mundo',
       url: 'https://cadenaser.com/nacional/2025/09/30/por-que-la-changua-es-considerada-por-muchos-como-uno-de-los-peores-desayunos-del-mundo-la-gente-tiende-a-juzgar-lo-que-no-entiende-cadena-ser/',
       publisher: 'Cadena SER',
-      note: 'Debat culturel recent autour de la changua et rappel de son contexte.',
+      note: 'Débat culturel recent autour de la changua et rappel de son contexte.',
     },
   ],
   illustrationPrompt:

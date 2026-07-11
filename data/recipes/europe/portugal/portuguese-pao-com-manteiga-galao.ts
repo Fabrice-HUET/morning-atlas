@@ -7,7 +7,7 @@ export const portuguesePaoComManteigaGalaoRecipe = {
   countrySlugs: ['portugal-pao-com-manteiga-galao'],
   originLabel: 'Portugal',
   shortDescription:
-    "Un petit-déjeuner portugais simple : pain ou torrada beurree, accompagné d'un galão, café au lait servi dans un grand verre.",
+    "Un petit-déjeuner portugais simple : pain ou torrada beurrée, accompagné d'un galão, café au lait servi dans un grand verre.",
   longDescription:
     'Le petit-déjeuner portugais est souvent léger : pain frais, torrada ou sandwich simple, accompagné de café, café au lait ou jus. Le duo pão com manteiga ou torrada avec galão représente une routine quotidienne de café, pastelaria ou cuisine familiale. Le galão est un café au lait portugais servi dans un grand verre, avec beaucoup de lait.',
   ingredients: [
@@ -41,7 +41,7 @@ export const portuguesePaoComManteigaGalaoRecipe = {
     'Ajouter le lait chaud ou mousseux.',
     'Sucrer si souhaite.',
     'Servir avec le pain beurre.',
-    'Tremper eventuellement un morceau de toast dans le galão.',
+    'Tremper éventuellement un morceau de toast dans le galão.',
   ],
   prepTimeMinutes: 5,
   cookTimeMinutes: 5,
@@ -77,10 +77,10 @@ export const portuguesePaoComManteigaGalaoRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'L angle retenu est le quotidien de café ou pastelaria : pain beurre et café au lait. Le pastel de nata reste une variante/plaisir de café, pas le seul petit-déjeuner portugais.',
+    "L'angle retenu est le quotidien de café ou pastelaria : pain beurre et café au lait. Le pastel de nata reste une variante/plaisir de café, pas le seul petit-déjeuner portugais.",
   seoTitle: 'Pão com Manteiga & Galão : le petit-déjeuner portugais simple',
   seoDescription:
-    'Découvre un petit-déjeuner portugais du quotidien : pain ou torrada beurree avec galão, un café au lait servi dans un grand verre.',
+    'Découvre un petit-déjeuner portugais du quotidien : pain ou torrada beurrée avec galão, un café au lait servi dans un grand verre.',
   reviewNotes: [
     'Ne pas réduire le petit-déjeuner portugais au pastel de nata.',
     'Galão, meia de leite, garoto, bica et abatanado designent des commandes différentes.',

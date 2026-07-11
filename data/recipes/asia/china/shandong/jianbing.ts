@@ -9,7 +9,7 @@ export const jianbingRecipe = {
   shortDescription:
     "Une crêpe salée chinoise cuite sur plaque, garnie d'œuf, ciboule, coriandre, sauces et élément croustillant.",
   longDescription:
-    "Le jianbing est l'un des grands petits-déjeuners de rue en Chine du Nord. Une pâte fine est etalee sur une grande plaque ronde, puis recouverte d'un œuf, de ciboule, de coriandre, de sauces salées, parfois pimentees, et d'un élément croustillant comme du baocui ou du you tiao. Le Shandong est associé à des crêpes plus rustiques, parfois à base de céréales comme mais, sorgho ou millet, tandis que Tianjin est souvent associé au jianbing guozi.",
+    "Le jianbing est l'un des grands petits-déjeuners de rue en Chine du Nord. Une pâte fine est étalée sur une grande plaque ronde, puis recouverte d'un œuf, de ciboule, de coriandre, de sauces salées, parfois pimentees, et d'un élément croustillant comme du baocui ou du you tiao. Le Shandong est associé à des crêpes plus rustiques, parfois à base de céréales comme mais, sorgho ou millet, tandis que Tianjin est souvent associé au jianbing guozi.",
   ingredients: [
     '80 g de farine de ble',
     '30 g de farine de haricot mungo ou farine complete',
@@ -47,7 +47,7 @@ export const jianbingRecipe = {
     'Chauffer une grande poêle antiadhesive.',
     'Verser une louche de pâte et étaler très finement.',
     'Casser un œuf dessus.',
-    'Étaler l œuf sur toute la surface.',
+    "Étaler l'œuf sur toute la surface.",
     'Ajouter ciboule et coriandre.',
     'Retourner delicatement la crêpe.',
     'Badigeonner de sauce sucrée-salée et de sauce pimentée.',
@@ -91,12 +91,12 @@ export const jianbingRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    'Version maison simplifiee. Remplacer le baocui par feuille de brick ou wonton frit est pratique, mais pas strictement traditionnel.',
+    'Version maison simplifiée. Remplacer le baocui par feuille de brick ou wonton frit est pratique, mais pas strictement traditionnel.',
   seoTitle: 'Jianbing : la crêpe chinoise du petit-déjeuner de rue',
   seoDescription:
     'Découvre le jianbing, une crêpe salée chinoise souvent vendue au petit-déjeuner, avec œuf, ciboule, sauces et croustillant.',
   reviewNotes: [
-    'L origine ancienne liee au Shandong et a Zhuge Liang doit rester présentée comme legende ou tradition orale.',
+    "L'origine ancienne liée au Shandong et a Zhuge Liang doit rester présentée comme legende ou tradition orale.",
     'Ne pas confondre Shandong jianbing et Tianjin jianbing guozi.',
     'Le jianbing de grande ville est souvent une street food moderne, différente de formes rurales ou traditionnelles.',
     'Les garnitures varient fortement selon ville, vendeur et préférences.',

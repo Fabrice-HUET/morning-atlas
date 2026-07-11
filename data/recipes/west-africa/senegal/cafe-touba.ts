@@ -9,10 +9,10 @@ export const cafeToubaRecipe = {
   shortDescription:
     'Un café sénégalais épice, souvent prépare avec du robusta et du djar, servi sucre et vendu dans la rue.',
   longDescription:
-    'Le Café Touba est une boisson chaude sénégalaise à base de café torrefie avec du djar, une épice poivrée issue du Xylopia aethiopica. La boisson est généralement filtree, souvent servie très sucrée, et vendue dans la rue, les marches ou de petits restaurants appeles tanganas.',
+    'Le Café Touba est une boisson chaude sénégalaise à base de café torrefie avec du djar, une épice poivrée issue du Xylopia aethiopica. La boisson est généralement filtrée, souvent servie très sucrée, et vendue dans la rue, les marches ou de petits restaurants appelés tanganas.',
   ingredients: [
     '20 g de café moulu',
-    '1 à 2 gousses de djar ou grains of Selim concassees',
+    '1 à 2 gousses de djar ou grains of Selim concassées',
     "300 ml d'eau",
     'Sucre selon goût',
     'Option : 1 clou de girofle',
@@ -21,7 +21,7 @@ export const cafeToubaRecipe = {
   steps: [
     'Concasser légèrement le djar.',
     'Mélanger le café moulu avec le djar.',
-    'Ajouter eventuellement un clou de girofle.',
+    'Ajouter éventuellement un clou de girofle.',
     'Préparer comme un café filtre, avec filtre papier ou filtre tissu.',
     "Verser l'eau chaude doucement.",
     'Sucrer selon le goût.',
@@ -52,9 +52,9 @@ export const cafeToubaRecipe = {
   seoDescription:
     'Découvre le Café Touba, une boisson sénégalaise à base de café et de djar, souvent associée au petit-déjeuner et à la culture de rue.',
   reviewNotes: [
-    'Formuler l origine religieuse avec prudence.',
+    "Formuler l'origine religieuse avec prudence.",
     'Ne pas présenter le Café Touba comme uniquement religieux.',
-    'Eviter les affirmations medicales sur le djar ou les tanins.',
+    'Eviter les affirmations médicales sur le djar ou les tanins.',
   ],
   sources: [
     {
@@ -78,5 +78,5 @@ export const cafeToubaRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, tasse de Café Touba sénégalais fumant, petit filtre tissu, grains de café, gousses de djar / grains of Selim, clous de girofle, sucre dans une petite coupelle, ambiance stand de rue matinal à Dakar, palette moka mousse, brun café, beige sable, ocre, touches rouges et dorées, rendu artisanal et éditorial, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

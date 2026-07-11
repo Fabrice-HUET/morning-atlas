@@ -3,7 +3,7 @@ import type { Recipe } from '@/types/recipe'
 export const frenchTartinesRecipe = {
   slug: 'tartines',
   title: 'Tartines beurre-confiture',
-  localName: 'Tartines, tartines beurrees, tartines beurre-confiture',
+  localName: 'Tartines, tartines beurrées, tartines beurre-confiture',
   countrySlugs: ['france-tartines'],
   originLabel: 'France',
   shortDescription:
@@ -71,15 +71,15 @@ export const frenchTartinesRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Cette fiche conserve le slug historique tartines pour ne pas casser l URL existante.',
+    "Cette fiche conserve le slug historique tartines pour ne pas casser l'URL existante.",
   seoTitle: 'Tartines françaises : pain, beurre et confiture au petit-déjeuner',
   seoDescription:
     'Découvre les tartines françaises du petit-déjeuner : baguette ou pain frais, beurre, confiture ou miel, souvent avec café, thé ou chocolat chaud.',
   reviewNotes: [
     'Ne pas présenter la tartine comme unique petit-déjeuner français.',
-    'Les viennoiseries sont typiques, mais pas forcement quotidiennes.',
+    'Les viennoiseries sont typiques, mais pas forcément quotidiennes.',
     'Les habitudes varient selon familles, régions, générations et rythmes de travail.',
-    'Le beurre demi-sel est plus marque dans certaines régions, mais pas obligatoire nationalement.',
+    'Le beurre demi-sel est plus marqué dans certaines régions, mais pas obligatoire nationalement.',
   ],
   sources: [
     {
@@ -109,5 +109,5 @@ export const frenchTartinesRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner français avec demi-baguette ouverte, beurre frais, confiture rouge brillante, petit pot de miel, bol de café au lait fumant, chocolat chaud en option, couteau à beurre, lumière douce de cuisine française le matin, palette moka mousse, beige pain, jaune beurre, rouge confiture, brun café, crème, composition simple et élégante, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

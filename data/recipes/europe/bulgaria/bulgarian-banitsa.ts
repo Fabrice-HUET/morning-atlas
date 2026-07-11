@@ -9,7 +9,7 @@ export const bulgarianBanitsaRecipe = {
   shortDescription:
     'Une pâtisserie feuilletée bulgare à base de pâte filo, œufs, yaourt et fromage sirène, souvent servie avec boza, ayran ou yaourt.',
   longDescription:
-    "La banitsa est une pâtisserie salée très associée à la Bulgarie. Une version courante alterne des feuilles de pâte filo avec un mélange d'œufs, yaourt et fromage blanc en saumure, souvent du sirène, puis le tout est cuit jusqu'à obtenir une surface dorée et croustillante. Elle peut être mangee au petit-déjeuner, comme snack ou lors de moments familiaux et festifs.",
+    "La banitsa est une pâtisserie salée très associée à la Bulgarie. Une version courante alterne des feuilles de pâte filo avec un mélange d'œufs, yaourt et fromage blanc en saumure, souvent du sirène, puis le tout est cuit jusqu'à obtenir une surface dorée et croustillante. Elle peut être mangée au petit-déjeuner, comme snack ou lors de moments familiaux et festifs.",
   ingredients: [
     '8 à 10 feuilles de pâte filo',
     '3 œufs',
@@ -79,14 +79,14 @@ export const bulgarianBanitsaRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    "Version simplifiee avec pâte filo du commerce. Le sirène peut être approche avec feta hors Bulgarie, mais ce n'est pas exactement le même fromage.",
+    "Version simplifiée avec pâte filo du commerce. Le sirène peut être approche avec feta hors Bulgarie, mais ce n'est pas exactement le même fromage.",
   seoTitle: 'Banitsa : la pâtisserie bulgare du petit-déjeuner',
   seoDescription:
     'Découvre la banitsa, une pâtisserie bulgare à base de pâte filo, œufs, yaourt et fromage sirène, souvent servie au petit-déjeuner avec boza ou ayran.',
   reviewNotes: [
     'La banitsa existe aussi dans des zones voisines ou sous formes proches dans les Balkans.',
     'La boisson associée peut être boza, ayran ou yaourt selon les familles.',
-    'La tradition des porte-bonheur est surtout liee aux fetes, notamment au Nouvel An.',
+    'La tradition des porte-bonheur est surtout liée aux fetes, notamment au Nouvel An.',
     'Eviter de dire que tous les Bulgares en mangent chaque matin.',
   ],
   sources: [

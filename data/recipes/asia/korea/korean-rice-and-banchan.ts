@@ -9,13 +9,13 @@ export const koreanRiceAndBanchanRecipe = {
   shortDescription:
     'Une structure traditionnelle de repas du matin avec riz, soupe ou ragout, kimchi et plusieurs banchan de saison.',
   longDescription:
-    'Une version traditionnelle du petit-déjeuner coréen peut inclure un bol de riz, une soupe ou un ragout, du kimchi et plusieurs banchan, ces petits plats d accompagnement qui font partie integrante du repas. En Corée contemporaine, les petits-déjeuners sont toutefois variés : riz et banchan, pain, café, céréales, porridge, sandwich ou parfois aucun petit-déjeuner.',
+    "Une version traditionnelle du petit-déjeuner coréen peut inclure un bol de riz, une soupe ou un ragout, du kimchi et plusieurs banchan, ces petits plats d'accompagnement qui font partie integrante du repas. En Corée contemporaine, les petits-déjeuners sont toutefois variés : riz et banchan, pain, café, céréales, porridge, sandwich ou parfois aucun petit-déjeuner.",
   ingredients: [
     '180 g de riz rond ou riz coréen',
     'Kimchi',
     '2 œufs',
     'Gim ou algue grillee',
-    '200 g d épinards',
+    "200 g d'épinards",
     '1/2 concombre ou radis',
     'Tofu optionnel',
     'Sauce soja',
@@ -53,7 +53,7 @@ export const koreanRiceAndBanchanRecipe = {
     'Cuire le riz.',
     'Blanchir les épinards, les presser puis les assaisonner avec ail, huile de sesame, sel et graines de sesame.',
     'Couper le concombre ou radis, puis assaisonner avec sel, vinaigre léger et gochugaru optionnel.',
-    'Préparer un œuf au plat ou une petite omelette roulee simplifiee.',
+    'Préparer un œuf au plat ou une petite omelette roulee simplifiée.',
     'Réchauffer une soupe simple avec tofu, algues ou pâte doenjang si disponible.',
     'Disposer kimchi, gim, épinards, concombre et œuf en petites portions.',
     'Servir avec le riz chaud et la soupe.',

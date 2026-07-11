@@ -7,12 +7,12 @@ export const ampesiRecipe = {
   countrySlugs: ['ghana-ampesi'],
   originLabel: 'Ghana',
   shortDescription:
-    'Un plat ghanéen nourrissant à base d igname ou plantain bouilli, servi avec une sauce verte type kontomire.',
+    "Un plat ghanéen nourrissant à base d'igname ou plantain bouilli, servi avec une sauce verte type kontomire.",
   longDescription:
-    'L ampesi désigne généralement une base de féculents bouillis, comme l igname, le plantain, le cocoyam ou parfois le manioc. Cette base est souvent servie avec une sauce, par exemple un kontomire stew à base de feuilles de cocoyam ou d épinards, tomates, oignons, piment et huile.',
+    "L'ampesi désigne généralement une base de féculents bouillis, comme l'igname, le plantain, le cocoyam ou parfois le manioc. Cette base est souvent servie avec une sauce, par exemple un kontomire stew à base de feuilles de cocoyam ou d'épinards, tomates, oignons, piment et huile.",
   ingredients: [
     '1 petite igname ou 2 plantains verts',
-    '300 g d épinards frais ou surgeles',
+    "300 g d'épinards frais ou surgeles",
     '2 tomates',
     '1 oignon',
     "1 petite gousse d'ail",
@@ -38,7 +38,7 @@ export const ampesiRecipe = {
     'salt',
   ],
   steps: [
-    'Eplucher l igname ou les plantains.',
+    "Eplucher l'igname ou les plantains.",
     'Couper en gros morceaux.',
     "Faire bouillir dans de l'eau salée jusqu'à tendrete.",
     "Faire revenir l'oignon dans l'huile.",
@@ -46,7 +46,7 @@ export const ampesiRecipe = {
     'Laisser réduire quelques minutes.',
     'Ajouter les épinards ou feuilles de cocoyam si disponibles.',
     "Cuire jusqu'à obtenir une sauce épaisse.",
-    'Servir les morceaux bouillis avec la sauce verte, un œuf dur et eventuellement de l avocat.',
+    "Servir les morceaux bouillis avec la sauce verte, un œuf dur et éventuellement de l'avocat.",
   ],
   prepTimeMinutes: 20,
   cookTimeMinutes: 35,
@@ -72,7 +72,7 @@ export const ampesiRecipe = {
     'Le statut petit-déjeuner est à formuler avec prudence : ampesi est surtout documenté comme plat ghanéen familial ou repas complet.',
   seoTitle: 'Ampesi ghaneen : igname, plantain et sauce kontomire',
   seoDescription:
-    'Découvre l ampesi, un plat ghaneen nourrissant à base d igname ou de plantain bouilli, souvent servi avec une sauce verte au kontomire.',
+    "Découvre l'ampesi, un plat ghaneen nourrissant à base d'igname ou de plantain bouilli, souvent servi avec une sauce verte au kontomire.",
   reviewNotes: [
     'Le statut petit-déjeuner est fragile et doit rester nuance.',
     "Ampesi peut être servi avec d'autres sauces que kontomire.",
@@ -89,7 +89,7 @@ export const ampesiRecipe = {
       title: 'The People of Kwahu',
       url: 'https://visitghana.com/the-people-of-kwahu/',
       publisher: 'Visit Ghana',
-      note: 'Contexte régional kwahu, cultures vivrieres et mention d ampesi comme aliment local.',
+      note: "Contexte régional kwahu, cultures vivrieres et mention d'ampesi comme aliment local.",
     },
     {
       title: 'Nadia Ampesi with Kontomire Stew Recipe',
@@ -99,6 +99,6 @@ export const ampesiRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette ghaneenne d ampesi avec morceaux d igname et plantain bouillis, sauce verte kontomire au centre, œuf dur coupe, avocat, piment rouge, quelques feuilles de cocoyam en décor, ambiance cuisine familiale du matin, palette moka mousse, vert profond, jaune plantain, beige igname, rouge doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette ghaneenne d'ampesi avec morceaux d'igname et plantain bouillis, sauce verte kontomire au centre, œuf dur coupe, avocat, piment rouge, quelques feuilles de cocoyam en décor, ambiance cuisine familiale du matin, palette moka mousse, vert profond, jaune plantain, beige igname, rouge doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

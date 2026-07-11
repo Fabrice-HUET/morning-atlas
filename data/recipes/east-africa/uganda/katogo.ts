@@ -66,7 +66,7 @@ export const katogoRecipe = {
   reviewNotes: [
     "l'histoire exacte du plat reste moins précise que son usage comme petit-déjeuner populaire.",
     'Le matooke est central dans beaucoup de descriptions, mais certaines versions utilisent manioc, pommes de terre ou patates douces.',
-    'Ne pas présenter le katogo comme uniforme dans tout l Ouganda.',
+    "Ne pas présenter le katogo comme uniforme dans tout l'Ouganda.",
   ],
   sources: [
     {
@@ -95,6 +95,6 @@ export const katogoRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol ou assiette creuse de katogo ougandais fumant avec morceaux de matooke, haricots, sauce tomate-oignon, feuilles vertes, petite cuillère en bois, bananes vertes en décor, ambiance matin dans une cuisine familiale d Ouganda, palette moka mousse, jaune matooke, brun haricot, rouge tomate, vert doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol ou assiette creuse de katogo ougandais fumant avec morceaux de matooke, haricots, sauce tomate-oignon, feuilles vertes, petite cuillère en bois, bananes vertes en décor, ambiance matin dans une cuisine familiale d'Ouganda, palette moka mousse, jaune matooke, brun haricot, rouge tomate, vert doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

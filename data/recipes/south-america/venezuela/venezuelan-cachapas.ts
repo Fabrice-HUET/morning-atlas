@@ -7,7 +7,7 @@ export const venezuelanCachapasRecipe = {
   countrySlugs: ['venezuela-cachapas'],
   originLabel: 'Venezuela',
   shortDescription:
-    'Des galettes épaisses de mais frais, légèrement sucrées, souvent pliees autour de beurre et de queso de mano fondu.',
+    'Des galettes épaisses de mais frais, légèrement sucrées, souvent pliées autour de beurre et de queso de mano fondu.',
   longDescription:
     "La cachapa est une galette vénézuélienne de mais frais, épaisse et rustique, cuite comme une crêpe ou un pancake sur une plaque chaude, parfois un budare. Sa texture reste moelleuse et légèrement granuleuse, avec un goût naturellement sucre-sale. Elle est souvent servie avec beurre et queso de mano, mais peut aussi devenir un brunch, une street food ou un repas complet avec d'autres garnitures.",
   ingredients: [
@@ -38,10 +38,10 @@ export const venezuelanCachapasRecipe = {
     'roast-pork',
   ],
   steps: [
-    'Mixer grossierement le mais avec l œuf, le lait, le sel et le sucre.',
+    "Mixer grossierement le mais avec l'œuf, le lait, le sel et le sucre.",
     'Ajouter un peu de farine de mais pour épaissir la pâte.',
     'Laisser reposer 5 à 10 minutes.',
-    'Faire chauffer une poêle légèrement beurree.',
+    'Faire chauffer une poêle légèrement beurrée.',
     'Verser une louche de pâte.',
     'Étaler en galette épaisse.',
     "Cuire à feu moyen jusqu'à ce que le dessous soit doré.",
@@ -122,6 +122,6 @@ export const venezuelanCachapasRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliee en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisee en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliée en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisee en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
   needsReview: true,
 } satisfies Recipe

@@ -7,11 +7,11 @@ export const newZealandPorridgeRecipe = {
   countrySlugs: ['new-zealand-porridge'],
   originLabel: 'Nouvelle-Zélande',
   shortDescription:
-    'Un bol chaud d avoine cuite avec lait ou eau, souvent servi avec sucre brun, miel, banane, fruits, crème ou yaourt.',
+    "Un bol chaud d'avoine cuite avec lait ou eau, souvent servi avec sucre brun, miel, banane, fruits, crème ou yaourt.",
   longDescription:
-    "Le porridge neo-zélandais est une préparation simple de flocons d avoine cuits doucement avec eau, lait ou les deux jusqu'à obtenir une texture crémeuse. Il est associé aux matins froids, aux familles et a l'histoire locale de l avoine, notamment via l héritage écossais, Creamoata et Harraways. Il ne faut pas le présenter comme une invention neo-zélandaise, mais comme un classique kiwi du quotidien.",
+    "Le porridge neo-zélandais est une préparation simple de flocons d'avoine cuits doucement avec eau, lait ou les deux jusqu'à obtenir une texture crémeuse. Il est associé aux matins froids, aux familles et a l'histoire locale de l'avoine, notamment via l'héritage écossais, Creamoata et Harraways. Il ne faut pas le présenter comme une invention neo-zélandaise, mais comme un classique kiwi du quotidien.",
   ingredients: [
-    '50 g de flocons d avoine',
+    "50 g de flocons d'avoine",
     '250 ml de lait, eau ou moitié-moitié',
     '1 pincee de sel optionnelle',
     '1/2 banane',
@@ -37,7 +37,7 @@ export const newZealandPorridgeRecipe = {
     'seeds',
   ],
   steps: [
-    'Mettre les flocons d avoine dans une casserole.',
+    "Mettre les flocons d'avoine dans une casserole.",
     "Ajouter le lait ou l'eau.",
     'Ajouter une pincee de sel si souhaite.',
     'Faire chauffer doucement.',
@@ -52,7 +52,7 @@ export const newZealandPorridgeRecipe = {
   estimatedTimeMinutes: 15,
   difficulty: 'easy',
   servings: 1,
-  type: 'Bol chaud d avoine',
+  type: "Bol chaud d'avoine",
   tags: ['comfort-food', 'family-meal', 'easy-at-home', 'sweet-morning'],
   tagSlugs: [
     'new-zealand',
@@ -82,12 +82,12 @@ export const newZealandPorridgeRecipe = {
   recreateAtHomeLevel: 'easy',
   notes:
     'Classique kiwi du quotidien, surtout associé aux bols chauds, simples et familiaux.',
-  seoTitle: 'Porridge neo-zélandais : le bol chaud d avoine du matin',
+  seoTitle: "Porridge neo-zélandais : le bol chaud d'avoine du matin",
   seoDescription:
-    'Découvre le porridge en Nouvelle-Zélande, un petit-déjeuner chaud à base d avoine, souvent servi avec lait, sucre brun, miel, banane ou fruits.',
+    "Découvre le porridge en Nouvelle-Zélande, un petit-déjeuner chaud à base d'avoine, souvent servi avec lait, sucre brun, miel, banane ou fruits.",
   reviewNotes: [
     "Le porridge n'est pas propre à la Nouvelle-Zélande : il appartient aussi aux cultures anglo-saxonnes et écossaises.",
-    "L ancrage neo-zélandais est solide via l'histoire de l avoine, Creamoata et Harraways.",
+    "L'ancrage neo-zélandais est solide via l'histoire de l'avoine, Creamoata et Harraways.",
     'Les toppings changent fortement selon familles, budget, saison et habitudes modernes.',
   ],
   sources: [
@@ -107,7 +107,7 @@ export const newZealandPorridgeRecipe = {
       title: 'Harraways Oats',
       url: 'https://harraways.co.nz/',
       publisher: 'Harraways',
-      note: 'Ancrage local de l avoine en Nouvelle-Zélande depuis 1867.',
+      note: "Ancrage local de l'avoine en Nouvelle-Zélande depuis 1867.",
     },
     {
       title: 'Creamoata, the national breakfast',
@@ -117,6 +117,6 @@ export const newZealandPorridgeRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d'avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

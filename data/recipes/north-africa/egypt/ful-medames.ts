@@ -7,7 +7,7 @@ export const fulMedamesRecipe = {
   countrySlugs: ['egypt-ful-medames'],
   originLabel: 'Égypte',
   shortDescription:
-    "Une version maison aux fèves, cumin, citron et huile d'olive, inspiree du petit-déjeuner populaire égyptien.",
+    "Une version maison aux fèves, cumin, citron et huile d'olive, inspirée du petit-déjeuner populaire égyptien.",
   longDescription:
     'Cette version rapide utilise des fèves cuites pour retrouver une base simple de ful medames. Les assaisonnements et accompagnements restent variables selon les familles, les quartiers et les vendeurs.',
   ingredients: [
@@ -28,7 +28,7 @@ export const fulMedamesRecipe = {
     "Ajouter l'ail ecrase, le cumin, le sel et le poivre.",
     'Écraser légèrement une partie des fèves pour obtenir une texture plus crémeuse.',
     "Ajouter un filet d'huile d'olive et du jus de citron.",
-    'Servir avec persil, pain plat et eventuellement un œuf dur.',
+    'Servir avec persil, pain plat et éventuellement un œuf dur.',
   ],
   prepTimeMinutes: 10,
   cookTimeMinutes: 15,
@@ -42,12 +42,12 @@ export const fulMedamesRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Version simplifiee avec fèves en conserve. Les versions aux fèves seches demandent trempage et cuisson longue.',
+    'Version simplifiée avec fèves en conserve. Les versions aux fèves seches demandent trempage et cuisson longue.',
   seoTitle: 'Ful Medames : le petit-déjeuner égyptien aux fèves',
   seoDescription:
     "Découvre le ful medames, un plat égyptien souvent associé au petit-déjeuner : fèves fondantes, cumin, citron, huile d'olive et pain plat.",
   reviewNotes: [
-    'Rester prudent sur les liens directs entre la recette actuelle et l Égypte ancienne.',
+    "Rester prudent sur les liens directs entre la recette actuelle et l'Égypte ancienne.",
     'Les accompagnements changent beaucoup selon les familles, quartiers et vendeurs.',
   ],
   sources: [
@@ -71,6 +71,6 @@ export const fulMedamesRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de ful medames égyptien avec fèves brunes légèrement ecrasees, filet d'huile d'olive, citron, persil, cumin, pain baladi à cote, petite cuillère, motifs inspires du matin au Caire, palette chaude moka, beige, ocre et vert doux, composition propre pour fiche éditoriale, sans photoréalisme, sans texte, sans logo, rendu doux et artisanal.",
-  needsReview: true,
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de ful medames égyptien avec fèves brunes légèrement écrasées, filet d'huile d'olive, citron, persil, cumin, pain baladi à cote, petite cuillère, motifs inspirés du matin au Caire, palette chaude moka, beige, ocre et vert doux, composition propre pour fiche éditoriale, sans photoréalisme, sans texte, sans logo, rendu doux et artisanal.",
+  needsReview: false,
 } satisfies Recipe

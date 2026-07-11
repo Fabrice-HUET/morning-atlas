@@ -9,7 +9,7 @@ export const babakauRecipe = {
   shortDescription:
     'Un pain frit fidjien, léger et moelleux, souvent servi chaud avec beurre, confiture, sucre ou thé.',
   longDescription:
-    "Le babakau est un pain frit fidjien prépare avec une pâte levee à base de farine, sucre, levure, sel, huile et eau tiède. La pâte repose, puis elle est decoupee en carres ou rectangles avant d être frite jusqu'à devenir dorée et gonflee. Il est associé au petit-déjeuner familial ou villageois, mais aussi au snack et à l'afternoon tea.",
+    "Le babakau est un pain frit fidjien prépare avec une pâte levee à base de farine, sucre, levure, sel, huile et eau tiède. La pâte repose, puis elle est decoupee en carres ou rectangles avant d'être frite jusqu'à devenir dorée et gonflee. Il est associé au petit-déjeuner familial ou villageois, mais aussi au snack et à l'afternoon tea.",
   ingredients: [
     '500 g de farine',
     '20 g de sucre',
@@ -42,7 +42,7 @@ export const babakauRecipe = {
     "Mélanger jusqu'à obtenir une pâte collante.",
     'Pétrir 5 à 7 minutes.',
     'Couvrir et laisser doubler de volume.',
-    'Étaler la pâte sur 1 à 1,5 cm d epaisseur.',
+    "Étaler la pâte sur 1 à 1,5 cm d'epaisseur.",
     'Couper en carres ou rectangles.',
     "Chauffer l'huile à feu moyen.",
     "Frire les morceaux jusqu'à ce qu'ils soient dorés des deux cotes.",
@@ -83,12 +83,12 @@ export const babakauRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    'La recette est simple, mais la pâte levee et la friture demandent de l attention. L origine historique exacte reste incertaine.',
+    "La recette est simple, mais la pâte levee et la friture demandent de l'attention. L'origine historique exacte reste incertaine.",
   seoTitle: 'Babakau : le pain frit fidjien du petit-déjeuner',
   seoDescription:
     'Découvre le babakau, un pain frit fidjien souvent servi chaud au petit-déjeuner avec beurre, confiture ou thé.',
   reviewNotes: [
-    'L origine exacte du babakau est incertaine : influences indiennes, chinoises ou europeennes sont parfois evoquees.',
+    "L'origine exacte du babakau est incertaine : influences indiennes, chinoises ou europeennes sont parfois évoquées.",
     'Les sources directes sont moins institutionnelles que pour Weet-Bix ou les fiches australiennes.',
     "Le babakau est associé au petit-déjeuner, mais aussi au snack ou à l'afternoon tea.",
     'Les recettes familiales peuvent varier fortement.',

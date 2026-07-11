@@ -102,7 +102,7 @@ export const barbariBreakfastRecipe = {
   reviewNotes: [
     'Présenter Barbari comme un pain de petit-déjeuner, pas comme un petit-déjeuner complet à lui seul.',
     'Les accompagnements varient beaucoup : fromage, herbes, noix, miel, confiture, crème ou œufs.',
-    "L origine du nom barbari demande prudence et n'est pas nécessaire pour une fiche grand public.",
+    "L'origine du nom barbari demande prudence et n'est pas nécessaire pour une fiche grand public.",
     'La version de boulangerie iranienne reste difficile à imiter à la maison.',
     'Eviter de dire que tous les Iraniens mangent barbari le matin.',
   ],

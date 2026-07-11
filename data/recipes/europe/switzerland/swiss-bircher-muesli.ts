@@ -7,11 +7,11 @@ export const swissBircherMuesliRecipe = {
   countrySlugs: ['switzerland-muesli'],
   originLabel: 'Suisse',
   shortDescription:
-    'Un mélange suisse de flocons d avoine trempes, pomme râpée, lait ou yaourt, fruits, noix et parfois jus de citron.',
+    "Un mélange suisse de flocons d'avoine trempes, pomme râpée, lait ou yaourt, fruits, noix et parfois jus de citron.",
   longDescription:
-    'Le Birchermuesli suisse est lie au medecin Maximilian Oskar Bircher-Benner, qui développé vers 1900 une Apfeldiatspeise, plat dietetique à la pomme servi dans son sanatorium près de Zurich. La version moderne combine souvent flocons d avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais. L angle Morning Atlas doit privilégier Birchermuesli suisse, car muesli seul est devenu très large.',
+    "Le Birchermuesli suisse est lie au medecin Maximilian Oskar Bircher-Benner, qui développé vers 1900 une Apfeldiatspeise, plat dietetique à la pomme servi dans son sanatorium près de Zurich. La version moderne combine souvent flocons d'avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais. L'angle Morning Atlas doit privilégier Birchermuesli suisse, car muesli seul est devenu très large.",
   ingredients: [
-    '80 g de flocons d avoine',
+    "80 g de flocons d'avoine",
     '150 ml de lait',
     '150 g de yaourt nature',
     '1 grosse pomme râpée',
@@ -33,13 +33,13 @@ export const swissBircherMuesliRecipe = {
     'raisins',
     'honey',
     'cream',
-    'condensed-milk',
+    'condénsed-milk',
     'berries',
     'banana',
     'seeds',
   ],
   steps: [
-    'Mélanger les flocons d avoine avec le lait.',
+    "Mélanger les flocons d'avoine avec le lait.",
     'Laisser tremper 30 minutes ou toute une nuit.',
     'Raper la pomme.',
     'Ajouter la pomme aux flocons.',
@@ -84,10 +84,10 @@ export const swissBircherMuesliRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    "Le muesli commercial sec n'est pas identique au Birchermuesli frais. Cette fiche privilegie l origine suisse.",
-  seoTitle: 'Muesli suisse : l origine du Birchermuesli',
+    "Le muesli commercial sec n'est pas identique au Birchermuesli frais. Cette fiche privilegie l'origine suisse.",
+  seoTitle: "Muesli suisse : l'origine du Birchermuesli",
   seoDescription:
-    'Découvre le Birchermuesli suisse, un mélange frais de flocons d avoine, pomme râpée, yaourt, fruits et noix, devenu un classique du petit-déjeuner.',
+    "Découvre le Birchermuesli suisse, un mélange frais de flocons d'avoine, pomme râpée, yaourt, fruits et noix, devenu un classique du petit-déjeuner.",
   reviewNotes: [
     "Le muesli n était pas à l'origine uniquement un petit-déjeuner.",
     'Les versions commerciales seches ne sont pas identiques au Birchermuesli frais.',
@@ -105,13 +105,13 @@ export const swissBircherMuesliRecipe = {
       title: 'Birchermuesli: from cure to cult',
       url: 'https://www.swissinfo.ch/eng/swiss-oddities/how-a-swiss-invented-bircher-muesli-as-a-cure-for-stomach-problems/90269408',
       publisher: 'SWI swissinfo.ch',
-      note: 'Etymologie de Muesli et diffusion internationale du terme via l industrialisation.',
+      note: "Etymologie de Muesli et diffusion internationale du terme via l'industrialisation.",
     },
     {
       title: "Dr. Bircher's Muesli",
       url: 'https://www.helvetickitchen.com/recipes/2016/1/8/dr-birchers-muesli',
       publisher: 'Helvetic Kitchen',
-      note: 'Recette suisse inspiree de la version originale du Dr Bircher.',
+      note: 'Recette suisse inspirée de la version originale du Dr Bircher.',
     },
     {
       title: 'Bircher Muesli',
@@ -121,6 +121,6 @@ export const swissBircherMuesliRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de Birchermuesli suisse avec flocons d avoine trempes, pomme râpée, yaourt crémeux, noix, noisettes, raisins secs, fruits rouges, petite cuillère, pomme entière et flocons d avoine en décor, ambiance matin alpin doux, palette moka mousse, crème yaourt, rouge pomme, brun noix, bleu-rouge fruits, bois clair, composition éditoriale fraiche et propre, sans photoréalisme, sans texte, sans logo.',
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de Birchermuesli suisse avec flocons d'avoine trempes, pomme râpée, yaourt crémeux, noix, noisettes, raisins secs, fruits rouges, petite cuillère, pomme entière et flocons d'avoine en décor, ambiance matin alpin doux, palette moka mousse, crème yaourt, rouge pomme, brun noix, bleu-rouge fruits, bois clair, composition éditoriale fraiche et propre, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

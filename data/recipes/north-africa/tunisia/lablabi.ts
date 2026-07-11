@@ -50,7 +50,7 @@ export const lablabiRecipe = {
   seoDescription:
     'Découvre le lablabi, une soupe tunisienne populaire à base de pois chiches, pain, cumin, harissa et citron, souvent servie chaude au petit-déjeuner.',
   reviewNotes: [
-    'L origine historique exacte est incertaine et doit rester présentée avec prudence.',
+    "L'origine historique exacte est incertaine et doit rester présentée avec prudence.",
     'La version de Bizerte merite une recherche dediee avant une fiche séparée.',
   ],
   sources: [
@@ -80,6 +80,6 @@ export const lablabiRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, capres et herbes, petite cuillère, ambiance matin d hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, capres et herbes, petite cuillère, ambiance matin d'hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
   needsReview: true,
 } satisfies Recipe

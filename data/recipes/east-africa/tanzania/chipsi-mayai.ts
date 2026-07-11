@@ -40,12 +40,12 @@ export const chipsiMayaiRecipe = {
     'Eplucher les pommes de terre et les couper en frites si elles ne sont pas déjà cuites.',
     "Frire les pommes de terre jusqu'à ce qu elles soient dorées, puis les égoutter.",
     'Battre les œufs avec sel et poivre.',
-    'Remettre une portion de frites dans une petite poêle légèrement huilee.',
+    'Remettre une portion de frites dans une petite poêle légèrement huilée.',
     'Verser les œufs battus sur les frites.',
     "Cuire à feu moyen jusqu'à ce que la base prenne.",
     'Retourner delicatement ou couvrir pour finir la cuisson du dessus.',
     'Préparer un kachumbari rapide avec tomate, oignon rouge, coriandre, citron et sel.',
-    'Servir l omelette chaude avec kachumbari et sauce pili-pili.',
+    "Servir l'omelette chaude avec kachumbari et sauce pili-pili.",
   ],
   prepTimeMinutes: 15,
   cookTimeMinutes: 20,
@@ -85,11 +85,11 @@ export const chipsiMayaiRecipe = {
   recreateAtHomeLevel: 'easy',
   notes:
     'Le chipsi mayai est surtout une street food et un repas rapide ; son usage matinal existe, mais il ne doit pas être reduit au petit-déjeuner.',
-  seoTitle: 'Chipsi Mayai : l omelette tanzanienne aux frites',
+  seoTitle: "Chipsi Mayai : l'omelette tanzanienne aux frites",
   seoDescription:
     "Découvre le chipsi mayai, une street food tanzanienne à base de frites et d'œufs, souvent servie avec kachumbari et sauce pimentée.",
   reviewNotes: [
-    'L origine tardive à Dar es Salaam est une indication journalistique, pas une certitude historique.',
+    "L'origine tardive à Dar es Salaam est une indication journalistique, pas une certitude historique.",
     'Le plat circule aussi dans des pays voisins, même si la Tanzanie reste centrale dans les sources du lot.',
     'La base frites et œufs est stable, mais les garnitures varient.',
     'Ne pas présenter le chipsi mayai comme une option saine.',

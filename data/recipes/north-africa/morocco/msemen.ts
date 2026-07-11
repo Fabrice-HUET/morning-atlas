@@ -9,7 +9,7 @@ export const msemenRecipe = {
   shortDescription:
     'Une crêpe feuilletée marocaine, dorée à la poêle, souvent servie avec miel, beurre ou thé à la menthe.',
   longDescription:
-    'Le msemen repose sur une pâte à base de farine et de semoule fine, etalee très finement puis pliee en couches. Il peut être servi au petit-déjeuner, à l heure du thé ou comme snack familial, en version sucrée ou salée.',
+    "Le msemen repose sur une pâte à base de farine et de semoule fine, étalée très finement puis pliée en couches. Il peut être servi au petit-déjeuner, à l'heure du thé ou comme snack familial, en version sucrée ou salée.",
   ingredients: [
     '250 g de farine',
     '100 g de semoule fine',
@@ -24,8 +24,8 @@ export const msemenRecipe = {
     'Mélanger farine, semoule fine et sel.',
     "Ajouter l'eau progressivement jusqu'à obtenir une pâte souple.",
     'Pétrir 8 à 10 minutes.',
-    'Diviser en petites boules huilees et laisser reposer 15 à 20 minutes.',
-    'Étaler chaque boule très finement avec les mains huilees.',
+    'Diviser en petites boules huilées et laisser reposer 15 à 20 minutes.',
+    'Étaler chaque boule très finement avec les mains huilées.',
     "Badigeonner d'un peu de beurre fondu et saupoudrer légèrement de semoule.",
     'Plier en carre puis aplatir doucement.',
     'Cuire à la poêle chaude quelques minutes de chaque cote.',
@@ -62,7 +62,7 @@ export const msemenRecipe = {
       title: 'Msemen Recipe - Square Moroccan Pancakes or Rghaif',
       url: 'https://tasteofmaroc.com/msemen-recipe/',
       publisher: 'Taste of Maroc',
-      note: 'Technique de pâte fine, surface huilee, beurre, semoule et pliage.',
+      note: 'Technique de pâte fine, surface huilée, beurre, semoule et pliage.',
     },
     {
       title: 'Travel info - Moroccan Food & Drink',
@@ -72,6 +72,6 @@ export const msemenRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style carnet de voyage culinaire, pile de msemen marocains carres, dorés et légèrement feuilletes, petit bol de miel, verre de thé à la menthe fumant, assiette artisanale, motifs discrets inspires du Maghreb, ambiance matin doux, palette moka, sable, miel, vert menthe, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style carnet de voyage culinaire, pile de msemen marocains carres, dorés et légèrement feuilletes, petit bol de miel, verre de thé à la menthe fumant, assiette artisanale, motifs discrets inspirés du Maghreb, ambiance matin doux, palette moka, sable, miel, vert menthe, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe

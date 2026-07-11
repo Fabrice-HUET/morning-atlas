@@ -74,7 +74,7 @@ export const boterhamMetHagelslagRecipe = {
   seoDescription:
     'Découvre le boterham met hagelslag, une tartine néerlandaise au beurre et vermicelles chocolates, souvent servie au petit-déjeuner ou au déjeuner.',
   reviewNotes: [
-    "Le hagelslag est aussi présent en Belgique, au Suriname, en Indonesie et dans d anciennes zones liees à l'histoire néerlandaise.",
+    "Le hagelslag est aussi présent en Belgique, au Suriname, en Indonesie et dans d'anciennes zones liées à l'histoire néerlandaise.",
     'Toutes les tartines sucrées néerlandaises ne sont pas au hagelslag.',
     "Les récits d'origine autour de Venco, Venz et De Ruijter doivent rester prudents.",
     'Ne pas présenter comme le petit-déjeuner de tous les Néerlandais.',
@@ -90,7 +90,7 @@ export const boterhamMetHagelslagRecipe = {
       title: 'A Hailstorm of Chocolate in the Morning',
       url: 'https://roadsandkingdoms.com/2015/a-hailstorm-of-chocolate-in-the-morning/',
       publisher: 'Roads & Kingdoms',
-      note: 'Histoire liee à Venco, Amsterdam City Archives et diffusion après-guerre.',
+      note: 'Histoire liée à Venco, Amsterdam City Archives et diffusion après-guerre.',
     },
     {
       title: 'A brief history of Dutch sprinkles a.k.a. hagelslag',
