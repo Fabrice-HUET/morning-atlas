@@ -34,30 +34,39 @@ function getIngredientsIncludedInSitemap() {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  // Date de build : honnête pour un site SSG redéployé à chaque changement de contenu,
+  // en attendant un vrai champ de date par fiche.
+  const lastModified = new Date()
+
   return [
     ...staticRoutes.map((route) => ({
       url: absoluteUrl(route.path),
+      lastModified,
       changeFrequency: 'weekly' as const,
       priority: route.priority,
     })),
     ...countries.map((country) => ({
       url: absoluteUrl(`/countries/${country.slug}`),
+      lastModified,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     })),
     ...recipes.map((recipe) => ({
       url: absoluteUrl(`/recipes/${recipe.slug}`),
+      lastModified,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
       images: [breakfastImageUrl(recipe.slug)],
     })),
     ...categories.map((category) => ({
       url: absoluteUrl(`/categories/${category.slug}`),
+      lastModified,
       changeFrequency: 'monthly' as const,
       priority: 0.6,
     })),
     ...getIngredientsIncludedInSitemap().map((ingredient) => ({
       url: absoluteUrl(`/ingredients/${ingredient.slug}`),
+      lastModified,
       changeFrequency: 'monthly' as const,
       priority: 0.5,
     })),

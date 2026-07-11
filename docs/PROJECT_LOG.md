@@ -12,6 +12,17 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — SEO-06 : sitemap avec lastModified + exclusions pilotées
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO
+- Résumé : ajout de `lastModified` sur toutes les entrées du sitemap ; l'exclusion des ingrédients faibles est déjà pilotée par les données (fait en SEO-02, plus aucune liste en dur).
+- Détails : `app/sitemap.ts` émet `lastModified = new Date()` (date de build, honnête pour un SSG redéployé à chaque changement) sur les 611 entrées.
+- Vérification (via `pnpm start` + `curl /sitemap.xml`) : **611 URLs, 611 avec `<lastmod>`** ; 376 ingrédients (410 − 34 sous le seuil) ; `/creator` présent, `/creator/cv` absent. Delta vs ancien sitemap : la liste en dur excluait 33 slugs (→ 377), le seuil dynamique en exclut 34 (→ 376) — un ingrédient de plus correctement retiré.
+- Prochaine action : **SEO-05** (title template global).
+
 ## 2026-07-11 — SEO-02 : noindex des pages ingrédients pauvres (seuil piloté par les données)
 
 - Date : `2026-07-11`
