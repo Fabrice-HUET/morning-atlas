@@ -106,3 +106,27 @@ export function buildRecipeJsonLd(recipe: Recipe): JsonLd {
     mainEntityOfPage: absoluteUrl(`/recipes/${recipe.slug}`),
   }
 }
+
+type PersonProfileOptions = {
+  name: string
+  jobTitle: string
+  path: string
+  sameAs: string[]
+}
+
+export function buildPersonProfileJsonLd({ name, jobTitle, path, sameAs }: PersonProfileOptions): JsonLd {
+  const url = absoluteUrl(path)
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    url,
+    mainEntity: {
+      '@type': 'Person',
+      name,
+      jobTitle,
+      url,
+      ...(sameAs.length > 0 ? { sameAs } : {}),
+    },
+  }
+}

@@ -13,13 +13,23 @@ import {
   timelineKindLabels,
 } from '@/data/creator'
 import { buildPageMetadata } from '@/lib/seo'
+import { buildPersonProfileJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
-export const metadata: Metadata = buildPageMetadata({
-  title: 'À propos du créateur — Morning Atlas',
-  description:
-    'Profil de Fabrice Huet, développeur Front-End orienté UX, accessibilité, performance et qualité du code.',
-  path: '/creator',
-})
+const description =
+  'Profil de Fabrice Huet, développeur Front-End orienté UX, accessibilité, performance et qualité du code.'
+
+export const metadata: Metadata = {
+  ...buildPageMetadata({
+    title: 'À propos du créateur — Morning Atlas',
+    description,
+    path: '/creator',
+  }),
+  twitter: {
+    card: 'summary_large_image',
+    title: 'À propos du créateur — Morning Atlas',
+    description,
+  },
+}
 
 function SectionTitle({ eyebrow, title }: { eyebrow: string; title: string }) {
   return (
@@ -49,8 +59,16 @@ export default function CreatorPage() {
   const cvFilePath = join(process.cwd(), 'public', creatorProfile.cvPath.replace(/^\//, ''))
   const isCvAvailable = existsSync(cvFilePath)
 
+  const jsonLd = buildPersonProfileJsonLd({
+    name: creatorProfile.name,
+    jobTitle: creatorProfile.role,
+    path: '/creator',
+    sameAs: creatorProfile.links.filter((link) => link.href.startsWith('http')).map((link) => link.href),
+  })
+
   return (
     <main className="py-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }} />
       <Container>
         <section className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]">
           <div>

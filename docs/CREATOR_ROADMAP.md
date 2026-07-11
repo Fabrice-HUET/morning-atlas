@@ -69,7 +69,7 @@ L'ordre est strict : chaque tâche dépend de la précédente sauf mention contr
 | CREATOR-03 | Hero : scène SVG/CSS maison, retrait de three.js ✅ 2026-07-11 | M | CREATOR-02 |
 | CREATOR-04 | Refonte du contenu en récit (timeline, compétences, projets) ✅ 2026-07-11 | M | CREATOR-02 |
 | CREATOR-05 | CV web imprimable `/creator/cv` + PDF public ✅ 2026-07-11 (PDF à générer manuellement) | L | CREATOR-02 |
-| CREATOR-06 | SEO de l'espace : JSON-LD Person, metadata, OG dédiée | S | CREATOR-04 |
+| CREATOR-06 | SEO de l'espace : JSON-LD Person, metadata, OG dédiée ✅ 2026-07-11 | S | CREATOR-04 |
 | CREATOR-07 | Qualité vitrine : a11y, reduced-motion, budget perf | S | CREATOR-03 → 05 |
 
 ---

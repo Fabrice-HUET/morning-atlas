@@ -12,6 +12,21 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — CREATOR-06 : SEO de l'espace créateur
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO (espace créateur)
+- Résumé : données structurées, metadata et image sociale dédiées à `/creator`.
+- Détails :
+  - `lib/structured-data.ts` : nouveau `buildPersonProfileJsonLd()` → `ProfilePage` avec `mainEntity` `Person` (`name`, `jobTitle`, `url`, `sameAs`). Uniquement des champs réels ; `sameAs` = LinkedIn depuis `data/creator.ts`. Branché sur `/creator`.
+  - Image Open Graph dédiée : `app/(atelier)/creator/opengraph-image.tsx` via `next/og` (`ImageResponse`, 1200×630, générée au build) — fond `ink`, wordmark « Fabrice Huet » / « L'Atelier », esquisse blueprint honey, aucun asset externe. Twitter card passée en `summary_large_image`.
+  - Sitemap : `/creator` ajouté (`priority 0.5`) ; `/creator/cv` reste hors sitemap et en `noindex`.
+- Décisions (doc locale Next lue avant) : image via la convention de fichier `opengraph-image` (statique au build) plutôt qu'un asset manuel ; couleurs de marque en littéral dans le générateur d'image (pas d'accès au CSS).
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (654 routes, OG image générée) ; HTML `/creator` = JSON-LD `ProfilePage`/`Person` correct (`sameAs` LinkedIn) + `og:image` 1200×630 + `twitter:card summary_large_image` ; `/creator/cv` toujours `noindex` et absent du sitemap.
+- Prochaine action : **CREATOR-07** (qualité vitrine : a11y, reduced-motion, budget perf, baseline Lighthouse) — dernière tâche de l'atelier.
+
 ## 2026-07-11 — CREATOR-05 : CV web imprimable + e-mail canonique
 
 - Date : `2026-07-11`

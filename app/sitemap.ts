@@ -12,6 +12,7 @@ const staticRoutes = [
   { path: '/countries', priority: 0.9 },
   { path: '/recipes', priority: 0.9 },
   { path: '/guides', priority: 0.7 },
+  { path: '/creator', priority: 0.5 },
 ] as const
 
 // Exclusions temporaires basées sur l’audit `docs/TAXONOMY_SEO_AUDIT.md`.
