@@ -1,25 +1,32 @@
+import { Fraunces } from 'next/font/google'
 import Link from 'next/link'
 
 import { Container } from '@/components/layout/Container'
 
-// Layout provisoire de l'espace créateur « L'Atelier ».
-// Le thème dédié (palette Mocha Mousse inversée, fond sombre) arrive en CREATOR-02.
+// Fonte display de l'Atelier, exposée en variable CSS et appliquée aux titres via globals.css (.atelier).
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  variable: '--font-fraunces',
+  display: 'swap',
+})
+
+// Thème « L'Atelier » : la marque Morning Atlas en polarité inversée (fond sombre, accent honey).
 export default function AtelierLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <div className="flex min-h-screen flex-col bg-cream">
-      <header className="border-b border-oat">
+    <div className={`atelier ${fraunces.variable} flex min-h-screen flex-col bg-ink text-cream`}>
+      <header className="border-b border-mocha/25">
         <Container className="flex items-center justify-between gap-4 py-5">
           <div className="flex flex-col">
-            <span className="text-sm font-black uppercase tracking-[0.18em] text-espresso">L&apos;Atelier</span>
-            <span className="text-xs font-semibold text-mocha">Fabrice Huet</span>
+            <span className="text-sm font-black uppercase tracking-[0.2em] text-cream">L&apos;Atelier</span>
+            <span className="text-xs font-semibold text-honey">Fabrice Huet</span>
           </div>
           <Link
             href="/"
-            className="inline-flex min-h-11 items-center rounded-full border border-mocha/35 bg-paper px-4 py-2 text-sm font-bold text-espresso transition hover:border-toast hover:bg-oat/60"
+            className="inline-flex min-h-11 items-center rounded-full border border-honey/40 px-4 py-2 text-sm font-bold text-cream transition hover:border-honey hover:bg-honey/10"
           >
             ← Morning Atlas
           </Link>
@@ -28,11 +35,11 @@ export default function AtelierLayout({
 
       <div className="flex-1">{children}</div>
 
-      <footer className="border-t border-oat">
+      <footer className="border-t border-mocha/25">
         <Container className="py-6">
-          <p className="text-xs text-espresso/70">
+          <p className="text-xs text-cream/60">
             L&apos;Atelier — les coulisses de Morning Atlas.{' '}
-            <Link href="/" className="font-semibold text-mocha hover:text-toast">
+            <Link href="/" className="font-semibold text-honey transition hover:text-honey/80">
               Retour à l&apos;atlas
             </Link>
           </p>

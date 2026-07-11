@@ -58,6 +58,19 @@ a {
   text-decoration: none;
 }
 
+/* Espace créateur « L'Atelier » : titres en fonte display, focus visible honey. Scopé, sans impact sur le magazine. */
+.atelier :is(h1, h2, h3) {
+  font-family: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.atelier :where(a, button):focus-visible {
+  outline: 2px solid var(--color-honey);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
 img,
 svg {
   display: block;

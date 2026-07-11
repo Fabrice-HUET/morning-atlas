@@ -12,6 +12,24 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — CREATOR-02 : thème « L'Atelier » (palette inversée + typographie)
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : design (espace créateur)
+- Résumé : application du thème « L'Atelier » — la marque Morning Atlas en polarité inversée — au layout `(atelier)` et à la page `/creator`, plus une typographie display dédiée via `next/font`.
+- Détails :
+  - Thème sombre : fond `ink`, texte `cream`, accent `honey`, surfaces `espresso`, bordures `mocha/25` — uniquement les 10 tokens existants, aucun hex en dur, aucune couleur nouvelle. Magazine (`(site)`) non touché.
+  - Typographie : **Fraunces** chargée via `next/font/google` (auto-hébergée, variable CSS `--font-fraunces`), appliquée aux titres de l'atelier via une règle scopée `.atelier :is(h1,h2,h3)` dans `globals.css`. Le corps garde la pile du site.
+  - Header/footer de l'atelier restylés (accent honey), et la page `/creator` recolorée pour le thème sombre (eyebrows honey, titres cream, cartes `espresso`, CTA principal `honey` sur texte `ink`).
+  - Accessibilité : `focus-visible` avec anneau `honey` (règle scopée `.atelier`).
+- Décisions (doc locale `next/font` lue avant) : fonte exposée en variable CSS et appliquée par sélecteur scopé plutôt que globalement, pour n'affecter que l'atelier.
+- Contrastes WCAG vérifiés (AA texte partout) : cream/ink 16:1, cream/espresso 13,5:1, honey/ink 8,3:1, honey/espresso 7:1.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (652 pages, Fraunces récupérée au build) ; HTML `/creator` = wrapper `.atelier` + `bg-ink` + variable Fraunces + `@font-face` auto-hébergé ; accueil magazine = 0 occurrence `atelier`/`fraunces`.
+- Reste sur l'atelier : CREATOR-03 (scène SVG maison + retrait de three.js), CREATOR-04 (récit : timeline, compétences, projets), CREATOR-05 (CV web + PDF).
+- Prochaine action : **CREATOR-03**.
+
 ## 2026-07-11 — CREATOR-01 : isolation de l'espace créateur (route groups)
 
 - Date : `2026-07-11`
