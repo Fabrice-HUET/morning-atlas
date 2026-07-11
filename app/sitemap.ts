@@ -4,6 +4,7 @@ import { categories } from '@/data/categories'
 import { countries } from '@/data/countries'
 import { ingredients } from '@/data/ingredients'
 import { recipes } from '@/data/recipes'
+import { isIngredientIndexable } from '@/lib/content-helpers'
 import { absoluteUrl, breakfastImageUrl } from '@/lib/seo'
 
 const staticRoutes = [
@@ -15,61 +16,18 @@ const staticRoutes = [
   { path: '/creator', priority: 0.5 },
 ] as const
 
-// Exclusions temporaires basées sur l’audit `docs/TAXONOMY_SEO_AUDIT.md`.
-// Ces pages restent accessibles et maillées, mais ne sont plus signalées dans le sitemap.
-const INGREDIENT_SLUGS_EXCLUDED_FROM_SITEMAP = [
-  'fish',
-  'meat',
-  'pastry',
-  'porridge',
-  'protein',
-  'soup',
-  'spices',
-  'vegetable',
-  'akara',
-  'amasi',
-  'baladi-bread',
-  'byenda',
-  'cereal-porridge',
-  'chakalaka',
-  'cocoyam',
-  'cocoyam-leaves',
-  'egusi',
-  'fermented-fish',
-  'g-nut-sauce',
-  'grains-of-selim',
-  'green-bell-pepper',
-  'ground-meat',
-  'guinea-pepper',
-  'herbs',
-  'kachumbari',
-  'maas',
-  'mielie-meal',
-  'mint-tea',
-  'moi-moi',
-  'offal',
-  'shaobing',
-  'sweet-potatoes',
-  'xylopia-aethiopica',
-] as const
-
-const ingredientSlugsExcludedFromSitemap = new Set<string>(
-  INGREDIENT_SLUGS_EXCLUDED_FROM_SITEMAP,
-)
-
+// Le sitemap n'inclut que les pages ingrédients indexables (seuil de contenus liés partagé avec
+// `generateMetadata` via `isIngredientIndexable`). Les pages sous le seuil restent accessibles et
+// maillées, mais passent en noindex et sortent du sitemap — plus aucune liste en dur à maintenir.
 function getIngredientsIncludedInSitemap() {
-  const ingredientSlugsIncludedInSitemap = new Set<string>()
+  const seen = new Set<string>()
 
   return ingredients.filter((ingredient) => {
-    if (ingredientSlugsExcludedFromSitemap.has(ingredient.slug)) {
+    if (seen.has(ingredient.slug) || !isIngredientIndexable(ingredient.slug)) {
       return false
     }
 
-    if (ingredientSlugsIncludedInSitemap.has(ingredient.slug)) {
-      return false
-    }
-
-    ingredientSlugsIncludedInSitemap.add(ingredient.slug)
+    seen.add(ingredient.slug)
 
     return true
   })

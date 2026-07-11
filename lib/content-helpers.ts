@@ -78,6 +78,18 @@ export function getRecipesByIngredient(ingredientSlug: string) {
   return recipes.filter((recipe) => recipe.ingredientSlugs?.includes(ingredientSlug))
 }
 
+// Seuil d'indexation d'une page ingrédient : nombre minimal de contenus liés (pays + recettes).
+// En dessous, la page reste accessible et maillée, mais passe en noindex et sort du sitemap.
+export const INGREDIENT_INDEXABLE_MIN_CONTENT = 2
+
+export function getIngredientContentScore(ingredientSlug: string) {
+  return getCountriesByIngredient(ingredientSlug).length + getRecipesByIngredient(ingredientSlug).length
+}
+
+export function isIngredientIndexable(ingredientSlug: string) {
+  return getIngredientContentScore(ingredientSlug) >= INGREDIENT_INDEXABLE_MIN_CONTENT
+}
+
 export function getGuidesForCountry(countrySlug: string) {
   return guides.filter((guide) => guide.relatedCountrySlugs.includes(countrySlug))
 }

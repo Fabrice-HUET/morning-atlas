@@ -6,7 +6,12 @@ import { RecipeCard } from '@/components/cards/RecipeCard'
 import { Container } from '@/components/layout/Container'
 import { SectionHeading } from '@/components/layout/SectionHeading'
 import { ingredients } from '@/data/ingredients'
-import { getCountriesByIngredient, getIngredientBySlug, getRecipesByIngredient } from '@/lib/content-helpers'
+import {
+  getCountriesByIngredient,
+  getIngredientBySlug,
+  getRecipesByIngredient,
+  isIngredientIndexable,
+} from '@/lib/content-helpers'
 import { buildPageMetadata } from '@/lib/seo'
 import { buildBreadcrumbJsonLd, buildWebPageJsonLd, serializeJsonLd } from '@/lib/structured-data'
 
@@ -28,11 +33,15 @@ export async function generateMetadata({ params }: IngredientPageProps): Promise
     }
   }
 
-  return buildPageMetadata({
-    title: `${ingredient.name} — Morning Atlas`,
-    description: ingredient.description,
-    path: `/ingredients/${ingredient.slug}`,
-  })
+  return {
+    ...buildPageMetadata({
+      title: `${ingredient.name} — Morning Atlas`,
+      description: ingredient.description,
+      path: `/ingredients/${ingredient.slug}`,
+    }),
+    // Les pages ingrédients trop peu reliées restent accessibles mais sortent de l'index.
+    ...(isIngredientIndexable(ingredient.slug) ? {} : { robots: { index: false, follow: true } }),
+  }
 }
 
 export default async function IngredientPage({ params }: IngredientPageProps) {

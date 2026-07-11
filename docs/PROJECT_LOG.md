@@ -12,6 +12,20 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — SEO-02 : noindex des pages ingrédients pauvres (seuil piloté par les données)
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO
+- Résumé : les pages ingrédients reliant ≤ 1 contenu passent en `noindex` (elles restent accessibles et maillées), et la liste d'exclusion sitemap en dur (33 slugs) est remplacée par un seuil calculé depuis les données, partagé entre `generateMetadata` et le sitemap.
+- Détails :
+  - `lib/content-helpers.ts` : `getIngredientContentScore(slug)` (pays + recettes liés), `isIngredientIndexable(slug)` (score ≥ `INGREDIENT_INDEXABLE_MIN_CONTENT` = 2).
+  - `app/(site)/ingredients/[slug]/page.tsx` : `robots: { index: false, follow: true }` quand la page n'est pas indexable.
+  - `app/sitemap.ts` : suppression de la liste de 33 slugs en dur ; `getIngredientsIncludedInSitemap` filtre désormais via `isIngredientIndexable` → sitemap et noindex toujours synchronisés.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (654 routes) ; sur le HTML généré, **34 pages ingrédients en noindex** (ex. `kachumbari`), un ingrédient fort (`eggs`) reste indexable.
+- Prochaine action : **SEO-06** (sitemap `lastModified` + exclusions pilotées — logique de seuil déjà partagée).
+
 ## 2026-07-11 — CREATOR-07 : qualité vitrine (a11y, mouvement, perf) — atelier terminé
 
 - Date : `2026-07-11`
