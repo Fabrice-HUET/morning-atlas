@@ -16,7 +16,7 @@
 | IMG-01 | Remplacer le fallback picsum | P0 | ✅ 2026-07-11 |
 | SEO-01 | Corriger les breadcrumbs JSON-LD 404 | P0 | ✅ 2026-07-11 |
 | EDIT-01 | Relire un lot pilote de fiches | P0 | ☐ |
-| EDIT-02 | Documenter le processus de relecture | P1 | ☐ |
+| EDIT-02 | Documenter le processus de relecture → `docs/EDITORIAL_REVIEW.md` | P0 | ✅ 2026-07-11 |
 | PAGE-01 | Finaliser la page /creator — **remplacée par CREATOR-01 → 07** (`docs/CREATOR_ROADMAP.md`) | P1 | ☐ |
 | SEO-02 → SEO-06 | Consolidation SEO | P1 | ☐ |
 | PAGE-02 → PAGE-04 | Pages index + 404 | P1 | ☐ |

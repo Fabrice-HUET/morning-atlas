@@ -1,6 +1,6 @@
 # Next steps — Morning Atlas
 
-> Mise à jour le 2026-07-10. Source de vérité pour l'ordre : `docs/ROADMAP.md` (section « Ordre d'exécution »). Détail des tâches et prompts agent : `docs/BACKLOG.md`. Espace créateur / CV : `docs/CREATOR_ROADMAP.md`. Constat complet : `docs/AUDIT_2026-07.md`.
+> Mise à jour le 2026-07-11. Source de vérité pour l'ordre : `docs/ROADMAP.md` (section « Ordre d'exécution »). Détail des tâches et prompts agent : `docs/BACKLOG.md`. Espace créateur / CV : `docs/CREATOR_ROADMAP.md`. Constat complet : `docs/AUDIT_2026-07.md`. **Procédure de relecture éditoriale (critères de sortie de `needsReview`) : `docs/EDITORIAL_REVIEW.md`** — à appliquer pour EDIT-01.
 
 ## État actuel résumé
 

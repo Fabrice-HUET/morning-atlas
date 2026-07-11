@@ -12,6 +12,23 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — EDIT-02 : procédure de relecture éditoriale
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : éditorial, documentation
+- Résumé : rédaction de `docs/EDITORIAL_REVIEW.md`, la procédure et la grille objective pour faire passer une fiche de `needsReview: true` à `false`. Préalable à EDIT-01.
+- Contenu : 5 principes non négociables ; définition de « publiable » ; modèle à 3 verdicts (publiable / à retoucher / maintenue en review) ; grille de relecture en 6 dimensions (sourcing, nuance, langue, structure, SEO, cohérence) ancrée sur les champs réels des types `CountryBreakfast` et `Recipe` ; procédure pas à pas ; règle des cas douteux ; anti-patterns bloquants ; traçabilité (tracker + log) ; rythme en petits lots (phase test 30 jours) ; exemple travaillé sur Ful medames (Égypte).
+- Décisions prises :
+  - Règle d'or : dans le doute, rester à `true` + ajouter une `reviewNotes` explicite.
+  - En relecture, seul `needsReview` (+ corrections de texte et `reviewNotes`) change ; jamais de slug, clé, structure ou lien.
+  - La grille intègre explicitement les résidus ambigus laissés par DATA-01 (`sucre`/`sucré`, `sale`/`salé`…) comme points de contrôle langue.
+  - EDIT-02 requalifiée P0 (préalable direct du cœur de la phase de test).
+- Fichiers : `docs/EDITORIAL_REVIEW.md` (nouveau), lien ajouté dans `docs/NEXT_STEPS.md`, suivi dans `docs/BACKLOG.md`.
+- Validation : document uniquement, aucune donnée ni code touché (pas de build nécessaire).
+- Prochaine action : **EDIT-01** — appliquer cette grille à un lot pilote de 8-12 fiches pays + leurs recettes.
+
 ## 2026-07-11 — SEO-01 : breadcrumbs JSON-LD ne pointant plus vers des 404
 
 - Date : `2026-07-11`
