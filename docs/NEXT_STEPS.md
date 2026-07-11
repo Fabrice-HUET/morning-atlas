@@ -53,3 +53,4 @@ Chaque tâche a son prompt et ses critères dans `docs/BACKLOG.md`.
 - `git status --short`
 - `git log --oneline --decorate -n 15`
 - `pnpm lint` · `pnpm typecheck` · `pnpm build`
+- `pnpm validate:content` — intégrité des données (slugs dupliqués, références cassées) ; exécuté aussi en CI (`.github/workflows/ci.yml`)

@@ -12,6 +12,18 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — DATA-05 + TOOL-02 + TOOL-01 : validation de contenu, environnement Node, CI
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : tooling / qualité
+- **DATA-05** : `scripts/validate-content.ts` (runner `tsx`, ajouté en devDependency) exécute `getContentIntegrityReport()`, affiche un résumé (slugs dupliqués + références manquantes) et `process.exit(1)` si anomalie. Script `pnpm validate:content`. **Il a immédiatement attrapé un vrai bug** : le slug `condensed-milk` était corrompu en `condénsed-milk` dans 4 fiches (accent injecté par un remplacement de sous-chaîne trop large de la passe EDIT-01 `conde`→`condé`) → 4 références cassées. Corrigé (`condénse`→`condense`), re-validation = **0 anomalie**.
+- **TOOL-02** : `package.json` gagne `engines.node >=20.9` et `packageManager: pnpm@10.20.0` ; `.nvmrc` = `24` (installé localement, LTS, build prouvé) ; `README.md` réécrit (remplace le template create-next-app trompeur) avec section « Prérequis » + tableau des scripts.
+- **TOOL-01** : `.github/workflows/ci.yml` — déclenché sur push `main` et pull_request ; `ubuntu-latest` ; `pnpm/action-setup@v4` (lit `packageManager`), `actions/setup-node@v4` Node 24 + cache pnpm, `pnpm install --frozen-lockfile`, puis `lint`, `typecheck`, `validate:content`, `build`. Pas de déploiement (Vercel s'en charge).
+- Vérifications : pipeline CI **simulé en local et vert** (`install --frozen-lockfile`, `lint`, `typecheck`, `validate:content`, `build`) ; YAML valide (`yaml.safe_load`).
+- Prochaine action : Sprint 4 terminé. Reste : Sprint 0 (`CODE-03`, `IMG-02`), Sprint 5 (gouvernance données DATA-02/03/04/06), lots de relecture EDIT-01.
+
 ## 2026-07-11 — A11Y-01 : focus trap menu mobile, skip-link, prefers-reduced-motion
 
 - Date : `2026-07-11`

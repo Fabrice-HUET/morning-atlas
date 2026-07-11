@@ -34,7 +34,7 @@ export const kayaToastRecipe = {
     'white-pepper',
     'robusta-coffee',
     'kopi',
-    'condénsed-milk',
+    'condensed-milk',
     'evaporated-milk',
   ],
   steps: [

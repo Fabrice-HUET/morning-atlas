@@ -3695,7 +3695,7 @@ export const countries = [
       'coffee',
       'robusta-coffee',
       'kopi',
-      'condénsed-milk',
+      'condensed-milk',
       'evaporated-milk',
     ],
     categorySlugs: [
@@ -5028,7 +5028,7 @@ export const countries = [
       'raisins',
       'honey',
       'cream',
-      'condénsed-milk',
+      'condensed-milk',
       'berries',
       'banana',
       'seeds',
@@ -6836,7 +6836,7 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'traditional', 'family', 'brunch'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'Le plat fonctionne car il condénse plusieurs bases de la cuisine mexicaine : mais, œufs, piment, tomate, salsa et haricots.',
+      'Le plat fonctionne car il condense plusieurs bases de la cuisine mexicaine : mais, œufs, piment, tomate, salsa et haricots.',
     culturalContext:
       "L'imagerie ranchera renvoie à un monde rural et nourrissant, mais les versions urbaines, familiales et internationales sont nombreuses.",
     funFact:

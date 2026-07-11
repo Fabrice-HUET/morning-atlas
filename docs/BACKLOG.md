@@ -22,8 +22,9 @@
 | PAGE-02 → PAGE-04 | Pages index + 404 | P1 | ✅ 2026-07-11 |
 | DESIGN-01 / DESIGN-02 | Typographie + tokens | P1 | ✅ 2026-07-11 |
 | A11Y-01 | Focus trap, skip-link, reduced-motion | P1 | ✅ 2026-07-11 |
-| TOOL-01 / TOOL-02 | CI + environnement Node | P1 | ☐ |
-| DATA-02 → DATA-06 | Gouvernance des données | P1 | ☐ |
+| TOOL-01 / TOOL-02 | CI + environnement Node | P1 | ✅ 2026-07-11 |
+| DATA-05 | Validation d'intégrité en script pnpm | P1 | ✅ 2026-07-11 (a attrapé une corruption de slug) |
+| DATA-02 → DATA-06 | Gouvernance des données (hors DATA-05) | P1 | ☐ |
 | IMG-02 | Nettoyage assets template | P1 | ☐ |
 | P2 / P3 | Voir sections dédiées | — | ☐ |
 

@@ -33,7 +33,7 @@ export const swissBircherMuesliRecipe = {
     'raisins',
     'honey',
     'cream',
-    'condénsed-milk',
+    'condensed-milk',
     'berries',
     'banana',
     'seeds',
