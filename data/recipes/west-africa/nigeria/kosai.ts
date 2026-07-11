@@ -38,7 +38,6 @@ export const kosaiRecipe = {
   servings: 4,
   type: 'Beignet de légumineuses',
   tags: ['savory-morning', 'protein-rich', 'street-food', 'comfort-food'],
-  tagSlugs: ['nigeria', 'hausa', 'kosai', 'akara', 'black-eyed-peas', 'beans', 'street-food', 'fried', 'pepper', 'breakfast-porridge'],
   categorySlugs: [
     'breakfasts-of-africa',
     'west-african-breakfasts',

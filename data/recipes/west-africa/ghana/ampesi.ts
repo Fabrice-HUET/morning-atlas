@@ -55,7 +55,6 @@ export const ampesiRecipe = {
   servings: 2,
   type: 'Féculents bouillis et sauce',
   tags: ['comfort-food', 'family-meal', 'vegetarian-friendly'],
-  tagSlugs: ['ghana', 'ampesi', 'kontomire', 'yam', 'plantain', 'cocoyam', 'cassava', 'spinach', 'ghanaian-food', 'comfort-food', 'family-food'],
   categorySlugs: [
     'breakfasts-of-africa',
     'west-african-breakfasts',

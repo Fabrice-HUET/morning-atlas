@@ -54,18 +54,6 @@ export const chocolateConChurrosRecipe = {
   servings: 2,
   type: 'Pâte frite et chocolat chaud',
   tags: ['sweet-morning', 'comfort-food', 'street-food', 'iconic-breakfast'],
-  tagSlugs: [
-    'spain',
-    'madrid',
-    'churros',
-    'chocolate-con-churros',
-    'hot-chocolate',
-    'porras',
-    'churreria',
-    'san-gines',
-    'fried-dough',
-    'sweet-breakfast',
-  ],
   categorySlugs: [
     'breakfasts-of-europe',
     'spanish-breakfasts',

@@ -34,7 +34,6 @@ export const cafeToubaRecipe = {
   servings: 2,
   type: 'Boisson café épicée',
   tags: ['drink-included', 'traditional-breakfast', 'street-food'],
-  tagSlugs: ['senegal', 'cafe-touba', 'coffee', 'robusta', 'djar', 'grains-of-selim', 'guinea-pepper', 'xylopia-aethiopica', 'spiced-coffee', 'mouride', 'touba'],
   categorySlugs: [
     'breakfasts-of-africa',
     'west-african-breakfasts',

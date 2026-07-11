@@ -38,7 +38,6 @@ export const msemenRecipe = {
   servings: 6,
   type: 'Galette feuilletée',
   tags: ['traditional-breakfast', 'vegetarian-friendly', 'comfort-food', 'sweet-morning'],
-  tagSlugs: ['traditional-breakfast', 'sweet-morning', 'comfort-food', 'morocco', 'msemen', 'rghaif', 'mint-tea'],
   categorySlugs: ['breakfasts-of-africa', 'sweet', 'savory', 'traditional', 'family-friendly', 'flatbreads'],
   featured: true,
   recreateAtHomeLevel: 'medium',

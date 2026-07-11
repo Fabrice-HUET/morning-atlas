@@ -47,18 +47,6 @@ export const frenchTartinesRecipe = {
   servings: 1,
   type: 'Tartine sucrée',
   tags: ['sweet-morning', 'easy-at-home', 'comfort-food', 'traditional-breakfast'],
-  tagSlugs: [
-    'france',
-    'tartine',
-    'baguette',
-    'butter',
-    'jam',
-    'honey',
-    'cafe-au-lait',
-    'hot-chocolate',
-    'french-breakfast',
-    'petit-dejeuner',
-  ],
   categorySlugs: [
     'breakfasts-of-europe',
     'french-breakfasts',

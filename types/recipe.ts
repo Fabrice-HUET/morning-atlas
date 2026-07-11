@@ -18,8 +18,9 @@ export type Recipe = {
   difficulty: DifficultyToRecreate
   servings: number
   type: string
+  // Slugs de tags affichés (badges) sur la page recette ; chacun doit exister dans data/tags.ts
+  // (vérifié par getContentIntegrityReport / `pnpm validate:content`).
   tags: string[]
-  tagSlugs?: string[]
   categorySlugs?: string[]
   featured: boolean
   recreateAtHomeLevel: DifficultyToRecreate

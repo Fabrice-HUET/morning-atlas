@@ -40,7 +40,6 @@ export const lablabiRecipe = {
   servings: 2,
   type: 'Soupe de pois chiches',
   tags: ['traditional-breakfast', 'savory-morning', 'comfort-food', 'protein-rich'],
-  tagSlugs: ['traditional-breakfast', 'savory-morning', 'comfort-food', 'protein-rich', 'tunisia', 'lablabi', 'harissa', 'spicy'],
   categorySlugs: ['breakfasts-of-africa', 'savory', 'hearty', 'street-breakfast', 'legume-breakfasts', 'comfort-breakfasts', 'quick-at-home'],
   featured: true,
   recreateAtHomeLevel: 'easy',

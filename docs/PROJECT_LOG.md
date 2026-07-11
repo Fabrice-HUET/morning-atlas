@@ -12,6 +12,18 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — DATA-02 : unification tags / tagSlugs sur Recipe
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : données / gouvernance
+- Constat : `recipe.tagSlugs` (optionnel) n'était **ni affiché ni utilisé** pour du maillage — seulement validé ; `recipe.tags` (affiché via TagBadge) n'était **pas** validé, et 11 de ses valeurs (`healthy`, `hearty`, `quick`, `classic-breakfast`) manquaient dans `data/tags.ts` (affichées en slug brut).
+- Décision : `tags` devient le **champ unique** de tags affichables et **validés** ; `tagSlugs` (mort) supprimé.
+- Changements : 4 tags ajoutés à `data/tags.ts` (Sain, Copieux, Rapide, Petit-déjeuner classique) pour que tous les `recipe.tags` résolvent (corrige aussi l'affichage de slugs bruts) ; `tagSlugs` retiré du type `Recipe` (commenté) et des **53 fichiers recettes** ; `lib/content-validation.ts` valide désormais `recipe.tags`.
+- Vérifications : `pnpm validate:content` **vert** (0 dupliqué, 0 référence manquante), `pnpm lint`, `pnpm typecheck`, `pnpm build` (657 routes).
+- Reste du groupe DATA : DATA-03 (taxonomies, L), DATA-04 (`featured`), DATA-06 (enums FR).
+
 ## 2026-07-11 — DATA-05 + TOOL-02 + TOOL-01 : validation de contenu, environnement Node, CI
 
 - Date : `2026-07-11`

@@ -45,7 +45,6 @@ export const katogoRecipe = {
   servings: 3,
   type: 'Plat tout-en-un',
   tags: ['traditional-breakfast', 'comfort-food', 'family-meal', 'protein-rich'],
-  tagSlugs: ['uganda', 'katogo', 'matooke', 'plantain', 'beans', 'one-pot', 'ugandan-food', 'byenda', 'g-nut', 'breakfast-stew', 'comfort-food'],
   categorySlugs: [
     'breakfasts-of-africa',
     'east-african-breakfasts',

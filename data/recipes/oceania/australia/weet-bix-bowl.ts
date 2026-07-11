@@ -46,18 +46,6 @@ export const weetBixBowlRecipe = {
   servings: 1,
   type: 'Bol de céréales',
   tags: ['quick', 'easy-at-home', 'family-meal', 'sweet-morning'],
-  tagSlugs: [
-    'australia',
-    'weet-bix',
-    'cereal',
-    'wheat-biscuits',
-    'milk',
-    'banana',
-    'honey',
-    'family-breakfast',
-    'aussie-breakfast',
-    'quick-breakfast',
-  ],
   categorySlugs: [
     'breakfasts-of-oceania',
     'australian-breakfasts',

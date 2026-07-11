@@ -37,7 +37,6 @@ export const putuPapRecipe = {
   servings: 2,
   type: 'Bouillie de mais granuleuse',
   tags: ['traditional-breakfast', 'comfort-food', 'family-meal'],
-  tagSlugs: ['south-africa', 'putu-pap', 'phuthu', 'uphuthu', 'krummelpap', 'pap', 'maize-meal', 'mielie-meal', 'amasi', 'braai', 'comfort-food'],
   categorySlugs: [
     'breakfasts-of-africa',
     'southern-african-breakfasts',

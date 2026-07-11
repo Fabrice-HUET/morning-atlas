@@ -45,18 +45,6 @@ export const boterhamMetHagelslagRecipe = {
   servings: 1,
   type: 'Tartine sucrée',
   tags: ['sweet-morning', 'easy-at-home', 'family-meal', 'quick-breakfast'],
-  tagSlugs: [
-    'netherlands',
-    'dutch-breakfast',
-    'hagelslag',
-    'boterham',
-    'chocolate-sprinkles',
-    'bread',
-    'butter',
-    'vlokken',
-    'vruchtenhagel',
-    'quick-breakfast',
-  ],
   categorySlugs: [
     'breakfasts-of-europe',
     'dutch-breakfasts',

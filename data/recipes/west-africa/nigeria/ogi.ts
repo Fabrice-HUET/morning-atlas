@@ -34,7 +34,6 @@ export const ogiRecipe = {
   servings: 2,
   type: 'Bouillie fermentée',
   tags: ['traditional-breakfast', 'comfort-food', 'family-meal', 'sweet-morning'],
-  tagSlugs: ['nigeria', 'yoruba', 'ogi', 'akamu', 'pap', 'koko', 'maize', 'sorghum', 'millet', 'fermented', 'porridge', 'comfort-food'],
   categorySlugs: [
     'breakfasts-of-africa',
     'west-african-breakfasts',

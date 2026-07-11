@@ -109,7 +109,7 @@ export function getContentIntegrityReport(): ContentIntegrityReport {
       getOptionalSlugArray(recipe, 'categorySlugs'),
       categorySlugs,
     )
-    pushMissingReference(missingReferences, recipe.slug, 'tagSlugs', getOptionalSlugArray(recipe, 'tagSlugs'), tagSlugs)
+    pushMissingReference(missingReferences, recipe.slug, 'tags', recipe.tags, tagSlugs)
   }
 
   return {

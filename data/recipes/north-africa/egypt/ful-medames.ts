@@ -37,7 +37,6 @@ export const fulMedamesRecipe = {
   servings: 2,
   type: 'Plat de légumineuses',
   tags: ['traditional-breakfast', 'protein-rich', 'comfort-food', 'easy-at-home'],
-  tagSlugs: ['traditional-breakfast', 'protein-rich', 'comfort-food', 'easy-at-home', 'egypt', 'ful-medames'],
   categorySlugs: ['breakfasts-of-africa', 'savory', 'hearty', 'traditional', 'legume-breakfasts', 'easy-to-recreate'],
   featured: true,
   recreateAtHomeLevel: 'easy',

@@ -548,4 +548,8 @@ export const tags = [
   { slug: 'pastelaria', label: 'Pastelaria', description: "Café-pâtisserie portugais ou l'on prend boissons, pains et pâtisseries." },
   { slug: 'bica', label: 'Bica', description: "Espresso portugais, notamment dans l'usage lisboete." },
   { slug: 'tosta-mista', label: 'Tosta mista', description: 'Sandwich chaud portugais au jambon et fromage.' },
+  { slug: 'healthy', label: 'Sain', description: 'Profil léger, équilibré ou perçu comme sain.' },
+  { slug: 'hearty', label: 'Copieux', description: 'Petit-déjeuner nourrissant et rassasiant.' },
+  { slug: 'quick', label: 'Rapide', description: 'Rapide à préparer ou à assembler.' },
+  { slug: 'classic-breakfast', label: 'Petit-déjeuner classique', description: 'Configuration classique et reconnaissable du matin.' },
 ] satisfies Tag[]
