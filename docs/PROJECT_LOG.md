@@ -12,6 +12,22 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — CREATOR-01 : isolation de l'espace créateur (route groups)
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : architecture, routing (espace créateur)
+- Résumé : séparation de l'espace créateur du magazine via deux route groups Next, sans changer aucune URL. C'est le premier pas de la refonte « L'Atelier » (remplace l'ancienne PAGE-01).
+- Structure :
+  - `app/(site)/` : toutes les routes du magazine (`page.tsx`, `about/`, `countries/`, `recipes/`, `categories/`, `ingredients/`, `guides/`) + `app/(site)/layout.tsx` qui porte `Navbar` + `Footer`.
+  - `app/(atelier)/creator/` : la page créateur + `app/(atelier)/layout.tsx` dédié (mini-header « L'Atelier » / « Fabrice Huet » + lien « ← Morning Atlas », footer une-ligne ; style sobre provisoire, le thème sombre arrive en CREATOR-02).
+  - `app/layout.tsx` racine réduit au strict commun : `<html lang="fr">`, `<body>`, `globals.css`, metadata de base, JSON-LD globaux (`WebSite` + `Organization`). Plus de `Navbar`/`Footer` au niveau racine.
+  - Fichiers spéciaux inchangés à la racine `app/` : `robots.ts`, `sitemap.ts`, icônes, `globals.css`.
+- Décisions (doc locale Next 16 lue avant) : un seul root layout top-level + deux layouts de groupe imbriqués (pas de « multiple root layouts » → pas de full reload). Les parenthèses des groupes n'apparaissent pas dans les URLs.
+- Vérifications : `pnpm build` (652 pages, URLs identiques : `/`, `/creator`, `/countries/[slug]`… inchangées) ; HTML généré de `/creator` = 0 navbar magazine + 1 header Atelier ; accueil magazine = navbar présente ; lien « Créateur » toujours uniquement dans le footer magazine, jamais dans la navbar. `pnpm lint`, `pnpm typecheck` OK (après `rm -rf .next` pour purger des types de dev périmés).
+- Prochaine action : **CREATOR-02** (thème « Atelier » : palette Mocha Mousse inversée + typographie `next/font`).
+
 ## 2026-07-11 — EDIT-01 : relecture et validation du lot pilote
 
 - Date : `2026-07-11`
