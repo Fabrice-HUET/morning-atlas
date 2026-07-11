@@ -12,6 +12,19 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — SEO-03 : enrichissement du JSON-LD Recipe
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO
+- Résumé : `buildRecipeJsonLd` expose désormais les temps, portions, catégorie et mots-clés (données déjà présentes), pour déclencher les rich results recettes.
+- Détails (`lib/structured-data.ts`) : `prepTime`/`totalTime` en ISO 8601 (`PT{n}M`), `cookTime` seulement si > 0, `recipeYield` (`"1 portion"` / `"N portions"`), `recipeCategory` = `recipe.type`, `keywords` = labels des tags résolus via `getTagsBySlugs`. **Aucun champ inventé** (pas de nutrition, note, auteur ni date).
+- Correction connexe : labels de tags `Matin sucre`→`Matin sucré`, `Matin sale`→`Matin salé` (résidus DATA-01, désormais lus par Google via `keywords`).
+- Vérification (HTML généré, `/recipes/tartines`) : `prepTime "PT5M"`, `totalTime "PT5M"` (cook 0 → pas de `cookTime`), `recipeYield "1 portion"`, `recipeCategory "Tartine sucrée"`, `keywords "Matin sucré, Facile à la maison, Confort, Petit-déjeuner traditionnel"`. `pnpm lint/typecheck/build` OK.
+- **Sprint 3 SEO (SEO-02 → SEO-06) : SEO-02, SEO-03, SEO-05, SEO-06 faits ; reste SEO-04 (OG par défaut).**
+- Prochaine action : **SEO-04**.
+
 ## 2026-07-11 — SEO-05 : title template global
 
 - Date : `2026-07-11`

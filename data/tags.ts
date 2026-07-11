@@ -2,9 +2,9 @@ import type { Tag } from '@/types/taxonomy'
 
 export const tags = [
   { slug: 'traditional-breakfast', label: 'Petit-déjeuner traditionnel', description: 'Associé à une habitude locale documentée.' },
-  { slug: 'sweet-morning', label: 'Matin sucre', description: 'Profil doux, sucre ou pâtissier.' },
+  { slug: 'sweet-morning', label: 'Matin sucré', description: 'Profil doux, sucré ou pâtissier.' },
   { slug: 'pastry', label: 'Pâtisserie', description: 'Pâtisseries, viennoiseries et douceurs du matin.' },
-  { slug: 'savory-morning', label: 'Matin sale', description: 'Profil sale, épice ou umami.' },
+  { slug: 'savory-morning', label: 'Matin salé', description: 'Profil salé, épicé ou umami.' },
   { slug: 'drink-included', label: 'Boisson incluse', description: "La boisson fait partie de l'expérience." },
   { slug: 'protein-rich', label: 'Riche en protéines', description: 'Œufs, haricots, poisson, viande ou laitage.' },
   { slug: 'vegetarian-friendly', label: 'Végétarien possible', description: 'Peut souvent être adapté sans viande ni poisson.' },

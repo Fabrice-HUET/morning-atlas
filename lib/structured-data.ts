@@ -1,6 +1,11 @@
 import type { Recipe } from '@/types/recipe'
 
+import { getTagsBySlugs } from '@/lib/content-helpers'
 import { DEFAULT_DESCRIPTION, SITE_NAME, absoluteUrl, breakfastImageUrl } from '@/lib/seo'
+
+function isoMinutes(minutes: number) {
+  return `PT${minutes}M`
+}
 
 type JsonLd = Record<string, unknown>
 
@@ -90,6 +95,11 @@ export function buildItemListJsonLd({ name, path, items }: ItemListJsonLdOptions
 }
 
 export function buildRecipeJsonLd(recipe: Recipe): JsonLd {
+  const totalMinutes = recipe.prepTimeMinutes + recipe.cookTimeMinutes
+  const keywords = getTagsBySlugs(recipe.tags)
+    .map((tag) => tag.label)
+    .join(', ')
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
@@ -97,11 +107,17 @@ export function buildRecipeJsonLd(recipe: Recipe): JsonLd {
     description: recipe.shortDescription,
     image: breakfastImageUrl(recipe.slug),
     recipeCuisine: recipe.originLabel,
+    recipeCategory: recipe.type,
     recipeIngredient: recipe.ingredients,
     recipeInstructions: recipe.steps.map((step) => ({
       '@type': 'HowToStep',
       text: step,
     })),
+    prepTime: isoMinutes(recipe.prepTimeMinutes),
+    ...(recipe.cookTimeMinutes > 0 ? { cookTime: isoMinutes(recipe.cookTimeMinutes) } : {}),
+    totalTime: isoMinutes(totalMinutes),
+    recipeYield: `${recipe.servings} portion${recipe.servings > 1 ? 's' : ''}`,
+    ...(keywords ? { keywords } : {}),
     url: absoluteUrl(`/recipes/${recipe.slug}`),
     mainEntityOfPage: absoluteUrl(`/recipes/${recipe.slug}`),
   }
