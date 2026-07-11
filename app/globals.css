@@ -13,36 +13,28 @@
   --color-ink: #261812;
 }
 
-:root {
-  --ma-mocha: #a47864;
-  --ma-cream: #fff6ea;
-  --ma-oat: #e8d8c3;
-  --ma-toast: #c9895b;
-  --ma-espresso: #3a241c;
-  --ma-honey: #e7a93b;
-  --ma-sage: #8fae8b;
-  --ma-berry: #b95c50;
-  --ma-paper: #fffdf8;
-  --ma-ink: #261812;
-  background: var(--ma-cream);
-  color: var(--ma-ink);
-}
-
+/* Source de vérité unique de la palette : les tokens @theme ci-dessus (exposés en var(--color-*) par Tailwind 4). */
 html {
   scroll-behavior: smooth;
+  background: var(--color-cream);
+  color: var(--color-ink);
 }
 
 body {
   margin: 0;
-  font-family:
-    Arial,
-    Helvetica,
-    sans-serif;
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
   background:
     radial-gradient(circle at top left, rgba(231, 169, 59, 0.14), transparent 30rem),
-    linear-gradient(180deg, var(--ma-cream) 0%, #fffaf2 46%, var(--ma-oat) 160%);
-  color: var(--ma-ink);
+    linear-gradient(180deg, var(--color-cream) 0%, #fffaf2 46%, var(--color-oat) 160%);
+  color: var(--color-ink);
   text-rendering: optimizeLegibility;
+}
+
+/* Fonte display de la marque sur les titres (magazine et atelier). */
+h1,
+h2,
+h3 {
+  font-family: var(--font-fraunces), Georgia, "Times New Roman", serif;
 }
 
 * {
@@ -50,8 +42,8 @@ body {
 }
 
 ::selection {
-  background: var(--ma-honey);
-  color: var(--ma-espresso);
+  background: var(--color-honey);
+  color: var(--color-espresso);
 }
 
 a {

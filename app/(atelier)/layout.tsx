@@ -1,23 +1,16 @@
-import { Fraunces } from 'next/font/google'
 import Link from 'next/link'
 
 import { Container } from '@/components/layout/Container'
 
-// Fonte display de l'Atelier, exposée en variable CSS et appliquée aux titres via globals.css (.atelier).
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  variable: '--font-fraunces',
-  display: 'swap',
-})
-
 // Thème « L'Atelier » : la marque Morning Atlas en polarité inversée (fond sombre, accent honey).
+// La fonte Fraunces est chargée au layout racine (variable --font-fraunces, héritée ici).
 export default function AtelierLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
   return (
-    <div className={`atelier ${fraunces.variable} flex min-h-screen flex-col bg-ink text-cream`}>
+    <div className="atelier flex min-h-screen flex-col bg-ink text-cream">
       <a
         href="#atelier-content"
         className="cv-noprint sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-honey focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-ink"

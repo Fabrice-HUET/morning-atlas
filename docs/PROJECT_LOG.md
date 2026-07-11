@@ -12,6 +12,18 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — DESIGN-01 / DESIGN-02 : typographie de marque + unification des tokens
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : design / identité
+- **DESIGN-01 (typographie)** : fin de l'Arial générique. Paire chargée via `next/font/google` (auto-hébergée, `display: swap`, aucune requête runtime) au **layout racine** : **Fraunces** (titres, caractère éditorial) + **Source Sans 3** (corps, humaniste lisible). Variables `--font-fraunces` / `--font-body` posées sur `<html>` ; `globals.css` applique le corps en `var(--font-body)` et `h1/h2/h3` en `var(--font-fraunces)`, sans toucher aux tailles/graisses Tailwind. Fraunces est désormais la fonte display de **toute la marque** (magazine + atelier) : chargée une seule fois à la racine, le layout `(atelier)` ne la charge plus.
+  - Piège évité : le nom de variable `--font-sans` entrait en collision avec le token Tailwind 4 par défaut → renommé `--font-body`.
+- **DESIGN-02 (tokens)** : source de vérité unique = les tokens `@theme --color-*` (exposés en `var(--color-*)` par Tailwind 4). Bloc dupliqué `:root { --ma-* }` **supprimé** ; tous les usages (`body`, `html`, `::selection`) réécrits en `var(--color-*)`. Plus aucun hex de palette en dur dans `app/`/`components/` hors des endroits légitimes (définitions `@theme`, générateurs d'images OG, feuille d'impression). Valeurs identiques → **aucun changement de couleur**.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (657 routes) ; `@font-face` Fraunces + Source Sans 3 générés, variables définies, `<html>` porte les deux ; `body{font-family:var(--font-body)}` et `h1,h2,h3{font-family:var(--font-fraunces)}` dans le CSS compilé ; grep `--ma-` = vide.
+- Prochaine action : Sprint 4 restant — `A11Y-01` (focus trap menu mobile, skip-link, reduced-motion), `TOOL-01` (CI), `TOOL-02` (Node) ; ou reste du Sprint 0.
+
 ## 2026-07-11 — PAGE-02 → PAGE-04 : pages index /categories, /ingredients + 404
 
 - Date : `2026-07-11`

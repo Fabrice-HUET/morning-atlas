@@ -1,8 +1,14 @@
 import type { Metadata } from 'next'
+import { Fraunces, Source_Sans_3 } from 'next/font/google'
 
 import { DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/seo'
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, serializeJsonLd } from '@/lib/structured-data'
 import './globals.css'
+
+// Typographie de marque (self-hosted par next/font, aucune requête runtime) :
+// Fraunces pour les titres (caractère éditorial « carnet »), Source Sans 3 pour le corps (humaniste, lisible).
+const fraunces = Fraunces({ subsets: ['latin'], variable: '--font-fraunces', display: 'swap' })
+const sourceSans = Source_Sans_3({ subsets: ['latin'], variable: '--font-body', display: 'swap' })
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -34,7 +40,7 @@ export default function RootLayout({
   const jsonLd = [buildWebSiteJsonLd(), buildOrganizationJsonLd()]
 
   return (
-    <html lang="fr">
+    <html lang="fr" className={`${fraunces.variable} ${sourceSans.variable}`}>
       <body>
         <script
           type="application/ld+json"
