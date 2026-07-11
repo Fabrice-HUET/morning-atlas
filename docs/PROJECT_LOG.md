@@ -12,6 +12,22 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — CREATOR-03 : scène SVG maison, retrait de three.js
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : design / performance (espace créateur)
+- Résumé : remplacement de la scène décorative WebGL `three.js` par une scène SVG « blueprint » dessinée main, animée en CSS pur, et suppression de la dépendance `three`.
+- Détails :
+  - Nouveau `components/creator/AtelierScene.tsx` : **composant serveur** (aucun `'use client'`), SVG inline original — plan de travail esquissé (écran + lignes de code, tasse de café avec vapeur, croissant, petit globe) en traits fins honey/toast/sage sur fond `espresso`. Aucun asset externe, aucun modèle copié.
+  - Animations CSS pures : tracé progressif des contours (`stroke-dasharray`/`stroke-dashoffset` via `pathLength=1`, apparition échelonnée) et vapeur en boucle lente. `@media (prefers-reduced-motion: reduce)` → scène complète et statique.
+  - `components/creator/CreatorScene.tsx` (WebGL) supprimé ; `three` + `@types/three` retirés via `pnpm remove` ; plus aucun import three dans le repo.
+- Impact perf : `/creator` redevient une page statique sans chunk JS spécifique (le bundle `three` ~700 kB disparaît) ; le visuel ne charge plus **aucun JS client** — cohérent avec le discours performance du CV.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (652 pages) ; `package.json` dependencies = next/react/react-dom uniquement ; aucun chunk `three` dans `.next` ; HTML `/creator` contient la scène (`atelier-scene`, `atelier-draw`, `atelier-steam`) ; aucun `'use client'` dans les composants de l'atelier.
+- Reste sur l'atelier : CREATOR-04 (récit : timeline, compétences, projets), CREATOR-05 (CV web + PDF), CREATOR-06 (SEO Person), CREATOR-07 (qualité vitrine).
+- Prochaine action : **CREATOR-04**.
+
 ## 2026-07-11 — CREATOR-02 : thème « L'Atelier » (palette inversée + typographie)
 
 - Date : `2026-07-11`

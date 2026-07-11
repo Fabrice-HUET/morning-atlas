@@ -66,7 +66,7 @@ L'ordre est strict : chaque tâche dépend de la précédente sauf mention contr
 | --- | --- | --- | --- |
 | CREATOR-01 | Isoler l'espace créateur (route groups + layout dédié) ✅ 2026-07-11 | M | CODE-01 |
 | CREATOR-02 | Thème « Atelier » : tokens inversés + typographie next/font ✅ 2026-07-11 | M | CREATOR-01 |
-| CREATOR-03 | Hero : scène SVG/CSS maison, retrait de three.js | M | CREATOR-02 |
+| CREATOR-03 | Hero : scène SVG/CSS maison, retrait de three.js ✅ 2026-07-11 | M | CREATOR-02 |
 | CREATOR-04 | Refonte du contenu en récit (timeline, compétences, projets) | M | CREATOR-02 |
 | CREATOR-05 | CV web imprimable `/creator/cv` + PDF public | L | CREATOR-02 |
 | CREATOR-06 | SEO de l'espace : JSON-LD Person, metadata, OG dédiée | S | CREATOR-04 |

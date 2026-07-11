@@ -3,7 +3,7 @@ import { join } from 'node:path'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
-import { CreatorScene } from '@/components/creator/CreatorScene'
+import { AtelierScene } from '@/components/creator/AtelierScene'
 import { Container } from '@/components/layout/Container'
 import {
   compactExperiences,
@@ -76,7 +76,7 @@ export default function CreatorPage() {
               <p className="mt-3 text-sm leading-6 text-cream/55">CV bientôt disponible à cet emplacement.</p>
             ) : null}
           </div>
-          <CreatorScene />
+          <AtelierScene />
         </section>
 
         <section className="mt-16 grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
