@@ -12,6 +12,22 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-11 — SEO-04 : image Open Graph par défaut de marque — Sprint 3 SEO terminé
+
+- Date : `2026-07-11`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO
+- Résumé : image sociale par défaut de la marque, utilisée en fallback quand une page n'a pas d'image spécifique.
+- Détails :
+  - `app/og-default/route.tsx` : route handler `next/og` (`force-static`) servant l'image à URL stable `/og-default` (1200×630, fond crème, wordmark « Morning Atlas », motif bol fumant + soleil en palette Mocha Mousse ; aucun asset externe).
+  - `lib/seo.ts` : `buildPageMetadata` injecte `DEFAULT_OG_IMAGE` en fallback (og:image + twitter `summary_large_image`) ; option `skipDefaultImage` pour les segments qui ont leur propre image ; dimensions/type différenciés (marque 1200×630 PNG, image spécifique 1200×900 WebP).
+  - `/creator` passe `skipDefaultImage` → garde son image « Atelier » ; `app/layout.tsx` : twitter card racine en `summary_large_image`.
+- Décision (doc locale lue) : la convention `opengraph-image` ne se propage pas aux segments enfants qui définissent leur propre `openGraph` → route handler à URL stable + fallback dans `buildPageMetadata`, comme prévu par la tâche.
+- Vérification (HTML généré) : og:image présente sur **toutes** les familles — marque (`/og-default`, 630) sur home/about/guides/ingrédients/catégories ; image spécifique WebP (900) sur recettes/pays ; image Atelier sur `/creator`. `pnpm lint/typecheck/build` (655 routes) OK.
+- **Sprint 3 — Consolidation SEO (SEO-02 → SEO-06) : terminé** (SEO-02 noindex, SEO-03 JSON-LD Recipe, SEO-04 OG marque, SEO-05 title template, SEO-06 sitemap lastModified).
+- Prochaine action : au choix — reste du Sprint 0 (TOOL-02/CODE-03/IMG-02), pages index (PAGE-02→04), lot pilote 2 de relecture, ou Sprint 4.
+
 ## 2026-07-11 — SEO-03 : enrichissement du JSON-LD Recipe
 
 - Date : `2026-07-11`

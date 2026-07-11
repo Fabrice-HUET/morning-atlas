@@ -23,6 +23,8 @@ export const metadata: Metadata = {
     title: 'À propos du créateur',
     description,
     path: '/creator',
+    // /creator a sa propre image OG « Atelier » (opengraph-image.tsx).
+    skipDefaultImage: true,
   }),
   twitter: {
     card: 'summary_large_image',
