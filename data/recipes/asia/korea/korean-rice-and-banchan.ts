@@ -125,5 +125,5 @@ export const koreanRiceAndBanchanRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, table de petit-déjeuner coréen avec bol de riz, soupe claire, kimchi, petits banchan colores, gim, épinards namul, tofu, œuf, baguettes metalliques et cuillère, ambiance cuisine familiale du matin à Seoul, palette moka mousse, blanc riz, rouge kimchi, vert légumes, brun soupe, noir algue, composition éditoriale équilibrée, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

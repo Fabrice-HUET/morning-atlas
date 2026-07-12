@@ -78,7 +78,7 @@ export const israeliBreakfastRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Fiche de format / buffet / assiette composee, pas recette unique. Rester centre sur les usages culinaires et eviter les generalisations identitaires.',
+    'Fiche de format / buffet / assiette composee, pas recette unique. Rester centre sur les usages culinaires et éviter les generalisations identitaires.',
   seoTitle: 'Israeli Breakfast : le buffet méditerranéen du matin',
   seoDescription:
     "Découvre l'Israeli breakfast, un petit-déjeuner généreux inspire des kibboutzim et popularise par les hotels : salades, œufs, fromages, pains, labneh et légumes frais.",

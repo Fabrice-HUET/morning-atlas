@@ -7,14 +7,14 @@ export const bagelWithCreamCheeseRecipe = {
   countrySlugs: ['united-states-bagel-cream-cheese'],
   originLabel: 'États-Unis / New York',
   shortDescription:
-    'Un bagel coupe et garni de cream cheese, parfois avec lox, capres, oignon rouge et tomate, très associé à New York.',
+    'Un bagel coupe et garni de cream cheese, parfois avec lox, câpres, oignon rouge et tomate, très associé à New York.',
   longDescription:
-    "Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, capres, oignon rouge et tomate. La fiche doit rester centrée sur l'ancrage new-yorkais plutôt que generaliser à tous les États-Unis.",
+    "Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, câpres, oignon rouge et tomate. La fiche doit rester centrée sur l'ancrage new-yorkais plutôt que generaliser à tous les États-Unis.",
   ingredients: [
     '1 bagel',
     '2 à 3 cuillères à soupe de cream cheese',
     '2 tranches de saumon fume ou lox optionnelles',
-    'Quelques capres',
+    'Quelques câpres',
     "Quelques rondelles d'oignon rouge",
     '2 rondelles de tomate',
     'Poivre',
@@ -41,7 +41,7 @@ export const bagelWithCreamCheeseRecipe = {
     'Le toaster légèrement si souhaite.',
     'Tartiner généreusement de cream cheese.',
     'Ajouter saumon fume ou lox si une version plus complete est souhaitée.',
-    'Ajouter oignon rouge, capres et tomate.',
+    'Ajouter oignon rouge, câpres et tomate.',
     'Poivrer légèrement.',
     'Ajouter quelques gouttes de citron si souhaite.',
     'Refermer ou manger ouvert.',
@@ -64,7 +64,7 @@ export const bagelWithCreamCheeseRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Titre volontairement centre sur New York pour eviter de generaliser à tous les États-Unis.',
+    'Titre volontairement centre sur New York pour éviter de generaliser à tous les États-Unis.',
   seoTitle: 'Bagel Cream Cheese : le petit-déjeuner new-yorkais iconique',
   seoDescription:
     'Découvre le bagel au cream cheese, un classique américain très associé à New York, aux delis et à la cuisine juive américaine.',
@@ -101,6 +101,6 @@ export const bagelWithCreamCheeseRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bagel new-yorkais coupe en deux avec cream cheese généreux, option lox saumon, capres, oignon rouge, tomate, graines de sesame et pavot, tasse de café filtre à emporter, papier deli blanc en décor, ambiance comptoir de bagel shop à New York le matin, palette moka mousse, beige bagel, blanc cream cheese, rose saumon, rouge oignon, brun café, composition éditoriale nette et appetissante, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bagel new-yorkais coupe en deux avec cream cheese généreux, option lox saumon, câpres, oignon rouge, tomate, graines de sesame et pavot, tasse de café filtre à emporter, papier deli blanc en décor, ambiance comptoir de bagel shop à New York le matin, palette moka mousse, beige bagel, blanc cream cheese, rose saumon, rouge oignon, brun café, composition éditoriale nette et appetissante, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe

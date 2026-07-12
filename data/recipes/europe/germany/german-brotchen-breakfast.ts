@@ -76,7 +76,7 @@ export const germanBrotchenBreakfastRecipe = {
     'Ne pas présenter les Brötchen comme unique petit-déjeuner allemand.',
     'Les noms régionaux changent beaucoup : Semmel, Schrippe, Weck, Rundstück et autres.',
     'Le Frühstück peut être simple en semaine et plus généreux le week-end.',
-    'Le Weißwurstfrühstück bavarois merite une fiche séparée.',
+    'Le Weißwurstfrühstück bavarois mérite une fiche séparée.',
   ],
   sources: [
     {
@@ -106,5 +106,5 @@ export const germanBrotchenBreakfastRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, table de Frühstück allemand avec panier de Brötchen croustillants, pain de seigle, beurre, confiture, miel, fromage, charcuterie, œuf à la coque dans un coquetier, tasse de café fumante, ambiance cuisine familiale allemande du dimanche matin, palette moka mousse, beige pain, brun seigle, jaune beurre, rouge confiture, crème café, composition généreuse et lisible, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

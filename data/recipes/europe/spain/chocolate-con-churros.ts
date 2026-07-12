@@ -103,5 +103,5 @@ export const chocolateConChurrosRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de churros espagnols dorés et croustillants, tasse basse de chocolat chaud très épais, churro trempe dans le chocolat, quelques grains de sucre, petite table de chocolateria madrilene, ambiance matin frais à Madrid, palette moka mousse, brun chocolat, doré frit, crème, rouge discret, composition gourmande et lisible, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

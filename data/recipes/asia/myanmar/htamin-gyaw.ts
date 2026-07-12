@@ -73,7 +73,7 @@ export const htaminGyawRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Fiche exploitable, mais le statut petit-déjeuner merite une source locale supplementaire. Le plat est aussi un repas rapide ou plat de restes.',
+    'Fiche exploitable, mais le statut petit-déjeuner mérite une source locale supplementaire. Le plat est aussi un repas rapide ou plat de restes.',
   seoTitle: 'Htamin Gyaw : le riz frit birman du matin',
   seoDescription:
     'Découvre le htamin gyaw, un riz frit birman souvent associé au petit-déjeuner, prépare avec riz, pois, oignon, ail et parfois œuf frit.',

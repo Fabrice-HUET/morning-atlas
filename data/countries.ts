@@ -522,7 +522,7 @@ export const countries = [
       "Découvre l'ogi, une bouillie nigeriane à base de mais, sorgho ou millet fermenté, souvent servie chaude au petit-déjeuner.",
     reviewNotes: [
       'Les noms ogi, akamu, pap et koko changent selon les régions, langues et familles.',
-      'Ne pas enfermer le plat dans une seule identite yoruba.',
+      'Ne pas enfermer le plat dans une seule identité yoruba.',
       'Eviter les claims sante et rester sur une description alimentaire et culturelle.',
     ],
     sources: [
@@ -547,7 +547,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol d'ogi nigerian crémeux et fumant, texture lisse couleur crème pale, petite cruche de lait, quelques grains de mais, millet et sorgho en décor, deux petits beignets akara à cote, ambiance cuisine familiale du matin, palette moka mousse, crème, jaune mais, brun doux et rouge discret, composition simple pour fiche éditoriale, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'senegal-cafe-touba',
@@ -693,7 +693,7 @@ export const countries = [
     culturalNote:
       "Le canjeero releve d'une cuisine domestique et familiale somalienne, documentée aussi par des cuisinieres et auteurs de la diaspora.",
     culturalContext:
-      'Les sources insistent sur la transmission familiale et les variations de farines, noms et gestes ; il faut eviter de le réduire à une simple injera somalienne.',
+      'Les sources insistent sur la transmission familiale et les variations de farines, noms et gestes ; il faut éviter de le réduire à une simple injera somalienne.',
     funFact:
       'Le canjeero est souvent cuit sur une seule face : les bulles qui percent la surface donnent sa texture spongieuse.',
     morningContext:
@@ -828,7 +828,7 @@ export const countries = [
     shortDescription:
       'Une soupe tunisienne populaire à base de pois chiches, pain, cumin, ail et harissa, souvent servie chaude.',
     longDescription:
-      "Le lablabi est une soupe ou un ragout tunisien à base de pois chiches, souvent associé aux petits restaurants, aux stands populaires et aux matinées fraiches. Sa base est simple : pois chiches bien cuits dans leur bouillon, pain rassis ou rustique, ail, cumin, citron et harissa. Selon les versions, il peut être complete avec œuf, thon, capres, huile d'olive, pickles, persil ou coriandre.",
+      "Le lablabi est une soupe ou un ragout tunisien à base de pois chiches, souvent associé aux petits restaurants, aux stands populaires et aux matinées fraiches. Sa base est simple : pois chiches bien cuits dans leur bouillon, pain rassis ou rustique, ail, cumin, citron et harissa. Selon les versions, il peut être complete avec œuf, thon, câpres, huile d'olive, pickles, persil ou coriandre.",
     breakfastSubtitle: 'Une soupe chaude, populaire et personnalisable.',
     typicalItems: ['Pois chiches', 'Pain rassis', 'Ail', 'Cumin', 'Harissa', 'Citron', "Huile d'olive"],
     commonDrinks: ['Aucune boisson unique documentée'],
@@ -848,7 +848,7 @@ export const countries = [
     variants: [
       'Version simple avec pois chiches, bouillon, ail, cumin et citron.',
       'Version épicée avec harissa plus généreuse.',
-      "Version garnie avec œuf, thon, capres, huile d'olive, olives ou pickles.",
+      "Version garnie avec œuf, thon, câpres, huile d'olive, olives ou pickles.",
       'Version végétarienne sans thon, avec œuf optionnel ou sans œuf.',
       'Version de rue assemblée au bol avec choix de garnitures.',
     ],
@@ -860,7 +860,7 @@ export const countries = [
         'Ajouter ail, cumin, sel et poivre.',
         'Mettre le pain en morceaux dans un bol.',
         "Verser les pois chiches chauds, puis ajouter harissa, citron et huile d'olive.",
-        'Completer avec œuf, thon, capres ou herbes si souhaite.',
+        'Completer avec œuf, thon, câpres ou herbes si souhaite.',
       ],
       difficulty: 'easy',
       estimatedTimeMinutes: 30,
@@ -914,7 +914,7 @@ export const countries = [
     reviewNotes: [
       "L'origine historique exacte est incertaine et doit rester nuancée.",
       'La version avec thon et œuf est courante dans plusieurs recettes, mais pas unique.',
-      'La variante de Bizerte merite une recherche dediee avant fiche séparée.',
+      'La variante de Bizerte mérite une recherche dédiée avant fiche séparée.',
     ],
     sources: [
       {
@@ -943,8 +943,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, capres et herbes, petite cuillère, ambiance matin d'hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, câpres et herbes, petite cuillère, ambiance matin d'hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
+    needsReview: false,
   }),
   makeCountry({
     slug: 'uganda-katogo',
@@ -1091,10 +1091,10 @@ export const countries = [
     breakfastName: 'Ampesi',
     localName: 'Ampesi, Ampesi ne Kontomire',
     shortDescription:
-      'Un plat ghaneen simple et nourrissant à base de tubercules ou plantains bouillis, souvent servi avec une sauce verte comme le kontomire stew.',
+      'Un plat ghanéen simple et nourrissant à base de tubercules ou plantains bouillis, souvent servi avec une sauce verte comme le kontomire stew.',
     longDescription:
       "L'ampesi désigne généralement une base de féculents bouillis, comme l'igname, le plantain, le cocoyam ou parfois le manioc. Cette base est souvent servie avec une sauce, par exemple un kontomire stew prépare avec feuilles de cocoyam ou épinards, tomates, oignons, piment, huile de palme ou huile végétale, et parfois poisson, œuf ou egusi.",
-    breakfastSubtitle: 'Un plat familial ghaneen nourrissant, à relier au matin avec prudence.',
+    breakfastSubtitle: 'Un plat familial ghanéen nourrissant, à relier au matin avec prudence.',
     typicalItems: ['Igname', 'Plantain', 'Kontomire', 'Tomates', 'Oignon', 'Piment', 'Œuf ou avocat'],
     commonDrinks: ['Aucune boisson unique documentée'],
     associatedDrink:
@@ -1102,13 +1102,13 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'traditional', 'family', 'healthy'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      "L'ampesi appartient plutôt à la famille des plats ghaneens simples, nourrissants et domestiques.",
+      "L'ampesi appartient plutôt à la famille des plats ghanéens simples, nourrissants et domestiques.",
     culturalContext:
-      "Les sources verifient bien l'ampesi comme plat ghaneen traditionnel ou familial, mais son statut de petit-déjeuner est moins net.",
+      "Les sources verifient bien l'ampesi comme plat ghanéen traditionnel ou familial, mais son statut de petit-déjeuner est moins net.",
     funFact:
       "L'ampesi montre une cuisine intuitive : une base bouillie très simple, puis une sauce familiale qui change selon les feuilles, poissons, huiles et ingrédients disponibles.",
     morningContext:
-      'Pas uniquement lie au matin ; sa simplicite et son cote nourrissant en font une entree intéressante pour explorer les repas ghaneens du debut de journée.',
+      'Pas uniquement lie au matin ; sa simplicite et son cote nourrissant en font une entree intéressante pour explorer les repas ghanéens du debut de journée.',
     usualUsage: 'Repas familial, déjeuner, repas simple et nourrissant, parfois compatible avec le matin.',
     variants: [
       "Ampesi à l'igname.",
@@ -1183,12 +1183,12 @@ export const countries = [
       'comfort-food',
       'family-food',
     ],
-    seoTitle: 'Ampesi ghaneen : igname, plantain et sauce kontomire',
+    seoTitle: 'Ampesi ghanéen : igname, plantain et sauce kontomire',
     seoDescription:
-      "Découvre l'ampesi, un plat ghaneen nourrissant à base d'igname ou de plantain bouilli, souvent servi avec une sauce verte au kontomire.",
+      "Découvre l'ampesi, un plat ghanéen nourrissant à base d'igname ou de plantain bouilli, souvent servi avec une sauce verte au kontomire.",
     reviewNotes: [
       'Le statut petit-déjeuner est le point le plus fragile.',
-      'Ampesi est bien verifie comme plat ghaneen, mais surtout comme plat familial ou repas complet.',
+      'Ampesi est bien vérifié comme plat ghanéen, mais surtout comme plat familial ou repas complet.',
       'La version kontomire est importante mais pas exclusive.',
       'Les épinards ne remplacent pas exactement les feuilles de cocoyam.',
     ],
@@ -1197,7 +1197,7 @@ export const countries = [
         title: 'Kontomire and Ampesi - A Ghanaian Staple',
         url: 'https://travelandmunchies.com/kontomire-and-ampesi-a-ghanaian-staple/',
         publisher: 'Travel & Munchies by Nadia Boachie',
-        note: 'Définition ampesi + kontomire, ingrédients, substitutions et contexte familial ghaneen.',
+        note: 'Définition ampesi + kontomire, ingrédients, substitutions et contexte familial ghanéen.',
       },
       {
         title: 'The People of Kwahu',
@@ -1213,8 +1213,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette ghaneenne d'ampesi avec morceaux d'igname et plantain bouillis, sauce verte kontomire au centre, œuf dur coupe, avocat, piment rouge, quelques feuilles de cocoyam en décor, ambiance cuisine familiale du matin, palette moka mousse, vert profond, jaune plantain, beige igname, rouge doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette ghanéenne d'ampesi avec morceaux d'igname et plantain bouillis, sauce verte kontomire au centre, œuf dur coupe, avocat, piment rouge, quelques feuilles de cocoyam en décor, ambiance cuisine familiale du matin, palette moka mousse, vert profond, jaune plantain, beige igname, rouge doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
+    needsReview: false,
   }),
   makeCountry({
     slug: 'south-africa-putu-pap',
@@ -1894,7 +1894,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, table de dim sum cantonais avec paniers vapeur en bambou, har gow translucides stylises, siu mai, char siu bao, cheung fun, petite théière chinoise fumante, tasses de thé, ambiance brunch familial à Hong Kong, palette moka mousse, bambou clair, crème, rose crevette, vert doux et brun thé, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'china-shandong-jianbing',
@@ -2519,7 +2519,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette nord-indienne avec aloo paratha doré coupe en deux, farce de pomme de terre visible, petit bol de yaourt, pickle rouge-orange, noisette de beurre fondant, tasse de chai fumante, tawa et rouleau à pâte en arrière-plan discret, palette moka mousse, beige ble, jaune pomme de terre, rouge pickle, brun thé, vert coriandre, composition éditoriale conviviale, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'maharashtra-kande-pohe',
@@ -2959,7 +2959,7 @@ export const countries = [
       'Ne pas présenter ce petit-déjeuner comme uniforme dans toutes les familles israeliennes.',
       'Certains éléments varient selon les regles de kashrut, les traditions familiales, les hotels et les influences culturelles.',
       "La shakshuka est souvent associée aux petits-déjeuners israéliens, mais n'est pas obligatoire.",
-      'Le sujet peut être culturellement sensible : rester centre sur la nourriture, les usages et les influences, sans simplifier les identites.',
+      'Le sujet peut être culturellement sensible : rester centre sur la nourriture, les usages et les influences, sans simplifier les identités.',
     ],
     sources: [
       {
@@ -3312,7 +3312,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, table de petit-déjeuner coréen avec bol de riz, soupe claire, kimchi, petits banchan colores, gim, épinards namul, tofu, œuf, baguettes metalliques et cuillère, ambiance cuisine familiale du matin à Seoul, palette moka mousse, blanc riz, rouge kimchi, vert légumes, brun soupe, noir algue, composition éditoriale équilibrée, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'myanmar-htamin-jaw',
@@ -3624,7 +3624,7 @@ export const countries = [
     culturalNote:
       "Le kaya toast appartient à la culture des kopitiams, lieux de café, petit-déjeuner, pause et discussion rapide dans l'Asie du Sud-Est urbaine.",
     culturalContext:
-      'Son histoire mele influences malaises, hainanaises, britanniques et culture Nanyang ; eviter de lui attribuer une origine unique trop simplifiée.',
+      'Son histoire mele influences malaises, hainanaises, britanniques et culture Nanyang ; éviter de lui attribuer une origine unique trop simplifiée.',
     funFact:
       'Le contraste central tient en quelques gestes : toast chaud, beurre froid, kaya douce au pandan, puis œufs salés au soja et poivre.',
     morningContext:
@@ -4378,7 +4378,7 @@ export const countries = [
     culturalNote:
       "Le big brekkie australien vient d'une famille de petits-déjeuners anglo-britanniques, mais se mele aux cafés, brunchs modernes et ajouts contemporains comme avocat, halloumi ou sourdough.",
     culturalContext:
-      'Pour eviter le cliche, le présenter comme une version copieuse souvent associée aux cafés australiens, pas comme le breakfast australien quotidien.',
+      'Pour éviter le cliche, le présenter comme une version copieuse souvent associée aux cafés australiens, pas comme le breakfast australien quotidien.',
     funFact:
       'En Australie, brekkie est le mot familier pour breakfast : big brekkie annonce clairement une grande assiette.',
     morningContext:
@@ -5124,7 +5124,7 @@ export const countries = [
         'Tartiner une fine couche de beurre.',
         'Saupoudrer généreusement de hagelslag.',
         'Couper la tartine en deux si souhaite.',
-        'Manger assez vite pour eviter que les vermicelles tombent partout.',
+        'Manger assez vite pour éviter que les vermicelles tombent partout.',
       ],
       difficulty: 'easy',
       estimatedTimeMinutes: 5,
@@ -5219,7 +5219,7 @@ export const countries = [
     shortDescription:
       'Des churros dorés et croustillants trempes dans un chocolat chaud très épais, souvent associés aux churrerias et aux matins gourmands.',
     longDescription:
-      "Le chocolate con churros associé une pâte frite en longs batons croustillants avec un chocolat chaud dense, presque à tremper plus qu a boire. A Madrid, la tradition est particulierement visible dans les chocolaterias et churrerias. Il faut toutefois eviter de dire que tous les Espagnols mangent des churros chaque matin : c'est plutôt un petit-déjeuner gourmand, une sortie de week-end, une tradition de churreria ou une collation de fin de nuit.",
+      "Le chocolate con churros associé une pâte frite en longs batons croustillants avec un chocolat chaud dense, presque à tremper plus qu a boire. A Madrid, la tradition est particulierement visible dans les chocolaterias et churrerias. Il faut toutefois éviter de dire que tous les Espagnols mangent des churros chaque matin : c'est plutôt un petit-déjeuner gourmand, une sortie de week-end, une tradition de churreria ou une collation de fin de nuit.",
     breakfastSubtitle: 'Churros croustillants et chocolat épais, entre matin gourmand et fin de nuit.',
     typicalItems: ['Churros', 'Chocolat chaud épais', 'Sucre', 'Porras'],
     commonDrinks: ['Chocolat chaud', 'Café', 'Eau'],
@@ -5335,7 +5335,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de churros espagnols dorés et croustillants, tasse basse de chocolat chaud très épais, churro trempe dans le chocolat, quelques grains de sucre, petite table de chocolateria madrilene, ambiance matin frais à Madrid, palette moka mousse, brun chocolat, doré frit, crème, rouge discret, composition gourmande et lisible, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'united-kingdom-full-english',
@@ -5349,7 +5349,7 @@ export const countries = [
     shortDescription:
       'Un petit-déjeuner anglais copieux avec œufs, bacon, saucisses, tomates, champignons, haricots, toast ou pain frit.',
     longDescription:
-      "Le Full English Breakfast est une grande assiette chaude et salée, souvent composee d'œufs, bacon, saucisses, tomates grilléeses, champignons, baked beans, toast ou fried bread, avec parfois du black pudding. Il appartient à une famille plus large de petits-déjeuners complets britanniques et irlandais. Il faut eviter le cliche : ce n'est pas le petit-déjeuner quotidien de tous les Britanniques.",
+      "Le Full English Breakfast est une grande assiette chaude et salée, souvent composee d'œufs, bacon, saucisses, tomates grilléeses, champignons, baked beans, toast ou fried bread, avec parfois du black pudding. Il appartient à une famille plus large de petits-déjeuners complets britanniques et irlandais. Il faut éviter le cliche : ce n'est pas le petit-déjeuner quotidien de tous les Britanniques.",
     breakfastSubtitle: 'Une grande assiette anglaise de week-end, café, pub ou hotel.',
     typicalItems: ['Œufs', 'Bacon', 'Saucisses', 'Baked beans', 'Tomates', 'Champignons', 'Toast'],
     commonDrinks: ['Thé noir', 'Café'],
@@ -5765,7 +5765,7 @@ export const countries = [
     shortDescription:
       'Un petit-déjeuner italien souvent léger et sucre : espresso ou cappuccino avec cornetto, brioche, biscotti ou fette biscottate.',
     longDescription:
-      "La prima colazione italienne est souvent plus légère que les petits-déjeuners sales et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois eviter de réduire l'Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
+      "La prima colazione italienne est souvent plus légère que les petits-déjeuners sales et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois éviter de réduire l'Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
     breakfastSubtitle: 'Café, douceur, rapidite : le rituel léger du bar italien.',
     typicalItems: ['Espresso', 'Cappuccino', 'Cornetto', 'Biscotti', 'Fette biscottate', 'Confiture'],
     commonDrinks: ['Espresso', 'Cappuccino', 'Caffe latte', 'Latte macchiato', 'Café moka'],
@@ -5895,7 +5895,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner italien au bar avec cappuccino mousseux, espresso court, cornetto doré légèrement sucre, fette biscottate avec confiture, petite assiette blanche, comptoir de café italien en arrière-plan discret, ambiance matin à Rome ou Milan, palette moka mousse, brun café, crème mousse, doré viennoiserie, rouge confiture, marbre clair, composition élégante et simple, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'bulgaria-banitsa',
@@ -6124,7 +6124,7 @@ export const countries = [
       'Ne pas présenter les Brötchen comme unique petit-déjeuner allemand.',
       'Les noms régionaux changent beaucoup.',
       'Le Frühstück peut être très simple en semaine et plus généreux le week-end.',
-      'Le Weißwurstfrühstück bavarois merite une fiche séparée.',
+      'Le Weißwurstfrühstück bavarois mérite une fiche séparée.',
     ],
     sources: [
       {
@@ -6148,7 +6148,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, table de Frühstück allemand avec panier de Brötchen croustillants, pain de seigle, beurre, confiture, miel, fromage, charcuterie, œuf à la coque dans un coquetier, tasse de café fumante, ambiance cuisine familiale allemande du dimanche matin, palette moka mousse, beige pain, brun seigle, jaune beurre, rouge confiture, crème café, composition généreuse et lisible, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'greece-yogurt-honey',
@@ -6293,7 +6293,7 @@ export const countries = [
     breakfastStyles: ['quick', 'traditional', 'family'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'Cette fiche evite le cliche du pastel de nata uniquement : le petit-déjeuner quotidien peut être pain, beurre et café au lait.',
+      'Cette fiche évite le cliche du pastel de nata uniquement : le petit-déjeuner quotidien peut être pain, beurre et café au lait.',
     culturalContext:
       "L'angle le plus juste est celui d'une routine de café de quartier, de pastelaria ou de cuisine familiale.",
     funFact:
@@ -6534,9 +6534,9 @@ export const countries = [
     breakfastName: 'New York bagel with cream cheese',
     localName: 'Bagel and cream cheese, bagel with à schmear',
     shortDescription:
-      'Un bagel coupe et garni de cream cheese, parfois avec lox, capres, oignon rouge et tomate, très associé à New York.',
+      'Un bagel coupe et garni de cream cheese, parfois avec lox, câpres, oignon rouge et tomate, très associé à New York.',
     longDescription:
-      "Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, capres, oignon rouge et tomate. La fiche doit rester centrée sur l'ancrage new-yorkais plutôt que generaliser à tous les États-Unis.",
+      "Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, câpres, oignon rouge et tomate. La fiche doit rester centrée sur l'ancrage new-yorkais plutôt que generaliser à tous les États-Unis.",
     breakfastSubtitle: 'Un classique de bagel shop et deli new-yorkais.',
     typicalItems: ['Bagel', 'Cream cheese', 'Lox', 'Capres', 'Oignon rouge', 'Café filtre'],
     commonDrinks: ['Café filtre', 'Café à emporter'],
@@ -6547,7 +6547,7 @@ export const countries = [
     culturalNote:
       "L'ancrage le plus fort est new-yorkais et juif américain, plutôt qu américain uniforme.",
     culturalContext:
-      'Le bagel cream cheese simple est courant, tandis que la version lox, cream cheese, capres et oignon rouge est devenue une image iconique de brunch ou deli.',
+      'Le bagel cream cheese simple est courant, tandis que la version lox, cream cheese, câpres et oignon rouge est devenue une image iconique de brunch ou deli.',
     funFact:
       'Le mot schmear désigne la couche de cream cheese tartinee sur le bagel.',
     morningContext:
@@ -6557,7 +6557,7 @@ export const countries = [
       'Bagel nature avec cream cheese.',
       'Everything bagel avec cream cheese.',
       'Bagel avec lox ou saumon fume.',
-      'Version avec capres, oignon rouge, tomate ou concombre.',
+      'Version avec câpres, oignon rouge, tomate ou concombre.',
       'Version servie ouverte ou refermee en sandwich.',
     ],
     simplifiedRecipe: {
@@ -6567,7 +6567,7 @@ export const countries = [
         'Couper le bagel en deux.',
         'Toaster légèrement si souhaite.',
         'Tartiner de cream cheese.',
-        'Ajouter lox, capres, oignon rouge et tomate pour une version complete.',
+        'Ajouter lox, câpres, oignon rouge et tomate pour une version complete.',
         'Servir avec café filtre.',
       ],
       difficulty: 'easy',
@@ -6647,8 +6647,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bagel new-yorkais coupe en deux avec cream cheese généreux, option lox saumon, capres, oignon rouge, tomate, graines de sesame et pavot, tasse de café filtre à emporter, papier deli blanc en décor, ambiance comptoir de bagel shop à New York le matin, palette moka mousse, beige bagel, blanc cream cheese, rose saumon, rouge oignon, brun café, composition éditoriale nette et appetissante, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bagel new-yorkais coupe en deux avec cream cheese généreux, option lox saumon, câpres, oignon rouge, tomate, graines de sesame et pavot, tasse de café filtre à emporter, papier deli blanc en décor, ambiance comptoir de bagel shop à New York le matin, palette moka mousse, beige bagel, blanc cream cheese, rose saumon, rouge oignon, brun café, composition éditoriale nette et appetissante, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'costa-rica-gallo-pinto',

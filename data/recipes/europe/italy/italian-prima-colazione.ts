@@ -9,7 +9,7 @@ export const italianPrimaColazioneRecipe = {
   shortDescription:
     'Un petit-déjeuner italien souvent léger et sucre : espresso ou cappuccino avec cornetto, biscotti, fette biscottate ou pâtisserie.',
   longDescription:
-    "La prima colazione italienne est souvent plus légère que les petits-déjeuners sales et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois eviter de réduire l'Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
+    "La prima colazione italienne est souvent plus légère que les petits-déjeuners sales et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois éviter de réduire l'Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
   ingredients: [
     '1 espresso ou cappuccino',
     '1 cornetto ou viennoiserie italienne',
@@ -105,5 +105,5 @@ export const italianPrimaColazioneRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner italien au bar avec cappuccino mousseux, espresso court, cornetto doré légèrement sucre, fette biscottate avec confiture, petite assiette blanche, comptoir de café italien en arrière-plan discret, ambiance matin à Rome ou Milan, palette moka mousse, brun café, crème mousse, doré viennoiserie, rouge confiture, marbre clair, composition élégante et simple, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

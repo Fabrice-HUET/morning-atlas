@@ -12,6 +12,20 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — EDIT-01 lot 2 : relecture et validation de 10 fiches de plus
+
+- Date : `2026-07-12`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : éditorial / données
+- Résumé : application de la grille `docs/EDITORIAL_REVIEW.md` à un **2e lot de 10 fiches pays + leurs recettes** : Tunisie (lablabi), Ghana (ampesi), Nigeria Yoruba (ogi), Corée (riz-banchan), Chine cantonaise (dim sum), Inde du Nord (paratha), Italie (prima colazione), Espagne (chocolate con churros), Allemagne (Brötchen), États-Unis (bagel cream cheese). **40/106 fiches** désormais à `needsReview: false`.
+- Verdicts : les 10 fiches sont **publiables** — toutes sourcées, formulations prudentes, `reviewNotes` anti-généralisation cohérentes avec le texte (ex. « ne pas présenter X comme unique petit-déjeuner de tous les… », « origine incertaine à nuancer »).
+- Langue : outillage d'accents **corrigé** au passage — retrait des 3 entrées ambiguës verbe/participe (`varie`, `fermente`, `presente`) qui corrompaient un run global ; balayage sûr d'un batch de résidus non ambigus (`identité`, `vérifié`, `ghanéen`, `mérite`, `dédiée`, `éviter`, `câpres`) sur countries + recettes.
+- Portée honnête (idem lot 1) : validation fondée sur la prudence interne + présence de sources sur le sujet ; le contenu des articles-sources n'est pas re-vérifié en ligne. Résidus d'accents ambigus (`sucre`/`sucré`…) toujours laissés.
+- Traçabilité : `docs/CONTENT_TRACKER.md` mis à jour (10 lignes → false / Prêt Oui).
+- Vérifications : `pnpm validate:content` vert, `pnpm lint`, `pnpm typecheck`, `pnpm build` (606 pages).
+- Reste : ~33 pays + recettes en `needsReview: true` (lots suivants).
+
 ## 2026-07-12 — IMG-02 : nettoyage des assets template et doublons d'icônes
 
 - Date : `2026-07-12`

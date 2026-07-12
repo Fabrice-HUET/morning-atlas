@@ -36,7 +36,7 @@ export const boterhamMetHagelslagRecipe = {
     'Tartiner une fine couche de beurre.',
     'Saupoudrer généreusement de hagelslag.',
     'Couper la tartine en deux si souhaite.',
-    'Manger assez vite pour eviter que les vermicelles tombent partout.',
+    'Manger assez vite pour éviter que les vermicelles tombent partout.',
   ],
   prepTimeMinutes: 5,
   cookTimeMinutes: 0,

@@ -69,9 +69,9 @@ export const ampesiRecipe = {
   recreateAtHomeLevel: 'medium',
   notes:
     'Le statut petit-déjeuner est à formuler avec prudence : ampesi est surtout documenté comme plat ghanéen familial ou repas complet.',
-  seoTitle: 'Ampesi ghaneen : igname, plantain et sauce kontomire',
+  seoTitle: 'Ampesi ghanéen : igname, plantain et sauce kontomire',
   seoDescription:
-    "Découvre l'ampesi, un plat ghaneen nourrissant à base d'igname ou de plantain bouilli, souvent servi avec une sauce verte au kontomire.",
+    "Découvre l'ampesi, un plat ghanéen nourrissant à base d'igname ou de plantain bouilli, souvent servi avec une sauce verte au kontomire.",
   reviewNotes: [
     'Le statut petit-déjeuner est fragile et doit rester nuance.',
     "Ampesi peut être servi avec d'autres sauces que kontomire.",
@@ -82,7 +82,7 @@ export const ampesiRecipe = {
       title: 'Kontomire and Ampesi - A Ghanaian Staple',
       url: 'https://travelandmunchies.com/kontomire-and-ampesi-a-ghanaian-staple/',
       publisher: 'Travel & Munchies by Nadia Boachie',
-      note: 'Définition ampesi + kontomire, ingrédients, substitutions et contexte familial ghaneen.',
+      note: 'Définition ampesi + kontomire, ingrédients, substitutions et contexte familial ghanéen.',
     },
     {
       title: 'The People of Kwahu',
@@ -98,6 +98,6 @@ export const ampesiRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette ghaneenne d'ampesi avec morceaux d'igname et plantain bouillis, sauce verte kontomire au centre, œuf dur coupe, avocat, piment rouge, quelques feuilles de cocoyam en décor, ambiance cuisine familiale du matin, palette moka mousse, vert profond, jaune plantain, beige igname, rouge doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette ghanéenne d'ampesi avec morceaux d'igname et plantain bouillis, sauce verte kontomire au centre, œuf dur coupe, avocat, piment rouge, quelques feuilles de cocoyam en décor, ambiance cuisine familiale du matin, palette moka mousse, vert profond, jaune plantain, beige igname, rouge doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
+  needsReview: false,
 } satisfies Recipe

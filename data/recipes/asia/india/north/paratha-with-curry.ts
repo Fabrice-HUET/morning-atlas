@@ -126,5 +126,5 @@ export const parathaWithCurryRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette nord-indienne avec aloo paratha doré coupe en deux, farce de pomme de terre visible, petit bol de yaourt, pickle rouge-orange, noisette de beurre fondant, tasse de chai fumante, tawa et rouleau à pâte en arrière-plan discret, palette moka mousse, beige ble, jaune pomme de terre, rouge pickle, brun thé, vert coriandre, composition éditoriale conviviale, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

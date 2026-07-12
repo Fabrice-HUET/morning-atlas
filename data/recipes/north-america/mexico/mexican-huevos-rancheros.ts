@@ -82,7 +82,7 @@ export const mexicanHuevosRancherosRecipe = {
   seoDescription:
     'Découvre les huevos rancheros, un petit-déjeuner mexicain classique avec œufs au plat, tortillas de mais, salsa rouge et haricots refritos.',
   reviewNotes: [
-    "L'origine rurale est un imaginaire fort, mais il faut eviter une histoire trop précise sans source solide.",
+    "L'origine rurale est un imaginaire fort, mais il faut éviter une histoire trop précise sans source solide.",
     'Les versions mexicaines et tex-mex peuvent beaucoup différer.',
     'Les haricots sont fréquents, mais pas obligatoires dans toutes les versions.',
     'Ne pas présenter les huevos rancheros comme le seul petit-déjeuner mexicain.',

@@ -108,5 +108,5 @@ export const dimSumRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, table de dim sum cantonais avec paniers vapeur en bambou, har gow translucides stylises, siu mai, char siu bao, cheung fun, petite théière chinoise fumante, tasses de thé, ambiance brunch familial à Hong Kong, palette moka mousse, bambou clair, crème, rose crevette, vert doux et brun thé, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

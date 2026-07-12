@@ -19,7 +19,7 @@ export const ogiRecipe = {
   ],
   ingredientSlugs: ['corn', 'sorghum', 'millet', 'water', 'milk', 'sugar', 'honey', 'dates'],
   steps: [
-    "Mélanger la pâte ou poudre d'ogi avec un peu d'eau froide pour eviter les grumeaux.",
+    "Mélanger la pâte ou poudre d'ogi avec un peu d'eau froide pour éviter les grumeaux.",
     "Faire bouillir de l'eau.",
     "Verser progressivement l'eau chaude sur le mélange en remuant sans arret.",
     "Remettre quelques minutes à feu doux si besoin, jusqu'à obtenir une texture lisse.",
@@ -78,5 +78,5 @@ export const ogiRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol d'ogi nigerian crémeux et fumant, texture lisse couleur crème pale, petite cruche de lait, quelques grains de mais, millet et sorgho en décor, deux petits beignets akara à cote, ambiance cuisine familiale du matin, palette moka mousse, crème, jaune mais, brun doux et rouge discret, composition simple pour fiche éditoriale, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

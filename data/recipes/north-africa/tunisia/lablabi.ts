@@ -9,7 +9,7 @@ export const lablabiRecipe = {
   shortDescription:
     "Une soupe tunisienne populaire aux pois chiches, pain, cumin, ail, harissa, citron et huile d'olive.",
   longDescription:
-    'Le lablabi est une soupe ou un ragout tunisien à base de pois chiches, souvent servi chaud dans des bols personnalises. Il peut inclure œuf, thon, capres, citron, harissa, pickles ou herbes selon les versions.',
+    'Le lablabi est une soupe ou un ragout tunisien à base de pois chiches, souvent servi chaud dans des bols personnalises. Il peut inclure œuf, thon, câpres, citron, harissa, pickles ou herbes selon les versions.',
   ingredients: [
     '1 grande boite de pois chiches',
     '2 tranches de pain rassis ou pain de campagne',
@@ -20,7 +20,7 @@ export const lablabiRecipe = {
     "2 cuillères à soupe d'huile d'olive",
     'Sel et poivre',
     'Option : 1 œuf mollet par personne',
-    'Option : thon, capres, persil',
+    'Option : thon, câpres, persil',
   ],
   ingredientSlugs: ['chickpeas', 'stale-bread', 'garlic', 'cumin', 'harissa', 'lemon', 'olive-oil', 'eggs', 'tuna', 'capers', 'parsley'],
   steps: [
@@ -30,7 +30,7 @@ export const lablabiRecipe = {
     'Dechirer le pain en morceaux dans un bol.',
     'Verser les pois chiches et le bouillon chaud sur le pain.',
     "Ajouter harissa, citron et huile d'olive.",
-    'Completer avec œuf mollet, thon, capres ou herbes si souhaite.',
+    'Completer avec œuf mollet, thon, câpres ou herbes si souhaite.',
     'Mélanger dans le bol avant de manger.',
   ],
   prepTimeMinutes: 10,
@@ -50,7 +50,7 @@ export const lablabiRecipe = {
     'Découvre le lablabi, une soupe tunisienne populaire à base de pois chiches, pain, cumin, harissa et citron, souvent servie chaude au petit-déjeuner.',
   reviewNotes: [
     "L'origine historique exacte est incertaine et doit rester présentée avec prudence.",
-    'La version de Bizerte merite une recherche dediee avant une fiche séparée.',
+    'La version de Bizerte mérite une recherche dédiée avant une fiche séparée.',
   ],
   sources: [
     {
@@ -79,6 +79,6 @@ export const lablabiRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, capres et herbes, petite cuillère, ambiance matin d'hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de lablabi tunisien fumant avec pois chiches, morceaux de pain, œuf mollet, touche de harissa rouge, citron, huile d'olive, câpres et herbes, petite cuillère, ambiance matin d'hiver méditerranéen, palette moka, crème, ocre, rouge harissa, vert olive, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
+  needsReview: false,
 } satisfies Recipe
