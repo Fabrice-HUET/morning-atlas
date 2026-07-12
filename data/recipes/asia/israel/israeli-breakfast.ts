@@ -69,7 +69,6 @@ export const israeliBreakfastRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'middle-eastern-breakfasts',
-    'israeli-breakfasts',
     'brunch',
     'family-friendly',
     'healthy',

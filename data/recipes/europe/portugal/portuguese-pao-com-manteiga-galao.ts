@@ -52,7 +52,6 @@ export const portuguesePaoComManteigaGalaoRecipe = {
   tags: ['quick-breakfast', 'drink-included', 'classic-breakfast', 'easy-at-home'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'portuguese-breakfasts',
     'bread-breakfasts',
     'coffee-breakfast',
     'quick',

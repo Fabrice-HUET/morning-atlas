@@ -62,8 +62,6 @@ export const fullEnglishBreakfastRecipe = {
   tags: ['iconic-breakfast', 'protein-rich', 'regional-variation', 'savory-morning'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'british-breakfasts',
-    'english-breakfasts',
     'savory',
     'hearty',
     'egg-based',

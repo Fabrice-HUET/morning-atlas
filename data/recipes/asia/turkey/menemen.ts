@@ -64,7 +64,6 @@ export const menemenRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'breakfasts-of-europe',
-    'turkish-breakfasts',
     'middle-eastern-breakfasts',
     'savory',
     'egg-based',

@@ -53,7 +53,6 @@ export const cubanTostadaCafeConLecheRecipe = {
   tags: ['quick-breakfast', 'drink-included', 'easy-at-home', 'classic-breakfast'],
   categorySlugs: [
     'breakfasts-of-the-caribbean',
-    'cuban-breakfasts',
     'coffee-breakfast',
     'bread-breakfasts',
     'quick',

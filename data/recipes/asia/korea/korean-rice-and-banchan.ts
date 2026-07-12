@@ -69,7 +69,6 @@ export const koreanRiceAndBanchanRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'east-asian-breakfasts',
-    'korean-breakfasts',
     'rice-based',
     'savory',
     'healthy',

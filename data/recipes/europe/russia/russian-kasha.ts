@@ -61,7 +61,6 @@ export const russianKashaRecipe = {
   tags: ['traditional-breakfast', 'comfort-food', 'family-meal', 'healthy-breakfast'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'russian-breakfasts',
     'porridge-breakfasts',
     'grain-breakfasts',
     'oat-breakfasts',

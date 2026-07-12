@@ -328,7 +328,6 @@ export const tags = [
   { slug: 'malaysian-breakfast', label: 'Petit-déjeuner malaisien', description: 'Culture matinale et plats du matin en Malaisie.' },
   { slug: 'australia', label: 'Australie', description: "Contenus rattachés à l'Australie." },
   { slug: 'fiji', label: 'Fidji', description: 'Contenus rattachés aux Fidji.' },
-  { slug: 'oceania', label: 'Océanie', description: "Contenus rattachés à l'Océanie et au Pacifique." },
   { slug: 'pacific-food', label: 'Cuisine pacifique', description: 'Contenus lies aux îles et cultures culinaires du Pacifique.' },
   { slug: 'weet-bix', label: 'Weet-Bix', description: 'Biscuits de ble compresse associés au petit-déjeuner australien.' },
   { slug: 'cereal', label: 'Céréales', description: 'Bols et produits cerealiers du petit-déjeuner.' },

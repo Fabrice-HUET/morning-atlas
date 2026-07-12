@@ -68,7 +68,6 @@ export const rutiWithDalAndVegetableCurryRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'south-asian-breakfasts',
-    'bangladeshi-breakfasts',
     'savory',
     'flatbread-breakfasts',
     'legume-breakfasts',

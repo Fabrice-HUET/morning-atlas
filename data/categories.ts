@@ -87,51 +87,6 @@ export const categories = [
     description: "Petits-déjeuners rattachés aux cuisines d'Asie du Sud-Est.",
   },
   {
-    slug: 'japanese-breakfasts',
-    name: 'Japon',
-    description: 'Petits-déjeuners et repas matinaux rattachés au Japon.',
-  },
-  {
-    slug: 'korean-breakfasts',
-    name: 'Corée',
-    description: 'Petits-déjeuners et structures de repas rattachés à la Corée.',
-  },
-  {
-    slug: 'turkish-breakfasts',
-    name: 'Turquie',
-    description: 'Petits-déjeuners, kahvalti et plats du matin rattachés à la Turquie.',
-  },
-  {
-    slug: 'myanmar-breakfasts',
-    name: 'Myanmar',
-    description: 'Petits-déjeuners et repas du matin rattachés au Myanmar.',
-  },
-  {
-    slug: 'indonesian-breakfasts',
-    name: 'Indonesie',
-    description: "Petits-déjeuners, warung et plats du matin rattachés à l'Indonesie.",
-  },
-  {
-    slug: 'filipino-breakfasts',
-    name: 'Philippines',
-    description: 'Petits-déjeuners et assiettes du matin rattachés aux Philippines.',
-  },
-  {
-    slug: 'singaporean-breakfasts',
-    name: 'Singapour',
-    description: 'Petits-déjeuners, kopitiams et repas matinaux rattachés à Singapour.',
-  },
-  {
-    slug: 'malaysian-breakfasts',
-    name: 'Malaisie',
-    description: 'Petits-déjeuners et culture matinale rattachés à la Malaisie.',
-  },
-  {
-    slug: 'kopitiam-breakfasts',
-    name: 'Kopitiam',
-    description: "Petits-déjeuners associés aux coffee shops traditionnels d'Asie du Sud-Est.",
-  },
-  {
     slug: 'toast-breakfasts',
     name: 'Toasts',
     description: 'Petits-déjeuners construits autour de pain grille, tartines ou sandwiches simples.',
@@ -140,11 +95,6 @@ export const categories = [
     slug: 'australian-breakfasts',
     name: 'Australie',
     description: "Petits-déjeuners, brekkies et brunchs rattachés à l'Australie.",
-  },
-  {
-    slug: 'fijian-breakfasts',
-    name: 'Fidji',
-    description: 'Petits-déjeuners, pains frits et habitudes matinales rattachés aux Fidji.',
   },
   {
     slug: 'cereal-breakfasts',
@@ -165,21 +115,6 @@ export const categories = [
     slug: 'weekend-breakfasts',
     name: 'Week-end',
     description: 'Petits-déjeuners plus copieux, lents ou occasionnels du week-end.',
-  },
-  {
-    slug: 'new-zealand-breakfasts',
-    name: 'Nouvelle-Zélande',
-    description: 'Petits-déjeuners et bols du matin rattachés à la Nouvelle-Zélande.',
-  },
-  {
-    slug: 'polish-breakfasts',
-    name: 'Pologne',
-    description: 'Petits-déjeuners, tartines et assiettes familiales rattachés à la Pologne.',
-  },
-  {
-    slug: 'swiss-breakfasts',
-    name: 'Suisse',
-    description: 'Petits-déjeuners, mueslis et habitudes matinales rattachés à la Suisse.',
   },
   {
     slug: 'oat-breakfasts',
@@ -207,59 +142,9 @@ export const categories = [
     description: 'Petits-déjeuners chauds ou reconfortants associés aux matins froids.',
   },
   {
-    slug: 'dutch-breakfasts',
-    name: 'Pays-Bas',
-    description: 'Petits-déjeuners, tartines et habitudes matinales rattachés aux Pays-Bas.',
-  },
-  {
-    slug: 'spanish-breakfasts',
-    name: 'Espagne',
-    description: "Petits-déjeuners, churrerias et douceurs matinales rattachés à l'Espagne.",
-  },
-  {
-    slug: 'french-breakfasts',
-    name: 'France',
-    description: 'Petits-déjeuners, tartines et habitudes domestiques rattachés à la France.',
-  },
-  {
     slug: 'classic-breakfasts',
     name: 'Classiques',
     description: "Petits-déjeuners simples, très reconnaissables et installes dans l'imaginaire local.",
-  },
-  {
-    slug: 'british-breakfasts',
-    name: 'Royaume-Uni',
-    description: 'Petits-déjeuners et assiettes matinales rattachés au Royaume-Uni.',
-  },
-  {
-    slug: 'english-breakfasts',
-    name: 'Angleterre',
-    description: "Petits-déjeuners et fry-ups rattachés à l'Angleterre.",
-  },
-  {
-    slug: 'russian-breakfasts',
-    name: 'Russie',
-    description: 'Petits-déjeuners, bouillies et bols chauds rattachés à la Russie.',
-  },
-  {
-    slug: 'italian-breakfasts',
-    name: 'Italie',
-    description: "Petits-déjeuners, café et pâtisseries du matin rattachés à l'Italie.",
-  },
-  {
-    slug: 'german-breakfasts',
-    name: 'Allemagne',
-    description: "Petits-déjeuners, pains, Brötchen et tables du matin rattachés à l'Allemagne.",
-  },
-  {
-    slug: 'greek-breakfasts',
-    name: 'Grèce',
-    description: 'Petits-déjeuners, bols, produits laitiers et habitudes matinales rattachés à la Grèce.',
-  },
-  {
-    slug: 'portuguese-breakfasts',
-    name: 'Portugal',
-    description: 'Petits-déjeuners, cafés, pastelarias et pains du matin rattachés au Portugal.',
   },
   {
     slug: 'yogurt-breakfasts',
@@ -280,56 +165,6 @@ export const categories = [
     slug: 'pastry-breakfasts',
     name: 'Pâtisseries',
     description: 'Petits-déjeuners ou viennoiseries, biscuits ou pâtisseries structurent le repas.',
-  },
-  {
-    slug: 'bulgarian-breakfasts',
-    name: 'Bulgarie',
-    description: 'Petits-déjeuners, banitsa et habitudes matinales rattachés à la Bulgarie.',
-  },
-  {
-    slug: 'canadian-breakfasts',
-    name: 'Canada',
-    description: 'Petits-déjeuners, dîners et assiettes familiales rattachés au Canada.',
-  },
-  {
-    slug: 'american-breakfasts',
-    name: 'États-Unis',
-    description: 'Petits-déjeuners et classiques matinaux rattachés aux États-Unis.',
-  },
-  {
-    slug: 'new-york-breakfasts',
-    name: 'New York',
-    description: 'Petits-déjeuners, delis et bagel shops rattachés à New York.',
-  },
-  {
-    slug: 'costa-rican-breakfasts',
-    name: 'Costa Rica',
-    description: 'Petits-déjeuners, sodas et assiettes matinales rattachés au Costa Rica.',
-  },
-  {
-    slug: 'mexican-breakfasts',
-    name: 'Mexique',
-    description: 'Petits-déjeuners, almuerzos et classiques matinaux rattachés au Mexique.',
-  },
-  {
-    slug: 'jamaican-breakfasts',
-    name: 'Jamaique',
-    description: 'Petits-déjeuners, plats nationaux et assiettes matinales rattachés à la Jamaique.',
-  },
-  {
-    slug: 'venezuelan-breakfasts',
-    name: 'Venezuela',
-    description: 'Petits-déjeuners, cachapas, arepas et matins populaires rattachés au Venezuela.',
-  },
-  {
-    slug: 'colombian-breakfasts',
-    name: 'Colombie',
-    description: 'Petits-déjeuners, soupes et assiettes matinales rattachés à la Colombie.',
-  },
-  {
-    slug: 'cuban-breakfasts',
-    name: 'Cuba',
-    description: 'Petits-déjeuners, cafés et tostadas rattachés à Cuba et aux cultures cubaines.',
   },
   {
     slug: 'andean-breakfasts',
@@ -367,24 +202,9 @@ export const categories = [
     description: 'Petits-déjeuners et repas matinaux rattachés aux cuisines chinoises.',
   },
   {
-    slug: 'northern-chinese-breakfasts',
-    name: 'Chine du Nord',
-    description: 'Petits-déjeuners lies aux villes, provinces et traditions culinaires du nord de la Chine.',
-  },
-  {
-    slug: 'cantonese-breakfasts',
-    name: 'Cantonais',
-    description: 'Petits-déjeuners, brunchs et moments yum cha lies aux cuisines cantonaises.',
-  },
-  {
     slug: 'south-asian-breakfasts',
     name: 'Asie du Sud',
     description: "Petits-déjeuners rattachés aux cuisines d'Asie du Sud.",
-  },
-  {
-    slug: 'bangladeshi-breakfasts',
-    name: 'Bangladesh',
-    description: 'Petits-déjeuners et repas matinaux rattachés au Bangladesh.',
   },
   {
     slug: 'indian-breakfasts',
@@ -392,39 +212,9 @@ export const categories = [
     description: 'Petits-déjeuners et repas matinaux rattachés aux cuisines indiennes.',
   },
   {
-    slug: 'south-indian-breakfasts',
-    name: 'Inde du Sud',
-    description: "Petits-déjeuners lies aux cuisines du sud de l'Inde.",
-  },
-  {
-    slug: 'north-indian-breakfasts',
-    name: 'Inde du Nord',
-    description: "Petits-déjeuners lies aux cuisines du nord de l'Inde.",
-  },
-  {
-    slug: 'western-indian-breakfasts',
-    name: "Inde de l'ouest",
-    description: "Petits-déjeuners lies aux cuisines de l'ouest de l'Inde.",
-  },
-  {
-    slug: 'maharashtrian-breakfasts',
-    name: 'Maharashtra',
-    description: 'Petits-déjeuners rattachés au Maharashtra.',
-  },
-  {
-    slug: 'iranian-breakfasts',
-    name: 'Iran',
-    description: "Petits-déjeuners et pains du matin rattachés à l'Iran.",
-  },
-  {
     slug: 'middle-eastern-breakfasts',
     name: 'Moyen-Orient',
     description: 'Petits-déjeuners et assiettes du matin rattachés au Moyen-Orient.',
-  },
-  {
-    slug: 'israeli-breakfasts',
-    name: 'Israël',
-    description: 'Petits-déjeuners, brunchs et buffets rattachés aux usages israéliens.',
   },
   {
     slug: 'legume-breakfasts',
@@ -525,11 +315,6 @@ export const categories = [
     slug: 'swahili-coast-breakfasts',
     name: 'Cote swahilie',
     description: 'Petits-déjeuners et snacks du matin lies aux habitudes de la cote swahilie.',
-  },
-  {
-    slug: 'tanzanian-breakfasts',
-    name: 'Tanzanie',
-    description: 'Petits-déjeuners et repas matinaux rattachés à la Tanzanie.',
   },
   {
     slug: 'vegetable-based-breakfasts',

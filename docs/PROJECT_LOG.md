@@ -12,6 +12,22 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — DATA-03 : rationalisation des taxonomies
+
+- Date : `2026-07-12`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : données / gouvernance (effort L)
+- Méthode : script de comptage d'usage (`scripts/taxonomy-usage.ts`) exécuté **avant** toute suppression ; `pnpm validate:content` vert après chaque volet.
+- Constat : le stock n'était pas « mort » mais **sur-référencé** (presque tout référencé ≥ 1 fois). Le levier réel = les catégories nationales 1:1.
+- **TAGS** : 1 orphelin retiré (`oceania`). 551 → 550.
+- **INGRÉDIENTS** : 8 orphelins retirés (`fish, spices, porridge, soup, pastry, vegetable, meat, protein`, déjà noindex/hors sitemap). 410 → 402.
+- **CATÉGORIES** : **43 catégories spécifiques à un seul pays/localité** retirées (référencées seulement par « leur » pays + recette, redondantes avec la page pays) ; 86 références réécrites ; slugs conservés inchangés. **123 → 80**. Conservé : facettes de style/format transversales, continents, grandes régions.
+- Résultat : build **606 pages** (contre 657, −51 pages fines) ; intégrité verte.
+- **Reste (éditorial, propriétaire)** pour viser ≤ 60 : arbitrer ~20 facettes transversales/régionales encore fines, fusions d'ingrédients quasi-doublons, doublons de slug catégories — détaillé dans `docs/TAXONOMY_SEO_AUDIT.md` (section « Rationalisation DATA-03 »).
+- Vérifications : `pnpm validate:content`, `pnpm typecheck`, `pnpm build` OK.
+- **Groupe DATA : DATA-02/03/04/05/06 tous traités.**
+
 ## 2026-07-11 — DATA-06 : traduction FR des enums affichés
 
 - Date : `2026-07-11`

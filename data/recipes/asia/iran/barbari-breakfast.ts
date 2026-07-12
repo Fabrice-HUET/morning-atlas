@@ -67,7 +67,6 @@ export const barbariBreakfastRecipe = {
   tags: ['traditional-breakfast', 'family-meal', 'drink-included', 'comfort-food'],
   categorySlugs: [
     'breakfasts-of-asia',
-    'iranian-breakfasts',
     'middle-eastern-breakfasts',
     'flatbread-breakfasts',
     'bread-breakfasts',

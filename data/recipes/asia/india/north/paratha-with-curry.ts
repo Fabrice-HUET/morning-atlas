@@ -71,7 +71,6 @@ export const parathaWithCurryRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'indian-breakfasts',
-    'north-indian-breakfasts',
     'savory',
     'flatbread-breakfasts',
     'stuffed-flatbreads',

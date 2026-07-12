@@ -60,7 +60,6 @@ export const costaRicanGalloPintoRecipe = {
   tags: ['traditional-breakfast', 'comfort-food', 'protein-rich', 'family-meal'],
   categorySlugs: [
     'breakfasts-of-central-america',
-    'costa-rican-breakfasts',
     'rice-based',
     'legume-breakfasts',
     'savory',

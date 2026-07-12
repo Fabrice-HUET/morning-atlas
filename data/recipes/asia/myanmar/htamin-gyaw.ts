@@ -63,7 +63,6 @@ export const htaminGyawRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'southeast-asian-breakfasts',
-    'myanmar-breakfasts',
     'rice-based',
     'savory',
     'quick',

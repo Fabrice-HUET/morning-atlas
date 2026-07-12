@@ -66,7 +66,6 @@ export const mexicanHuevosRancherosRecipe = {
   tags: ['savory-morning', 'protein-rich', 'iconic-breakfast', 'brunch'],
   categorySlugs: [
     'breakfasts-of-north-america',
-    'mexican-breakfasts',
     'egg-based',
     'tortilla-breakfasts',
     'savory',

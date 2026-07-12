@@ -62,7 +62,6 @@ export const idliSambarRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'indian-breakfasts',
-    'south-indian-breakfasts',
     'fermented-breakfasts',
     'steamed-breakfasts',
     'healthy',

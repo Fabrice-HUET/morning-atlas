@@ -25,7 +25,7 @@
 | TOOL-01 / TOOL-02 | CI + environnement Node | P1 | ✅ 2026-07-11 |
 | DATA-05 | Validation d'intégrité en script pnpm | P1 | ✅ 2026-07-11 (a attrapé une corruption de slug) |
 | DATA-02 | Unifier tags / tagSlugs sur Recipe | P1 | ✅ 2026-07-11 |
-| DATA-03 | Rationaliser les taxonomies (L) | P1 | ☐ reste à faire (dépend DATA-02 ✅) |
+| DATA-03 | Rationaliser les taxonomies (L) | P1 | ✅ 2026-07-12 réduction principale (123→80 cat, 410→402 ing, orphelins) ; cible ≤60 = décision éditoriale documentée dans `TAXONOMY_SEO_AUDIT.md` |
 | DATA-04 | Rendre `featured` significatif | P1 | ✅ 2026-07-11 |
 | DATA-06 | Traduire les enums affichés | P1 | ✅ 2026-07-11 |
 | IMG-02 | Nettoyage assets template | P1 | ☐ |

@@ -58,7 +58,6 @@ export const colombianChanguaRecipe = {
   tags: ['comfort-food', 'traditional-breakfast', 'family-meal', 'protein-rich'],
   categorySlugs: [
     'breakfasts-of-south-america',
-    'colombian-breakfasts',
     'andean-breakfasts',
     'soup-breakfasts',
     'egg-based',

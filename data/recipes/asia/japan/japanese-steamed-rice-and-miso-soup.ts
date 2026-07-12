@@ -63,7 +63,6 @@ export const japaneseSteamedRiceAndMisoSoupRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'east-asian-breakfasts',
-    'japanese-breakfasts',
     'rice-based',
     'savory',
     'healthy',

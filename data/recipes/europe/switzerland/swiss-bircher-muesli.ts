@@ -58,7 +58,6 @@ export const swissBircherMuesliRecipe = {
   tags: ['vegetarian-friendly', 'easy-at-home', 'sweet-morning', 'traditional-breakfast'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'swiss-breakfasts',
     'oat-breakfasts',
     'fruit-breakfasts',
     'healthy',

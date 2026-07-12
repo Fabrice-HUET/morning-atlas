@@ -58,7 +58,6 @@ export const babakauRecipe = {
   tags: ['traditional-breakfast', 'family-meal', 'sweet-morning', 'comfort-food'],
   categorySlugs: [
     'breakfasts-of-oceania',
-    'fijian-breakfasts',
     'fried-breakfasts',
     'bread-breakfasts',
     'sweet',

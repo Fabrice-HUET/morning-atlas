@@ -48,7 +48,6 @@ export const greekYogurtWithHoneyRecipe = {
   tags: ['healthy-breakfast', 'quick-breakfast', 'sweet-breakfast', 'easy-at-home'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'greek-breakfasts',
     'yogurt-breakfasts',
     'healthy',
     'quick',

@@ -61,7 +61,6 @@ export const dimSumRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'chinese-breakfasts',
-    'cantonese-breakfasts',
     'brunch',
     'family-friendly',
     'tea-breakfast',

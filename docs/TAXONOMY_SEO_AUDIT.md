@@ -195,3 +195,26 @@ Ces ingrédients n’ont aucune recette liée ou seulement un pays associé sans
 - Surveiller l’impact de l’exclusion temporaire des 33 ingrédients faibles dans Search Console après déploiement.
 - Créer une page index `/ingredients` seulement si les ingrédients deviennent un axe de navigation public assumé.
 - Surveiller Search Console après publication pour repérer les pages taxonomiques avec impressions mais faible engagement.
+
+---
+
+## Rationalisation DATA-03 — 2026-07-12
+
+Réduction du stock taxonomique disproportionné (constaté : 123 catégories, 410 ingrédients, 551 tags pour 53 pays / 53 recettes). Filet de sécurité : `pnpm validate:content` vert après chaque volet.
+
+**Méthode :** script de comptage d'usage (`scripts/taxonomy-usage.ts`) exécuté AVANT toute suppression. Constat clé : le stock n'est pas « mort » mais sur-référencé (presque tout est référencé au moins une fois). Le vrai levier est éditorial (catégories nationales 1:1).
+
+**Volet TAGS** — retiré 1 tag orphelin (`oceania`, jamais référencé). 551 → 550. (Les tags n'ont pas de page ; pas d'impact SEO.)
+
+**Volet INGRÉDIENTS** — retiré 8 ingrédients orphelins (jamais référencés, déjà noindex/hors sitemap) : `fish, spices, porridge, soup, pastry, vegetable, meat, protein`. 410 → 402 (−8 pages).
+
+**Volet CATÉGORIES** — retiré **43 catégories spécifiques à un seul pays / localité** (référencées uniquement par « leur » pays + sa recette = redondantes avec la page pays, pages fines) : japonaise, coréenne, turque, birmane, indonésienne, philippine, singapourienne, malaisienne, kopitiam, fidjienne, néo-zélandaise, polonaise, suisse, néerlandaise, espagnole, française, britannique, anglaise, russe, italienne, allemande, grecque, portugaise, bulgare, canadienne, américaine, new-yorkaise, costaricienne, mexicaine, jamaïcaine, vénézuélienne, colombienne, cubaine, chinoise-du-nord, cantonaise, bangladaise, indienne-du-sud/nord/ouest, maharashtrienne, iranienne, israélienne, tanzanienne. **123 → 80** (−43 pages). Slugs conservés inchangés ; références réécrites (86 retirées) ; intégrité verte.
+
+**Conservé volontairement** (facettes légitimes même si fines aujourd'hui) : les catégories transversales de style/format (sucré, salé, toast, céréales, yaourt, œufs, riz, pain, pâtisserie, boissons…), les continents (`breakfasts-of-*`) et les grandes régions (`east-asian`, `west-african`, `south-asian`, `southern-african`, `horn-of-africa`, `swahili-coast`, `mediterranean`, `andean`…).
+
+**Résultat :** 606 pages au build (contre 657). Inventaire : 80 catégories, 402 ingrédients, 550 tags.
+
+**Reste à décider (éditorial, par le propriétaire)** — pour viser ≤ 60 catégories et rationaliser davantage :
+- ~20 facettes transversales/régionales encore fines (usage 2) : à garder (elles grandiront) ou fusionner selon la stratégie de navigation.
+- Fusions d'ingrédients quasi-doublons (variantes de pains, beurres, laits) : non faites ici car jugement sémantique + réécriture de références ; à traiter avec le même filet `validate:content`.
+- Doublons de slug de catégories à envisager : `flatbreads`/`flatbread-breakfasts`, `bread-breakfasts`/`bread-based`.

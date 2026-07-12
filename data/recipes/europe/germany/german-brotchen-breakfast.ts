@@ -58,7 +58,6 @@ export const germanBrotchenBreakfastRecipe = {
   tags: ['classic-breakfast', 'family-meal', 'easy-at-home', 'regional-variation'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'german-breakfasts',
     'bread-breakfasts',
     'quick',
     'family-friendly',

@@ -61,7 +61,6 @@ export const polishKanapkiRecipe = {
   tags: ['family-meal', 'easy-at-home', 'regional-variation', 'savory-morning'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'polish-breakfasts',
     'open-sandwich-breakfasts',
     'bread-breakfasts',
     'savory',

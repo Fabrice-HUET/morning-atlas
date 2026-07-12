@@ -71,7 +71,6 @@ export const buburAyamRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'southeast-asian-breakfasts',
-    'indonesian-breakfasts',
     'rice-based',
     'porridge-breakfasts',
     'street-breakfast',

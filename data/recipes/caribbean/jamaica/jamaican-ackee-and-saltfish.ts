@@ -65,7 +65,6 @@ export const jamaicanAckeeAndSaltfishRecipe = {
   tags: ['traditional-breakfast', 'family-meal', 'national-dish', 'caribbean-food'],
   categorySlugs: [
     'breakfasts-of-the-caribbean',
-    'jamaican-breakfasts',
     'fish-breakfasts',
     'savory',
     'hearty',

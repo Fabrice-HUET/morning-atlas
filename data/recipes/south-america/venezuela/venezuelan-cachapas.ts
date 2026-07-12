@@ -60,7 +60,6 @@ export const venezuelanCachapasRecipe = {
   tags: ['street-food', 'comfort-food', 'family-meal', 'sweet-breakfast'],
   categorySlugs: [
     'breakfasts-of-south-america',
-    'venezuelan-breakfasts',
     'maize-breakfasts',
     'cheese-breakfasts',
     'street-breakfast',

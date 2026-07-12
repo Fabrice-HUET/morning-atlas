@@ -55,8 +55,6 @@ export const bagelWithCreamCheeseRecipe = {
   tags: ['easy-at-home', 'iconic-breakfast', 'regional-variation', 'quick-breakfast'],
   categorySlugs: [
     'breakfasts-of-north-america',
-    'american-breakfasts',
-    'new-york-breakfasts',
     'bread-breakfasts',
     'quick',
     'brunch',

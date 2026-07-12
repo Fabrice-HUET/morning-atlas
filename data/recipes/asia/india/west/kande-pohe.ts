@@ -66,8 +66,6 @@ export const kandePoheRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'indian-breakfasts',
-    'western-indian-breakfasts',
-    'maharashtrian-breakfasts',
     'savory',
     'quick',
     'rice-based',

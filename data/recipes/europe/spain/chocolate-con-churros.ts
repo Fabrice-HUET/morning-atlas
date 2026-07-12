@@ -56,7 +56,6 @@ export const chocolateConChurrosRecipe = {
   tags: ['sweet-morning', 'comfort-food', 'street-food', 'iconic-breakfast'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'spanish-breakfasts',
     'sweet',
     'fried-breakfasts',
     'street-breakfast',

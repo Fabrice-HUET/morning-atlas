@@ -57,7 +57,6 @@ export const chipsiMayaiRecipe = {
   categorySlugs: [
     'breakfasts-of-africa',
     'east-african-breakfasts',
-    'tanzanian-breakfasts',
     'savory',
     'hearty',
     'egg-based',

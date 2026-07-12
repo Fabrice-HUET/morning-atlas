@@ -64,7 +64,6 @@ export const tapsilogRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'southeast-asian-breakfasts',
-    'filipino-breakfasts',
     'rice-based',
     'egg-based',
     'meat-breakfasts',

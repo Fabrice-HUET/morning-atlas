@@ -56,7 +56,6 @@ export const newZealandPorridgeRecipe = {
   tags: ['comfort-food', 'family-meal', 'easy-at-home', 'sweet-morning'],
   categorySlugs: [
     'breakfasts-of-oceania',
-    'new-zealand-breakfasts',
     'porridge-breakfasts',
     'oat-breakfasts',
     'quick',

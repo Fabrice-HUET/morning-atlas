@@ -49,7 +49,6 @@ export const frenchTartinesRecipe = {
   tags: ['sweet-morning', 'easy-at-home', 'comfort-food', 'traditional-breakfast'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'french-breakfasts',
     'bread-breakfasts',
     'sweet',
     'quick',

@@ -57,7 +57,6 @@ export const canadianHomestyleBreakfastRecipe = {
   tags: ['family-meal', 'comfort-food', 'regional-variation', 'hearty'],
   categorySlugs: [
     'breakfasts-of-north-america',
-    'canadian-breakfasts',
     'savory',
     'hearty',
     'egg-based',

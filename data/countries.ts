@@ -1555,7 +1555,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-africa',
       'east-african-breakfasts',
-      'tanzanian-breakfasts',
       'savory',
       'hearty',
       'egg-based',
@@ -1833,7 +1832,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'chinese-breakfasts',
-      'cantonese-breakfasts',
       'brunch',
       'family-friendly',
       'tea-breakfast',
@@ -1981,7 +1979,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'chinese-breakfasts',
-      'northern-chinese-breakfasts',
       'street-breakfast',
       'savory',
       'egg-based',
@@ -2138,7 +2135,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'south-asian-breakfasts',
-      'bangladeshi-breakfasts',
       'savory',
       'flatbread-breakfasts',
       'legume-breakfasts',
@@ -2289,7 +2285,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'indian-breakfasts',
-      'south-indian-breakfasts',
       'fermented-breakfasts',
       'steamed-breakfasts',
       'healthy',
@@ -2452,7 +2447,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'indian-breakfasts',
-      'north-indian-breakfasts',
       'savory',
       'flatbread-breakfasts',
       'stuffed-flatbreads',
@@ -2610,8 +2604,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'indian-breakfasts',
-      'western-indian-breakfasts',
-      'maharashtrian-breakfasts',
       'savory',
       'quick',
       'rice-based',
@@ -2766,7 +2758,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-asia',
-      'iranian-breakfasts',
       'middle-eastern-breakfasts',
       'flatbread-breakfasts',
       'bread-breakfasts',
@@ -2933,7 +2924,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'middle-eastern-breakfasts',
-      'israeli-breakfasts',
       'brunch',
       'family-friendly',
       'healthy',
@@ -3091,7 +3081,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'east-asian-breakfasts',
-      'japanese-breakfasts',
       'rice-based',
       'savory',
       'healthy',
@@ -3251,7 +3240,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'east-asian-breakfasts',
-      'korean-breakfasts',
       'rice-based',
       'savory',
       'healthy',
@@ -3411,7 +3399,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'southeast-asian-breakfasts',
-      'myanmar-breakfasts',
       'rice-based',
       'savory',
       'quick',
@@ -3549,7 +3536,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'southeast-asian-breakfasts',
-      'filipino-breakfasts',
       'rice-based',
       'egg-based',
       'meat-breakfasts',
@@ -3701,14 +3687,12 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'southeast-asian-breakfasts',
-      'singaporean-breakfasts',
       'sweet',
       'quick',
       'traditional',
       'coffee-breakfast',
       'bread-based',
       'toast-breakfasts',
-      'kopitiam-breakfasts',
     ],
     tagSlugs: [
       'singapore',
@@ -3867,7 +3851,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'southeast-asian-breakfasts',
-      'malaysian-breakfasts',
       'rice-based',
       'egg-based',
       'savory',
@@ -4026,7 +4009,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'breakfasts-of-europe',
-      'turkish-breakfasts',
       'middle-eastern-breakfasts',
       'savory',
       'egg-based',
@@ -4188,7 +4170,6 @@ export const countries = [
     categorySlugs: [
       'breakfasts-of-asia',
       'southeast-asian-breakfasts',
-      'indonesian-breakfasts',
       'rice-based',
       'porridge-breakfasts',
       'street-breakfast',
@@ -4592,7 +4573,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-oceania',
-      'fijian-breakfasts',
       'fried-breakfasts',
       'bread-breakfasts',
       'sweet',
@@ -4730,7 +4710,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-oceania',
-      'new-zealand-breakfasts',
       'porridge-breakfasts',
       'oat-breakfasts',
       'quick',
@@ -4884,7 +4863,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'polish-breakfasts',
       'open-sandwich-breakfasts',
       'bread-breakfasts',
       'savory',
@@ -5035,7 +5013,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'swiss-breakfasts',
       'oat-breakfasts',
       'fruit-breakfasts',
       'healthy',
@@ -5170,7 +5147,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'dutch-breakfasts',
       'sweet',
       'bread-breakfasts',
       'quick',
@@ -5301,7 +5277,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'spanish-breakfasts',
       'sweet',
       'fried-breakfasts',
       'street-breakfast',
@@ -5447,8 +5422,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'british-breakfasts',
-      'english-breakfasts',
       'savory',
       'hearty',
       'egg-based',
@@ -5589,7 +5562,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'russian-breakfasts',
       'porridge-breakfasts',
       'grain-breakfasts',
       'oat-breakfasts',
@@ -5720,7 +5692,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'french-breakfasts',
       'bread-breakfasts',
       'sweet',
       'quick',
@@ -5862,7 +5833,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'italian-breakfasts',
       'sweet',
       'coffee-breakfast',
       'quick',
@@ -5994,7 +5964,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'bulgarian-breakfasts',
       'savory',
       'pastry-breakfasts',
       'cheese-breakfasts',
@@ -6125,7 +6094,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'german-breakfasts',
       'bread-breakfasts',
       'quick',
       'family-friendly',
@@ -6251,7 +6219,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'greek-breakfasts',
       'yogurt-breakfasts',
       'healthy',
       'quick',
@@ -6376,7 +6343,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-europe',
-      'portuguese-breakfasts',
       'bread-breakfasts',
       'coffee-breakfast',
       'quick',
@@ -6499,7 +6465,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-north-america',
-      'canadian-breakfasts',
       'savory',
       'hearty',
       'egg-based',
@@ -6627,8 +6592,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-north-america',
-      'american-breakfasts',
-      'new-york-breakfasts',
       'bread-breakfasts',
       'quick',
       'brunch',
@@ -6756,7 +6719,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-central-america',
-      'costa-rican-breakfasts',
       'rice-based',
       'legume-breakfasts',
       'savory',
@@ -6887,7 +6849,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-north-america',
-      'mexican-breakfasts',
       'egg-based',
       'tortilla-breakfasts',
       'savory',
@@ -7019,7 +6980,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-the-caribbean',
-      'jamaican-breakfasts',
       'fish-breakfasts',
       'savory',
       'hearty',
@@ -7156,7 +7116,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-south-america',
-      'venezuelan-breakfasts',
       'maize-breakfasts',
       'cheese-breakfasts',
       'street-breakfast',
@@ -7282,7 +7241,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-south-america',
-      'colombian-breakfasts',
       'andean-breakfasts',
       'soup-breakfasts',
       'egg-based',
@@ -7409,7 +7367,6 @@ export const countries = [
     ],
     categorySlugs: [
       'breakfasts-of-the-caribbean',
-      'cuban-breakfasts',
       'coffee-breakfast',
       'bread-breakfasts',
       'quick',

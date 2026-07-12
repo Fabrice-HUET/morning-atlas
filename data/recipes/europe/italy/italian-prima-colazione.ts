@@ -57,7 +57,6 @@ export const italianPrimaColazioneRecipe = {
   tags: ['drink-included', 'sweet-morning', 'travel-food', 'quick-breakfast'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'italian-breakfasts',
     'sweet',
     'coffee-breakfast',
     'quick',

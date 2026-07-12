@@ -67,7 +67,6 @@ export const nasiLemakRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'southeast-asian-breakfasts',
-    'malaysian-breakfasts',
     'rice-based',
     'savory',
     'street-breakfast',

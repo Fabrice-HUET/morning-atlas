@@ -55,7 +55,6 @@ export const bulgarianBanitsaRecipe = {
   tags: ['traditional-breakfast', 'family-meal', 'comfort-food', 'savory-morning'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'bulgarian-breakfasts',
     'savory',
     'pastry-breakfasts',
     'cheese-breakfasts',

@@ -47,7 +47,6 @@ export const boterhamMetHagelslagRecipe = {
   tags: ['sweet-morning', 'easy-at-home', 'family-meal', 'quick-breakfast'],
   categorySlugs: [
     'breakfasts-of-europe',
-    'dutch-breakfasts',
     'sweet',
     'bread-breakfasts',
     'quick',

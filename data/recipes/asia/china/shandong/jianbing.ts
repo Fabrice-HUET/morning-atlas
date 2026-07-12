@@ -65,7 +65,6 @@ export const jianbingRecipe = {
   categorySlugs: [
     'breakfasts-of-asia',
     'chinese-breakfasts',
-    'northern-chinese-breakfasts',
     'street-breakfast',
     'savory',
     'egg-based',
