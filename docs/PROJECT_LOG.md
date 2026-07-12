@@ -12,6 +12,12 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — SEO-07 : checklist de validation post-déploiement
+
+- Date : `2026-07-12`
+- Commit : `TODO`
+- `docs/SEO_VALIDATION_CHECKLIST.md` : procédure opérationnelle à lancer une fois le site en ligne — 5 URLs types à tester (Rich Results Test + Schema Validator), vérifs Search Console (sitemap ~611 URLs, ingrédients fins hors index, `/creator/cv` noindex), aperçus sociaux (OG marque/spécifique/atelier), et critères de succès. Doc uniquement.
+
 ## 2026-07-12 — PAGE-05 : pages guides individuelles /guides/[slug]
 
 - Date : `2026-07-12`

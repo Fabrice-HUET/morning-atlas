@@ -12,6 +12,7 @@ Point d'entrée unique de la doc projet. Chaque document a **un rôle précis** 
 | `NEXT_STEPS.md` | Prochaines actions courtes |
 | `PROJECT_LOG.md` | Journal chronologique (une entrée par tâche livrée) |
 | `EDITORIAL_REVIEW.md` | Procédure et grille de relecture des fiches (`needsReview`) |
+| `SEO_VALIDATION_CHECKLIST.md` | Checklist SEO à exécuter après mise en ligne (Rich Results, Search Console) |
 | `CONTENT_TRACKER.md` | État par fiche (relecture, prêt à publier) |
 | `CREATOR_ROADMAP.md` | Espace créateur « L'Atelier » (fait) + génération du PDF CV |
 | `TAXONOMY_SEO_AUDIT.md` | Audit et rationalisation des taxonomies (catégories/ingrédients/tags) |

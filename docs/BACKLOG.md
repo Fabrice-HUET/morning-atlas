@@ -37,7 +37,8 @@
 | DOCS-01 | Consolider les docs → `docs/README.md` | P2 | ✅ 2026-07-12 |
 | SEO-08 | llms.txt + flux RSS | P3 | ✅ 2026-07-12 (débloqué : contenu stabilisé) |
 | PAGE-05 | Pages guides individuelles /guides/[slug] | P3 | ✅ 2026-07-12 |
-| Reste P2 / P3 | EDIT-03, SEO-07, PERF-01, TOOL-03, FEAT-01→04 | — | ☐ |
+| SEO-07 | Checklist validation post-déploiement → `docs/SEO_VALIDATION_CHECKLIST.md` | P2 | ✅ 2026-07-12 |
+| Reste P2 / P3 | EDIT-03, PERF-01, TOOL-03, FEAT-01→04 | — | ☐ |
 
 ---
 ### [DATA-01] Restaurer les accents français dans toutes les données et textes UI
