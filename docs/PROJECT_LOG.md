@@ -12,6 +12,15 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — PAGE-05 : pages guides individuelles /guides/[slug]
+
+- Date : `2026-07-12`
+- Commit : `TODO`
+- `/guides` n'était qu'une liste de teasers non cliquables ; création de `app/(site)/guides/[slug]/page.tsx` (3 pages) : thème, titre, excerpt, **pays reliés** (CountryCard) + **recettes reliées** (dérivées des pays via `getRecipesForGuide`), metadata + canonical, JSON-LD WebPage + BreadcrumbList (Accueil → Guides → titre).
+- Helpers ajoutés : `getGuideBySlug`, `getRecipesForGuide`.
+- Cartes de `/guides` rendues cliquables (titre + « Voir le guide → ») ; « à venir » retiré du titre ; `/guides/[slug]` ajouté au sitemap.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (610 routes) ; 3 pages générées, breadcrumb 3 niveaux OK.
+
 ## 2026-07-12 — SEO-08 : llms.txt + flux RSS (débloqué)
 
 - Date : `2026-07-12`

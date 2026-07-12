@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 
 import { categories } from '@/data/categories'
 import { countries } from '@/data/countries'
+import { guides } from '@/data/guides'
 import { ingredients } from '@/data/ingredients'
 import { recipes } from '@/data/recipes'
 import { isIngredientIndexable } from '@/lib/content-helpers'
@@ -59,6 +60,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.8,
       images: [breakfastImageUrl(recipe.slug)],
+    })),
+    ...guides.map((guide) => ({
+      url: absoluteUrl(`/guides/${guide.slug}`),
+      lastModified,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
     })),
     ...categories.map((category) => ({
       url: absoluteUrl(`/categories/${category.slug}`),

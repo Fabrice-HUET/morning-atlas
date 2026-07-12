@@ -103,3 +103,12 @@ export function getIngredientsForIndex() {
 export function getGuidesForCountry(countrySlug: string) {
   return guides.filter((guide) => guide.relatedCountrySlugs.includes(countrySlug))
 }
+
+export function getGuideBySlug(slug: string) {
+  return guides.find((guide) => guide.slug === slug)
+}
+
+export function getRecipesForGuide(relatedCountrySlugs: string[]) {
+  const recipeSlugs = getCountriesBySlugs(relatedCountrySlugs).flatMap((country) => country.recipeSlugs)
+  return getRecipesBySlugs(Array.from(new Set(recipeSlugs)))
+}
