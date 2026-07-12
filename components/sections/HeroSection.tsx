@@ -14,7 +14,7 @@ export function HeroSection() {
     <section className="relative overflow-hidden bg-cream">
       <div className="mx-auto grid min-h-[calc(100vh-5rem)] max-w-7xl items-center gap-10 px-5 py-16 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8">
         <div>
-          <p className="text-sm font-bold uppercase tracking-[0.18em] text-toast">Media culinaire et culturel</p>
+          <p className="text-sm font-bold uppercase tracking-[0.18em] text-mocha">Média culinaire et culturel</p>
           <h1 className="mt-5 max-w-4xl text-5xl font-black leading-[0.98] tracking-tight text-espresso sm:text-6xl lg:text-7xl">
             Découvrir le monde à travers les petits-déjeuners
           </h1>

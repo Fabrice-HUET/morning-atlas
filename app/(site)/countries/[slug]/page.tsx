@@ -87,7 +87,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
         <article className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <Flag emoji={country.flagEmoji} label={country.country} />
-            <p className="mt-6 text-sm font-bold uppercase tracking-[0.18em] text-toast">
+            <p className="mt-6 text-sm font-bold uppercase tracking-[0.18em] text-mocha">
               {country.region} · {country.continent}
             </p>
             <h1 className="mt-4 text-5xl font-black tracking-tight text-espresso">{country.heroTitle}</h1>

@@ -42,7 +42,7 @@ export default function GuidesPage() {
 
             return (
               <article key={guide.slug} className="rounded-lg border border-oat bg-paper p-6 shadow-sm">
-                <p className="text-xs font-bold uppercase tracking-[0.14em] text-toast">{guide.theme}</p>
+                <p className="text-xs font-bold uppercase tracking-[0.14em] text-mocha">{guide.theme}</p>
                 <h2 className="mt-4 text-2xl font-black text-espresso">{guide.title}</h2>
                 <p className="mt-4 text-sm leading-6 text-espresso/75">{guide.excerpt}</p>
                 <div className="mt-6 flex flex-wrap gap-2">

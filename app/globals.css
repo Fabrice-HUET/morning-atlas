@@ -68,6 +68,15 @@ a {
   text-decoration: none;
 }
 
+/* Focus visible global (magazine) : anneau toast. L'atelier le surcharge en honey. */
+:where(a, button, [tabindex]:not([tabindex="-1"]), summary):focus-visible {
+  outline: 2px solid var(--color-toast);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Convention de rayons : cartes = rounded-lg ; éléments flottants / hero / bandeaux = rounded-2xl/3xl. */
+
 /* Espace créateur « L'Atelier » : titres en fonte display, focus visible honey. Scopé, sans impact sur le magazine. */
 .atelier :is(h1, h2, h3) {
   font-family: var(--font-fraunces), Georgia, "Times New Roman", serif;

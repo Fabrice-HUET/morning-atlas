@@ -29,7 +29,13 @@
 | DATA-04 | Rendre `featured` significatif | P1 | ✅ 2026-07-11 |
 | DATA-06 | Traduire les enums affichés | P1 | ✅ 2026-07-11 |
 | IMG-02 | Nettoyage assets template | P1 | ✅ 2026-07-12 |
-| P2 / P3 | Voir sections dédiées | — | ☐ |
+| DATA-07 | Nettoyer les entrées orphelines | P2 | ✅ 2026-07-11 (fait pendant DATA-03) |
+| CODE-02 | Déplacer app/docs → docs/lots | P2 | ✅ 2026-07-12 |
+| EDIT-04 | Enrichir /about (méthode éditoriale) | P2 | ✅ 2026-07-12 |
+| DESIGN-03 | Rayons + focus-visible | P2 | ✅ 2026-07-12 |
+| A11Y-02 | Audit contrastes | P2 | ✅ 2026-07-12 (toast→mocha ; accents décoratifs = AA-grand, documentés) |
+| DOCS-01 | Consolider les docs → `docs/README.md` | P2 | ✅ 2026-07-12 |
+| Reste P2 / P3 | EDIT-03, SEO-07, PERF-01, PAGE-05, TOOL-03, FEAT-01→04, SEO-08 | — | ☐ |
 
 ---
 ### [DATA-01] Restaurer les accents français dans toutes les données et textes UI

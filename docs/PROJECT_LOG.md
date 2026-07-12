@@ -12,6 +12,20 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — Sprint finition : CODE-02, EDIT-04, DESIGN-03, A11Y-02, DOCS-01
+
+- Date : `2026-07-12`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : finition (P2)
+- **CODE-02** : les 20 notes de `app/docs/` (gitignoré, hors du dossier de routing) déplacées vers `docs/lots/` et versionnées ; ligne `app/docs/` retirée du `.gitignore`.
+- **EDIT-04** : `/about` enrichi (E-E-A-T) — sections Méthode & sources, Limites assumées, Images, Contact (lien créateur), en plus de Ligne éditoriale et Évolution. Factuel, aligné sur ce qui existe réellement (sources visibles, relecture `needsReview`, images locales).
+- **DESIGN-03** : focus-visible global du magazine (anneau `toast`, l'atelier garde `honey`) ; convention de rayons documentée dans `globals.css` (cartes = `rounded-lg`, flottants/hero = `2xl`/`3xl`).
+- **A11Y-02** : audit de contraste chiffré de la palette. Constat : sur fond crème, seuls `espresso`/`ink` (et `espresso/70+`) passent AA-normal ; les accents chauds échouent en petit texte. Corrigé : libellés en `text-toast` (2,72:1) → `text-mocha` (3,60:1) ; `Média` accentué. Documenté : les eyebrows d'accent (`mocha` ~3,6:1) et `berry` (~4,2:1) restent en **AA-grand / décoratif** (les changer en espresso dénaturerait la palette) ; le corps de texte (`espresso/75+`) et le footer (`cream/60` sur espresso, `honey` sur espresso) sont **AA**. axe-core non exécuté (pas de navigateur) — vérif manuelle contraste + structure (un seul H1, hiérarchie, skip-links).
+- **DOCS-01** : `docs/README.md` créé — index du rôle de chaque doc (source de vérité par usage) + **instantané unique de l'état du projet**, pour supprimer la redondance « État actuel » répétée.
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (606 pages) ; `/about` enrichi rendu, focus-visible dans le CSS compilé.
+- **Sprint finition terminé.** Reste : P2 (EDIT-03, SEO-07, PERF-01) et P3 (PAGE-05, TOOL-03, FEAT-*, SEO-08), tous optionnels.
+
 ## 2026-07-12 — EDIT-01 : relecture fine des lots 3-5 (nettoyage langue approfondi)
 
 - Date : `2026-07-12`

@@ -25,7 +25,7 @@ export function CountryCard({ country }: CountryCardProps) {
       <div className="flex flex-1 flex-col p-5">
         <Flag emoji={country.flagEmoji} label={country.country} />
         <div className="mt-6">
-          <p className="text-sm font-semibold text-toast">{country.continent}</p>
+          <p className="text-sm font-semibold text-mocha">{country.continent}</p>
           <h3 className="mt-2 text-xl font-black text-espresso group-hover:text-mocha">{country.country}</h3>
           <p className="mt-1 text-sm font-semibold text-ink">{country.breakfastName}</p>
           <p className="mt-4 line-clamp-3 text-sm leading-6 text-espresso/75">{country.shortDescription}</p>
