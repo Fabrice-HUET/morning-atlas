@@ -12,6 +12,18 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — IMG-02 : nettoyage des assets template et doublons d'icônes
+
+- Date : `2026-07-12`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : images/assets
+- Vérifications préalables (grep + `cmp`) : SVG template non référencés ; aucun manifest (série `icon-*` orpheline) ; `public/favicon.ico` et `public/apple-icon.png` **identiques** à ceux d'`app/` ; `Navbar` charge `/icon.png` (→ `public/icon.png` requis).
+- Supprimés (17 fichiers) : SVG create-next-app (`next.svg`, `vercel.svg`, `file.svg`, `globe.svg`, `window.svg`) ; doublons d'icônes servis par la convention `app/` (`public/favicon.ico`, `public/apple-icon.png`) ; série PWA orpheline sans manifest (`public/icon-16.png` → `icon-1024.png`).
+- Conservés : `public/icon.png` (logo Navbar), `public/images/` (visuels breakfasts) ; `app/favicon.ico` / `app/icon.png` / `app/apple-icon.png` (conventions metadata Next, servies automatiquement).
+- Vérifications : `pnpm build` (606 pages) ; favicon (via `app/`) et logo navbar (`public/icon.png`) intacts.
+- Sprint 0 : reste `CODE-03` (sortir `.idea/` et `tsconfig.tsbuildinfo` du versioning).
+
 ## 2026-07-12 — DATA-03 : rationalisation des taxonomies
 
 - Date : `2026-07-12`

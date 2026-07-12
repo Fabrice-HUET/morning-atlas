@@ -28,7 +28,7 @@
 | DATA-03 | Rationaliser les taxonomies (L) | P1 | ✅ 2026-07-12 réduction principale (123→80 cat, 410→402 ing, orphelins) ; cible ≤60 = décision éditoriale documentée dans `TAXONOMY_SEO_AUDIT.md` |
 | DATA-04 | Rendre `featured` significatif | P1 | ✅ 2026-07-11 |
 | DATA-06 | Traduire les enums affichés | P1 | ✅ 2026-07-11 |
-| IMG-02 | Nettoyage assets template | P1 | ☐ |
+| IMG-02 | Nettoyage assets template | P1 | ✅ 2026-07-12 |
 | P2 / P3 | Voir sections dédiées | — | ☐ |
 
 ---
