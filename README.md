@@ -21,6 +21,7 @@ pnpm dev        # http://localhost:3000
 | `pnpm start` | Sert le build de production |
 | `pnpm lint` | ESLint |
 | `pnpm typecheck` | `tsc --noEmit` |
+| `pnpm test` | Tests unitaires (Vitest) |
 | `pnpm validate:content` | Vérifie l'intégrité des données (slugs dupliqués, références cassées) ; sort en erreur si anomalie |
 
 ## Structure

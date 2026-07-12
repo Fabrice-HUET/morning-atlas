@@ -12,6 +12,15 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — TOOL-03 : tests unitaires des helpers (Vitest)
+
+- Date : `2026-07-12`
+- Commit : `TODO`
+- Mise en place de **Vitest** (`vitest.config.ts` avec alias `@/`, script `pnpm test`, dépendance dev).
+- **13 tests** dans `tests/` : lookups par slug (trouvé/inconnu), `getTagsBySlugs` (ignore les inconnus), seuils ingrédients (`isIngredientIndexable`, `getIngredientsForIndex`), `getFeaturedRecipes`, `getRecipesForGuide` (sans doublon), labels FR des enums, JSON-LD (échappement `<`, durées ISO 8601 Recipe, positions breadcrumb), et **intégrité du contenu** (0 doublon / 0 référence cassée) comme garde-fou.
+- **Branché en CI** : étape `pnpm test` ajoutée à `.github/workflows/ci.yml` (avant `validate:content` et `build`).
+- Vérifications : `pnpm test` (13 passés), `pnpm lint`, `pnpm typecheck`, `pnpm build` (610 routes).
+
 ## 2026-07-12 — SEO-07 : checklist de validation post-déploiement
 
 - Date : `2026-07-12`
