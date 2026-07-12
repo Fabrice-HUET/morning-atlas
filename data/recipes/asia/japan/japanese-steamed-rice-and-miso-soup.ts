@@ -17,7 +17,7 @@ export const japaneseSteamedRiceAndMisoSoupRecipe = {
     '1 cuillère à café de dashi en poudre ou dashi maison',
     '2 cuillères à soupe de miso',
     '100 g de tofu',
-    'Wakame rehydrate',
+    'Wakame réhydraté',
     'Ciboule',
     'Nori',
     'Pickles ou concombre mariné rapide',
@@ -95,7 +95,7 @@ export const japaneseSteamedRiceAndMisoSoupRecipe = {
       title: 'What is Washoku?',
       url: 'https://www.maff.go.jp/e/policies/market/washoku-world-challenge/en/learning_01.html',
       publisher: 'MAFF',
-      note: "Définition du washoku et inscription au patrimoine culturel immateriel de l'UNESCO.",
+      note: "Définition du washoku et inscription au patrimoine culturel immatériel de l'UNESCO.",
     },
     {
       title: 'Live Like a Local in Japan',

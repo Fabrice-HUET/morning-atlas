@@ -14,7 +14,7 @@ export const russianKashaRecipe = {
     '120 g de sarrasin grille',
     "250 ml d'eau",
     '250 ml de lait',
-    '1 pincee de sel',
+    '1 pincée de sel',
     '1 noix de beurre',
     'Miel ou sucre selon goût',
     'Fruits secs ou baies optionnels',
@@ -44,7 +44,7 @@ export const russianKashaRecipe = {
   ],
   steps: [
     'Rincer rapidement le sarrasin si nécessaire.',
-    "Faire bouillir l'eau avec une pincee de sel.",
+    "Faire bouillir l'eau avec une pincée de sel.",
     'Ajouter le sarrasin.',
     'Couvrir et cuire à feu doux 15 à 20 minutes.',
     'Ajouter le lait chaud.',
@@ -77,10 +77,10 @@ export const russianKashaRecipe = {
   seoDescription:
     'Découvre la kasha russe, une famille de bouillies à base de sarrasin, avoine, millet, riz ou semoule, servies sucrées ou salées.',
   reviewNotes: [
-    "Kasha ne doit pas être reduit au sarrasin, même si c'est souvent le sens en anglais.",
+    "Kasha ne doit pas être réduit au sarrasin, même si c'est souvent le sens en anglais.",
     'Le petit-déjeuner russe ne se limite pas à la kasha.',
-    'Les versions sucrées et salées doivent être distinguees.',
-    "Eviter une origine historique trop précise pour l'arrivee du sarrasin en Russie.",
+    'Les versions sucrées et salées doivent être distinguées.',
+    "Eviter une origine historique trop précise pour l'arrivée du sarrasin en Russie.",
   ],
   sources: [
     {
@@ -93,13 +93,13 @@ export const russianKashaRecipe = {
       title: 'Kasha (Russian Porridge)',
       url: 'https://www.chefspencil.com/kasha-russian-porridge/',
       publisher: "Chef's Pencil",
-      note: 'Distinction sucre / sale et usages avec beurre, lait, fruits secs, champignons ou oignons.',
+      note: 'Distinction sucré / salé et usages avec beurre, lait, fruits secs, champignons ou oignons.',
     },
     {
       title: 'Kasha',
       url: 'https://en.wikipedia.org/wiki/Kasha',
       publisher: 'Wikipedia',
-      note: 'Source de synthese sur le terme kasha et la différence entre usage russe large et anglais centre sur le sarrasin.',
+      note: 'Source de synthèse sur le terme kasha et la différence entre usage russe large et anglais centre sur le sarrasin.',
     },
   ],
   illustrationPrompt:

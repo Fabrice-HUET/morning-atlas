@@ -3,7 +3,7 @@ import type { Guide } from '@/types/guide'
 export const guides = [
   {
     slug: 'petits-dejeuners-sales-du-monde',
-    title: 'Petits-déjeuners sales du monde',
+    title: 'Petits-déjeuners salés du monde',
     excerpt: 'Un premier tour des assiettes du matin ou œufs, riz, haricots ou bouillons remplacent les viennoiseries.',
     theme: 'Saveurs salées',
     relatedCountrySlugs: ['turkey-menemen', 'mexico-huevos-rancheros', 'japan-rice-miso-soup'],

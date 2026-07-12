@@ -9,14 +9,14 @@ export const swissBircherMuesliRecipe = {
   shortDescription:
     "Un mélange suisse de flocons d'avoine trempes, pomme râpée, lait ou yaourt, fruits, noix et parfois jus de citron.",
   longDescription:
-    "Le Birchermuesli suisse est lie au medecin Maximilian Oskar Bircher-Benner, qui développé vers 1900 une Apfeldiatspeise, plat diététique à la pomme servi dans son sanatorium près de Zurich. La version moderne combine souvent flocons d'avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais. L'angle Morning Atlas doit privilégier Birchermuesli suisse, car muesli seul est devenu très large.",
+    "Le Birchermuesli suisse est lie au médecin Maximilian Oskar Bircher-Benner, qui développé vers 1900 une Apfeldiatspeise, plat diététique à la pomme servi dans son sanatorium près de Zurich. La version moderne combine souvent flocons d'avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais. L'angle Morning Atlas doit privilégier Birchermuesli suisse, car muesli seul est devenu très large.",
   ingredients: [
     "80 g de flocons d'avoine",
     '150 ml de lait',
     '150 g de yaourt nature',
     '1 grosse pomme râpée',
     '1 cuillère à soupe de jus de citron',
-    '1 poignee de noix ou noisettes',
+    '1 poignée de noix ou noisettes',
     '1 cuillère à soupe de raisins secs',
     '1 cuillère à café de miel optionnelle',
     'Fruits frais optionnels',
@@ -68,13 +68,13 @@ export const swissBircherMuesliRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    "Le muesli commercial sec n'est pas identique au Birchermuesli frais. Cette fiche privilegie l'origine suisse.",
+    "Le muesli commercial sec n'est pas identique au Birchermuesli frais. Cette fiche privilégié l'origine suisse.",
   seoTitle: "Muesli suisse : l'origine du Birchermuesli",
   seoDescription:
     "Découvre le Birchermuesli suisse, un mélange frais de flocons d'avoine, pomme râpée, yaourt, fruits et noix, devenu un classique du petit-déjeuner.",
   reviewNotes: [
     "Le muesli n était pas à l'origine uniquement un petit-déjeuner.",
-    'Les versions commerciales seches ne sont pas identiques au Birchermuesli frais.',
+    'Les versions commerciales sèches ne sont pas identiques au Birchermuesli frais.',
     'Les overnight oats modernes s en inspirent souvent, mais avec de nombreuses variations.',
     'Privilégier Birchermuesli suisse plutôt que muesli seul.',
   ],
@@ -105,6 +105,6 @@ export const swissBircherMuesliRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de Birchermuesli suisse avec flocons d'avoine trempes, pomme râpée, yaourt crémeux, noix, noisettes, raisins secs, fruits rouges, petite cuillère, pomme entière et flocons d'avoine en décor, ambiance matin alpin doux, palette moka mousse, crème yaourt, rouge pomme, brun noix, bleu-rouge fruits, bois clair, composition éditoriale fraiche et propre, sans photoréalisme, sans texte, sans logo.",
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de Birchermuesli suisse avec flocons d'avoine trempes, pomme râpée, yaourt crémeux, noix, noisettes, raisins secs, fruits rouges, petite cuillère, pomme entière et flocons d'avoine en décor, ambiance matin alpin doux, palette moka mousse, crème yaourt, rouge pomme, brun noix, bleu-rouge fruits, bois clair, composition éditoriale fraîche et propre, sans photoréalisme, sans texte, sans logo.",
   needsReview: false,
 } satisfies Recipe

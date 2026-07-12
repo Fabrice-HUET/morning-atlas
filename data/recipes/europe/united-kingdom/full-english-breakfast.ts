@@ -9,7 +9,7 @@ export const fullEnglishBreakfastRecipe = {
   shortDescription:
     'Un petit-déjeuner anglais copieux avec œufs, bacon, saucisses, tomates, champignons, beans, toast ou pain frit.',
   longDescription:
-    "Le Full English Breakfast est une grande assiette chaude et salée, souvent composee d'œufs, bacon, saucisses, tomates grilléeses, champignons, baked beans, toast ou fried bread, avec parfois du black pudding. Il appartient à la famille plus large des breakfasts complets britanniques et irlandais. Pour Morning Atlas, il doit être cadre comme breakfast de café, hotel, pub, brunch ou week-end, pas comme routine quotidienne universelle.",
+    "Le Full English Breakfast est une grande assiette chaude et salée, souvent composée d'œufs, bacon, saucisses, tomates grilléeses, champignons, baked beans, toast ou fried bread, avec parfois du black pudding. Il appartient à la famille plus large des breakfasts complets britanniques et irlandais. Pour Morning Atlas, il doit être cadre comme breakfast de café, hôtel, pub, brunch ou week-end, pas comme routine quotidienne universelle.",
   ingredients: [
     '4 œufs',
     '4 tranches de back bacon ou bacon',
@@ -58,7 +58,7 @@ export const fullEnglishBreakfastRecipe = {
   estimatedTimeMinutes: 45,
   difficulty: 'medium',
   servings: 2,
-  type: 'Assiette salée complete',
+  type: 'Assiette salée complète',
   tags: ['iconic-breakfast', 'protein-rich', 'regional-variation', 'savory-morning'],
   categorySlugs: [
     'breakfasts-of-europe',
@@ -98,7 +98,7 @@ export const fullEnglishBreakfastRecipe = {
       title: 'Full breakfast',
       url: 'https://en.wikipedia.org/wiki/Full_breakfast',
       publisher: 'Wikipedia',
-      note: 'Source de synthese utile sur les variantes régionales britanniques et irlandaises.',
+      note: 'Source de synthèse utile sur les variantes régionales britanniques et irlandaises.',
     },
   ],
   illustrationPrompt:

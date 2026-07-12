@@ -7,9 +7,9 @@ export const italianPrimaColazioneRecipe = {
   countrySlugs: ['italy-prima-colazione'],
   originLabel: 'Italie',
   shortDescription:
-    'Un petit-déjeuner italien souvent léger et sucre : espresso ou cappuccino avec cornetto, biscotti, fette biscottate ou pâtisserie.',
+    'Un petit-déjeuner italien souvent léger et sucré : espresso ou cappuccino avec cornetto, biscotti, fette biscottate ou pâtisserie.',
   longDescription:
-    "La prima colazione italienne est souvent plus légère que les petits-déjeuners sales et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois éviter de réduire l'Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
+    "La prima colazione italienne est souvent plus légère que les petits-déjeuners salés et copieux d'autres pays. Une version très connue au bar associé café, espresso ou cappuccino, et cornetto, parfois nature, à la crème, à la confiture, au chocolat ou à la pistache. Il faut toutefois éviter de réduire l'Italie à cappuccino-cornetto : les habitudes changent selon les régions et les familles.",
   ingredients: [
     '1 espresso ou cappuccino',
     '1 cornetto ou viennoiserie italienne',
@@ -45,8 +45,8 @@ export const italianPrimaColazioneRecipe = {
     'Réchauffer légèrement un cornetto si besoin.',
     'Préparer une petite assiette avec cornetto ou fette biscottate.',
     'Ajouter confiture ou miel pour une version maison.',
-    'Servir simplement, sans assiette trop chargee.',
-    "Garder l'esprit : café, douceur, rapidite.",
+    'Servir simplement, sans assiette trop chargée.',
+    "Garder l'esprit : café, douceur, rapidité.",
   ],
   prepTimeMinutes: 10,
   cookTimeMinutes: 5,
@@ -74,8 +74,8 @@ export const italianPrimaColazioneRecipe = {
   reviewNotes: [
     'Ne pas présenter cappuccino et cornetto comme unique petit-déjeuner italien.',
     'Les noms changent selon les régions : brioche, cornetto, pasta, pezzo dolce.',
-    "Les petits-déjeuners sales existent, mais ils sont moins centraux dans l'image classique italienne.",
-    'La regle du cappuccino le matin est culturelle, pas une loi.',
+    "Les petits-déjeuners salés existent, mais ils sont moins centraux dans l'image classique italienne.",
+    'La règle du cappuccino le matin est culturelle, pas une loi.',
   ],
   sources: [
     {
@@ -88,7 +88,7 @@ export const italianPrimaColazioneRecipe = {
       title: '11 Food and Drink Rules Italians Live By',
       url: 'https://www.foodandwine.com/travel/italian-food-drink-rules',
       publisher: 'Food & Wine',
-      note: 'Petit-déjeuner italien souvent sucre, avec cappuccino ou espresso et cornetto ou autre pâtisserie.',
+      note: 'Petit-déjeuner italien souvent sucré, avec cappuccino ou espresso et cornetto ou autre pâtisserie.',
     },
     {
       title: 'Breakfast at a Cafe in Italy: Brioche, Croissant or Cornetto?',
@@ -104,6 +104,6 @@ export const italianPrimaColazioneRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner italien au bar avec cappuccino mousseux, espresso court, cornetto doré légèrement sucre, fette biscottate avec confiture, petite assiette blanche, comptoir de café italien en arrière-plan discret, ambiance matin à Rome ou Milan, palette moka mousse, brun café, crème mousse, doré viennoiserie, rouge confiture, marbre clair, composition élégante et simple, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner italien au bar avec cappuccino mousseux, espresso court, cornetto doré légèrement sucré, fette biscottate avec confiture, petite assiette blanche, comptoir de café italien en arrière-plan discret, ambiance matin à Rome ou Milan, palette moka mousse, brun café, crème mousse, doré viennoiserie, rouge confiture, marbre clair, composition élégante et simple, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

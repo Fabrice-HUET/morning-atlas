@@ -89,7 +89,7 @@ export const categories = [
   {
     slug: 'toast-breakfasts',
     name: 'Toasts',
-    description: 'Petits-déjeuners construits autour de pain grille, tartines ou sandwiches simples.',
+    description: 'Petits-déjeuners construits autour de pain grillé, tartines ou sandwiches simples.',
   },
   {
     slug: 'australian-breakfasts',
@@ -174,7 +174,7 @@ export const categories = [
   {
     slug: 'cheese-breakfasts',
     name: 'Base fromage',
-    description: 'Petits-déjeuners ou fromage frais, sale ou tartinable structure le plat.',
+    description: 'Petits-déjeuners ou fromage frais, salé ou tartinable structure le plat.',
   },
   {
     slug: 'diner-breakfasts',
@@ -193,7 +193,7 @@ export const categories = [
   },
   {
     slug: 'sweet-savory-breakfasts',
-    name: 'Sucre-sale',
+    name: 'Sucre-salé',
     description: 'Petits-déjeuners ou douceur naturelle et garnitures salées se repondent.',
   },
   {
@@ -389,7 +389,7 @@ export const categories = [
   {
     slug: 'fish-breakfasts',
     name: 'Base poisson',
-    description: "Petits-déjeuners ou poisson frais, sale, fume ou conserve structure l'assiette.",
+    description: "Petits-déjeuners ou poisson frais, salé, fume ou conserve structure l'assiette.",
   },
   {
     slug: 'national-dishes',

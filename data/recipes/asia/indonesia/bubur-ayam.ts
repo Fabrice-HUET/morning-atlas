@@ -9,7 +9,7 @@ export const buburAyamRecipe = {
   shortDescription:
     'Une bouillie de riz chaude et douce, garnie de poulet effiloché, échalotes frites, cebettes, cakwe, crackers et sambal.',
   longDescription:
-    "Le bubur ayam est une bouillie de riz au poulet très populaire en Indonesie. La base est un congee de riz cuit longtemps jusqu'à devenir crémeux, puis garni de poulet effiloché et de toppings comme échalotes frites, cebettes, celeri, cakwe, sauce soja, bouillon jaune, crackers, œuf, foie ou gésier selon les versions.",
+    "Le bubur ayam est une bouillie de riz au poulet très populaire en Indonesie. La base est un congee de riz cuit longtemps jusqu'à devenir crémeux, puis garni de poulet effiloché et de toppings comme échalotes frites, cebettes, céleri, cakwe, sauce soja, bouillon jaune, crackers, œuf, foie ou gésier selon les versions.",
   ingredients: [
     '100 g de riz',
     '800 ml à 1 L de bouillon de poulet',

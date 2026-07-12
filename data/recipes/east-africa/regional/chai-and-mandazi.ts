@@ -7,15 +7,15 @@ export const chaiAndMandaziRecipe = {
   countrySlugs: ['eastern-africa-chai-mandazi'],
   originLabel: "Afrique de l'est, cote swahilie",
   shortDescription:
-    'Un duo du matin et du tea break : thé noir au lait sucre, parfois épice, avec petits pains frits légèrement sucres.',
+    'Un duo du matin et du tea break : thé noir au lait sucré, parfois épice, avec petits pains frits légèrement sucrés.',
   longDescription:
-    "Le mandazi est un pain ou beignet frit légèrement sucre, courant dans plusieurs pays d'Afrique de l'est, notamment au Kenya, en Tanzanie, en Ouganda et sur la cote swahilie. Il peut être parfume à la cardamome ou à la cannelle, prépare avec levure ou levure chimique, et parfois enrichi de lait de coco dans les versions mahamri ou mamri. Le chai, thé noir au lait et au sucre, est souvent servi avec lui au petit-déjeuner, comme snack ou au moment du thé.",
+    "Le mandazi est un pain ou beignet frit légèrement sucré, courant dans plusieurs pays d'Afrique de l'est, notamment au Kenya, en Tanzanie, en Ouganda et sur la cote swahilie. Il peut être parfume à la cardamome ou à la cannelle, prépare avec levure ou levure chimique, et parfois enrichi de lait de coco dans les versions mahamri ou mamri. Le chai, thé noir au lait et au sucre, est souvent servi avec lui au petit-déjeuner, comme snack ou au moment du thé.",
   ingredients: [
     '250 g de farine',
     '40 g de sucre',
     '1 cuillère à café de levure chimique ou levure de boulanger',
     '1/2 cuillère à café de cardamome moulue',
-    '1 pincee de sel',
+    '1 pincée de sel',
     '120 ml de lait ou lait de coco',
     '1 œuf optionnel',
     "1 cuillère à soupe d'huile ou beurre fondu",
@@ -44,12 +44,12 @@ export const chaiAndMandaziRecipe = {
     'Ajouter lait ou lait de coco, puis œuf optionnel et huile ou beurre fondu.',
     'Pétrir rapidement pour obtenir une pâte souple.',
     'Laisser reposer 20 à 30 minutes, ou plus longtemps si une levure de boulanger est utilisée.',
-    'Étaler la pâte sur une epaisseur moyenne.',
+    'Étaler la pâte sur une épaisseur moyenne.',
     'Decouper en triangles, carres ou losanges.',
     "Frire dans une huile chaude jusqu'à ce que les mandazi soient dorés.",
     'Égoutter sur papier absorbant.',
     'Préparer le chai en faisant mijoter eau, thé noir, lait, sucre et épices optionnelles.',
-    'Servir les mandazi tiedes avec le chai chaud.',
+    'Servir les mandazi tièdes avec le chai chaud.',
   ],
   prepTimeMinutes: 30,
   cookTimeMinutes: 30,
@@ -74,7 +74,7 @@ export const chaiAndMandaziRecipe = {
     "Fiche régionale : le duo existe sous des formes variables en Afrique de l'est et sur la cote swahilie, sans appartenir à un seul pays.",
   seoTitle: "Chai et Mandazi : le duo du matin en Afrique de l'est",
   seoDescription:
-    "Découvre le duo chai et mandazi, un petit-déjeuner ou snack d'Afrique de l'est avec thé au lait sucre et petits pains frits parfumes.",
+    "Découvre le duo chai et mandazi, un petit-déjeuner ou snack d'Afrique de l'est avec thé au lait sucré et petits pains frits parfumes.",
   reviewNotes: [
     'Le duo est régional et ne doit pas être présenté comme une habitude uniforme dans tout un pays.',
     'Mandazi recouvre plusieurs formes, recettes et textures.',

@@ -7,9 +7,9 @@ export const youTiaoRecipe = {
   countrySlugs: ['mainland-china-you-tiao'],
   originLabel: 'Chine continentale',
   shortDescription:
-    'Un long beignet chinois sale, doré et croustillant, souvent mange au petit-déjeuner avec lait de soja, congee ou soupe.',
+    'Un long beignet chinois salé, doré et croustillant, souvent mange au petit-déjeuner avec lait de soja, congee ou soupe.',
   longDescription:
-    "Le you tiao est l'un des aliments les plus souvent associés au petit-déjeuner chinois populaire. Il s'agit de longues bandes de pâte de ble, légèrement salées, assemblées par deux puis frites jusqu'à devenir dorées, gonflees et croustillantes. Il est souvent mange chaud, juste après friture, avec du doujiang, lait de soja, ou avec du congee.",
+    "Le you tiao est l'un des aliments les plus souvent associés au petit-déjeuner chinois populaire. Il s'agit de longues bandes de pâte de ble, légèrement salées, assemblées par deux puis frites jusqu'à devenir dorées, gonflées et croustillantes. Il est souvent mange chaud, juste après friture, avec du doujiang, lait de soja, ou avec du congee.",
   ingredients: [
     '300 g de farine de ble',
     "180 ml d'eau",
@@ -35,20 +35,20 @@ export const youTiaoRecipe = {
     'Mélanger farine, sel, levure chimique et bicarbonate.',
     "Ajouter l'eau progressivement.",
     "Ajouter l'huile et pétrir légèrement pour obtenir une pâte souple.",
-    'Laisser reposer au moins 2 heures, idealement plus longtemps au frais.',
+    'Laisser reposer au moins 2 heures, idéalement plus longtemps au frais.',
     'Étaler la pâte en rectangle.',
-    'Couper en bandes regulieres.',
+    'Couper en bandes régulières.',
     "Superposer deux bandes et presser au centre avec une baguette ou le dos d'un couteau.",
     'Etirer doucement chaque morceau.',
-    "Frire dans une huile bien chaude jusqu'à ce que les batons gonflent et dorent.",
-    'Égoutter rapidement et servir immediatement avec lait de soja ou congee.',
+    "Frire dans une huile bien chaude jusqu'à ce que les bâtons gonflent et dorent.",
+    'Égoutter rapidement et servir immédiatement avec lait de soja ou congee.',
   ],
   prepTimeMinutes: 40,
   cookTimeMinutes: 15,
   estimatedTimeMinutes: 175,
   difficulty: 'hard',
   servings: 4,
-  type: 'Beignet frit sale',
+  type: 'Beignet frit salé',
   tags: ['traditional-breakfast', 'street-food', 'savory-morning', 'drink-included'],
   categorySlugs: [
     'breakfasts-of-asia',
@@ -62,14 +62,14 @@ export const youTiaoRecipe = {
   featured: false,
   recreateAtHomeLevel: 'hard',
   notes:
-    "Version domestique simplifiée. La texture de stand depend fortement du repos, de l'hydratation, de l'agent levant, de la température d'huile et du geste d'etirement.",
+    "Version domestique simplifiée. La texture de stand dépend fortement du repos, de l'hydratation, de l'agent levant, de la température d'huile et du geste d'étirement.",
   seoTitle: 'You Tiao : le beignet chinois du petit-déjeuner',
   seoDescription:
-    'Découvre le you tiao, un baton de pâte frit souvent associé au petit-déjeuner chinois, servi avec lait de soja, congee ou soupe.',
+    'Découvre le you tiao, un bâton de pâte frit souvent associé au petit-déjeuner chinois, servi avec lait de soja, congee ou soupe.',
   reviewNotes: [
-    'La legende liée à Qin Hui et Yue Fei doit rester présentée comme récit populaire, pas comme fait historique certain.',
+    'La légende liée à Qin Hui et Yue Fei doit rester présentée comme récit populaire, pas comme fait historique certain.',
     'Les noms changent selon les langues chinoises et les pays voisins.',
-    'La version maison est possible, mais difficile à reussir comme dans les stands.',
+    'La version maison est possible, mais difficile à réussir comme dans les stands.',
     'Ne pas présenter le you tiao comme le petit-déjeuner chinois unique.',
   ],
   sources: [
@@ -77,13 +77,13 @@ export const youTiaoRecipe = {
       title: 'Savory breakfast, Chinese style',
       url: 'https://europe.chinadaily.com.cn/food/2016-10/27/content_27188782_3.htm',
       publisher: 'China Daily',
-      note: 'Description du you tiao comme baton de pâte frit servi chaud avec lait de soja.',
+      note: 'Description du you tiao comme bâton de pâte frit servi chaud avec lait de soja.',
     },
     {
       title: 'China bites: Salty soy milk',
       url: 'https://www.chinadaily.com.cn/food/2017-08/01/content_30314224.htm',
       publisher: 'China Daily',
-      note: 'Association lait de soja sale et you tiao trempe.',
+      note: 'Association lait de soja salé et you tiao trempe.',
     },
     {
       title: 'Breakfast Bing',

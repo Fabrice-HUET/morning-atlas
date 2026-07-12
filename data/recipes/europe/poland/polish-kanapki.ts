@@ -9,7 +9,7 @@ export const polishKanapkiRecipe = {
   shortDescription:
     'Des tartines ouvertes polonaises garnies de beurre, fromage, charcuterie, œuf, concombre, tomate, radis, cornichons ou herbes.',
   longDescription:
-    'Les kanapki sont des sandwichs ouverts très presents dans la vie quotidienne polonaise. Une tranche de pain, souvent seigle, levain ou pain de campagne, est garnie de beurre, fromage, twarog, charcuterie, œufs, légumes frais, cornichons, radis, ciboulette ou herbes. Elles sont courantes au petit-déjeuner, au souper et comme second petit-déjeuner.',
+    'Les kanapki sont des sandwichs ouverts très présents dans la vie quotidienne polonaise. Une tranche de pain, souvent seigle, levain ou pain de campagne, est garnie de beurre, fromage, twarog, charcuterie, œufs, légumes frais, cornichons, radis, ciboulette ou herbes. Elles sont courantes au petit-déjeuner, au souper et comme second petit-déjeuner.',
   ingredients: [
     '4 tranches de pain de seigle ou pain au levain',
     'Beurre',
@@ -71,13 +71,13 @@ export const polishKanapkiRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Très variable selon familles, régions, saison et contenu du frigo. Les kanapki ne sont pas limitees au petit-déjeuner.',
+    'Très variable selon familles, régions, saison et contenu du frigo. Les kanapki ne sont pas limitées au petit-déjeuner.',
   seoTitle: 'Kanapki : les tartines ouvertes du petit-déjeuner polonais',
   seoDescription:
     'Découvre les kanapki, des tartines ouvertes polonaises souvent servies au petit-déjeuner avec pain, fromage, charcuterie, œuf et légumes frais.',
   reviewNotes: [
     'Les kanapki sont aussi courantes au souper ou comme second petit-déjeuner.',
-    'Les garnitures varient fortement selon familles, régions, saison et disponibilite.',
+    'Les garnitures varient fortement selon familles, régions, saison et disponibilité.',
     'Ne pas présenter les kanapki comme le seul petit-déjeuner polonais.',
   ],
   sources: [

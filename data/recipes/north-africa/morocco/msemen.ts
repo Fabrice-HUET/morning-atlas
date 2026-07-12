@@ -42,7 +42,7 @@ export const msemenRecipe = {
   featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
-    'Les noms et formes proches varient selon les régions. La levure apparait dans certaines recettes mais pas systematiquement.',
+    'Les noms et formes proches varient selon les régions. La levure apparaît dans certaines recettes mais pas systématiquement.',
   seoTitle: 'Msemen marocain : la crêpe feuilletée du petit-déjeuner',
   seoDescription:
     'Découvre le msemen, une crêpe feuilletée marocaine souvent servie au petit-déjeuner ou avec le thé, en version miel, beurre ou farcie salée.',
@@ -71,6 +71,6 @@ export const msemenRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style carnet de voyage culinaire, pile de msemen marocains carres, dorés et légèrement feuilletes, petit bol de miel, verre de thé à la menthe fumant, assiette artisanale, motifs discrets inspirés du Maghreb, ambiance matin doux, palette moka, sable, miel, vert menthe, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style carnet de voyage culinaire, pile de msemen marocains carres, dorés et légèrement feuilletés, petit bol de miel, verre de thé à la menthe fumant, assiette artisanale, motifs discrets inspirés du Maghreb, ambiance matin doux, palette moka, sable, miel, vert menthe, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

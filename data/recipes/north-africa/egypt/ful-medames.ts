@@ -25,7 +25,7 @@ export const fulMedamesRecipe = {
   steps: [
     'Égoutter partiellement les fèves en gardant un peu de jus.',
     'Faire chauffer les fèves dans une petite casserole.',
-    "Ajouter l'ail ecrase, le cumin, le sel et le poivre.",
+    "Ajouter l'ail écrasé, le cumin, le sel et le poivre.",
     'Écraser légèrement une partie des fèves pour obtenir une texture plus crémeuse.',
     "Ajouter un filet d'huile d'olive et du jus de citron.",
     'Servir avec persil, pain plat et éventuellement un œuf dur.',
@@ -41,7 +41,7 @@ export const fulMedamesRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Version simplifiée avec fèves en conserve. Les versions aux fèves seches demandent trempage et cuisson longue.',
+    'Version simplifiée avec fèves en conserve. Les versions aux fèves sèches demandent trempage et cuisson longue.',
   seoTitle: 'Ful Medames : le petit-déjeuner égyptien aux fèves',
   seoDescription:
     "Découvre le ful medames, un plat égyptien souvent associé au petit-déjeuner : fèves fondantes, cumin, citron, huile d'olive et pain plat.",

@@ -12,6 +12,18 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — EDIT-01 : relecture fine des lots 3-5 (nettoyage langue approfondi)
+
+- Date : `2026-07-12`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : éditorial / langue
+- Résumé : passe de langue approfondie sur tout le corpus (fiches lots 3-5 surtout), pour lever le long-tail d'accents résiduels et les cas ambigus laissés depuis DATA-01.
+- Méthode : correcteur orthographique **français** (`pyspellchecker`, en venv jetable hors repo) utilisé pour **détecter** les mots ascii non accentués. Règle de sûreté : n'appliquer une correction que si elle diffère **uniquement par des accents** (aucune lettre changée) → les emprunts et noms propres (`chocolate`, `feta`, `leche`, dishes) sont épargnés. **270 corrections** appliquées (ex. `qualité`, `câpres`, `caraïbes`, `chèvre`, `côtiers`, `coût`, `bâton`, `appétit`, `échalotes`, `érable`, `fraîche`, `hôtel`, `société`, `sécurité`…).
+- Mots **ambigus** (valides sous deux formes) résolus **en contexte**, un par un : `sucre`→`sucré` (adjectif) vs `sucre` (nom, sucre = sugar) conservé ; `sale`→`salé` (systématique dans ce corpus culinaire) ; `marque`→`marqué` ; `grille`→`grillé` ; `mange`→`mangé` ; `ecrase`→`écrasé` (ail) ; `evapore`→`évaporé` (lait) ; `torrefie`→`torréfié` (café) ; `interprete`→`interprété` ; `rehydrate`→`réhydraté` (wakame) ; `hydrate` (verbe « s'hydrate ») laissé correct.
+- Portée : les lots 3-5 passent d'une validation structurelle à une relecture **langue fine** ; leur prudence/sourcing étaient déjà vérifiés. Les `reviewNotes` restent en place. Contenu des sources toujours non re-vérifié en ligne.
+- Vérifications : `pnpm validate:content` vert, `pnpm lint`, `pnpm typecheck`, `pnpm build` (606 pages) ; contrôles : 0 accent dans un slug/interpolation, aucun emprunt corrompu (`chocolaté con`/`fêta`/`con lèche` absents).
+
 ## 2026-07-12 — EDIT-01 lots 3-5 : relecture finale, 106/106 fiches validées
 
 - Date : `2026-07-12`

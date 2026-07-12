@@ -9,7 +9,7 @@ export const colombianChanguaRecipe = {
   shortDescription:
     'Une soupe colombienne du matin à base de lait, eau, œuf, oignon long et coriandre, souvent servie avec pain ou calado.',
   longDescription:
-    "La changua est une soupe chaude à base de lait et d'eau, dans laquelle on poche un œuf, puis que l'on parfume avec oignon long et coriandre. Elle est très associée à Bogota, Cundinamarca, Boyaca et aux hauts plateaux andins. Elle peut surprendre hors de Colombie, mais doit être abordee comme un bol de matin froid, familial et réconfortant.",
+    "La changua est une soupe chaude à base de lait et d'eau, dans laquelle on poche un œuf, puis que l'on parfume avec oignon long et coriandre. Elle est très associée à Bogota, Cundinamarca, Boyaca et aux hauts plateaux andins. Elle peut surprendre hors de Colombie, mais doit être abordée comme un bol de matin froid, familial et réconfortant.",
   ingredients: [
     '500 ml de lait',
     "500 ml d'eau",
@@ -41,13 +41,13 @@ export const colombianChanguaRecipe = {
     'Hacher la coriandre.',
     "Faire chauffer l'eau et le lait dans une casserole.",
     "Ajouter l'oignon, une partie de la coriandre, le sel et le beurre si souhaite.",
-    'Quand le liquide fremit, casser doucement les œufs dans la soupe.',
+    'Quand le liquide frémit, casser doucement les œufs dans la soupe.',
     'Laisser pocher sans trop remuer.',
     'Placer des morceaux de pain dans les bols.',
     'Verser la soupe chaude avec un œuf par bol.',
-    'Ajouter coriandre fraiche.',
+    'Ajouter coriandre fraîche.',
     'Ajouter fromage si souhaite.',
-    'Servir immediatement.',
+    'Servir immédiatement.',
   ],
   prepTimeMinutes: 10,
   cookTimeMinutes: 15,
@@ -99,6 +99,6 @@ export const colombianChanguaRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de changua colombienne fumante avec soupe blanche au lait, œuf poche visible, coriandre fraiche, oignon long, morceaux de pain calado qui trempent, petit fromage frais à cote, tasse de chocolat chaud en arrière-plan discret, ambiance matin frais à Bogota, palette moka mousse, blanc lait, jaune œuf, vert coriandre, beige pain, brun chocolat, composition douce et réconfortante, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de changua colombienne fumante avec soupe blanche au lait, œuf poche visible, coriandre fraîche, oignon long, morceaux de pain calado qui trempent, petit fromage frais à cote, tasse de chocolat chaud en arrière-plan discret, ambiance matin frais à Bogota, palette moka mousse, blanc lait, jaune œuf, vert coriandre, beige pain, brun chocolat, composition douce et réconfortante, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

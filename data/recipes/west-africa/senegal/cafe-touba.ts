@@ -7,9 +7,9 @@ export const cafeToubaRecipe = {
   countrySlugs: ['senegal-cafe-touba'],
   originLabel: 'Sénégal',
   shortDescription:
-    'Un café sénégalais épice, souvent prépare avec du robusta et du djar, servi sucre et vendu dans la rue.',
+    'Un café sénégalais épice, souvent prépare avec du robusta et du djar, servi sucré et vendu dans la rue.',
   longDescription:
-    'Le Café Touba est une boisson chaude sénégalaise à base de café torrefie avec du djar, une épice poivrée issue du Xylopia aethiopica. La boisson est généralement filtrée, souvent servie très sucrée, et vendue dans la rue, les marches ou de petits restaurants appelés tanganas.',
+    'Le Café Touba est une boisson chaude sénégalaise à base de café torréfié avec du djar, une épice poivrée issue du Xylopia aethiopica. La boisson est généralement filtrée, souvent servie très sucrée, et vendue dans la rue, les marches ou de petits restaurants appelés tanganas.',
   ingredients: [
     '20 g de café moulu',
     '1 à 2 gousses de djar ou grains of Selim concassées',
@@ -46,7 +46,7 @@ export const cafeToubaRecipe = {
   featured: true,
   recreateAtHomeLevel: 'easy',
   notes:
-    'La difficulte principale est de trouver le djar ou poivre de Guinee. Les ratios café, épice et sucre changent beaucoup.',
+    'La difficulté principale est de trouver le djar ou poivre de Guinee. Les ratios café, épice et sucre changent beaucoup.',
   seoTitle: 'Café Touba : le café épice emblématique du Sénégal',
   seoDescription:
     'Découvre le Café Touba, une boisson sénégalaise à base de café et de djar, souvent associée au petit-déjeuner et à la culture de rue.',

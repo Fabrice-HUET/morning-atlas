@@ -7,7 +7,7 @@ export const kosaiRecipe = {
   countrySlugs: ['nigeria-hausa-kosai'],
   originLabel: 'Nigeria, contexte haoussa',
   shortDescription:
-    "Des beignets sales de haricots cornille, mixes avec oignon et piment, puis frits jusqu'à devenir dorés.",
+    "Des beignets salés de haricots cornille, mixes avec oignon et piment, puis frits jusqu'à devenir dorés.",
   longDescription:
     "Le kosai est un beignet de haricots frits, prépare à partir de haricots cornille décortiqués, mixes avec oignon, piment et sel. Dans le contexte haoussa et nord-nigerian, il est souvent associé à un petit-déjeuner populaire de rue, parfois servi avec une bouillie chaude comme le koko. La préparation circule plus largement au Nigeria et en Afrique de l'ouest sous des noms et formes proches.",
   ingredients: [
@@ -21,13 +21,13 @@ export const kosaiRecipe = {
   ],
   ingredientSlugs: ['black-eyed-peas', 'onion', 'pepper', 'bell-pepper', 'salt', 'vegetable-oil', 'water'],
   steps: [
-    'Faire tremper les haricots 2 à 4 heures, ou plus longtemps pour faciliter le decorticage.',
+    'Faire tremper les haricots 2 à 4 heures, ou plus longtemps pour faciliter le décorticage.',
     "Frotter les haricots dans l'eau pour retirer une partie des peaux.",
     'Rincer plusieurs fois pour enlever les peaux qui flottent.',
     "Mixer les haricots avec l'oignon, le piment, le sel et très peu d'eau.",
     "Fouetter ou mélanger la pâte quelques minutes pour l'aérer.",
     "Faire chauffer l'huile dans une casserole.",
-    "Deposer de petites cuillerees de pâte dans l'huile chaude.",
+    "Deposer de petites cuillerées de pâte dans l'huile chaude.",
     "Frire jusqu'à ce que les beignets soient dorés.",
     'Égoutter sur papier absorbant et servir chaud.',
   ],
@@ -51,10 +51,10 @@ export const kosaiRecipe = {
   featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
-    "La recette est simple dans l'idée, mais le trempage, le decorticage et la friture demandent un peu de pratique.",
+    "La recette est simple dans l'idée, mais le trempage, le décorticage et la friture demandent un peu de pratique.",
   seoTitle: 'Kosai : les beignets de haricots du petit-déjeuner haoussa',
   seoDescription:
-    "Découvre le kosai, un beignet sale de haricots souvent associé au petit-déjeuner de rue dans le nord du Nigeria, proche de l'akara.",
+    "Découvre le kosai, un beignet salé de haricots souvent associé au petit-déjeuner de rue dans le nord du Nigeria, proche de l'akara.",
   reviewNotes: [
     'Le lien exact entre kosai, akara et koose doit rester nuance.',
     'Les sources directes sur kosai en contexte haoussa sont moins nombreuses que celles sur akara.',
@@ -87,6 +87,6 @@ export const kosaiRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petits beignets kosai dorés dans une assiette emaillee, texture croustillante suggérée, bol de bouillie chaude à cote, quelques haricots cornille, oignon rouge et piment en décor, ambiance marche du matin au nord du Nigeria, palette moka mousse, doré, crème, rouge piment et brun chaud, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petits beignets kosai dorés dans une assiette émaillée, texture croustillante suggérée, bol de bouillie chaude à cote, quelques haricots cornille, oignon rouge et piment en décor, ambiance marche du matin au nord du Nigeria, palette moka mousse, doré, crème, rouge piment et brun chaud, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

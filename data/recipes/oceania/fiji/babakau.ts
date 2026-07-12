@@ -9,11 +9,11 @@ export const babakauRecipe = {
   shortDescription:
     'Un pain frit fidjien, léger et moelleux, souvent servi chaud avec beurre, confiture, sucre ou thé.',
   longDescription:
-    "Le babakau est un pain frit fidjien prépare avec une pâte levee à base de farine, sucre, levure, sel, huile et eau tiède. La pâte repose, puis elle est decoupee en carres ou rectangles avant d'être frite jusqu'à devenir dorée et gonflee. Il est associé au petit-déjeuner familial ou villageois, mais aussi au snack et à l'afternoon tea.",
+    "Le babakau est un pain frit fidjien prépare avec une pâte levée à base de farine, sucre, levure, sel, huile et eau tiède. La pâte repose, puis elle est découpée en carres ou rectangles avant d'être frite jusqu'à devenir dorée et gonflée. Il est associé au petit-déjeuner familial ou villageois, mais aussi au snack et à l'afternoon tea.",
   ingredients: [
     '500 g de farine',
     '20 g de sucre',
-    '7 g de levure boulangere séché',
+    '7 g de levure boulangère séché',
     '3 g de sel',
     "20 ml d'huile",
     "350 ml d'eau tiède",
@@ -42,7 +42,7 @@ export const babakauRecipe = {
     "Mélanger jusqu'à obtenir une pâte collante.",
     'Pétrir 5 à 7 minutes.',
     'Couvrir et laisser doubler de volume.',
-    "Étaler la pâte sur 1 à 1,5 cm d'epaisseur.",
+    "Étaler la pâte sur 1 à 1,5 cm d'épaisseur.",
     'Couper en carres ou rectangles.',
     "Chauffer l'huile à feu moyen.",
     "Frire les morceaux jusqu'à ce qu'ils soient dorés des deux cotes.",
@@ -68,7 +68,7 @@ export const babakauRecipe = {
   featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
-    "La recette est simple, mais la pâte levee et la friture demandent de l'attention. L'origine historique exacte reste incertaine.",
+    "La recette est simple, mais la pâte levée et la friture demandent de l'attention. L'origine historique exacte reste incertaine.",
   seoTitle: 'Babakau : le pain frit fidjien du petit-déjeuner',
   seoDescription:
     'Découvre le babakau, un pain frit fidjien souvent servi chaud au petit-déjeuner avec beurre, confiture ou thé.',

@@ -7,9 +7,9 @@ export const boterhamMetHagelslagRecipe = {
   countrySlugs: ['netherlands-hagelslag'],
   originLabel: 'Pays-Bas',
   shortDescription:
-    'Une tartine néerlandaise simple et sucrée avec pain, beurre et hagelslag, ces vermicelles souvent chocolates.',
+    'Une tartine néerlandaise simple et sucrée avec pain, beurre et hagelslag, ces vermicelles souvent chocolatés.',
   longDescription:
-    'Le boterham met hagelslag est une tartine très simple : une tranche de pain, une couche de beurre ou margarine, puis des vermicelles chocolates ou sucres. Le beurre sert autant au goût qu a faire tenir les vermicelles. Aux Pays-Bas, cette tartine est souvent associée au petit-déjeuner ou au déjeuner rapide, surtout dans les familles, sans representer le seul petit-déjeuner néerlandais.',
+    'Le boterham met hagelslag est une tartine très simple : une tranche de pain, une couche de beurre ou margarine, puis des vermicelles chocolatés ou sucres. Le beurre sert autant au goût qu a faire tenir les vermicelles. Aux Pays-Bas, cette tartine est souvent associée au petit-déjeuner ou au déjeuner rapide, surtout dans les familles, sans représenter le seul petit-déjeuner néerlandais.',
   ingredients: [
     '1 ou 2 tranches de pain',
     'Beurre doux ou demi-sel selon goût',
@@ -59,7 +59,7 @@ export const boterhamMetHagelslagRecipe = {
     'Le hagelslag est très associé aux Pays-Bas, mais les petits-déjeuners néerlandais incluent aussi fromage, charcuterie, yaourt, muesli et fruits.',
   seoTitle: 'Hagelslag : la tartine sucrée du petit-déjeuner néerlandais',
   seoDescription:
-    'Découvre le boterham met hagelslag, une tartine néerlandaise au beurre et vermicelles chocolates, souvent servie au petit-déjeuner ou au déjeuner.',
+    'Découvre le boterham met hagelslag, une tartine néerlandaise au beurre et vermicelles chocolatés, souvent servie au petit-déjeuner ou au déjeuner.',
   reviewNotes: [
     "Le hagelslag est aussi présent en Belgique, au Suriname, en Indonesie et dans d'anciennes zones liées à l'histoire néerlandaise.",
     'Toutes les tartines sucrées néerlandaises ne sont pas au hagelslag.',
@@ -89,7 +89,7 @@ export const boterhamMetHagelslagRecipe = {
       title: 'Dutch cuisine',
       url: 'https://en.wikipedia.org/wiki/Dutch_cuisine',
       publisher: 'Wikipedia',
-      note: 'Source de synthese pour replacer le petit-déjeuner néerlandais dans un ensemble plus large.',
+      note: 'Source de synthèse pour replacer le petit-déjeuner néerlandais dans un ensemble plus large.',
     },
   ],
   illustrationPrompt:

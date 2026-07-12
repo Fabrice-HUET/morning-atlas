@@ -9,21 +9,21 @@ export const ogiRecipe = {
   shortDescription:
     'Une bouillie de céréales fermentées, douce et légèrement acidulée, souvent servie chaude au petit-déjeuner.',
   longDescription:
-    "L'ogi est une bouillie fermentée très présenté dans les habitudes alimentaires nigerianes. Elle est traditionnellement préparée à partir de mais, de sorgho ou de millet trempes, moulus, filtrés puis fermentés. Une fois la base prete, elle est cuite avec de l'eau chaude jusqu'à devenir lisse, crémeuse et légèrement acidulée.",
+    "L'ogi est une bouillie fermentée très présenté dans les habitudes alimentaires nigerianes. Elle est traditionnellement préparée à partir de mais, de sorgho ou de millet trempes, moulus, filtrés puis fermentés. Une fois la base prête, elle est cuite avec de l'eau chaude jusqu'à devenir lisse, crémeuse et légèrement acidulée.",
   ingredients: [
     "1/2 tasse de pâte d'ogi ou poudre d'ogi",
     "1/4 tasse d'eau froide",
     "2 à 2,5 tasses d'eau bouillante",
     'Option : lait',
-    'Option : sucre, miel ou dattes mixees',
+    'Option : sucre, miel ou dattes mixées',
   ],
   ingredientSlugs: ['corn', 'sorghum', 'millet', 'water', 'milk', 'sugar', 'honey', 'dates'],
   steps: [
     "Mélanger la pâte ou poudre d'ogi avec un peu d'eau froide pour éviter les grumeaux.",
     "Faire bouillir de l'eau.",
-    "Verser progressivement l'eau chaude sur le mélange en remuant sans arret.",
+    "Verser progressivement l'eau chaude sur le mélange en remuant sans arrêt.",
     "Remettre quelques minutes à feu doux si besoin, jusqu'à obtenir une texture lisse.",
-    "Ajuster l'epaisseur avec un peu d'eau chaude.",
+    "Ajuster l'épaisseur avec un peu d'eau chaude.",
     'Ajouter lait, sucre ou miel si souhaite.',
     'Servir chaud, seul ou avec akara, kosai, moi moi ou pain.',
   ],
@@ -47,7 +47,7 @@ export const ogiRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'La préparation est facile avec une pâte ou poudre prete. La fermentation maison demande plusieurs jours et davantage de pratique.',
+    'La préparation est facile avec une pâte ou poudre prête. La fermentation maison demande plusieurs jours et davantage de pratique.',
   seoTitle: 'Ogi : la bouillie fermentée du petit-déjeuner nigerian',
   seoDescription:
     "Découvre l'ogi, une bouillie nigeriane à base de mais, sorgho ou millet fermenté, souvent servie chaude au petit-déjeuner.",

@@ -18,7 +18,7 @@ export const chipsiMayaiRecipe = {
     'Poivre',
     '1 tomate',
     '1/2 oignon rouge',
-    'Coriandre fraiche',
+    'Coriandre fraîche',
     'Jus de citron',
     'Sauce pili-pili ou sauce tomate pimentée',
   ],
@@ -43,7 +43,7 @@ export const chipsiMayaiRecipe = {
     'Remettre une portion de frites dans une petite poêle légèrement huilée.',
     'Verser les œufs battus sur les frites.',
     "Cuire à feu moyen jusqu'à ce que la base prenne.",
-    'Retourner delicatement ou couvrir pour finir la cuisson du dessus.',
+    'Retourner délicatement ou couvrir pour finir la cuisson du dessus.',
     'Préparer un kachumbari rapide avec tomate, oignon rouge, coriandre, citron et sel.',
     "Servir l'omelette chaude avec kachumbari et sauce pili-pili.",
   ],
@@ -67,7 +67,7 @@ export const chipsiMayaiRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Le chipsi mayai est surtout une street food et un repas rapide ; son usage matinal existe, mais il ne doit pas être reduit au petit-déjeuner.',
+    'Le chipsi mayai est surtout une street food et un repas rapide ; son usage matinal existe, mais il ne doit pas être réduit au petit-déjeuner.',
   seoTitle: "Chipsi Mayai : l'omelette tanzanienne aux frites",
   seoDescription:
     "Découvre le chipsi mayai, une street food tanzanienne à base de frites et d'œufs, souvent servie avec kachumbari et sauce pimentée.",
@@ -88,7 +88,7 @@ export const chipsiMayaiRecipe = {
       title: 'Chipsi mayai, la tortilla de patatas tanzana',
       url: 'https://elpais.com/gastronomia/2026-05-24/chipsi-mayai-la-tortilla-de-patatas-tanzana-que-gustara-a-los-sincebollistas.html',
       publisher: 'El Pais',
-      note: 'Contexte journalistique, base pommes de terre et œufs, variantes et origine récente indiquee.',
+      note: 'Contexte journalistique, base pommes de terre et œufs, variantes et origine récente indiquée.',
     },
     {
       title: 'Tanzanian street food in Zanzibar and Dar es Salaam',

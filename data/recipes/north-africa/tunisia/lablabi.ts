@@ -9,7 +9,7 @@ export const lablabiRecipe = {
   shortDescription:
     "Une soupe tunisienne populaire aux pois chiches, pain, cumin, ail, harissa, citron et huile d'olive.",
   longDescription:
-    'Le lablabi est une soupe ou un ragout tunisien à base de pois chiches, souvent servi chaud dans des bols personnalises. Il peut inclure œuf, thon, câpres, citron, harissa, pickles ou herbes selon les versions.',
+    'Le lablabi est une soupe ou un ragoût tunisien à base de pois chiches, souvent servi chaud dans des bols personnalises. Il peut inclure œuf, thon, câpres, citron, harissa, pickles ou herbes selon les versions.',
   ingredients: [
     '1 grande boite de pois chiches',
     '2 tranches de pain rassis ou pain de campagne',
@@ -25,7 +25,7 @@ export const lablabiRecipe = {
   ingredientSlugs: ['chickpeas', 'stale-bread', 'garlic', 'cumin', 'harissa', 'lemon', 'olive-oil', 'eggs', 'tuna', 'capers', 'parsley'],
   steps: [
     "Faire chauffer les pois chiches avec leur jus et un peu d'eau.",
-    "Ajouter l'ail ecrase, le cumin, le sel et le poivre.",
+    "Ajouter l'ail écrasé, le cumin, le sel et le poivre.",
     'Laisser mijoter 10 à 15 minutes.',
     'Dechirer le pain en morceaux dans un bol.',
     'Verser les pois chiches et le bouillon chaud sur le pain.',
@@ -44,7 +44,7 @@ export const lablabiRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Version rapide avec pois chiches en conserve. Avec pois chiches secs, prevoir trempage et cuisson longue.',
+    'Version rapide avec pois chiches en conserve. Avec pois chiches secs, prévoir trempage et cuisson longue.',
   seoTitle: 'Lablabi tunisien : la soupe de pois chiches du matin',
   seoDescription:
     'Découvre le lablabi, une soupe tunisienne populaire à base de pois chiches, pain, cumin, harissa et citron, souvent servie chaude au petit-déjeuner.',
@@ -57,7 +57,7 @@ export const lablabiRecipe = {
       title: 'Lablabi (Tunisian Chickpea Stew)',
       url: 'https://www.themediterraneandish.com/lablabi-tunisian-chickpea-stew/',
       publisher: 'The Mediterranean Dish',
-      note: 'Description du lablabi comme soupe ou ragout tunisien aux pois chiches.',
+      note: 'Description du lablabi comme soupe ou ragoût tunisien aux pois chiches.',
     },
     {
       title: 'Lablabi - Tunisian chickpea soup/stew',

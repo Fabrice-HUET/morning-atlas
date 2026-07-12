@@ -9,7 +9,7 @@ export const katogoRecipe = {
   shortDescription:
     'Un petit-déjeuner ougandais copieux, prépare en une seule marmite avec matooke, haricots, sauce et légumes.',
   longDescription:
-    "Le katogo est souvent présenté comme l'un des grands petits-déjeuners ougandais. Il s'agit d'un plat en une seule marmite ou une base feculente, souvent matooke, est cuite avec une sauce. Cette sauce peut inclure haricots, pois, arachides, légumes, viande ou abats.",
+    "Le katogo est souvent présenté comme l'un des grands petits-déjeuners ougandais. Il s'agit d'un plat en une seule marmite ou une base féculente, souvent matooke, est cuite avec une sauce. Cette sauce peut inclure haricots, pois, arachides, légumes, viande ou abats.",
   ingredients: [
     '5 à 6 bananes plantain vertes ou bananes de cuisson',
     '250 g de haricots rouges ou blancs déjà cuits',
@@ -84,7 +84,7 @@ export const katogoRecipe = {
       title: 'UGANDA@50: The king of all Uganda breakfasts',
       url: 'https://www.monitor.co.ug/uganda/special-reports/uganda-50/uganda-50-the-king-of-all-uganda-breakfasts-1513032',
       publisher: 'Daily Monitor',
-      note: 'Statut de petit-déjeuner populaire, lien au matooke et caractere rassasiant.',
+      note: 'Statut de petit-déjeuner populaire, lien au matooke et caractère rassasiant.',
     },
     {
       title: 'Classic Matooke Katogo',

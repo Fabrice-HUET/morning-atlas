@@ -11,14 +11,14 @@ export const parathaWithCurryRecipe = {
   longDescription:
     'Le paratha est un pain plat de ble, souvent feuilleté ou farci, cuit sur tawa avec ghee ou huile. En Inde du Nord, il est fortement associé aux petits-déjeuners copieux, en particulier dans les foyers punjabis et les dhabas. Paratha with curry reste un intitulé large : dans les usages courants, le paratha peut être servi avec curd, pickle, beurre, dal, sabzi, chole, curry de légumes, chai ou lassi.',
   ingredients: [
-    "250 g d'atta ou farine complete",
+    "250 g d'atta ou farine complète",
     "140 ml d'eau",
     'Sel',
     '3 pommes de terre moyennes',
     '1 petit piment vert optionnel',
     '1 cuillère à café de cumin',
     '1/2 cuillère à café de garam masala',
-    'Coriandre fraiche',
+    'Coriandre fraîche',
     'Ghee ou huile',
     'Yaourt nature',
     'Pickle indien ou citron',

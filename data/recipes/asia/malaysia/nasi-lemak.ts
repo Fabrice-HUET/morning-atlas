@@ -15,12 +15,12 @@ export const nasiLemakRecipe = {
     '150 ml de lait de coco',
     "150 ml d'eau",
     '1 feuille de pandan optionnelle',
-    '1 pincee de sel',
+    '1 pincée de sel',
     '2 œufs',
     '1/2 concombre',
     '3 cuillères à soupe de cacahuètes',
-    "30 g d'anchois seches ou alternative croustillante",
-    "Sambal pret à l'emploi ou maison",
+    "30 g d'anchois sèches ou alternative croustillante",
+    "Sambal prêt à l'emploi ou maison",
     'Poulet frit ou tofu frit optionnel',
   ],
   ingredientSlugs: [
@@ -82,17 +82,17 @@ export const nasiLemakRecipe = {
     'Découvre le nasi lemak, un plat malaisien emblématique à base de riz au lait de coco, sambal, anchois frits, cacahuètes, concombre et œuf.',
   reviewNotes: [
     "Le nasi lemak est très associé au petit-déjeuner, mais il est aussi consommé à d'autres moments.",
-    'Preferer plat emblématique de Malaisie à plat national formule trop figee.',
-    'Les versions changent beaucoup selon régions, vendeurs et communautes.',
+    'Preferer plat emblématique de Malaisie à plat national formule trop figée.',
+    'Les versions changent beaucoup selon régions, vendeurs et communautés.',
     "L'inscription UNESCO concerne la culture du petit-déjeuner en Malaisie, pas uniquement le nasi lemak.",
-    'Le sambal est central et donne souvent la personnalite du plat.',
+    'Le sambal est central et donne souvent la personnalité du plat.',
   ],
   sources: [
     {
       title: 'Breakfast culture in Malaysia: dining experience in a multi-ethnic society',
       url: 'https://ich.unesco.org/en/RL/breakfast-culture-in-malaysia-dining-experience-in-a-multi-ethnic-society-02113',
       publisher: 'UNESCO',
-      note: 'Inscription de la culture du petit-déjeuner en Malaisie et mention de nasi lemak, roti canai et teh tarik.',
+      note: 'Inscription de la culture du petit-déjeuner en Malaisie et mention de nasi lemak, rôti canai et teh tarik.',
     },
     {
       title: 'Nasi lemak - Singapore',
@@ -104,7 +104,7 @@ export const nasiLemakRecipe = {
       title: 'Nasi Lemak',
       url: 'https://www.bonappetit.com/recipe/nasi-lemak',
       publisher: 'Bon Appetit',
-      note: 'Recette à base de riz coco, ikan bilis et sambal sucre-piquant.',
+      note: 'Recette à base de riz coco, ikan bilis et sambal sucré-piquant.',
     },
     {
       title: "17 Malaysian Recipes to Introduce You to the Country's Vibrant and Varied Cuisine",
@@ -120,6 +120,6 @@ export const nasiLemakRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de nasi lemak malaisien avec dome de riz au lait de coco parfume au pandan, sambal rouge, ikan bilis croustillants, cacahuètes, rondelles de concombre, œuf dur coupe, feuille de bananier sous l'assiette, verre de teh tarik en arrière-plan, ambiance stand matinal à Kuala Lumpur, palette moka mousse, vert pandan, blanc riz, rouge sambal, brun cacahuète, jaune œuf, composition éditoriale généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de nasi lemak malaisien avec dôme de riz au lait de coco parfume au pandan, sambal rouge, ikan bilis croustillants, cacahuètes, rondelles de concombre, œuf dur coupe, feuille de bananier sous l'assiette, verre de teh tarik en arrière-plan, ambiance stand matinal à Kuala Lumpur, palette moka mousse, vert pandan, blanc riz, rouge sambal, brun cacahuète, jaune œuf, composition éditoriale généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
   needsReview: false,
 } satisfies Recipe

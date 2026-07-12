@@ -38,7 +38,7 @@ export const cubanTostadaCafeConLecheRecipe = {
     'Presser à la plancha, au grill ou dans une poêle avec un poids.',
     "Faire dorer jusqu'à obtenir un extérieur croustillant.",
     'Préparer un café fort.',
-    'Chauffer le lait presque à fremissement.',
+    'Chauffer le lait presque à frémissement.',
     'Sucrer le café ou le lait selon le goût.',
     'Mélanger café et lait chaud.',
     'Servir la tostada coupée en bandes.',
@@ -70,7 +70,7 @@ export const cubanTostadaCafeConLecheRecipe = {
   reviewNotes: [
     'Les sources documentent beaucoup Miami et la diaspora cubaine : rester prudent pour Cuba même.',
     'Le pain cubain authentique peut être difficile à trouver hors Floride ou Cuba.',
-    'Le café con leche existe dans un univers hispanique large, mais la version cubaine utilise un café fort et souvent sucre.',
+    'Le café con leche existe dans un univers hispanique large, mais la version cubaine utilise un café fort et souvent sucré.',
     'Ne pas présenter ce duo comme le seul petit-déjeuner cubain.',
   ],
   sources: [

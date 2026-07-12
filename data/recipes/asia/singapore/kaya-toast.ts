@@ -18,7 +18,7 @@ export const kayaToastRecipe = {
     'Sauce soja',
     'Poivre blanc',
     'Café fort ou kopi',
-    'Lait concentré ou lait evapore optionnel',
+    'Lait concentré ou lait évaporé optionnel',
   ],
   ingredientSlugs: [
     'white-bread',
@@ -41,11 +41,11 @@ export const kayaToastRecipe = {
     "Faire griller le pain jusqu'à ce qu'il soit bien croustillant.",
     'Tartiner une tranche avec du kaya.',
     'Ajouter de fines lamelles de beurre froid.',
-    'Refermer avec une deuxieme tranche et couper en rectangles.',
+    'Refermer avec une deuxième tranche et couper en rectangles.',
     "Préparer les œufs mollets dans l'eau chaude 6 à 7 minutes.",
     'Casser les œufs dans un petit bol.',
     'Ajouter sauce soja et poivre blanc.',
-    'Préparer un café fort, idealement légèrement sucre.',
+    'Préparer un café fort, idéalement légèrement sucré.',
     'Servir toast, œufs et café ensemble.',
     "Tremper éventuellement le toast dans l'œuf assaisonné.",
   ],
@@ -69,14 +69,14 @@ export const kayaToastRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Version maison avec kaya déjà prete. Si la kaya est préparée maison, prevoir plutôt 45 à 60 minutes.',
+    'Version maison avec kaya déjà prête. Si la kaya est préparée maison, prévoir plutôt 45 à 60 minutes.',
   seoTitle: 'Kaya Toast : le petit-déjeuner de kopitiam à Singapour',
   seoDescription:
     'Découvre le kaya toast, un breakfast singapourien de kopitiam avec toast à la confiture de coco-pandan, beurre, œufs mollets et kopi.',
   reviewNotes: [
     'Ne pas présenter le kaya toast comme exclusivement singapourien : il est aussi présent en Malaisie et ailleurs en Asie du Sud-Est.',
-    "l'histoire exacte mele influences malaises, hainanaises, britanniques et culture kopitiam.",
-    'Le trio toast, œufs mollets et kopi est courant, mais chaque café peut être commande differemment.',
+    "l'histoire exacte mêle influences malaises, hainanaises, britanniques et culture kopitiam.",
+    'Le trio toast, œufs mollets et kopi est courant, mais chaque café peut être commande différemment.',
     "L'angle éditorial le plus juste reste breakfast de kopitiam souvent associé à Singapour.",
   ],
   sources: [
@@ -84,7 +84,7 @@ export const kayaToastRecipe = {
       title: 'The Anatomy of the Quintessential Singaporean Breakfast',
       url: 'https://guide.michelin.com/my/en/article/features/singaporean-breakfast-kopitiam-kaya-toast-eggs',
       publisher: 'MICHELIN Guide',
-      note: 'Trio kaya toast, œufs mollets et kopi dans les kopitiams, hawker centres et chaines singapouriennes.',
+      note: 'Trio kaya toast, œufs mollets et kopi dans les kopitiams, hawker centres et chaînes singapouriennes.',
     },
     {
       title: 'Kaya - Singapore',

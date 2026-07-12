@@ -7,13 +7,13 @@ export const greekYogurtWithHoneyRecipe = {
   countrySlugs: ['greece-yogurt-honey'],
   originLabel: 'Grèce',
   shortDescription:
-    'Un bol frais de yaourt grec épais, miel et noix, parfois complete avec fruits, cannelle, amandes ou pistaches.',
+    'Un bol frais de yaourt grec épais, miel et noix, parfois complète avec fruits, cannelle, amandes ou pistaches.',
   longDescription:
-    'Le yaourt grec au miel est une combinaison très reconnaissable : yaourt épais et égoutté, miel, noix et parfois fruits frais ou cannelle. Pour Morning Atlas, il faut le présenter comme un bol grec simple, associé au petit-déjeuner moderne, aux hotels, aux snacks ou au dessert léger, sans en faire un petit-déjeuner obligatoire pour tous les Grecs.',
+    'Le yaourt grec au miel est une combinaison très reconnaissable : yaourt épais et égoutté, miel, noix et parfois fruits frais ou cannelle. Pour Morning Atlas, il faut le présenter comme un bol grec simple, associé au petit-déjeuner moderne, aux hôtels, aux snacks ou au dessert léger, sans en faire un petit-déjeuner obligatoire pour tous les Grecs.',
   ingredients: [
     '200 g de yaourt grec nature',
     '1 à 2 cuillères à café de miel',
-    '1 petite poignee de noix',
+    '1 petite poignée de noix',
     'Cannelle optionnelle',
     'Fruits frais optionnels',
   ],
@@ -34,7 +34,7 @@ export const greekYogurtWithHoneyRecipe = {
   steps: [
     'Mettre le yaourt grec dans un bol.',
     'Ajouter le miel en filet.',
-    'Concasser grossierement les noix.',
+    'Concasser grossièrement les noix.',
     'Ajouter les noix sur le dessus.',
     'Ajouter cannelle ou fruits si souhaite.',
     'Servir frais, sans trop mélanger pour garder les contrastes.',
@@ -58,7 +58,7 @@ export const greekYogurtWithHoneyRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    "Le bol est aussi courant comme snack ou dessert léger. Le Greek Breakfast certifié releve surtout d'un cadre hôtelier et touristique.",
+    "Le bol est aussi courant comme snack ou dessert léger. Le Greek Breakfast certifié relève surtout d'un cadre hôtelier et touristique.",
   seoTitle: 'Yaourt grec au miel : le bol simple du matin en Grèce',
   seoDescription:
     'Découvre le yaourt grec au miel, un bol frais et rapide avec yaourt épais, miel, noix et fruits, souvent associé au petit-déjeuner grec moderne.',
@@ -73,7 +73,7 @@ export const greekYogurtWithHoneyRecipe = {
       title: 'Greek breakfast: A project to promote the country',
       url: 'https://www.greeknewsagenda.gr/greek-breakfast/',
       publisher: 'Greek News Agenda',
-      note: 'Programme Greek Breakfast de la Chambre hellenique des hotels et valorisation du patrimoine gastronomique grec.',
+      note: 'Programme Greek Breakfast de la Chambre hellénique des hôtels et valorisation du patrimoine gastronomique grec.',
     },
     {
       title: 'Greek Breakfast Label - Certification',
@@ -101,6 +101,6 @@ export const greekYogurtWithHoneyRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassées, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière méditerranéenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassées, quelques fruits frais, pincée de cannelle, petit pot de miel, cuillère, lumière méditerranéenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraîche et lumineuse, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

@@ -7,7 +7,7 @@ export const putuPapRecipe = {
   countrySlugs: ['south-africa-putu-pap'],
   originLabel: 'Afrique du Sud',
   shortDescription:
-    'Une bouillie de mais sud-africaine à texture séché et granuleuse, servie avec lait et sucre ou en accompagnement sale.',
+    'Une bouillie de mais sud-africaine à texture séché et granuleuse, servie avec lait et sucre ou en accompagnement salé.',
   longDescription:
     "Le putu pap, aussi appelé phuthu ou krummelpap, est une préparation sud-africaine à base de maize meal ou mielie meal. Contrairement à une bouillie fluide, cette version est plus séché, granuleuse et émiettée, obtenue avec peu d'eau et une cuisson aerée.",
   ingredients: [
@@ -52,9 +52,9 @@ export const putuPapRecipe = {
     'La recette est simple, mais obtenir la texture granuleuse demande un peu de pratique.',
   seoTitle: 'Putu Pap : la bouillie de mais sud-africaine',
   seoDescription:
-    'Découvre le putu pap, une version granuleuse du pap sud-africain, parfois servie au petit-déjeuner avec lait et sucre ou en accompagnement sale.',
+    'Découvre le putu pap, une version granuleuse du pap sud-africain, parfois servie au petit-déjeuner avec lait et sucre ou en accompagnement salé.',
   reviewNotes: [
-    'Garder Putu Pap comme entree de départ tout en mentionnant phuthu, uphuthu et krummelpap.',
+    'Garder Putu Pap comme entrée de départ tout en mentionnant phuthu, uphuthu et krummelpap.',
     'Ne pas présenter putu pap comme uniquement un petit-déjeuner.',
     'Rappeler que les textures du pap varient beaucoup.',
   ],

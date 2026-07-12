@@ -40,7 +40,7 @@ export const bagelWithCreamCheeseRecipe = {
     'Couper le bagel en deux.',
     'Le toaster légèrement si souhaite.',
     'Tartiner généreusement de cream cheese.',
-    'Ajouter saumon fume ou lox si une version plus complete est souhaitée.',
+    'Ajouter saumon fume ou lox si une version plus complète est souhaitée.',
     'Ajouter oignon rouge, câpres et tomate.',
     'Poivrer légèrement.',
     'Ajouter quelques gouttes de citron si souhaite.',
@@ -79,7 +79,7 @@ export const bagelWithCreamCheeseRecipe = {
       title: "From New York to Montreal: What's in a Bagel?",
       url: 'https://www.history.com/articles/from-new-york-to-montreal-whats-in-a-bagel',
       publisher: 'HISTORY',
-      note: 'Développement des bagels dans les communautes juives immigrees de New York.',
+      note: 'Développement des bagels dans les communautés juives immigrées de New York.',
     },
     {
       title: 'The unusual history of the beloved bagel',
@@ -97,10 +97,10 @@ export const bagelWithCreamCheeseRecipe = {
       title: 'A brief history of your favorite Sunday morning nosh',
       url: 'https://jewishlivingdelaware.org/the-history-of-bagels-in-america-a-brief-history-of-your-favorite-sunday-morning-nosh/',
       publisher: 'Jewish Living Delaware',
-      note: 'Récit du Lower East Side et bagels vendus sur batons ou ficelles.',
+      note: 'Récit du Lower East Side et bagels vendus sur bâtons ou ficelles.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bagel new-yorkais coupe en deux avec cream cheese généreux, option lox saumon, câpres, oignon rouge, tomate, graines de sesame et pavot, tasse de café filtre à emporter, papier deli blanc en décor, ambiance comptoir de bagel shop à New York le matin, palette moka mousse, beige bagel, blanc cream cheese, rose saumon, rouge oignon, brun café, composition éditoriale nette et appetissante, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bagel new-yorkais coupe en deux avec cream cheese généreux, option lox saumon, câpres, oignon rouge, tomate, graines de sésame et pavot, tasse de café filtre à emporter, papier deli blanc en décor, ambiance comptoir de bagel shop à New York le matin, palette moka mousse, beige bagel, blanc cream cheese, rose saumon, rouge oignon, brun café, composition éditoriale nette et appétissante, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

@@ -43,7 +43,7 @@ export const bulgarianBanitsaRecipe = {
     'Repeter avec les autres feuilles.',
     'Badigeonner le dessus.',
     "Cuire à 180-190 C jusqu'à ce que la banitsa soit dorée.",
-    'Laisser tiedir quelques minutes avant de couper.',
+    'Laisser tiédir quelques minutes avant de couper.',
     'Servir avec yaourt, ayran ou boza si disponible.',
   ],
   prepTimeMinutes: 25,
@@ -71,7 +71,7 @@ export const bulgarianBanitsaRecipe = {
   reviewNotes: [
     'La banitsa existe aussi dans des zones voisines ou sous formes proches dans les Balkans.',
     'La boisson associée peut être boza, ayran ou yaourt selon les familles.',
-    'La tradition des porte-bonheur est surtout liée aux fetes, notamment au Nouvel An.',
+    'La tradition des porte-bonheur est surtout liée aux fêtes, notamment au Nouvel An.',
     'Eviter de dire que tous les Bulgares en mangent chaque matin.',
   ],
   sources: [
@@ -101,6 +101,6 @@ export const bulgarianBanitsaRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, part de banitsa bulgare dorée et feuilletée, spirale de pâte filo croustillante, fromage blanc visible, petit bol de yaourt, verre de boza, serviette brodee traditionnelle en arrière-plan discret, ambiance boulangerie ou cuisine familiale bulgare du matin, palette moka mousse, doré pâte, crème yaourt, brun boza, touches rouge et vert folklorique, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, part de banitsa bulgare dorée et feuilletée, spirale de pâte filo croustillante, fromage blanc visible, petit bol de yaourt, verre de boza, serviette brodée traditionnelle en arrière-plan discret, ambiance boulangerie ou cuisine familiale bulgare du matin, palette moka mousse, doré pâte, crème yaourt, brun boza, touches rouge et vert folklorique, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

@@ -3,17 +3,17 @@ import type { Recipe } from '@/types/recipe'
 export const rutiWithDalAndVegetableCurryRecipe = {
   slug: 'ruti-with-dal-and-vegetable-curry',
   title: 'Ruti avec dal et curry de légumes',
-  localName: 'Ruti, roti, chapati, dal, sobji, shobji',
+  localName: 'Ruti, rôti, chapati, dal, sobji, shobji',
   countrySlugs: ['bangladesh-chapati-curry'],
   originLabel: 'Bangladesh',
   shortDescription:
     'Un petit-déjeuner bangladais simple et nourrissant : pain plat type ruti, servi avec dal, légumes cuisines, œuf ou thé au lait.',
   longDescription:
-    "Au Bangladesh, une version courante du petit-déjeuner peut inclure un pain plat comme le ruti, le roti, le chapati ou le paratha, accompagné de dal, de légumes cuisines ou d'un curry simple. Pour Morning Atlas, ruti avec dal ou sobji est plus précis que chapati with curry, car curry reste un terme large et les usages varient selon ville, campagne, saison, revenus et habitudes familiales.",
+    "Au Bangladesh, une version courante du petit-déjeuner peut inclure un pain plat comme le ruti, le rôti, le chapati ou le paratha, accompagné de dal, de légumes cuisines ou d'un curry simple. Pour Morning Atlas, ruti avec dal ou sobji est plus précis que chapati with curry, car curry reste un terme large et les usages varient selon ville, campagne, saison, revenus et habitudes familiales.",
   ingredients: [
-    "200 g d'atta ou farine complete",
+    "200 g d'atta ou farine complète",
     "120 ml d'eau tiède",
-    '1 pincee de sel',
+    '1 pincée de sel',
     "1 cuillère à café d'huile optionnelle",
     '120 g de lentilles corail ou mung dal',
     '1 petite pomme de terre',
@@ -56,7 +56,7 @@ export const rutiWithDalAndVegetableCurryRecipe = {
     'Faire revenir oignon, tomate et pomme de terre en petits morceaux.',
     "Ajouter cumin, piment doux et un peu d'eau.",
     'Servir les ruti chauds avec dal et légumes.',
-    "Ajouter un thé au lait pour recreer l'ambiance petit-déjeuner.",
+    "Ajouter un thé au lait pour recréer l'ambiance petit-déjeuner.",
   ],
   prepTimeMinutes: 20,
   cookTimeMinutes: 25,
@@ -78,12 +78,12 @@ export const rutiWithDalAndVegetableCurryRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Titre éditorial prefere : ruti with dal or vegetable curry. Chapati with curry reste comprehensible mais trop generique.',
+    'Titre éditorial préfère : ruti with dal or vegetable curry. Chapati with curry reste compréhensible mais trop générique.',
   seoTitle: 'Ruti et curry : un petit-déjeuner simple du Bangladesh',
   seoDescription:
     'Découvre une version courante du petit-déjeuner bangladais : ruti ou chapati avec dal, curry de légumes, œuf ou thé au lait.',
   reviewNotes: [
-    'Chapati with curry est un intitulé generique ; ruti avec dal ou sobji est plus local et précis.',
+    'Chapati with curry est un intitulé générique ; ruti avec dal ou sobji est plus local et précis.',
     'Ne pas présenter le ruti comme unique base du matin au Bangladesh, ou le riz reste très important.',
     'Les usages changent selon ville, campagne, saison, revenus et habitudes familiales.',
     'Curry doit être précise : dal, sobji, bhaji, légumes ou œuf selon la version.',
@@ -93,13 +93,13 @@ export const rutiWithDalAndVegetableCurryRecipe = {
       title: 'Winter breakfast in Bangladesh',
       url: 'https://www.thedailystar.net/life-living/food-recipes/news/winter-breakfast-bangladesh-3215651',
       publisher: 'The Daily Star',
-      note: 'Paratha, dal, curry de légumes, œuf et variations saisonnieres.',
+      note: 'Paratha, dal, curry de légumes, œuf et variations saisonnières.',
     },
     {
       title: 'Gas crisis hits Ctg as floating LNG terminals shut in Moheshkhali',
       url: 'https://online.thedailystar.net/environment/natural-resources/energy/news/gas-crisis-hits-ctg-floating-lng-terminals-shut-moheshkhali-3318861',
       publisher: 'The Daily Star',
-      note: 'Article local mentionnant achats de petit-déjeuner : paratha, dal, thé, roti et curry de légumes.',
+      note: 'Article local mentionnant achats de petit-déjeuner : paratha, dal, thé, rôti et curry de légumes.',
     },
     {
       title: 'Bangladesh Food: A Culinary Travel Guide',
@@ -111,7 +111,7 @@ export const rutiWithDalAndVegetableCurryRecipe = {
       title: 'Bangladeshi breakfast',
       url: 'https://rhubarbfool.co.uk/2011/05/27/bangladeshi-breakfast/',
       publisher: 'The Rhubarb Fool',
-      note: "Source de terrain d'appoint sur roti / paratha avec sabji et dal à Dhaka.",
+      note: "Source de terrain d'appoint sur rôti / paratha avec sabji et dal à Dhaka.",
     },
   ],
   illustrationPrompt:

@@ -44,7 +44,7 @@ export const tapsilogRecipe = {
   ],
   steps: [
     'Mélanger sauce soja, ail, vinaigre ou citron, sucre et poivre.',
-    'Mariner le boeuf au moins 30 minutes, idealement plusieurs heures.',
+    'Mariner le boeuf au moins 30 minutes, idéalement plusieurs heures.',
     "Faire revenir de l'ail dans un peu d'huile.",
     'Ajouter le riz froid et faire sauter pour préparer le sinangag.',
     'Reserver le riz.',
@@ -73,15 +73,15 @@ export const tapsilogRecipe = {
   featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
-    'Classique philippin moderne et populaire. Traditional doit être compris comme classique contemporain, pas tradition ancienne figee.',
+    'Classique philippin moderne et populaire. Traditional doit être compris comme classique contemporain, pas tradition ancienne figée.',
   seoTitle: "Tapsilog : le petit-déjeuner philippin au boeuf, riz à l'ail et œuf",
   seoDescription:
     "Découvre le tapsilog, un classique philippin compose de boeuf tapa, riz frit à l'ail et œuf, souvent servi avec vinaigre épice ou atchara.",
   reviewNotes: [
     'Le tapsilog est très connu comme petit-déjeuner, mais il peut être mangé à toute heure.',
     "L'origine liée à Tapsi ni Vivian et Vivian Del Rosario doit être présentée comme récit largement relaye.",
-    'Le tapa ancien était plutôt une viande séchée ou conservee ; aujourd hui il est souvent mariné puis frit ou grille.',
-    'Les marinades varient beaucoup : plus sucrées, plus vinaigrees, avec calamansi, citron, vinaigre, sauce soja, ail, sucre ou poivre.',
+    'Le tapa ancien était plutôt une viande séchée ou conservée ; aujourd hui il est souvent mariné puis frit ou grille.',
+    'Les marinades varient beaucoup : plus sucrées, plus vinaigrées, avec calamansi, citron, vinaigre, sauce soja, ail, sucre ou poivre.',
     "Tapsilog n'est qu'un membre de la famille silog.",
   ],
   sources: [
@@ -111,6 +111,6 @@ export const tapsilogRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de tapsilog philippin avec boeuf tapa caramelise, riz frit à l'ail, œuf au plat au jaune brillant, tomates fraiches, concombre, petit bol d'atchara et vinaigre épice, ambiance petit restaurant de Manille le matin, palette moka mousse, brun boeuf, blanc riz, jaune œuf, rouge tomate, vert concombre, composition éditoriale appetissante, sans photoréalisme, sans texte, sans logo.",
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de tapsilog philippin avec boeuf tapa caramélisé, riz frit à l'ail, œuf au plat au jaune brillant, tomates fraîches, concombre, petit bol d'atchara et vinaigre épice, ambiance petit restaurant de Manille le matin, palette moka mousse, brun boeuf, blanc riz, jaune œuf, rouge tomate, vert concombre, composition éditoriale appétissante, sans photoréalisme, sans texte, sans logo.",
   needsReview: false,
 } satisfies Recipe

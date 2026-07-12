@@ -9,7 +9,7 @@ export const dimSumRecipe = {
   shortDescription:
     'Un repas cantonais de petites bouchées à partager avec du thé : raviolis vapeur, brioches, rouleaux, bouchées frites et desserts.',
   longDescription:
-    "Le dim sum n'est pas un plat unique, mais une famille de petites portions servies à table, souvent dans des paniers vapeur ou de petites assiettes. Dans la culture cantonaise, il est fortement lie au yum cha, le fait de boire du thé tout en partageant des bouchées salées ou sucrées. Pour Morning Atlas, cette entree doit être traitee comme un brunch social ou un repas de matinée, pas comme un petit-déjeuner rapide individuel.",
+    "Le dim sum n'est pas un plat unique, mais une famille de petites portions servies à table, souvent dans des paniers vapeur ou de petites assiettes. Dans la culture cantonaise, il est fortement lie au yum cha, le fait de boire du thé tout en partageant des bouchées salées ou sucrées. Pour Morning Atlas, cette entrée doit être traitée comme un brunch social ou un repas de matinée, pas comme un petit-déjeuner rapide individuel.",
   ingredients: [
     'Raviolis vapeur du commerce ou faits maison',
     'Petits bao vapeur',
@@ -47,7 +47,7 @@ export const dimSumRecipe = {
     'Faire cuire les raviolis à la vapeur.',
     'Réchauffer les bao à la vapeur.',
     "Préparer une sauce avec sauce soja, vinaigre noir et un peu d'huile pimentée.",
-    'Ajouter un légume léger pour equilibrer.',
+    'Ajouter un légume léger pour équilibrer.',
     'Disposer les paniers ou assiettes au centre de la table.',
     'Partager en petites portions avec le thé.',
   ],
@@ -70,7 +70,7 @@ export const dimSumRecipe = {
   featured: false,
   recreateAtHomeLevel: 'hard',
   notes:
-    'Une version simplifiée avec éléments prets peut être rapide, mais un repas dim sum complet demande plusieurs techniques et beaucoup de coordination.',
+    'Une version simplifiée avec éléments prêts peut être rapide, mais un repas dim sum complet demande plusieurs techniques et beaucoup de coordination.',
   seoTitle: 'Dim Sum : le brunch cantonais à partager avec le thé',
   seoDescription:
     'Découvre le dim sum, une tradition cantonaise de petites bouchées partagées avec du thé, souvent associée au yum cha à Hong Kong et dans le Guangdong.',
@@ -91,7 +91,7 @@ export const dimSumRecipe = {
       title: 'Best Dim Sum in Hong Kong',
       url: 'https://www.cntraveler.com/gallery/best-dim-sum-in-hong-kong',
       publisher: 'Conde Nast Traveler',
-      note: "Moment de consommation du matin au debut d'après-midi et lien avec yum cha.",
+      note: "Moment de consommation du matin au début d'après-midi et lien avec yum cha.",
     },
     {
       title: 'The Evolution of Hong Kong Yum Cha Culture',

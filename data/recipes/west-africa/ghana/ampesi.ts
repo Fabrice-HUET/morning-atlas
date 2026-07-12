@@ -12,7 +12,7 @@ export const ampesiRecipe = {
     "L'ampesi désigne généralement une base de féculents bouillis, comme l'igname, le plantain, le cocoyam ou parfois le manioc. Cette base est souvent servie avec une sauce, par exemple un kontomire stew à base de feuilles de cocoyam ou d'épinards, tomates, oignons, piment et huile.",
   ingredients: [
     '1 petite igname ou 2 plantains verts',
-    "300 g d'épinards frais ou surgeles",
+    "300 g d'épinards frais ou surgelés",
     '2 tomates',
     '1 oignon',
     "1 petite gousse d'ail",
@@ -75,7 +75,7 @@ export const ampesiRecipe = {
   reviewNotes: [
     'Le statut petit-déjeuner est fragile et doit rester nuance.',
     "Ampesi peut être servi avec d'autres sauces que kontomire.",
-    'Les épinards remplacent parfois les feuilles de cocoyam hors Ghana, mais la saveur differe.',
+    'Les épinards remplacent parfois les feuilles de cocoyam hors Ghana, mais la saveur diffère.',
   ],
   sources: [
     {
@@ -88,7 +88,7 @@ export const ampesiRecipe = {
       title: 'The People of Kwahu',
       url: 'https://visitghana.com/the-people-of-kwahu/',
       publisher: 'Visit Ghana',
-      note: "Contexte régional kwahu, cultures vivrieres et mention d'ampesi comme aliment local.",
+      note: "Contexte régional kwahu, cultures vivrières et mention d'ampesi comme aliment local.",
     },
     {
       title: 'Nadia Ampesi with Kontomire Stew Recipe',

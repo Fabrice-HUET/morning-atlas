@@ -13,7 +13,7 @@ export const newZealandPorridgeRecipe = {
   ingredients: [
     "50 g de flocons d'avoine",
     '250 ml de lait, eau ou moitié-moitié',
-    '1 pincee de sel optionnelle',
+    '1 pincée de sel optionnelle',
     '1/2 banane',
     '1 cuillère à café de miel ou sucre brun',
     'Cannelle optionnelle',
@@ -39,9 +39,9 @@ export const newZealandPorridgeRecipe = {
   steps: [
     "Mettre les flocons d'avoine dans une casserole.",
     "Ajouter le lait ou l'eau.",
-    'Ajouter une pincee de sel si souhaite.',
+    'Ajouter une pincée de sel si souhaite.',
     'Faire chauffer doucement.',
-    'Remuer regulierement pendant 5 à 10 minutes.',
+    'Remuer régulièrement pendant 5 à 10 minutes.',
     'Ajuster la texture avec un peu de lait si besoin.',
     'Verser dans un bol.',
     'Ajouter banane, miel, cannelle ou fruits.',
@@ -98,10 +98,10 @@ export const newZealandPorridgeRecipe = {
       title: 'Creamoata, the national breakfast',
       url: 'https://teara.govt.nz/en/object/39140/creamoata-the-national-breakfast',
       publisher: 'Te Ara',
-      note: 'Creamoata comme petit-déjeuner courant et repère publicitaire du XXe siecle.',
+      note: 'Creamoata comme petit-déjeuner courant et repère publicitaire du XXe siècle.',
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d'avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d'avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenêtre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
   needsReview: false,
 } satisfies Recipe

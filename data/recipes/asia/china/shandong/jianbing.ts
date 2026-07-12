@@ -9,10 +9,10 @@ export const jianbingRecipe = {
   shortDescription:
     "Une crêpe salée chinoise cuite sur plaque, garnie d'œuf, ciboule, coriandre, sauces et élément croustillant.",
   longDescription:
-    "Le jianbing est l'un des grands petits-déjeuners de rue en Chine du Nord. Une pâte fine est étalée sur une grande plaque ronde, puis recouverte d'un œuf, de ciboule, de coriandre, de sauces salées, parfois pimentees, et d'un élément croustillant comme du baocui ou du you tiao. Le Shandong est associé à des crêpes plus rustiques, parfois à base de céréales comme mais, sorgho ou millet, tandis que Tianjin est souvent associé au jianbing guozi.",
+    "Le jianbing est l'un des grands petits-déjeuners de rue en Chine du Nord. Une pâte fine est étalée sur une grande plaque ronde, puis recouverte d'un œuf, de ciboule, de coriandre, de sauces salées, parfois pimentées, et d'un élément croustillant comme du baocui ou du you tiao. Le Shandong est associé à des crêpes plus rustiques, parfois à base de céréales comme mais, sorgho ou millet, tandis que Tianjin est souvent associé au jianbing guozi.",
   ingredients: [
     '80 g de farine de ble',
-    '30 g de farine de haricot mungo ou farine complete',
+    '30 g de farine de haricot mungo ou farine complète',
     "180 ml d'eau",
     '2 œufs',
     '2 ciboules',
@@ -49,11 +49,11 @@ export const jianbingRecipe = {
     'Casser un œuf dessus.',
     "Étaler l'œuf sur toute la surface.",
     'Ajouter ciboule et coriandre.',
-    'Retourner delicatement la crêpe.',
+    'Retourner délicatement la crêpe.',
     'Badigeonner de sauce sucrée-salée et de sauce pimentée.',
     'Ajouter un élément croustillant.',
     'Plier en rectangle.',
-    'Servir immediatement.',
+    'Servir immédiatement.',
   ],
   prepTimeMinutes: 20,
   cookTimeMinutes: 15,
@@ -79,7 +79,7 @@ export const jianbingRecipe = {
   seoDescription:
     'Découvre le jianbing, une crêpe salée chinoise souvent vendue au petit-déjeuner, avec œuf, ciboule, sauces et croustillant.',
   reviewNotes: [
-    "L'origine ancienne liée au Shandong et a Zhuge Liang doit rester présentée comme legende ou tradition orale.",
+    "L'origine ancienne liée au Shandong et a Zhuge Liang doit rester présentée comme légende ou tradition orale.",
     'Ne pas confondre Shandong jianbing et Tianjin jianbing guozi.',
     'Le jianbing de grande ville est souvent une street food moderne, différente de formes rurales ou traditionnelles.',
     'Les garnitures varient fortement selon ville, vendeur et préférences.',
@@ -101,7 +101,7 @@ export const jianbingRecipe = {
       title: 'Ancient Chinese breakfast going global',
       url: 'https://www.chinadaily.com.cn/food/2016-08/01/content_26294857.htm',
       publisher: 'China Daily',
-      note: 'Diffusion internationale et idee de breakfast crêpe chinoise.',
+      note: 'Diffusion internationale et idée de breakfast crêpe chinoise.',
     },
     {
       title: 'Empowerment that transcends a pancake',

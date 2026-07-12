@@ -16,7 +16,7 @@ export const costaRicanGalloPintoRecipe = {
     '1/2 oignon',
     '1/2 poivron',
     "1 gousse d'ail optionnelle",
-    '1 poignee de coriandre',
+    '1 poignée de coriandre',
     '1 à 2 cuillères à soupe de sauce Lizano',
     "1 cuillère à soupe d'huile",
     'Sel et poivre',
@@ -47,7 +47,7 @@ export const costaRicanGalloPintoRecipe = {
     'Laisser réduire 2 à 3 minutes.',
     'Ajouter le riz cuit.',
     "Mélanger doucement jusqu'à ce que le riz absorbe les saveurs.",
-    'Ajouter la coriandre fraiche.',
+    'Ajouter la coriandre fraîche.',
     'Ajuster sel et poivre.',
     'Servir avec œufs, tortillas, fromage frais, natilla ou plantain frit.',
   ],
@@ -103,6 +103,6 @@ export const costaRicanGalloPintoRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de gallo pinto costaricien avec riz et haricots noirs mouchetes, coriandre fraiche, œuf au plat, tortillas de mais, plantain frit, petit bol de natilla, tasse de café costaricien, ambiance soda local du matin au Costa Rica, palette moka mousse, brun haricots, blanc riz, vert coriandre, jaune œuf, doré plantain, composition éditoriale conviviale, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de gallo pinto costaricien avec riz et haricots noirs mouchetés, coriandre fraîche, œuf au plat, tortillas de mais, plantain frit, petit bol de natilla, tasse de café costaricien, ambiance soda local du matin au Costa Rica, palette moka mousse, brun haricots, blanc riz, vert coriandre, jaune œuf, doré plantain, composition éditoriale conviviale, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

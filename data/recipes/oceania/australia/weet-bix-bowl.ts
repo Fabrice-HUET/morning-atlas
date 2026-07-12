@@ -9,7 +9,7 @@ export const weetBixBowlRecipe = {
   shortDescription:
     'Des biscuits de ble complet servis avec du lait, souvent accompagnés de banane, fruits rouges, miel ou yaourt.',
   longDescription:
-    "Weet-Bix est une céréale de petit-déjeuner en forme de biscuits de ble compresse. En Australie, elle est souvent servie très simplement avec lait froid ou chaud, puis parfois banane, miel, sucre brun, fruits rouges ou yaourt. Pour Morning Atlas, c'est une icone du quotidien moderne plus qu'une recette traditionnelle ancienne.",
+    "Weet-Bix est une céréale de petit-déjeuner en forme de biscuits de ble compresse. En Australie, elle est souvent servie très simplement avec lait froid ou chaud, puis parfois banane, miel, sucre brun, fruits rouges ou yaourt. Pour Morning Atlas, c'est une icône du quotidien moderne plus qu'une recette traditionnelle ancienne.",
   ingredients: [
     '2 ou 3 biscuits Weet-Bix',
     '200 à 250 ml de lait',
@@ -64,17 +64,17 @@ export const weetBixBowlRecipe = {
   seoDescription:
     'Découvre Weet-Bix, une céréale australienne iconique servie avec lait, banane, miel ou fruits pour un petit-déjeuner simple et rapide.',
   reviewNotes: [
-    'Weet-Bix est une marque : le traiter comme une icone du quotidien moderne, pas comme une tradition ancienne.',
+    'Weet-Bix est une marque : le traiter comme une icône du quotidien moderne, pas comme une tradition ancienne.',
     "Le produit est aussi présent en Nouvelle-Zélande et dans d'autres pays.",
     'Ne pas présenter Weet-Bix comme le petit-déjeuner australien unique.',
-    'Les récits publics peuvent varier sur les personnes associées a sa creation.',
+    'Les récits publics peuvent varier sur les personnes associées a sa création.',
   ],
   sources: [
     {
       title: 'Weet-Bix',
       url: 'https://www.sanitarium.com/sg/products/weet-bix/weet-bix',
       publisher: 'Sanitarium Health Food Company',
-      note: 'Positionnement de Weet-Bix comme céréale de petit-déjeuner numero 1 en Australie.',
+      note: 'Positionnement de Weet-Bix comme céréale de petit-déjeuner numéro 1 en Australie.',
     },
     {
       title: 'The introduction of Weet-Bix',

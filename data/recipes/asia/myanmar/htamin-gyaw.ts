@@ -42,7 +42,7 @@ export const htaminGyawRecipe = {
     'dried-shrimp',
   ],
   steps: [
-    'Utiliser du riz froid, idealement cuit la veille.',
+    'Utiliser du riz froid, idéalement cuit la veille.',
     "Chauffer l'huile dans une poêle ou un wok.",
     'Faire revenir oignon et ail.',
     'Ajouter le curcuma si utilise.',
@@ -73,13 +73,13 @@ export const htaminGyawRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    'Fiche exploitable, mais le statut petit-déjeuner mérite une source locale supplementaire. Le plat est aussi un repas rapide ou plat de restes.',
+    'Fiche exploitable, mais le statut petit-déjeuner mérite une source locale supplémentaire. Le plat est aussi un repas rapide ou plat de restes.',
   seoTitle: 'Htamin Gyaw : le riz frit birman du matin',
   seoDescription:
     'Découvre le htamin gyaw, un riz frit birman souvent associé au petit-déjeuner, prépare avec riz, pois, oignon, ail et parfois œuf frit.',
   reviewNotes: [
     'Les transcriptions Htamin Jaw, Htamin Gyaw et Htamin Kyaw peuvent renvoyer au même type de plat.',
-    "Les sources directes solides sur l'usage précis au petit-déjeuner sont moins nombreuses que pour d'autres entrees.",
+    "Les sources directes solides sur l'usage précis au petit-déjeuner sont moins nombreuses que pour d'autres entrées.",
     'Ne pas présenter ce plat comme le petit-déjeuner birman unique.',
     "Le niveau d'authenticité varié selon les recettes de diaspora et adaptations maison.",
   ],

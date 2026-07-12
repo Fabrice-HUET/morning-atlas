@@ -45,7 +45,7 @@ export const mexicanHuevosRancherosRecipe = {
   ],
   steps: [
     'Faire griller ou cuire tomates, piment, oignon et ail.',
-    'Mixer ou écraser grossierement pour obtenir une salsa.',
+    'Mixer ou écraser grossièrement pour obtenir une salsa.',
     'Faire mijoter la salsa quelques minutes avec du sel.',
     'Réchauffer les haricots refritos.',
     "Passer les tortillas rapidement à l'huile ou les chauffer au comal.",
@@ -55,7 +55,7 @@ export const mexicanHuevosRancherosRecipe = {
     'Poser les œufs dessus.',
     'Napper de salsa chaude.',
     'Terminer avec coriandre, queso fresco ou avocat.',
-    'Servir immediatement.',
+    'Servir immédiatement.',
   ],
   prepTimeMinutes: 15,
   cookTimeMinutes: 25,
@@ -77,7 +77,7 @@ export const mexicanHuevosRancherosRecipe = {
   featured: true,
   recreateAtHomeLevel: 'medium',
   notes:
-    'La salsa est centrale. Les versions mexicaines et tex-mex doivent rester distinguees, notamment sur fromage, crème et garnitures.',
+    'La salsa est centrale. Les versions mexicaines et tex-mex doivent rester distinguées, notamment sur fromage, crème et garnitures.',
   seoTitle: 'Huevos Rancheros : les œufs mexicains sur tortillas',
   seoDescription:
     'Découvre les huevos rancheros, un petit-déjeuner mexicain classique avec œufs au plat, tortillas de mais, salsa rouge et haricots refritos.',

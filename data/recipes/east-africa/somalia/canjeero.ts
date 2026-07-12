@@ -7,9 +7,9 @@ export const canjeeroRecipe = {
   countrySlugs: ['somalia-canjeero'],
   originLabel: "Somalie, Corne de l'Afrique",
   shortDescription:
-    'Une crêpe fermentée somalienne, fine et spongieuse, souvent servie avec thé épice, miel, sucre, beurre ou accompagnements sales.',
+    'Une crêpe fermentée somalienne, fine et spongieuse, souvent servie avec thé épice, miel, sucre, beurre ou accompagnements salés.',
   longDescription:
-    'Le canjeero est une crêpe ou galette fermentée associée aux petits-déjeuners somaliens. Sa pâte peut combiner farine de ble, farine de mais, semoule de mais ou sorgho, avec eau, levure, sucre et sel. La cuisson sur une plaque plate produit une face trouee et moelleuse. Selon les foyers, il est servi sucre avec miel, beurre ou ghee, ou sale avec sauces, œufs, viande ou ragouts.',
+    'Le canjeero est une crêpe ou galette fermentée associée aux petits-déjeuners somaliens. Sa pâte peut combiner farine de ble, farine de mais, semoule de mais ou sorgho, avec eau, levure, sucre et sel. La cuisson sur une plaque plate produit une face trouée et moelleuse. Selon les foyers, il est servi sucré avec miel, beurre ou ghee, ou salé avec sauces, œufs, viande ou ragoûts.',
   ingredients: [
     '150 g de farine de ble',
     '50 g de farine ou semoule de mais',
@@ -40,13 +40,13 @@ export const canjeeroRecipe = {
     'Mélanger farine de ble, farine ou semoule de mais, sucre, sel et levure séché.',
     "Ajouter progressivement l'eau tiède en fouettant pour obtenir une pâte fluide.",
     'Couvrir et laisser fermenter au moins 4 heures, ou toute une nuit pour une saveur plus marquée.',
-    'Ajouter la levure chimique juste avant cuisson si la pâte manque de legerete.',
+    'Ajouter la levure chimique juste avant cuisson si la pâte manque de légèreté.',
     "Ajuster avec un peu d'eau pour obtenir une texture proche d'une pâte à crêpes épaisse.",
-    'Chauffer une poêle antiadhesive ou une plaque légèrement graissee.',
+    'Chauffer une poêle antiadhesive ou une plaque légèrement graissée.',
     "Verser une louche de pâte et l'étaler en cercle fin.",
     "Cuire sur une seule face jusqu'à ce que les bulles apparaissent et que le dessus soit pris.",
     'Retirer sans retourner quand la base est dorée et le dessus souple.',
-    'Servir chaud avec beurre, ghee, miel, sucre ou accompagnement sale.',
+    'Servir chaud avec beurre, ghee, miel, sucre ou accompagnement salé.',
   ],
   prepTimeMinutes: 20,
   cookTimeMinutes: 25,
@@ -68,10 +68,10 @@ export const canjeeroRecipe = {
   featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
-    'Version domestique simplifiée. Les farines, noms et durees de fermentation varient fortement selon les familles et les sources.',
+    'Version domestique simplifiée. Les farines, noms et durées de fermentation varient fortement selon les familles et les sources.',
   seoTitle: 'Canjeero : la crêpe fermentée du petit-déjeuner somalien',
   seoDescription:
-    'Découvre le canjeero, une crêpe fermentée somalienne souvent servie au petit-déjeuner avec thé épice, miel, beurre ou accompagnements sales.',
+    'Découvre le canjeero, une crêpe fermentée somalienne souvent servie au petit-déjeuner avec thé épice, miel, beurre ou accompagnements salés.',
   reviewNotes: [
     'Les noms canjeero, canjeelo, laxoox, lahooh et lahoh varient selon les langues, régions et transcriptions.',
     'Les farines varient entre ble, mais, semoule de mais et sorgho.',
@@ -89,7 +89,7 @@ export const canjeeroRecipe = {
       title: 'Hawa Hassan Somali food essay',
       url: 'https://www.vogue.com/article/hawa-hassan-somali-food-essay',
       publisher: 'Vogue',
-      note: 'Contexte diaspora, memoire culinaire et transmission familiale.',
+      note: 'Contexte diaspora, mémoire culinaire et transmission familiale.',
     },
     {
       title: 'Shaah Cadays Somali spiced tea with milk',
@@ -105,6 +105,6 @@ export const canjeeroRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggérée, ambiance matin familial dans la Corne de l'Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouée, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggérée, ambiance matin familial dans la Corne de l'Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
   needsReview: false,
 } satisfies Recipe

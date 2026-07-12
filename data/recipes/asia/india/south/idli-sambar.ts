@@ -7,18 +7,18 @@ export const idliSambarRecipe = {
   countrySlugs: ['south-india-idli-sambar'],
   originLabel: 'Inde du Sud',
   shortDescription:
-    "Des petits gâteaux vapeur sales, préparés avec une pâte fermentée de riz et d'urad dal, servis avec chutney de coco, sambar ou podi.",
+    "Des petits gâteaux vapeur salés, préparés avec une pâte fermentée de riz et d'urad dal, servis avec chutney de coco, sambar ou podi.",
   longDescription:
-    "L'idli est l'un des petits-déjeuners les plus associés à l'Inde du Sud. Il s'agit d'un petit gâteau vapeur blanc, rond et moelleux, prépare avec une pâte fermentée à base de riz et d'urad dal. Les idli sont souvent servis avec du sambar, un ragout de lentilles et légumes, ou avec une chutney de coco. La cuisson vapeur est simple, mais la fermentation, la texture de pâte et la température demandent de la pratique.",
+    "L'idli est l'un des petits-déjeuners les plus associés à l'Inde du Sud. Il s'agit d'un petit gâteau vapeur blanc, rond et moelleux, prépare avec une pâte fermentée à base de riz et d'urad dal. Les idli sont souvent servis avec du sambar, un ragoût de lentilles et légumes, ou avec une chutney de coco. La cuisson vapeur est simple, mais la fermentation, la texture de pâte et la température demandent de la pratique.",
   ingredients: [
-    '2 tasses de riz à idli ou riz etuve',
+    '2 tasses de riz à idli ou riz étuve',
     "1 tasse d'urad dal",
     '1/2 cuillère à café de graines de fenugrec optionnelles',
     'Sel',
     'Eau',
     'Chutney coco rapide',
     'Sambar rapide avec toor dal ou lentilles corail',
-    'Option : podi, ghee ou huile de sesame',
+    'Option : podi, ghee ou huile de sésame',
   ],
   ingredientSlugs: [
     'idli-rice',
@@ -44,7 +44,7 @@ export const idliSambarRecipe = {
     'Faire tremper le riz 4 à 6 heures.',
     "Faire tremper l'urad dal séparément 4 à 6 heures.",
     "Mixer l'urad dal avec un peu d'eau jusqu'à obtenir une texture légère.",
-    'Mixer le riz plus grossierement.',
+    'Mixer le riz plus grossièrement.',
     'Mélanger les deux pâtes.',
     'Laisser fermenter 8 à 12 heures dans un endroit tiède.',
     'Ajouter le sel après fermentation.',
@@ -86,7 +86,7 @@ export const idliSambarRecipe = {
       title: 'Preparation of idli batter, its properties and nutritional aspects',
       url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3551127/',
       publisher: 'PMC',
-      note: 'Préparation de la pâte idli, fermentation riz + urad dal et proprietes.',
+      note: 'Préparation de la pâte idli, fermentation riz + urad dal et propriétés.',
     },
     {
       title: 'Soft Idli Recipe and Idli Batter Tips',

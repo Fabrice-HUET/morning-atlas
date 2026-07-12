@@ -9,11 +9,11 @@ export const barbariBreakfastRecipe = {
   shortDescription:
     'Un grand pain plat persan, doré, allonge et strie, servi au petit-déjeuner avec fromage, herbes, noix, miel, confiture ou thé noir.',
   longDescription:
-    "Le barbari est un pain plat persan leve, souvent long, ovale ou rectangulaire, avec une surface striee et une croute brillante. Au petit-déjeuner, il n'est généralement pas mange seul : il sert de base à une assiette avec fromage type feta ou Lighvan, herbes fraiches, noix, concombre, tomate, miel, confiture, crème ou beurre. Pour Morning Atlas, la fiche est donc construite autour du petit-déjeuner au barbari plutôt que du pain seul.",
+    "Le barbari est un pain plat persan lève, souvent long, ovale ou rectangulaire, avec une surface striée et une croûte brillante. Au petit-déjeuner, il n'est généralement pas mange seul : il sert de base à une assiette avec fromage type feta ou Lighvan, herbes fraîches, noix, concombre, tomate, miel, confiture, crème ou beurre. Pour Morning Atlas, la fiche est donc construite autour du petit-déjeuner au barbari plutôt que du pain seul.",
   ingredients: [
     '500 g de farine',
     "320 ml d'eau tiède",
-    '7 g de levure boulangere séché',
+    '7 g de levure boulangère séché',
     '1 cuillère à café de sel',
     '1 cuillère à café de sucre',
     "1 cuillère à soupe d'huile optionnelle",
@@ -48,14 +48,14 @@ export const barbariBreakfastRecipe = {
     'Ajouter farine et sel.',
     "Pétrir jusqu'à obtenir une pâte souple.",
     'Laisser lever 1 h à 1 h 30.',
-    "Préparer le glaze en chauffant farine, eau et sucre jusqu'à léger epaississement.",
+    "Préparer le glaze en chauffant farine, eau et sucre jusqu'à léger épaississement.",
     'Diviser la pâte en deux.',
     'Former deux pains ovales ou allonges.',
     'Laisser reposer 20 minutes.',
     'Badigeonner de glaze.',
     'Tracer des sillons avec les doigts.',
-    'Ajouter sesame et nigelle.',
-    "Cuire à four très chaud jusqu'à croute dorée.",
+    'Ajouter sésame et nigelle.',
+    "Cuire à four très chaud jusqu'à croûte dorée.",
     'Servir tiède avec fromage, herbes, noix, miel, confiture ou thé noir.',
   ],
   prepTimeMinutes: 45,
@@ -63,7 +63,7 @@ export const barbariBreakfastRecipe = {
   estimatedTimeMinutes: 185,
   difficulty: 'hard',
   servings: 4,
-  type: 'Pain persan et assiette composee',
+  type: 'Pain persan et assiette composée',
   tags: ['traditional-breakfast', 'family-meal', 'drink-included', 'comfort-food'],
   categorySlugs: [
     'breakfasts-of-asia',
@@ -77,7 +77,7 @@ export const barbariBreakfastRecipe = {
   featured: false,
   recreateAtHomeLevel: 'hard',
   notes:
-    'La recette maison est faisable, mais retrouver la texture de boulangerie iranienne, la croute brillante et les sillons reguliers demande de la pratique.',
+    'La recette maison est faisable, mais retrouver la texture de boulangerie iranienne, la croûte brillante et les sillons réguliers demande de la pratique.',
   seoTitle: 'Barbari : le pain persan du petit-déjeuner iranien',
   seoDescription:
     'Découvre le barbari, un pain plat persan souvent servi au petit-déjeuner avec fromage, herbes, noix, miel, confiture et thé noir.',
@@ -111,7 +111,7 @@ export const barbariBreakfastRecipe = {
       title: 'Barbari Bread',
       url: 'https://silkroadrecipes.com/barbari-bread/',
       publisher: 'Silk Road Recipes',
-      note: 'Pain plat leve persan avec glacage, sesame et nigelle.',
+      note: 'Pain plat lève persan avec glaçage, sésame et nigelle.',
     },
     {
       title: 'Nan-e Barbari - Persian Flatbread',
@@ -121,6 +121,6 @@ export const barbariBreakfastRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grand pain barbari persan allonge avec stries dorées, graines de sesame et nigelle, assiette de fromage blanc type feta, herbes fraiches, noix, concombre, petit bol de miel et confiture, verre de thé noir persan fumant, ambiance boulangerie iranienne du matin, palette moka mousse, doré pain, vert herbes, crème fromage, brun thé, composition éditoriale élégante, sans photoréalisme, sans texte, sans logo.',
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grand pain barbari persan allonge avec stries dorées, graines de sésame et nigelle, assiette de fromage blanc type feta, herbes fraîches, noix, concombre, petit bol de miel et confiture, verre de thé noir persan fumant, ambiance boulangerie iranienne du matin, palette moka mousse, doré pain, vert herbes, crème fromage, brun thé, composition éditoriale élégante, sans photoréalisme, sans texte, sans logo.',
   needsReview: false,
 } satisfies Recipe

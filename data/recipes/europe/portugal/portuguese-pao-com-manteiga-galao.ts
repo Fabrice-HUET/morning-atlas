@@ -68,7 +68,7 @@ export const portuguesePaoComManteigaGalaoRecipe = {
     'Découvre un petit-déjeuner portugais du quotidien : pain ou torrada beurrée avec galão, un café au lait servi dans un grand verre.',
   reviewNotes: [
     'Ne pas réduire le petit-déjeuner portugais au pastel de nata.',
-    'Galão, meia de leite, garoto, bica et abatanado designent des commandes différentes.',
+    'Galão, meia de leite, garoto, bica et abatanado désignent des commandes différentes.',
     'Le pain varié selon régions et cafés.',
     'Certains petits-déjeuners portugais incluent aussi tosta mista, pâtisseries ou sandwiches.',
   ],
