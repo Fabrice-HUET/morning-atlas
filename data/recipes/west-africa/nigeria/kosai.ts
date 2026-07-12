@@ -25,7 +25,7 @@ export const kosaiRecipe = {
     "Frotter les haricots dans l'eau pour retirer une partie des peaux.",
     'Rincer plusieurs fois pour enlever les peaux qui flottent.',
     "Mixer les haricots avec l'oignon, le piment, le sel et très peu d'eau.",
-    "Fouetter ou mélanger la pâte quelques minutes pour l'aerer.",
+    "Fouetter ou mélanger la pâte quelques minutes pour l'aérer.",
     "Faire chauffer l'huile dans une casserole.",
     "Deposer de petites cuillerees de pâte dans l'huile chaude.",
     "Frire jusqu'à ce que les beignets soient dorés.",
@@ -87,6 +87,6 @@ export const kosaiRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petits beignets kosai dorés dans une assiette emaillee, texture croustillante suggeree, bol de bouillie chaude à cote, quelques haricots cornille, oignon rouge et piment en décor, ambiance marche du matin au nord du Nigeria, palette moka mousse, doré, crème, rouge piment et brun chaud, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petits beignets kosai dorés dans une assiette emaillee, texture croustillante suggérée, bol de bouillie chaude à cote, quelques haricots cornille, oignon rouge et piment en décor, ambiance marche du matin au nord du Nigeria, palette moka mousse, doré, crème, rouge piment et brun chaud, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe

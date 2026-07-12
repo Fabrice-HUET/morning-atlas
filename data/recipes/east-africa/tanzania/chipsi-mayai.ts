@@ -82,13 +82,13 @@ export const chipsiMayaiRecipe = {
       title: 'Chips Mayai, French Fries Omelet',
       url: 'https://migrationology.com/chips-mayai-french-fries-omelet-a-staple-of-tanzanian-junk-food/',
       publisher: 'Migrationology',
-      note: 'Description street food, frites, œufs et popularite en Tanzanie.',
+      note: 'Description street food, frites, œufs et popularité en Tanzanie.',
     },
     {
       title: 'Chipsi mayai, la tortilla de patatas tanzana',
       url: 'https://elpais.com/gastronomia/2026-05-24/chipsi-mayai-la-tortilla-de-patatas-tanzana-que-gustara-a-los-sincebollistas.html',
       publisher: 'El Pais',
-      note: 'Contexte journalistique, base pommes de terre et œufs, variantes et origine recente indiquee.',
+      note: 'Contexte journalistique, base pommes de terre et œufs, variantes et origine récente indiquee.',
     },
     {
       title: 'Tanzanian street food in Zanzibar and Dar es Salaam',
@@ -99,5 +99,5 @@ export const chipsiMayaiRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, omelette tanzanienne chipsi mayai épaisse avec frites visibles, petite salade kachumbari tomate oignon coriandre, sauce pili-pili rouge dans une coupelle, assiette simple de rue, ambiance matin urbain à Dar es Salaam ou Zanzibar, palette moka mousse, jaune œuf, brun doré frites, rouge tomate, vert coriandre, composition éditoriale nette, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

@@ -95,5 +95,5 @@ export const katogoRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol ou assiette creuse de katogo ougandais fumant avec morceaux de matooke, haricots, sauce tomate-oignon, feuilles vertes, petite cuillère en bois, bananes vertes en décor, ambiance matin dans une cuisine familiale d'Ouganda, palette moka mousse, jaune matooke, brun haricot, rouge tomate, vert doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

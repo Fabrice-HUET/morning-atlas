@@ -42,10 +42,10 @@ type CountrySeed = Pick<
 function makeCountry(seed: CountrySeed): CountryBreakfast {
   return {
     heroTitle: `${seed.breakfastName} : un matin en ${seed.country}`,
-    breakfastSubtitle: "Une porte d'entree culinaire, à nuancer selon les régions et les familles.",
-    culturalNote: `Ce petit-déjeuner est souvent associé a ${seed.country}, sans resumer toutes les habitudes du pays.`,
+    breakfastSubtitle: "Une porte d'entrée culinaire, à nuancer selon les régions et les familles.",
+    culturalNote: `Ce petit-déjeuner est souvent associé à ${seed.country}, sans résumer toutes les habitudes du pays.`,
     funFact: 'Les versions locales changent selon les saisons, les foyers et les produits disponibles.',
-    morningContext: 'A explorer comme une piste culturelle, pas comme une définition unique du matin local.',
+    morningContext: 'À explorer comme une piste culturelle, pas comme une définition unique du matin local.',
     recipeSlugs: [],
     isTraditional: true,
     seoTitle: `${seed.breakfastName} - petit-déjeuner en ${seed.country}`,
@@ -421,8 +421,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petits beignets kosai dorés dans une assiette emaillee, texture croustillante suggeree, bol de bouillie chaude à cote, quelques haricots cornille, oignon rouge et piment en décor, ambiance marche du matin au nord du Nigeria, palette moka mousse, doré, crème, rouge piment et brun chaud, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petits beignets kosai dorés dans une assiette emaillee, texture croustillante suggérée, bol de bouillie chaude à cote, quelques haricots cornille, oignon rouge et piment en décor, ambiance marche du matin au nord du Nigeria, palette moka mousse, doré, crème, rouge piment et brun chaud, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'nigeria-yoruba-ogi',
@@ -583,7 +583,7 @@ export const countries = [
       'Version très sucrée.',
       'Version moins sucrée à la maison.',
       'Version filtrée avec filtre tissu.',
-      'Version préparée en grande quantite par des vendeurs de rue.',
+      'Version préparée en grande quantité par des vendeurs de rue.',
       'Versions contemporaines en sachets, capsules ou mélanges prets.',
     ],
     simplifiedRecipe: {
@@ -813,8 +813,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggeree, ambiance matin familial dans la Corne de l'Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggérée, ambiance matin familial dans la Corne de l'Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
+    needsReview: false,
   }),
   makeCountry({
     slug: 'tunisia-lablabi',
@@ -837,7 +837,7 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'street-food', 'traditional', 'quick'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'Le lablabi est souvent présenté comme un plat populaire tunisien, économique et reconfortant, particulierement apprécié quand il fait froid.',
+      'Le lablabi est souvent présenté comme un plat populaire tunisien, économique et réconfortant, particulierement apprécié quand il fait froid.',
     culturalContext:
       'Plusieurs sources evoquent une origine modeste ou liée à des periodes de guerre, mais cette origine reste incertaine et doit être formulée comme hypothese ou legende.',
     funFact:
@@ -992,7 +992,7 @@ export const countries = [
         'Ajouter les haricots cuits.',
         'Ajouter les bananes vertes en morceaux.',
         'Couvrir à peine avec eau ou bouillon.',
-        "Mijoter jusqu'à tendrete et épaissir légèrement.",
+        "Mijoter jusqu'à tendreté et épaissir légèrement.",
       ],
       difficulty: 'medium',
       estimatedTimeMinutes: 60,
@@ -1079,7 +1079,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol ou assiette creuse de katogo ougandais fumant avec morceaux de matooke, haricots, sauce tomate-oignon, feuilles vertes, petite cuillère en bois, bananes vertes en décor, ambiance matin dans une cuisine familiale d'Ouganda, palette moka mousse, jaune matooke, brun haricot, rouge tomate, vert doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'ghana-ampesi',
@@ -1108,7 +1108,7 @@ export const countries = [
     funFact:
       "L'ampesi montre une cuisine intuitive : une base bouillie très simple, puis une sauce familiale qui change selon les feuilles, poissons, huiles et ingrédients disponibles.",
     morningContext:
-      'Pas uniquement lie au matin ; sa simplicite et son cote nourrissant en font une entree intéressante pour explorer les repas ghanéens du debut de journée.',
+      'Pas uniquement lie au matin ; sa simplicité et son cote nourrissant en font une entree intéressante pour explorer les repas ghanéens du debut de journée.',
     usualUsage: 'Repas familial, déjeuner, repas simple et nourrissant, parfois compatible avec le matin.',
     variants: [
       "Ampesi à l'igname.",
@@ -1125,7 +1125,7 @@ export const countries = [
       title: 'Ampesi avec sauce verte',
       ingredients: ['Igname ou plantain vert', 'Épinards', 'Tomates', 'Oignon', 'Ail', 'Gingembre', 'Piment'],
       steps: [
-        "Faire bouillir igname ou plantain jusqu'à tendrete.",
+        "Faire bouillir igname ou plantain jusqu'à tendreté.",
         'Faire revenir oignon, ail, gingembre, tomate et piment.',
         'Ajouter épinards ou feuilles de cocoyam.',
         'Cuire en sauce épaisse.',
@@ -1237,7 +1237,7 @@ export const countries = [
     breakfastStyles: ['hearty', 'traditional', 'family', 'quick', 'sweet', 'savory'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      'Le pap est un aliment de base en Afrique du Sud, apprécié pour son cout, sa simplicite et sa polyvalence.',
+      'Le pap est un aliment de base en Afrique du Sud, apprécié pour son cout, sa simplicité et sa polyvalence.',
     culturalContext:
       'Le putu pap ou phuthu est une variante plus séché et granuleuse, compatible avec le petit-déjeuner quand il est servi avec lait, sucre ou amasi, mais aussi très importante en accompagnement sale.',
     funFact:
@@ -1336,7 +1336,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de putu pap sud-africain à texture granuleuse, petite cruche de lait, cuillère de sucre, bol d'amasi, en arrière-plan discret une sauce tomate-oignon et une touche de chakalaka, ambiance matin familial, palette moka mousse, crème mais, beige, brun doux, rouge tomate, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'eastern-africa-chai-mandazi',
@@ -1474,7 +1474,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de mandazi est-africains dorés coupes en triangles et losanges, tasse de chai au lait fumant, épices cardamome cannelle gingembre, petite carafe de lait, ambiance cote swahilie au matin, palette moka mousse, brun thé, beige pâte frite, miel doré, vert sauge doux, composition simple et éditoriale, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'tanzania-chipsi-mayai',
@@ -1499,7 +1499,7 @@ export const countries = [
     culturalNote:
       'Le chipsi mayai est une street food tanzanienne moderne, abordable et populaire, souvent liée aux villes, aux etudiants, travailleurs et voyageurs.',
     culturalContext:
-      'Certaines sources situent son emergence recente à Dar es Salaam, mais cette origine doit rester formulée comme indication journalistique plutôt que certitude historique.',
+      'Certaines sources situent son emergence récente à Dar es Salaam, mais cette origine doit rester formulée comme indication journalistique plutôt que certitude historique.',
     funFact:
       "A Zanzibar, le surnom zege est parfois associé à l'idée d'une omelette compacte qui tient comme du ciment.",
     morningContext:
@@ -1594,13 +1594,13 @@ export const countries = [
         title: 'Chips Mayai, French Fries Omelet',
         url: 'https://migrationology.com/chips-mayai-french-fries-omelet-a-staple-of-tanzanian-junk-food/',
         publisher: 'Migrationology',
-        note: 'Description street food, frites, œufs et popularite en Tanzanie.',
+        note: 'Description street food, frites, œufs et popularité en Tanzanie.',
       },
       {
         title: 'Chipsi mayai, la tortilla de patatas tanzana',
         url: 'https://elpais.com/gastronomia/2026-05-24/chipsi-mayai-la-tortilla-de-patatas-tanzana-que-gustara-a-los-sincebollistas.html',
         publisher: 'El Pais',
-        note: 'Contexte journalistique, base pommes de terre et œufs, variantes et origine recente indiquee.',
+        note: 'Contexte journalistique, base pommes de terre et œufs, variantes et origine récente indiquee.',
       },
       {
         title: 'Tanzanian street food in Zanzibar and Dar es Salaam',
@@ -1611,7 +1611,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, omelette tanzanienne chipsi mayai épaisse avec frites visibles, petite salade kachumbari tomate oignon coriandre, sauce pili-pili rouge dans une coupelle, assiette simple de rue, ambiance matin urbain à Dar es Salaam ou Zanzibar, palette moka mousse, jaune œuf, brun doré frites, rouge tomate, vert coriandre, composition éditoriale nette, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'mainland-china-you-tiao',
@@ -1747,7 +1747,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, deux longs you tiao chinois dorés et croustillants poses sur une assiette simple, bol de lait de soja chaud fumant, petit bol de congee en arrière-plan, baguettes, quelques grains de soja, ambiance stand de petit-déjeuner urbain en Chine, palette moka mousse, beige soja, doré frit, brun doux et crème, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'southeastern-china-dim-sum',
@@ -2041,8 +2041,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, jianbing chinois plie en rectangle, œuf doré visible, ciboule, coriandre, sauce brune, cracker croustillant qui depasse légèrement, plaque ronde de street food en arrière-plan, petit pot de sauce pimentée, ambiance matin en ville du nord de la Chine, palette moka mousse, jaune œuf, brun sauce, vert herbes, doré croustillant, composition éditoriale dynamique, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, jianbing chinois plie en rectangle, œuf doré visible, ciboule, coriandre, sauce brune, cracker croustillant qui dépasse légèrement, plaque ronde de street food en arrière-plan, petit pot de sauce pimentée, ambiance matin en ville du nord de la Chine, palette moka mousse, jaune œuf, brun sauce, vert herbes, doré croustillant, composition éditoriale dynamique, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'bangladesh-chapati-curry',
@@ -2073,7 +2073,7 @@ export const countries = [
     morningContext:
       'Petit-déjeuner familial, repas acheté dans un restaurant local ou option chaude plus consistante en hiver.',
     usualUsage:
-      "Combinaison adaptable du matin, egalement possible à d'autres repas car ruti, dal et légumes sont polyvalents.",
+      "Combinaison adaptable du matin, également possible à d'autres repas car ruti, dal et légumes sont polyvalents.",
     variants: [
       'Ruti avec dal.',
       'Ruti avec curry de légumes.',
@@ -2165,7 +2165,7 @@ export const countries = [
     seoDescription:
       'Découvre une version courante du petit-déjeuner bangladais : ruti ou chapati avec dal, curry de légumes, œuf ou thé au lait.',
     reviewNotes: [
-      'Chapati with curry est un intitule generique ; ruti avec dal ou sobji est plus local et précis.',
+      'Chapati with curry est un intitulé generique ; ruti avec dal ou sobji est plus local et précis.',
       'Ne pas présenter le ruti comme unique base du matin au Bangladesh, ou le riz reste très important.',
       'Les usages changent selon ville, campagne, saison, revenus et habitudes familiales.',
       'Curry doit être précise : dal, sobji, bhaji, légumes ou œuf selon la version.',
@@ -2198,7 +2198,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner bangladais avec ruti plies, bol de dal doré, petit curry de légumes avec pommes de terre et tomate, tasse de cha au lait fumante, œuf optionnel sur le cote, ambiance restaurant local du matin à Dhaka, palette moka mousse, beige pain plat, jaune lentilles, rouge tomate, brun thé au lait, vert doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'south-india-idli-sambar',
@@ -2367,7 +2367,7 @@ export const countries = [
     shortDescription:
       'Un pain plat indien cuit à la poêle avec ghee ou huile, parfois farci, souvent servi avec yaourt, pickle, beurre, dal, sabzi ou curry.',
     longDescription:
-      'Le paratha est un pain plat de ble, souvent feuilleté ou farci, cuit sur tawa avec ghee ou huile. En Inde du Nord, il est fortement associé aux petits-déjeuners copieux, en particulier dans les foyers punjabis et les dhabas. Paratha with curry reste un intitule large : dans les usages courants, le paratha peut être servi avec curd, pickle, beurre, dal, sabzi, chole, curry de légumes, chai ou lassi.',
+      'Le paratha est un pain plat de ble, souvent feuilleté ou farci, cuit sur tawa avec ghee ou huile. En Inde du Nord, il est fortement associé aux petits-déjeuners copieux, en particulier dans les foyers punjabis et les dhabas. Paratha with curry reste un intitulé large : dans les usages courants, le paratha peut être servi avec curd, pickle, beurre, dal, sabzi, chole, curry de légumes, chai ou lassi.',
     breakfastSubtitle: 'Un pain plat copieux, parfois farci, servi chaud depuis le tawa.',
     typicalItems: ['Paratha', 'Yaourt', 'Pickle', 'Beurre', 'Dal ou sabzi'],
     commonDrinks: ['Chai', 'Lassi'],
@@ -2667,7 +2667,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kande pohe maharashtrien jaune doré avec riz aplati moelleux, oignons, cacahuètes, feuilles de curry, coriandre fraiche, quartier de citron, petite coupelle de chai en arrière-plan, ambiance matin à Mumbai ou Pune, palette moka mousse, jaune curcuma, vert coriandre, brun cacahuète, beige doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'iran-barbari',
@@ -2829,7 +2829,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grand pain barbari persan allonge avec stries dorées, graines de sesame et nigelle, assiette de fromage blanc type feta, herbes fraiches, noix, concombre, petit bol de miel et confiture, verre de thé noir persan fumant, ambiance boulangerie iranienne du matin, palette moka mousse, doré pain, vert herbes, crème fromage, brun thé, composition éditoriale élégante, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'israel-israeli-breakfast',
@@ -2867,7 +2867,7 @@ export const countries = [
       'Version avec shakshuka.',
       'Version avec bourekas.',
       'Version avec poissons fumes ou marinés.',
-      'Version plus mediterraneenne avec légumes, tahini, labneh et olives.',
+      'Version plus méditerranéenne avec légumes, tahini, labneh et olives.',
       'Version plus ashkenaze avec poissons, fromages, pains et salades.',
     ],
     simplifiedRecipe: {
@@ -2995,7 +2995,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, table de petit-déjeuner israélien avec salade concombre tomate, œufs, labneh, feta, olives, tahini, pita chaude, petit bol de shakshuka en option, fruits frais, café et jus d'orange, ambiance terrasse lumineuse du matin en Méditerranée orientale, palette moka mousse, crème, vert concombre, rouge tomate, jaune œuf, brun café, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'japan-rice-miso-soup',
@@ -3345,7 +3345,7 @@ export const countries = [
     usualUsage: 'Riz frit pratique et adaptable, souvent prépare avec riz froid déjà cuit.',
     variants: [
       'Version simple avec riz, pois, oignon, ail et sauce soja.',
-      'Version avec curcuma, echalotes et oignons frits.',
+      'Version avec curcuma, échalotes et oignons frits.',
       'Version avec œuf frit.',
       'Version avec crevettes séchées ou poisson séché.',
       'Version avec tofu, viande ou restes.',
@@ -3356,7 +3356,7 @@ export const countries = [
       title: 'Htamin gyaw simple',
       ingredients: [
         'Riz froid',
-        'Oignon ou echalotes',
+        'Oignon ou échalotes',
         'Ail',
         'Petits pois',
         'Curcuma',
@@ -3431,7 +3431,7 @@ export const countries = [
       'Les transcriptions Htamin Jaw, Htamin Gyaw et Htamin Kyaw peuvent renvoyer au même type de plat.',
       "Les sources directes solides sur l'usage précis au petit-déjeuner sont moins nombreuses que pour d'autres entrees.",
       'Ne pas présenter ce plat comme le petit-déjeuner birman unique.',
-      "Le niveau d'authenticite varié selon les recettes de diaspora et adaptations maison.",
+      "Le niveau d'authenticité varié selon les recettes de diaspora et adaptations maison.",
     ],
     sources: [
       {
@@ -3449,7 +3449,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de htamin gyaw birman avec riz frit doré, petits pois, oignons frits, œuf au plat, concombre vinaigre, piment vert et quartier de citron vert, ambiance cuisine de rue matinale à Yangon, palette moka mousse, jaune curcuma, vert pois, blanc riz, brun oignons frits, composition éditoriale simple et chaleureuse, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'philippines-tapsilog',
@@ -3599,7 +3599,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de tapsilog philippin avec boeuf tapa caramelise, riz frit à l'ail, œuf au plat au jaune brillant, tomates fraiches, concombre, petit bol d'atchara et vinaigre épice, ambiance petit restaurant de Manille le matin, palette moka mousse, brun boeuf, blanc riz, jaune œuf, rouge tomate, vert concombre, composition éditoriale appetissante, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'singapore-kaya-toast',
@@ -3778,7 +3778,7 @@ export const countries = [
     breakfastStyles: ['savory', 'hearty', 'traditional', 'street-food', 'family'],
     difficultyToRecreate: 'medium',
     culturalNote:
-      'Le nasi lemak depasse le seul matin : il circule entre stands, marches, restaurants, food courts et repas à toute heure.',
+      'Le nasi lemak dépasse le seul matin : il circule entre stands, marches, restaurants, food courts et repas à toute heure.',
     culturalContext:
       "L'inscription UNESCO concerne la culture du petit-déjeuner en Malaisie dans une societe multiethnique, pas le nasi lemak seul.",
     funFact:
@@ -3921,7 +3921,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de nasi lemak malaisien avec dome de riz au lait de coco parfume au pandan, sambal rouge, ikan bilis croustillants, cacahuètes, rondelles de concombre, œuf dur coupe, feuille de bananier sous l'assiette, verre de teh tarik en arrière-plan, ambiance stand matinal à Kuala Lumpur, palette moka mousse, vert pandan, blanc riz, rouge sambal, brun cacahuète, jaune œuf, composition éditoriale généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'turkey-menemen',
@@ -4086,10 +4086,10 @@ export const countries = [
     breakfastName: 'Bubur ayam',
     localName: 'Bubur ayam',
     shortDescription:
-      'Une bouillie de riz chaude et douce, garnie de poulet effiloché, echalotes frites, cebettes, cakwe, crackers et sambal.',
+      'Une bouillie de riz chaude et douce, garnie de poulet effiloché, échalotes frites, cebettes, cakwe, crackers et sambal.',
     longDescription:
-      "Le bubur ayam est une bouillie de riz au poulet très populaire en Indonesie. La base est un congee de riz cuit longtemps jusqu'à devenir crémeux, puis garni de poulet effiloché et de toppings comme echalotes frites, cebettes, celeri, cakwe, sauce soja, bouillon jaune, crackers, œuf, foie ou gésier selon les versions.",
-    breakfastSubtitle: 'Une bouillie de riz chaude, reconfortante et généreusement garnie.',
+      "Le bubur ayam est une bouillie de riz au poulet très populaire en Indonesie. La base est un congee de riz cuit longtemps jusqu'à devenir crémeux, puis garni de poulet effiloché et de toppings comme échalotes frites, cebettes, celeri, cakwe, sauce soja, bouillon jaune, crackers, œuf, foie ou gésier selon les versions.",
+    breakfastSubtitle: 'Une bouillie de riz chaude, réconfortante et généreusement garnie.',
     typicalItems: ['Bouillie de riz', 'Poulet effiloché', 'Echalotes frites', 'Cakwe', 'Kerupuk', 'Sambal'],
     commonDrinks: ['Thé', 'Café'],
     associatedDrink:
@@ -4101,7 +4101,7 @@ export const countries = [
     culturalContext:
       "Il appartient à la famille des congees d'influence chinoise, adaptée aux toppings indonesiens comme cakwe, kerupuk, sambal et bouillon jaune.",
     funFact:
-      'Dans certaines versions de rue, les toppings debordent presque du bol : poulet, crackers, œuf, foie, gésier et echalotes frites transforment une bouillie simple en repas complet.',
+      'Dans certaines versions de rue, les toppings debordent presque du bol : poulet, crackers, œuf, foie, gésier et échalotes frites transforment une bouillie simple en repas complet.',
     morningContext:
       "Petit-déjeuner, street food du matin, repas doux et chaud, plat d'hotel ou warung, parfois souper tardif.",
     usualUsage: 'Bol chaud et nourrissant, souvent servi tot le matin par des vendeurs et warung.',
@@ -4113,7 +4113,7 @@ export const countries = [
       "Version avec foie, gésier ou satay d'abats de poulet.",
       'Version avec cakwe.',
       'Version avec bouillon jaune plus épice.',
-      'Version avec omelette emincee.',
+      'Version avec omelette émincée.',
       'Version avec sambal à part.',
       'Version instantanee ou fast-food moderne.',
     ],
@@ -4137,7 +4137,7 @@ export const countries = [
         "Pocher le poulet dans le même bouillon puis l'effilocher.",
         "Continuer la cuisson du riz jusqu'à texture crémeuse.",
         'Verser dans un bol.',
-        'Ajouter poulet, ciboule, echalotes frites, œuf, cakwe ou kerupuk.',
+        'Ajouter poulet, ciboule, échalotes frites, œuf, cakwe ou kerupuk.',
         'Servir avec kecap manis et sambal à part.',
       ],
       difficulty: 'medium',
@@ -4197,13 +4197,13 @@ export const countries = [
     ],
     seoTitle: 'Bubur Ayam : la bouillie de poulet du petit-déjeuner indonesien',
     seoDescription:
-      'Découvre le bubur ayam, une bouillie de riz indonesienne au poulet, souvent servie au petit-déjeuner avec echalotes frites, cakwe, crackers et sambal.',
+      'Découvre le bubur ayam, une bouillie de riz indonesienne au poulet, souvent servie au petit-déjeuner avec échalotes frites, cakwe, crackers et sambal.',
     reviewNotes: [
       "Le bubur ayam est très solide comme petit-déjeuner indonesien, mais il n'est pas limite au matin.",
       'Les toppings changent beaucoup selon villes, vendeurs, familles et restaurants.',
       "L'influence chinoise du congee est importante, mais la version indonesienne a ses propres codes.",
       'Le sambal est souvent servi à part ; ne pas présenter le plat comme automatiquement très épice.',
-      'Pour une recette grand public, garder une version simplifiée avec poulet, echalotes frites, ciboule, œuf et crackers.',
+      'Pour une recette grand public, garder une version simplifiée avec poulet, échalotes frites, ciboule, œuf et crackers.',
     ],
     sources: [
       {
@@ -4228,12 +4228,12 @@ export const countries = [
         title: 'Bubur Ayam Recipe for Indonesian Chicken and Omelette Congee',
         url: 'https://grantourismotravels.com/bubur-ayam-recipe-indonesian-congee-with-chicken/',
         publisher: 'Grantourismo Travels',
-        note: 'Version domestique indonesienne / balinaise avec poulet, omelette emincee et condiments.',
+        note: 'Version domestique indonesienne / balinaise avec poulet, omelette émincée et condiments.',
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de bubur ayam indonesien fumant, bouillie de riz crémeuse, poulet effiloché, echalotes frites, ciboule, œuf, cakwe, kerupuk, petit bol de sambal rouge à cote, ambiance stand matinal à Bandung ou Jakarta, palette moka mousse, crème riz, jaune bouillon, brun echalotes, rouge sambal, vert ciboule, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de bubur ayam indonesien fumant, bouillie de riz crémeuse, poulet effiloché, échalotes frites, ciboule, œuf, cakwe, kerupuk, petit bol de sambal rouge à cote, ambiance stand matinal à Bandung ou Jakarta, palette moka mousse, crème riz, jaune bouillon, brun échalotes, rouge sambal, vert ciboule, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'australia-weet-bix',
@@ -4353,7 +4353,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol australien de Weet-Bix avec biscuits de ble, lait verse, rondelles de banane, filet de miel, quelques fruits rouges, cuillère simple, table de cuisine lumineuse du matin, ambiance familiale australienne, palette moka mousse, beige ble, crème lait, jaune banane, rouge fruits, brun miel, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'australia-fry-up',
@@ -4499,7 +4499,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de big brekkie australien avec œufs au plat, bacon, saucisse, tomates grilléeses, champignons, baked beans, toast au levain, avocat en option, tasse de flat white à cote, ambiance café australien du week-end, palette moka mousse, brun toast, rouge tomate, jaune œuf, vert avocat, crème café, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'fiji-babakau',
@@ -4524,7 +4524,7 @@ export const countries = [
     culturalNote:
       'Le babakau montre le caractere metisse de la cuisine fidjienne et circule dans des recettes familiales très variables.',
     culturalContext:
-      'Son origine historique est incertaine : des influences indiennes, chinoises ou europeennes sont parfois évoquées selon les récits.',
+      'Son origine historique est incertaine : des influences indiennes, chinoises ou européennes sont parfois évoquées selon les récits.',
     funFact:
       'Le babakau peut jouer deux rôles : gourmand comme un doughnut avec confiture, ou pratique comme un petit pain chaud à partager.',
     morningContext:
@@ -4601,7 +4601,7 @@ export const countries = [
     seoDescription:
       'Découvre le babakau, un pain frit fidjien souvent servi chaud au petit-déjeuner avec beurre, confiture ou thé.',
     reviewNotes: [
-      "L'origine exacte du babakau est incertaine : influences indiennes, chinoises ou europeennes sont parfois évoquées.",
+      "L'origine exacte du babakau est incertaine : influences indiennes, chinoises ou européennes sont parfois évoquées.",
       'Les sources directes sont moins institutionnelles que pour Weet-Bix ou la breakfast culture australienne.',
       "Le babakau est bien associé au petit-déjeuner, mais aussi au snack ou à l'afternoon tea.",
       'Les recettes familiales peuvent varier fortement.',
@@ -4617,7 +4617,7 @@ export const countries = [
         title: 'Fried Dough for Breakfast: Fiji Edition',
         url: 'https://roadsandkingdoms.com/2018/fried-donuts-breakfast-fiji-edition/',
         publisher: 'Roads & Kingdoms',
-        note: 'Contexte petit-déjeuner à Fidji, popularite familiale et incertitude sur les origines.',
+        note: 'Contexte petit-déjeuner à Fidji, popularité familiale et incertitude sur les origines.',
       },
       {
         title: 'Fijian Food',
@@ -4634,7 +4634,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de babakau fidjien chaud, morceaux carres de pain frit doré et gonfle, petit bol de confiture, beurre fondant, tasse de thé chaud, feuilles tropicales et citron en décor discret, ambiance matin familial aux Fidji, palette moka mousse, doré frit, crème beurre, rouge confiture, vert tropical, brun thé, composition éditoriale chaleureuse, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'new-zealand-porridge',
@@ -4771,7 +4771,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d'avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'poland-kanapki',
@@ -4925,7 +4925,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de kanapki polonaises sur pain de seigle, garnitures variées avec fromage, twarog, œuf dur, jambon, concombre, tomate, radis, cornichons, ciboulette, tasse de thé noir à cote, ambiance cuisine familiale en Pologne le matin, palette moka mousse, brun pain, blanc fromage, rouge tomate, vert concombre, rose radis, composition éditoriale colorée et simple, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'switzerland-muesli',
@@ -4939,7 +4939,7 @@ export const countries = [
     shortDescription:
       "Un mélange suisse à base de flocons d'avoine trempes, pomme râpée, lait ou yaourt, fruits, noix et parfois jus de citron.",
     longDescription:
-      "Le muesli suisse, dans sa version la plus célèbre, est lie au medecin suisse Maximilian Oskar Bircher-Benner. Vers 1900, il développé une Apfeldiatspeise, plat dietetique à la pomme servi dans son sanatorium près de Zurich. La version moderne du Birchermuesli combine souvent flocons d'avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais.",
+      "Le muesli suisse, dans sa version la plus célèbre, est lie au medecin suisse Maximilian Oskar Bircher-Benner. Vers 1900, il développé une Apfeldiatspeise, plat diététique à la pomme servi dans son sanatorium près de Zurich. La version moderne du Birchermuesli combine souvent flocons d'avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais.",
     breakfastSubtitle: 'Du sanatorium suisse au petit-déjeuner moderne mondial.',
     typicalItems: ["Flocons d'avoine", 'Pomme râpée', 'Yaourt', 'Lait', 'Noix', 'Fruits'],
     commonDrinks: ['Café au lait', 'Thé', 'Boisson chaude'],
@@ -4952,7 +4952,7 @@ export const countries = [
     culturalContext:
       "Le muesli commercial sec n'est pas identique au Birchermuesli frais, et les overnight oats modernes s en inspirent souvent avec de nombreuses variations.",
     funFact:
-      'Avant de devenir un petit-déjeuner mondial, le Birchermuesli était un plat dietetique à la pomme servi dans un sanatorium suisse.',
+      'Avant de devenir un petit-déjeuner mondial, le Birchermuesli était un plat diététique à la pomme servi dans un sanatorium suisse.',
     morningContext:
       "Petit-déjeuner, brunch, repas léger, souper léger dans certaines traditions suisses, buffet d'hotel ou préparation overnight.",
     usualUsage: "Bol frais d'avoine trempée avec pomme, laitage, fruits secs, noix et fruits frais.",
@@ -5075,7 +5075,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de Birchermuesli suisse avec flocons d'avoine trempes, pomme râpée, yaourt crémeux, noix, noisettes, raisins secs, fruits rouges, petite cuillère, pomme entière et flocons d'avoine en décor, ambiance matin alpin doux, palette moka mousse, crème yaourt, rouge pomme, brun noix, bleu-rouge fruits, bois clair, composition éditoriale fraiche et propre, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'netherlands-hagelslag',
@@ -5204,8 +5204,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, tartine néerlandaise avec pain beurre et hagelslag chocolate, quelques vermicelles tombes sur une assiette, pot de beurre, boite stylisee de sprinkles sans marque, verre de lait et tasse de café en arrière-plan, ambiance cuisine familiale aux Pays-Bas le matin, palette moka mousse, brun chocolat, crème beurre, beige pain, bleu doux, composition simple et joyeuse, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, tartine néerlandaise avec pain beurre et hagelslag chocolate, quelques vermicelles tombes sur une assiette, pot de beurre, boite stylisée de sprinkles sans marque, verre de lait et tasse de café en arrière-plan, ambiance cuisine familiale aux Pays-Bas le matin, palette moka mousse, brun chocolat, crème beurre, beige pain, bleu doux, composition simple et joyeuse, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'spain-chocolate-churros',
@@ -5619,7 +5619,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kasha russe fumante au sarrasin, lait chaud, noix de beurre fondant, miel, quelques baies et raisins secs, petite cuillère en bois, champignons et oignons en option dans un petit bol à cote pour montrer la variante salée, ambiance matin d'hiver dans une cuisine russe, palette moka mousse, brun sarrasin, crème lait, rouge baies, doré miel, bois clair, composition éditoriale douce, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'france-tartines',
@@ -6017,7 +6017,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, part de banitsa bulgare dorée et feuilletée, spirale de pâte filo croustillante, fromage blanc visible, petit bol de yaourt, verre de boza, serviette brodee traditionnelle en arrière-plan discret, ambiance boulangerie ou cuisine familiale bulgare du matin, palette moka mousse, doré pâte, crème yaourt, brun boza, touches rouge et vert folklorique, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'germany-brotchen-fruhstuck',
@@ -6171,11 +6171,11 @@ export const countries = [
     breakfastStyles: ['sweet', 'healthy', 'quick', 'traditional', 'family'],
     difficultyToRecreate: 'easy',
     culturalNote:
-      "Yaourt, miel, noix, fruits et produits locaux s accordent avec l'image mediterraneenne du petit-déjeuner grec moderne.",
+      "Yaourt, miel, noix, fruits et produits locaux s accordent avec l'image méditerranéenne du petit-déjeuner grec moderne.",
     culturalContext:
       "Le programme Greek Breakfast valorise surtout les produits régionaux et l'hotellerie ; il ne decrit pas necessairement le quotidien de toutes les familles.",
     funFact:
-      'Le yaourt grec au miel semble evident, mais tout depend de la qualite du yaourt, du miel et des noix.',
+      'Le yaourt grec au miel semble evident, mais tout depend de la qualité du yaourt, du miel et des noix.',
     morningContext:
       "Petit-déjeuner rapide, hotel, snack, dessert léger, collation d'été ou repas très simple.",
     usualUsage: 'Bol frais servi au petit-déjeuner, en snack ou comme dessert léger.',
@@ -6245,7 +6245,7 @@ export const countries = [
     reviewNotes: [
       'Ne pas présenter ce bol comme petit-déjeuner quotidien obligatoire en Grèce.',
       'Le yaourt au miel est aussi courant comme dessert ou snack.',
-      'Le Greek Breakfast certifie est surtout un cadre hotelier et touristique.',
+      'Le Greek Breakfast certifié est surtout un cadre hôtelier et touristique.',
       'Les noix peuvent être remplacees par amandes, pistaches ou fruits.',
     ],
     sources: [
@@ -6269,8 +6269,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassées, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière mediterraneenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassées, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière méditerranéenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'portugal-pao-com-manteiga-galao',
@@ -6284,7 +6284,7 @@ export const countries = [
     shortDescription:
       "Un petit-déjeuner portugais simple : pain ou torrada beurrée, accompagné d'un galão servi dans un grand verre.",
     longDescription:
-      "Le petit-déjeuner portugais est souvent léger : pain frais, toast ou sandwich simple, accompagné de café, café au lait ou jus. Le duo pão com manteiga ou torrada avec galão représente bien cette simplicite quotidienne de café, pastelaria ou cuisine familiale. Le galão est une boisson portugaise à base d'espresso et de beaucoup de lait, servie dans un grand verre.",
+      "Le petit-déjeuner portugais est souvent léger : pain frais, toast ou sandwich simple, accompagné de café, café au lait ou jus. Le duo pão com manteiga ou torrada avec galão représente bien cette simplicité quotidienne de café, pastelaria ou cuisine familiale. Le galão est une boisson portugaise à base d'espresso et de beaucoup de lait, servie dans un grand verre.",
     breakfastSubtitle: 'Pain beurre et café au lait, routine sobre de pastelaria.',
     typicalItems: ['Pain portugais', 'Beurre', 'Torrada', 'Galão', 'Meia de leite'],
     commonDrinks: ['Galão', 'Meia de leite', 'Bica', 'Abatanado', 'Jus'],
@@ -6395,7 +6395,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner portugais avec pain beurre et torrada épaisse dorée, beurre fondant, grand verre de galão café au lait fumant, petite assiette de pastel de nata en arrière-plan discret, comptoir de pastelaria portugaise le matin, azulejos bleus très subtils, palette moka mousse, beige pain, jaune beurre, brun café, crème lait, bleu azulejo doux, composition simple et chaleureuse, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'canada-homestyle-breakfast',
@@ -6407,14 +6407,14 @@ export const countries = [
     breakfastName: 'Homestyle breakfast',
     localName: 'Homestyle breakfast, dîner breakfast, country breakfast',
     shortDescription:
-      "Une assiette de dîner canadien avec œufs, bacon ou peameal bacon, pommes de terre, toast, parfois pancakes et sirop d'erable.",
+      "Une assiette de dîner canadien avec œufs, bacon ou peameal bacon, pommes de terre, toast, parfois pancakes et sirop d'érable.",
     longDescription:
-      "Le Canadian homestyle breakfast n'est pas une recette unique, mais une formule de petit-déjeuner copieux : œufs, bacon ou saucisses, pommes de terre rissolées, toast, parfois pancakes, sirop d'erable, haricots ou café filtre. Pour Morning Atlas, l'angle juste est celui d'une assiette de dîner canadien, généreuse et régionale, pas celui d'un plat national codifie.",
+      "Le Canadian homestyle breakfast n'est pas une recette unique, mais une formule de petit-déjeuner copieux : œufs, bacon ou saucisses, pommes de terre rissolées, toast, parfois pancakes, sirop d'érable, haricots ou café filtre. Pour Morning Atlas, l'angle juste est celui d'une assiette de dîner canadien, généreuse et régionale, pas celui d'un plat national codifié.",
     breakfastSubtitle: 'Une assiette de dîner copieuse, régionale et adaptable.',
-    typicalItems: ['Œufs', 'Bacon', 'Pommes de terre', 'Toast', 'Pancakes', "Sirop d'erable"],
+    typicalItems: ['Œufs', 'Bacon', 'Pommes de terre', 'Toast', 'Pancakes', "Sirop d'érable"],
     commonDrinks: ['Café filtre', "Jus d'orange"],
     associatedDrink:
-      "Café filtre, fréquent dans les dîners ; le sirop d'erable est un marqueur culinaire fort mais pas une boisson.",
+      "Café filtre, fréquent dans les dîners ; le sirop d'érable est un marqueur culinaire fort mais pas une boisson.",
     breakfastStyles: ['savory', 'hearty', 'traditional', 'family', 'brunch'],
     difficultyToRecreate: 'easy',
     culturalNote:
@@ -6429,19 +6429,19 @@ export const countries = [
     variants: [
       'Version œufs, bacon, pommes de terre et toast.',
       'Version avec peameal bacon en Ontario.',
-      "Version avec pancakes et sirop d'erable.",
+      "Version avec pancakes et sirop d'érable.",
       'Version quebecoise avec cretons.',
       'Version avec haricots ou saumon fume selon les régions.',
     ],
     simplifiedRecipe: {
       title: 'Canadian homestyle breakfast simplifie',
-      ingredients: ['Œufs', 'Bacon ou peameal bacon', 'Pommes de terre', 'Toast', 'Pancakes', "Sirop d'erable"],
+      ingredients: ['Œufs', 'Bacon ou peameal bacon', 'Pommes de terre', 'Toast', 'Pancakes', "Sirop d'érable"],
       steps: [
         'Faire dorer les pommes de terre en cubes.',
         'Cuire le bacon ou le peameal bacon.',
         'Préparer les œufs au choix.',
         'Toaster le pain et chauffer les pancakes si utilisés.',
-        "Servir avec beurre, sirop d'erable et café filtre.",
+        "Servir avec beurre, sirop d'érable et café filtre.",
       ],
       difficulty: 'easy',
       estimatedTimeMinutes: 40,
@@ -6491,14 +6491,14 @@ export const countries = [
       'comfort-food',
       'regional-variation',
     ],
-    seoTitle: "Canadian Homestyle Breakfast : œufs, bacon et sirop d'erable",
+    seoTitle: "Canadian Homestyle Breakfast : œufs, bacon et sirop d'érable",
     seoDescription:
-      "Découvre une assiette de petit-déjeuner canadien facon dîner : œufs, bacon ou peameal bacon, pommes de terre, toast, pancakes et sirop d'erable.",
+      "Découvre une assiette de petit-déjeuner canadien facon dîner : œufs, bacon ou peameal bacon, pommes de terre, toast, pancakes et sirop d'érable.",
     reviewNotes: [
-      'Homestyle breakfast est une formule large, pas un plat canadien codifie.',
+      'Homestyle breakfast est une formule large, pas un plat canadien codifié.',
       "Le Canada n'a pas un seul petit-déjeuner national.",
       "Le peameal bacon est surtout lie à l'Ontario.",
-      "Le sirop d'erable est emblématique, mais toutes les assiettes canadiennes n en contiennent pas.",
+      "Le sirop d'érable est emblématique, mais toutes les assiettes canadiennes n en contiennent pas.",
     ],
     sources: [
       {
@@ -6511,7 +6511,7 @@ export const countries = [
         title: 'Statistical overview of the Canadian maple industry, 2025',
         url: 'https://agriculture.canada.ca/en/sector/horticulture/reports/statistical-overview-canadian-maple-industry-2025',
         publisher: 'Agriculture et Agroalimentaire Canada',
-        note: "Poids du Canada dans la production mondiale de sirop d'erable.",
+        note: "Poids du Canada dans la production mondiale de sirop d'érable.",
       },
       {
         title: 'Canadian breakfast: dit moet je proberen',
@@ -6521,8 +6521,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de Canadian homestyle breakfast avec œufs au plat, tranches de peameal bacon dorées, pommes de terre rissolées, toast beurre, petite pile de pancakes avec sirop d'erable, tasse de café filtre, petite feuille d'erable discrete en décor, ambiance dîner canadien du matin, palette moka mousse, doré pancakes, brun bacon, jaune œuf, rouge ketchup discret, crème café, composition généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+      "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de Canadian homestyle breakfast avec œufs au plat, tranches de peameal bacon dorées, pommes de terre rissolées, toast beurre, petite pile de pancakes avec sirop d'érable, tasse de café filtre, petite feuille d'érable discrete en décor, ambiance dîner canadien du matin, palette moka mousse, doré pancakes, brun bacon, jaune œuf, rouge ketchup discret, crème café, composition généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
+    needsReview: false,
   }),
   makeCountry({
     slug: 'united-states-bagel-cream-cheese',
@@ -6536,7 +6536,7 @@ export const countries = [
     shortDescription:
       'Un bagel coupe et garni de cream cheese, parfois avec lox, câpres, oignon rouge et tomate, très associé à New York.',
     longDescription:
-      "Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, câpres, oignon rouge et tomate. La fiche doit rester centrée sur l'ancrage new-yorkais plutôt que generaliser à tous les États-Unis.",
+      "Le bagel avec cream cheese est un petit-déjeuner américain très reconnaissable, surtout lie à New York, aux delis et aux cultures juives américaines. Il peut rester très simple, bagel et cream cheese, ou devenir plus complet avec lox, câpres, oignon rouge et tomate. La fiche doit rester centrée sur l'ancrage new-yorkais plutôt que généraliser à tous les États-Unis.",
     breakfastSubtitle: 'Un classique de bagel shop et deli new-yorkais.',
     typicalItems: ['Bagel', 'Cream cheese', 'Lox', 'Capres', 'Oignon rouge', 'Café filtre'],
     commonDrinks: ['Café filtre', 'Café à emporter'],
@@ -6775,7 +6775,7 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de gallo pinto costaricien avec riz et haricots noirs mouchetes, coriandre fraiche, œuf au plat, tortillas de mais, plantain frit, petit bol de natilla, tasse de café costaricien, ambiance soda local du matin au Costa Rica, palette moka mousse, brun haricots, blanc riz, vert coriandre, jaune œuf, doré plantain, composition éditoriale conviviale, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'mexico-huevos-rancheros',
@@ -6931,7 +6931,7 @@ export const countries = [
     culturalNote:
       "Ackee and saltfish est un plat identitaire fort : l'ackee est le fruit national jamaicain et le duo avec saltfish forme le plat national.",
     culturalContext:
-      "La fiche doit inclure une note de securite : l'ackee frais non mur, les graines et certaines parties du fruit ne sont pas sures à consommer.",
+      "La fiche doit inclure une note de sécurité : l'ackee frais non mur, les graines et certaines parties du fruit ne sont pas sures à consommer.",
     funFact:
       "Une fois cuisine, l'ackee peut rappeler des œufs brouillés, mais il s'agit bien d'un fruit.",
     morningContext:
@@ -7010,8 +7010,8 @@ export const countries = [
     seoDescription:
       "Découvre ackee and saltfish, le plat national jamaicain à base d'ackee et morue salée, souvent servi au petit-déjeuner avec dumplings, plantain ou provisions.",
     reviewNotes: [
-      "Ne jamais recommander d'utiliser de l'ackee frais non maitrise : l'ackee doit être pleinement mur et correctement prépare.",
-      "Pour une recette grand public hors Jamaïque, preferer l'ackee en conserve provenant d'une source fiable.",
+      "Ne jamais recommander d'utiliser de l'ackee frais non maîtrise : l'ackee doit être pleinement mur et correctement prépare.",
+      "Pour une recette grand public hors Jamaïque, préférer l'ackee en conserve provenant d'une source fiable.",
       "Le plat est national et très associé au petit-déjeuner, mais il peut être mangé à d'autres moments.",
       'Le scotch bonnet doit être dose prudemment.',
     ],
@@ -7043,7 +7043,7 @@ export const countries = [
     ],
     illustrationPrompt:
       "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette jamaicaine d'ackee and saltfish avec ackee jaune crémeux, morceaux de morue salée, tomate, poivron, ciboule, thym, piment scotch bonnet entier sur le cote, dumplings frits, plantain doré et banane verte, ambiance cuisine caribeenne du matin en Jamaïque, palette moka mousse, jaune ackee, rouge tomate, vert ciboule, doré plantain, brun dumplings, composition éditoriale colorée et chaleureuse, sans photoréalisme, sans texte, sans logo.",
-    needsReview: true,
+    needsReview: false,
   }),
   makeCountry({
     slug: 'venezuela-cachapas',
@@ -7170,8 +7170,8 @@ export const countries = [
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliée en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisee en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliée en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisée en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'colombia-changua',
@@ -7292,12 +7292,12 @@ export const countries = [
         title: 'Por que la changua es considerada por muchos como uno de los peores desayunos del mundo',
         url: 'https://cadenaser.com/nacional/2025/09/30/por-que-la-changua-es-considerada-por-muchos-como-uno-de-los-peores-desayunos-del-mundo-la-gente-tiende-a-juzgar-lo-que-no-entiende-cadena-ser/',
         publisher: 'Cadena SER',
-        note: 'Débat culturel recent autour de la changua et rappel de son contexte.',
+        note: 'Débat culturel récent autour de la changua et rappel de son contexte.',
       },
     ],
     illustrationPrompt:
-      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de changua colombienne fumante avec soupe blanche au lait, œuf poche visible, coriandre fraiche, oignon long, morceaux de pain calado qui trempent, petit fromage frais à cote, tasse de chocolat chaud en arrière-plan discret, ambiance matin frais à Bogota, palette moka mousse, blanc lait, jaune œuf, vert coriandre, beige pain, brun chocolat, composition douce et reconfortante, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+      'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de changua colombienne fumante avec soupe blanche au lait, œuf poche visible, coriandre fraiche, oignon long, morceaux de pain calado qui trempent, petit fromage frais à cote, tasse de chocolat chaud en arrière-plan discret, ambiance matin frais à Bogota, palette moka mousse, blanc lait, jaune œuf, vert coriandre, beige pain, brun chocolat, composition douce et réconfortante, sans photoréalisme, sans texte, sans logo.',
+    needsReview: false,
   }),
   makeCountry({
     slug: 'cuba-tostada-cafe-con-leche',
@@ -7428,6 +7428,6 @@ export const countries = [
     ],
     illustrationPrompt:
       'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner cubain avec tostada cubana coupée en longues bandes, pain cubain beurre et presse, extérieur doré croustillant, grande tasse de café con leche fumant, petite cuillère, sucre, fruit tropical discret, ambiance ventanita cubaine ou cuisine de La Havane/Miami le matin, palette moka mousse, brun café, crème lait, doré pain, jaune beurre, touches turquoise et vert tropical, composition simple et chaleureuse, sans photoréalisme, sans texte, sans logo.',
-    needsReview: true,
+    needsReview: false,
   }),
 ] satisfies CountryBreakfast[]

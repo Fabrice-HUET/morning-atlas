@@ -104,5 +104,5 @@ export const costaRicanGalloPintoRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de gallo pinto costaricien avec riz et haricots noirs mouchetes, coriandre fraiche, œuf au plat, tortillas de mais, plantain frit, petit bol de natilla, tasse de café costaricien, ambiance soda local du matin au Costa Rica, palette moka mousse, brun haricots, blanc riz, vert coriandre, jaune œuf, doré plantain, composition éditoriale conviviale, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

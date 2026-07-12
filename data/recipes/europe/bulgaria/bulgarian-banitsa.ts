@@ -102,5 +102,5 @@ export const bulgarianBanitsaRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, part de banitsa bulgare dorée et feuilletée, spirale de pâte filo croustillante, fromage blanc visible, petit bol de yaourt, verre de boza, serviette brodee traditionnelle en arrière-plan discret, ambiance boulangerie ou cuisine familiale bulgare du matin, palette moka mousse, doré pâte, crème yaourt, brun boza, touches rouge et vert folklorique, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

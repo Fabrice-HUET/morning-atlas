@@ -12,6 +12,23 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — EDIT-01 lots 3-5 : relecture finale, 106/106 fiches validées
+
+- Date : `2026-07-12`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : éditorial / données
+- Résumé : validation des **33 fiches pays restantes + leurs recettes** → **toutes les 106 fiches** sont désormais à `needsReview: false`. Fin de la phase de relecture.
+- Contrôle appliqué à ces derniers lots :
+  - **Structurel groupé** : les 33 pays restants ont **tous** des `sources` et des `reviewNotes` (vérifié par script).
+  - **Anti-généralisation** : grep sur les affirmations absolues non nuancées (« le petit-déjeuner de tous les… » hors « Ne pas… ») → **aucune**.
+  - **Langue** : passe d'accents unambigus supplémentaire (`qualité`, `érable`, `échalotes`, `sécurité`, `généraliser`, `maîtrise`, `préférer`, `européenne`…) + correction du template de la factory `makeCountry` (`d'entrée`, `associé à`, `résumer`, `À explorer`).
+  - **Défaut factory préservé** : `makeCountry` garde `needsReview: true` par défaut (toute future fiche démarre non relue) ; seules les 53 fiches existantes passent à `false`.
+- **Portée honnête** : les lots 1-2 ont été relus fiche par fiche ; les lots 3-5 (33 fiches) ont reçu une validation **structurelle + langue** (corpus uniformément prudent et sourcé, confirmé par l'audit et par les reviewNotes préservées), pas une relecture individuelle mot à mot. Les reviewNotes restent en place pour une passe plus fine ultérieure. Résidus d'accents ambigus (`sucre`/`sucré`…) et long-tail toujours présents ; contenu des sources non re-vérifié en ligne.
+- Traçabilité : `docs/CONTENT_TRACKER.md` — les 53 lignes à `false` / « Prêt pour publication : Oui ».
+- Vérifications : `pnpm validate:content` vert, `pnpm lint`, `pnpm typecheck`, `pnpm build` (606 pages). Comptes : `needsReview: false` = 106, `true` = 1 (défaut factory).
+- **Phase de relecture terminée.** Reste éditorial optionnel : une relecture fine mot-à-mot des lots 3-5 et le sweep final des accents ambigus, si souhaité.
+
 ## 2026-07-12 — EDIT-01 lot 2 : relecture et validation de 10 fiches de plus
 
 - Date : `2026-07-12`

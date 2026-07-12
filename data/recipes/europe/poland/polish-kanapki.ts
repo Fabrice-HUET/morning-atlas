@@ -108,5 +108,5 @@ export const polishKanapkiRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, plateau de kanapki polonaises sur pain de seigle, garnitures variées avec fromage, twarog, œuf dur, jambon, concombre, tomate, radis, cornichons, ciboulette, tasse de thé noir à cote, ambiance cuisine familiale en Pologne le matin, palette moka mousse, brun pain, blanc fromage, rouge tomate, vert concombre, rose radis, composition éditoriale colorée et simple, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

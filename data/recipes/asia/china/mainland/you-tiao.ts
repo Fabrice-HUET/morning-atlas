@@ -100,5 +100,5 @@ export const youTiaoRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, deux longs you tiao chinois dorés et croustillants poses sur une assiette simple, bol de lait de soja chaud fumant, petit bol de congee en arrière-plan, baguettes, quelques grains de soja, ambiance stand de petit-déjeuner urbain en Chine, palette moka mousse, beige soja, doré frit, brun doux et crème, composition éditoriale claire, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

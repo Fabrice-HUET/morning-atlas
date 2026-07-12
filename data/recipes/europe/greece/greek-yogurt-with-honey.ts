@@ -58,14 +58,14 @@ export const greekYogurtWithHoneyRecipe = {
   featured: false,
   recreateAtHomeLevel: 'easy',
   notes:
-    "Le bol est aussi courant comme snack ou dessert léger. Le Greek Breakfast certifie releve surtout d'un cadre hotelier et touristique.",
+    "Le bol est aussi courant comme snack ou dessert léger. Le Greek Breakfast certifié releve surtout d'un cadre hôtelier et touristique.",
   seoTitle: 'Yaourt grec au miel : le bol simple du matin en Grèce',
   seoDescription:
     'Découvre le yaourt grec au miel, un bol frais et rapide avec yaourt épais, miel, noix et fruits, souvent associé au petit-déjeuner grec moderne.',
   reviewNotes: [
     'Ne pas présenter ce bol comme petit-déjeuner quotidien obligatoire en Grèce.',
     'Le yaourt au miel est aussi courant comme dessert ou snack.',
-    'Le Greek Breakfast certifie est surtout un cadre hotelier et touristique.',
+    'Le Greek Breakfast certifié est surtout un cadre hôtelier et touristique.',
     'Attention aux versions industrielles Greek style yogurt hors Grèce.',
   ],
   sources: [
@@ -101,6 +101,6 @@ export const greekYogurtWithHoneyRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassées, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière mediterraneenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de yaourt grec épais et blanc, filet de miel doré, noix concassées, quelques fruits frais, pincee de cannelle, petit pot de miel, cuillère, lumière méditerranéenne du matin, mer Egee ou terrasse grecque en arrière-plan très discret, palette moka mousse, blanc yaourt, doré miel, brun noix, bleu doux, vert olive, composition fraiche et lumineuse, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe

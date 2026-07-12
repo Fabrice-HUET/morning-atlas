@@ -121,5 +121,5 @@ export const nasiLemakRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de nasi lemak malaisien avec dome de riz au lait de coco parfume au pandan, sambal rouge, ikan bilis croustillants, cacahuètes, rondelles de concombre, œuf dur coupe, feuille de bananier sous l'assiette, verre de teh tarik en arrière-plan, ambiance stand matinal à Kuala Lumpur, palette moka mousse, vert pandan, blanc riz, rouge sambal, brun cacahuète, jaune œuf, composition éditoriale généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

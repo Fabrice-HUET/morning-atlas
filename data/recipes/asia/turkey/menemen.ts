@@ -12,7 +12,7 @@ export const menemenRecipe = {
     "Le menemen est un plat de petit-déjeuner turc à base d'œufs, tomates, poivrons verts et épices, cuits dans l'huile ou le beurre jusqu'à obtenir une texture souple, juteuse et presque crémeuse. Il s'intègre souvent à une table de kahvalti plus large, avec fromages, olives, tomates, concombres, pains, confitures, miel, œufs, borek, simit et thé noir.",
   ingredients: [
     '4 œufs',
-    '3 tomates mûres ou tomates concassées de qualite',
+    '3 tomates mûres ou tomates concassées de qualité',
     '2 poivrons verts doux',
     '1 petit oignon optionnel',
     "2 cuillères à soupe d'huile d'olive ou 1 noix de beurre",

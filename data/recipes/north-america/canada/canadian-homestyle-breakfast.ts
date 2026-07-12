@@ -7,9 +7,9 @@ export const canadianHomestyleBreakfastRecipe = {
   countrySlugs: ['canada-homestyle-breakfast'],
   originLabel: 'Canada',
   shortDescription:
-    "Une assiette de dîner canadien avec œufs, bacon ou peameal bacon, pommes de terre, toast, parfois pancakes et sirop d'erable.",
+    "Une assiette de dîner canadien avec œufs, bacon ou peameal bacon, pommes de terre, toast, parfois pancakes et sirop d'érable.",
   longDescription:
-    "Le Canadian homestyle breakfast n'est pas une recette unique, mais une formule de petit-déjeuner copieux : œufs, bacon ou saucisses, pommes de terre rissolées, toast, parfois pancakes, sirop d'erable, haricots ou café filtre. Pour Morning Atlas, l'angle juste est celui d'une assiette de dîner canadien, généreuse et régionale, pas celui d'un plat national codifie.",
+    "Le Canadian homestyle breakfast n'est pas une recette unique, mais une formule de petit-déjeuner copieux : œufs, bacon ou saucisses, pommes de terre rissolées, toast, parfois pancakes, sirop d'érable, haricots ou café filtre. Pour Morning Atlas, l'angle juste est celui d'une assiette de dîner canadien, généreuse et régionale, pas celui d'un plat national codifié.",
   ingredients: [
     '4 œufs',
     '4 tranches de bacon ou peameal bacon',
@@ -17,7 +17,7 @@ export const canadianHomestyleBreakfastRecipe = {
     '4 tranches de pain',
     '4 pancakes simples optionnels',
     'Beurre',
-    "Sirop d'erable",
+    "Sirop d'érable",
     'Sel et poivre',
     'Café filtre',
   ],
@@ -45,7 +45,7 @@ export const canadianHomestyleBreakfastRecipe = {
     'Toaster le pain.',
     'Préparer des pancakes si une assiette plus généreuse est souhaitée.',
     'Disposer œufs, bacon, pommes de terre et toast.',
-    "Ajouter beurre et sirop d'erable pour les pancakes.",
+    "Ajouter beurre et sirop d'érable pour les pancakes.",
     'Servir avec café filtre.',
   ],
   prepTimeMinutes: 15,
@@ -68,14 +68,14 @@ export const canadianHomestyleBreakfastRecipe = {
   recreateAtHomeLevel: 'easy',
   notes:
     'Formule large et régionale. Traditional doit être compris comme style dîner / familial, pas tradition nationale unique.',
-  seoTitle: "Canadian Homestyle Breakfast : œufs, bacon, pancakes et sirop d'erable",
+  seoTitle: "Canadian Homestyle Breakfast : œufs, bacon, pancakes et sirop d'érable",
   seoDescription:
-    "Découvre une assiette de petit-déjeuner canadien facon dîner : œufs, bacon ou peameal bacon, pommes de terre, toast, pancakes et sirop d'erable.",
+    "Découvre une assiette de petit-déjeuner canadien facon dîner : œufs, bacon ou peameal bacon, pommes de terre, toast, pancakes et sirop d'érable.",
   reviewNotes: [
-    'Homestyle breakfast est une formule large, pas un plat canadien codifie.',
+    'Homestyle breakfast est une formule large, pas un plat canadien codifié.',
     "Le Canada n'a pas un seul petit-déjeuner national.",
     "Le peameal bacon est surtout lie à l'Ontario.",
-    "Le sirop d'erable est emblématique, mais toutes les assiettes canadiennes n en contiennent pas.",
+    "Le sirop d'érable est emblématique, mais toutes les assiettes canadiennes n en contiennent pas.",
   ],
   sources: [
     {
@@ -88,7 +88,7 @@ export const canadianHomestyleBreakfastRecipe = {
       title: 'Statistical overview of the Canadian maple industry, 2025',
       url: 'https://agriculture.canada.ca/en/sector/horticulture/reports/statistical-overview-canadian-maple-industry-2025',
       publisher: 'Agriculture et Agroalimentaire Canada',
-      note: "Poids du Canada dans la production mondiale de sirop d'erable.",
+      note: "Poids du Canada dans la production mondiale de sirop d'érable.",
     },
     {
       title: 'Canadian breakfast: dit moet je proberen',
@@ -100,10 +100,10 @@ export const canadianHomestyleBreakfastRecipe = {
       title: 'Great Canadian Breakfast',
       url: 'https://weekendatthecottage.com/great-canadian-breakfast/',
       publisher: 'Weekend at the Cottage',
-      note: "Version culinaire avec pancakes, peameal bacon, œuf et sirop d'erable.",
+      note: "Version culinaire avec pancakes, peameal bacon, œuf et sirop d'érable.",
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de Canadian homestyle breakfast avec œufs au plat, tranches de peameal bacon dorées, pommes de terre rissolées, toast beurre, petite pile de pancakes avec sirop d'erable, tasse de café filtre, petite feuille d'erable discrete en décor, ambiance dîner canadien du matin, palette moka mousse, doré pancakes, brun bacon, jaune œuf, rouge ketchup discret, crème café, composition généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de Canadian homestyle breakfast avec œufs au plat, tranches de peameal bacon dorées, pommes de terre rissolées, toast beurre, petite pile de pancakes avec sirop d'érable, tasse de café filtre, petite feuille d'érable discrete en décor, ambiance dîner canadien du matin, palette moka mousse, doré pancakes, brun bacon, jaune œuf, rouge ketchup discret, crème café, composition généreuse et lisible, sans photoréalisme, sans texte, sans logo.",
+  needsReview: false,
 } satisfies Recipe

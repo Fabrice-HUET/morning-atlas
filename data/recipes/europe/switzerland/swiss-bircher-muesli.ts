@@ -9,7 +9,7 @@ export const swissBircherMuesliRecipe = {
   shortDescription:
     "Un mélange suisse de flocons d'avoine trempes, pomme râpée, lait ou yaourt, fruits, noix et parfois jus de citron.",
   longDescription:
-    "Le Birchermuesli suisse est lie au medecin Maximilian Oskar Bircher-Benner, qui développé vers 1900 une Apfeldiatspeise, plat dietetique à la pomme servi dans son sanatorium près de Zurich. La version moderne combine souvent flocons d'avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais. L'angle Morning Atlas doit privilégier Birchermuesli suisse, car muesli seul est devenu très large.",
+    "Le Birchermuesli suisse est lie au medecin Maximilian Oskar Bircher-Benner, qui développé vers 1900 une Apfeldiatspeise, plat diététique à la pomme servi dans son sanatorium près de Zurich. La version moderne combine souvent flocons d'avoine trempes, pomme râpée, lait, yaourt, jus de citron, noix, noisettes, raisins secs ou fruits frais. L'angle Morning Atlas doit privilégier Birchermuesli suisse, car muesli seul est devenu très large.",
   ingredients: [
     "80 g de flocons d'avoine",
     '150 ml de lait',
@@ -106,5 +106,5 @@ export const swissBircherMuesliRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de Birchermuesli suisse avec flocons d'avoine trempes, pomme râpée, yaourt crémeux, noix, noisettes, raisins secs, fruits rouges, petite cuillère, pomme entière et flocons d'avoine en décor, ambiance matin alpin doux, palette moka mousse, crème yaourt, rouge pomme, brun noix, bleu-rouge fruits, bois clair, composition éditoriale fraiche et propre, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

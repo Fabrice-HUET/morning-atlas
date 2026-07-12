@@ -112,5 +112,5 @@ export const tapsilogRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de tapsilog philippin avec boeuf tapa caramelise, riz frit à l'ail, œuf au plat au jaune brillant, tomates fraiches, concombre, petit bol d'atchara et vinaigre épice, ambiance petit restaurant de Manille le matin, palette moka mousse, brun boeuf, blanc riz, jaune œuf, rouge tomate, vert concombre, composition éditoriale appetissante, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

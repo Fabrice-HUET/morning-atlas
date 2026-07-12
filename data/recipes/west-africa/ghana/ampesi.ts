@@ -40,7 +40,7 @@ export const ampesiRecipe = {
   steps: [
     "Eplucher l'igname ou les plantains.",
     'Couper en gros morceaux.',
-    "Faire bouillir dans de l'eau salée jusqu'à tendrete.",
+    "Faire bouillir dans de l'eau salée jusqu'à tendreté.",
     "Faire revenir l'oignon dans l'huile.",
     'Ajouter ail, gingembre, tomate et piment.',
     'Laisser réduire quelques minutes.',

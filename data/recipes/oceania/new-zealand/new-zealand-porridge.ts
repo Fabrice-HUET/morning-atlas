@@ -103,5 +103,5 @@ export const newZealandPorridgeRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de porridge neo-zélandais fumant avec flocons d'avoine crémeux, rondelles de banane, filet de miel, sucre brun, fruits rouges, petite cruche de lait, ambiance matin froid dans une cuisine kiwi, fenetre avec lumière douce, palette moka mousse, crème avoine, jaune banane, rouge fruits, brun miel, composition éditoriale simple, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

@@ -12,7 +12,7 @@ export const htaminGyawRecipe = {
     "Le htamin gyaw est une version birmane du riz frit, souvent préparée avec du riz déjà cuit, des pois, de l'oignon, de l'ail et parfois de la sauce soja, du poisson séché, des crevettes séchées ou un œuf. Il peut être servi au petit-déjeuner, mais aussi au déjeuner, au dîner ou comme plat de restes.",
   ingredients: [
     '300 g de riz cuit froid',
-    '1 petit oignon ou 2 echalotes',
+    '1 petit oignon ou 2 échalotes',
     "1 gousse d'ail",
     '100 g de petits pois',
     '1/2 cuillère à café de curcuma',
@@ -81,7 +81,7 @@ export const htaminGyawRecipe = {
     'Les transcriptions Htamin Jaw, Htamin Gyaw et Htamin Kyaw peuvent renvoyer au même type de plat.',
     "Les sources directes solides sur l'usage précis au petit-déjeuner sont moins nombreuses que pour d'autres entrees.",
     'Ne pas présenter ce plat comme le petit-déjeuner birman unique.',
-    "Le niveau d'authenticite varié selon les recettes de diaspora et adaptations maison.",
+    "Le niveau d'authenticité varié selon les recettes de diaspora et adaptations maison.",
   ],
   sources: [
     {
@@ -99,5 +99,5 @@ export const htaminGyawRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de htamin gyaw birman avec riz frit doré, petits pois, oignons frits, œuf au plat, concombre vinaigre, piment vert et quartier de citron vert, ambiance cuisine de rue matinale à Yangon, palette moka mousse, jaune curcuma, vert pois, blanc riz, brun oignons frits, composition éditoriale simple et chaleureuse, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

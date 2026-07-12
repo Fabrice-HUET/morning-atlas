@@ -106,5 +106,5 @@ export const portuguesePaoComManteigaGalaoRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner portugais avec pain beurre et torrada épaisse dorée, beurre fondant, grand verre de galão café au lait fumant, petite assiette de pastel de nata en arrière-plan discret, comptoir de pastelaria portugaise le matin, azulejos bleus très subtils, palette moka mousse, beige pain, jaune beurre, brun café, crème lait, bleu azulejo doux, composition simple et chaleureuse, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

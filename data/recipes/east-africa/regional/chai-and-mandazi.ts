@@ -103,5 +103,5 @@ export const chaiAndMandaziRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de mandazi est-africains dorés coupes en triangles et losanges, tasse de chai au lait fumant, épices cardamome cannelle gingembre, petite carafe de lait, ambiance cote swahilie au matin, palette moka mousse, brun thé, beige pâte frite, miel doré, vert sauge doux, composition simple et éditoriale, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

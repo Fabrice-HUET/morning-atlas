@@ -49,7 +49,7 @@ export const kandePoheRecipe = {
     'Le laisser s assouplir quelques minutes sans le detremper.',
     "Chauffer l'huile dans une poêle.",
     'Ajouter graines de moutarde, cumin, cacahuètes et feuilles de curry.',
-    "Ajouter l'oignon emince et le piment vert.",
+    "Ajouter l'oignon émincé et le piment vert.",
     "Faire revenir jusqu'à ce que l'oignon devienne translucide.",
     'Ajouter curcuma, hing et sel.',
     'Incorporer le poha hydrate.',
@@ -114,5 +114,5 @@ export const kandePoheRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kande pohe maharashtrien jaune doré avec riz aplati moelleux, oignons, cacahuètes, feuilles de curry, coriandre fraiche, quartier de citron, petite coupelle de chai en arrière-plan, ambiance matin à Mumbai ou Pune, palette moka mousse, jaune curcuma, vert coriandre, brun cacahuète, beige doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

@@ -123,5 +123,5 @@ export const israeliBreakfastRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, table de petit-déjeuner israélien avec salade concombre tomate, œufs, labneh, feta, olives, tahini, pita chaude, petit bol de shakshuka en option, fruits frais, café et jus d'orange, ambiance terrasse lumineuse du matin en Méditerranée orientale, palette moka mousse, crème, vert concombre, rouge tomate, jaune œuf, brun café, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

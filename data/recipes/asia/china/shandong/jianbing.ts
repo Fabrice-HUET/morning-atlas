@@ -111,6 +111,6 @@ export const jianbingRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, jianbing chinois plie en rectangle, œuf doré visible, ciboule, coriandre, sauce brune, cracker croustillant qui depasse légèrement, plaque ronde de street food en arrière-plan, petit pot de sauce pimentée, ambiance matin en ville du nord de la Chine, palette moka mousse, jaune œuf, brun sauce, vert herbes, doré croustillant, composition éditoriale dynamique, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, jianbing chinois plie en rectangle, œuf doré visible, ciboule, coriandre, sauce brune, cracker croustillant qui dépasse légèrement, plaque ronde de street food en arrière-plan, petit pot de sauce pimentée, ambiance matin en ville du nord de la Chine, palette moka mousse, jaune œuf, brun sauce, vert herbes, doré croustillant, composition éditoriale dynamique, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe

@@ -93,6 +93,6 @@ export const boterhamMetHagelslagRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, tartine néerlandaise avec pain beurre et hagelslag chocolate, quelques vermicelles tombes sur une assiette, pot de beurre, boite stylisee de sprinkles sans marque, verre de lait et tasse de café en arrière-plan, ambiance cuisine familiale aux Pays-Bas le matin, palette moka mousse, brun chocolat, crème beurre, beige pain, bleu doux, composition simple et joyeuse, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, tartine néerlandaise avec pain beurre et hagelslag chocolate, quelques vermicelles tombes sur une assiette, pot de beurre, boite stylisée de sprinkles sans marque, verre de lait et tasse de café en arrière-plan, ambiance cuisine familiale aux Pays-Bas le matin, palette moka mousse, brun chocolat, crème beurre, beige pain, bleu doux, composition simple et joyeuse, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe

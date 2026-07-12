@@ -101,5 +101,5 @@ export const cubanTostadaCafeConLecheRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner cubain avec tostada cubana coupée en longues bandes, pain cubain beurre et presse, extérieur doré croustillant, grande tasse de café con leche fumant, petite cuillère, sucre, fruit tropical discret, ambiance ventanita cubaine ou cuisine de La Havane/Miami le matin, palette moka mousse, brun café, crème lait, doré pain, jaune beurre, touches turquoise et vert tropical, composition simple et chaleureuse, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

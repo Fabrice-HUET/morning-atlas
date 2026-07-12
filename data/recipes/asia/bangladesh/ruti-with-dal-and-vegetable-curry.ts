@@ -83,7 +83,7 @@ export const rutiWithDalAndVegetableCurryRecipe = {
   seoDescription:
     'Découvre une version courante du petit-déjeuner bangladais : ruti ou chapati avec dal, curry de légumes, œuf ou thé au lait.',
   reviewNotes: [
-    'Chapati with curry est un intitule generique ; ruti avec dal ou sobji est plus local et précis.',
+    'Chapati with curry est un intitulé generique ; ruti avec dal ou sobji est plus local et précis.',
     'Ne pas présenter le ruti comme unique base du matin au Bangladesh, ou le riz reste très important.',
     'Les usages changent selon ville, campagne, saison, revenus et habitudes familiales.',
     'Curry doit être précise : dal, sobji, bhaji, légumes ou œuf selon la version.',
@@ -116,5 +116,5 @@ export const rutiWithDalAndVegetableCurryRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, petit-déjeuner bangladais avec ruti plies, bol de dal doré, petit curry de légumes avec pommes de terre et tomate, tasse de cha au lait fumante, œuf optionnel sur le cote, ambiance restaurant local du matin à Dhaka, palette moka mousse, beige pain plat, jaune lentilles, rouge tomate, brun thé au lait, vert doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

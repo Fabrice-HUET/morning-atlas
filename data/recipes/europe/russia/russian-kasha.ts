@@ -104,5 +104,5 @@ export const russianKashaRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de kasha russe fumante au sarrasin, lait chaud, noix de beurre fondant, miel, quelques baies et raisins secs, petite cuillère en bois, champignons et oignons en option dans un petit bol à cote pour montrer la variante salée, ambiance matin d'hiver dans une cuisine russe, palette moka mousse, brun sarrasin, crème lait, rouge baies, doré miel, bois clair, composition éditoriale douce, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

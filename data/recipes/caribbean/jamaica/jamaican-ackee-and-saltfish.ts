@@ -75,12 +75,12 @@ export const jamaicanAckeeAndSaltfishRecipe = {
   featured: false,
   recreateAtHomeLevel: 'medium',
   notes:
-    "Pour un public international, utiliser de l'ackee en conserve fiable. Ne pas recommander l'ackee frais non maitrise : il doit être pleinement mur et correctement prépare.",
+    "Pour un public international, utiliser de l'ackee en conserve fiable. Ne pas recommander l'ackee frais non maîtrise : il doit être pleinement mur et correctement prépare.",
   seoTitle: 'Ackee and Saltfish : le petit-déjeuner national jamaicain',
   seoDescription:
     "Découvre ackee and saltfish, le plat national jamaicain à base d'ackee et morue salée, souvent servi au petit-déjeuner avec dumplings, plantain ou provisions.",
   reviewNotes: [
-    "Ne jamais recommander d'utiliser de l'ackee frais non maitrise.",
+    "Ne jamais recommander d'utiliser de l'ackee frais non maîtrise.",
     "Preferer l'ackee en conserve fiable pour une recette grand public hors Jamaïque.",
     "Le plat est national et très associé au petit-déjeuner, mais peut être mangé à d'autres moments.",
     'Les accompagnements changent beaucoup selon familles et contextes.',
@@ -113,5 +113,5 @@ export const jamaicanAckeeAndSaltfishRecipe = {
   ],
   illustrationPrompt:
     "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette jamaicaine d'ackee and saltfish avec ackee jaune crémeux, morceaux de morue salée, tomate, poivron, ciboule, thym, piment scotch bonnet entier sur le cote, dumplings frits, plantain doré et banane verte, ambiance cuisine caribeenne du matin en Jamaïque, palette moka mousse, jaune ackee, rouge tomate, vert ciboule, doré plantain, brun dumplings, composition éditoriale colorée et chaleureuse, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

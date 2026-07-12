@@ -7,9 +7,9 @@ export const buburAyamRecipe = {
   countrySlugs: ['indonesia-bubur-ayam'],
   originLabel: 'Indonesie',
   shortDescription:
-    'Une bouillie de riz chaude et douce, garnie de poulet effiloché, echalotes frites, cebettes, cakwe, crackers et sambal.',
+    'Une bouillie de riz chaude et douce, garnie de poulet effiloché, échalotes frites, cebettes, cakwe, crackers et sambal.',
   longDescription:
-    "Le bubur ayam est une bouillie de riz au poulet très populaire en Indonesie. La base est un congee de riz cuit longtemps jusqu'à devenir crémeux, puis garni de poulet effiloché et de toppings comme echalotes frites, cebettes, celeri, cakwe, sauce soja, bouillon jaune, crackers, œuf, foie ou gésier selon les versions.",
+    "Le bubur ayam est une bouillie de riz au poulet très populaire en Indonesie. La base est un congee de riz cuit longtemps jusqu'à devenir crémeux, puis garni de poulet effiloché et de toppings comme échalotes frites, cebettes, celeri, cakwe, sauce soja, bouillon jaune, crackers, œuf, foie ou gésier selon les versions.",
   ingredients: [
     '100 g de riz',
     '800 ml à 1 L de bouillon de poulet',
@@ -57,7 +57,7 @@ export const buburAyamRecipe = {
     "Continuer de cuire le riz jusqu'à texture crémeuse.",
     'Ajuster avec eau ou bouillon si besoin.',
     'Verser la bouillie dans un bol.',
-    'Ajouter poulet effiloché, ciboule, echalotes frites et œuf.',
+    'Ajouter poulet effiloché, ciboule, échalotes frites et œuf.',
     'Ajouter cakwe ou crackers si disponibles.',
     'Servir avec kecap manis et sambal à part.',
   ],
@@ -84,7 +84,7 @@ export const buburAyamRecipe = {
     'Version simplifiée. Les toppings changent fortement selon villes, vendeurs, familles et restaurants.',
   seoTitle: 'Bubur Ayam : la bouillie de poulet du petit-déjeuner indonesien',
   seoDescription:
-    'Découvre le bubur ayam, une bouillie de riz indonesienne au poulet, souvent servie au petit-déjeuner avec echalotes frites, cakwe, crackers et sambal.',
+    'Découvre le bubur ayam, une bouillie de riz indonesienne au poulet, souvent servie au petit-déjeuner avec échalotes frites, cakwe, crackers et sambal.',
   reviewNotes: [
     "Le bubur ayam est très solide comme petit-déjeuner indonesien, mais il n'est pas limite au matin.",
     'Les toppings changent beaucoup selon villes, vendeurs, familles et restaurants.',
@@ -114,10 +114,10 @@ export const buburAyamRecipe = {
       title: 'Bubur Ayam Recipe for Indonesian Chicken and Omelette Congee',
       url: 'https://grantourismotravels.com/bubur-ayam-recipe-indonesian-congee-with-chicken/',
       publisher: 'Grantourismo Travels',
-      note: 'Version domestique indonesienne / balinaise avec poulet, omelette emincee et condiments.',
+      note: 'Version domestique indonesienne / balinaise avec poulet, omelette émincée et condiments.',
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de bubur ayam indonesien fumant, bouillie de riz crémeuse, poulet effiloché, echalotes frites, ciboule, œuf, cakwe, kerupuk, petit bol de sambal rouge à cote, ambiance stand matinal à Bandung ou Jakarta, palette moka mousse, crème riz, jaune bouillon, brun echalotes, rouge sambal, vert ciboule, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol de bubur ayam indonesien fumant, bouillie de riz crémeuse, poulet effiloché, échalotes frites, ciboule, œuf, cakwe, kerupuk, petit bol de sambal rouge à cote, ambiance stand matinal à Bandung ou Jakarta, palette moka mousse, crème riz, jaune bouillon, brun échalotes, rouge sambal, vert ciboule, composition éditoriale généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe

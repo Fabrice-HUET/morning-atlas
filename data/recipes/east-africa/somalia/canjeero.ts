@@ -105,6 +105,6 @@ export const canjeeroRecipe = {
     },
   ],
   illustrationPrompt:
-    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggeree, ambiance matin familial dans la Corne de l'Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
-  needsReview: true,
+    "Illustration flat chaleureuse style atlas culinaire et carnet de voyage, pile de canjeero somaliens fins et spongieux avec surface trouee, petite coupelle de miel, beurre fondu ou ghee, tasse de shaah cadays au lait épice, cardamome, cannelle et gingembre en décor, plaque ronde de cuisson suggérée, ambiance matin familial dans la Corne de l'Afrique, palette moka mousse, beige crème, brun thé, miel doré, touches bleu doux, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.",
+  needsReview: false,
 } satisfies Recipe

@@ -85,5 +85,5 @@ export const weetBixBowlRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, bol australien de Weet-Bix avec biscuits de ble, lait verse, rondelles de banane, filet de miel, quelques fruits rouges, cuillère simple, table de cuisine lumineuse du matin, ambiance familiale australienne, palette moka mousse, beige ble, crème lait, jaune banane, rouge fruits, brun miel, composition éditoriale propre, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

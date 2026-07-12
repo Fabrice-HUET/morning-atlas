@@ -122,5 +122,5 @@ export const barbariBreakfastRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grand pain barbari persan allonge avec stries dorées, graines de sesame et nigelle, assiette de fromage blanc type feta, herbes fraiches, noix, concombre, petit bol de miel et confiture, verre de thé noir persan fumant, ambiance boulangerie iranienne du matin, palette moka mousse, doré pain, vert herbes, crème fromage, brun thé, composition éditoriale élégante, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

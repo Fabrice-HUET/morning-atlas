@@ -105,5 +105,5 @@ export const australianBigBrekkieRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, grande assiette de big brekkie australien avec œufs au plat, bacon, saucisse, tomates grilléeses, champignons, baked beans, toast au levain, avocat en option, tasse de flat white à cote, ambiance café australien du week-end, palette moka mousse, brun toast, rouge tomate, jaune œuf, vert avocat, crème café, composition généreuse mais lisible, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

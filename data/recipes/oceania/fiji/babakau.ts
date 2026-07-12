@@ -73,7 +73,7 @@ export const babakauRecipe = {
   seoDescription:
     'Découvre le babakau, un pain frit fidjien souvent servi chaud au petit-déjeuner avec beurre, confiture ou thé.',
   reviewNotes: [
-    "L'origine exacte du babakau est incertaine : influences indiennes, chinoises ou europeennes sont parfois évoquées.",
+    "L'origine exacte du babakau est incertaine : influences indiennes, chinoises ou européennes sont parfois évoquées.",
     'Les sources directes sont moins institutionnelles que pour Weet-Bix ou les fiches australiennes.',
     "Le babakau est associé au petit-déjeuner, mais aussi au snack ou à l'afternoon tea.",
     'Les recettes familiales peuvent varier fortement.',
@@ -89,7 +89,7 @@ export const babakauRecipe = {
       title: 'Fried Dough for Breakfast: Fiji Edition',
       url: 'https://roadsandkingdoms.com/2018/fried-donuts-breakfast-fiji-edition/',
       publisher: 'Roads & Kingdoms',
-      note: 'Contexte petit-déjeuner à Fidji, popularite familiale et incertitude sur les origines.',
+      note: 'Contexte petit-déjeuner à Fidji, popularité familiale et incertitude sur les origines.',
     },
     {
       title: 'Fijian Food',
@@ -106,5 +106,5 @@ export const babakauRecipe = {
   ],
   illustrationPrompt:
     'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, assiette de babakau fidjien chaud, morceaux carres de pain frit doré et gonfle, petit bol de confiture, beurre fondant, tasse de thé chaud, feuilles tropicales et citron en décor discret, ambiance matin familial aux Fidji, palette moka mousse, doré frit, crème beurre, rouge confiture, vert tropical, brun thé, composition éditoriale chaleureuse, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+  needsReview: false,
 } satisfies Recipe

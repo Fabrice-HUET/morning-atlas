@@ -107,6 +107,6 @@ export const venezuelanCachapasRecipe = {
     },
   ],
   illustrationPrompt:
-    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliée en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisee en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
-  needsReview: true,
+    'Illustration flat chaleureuse style atlas culinaire et carnet de voyage, cachapa vénézuélienne pliée en deux, galette épaisse de mais doré avec fromage blanc fondant qui s etire, petite noix de beurre sur le dessus, grains de mais frais, plaque budare stylisée en arrière-plan, ambiance stand de rue matinal à Caracas, palette moka mousse, jaune mais, crème fromage, brun doré, vert doux, composition éditoriale appetissante et simple, sans photoréalisme, sans texte, sans logo.',
+  needsReview: false,
 } satisfies Recipe
