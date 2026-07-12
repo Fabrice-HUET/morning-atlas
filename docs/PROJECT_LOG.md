@@ -12,6 +12,15 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — EDIT-03 : intros éditoriales des catégories fortes
+
+- Date : `2026-07-12`
+- Commit : `TODO`
+- Champ `intro?: string` ajouté au type `Category` ; rempli pour les **15 catégories les plus liées** (Familial 69, Salé 60, Traditionnel, Rapide, Copieux, Asie, Sain, Europe, Afrique, Sucré, Street breakfast, Base œufs, Brunch, Pains du matin, Base riz).
+- Textes courts (2-3 phrases) **factuels et prudents** : ils décrivent la facette regroupée, notent la variabilité des usages, sans généralisation culturelle ; français accentué.
+- Affichés sur la page catégorie sous le titre (avant les cartes).
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm test` (13), `pnpm build` (610) ; intros rendues sur les pages fortes.
+
 ## 2026-07-12 — TOOL-03 : tests unitaires des helpers (Vitest)
 
 - Date : `2026-07-12`

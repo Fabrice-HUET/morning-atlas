@@ -68,6 +68,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       />
       <Container>
         <SectionHeading level={1} eyebrow="Catégorie" title={category.name} description={category.description} />
+        {category.intro ? (
+          <p className="mt-6 max-w-3xl text-base leading-8 text-espresso/80">{category.intro}</p>
+        ) : null}
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {countries.map((country) => (
             <CountryCard key={country.slug} country={country} />

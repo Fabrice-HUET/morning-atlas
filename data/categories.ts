@@ -5,51 +5,71 @@ export const categories = [
     slug: 'sweet',
     name: 'Sucré',
     description: 'Petits-déjeuners ou préparations souvent associés à une note douce.',
+    intro:
+      'Les petits-déjeuners sucrés réunissent les matins tournés vers le pain et la confiture, les viennoiseries, les fruits ou les préparations lactées. Sucré et salé coexistent souvent dans une même culture.',
   },
   {
     slug: 'savory',
     name: 'Salé',
     description: 'Assiettes du matin construites autour de saveurs salées.',
+    intro:
+      'Les petits-déjeuners salés rassemblent les assiettes du matin construites autour d\'œufs, de légumes, de pain, de fromages ou de bouillons plutôt que de sucré. Leur place au petit-déjeuner varie fortement d\'une culture à l\'autre.',
   },
   {
     slug: 'hearty',
     name: 'Copieux',
     description: 'Petits-déjeuners nourrissants, adaptes aux longues matinées.',
+    intro:
+      'Les petits-déjeuners copieux misent sur un matin nourrissant et rassasiant, avec des féculents, des protéines ou plusieurs éléments dans l\'assiette. Leur fréquence dépend des habitudes et des occasions.',
   },
   {
     slug: 'quick',
     name: 'Rapide',
     description: 'Idees simples à assembler ou a servir sans longue préparation.',
+    intro:
+      'Des petits-déjeuners rapides à préparer ou à assembler, adaptés aux matins pressés. La rapidité tient souvent à peu d\'ingrédients ou à une préparation faite en amont.',
   },
   {
     slug: 'healthy',
     name: 'Sain',
     description: 'Options souvent associées à des produits frais ou peu transformes.',
+    intro:
+      'Des petits-déjeuners souvent perçus comme légers ou équilibrés — céréales complètes, fruits, laitages, légumes. La notion de « sain » reste relative et dépend des portions et du contexte.',
   },
   {
     slug: 'traditional',
     name: 'Traditionnel',
     description: 'Préparations rattachées à des habitudes locales ou familiales.',
+    intro:
+      'On réunit ici les petits-déjeuners perçus comme traditionnels ou emblématiques dans leur contexte. « Traditionnel » ne veut pas dire figé ni unique : les pratiques évoluent et cohabitent avec des habitudes plus contemporaines.',
   },
   {
     slug: 'brunch',
     name: 'Brunch',
     description: 'Préparations adaptees à un repas tardif entre petit-déjeuner et déjeuner.',
+    intro:
+      'Le brunch réunit des repas de matinée plus tardifs et sociaux, à mi-chemin entre petit-déjeuner et déjeuner. Sa forme et son horaire varient selon les cultures et les occasions.',
   },
   {
     slug: 'breakfasts-of-africa',
     name: "Petits-déjeuners d'Afrique",
     description: 'Fiches rattachées aux pays, régions et traditions culinaires africaines du matin.',
+    intro:
+      'Un premier tour des petits-déjeuners d\'Afrique, des bouillies de céréales aux beignets et aux plats mijotés. Le continent est immense : ces fiches ouvrent des pistes plutôt qu\'elles ne résument.',
   },
   {
     slug: 'breakfasts-of-asia',
     name: "Petits-déjeuners d'Asie",
     description: 'Fiches rattachées aux pays, régions et traditions culinaires asiatiques du matin.',
+    intro:
+      'Un aperçu des petits-déjeuners d\'Asie réunis ici, du riz aux nouilles en passant par les bouillons et les boissons chaudes. Le continent est vaste : ces fiches sont des points d\'entrée, pas un panorama exhaustif.',
   },
   {
     slug: 'breakfasts-of-europe',
     name: "Petits-déjeuners d'Europe",
     description: 'Fiches rattachées aux pays, régions et traditions culinaires europeennes du matin.',
+    intro:
+      'Les petits-déjeuners d\'Europe rassemblés ici vont du pain-beurre aux viennoiseries, en passant par les tartines et des préparations salées. Les habitudes varient beaucoup selon les pays et les régions.',
   },
   {
     slug: 'breakfasts-of-oceania',
@@ -240,6 +260,8 @@ export const categories = [
     slug: 'bread-breakfasts',
     name: 'Pains du matin',
     description: "Petits-déjeuners ou un pain frais structure l'assiette.",
+    intro:
+      'Les petits-déjeuners autour du pain : tartines, pains plats, pains levés ou grillés, garnis de sucré comme de salé. Le type de pain et les garnitures dépendent des traditions locales.',
   },
   {
     slug: 'comfort-breakfasts',
@@ -335,6 +357,8 @@ export const categories = [
     slug: 'family-friendly',
     name: 'Familial',
     description: "Formats faciles à partager autour d'une table.",
+    intro:
+      'Cette catégorie regroupe les petits-déjeuners que l\'on partage volontiers en famille : préparations accessibles, portions généreuses ou plats faciles à décliner selon les âges. Les usages varient selon les foyers — c\'est un point d\'entrée transversal, pas une règle.',
   },
   {
     slug: 'budget-friendly',
@@ -350,6 +374,8 @@ export const categories = [
     slug: 'street-breakfast',
     name: 'Street breakfast',
     description: 'Classiques souvent croises dans la rue, les marches ou les echoppes.',
+    intro:
+      'Des petits-déjeuners que l\'on trouve dans la rue, aux étals ou aux comptoirs : pratiques, rapides et souvent liés au trajet du matin. L\'offre dépend fortement des villes et des saisons.',
   },
   {
     slug: 'tea-breakfast',
@@ -370,6 +396,8 @@ export const categories = [
     slug: 'rice-based',
     name: 'Base riz',
     description: 'Préparations dans lesquelles le riz structure le repas.',
+    intro:
+      'Des petits-déjeuners construits autour du riz — vapeur, en bouillie ou sauté, accompagné d\'éléments salés ou de soupe. Cette base est courante dans plusieurs cultures, avec de nombreuses variantes.',
   },
   {
     slug: 'bread-based',
@@ -380,6 +408,8 @@ export const categories = [
     slug: 'egg-based',
     name: 'Base œufs',
     description: 'Assiettes ou les œufs sont fréquents ou structurants.',
+    intro:
+      'On réunit ici les petits-déjeuners construits autour de l\'œuf — brouillé, au plat, poché, en omelette ou mijoté avec des légumes. Assaisonnements et accompagnements changent d\'une région à l\'autre.',
   },
   {
     slug: 'tortilla-breakfasts',

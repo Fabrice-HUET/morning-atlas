@@ -31,6 +31,8 @@ export type Category = {
   slug: string
   name: string
   description: string
+  // Court texte éditorial (2-4 phrases) pour les catégories les plus liées.
+  intro?: string
 }
 
 export type Ingredient = {

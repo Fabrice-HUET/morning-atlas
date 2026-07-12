@@ -39,7 +39,8 @@
 | PAGE-05 | Pages guides individuelles /guides/[slug] | P3 | ✅ 2026-07-12 |
 | SEO-07 | Checklist validation post-déploiement → `docs/SEO_VALIDATION_CHECKLIST.md` | P2 | ✅ 2026-07-12 |
 | TOOL-03 | Tests unitaires des helpers (Vitest, en CI) | P3 | ✅ 2026-07-12 |
-| Reste P2 / P3 | EDIT-03, PERF-01, FEAT-01→04 | — | ☐ |
+| EDIT-03 | Intros éditoriales des catégories fortes | P2 | ✅ 2026-07-12 (15 catégories) |
+| Reste P2 / P3 | PERF-01 (navigateur requis), FEAT-01→04 (fonctionnalités lourdes) | — | ☐ |
 
 ---
 ### [DATA-01] Restaurer les accents français dans toutes les données et textes UI
