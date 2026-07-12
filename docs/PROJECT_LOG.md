@@ -12,6 +12,18 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — SEO-08 : llms.txt + flux RSS (débloqué)
+
+- Date : `2026-07-12`
+- Branche : `main`
+- Commit : `TODO`
+- Type de tâche : SEO / découvrabilité
+- Débloqué car le contenu est stabilisé (106/106 fiches `needsReview: false`).
+- `public/llms.txt` : sobre — promesse, principes (prudence, sources, pas de généralisation), index des sections majeures + lien RSS.
+- `app/rss.xml/route.ts` : route handler `force-static` (statique au build) qui n'expose que les contenus **publiés** (`!needsReview`) — 53 pays + 53 recettes = **106 items**, XML échappé, `lastBuildDate`.
+- Correctifs connexes : résidus `guides.ts` (`idées`, `où`) et `Footer` (`Régions`, `droits réservés`).
+- Vérifications : `pnpm lint`, `pnpm typecheck`, `pnpm build` (607 routes) ; test HTTP propre (`next start`) : `/rss.xml` = **200** `application/xml` **106 items** XML valide, `/llms.txt` = **200**. (Les 404 d'un test précédent venaient d'un serveur zombie sur le port, pas du code.)
+
 ## 2026-07-12 — Sprint finition : CODE-02, EDIT-04, DESIGN-03, A11Y-02, DOCS-01
 
 - Date : `2026-07-12`

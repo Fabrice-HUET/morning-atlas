@@ -35,7 +35,8 @@
 | DESIGN-03 | Rayons + focus-visible | P2 | ✅ 2026-07-12 |
 | A11Y-02 | Audit contrastes | P2 | ✅ 2026-07-12 (toast→mocha ; accents décoratifs = AA-grand, documentés) |
 | DOCS-01 | Consolider les docs → `docs/README.md` | P2 | ✅ 2026-07-12 |
-| Reste P2 / P3 | EDIT-03, SEO-07, PERF-01, PAGE-05, TOOL-03, FEAT-01→04, SEO-08 | — | ☐ |
+| SEO-08 | llms.txt + flux RSS | P3 | ✅ 2026-07-12 (débloqué : contenu stabilisé) |
+| Reste P2 / P3 | EDIT-03, SEO-07, PERF-01, PAGE-05, TOOL-03, FEAT-01→04 | — | ☐ |
 
 ---
 ### [DATA-01] Restaurer les accents français dans toutes les données et textes UI

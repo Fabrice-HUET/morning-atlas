@@ -52,7 +52,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-oat">Regions</h2>
+          <h2 className="text-sm font-bold uppercase tracking-[0.16em] text-oat">Régions</h2>
           <div className="mt-4 grid gap-3">
             {continents.map((continent) => (
               <span key={continent} className="text-sm text-cream/75">
@@ -67,7 +67,7 @@ export function Footer() {
         </div>
       </Container>
       <Container className="border-t border-cream/10 py-5 text-sm text-cream/60">
-        © {year} Morning Atlas. Tous droits reserves.
+        © {year} Morning Atlas. Tous droits réservés.
       </Container>
     </footer>
   )

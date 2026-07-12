@@ -1,0 +1,18 @@
+# Morning Atlas
+
+> Atlas éditorial des petits-déjeuners du monde : fiches pays, recettes simples, ingrédients et guides, avec des formulations prudentes, sourcées et sans généralisation.
+
+## Principes
+- Chaque plat est décrit comme une pratique située, jamais comme le petit-déjeuner unique de tout un pays.
+- Les affirmations culturelles sont sourcées ou formulées avec prudence ; les sources sont visibles sur chaque fiche.
+- Illustrations locales, aucune photo générique.
+
+## Sections principales
+- Accueil : https://morning-atlas.fr/
+- Pays : https://morning-atlas.fr/countries
+- Recettes : https://morning-atlas.fr/recipes
+- Catégories : https://morning-atlas.fr/categories
+- Ingrédients (sélection) : https://morning-atlas.fr/ingredients
+- Guides : https://morning-atlas.fr/guides
+- À propos (méthode, sources, limites) : https://morning-atlas.fr/about
+- Flux RSS : https://morning-atlas.fr/rss.xml

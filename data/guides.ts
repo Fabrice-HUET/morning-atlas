@@ -4,7 +4,7 @@ export const guides = [
   {
     slug: 'petits-dejeuners-sales-du-monde',
     title: 'Petits-déjeuners salés du monde',
-    excerpt: 'Un premier tour des assiettes du matin ou œufs, riz, haricots ou bouillons remplacent les viennoiseries.',
+    excerpt: 'Un premier tour des assiettes du matin où œufs, riz, haricots ou bouillons remplacent les viennoiseries.',
     theme: 'Saveurs salées',
     relatedCountrySlugs: ['turkey-menemen', 'mexico-huevos-rancheros', 'japan-rice-miso-soup'],
     relatedTagSlugs: ['savory-morning', 'protein-rich', 'travel-food'],
@@ -12,7 +12,7 @@ export const guides = [
   {
     slug: 'matins-autour-du-the',
     title: 'Matins autour du thé',
-    excerpt: 'Des petits-déjeuners ou le thé structure le rythme, du chai aux infusions sucrées ou épicées.',
+    excerpt: 'Des petits-déjeuners où le thé structure le rythme, du chai aux infusions sucrées ou épicées.',
     theme: 'Boissons',
     relatedCountrySlugs: ['morocco-msemen', 'eastern-africa-chai-mandazi', 'senegal-cafe-touba'],
     relatedTagSlugs: ['drink-included', 'traditional-breakfast', 'regional-variation'],
