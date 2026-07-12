@@ -38,5 +38,6 @@ Point d'entrée unique de la doc projet. Chaque document a **un rôle précis** 
 
 **À faire côté humain (hors code) :**
 - Déployer (Vercel) et valider en preview.
-- Générer le PDF du CV (`/creator/cv` → Imprimer → `public/files/fabrice-huet-cv.pdf`).
 - Lancer Lighthouse et valider les JSON-LD (Rich Results) une fois en ligne ; brancher Search Console.
+
+**PDF du CV** — généré le 2026-07-12 (`public/files/fabrice-huet-cv.pdf`, 2 pages A4, rendu headless de `/creator/cv`). Le bouton « Télécharger le PDF » de `/creator` s'affiche désormais. Régénérer via la procédure de `CREATOR_ROADMAP.md` après toute modification de `data/creator.ts`.
