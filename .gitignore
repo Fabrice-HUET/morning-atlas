@@ -40,5 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# ide
+.idea/
+.vscode/
+
 # Local project prompts / docs
 app/docs/
