@@ -30,10 +30,11 @@ Point d'entrée unique de la doc projet. Chaque document a **un rôle précis** 
 - **Gouvernance des données** (DATA-02 → 07) : tags unifiés, taxonomies rationalisées (123→80 catégories), `featured` significatif, enums traduits en FR.
 - **Relecture éditoriale complète** : **106/106 fiches** à `needsReview: false`, langue nettoyée en profondeur (correcteur FR + résolution des ambigus en contexte).
 - **Sprint finition** : `/about` enrichi (méthode, sources, limites), docs consolidées, assets template supprimés, `app/docs` déplacé, contrastes audités, focus-visible global.
+- **P2/P3 traités** : `SEO-08` (llms.txt + flux RSS), `PAGE-05` (guides individuels `/guides/[slug]`), `SEO-07` (checklist post-déploiement), `TOOL-03` (13 tests Vitest en CI), `EDIT-03` (intros des 15 catégories fortes), `EDIT-04`, `DESIGN-03`, `A11Y-02`, `DOCS-01`, `CODE-02`, `DATA-07`.
 
-**Reste (P2/P3, optionnel) :**
-- P2 : `EDIT-03` (intros catégories), `SEO-07` (checklist post-déploiement), `PERF-01` (baseline Lighthouse — nécessite un navigateur).
-- P3 : `PAGE-05` (guides individuels), `TOOL-03` (tests unitaires), `FEAT-01→04` (recherche, carte, multilingue, CMS), `SEO-08` (llms.txt + RSS).
+**Backlog quasi vidé — reste uniquement, tout optionnel :**
+- `PERF-01` : baseline Lighthouse — **nécessite un navigateur** (à lancer côté humain une fois déployé, voir procédure ci-dessous).
+- `FEAT-01→04` : **fonctionnalités lourdes** qui changent le produit — recherche/filtres, carte interactive, support multilingue (EN), migration vers un CMS. À décider par le propriétaire (ce ne sont pas des finitions).
 
 **À faire côté humain (hors code) :**
 - Déployer (Vercel) et valider en preview.
