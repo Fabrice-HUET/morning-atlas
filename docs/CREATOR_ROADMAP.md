@@ -180,6 +180,7 @@ Le CV vit dans `app/(atelier)/creator/cv/page.tsx` (source unique = `data/creato
 3. Enregistrer sous `public/files/fabrice-huet-cv.pdf`.
 
 Le bouton « Télécharger le PDF » du portfolio s'affiche automatiquement dès que ce fichier existe (garde `existsSync`).
+> **PDF généré le 2026-07-12** (`public/files/fabrice-huet-cv.pdf`, 2 pages A4) via un rendu headless de `/creator/cv` (Chromium/Playwright, styles `@media print`). Pour le régénérer : `pnpm dev`, puis rendu de `/creator/cv` en PDF (impression navigateur, ou Playwright `page.pdf({format:'A4', preferCSSPageSize:true})`).
 
 ## Baseline qualité (CREATOR-07, 2026-07-11)
 

@@ -12,6 +12,14 @@
 - Problèmes rencontrés : blocages ou limites
 - Prochaine action : suite concrète
 
+## 2026-07-12 — CV : génération du PDF
+
+- Date : `2026-07-12`
+- Commit : `TODO`
+- `public/files/fabrice-huet-cv.pdf` généré (2 pages A4, ~216 Ko) par rendu **headless** de `/creator/cv` (Chromium via Playwright, styles `@media print` A4 noir sur blanc). Contenu vérifié : nom, coordonnées (e-mail icloud, téléphone, Esvres), résumé, expérience, compétences, accents corrects.
+- Effet : le bouton « Télécharger le PDF » de `/creator` s'affiche désormais (garde `existsSync`) et le message « CV bientôt disponible » disparaît.
+- Aucune dépendance ajoutée au projet (Playwright installé hors repo, one-off). Procédure de régénération notée dans `docs/CREATOR_ROADMAP.md`.
+
 ## 2026-07-12 — EDIT-03 : intros éditoriales des catégories fortes
 
 - Date : `2026-07-12`
