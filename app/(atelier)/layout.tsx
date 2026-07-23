@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Container } from '@/components/layout/Container'
 
 // Thème « L'Atelier » : la marque Morning Atlas en polarité inversée (fond sombre, accent honey).
-// La fonte Fraunces est chargée au layout racine (variable --font-fraunces, héritée ici).
+// La fonte de titres (Arimo, variable --font-display) est chargée au layout racine, héritée ici.
 export default function AtelierLayout({
   children,
 }: Readonly<{

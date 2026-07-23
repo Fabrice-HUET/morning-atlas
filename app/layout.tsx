@@ -1,13 +1,14 @@
 import type { Metadata } from 'next'
-import { Fraunces, Source_Sans_3 } from 'next/font/google'
+import { Arimo, Source_Sans_3 } from 'next/font/google'
 
 import { DEFAULT_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/seo'
 import { buildOrganizationJsonLd, buildWebSiteJsonLd, serializeJsonLd } from '@/lib/structured-data'
 import './globals.css'
 
 // Typographie de marque (self-hosted par next/font, aucune requête runtime) :
-// Fraunces pour les titres (caractère éditorial « carnet »), Source Sans 3 pour le corps (humaniste, lisible).
-const fraunces = Fraunces({ subsets: ['latin'], variable: '--font-fraunces', display: 'swap' })
+// Arimo pour les titres (équivalent libre d'Helvetica Neue, métriquement compatible),
+// Source Sans 3 pour le corps (équivalent libre de Myriad Pro, humaniste lisible).
+const arimo = Arimo({ subsets: ['latin'], variable: '--font-display', display: 'swap' })
 const sourceSans = Source_Sans_3({ subsets: ['latin'], variable: '--font-body', display: 'swap' })
 
 export const metadata: Metadata = {
@@ -40,7 +41,7 @@ export default function RootLayout({
   const jsonLd = [buildWebSiteJsonLd(), buildOrganizationJsonLd()]
 
   return (
-    <html lang="fr" className={`${fraunces.variable} ${sourceSans.variable}`}>
+    <html lang="fr" className={`${arimo.variable} ${sourceSans.variable}`}>
       <body>
         <script
           type="application/ld+json"

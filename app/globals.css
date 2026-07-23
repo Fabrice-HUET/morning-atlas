@@ -48,11 +48,12 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-/* Fonte display de la marque sur les titres (magazine et atelier). */
+/* Fonte de titres de la marque (magazine et atelier) : Arimo (≈ Helvetica Neue).
+   Repli sur la vraie Helvetica Neue chez les visiteurs Apple, puis Arial. */
 h1,
 h2,
 h3 {
-  font-family: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  font-family: var(--font-display), "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -79,8 +80,8 @@ a {
 
 /* Espace créateur « L'Atelier » : titres en fonte display, focus visible honey. Scopé, sans impact sur le magazine. */
 .atelier :is(h1, h2, h3) {
-  font-family: var(--font-fraunces), Georgia, "Times New Roman", serif;
-  font-weight: 600;
+  font-family: var(--font-display), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
   letter-spacing: -0.01em;
 }
 
